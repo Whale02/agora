@@ -40,7 +40,7 @@ in PROGRESS.md under `## Adaptation calls`.
 ## Slices
 
 Lane A, the reskin (first):
-- [ ] A1. Token system: rewrite docs/styles.css tokens to the new world (grounds, marble
+- [x] A1. Token system: rewrite docs/styles.css tokens to the new world (grounds, marble
       texture treatment, gold/bronze accents, type pairing). Type: a serif display with real
       classical character plus a quiet sans; Chinese display text must render well (name the
       zh fallback stack deliberately). Keep a11y contrast, reduced-motion, mobile-first.

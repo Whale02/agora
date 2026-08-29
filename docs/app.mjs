@@ -538,7 +538,7 @@ async function renderRoster() {
       ${phils
         .map(
           (p) => `<li><a href="#/p/${esc(p.slug)}">
-            ${seat(p, "lg")}
+            ${face(p, "lg")}
             <span><span class="name">${esc(p.name_en)}</span>${p.name_zh ? `<span class="zh">${esc(p.name_zh)}</span>` : ""}
             <span class="line">${esc(p.short_bio)}</span></span>
           </a></li>`,
@@ -559,41 +559,120 @@ async function renderPhilosopher(slug) {
 
   main.innerHTML = `
     <p class="crumb"><a href="#/philosophers">← All philosophers</a></p>
-    <header class="figure scene s-figure split">
-      ${seat(p, "xl")}
-      <div>
-        <h1>${esc(p.name_en)}${p.name_zh ? `<span class="zh">${esc(p.name_zh)}</span>` : ""}</h1>
-        <p class="school">${esc(p.tradition)} · ${esc(p.era)}</p>
+    <header class="figure scene s-figure">
+      <div class="portrait">
+        ${face(p, "xl")}
+        ${PLATES.has(p.slug) ? `<p class="drawn">Illustration made for this project</p>` : ""}
       </div>
+      <div class="titles">
+        <h1>${esc(p.name_en)}${p.name_zh ? `<span class="zh">${esc(p.name_zh)}</span>` : ""}</h1>
+        <p class="school">${esc(p.tradition)}</p>
+        <p class="bio">${esc(p.short_bio)}</p>
+        <ul class="topics">${p.key_topics.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+      </div>
+      <aside class="era" aria-label="Where they stand">
+        <dl>
+          <dt>Era</dt><dd>${esc(p.era)}</dd>
+          <dt>Tradition</dt><dd>${esc(p.tradition)}</dd>
+          <dt>In this plaza</dt><dd>${theirs.length ? `${theirs.length} ${theirs.length === 1 ? "table" : "tables"}` : "no table yet"}</dd>
+          <dt>Works listed</dt><dd data-corpus>${p.works.length}</dd>
+        </dl>
+      </aside>
     </header>
-    <div class="profile">
-      <p class="bio">${esc(p.short_bio)}</p>
-      ${paragraphs(p.identity).replace(/<p>/g, '<p class="bio">')}
-      <h2>Positions</h2>
-      <dl class="positions">
-        ${Object.entries(p.positions)
-          .map(([k, v]) => `<dt>On ${esc(k.replaceAll("_", " "))}</dt><dd>${esc(v)}</dd>`)
-          .join("")}
-      </dl>
-      <h2>Sources</h2>
-      <ul>${p.works.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
-      <h2>In this plaza</h2>
-      <ul>
-        ${p.relationships
-          .map((r) => {
-            const o = by[r.slug];
-            return o
-              ? `<li><span class="rel">${esc(r.kind)}</span> <a href="#/p/${esc(o.slug)}">${esc(o.name_en)}</a>, <span class="rel">${esc(r.note)}</span></li>`
-              : "";
-          })
-          .join("")}
-      </ul>
-      ${
-        theirs.length
-          ? `<h2>At these tables</h2><ul class="tables">${theirs.map((c) => tablet(c, by)).join("")}</ul>`
-          : ""
-      }
+
+    <div class="dossier">
+      <div class="col-main">
+        <section class="identity">
+          ${paragraphs(p.identity)}
+        </section>
+        <h2>Positions</h2>
+        <dl class="positions">
+          ${Object.entries(p.positions)
+            .map(([k, v]) => `<dt>On ${esc(k.replaceAll("_", " "))}</dt><dd>${esc(v)}</dd>`)
+            .join("")}
+        </dl>
+        ${
+          theirs.length
+            ? `<h2>At these tables</h2><ul class="tables">${theirs.map((c) => tablet(c, by)).join("")}</ul>`
+            : `<h2>At these tables</h2><p class="none">No conversation has seated ${esc(p.name_en)} yet. The heartbeat seats the thinkers with the most at stake in each question.</p>`
+        }
+      </div>
+
+      <aside class="col-side">
+        <h2>Sources</h2>
+        <div class="works"><ul>${p.works.map((w) => `<li>${esc(w)}</li>`).join("")}</ul></div>
+        <h2>In this plaza</h2>
+        <ul class="kin">
+          ${p.relationships
+            .map((r) => {
+              const o = by[r.slug];
+              return o
+                ? `<li><a href="#/p/${esc(o.slug)}">${esc(o.name_en)}</a><span class="rel">${esc(r.kind)}, ${esc(r.note)}</span></li>`
+                : "";
+            })
+            .join("")}
+        </ul>
+      </aside>
     </div>`;
+
+  fillProfileSources(p);
+}
+
+// The mockup's sources card, filled from the corpus this repository holds. Nothing appears
+// here that the passage files do not already contain.
+async function fillProfileSources(p) {
+  let manifest;
+  try {
+    manifest = await load("data/passages.json");
+  } catch {
+    return;
+  }
+  const m = manifest.philosophers.find((x) => x.slug === p.slug);
+  const works = $(".works", main);
+  if (!works) return;
+  if (!m) {
+    works.insertAdjacentHTML(
+      "beforeend",
+      `<p class="none">Listed, not quoted. The plaza carries no passages from ${esc(p.name_en)}, so the philosophers cite these works without reproducing them.</p>`,
+    );
+    return;
+  }
+  const counted = new Map(m.works.map((w) => [w.work, w.count]));
+  works.innerHTML = `<ul>${p.works
+    .map((w) => {
+      const n = counted.get(w);
+      return `<li>${esc(w)}${n ? `<span class="rel">${n} passages</span>` : ""}</li>`;
+    })
+    .join("")}</ul>
+    <p class="credit">${esc(m.passages)} passages in the plaza, translated by ${esc(creditLine(m.translation_credits))}.</p>
+    <button class="btn quiet small" data-passages="${esc(p.slug)}">Read from their own pages</button>
+    <div class="passages" hidden></div>`;
+
+  const count = $("[data-corpus]", main);
+  if (count) count.textContent = `${p.works.length} · ${m.passages} passages held`;
+
+  $("[data-passages]", works).addEventListener("click", async (e) => {
+    const b = e.currentTarget;
+    const drawer = $(".passages", works);
+    if (!drawer.hidden) {
+      drawer.hidden = true;
+      b.textContent = "Read from their own pages";
+      return;
+    }
+    b.textContent = "Fetching the pages…";
+    b.disabled = true;
+    try {
+      const corpus = await load(`data/passages/${p.slug}.json`);
+      const picked = pickPassages(corpus.passages, p.key_topics[0], 3);
+      drawer.innerHTML = picked.map((x) => passageCard(x, corpus)).join("");
+      drawer.hidden = false;
+      b.textContent = "Close";
+    } catch {
+      b.textContent = "Those pages did not load";
+    } finally {
+      b.disabled = false;
+    }
+  });
 }
 
 /* ---------- about ---------- */

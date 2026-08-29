@@ -565,7 +565,7 @@ main:focus { outline: none; }
 }
 .face img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; display: block; }
 .face.lg { width: 64px; height: 64px; }
-.face.xl { width: 116px; height: 116px; border-width: 2px; border-radius: 12px; }
+.face.xl { width: 116px; height: 116px; border-width: 2px; border-radius: 14px; }
 
 /* the floor and the rail beside it */
 .room { display: grid; grid-template-columns: minmax(0, 1fr); gap: 30px; margin: 34px 0 0; }
@@ -690,25 +690,97 @@ main:focus { outline: none; }
 
 /* profile */
 .figure {
-  margin: 40px 0 0; padding: 28px 30px; --scene-at: 62% 34%;
-  display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+  margin: 14px 0 0; padding: 26px 28px; --scene-at: 62% 34%;
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px 26px; align-items: start;
 }
-.figure h1 { font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 5vw, 2.9rem); margin: 0; color: var(--ink); }
-.figure .zh { font-family: var(--zh); color: var(--gold); font-size: 1.4rem; margin-left: 10px; }
-.figure .school { color: var(--muted); margin: 4px 0 0; font-size: 0.95rem; }
-.profile { max-width: 72ch; }
-.profile .bio { font-family: var(--serif); font-size: 1.1rem; line-height: 1.62; color: var(--ink-soft); }
-.profile > h2 {
-  font-family: var(--lapidary); font-weight: 400; font-size: 0.95rem;
+@container court (min-width: 640px) {
+  .figure { grid-template-columns: auto minmax(0, 1fr); }
+}
+@container court (min-width: 900px) {
+  .figure { grid-template-columns: auto minmax(0, 1fr) 250px; align-items: center; padding: 32px 34px; }
+  /* the titles column ends near 70 percent and the era panel is opaque, so the plate can
+     show through the strip between them */
+  .figure { --veil-to: 72%; --veil-out: 88%; }
+  .figure .face.xl { width: 150px; height: 150px; }
+  .figure .seat.xl { width: 132px; height: 132px; font-size: 3rem; }
+  .portrait .drawn { max-width: 150px; }
+}
+
+.portrait { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.portrait .drawn {
+  margin: 0; max-width: 116px;
+  font-size: 0.64rem; line-height: 1.35; letter-spacing: 0.04em;
+  color: var(--faint);
+}
+
+.titles h1 {
+  font-family: var(--display); font-weight: 500;
+  font-size: clamp(2.1rem, 6vw, 3.2rem); line-height: 1.04;
+  margin: 0; color: var(--ink);
+}
+.titles .zh { font-family: var(--zh); color: var(--gold); font-size: 0.5em; margin-left: 14px; }
+.titles .school { color: var(--gold); margin: 8px 0 0; font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; }
+.titles .bio {
+  margin: 12px 0 0; max-width: 44ch;
+  font-family: var(--serif); font-size: 1.02rem; line-height: 1.55; color: var(--ink-soft);
+}
+.topics { list-style: none; display: flex; flex-wrap: wrap; gap: 7px; margin: 16px 0 0; padding: 0; }
+.topics li {
+  font-size: 0.74rem; letter-spacing: 0.06em;
+  color: var(--muted); border: 1px solid var(--line-strong);
+  padding: 3px 10px; border-radius: 999px;
+}
+
+/* the mockup's era panel, opaque so it stays readable wherever the plate is bright */
+.era {
+  background: rgba(9, 8, 7, 0.88);
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+.era dl { margin: 0; display: grid; grid-template-columns: 1fr; gap: 0; }
+.era dt {
+  font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--gold); margin: 12px 0 3px;
+}
+.era dt:first-child { margin-top: 0; }
+.era dd { margin: 0; font-size: 0.86rem; color: var(--ink-soft); }
+
+/* the dossier below: what they hold on the left, where it comes from on the right */
+.dossier { display: grid; grid-template-columns: minmax(0, 1fr); gap: 34px; margin: 34px 0 0; }
+@container court (min-width: 900px) {
+  .dossier { grid-template-columns: minmax(0, 1fr) 280px; gap: 44px; align-items: start; }
+  .col-side { position: sticky; top: 24px; }
+}
+.col-main { min-width: 0; max-width: 72ch; }
+.dossier h2 {
+  font-family: var(--lapidary); font-weight: 400; font-size: 0.9rem;
   letter-spacing: 0.18em; text-transform: uppercase;
-  margin: 40px 0 14px; color: var(--gold);
+  margin: 38px 0 14px; color: var(--gold);
 }
-.profile .positions { margin: 0; }
-.profile .positions dt { font-weight: 600; font-size: 0.9rem; margin: 14px 0 3px; text-transform: capitalize; color: var(--ink); }
-.profile .positions dd { margin: 0; font-family: var(--serif); color: var(--ink-soft); }
-.profile ul { padding-left: 20px; }
-.profile li { margin: 6px 0; color: var(--ink-soft); }
-.profile .rel { color: var(--muted); font-size: 0.86rem; }
+.col-side h2:first-child, .col-main > :first-child { margin-top: 0; }
+.identity p {
+  font-family: var(--serif); font-size: 1.06rem; line-height: 1.68;
+  margin: 0 0 16px; color: var(--ink-soft);
+}
+.positions { margin: 0; }
+.positions dt { font-weight: 600; font-size: 0.9rem; margin: 16px 0 4px; text-transform: capitalize; color: var(--ink); }
+.positions dt:first-child { margin-top: 0; }
+.positions dd { margin: 0; font-family: var(--serif); line-height: 1.6; color: var(--ink-soft); }
+.dossier .none { color: var(--muted); font-size: 0.9rem; margin: 0; }
+
+.works ul, .kin { list-style: none; margin: 0; padding: 0; }
+.works li, .kin li {
+  padding: 8px 0; border-bottom: 1px solid var(--line);
+  font-size: 0.88rem; color: var(--ink-soft);
+}
+.works li:last-child, .kin li:last-child { border-bottom: 0; }
+.kin li a { display: block; color: var(--ink); text-decoration: none; }
+.kin li a:hover { text-decoration: underline; text-decoration-color: var(--gold-deep); }
+.rel { display: block; color: var(--faint); font-size: 0.78rem; margin-top: 2px; }
+.works .credit { margin: 12px 0 0; font-size: 0.78rem; line-height: 1.5; color: var(--muted); }
+.works .btn.small { margin-top: 11px; font-size: 0.8rem; padding: 6px 13px; }
+.works .none { margin: 10px 0 0; font-size: 0.8rem; line-height: 1.5; color: var(--faint); }
 
 /* ---------- about ---------- */
 .about { max-width: 66ch; }

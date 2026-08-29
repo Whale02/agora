@@ -31,3 +31,10 @@ port; check before starting another). Screenshots land in `.impeccable/review/`.
 ## For the founder
 
 (parked questions only the founder can answer)
+
+## Inherited state (overseer, 2026-08-29)
+
+docs/data/passages/marcus-aurelius.json (205 passages, Long 1862) and plato.json (360
+passages, Jowett) were produced by an earlier in-session runner and spot-checked to the
+lane D shape. Treat them as lane D work in progress: they still owe D4 validation before
+their boxes tick.

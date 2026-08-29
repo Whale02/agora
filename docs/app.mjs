@@ -263,7 +263,25 @@ function tablet(c, by) {
   </article></li>`;
 }
 
-/* ---------- conversation ---------- */
+/* ---------- the room: one conversation, read ---------- */
+
+// The eight philosophers the engineer handoff drew. Everyone else keeps the medallion the
+// stylesheet cuts from their accent colour.
+const PLATES = new Set([
+  "socrates",
+  "marcus-aurelius",
+  "laozi",
+  "zhuangzi",
+  "nietzsche",
+  "camus",
+  "fromm",
+  "naval",
+]);
+
+const face = (p, size = "") =>
+  PLATES.has(p.slug)
+    ? `<span class="face ${size}" style="--seat:${esc(p.accent)}" aria-hidden="true"><img src="assets/p/${esc(p.slug)}.webp" alt="" loading="lazy" width="356" height="300"></span>`
+    : seat(p, size);
 
 async function renderConversation(id) {
   setNav("plaza");
@@ -283,24 +301,40 @@ async function renderConversation(id) {
     <article class="thread">
       <p class="crumb"><a href="#/">← Back to the plaza</a></p>
       <header class="q scene s-thread split">
+        <span class="kind">${esc(typeLabel(convo.type))}</span>
         <h1>${esc(convo.topic)}</h1>
         <div class="standing">
           <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
           ${heatMark(convo.heat)}
-          <span>${convo.messages.length} exchanges · began ${ago(convo.created_at)}</span>
+          <span>${convo.messages.length} exchanges</span>
+          <span>began ${ago(convo.created_at)}</span>
         </div>
       </header>
-      <ol class="exchange">${convo.messages.map((m) => utterance(m, by)).join("")}</ol>
-      <div class="sitdown scene s-rotunda centered">
-        <p>The table is still open. When you speak, every philosopher seated here answers you directly.</p>
-        <button class="btn" data-join>Sit down at this table</button>
-        <div class="actions">
-          <button class="btn quiet" data-share>Share this conversation</button>
+
+      <section class="bench" aria-label="Seated at this table">
+        ${seats.map((p) => benchCard(p, convo.category)).join("")}
+      </section>
+
+      <div class="room">
+        <div class="floor">
+          <ol class="exchange">${convo.messages.map((m) => utterance(m, by)).join("")}</ol>
+          <div class="sitdown scene s-rotunda centered">
+            <p>The table is still open. When you speak, every philosopher seated here answers you directly.</p>
+            <button class="btn" data-join>Sit down at this table</button>
+            <div class="actions">
+              <button class="btn quiet" data-share>Share this conversation</button>
+            </div>
+          </div>
         </div>
+        <aside class="apse" aria-labelledby="apse-t">
+          <h2 id="apse-t">What they wrote</h2>
+          <div class="apse-body"><p class="waiting">Looking through their pages…</p></div>
+        </aside>
       </div>
     </article>`;
 
-  $("[data-join]", main).addEventListener("click", () => ritual(convo, seats));
+  const door = $("[data-join]", main);
+  door.addEventListener("click", () => ritual(convo, seats, door));
   $("[data-share]", main).addEventListener("click", async () => {
     const url = `${location.origin}${location.pathname.replace(/index\.html$/, "")}c/${convo.id}.html`;
     try {
@@ -311,6 +345,126 @@ async function renderConversation(id) {
       }
     } catch { /* user dismissed */ }
   });
+
+  // The sources rail fills after the thread is readable, so the reading never waits on it.
+  fillSources(convo, seats);
+}
+
+// The seated rail from the room mockup. Nothing on the card is invented. Four of the topic
+// pool's thirteen subjects match a key in the positions object, and where one does the card
+// carries that documented position; otherwise it carries how this philosopher argues, which
+// is the other thing the mockup's line under a name is doing.
+function benchCard(p, category) {
+  const stance = p.positions?.[category];
+  const line = stance
+    ? `<p class="stance"><span class="on">On ${esc(category)}</span>${esc(stance)}</p>`
+    : p.voice
+      ? `<p class="stance manner">${esc(p.voice)}</p>`
+      : "";
+  return `<article class="seated" style="--speaker:${esc(p.accent)}">
+    <a class="cover" href="#/p/${esc(p.slug)}" aria-label="${esc(p.name_en)}"></a>
+    ${face(p)}
+    <div class="said-by">
+      <span class="name">${esc(p.name_en)}</span>
+      <span class="school">${esc(p.tradition)}</span>
+      ${line}
+    </div>
+  </article>`;
+}
+
+const listWorks = (works, n = 3) => {
+  const names = works.map((w) => w.work);
+  if (names.length <= n) return names.join(", ");
+  return `${names.slice(0, n).join(", ")} and ${names.length - n} more`;
+};
+
+const creditLine = (credits) => {
+  const who = [...new Set(credits.map((c) => `${c.translator}, ${c.year}`))];
+  return who.join("; ");
+};
+
+// The room mockup's sources rail, carrying the corpus this repository actually holds.
+async function fillSources(convo, seats) {
+  const body = $(".apse-body", main);
+  if (!body) return;
+  let manifest;
+  try {
+    manifest = await load("data/passages.json");
+  } catch {
+    manifest = { philosophers: [] };
+  }
+  const held = Object.fromEntries(manifest.philosophers.map((p) => [p.slug, p]));
+  const subject = convo.category;
+
+  const cards = seats.map((p) => {
+    const m = held[p.slug];
+    if (!m) {
+      return `<article class="source none">
+        <h3><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a></h3>
+        <p class="credit">${esc(listWorks(p.works.map((w) => ({ work: w })), 2))}</p>
+        <p class="counts">Listed, not quoted. The plaza carries no passages from ${esc(p.name_en)}.</p>
+      </article>`;
+    }
+    const onSubject = m.topics.find((t) => t.topic === subject)?.count ?? 0;
+    return `<article class="source">
+      <h3><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a></h3>
+      <p class="credit">${esc(listWorks(m.works))}, translated by ${esc(creditLine(m.translation_credits))}</p>
+      <p class="counts">${m.passages} passages${onSubject ? ` · ${onSubject} on ${esc(subject)}` : ""}</p>
+      <button class="btn quiet small" data-passages="${esc(p.slug)}">
+        ${onSubject ? `Read from ${esc(p.name_en)} on ${esc(subject)}` : `Read from ${esc(p.name_en)}`}
+      </button>
+      <div class="passages" hidden></div>
+    </article>`;
+  });
+
+  body.innerHTML = cards.join("");
+
+  body.querySelectorAll("[data-passages]").forEach((b) =>
+    b.addEventListener("click", async () => {
+      const slug = b.dataset.passages;
+      const drawer = b.nextElementSibling;
+      if (!drawer.hidden) {
+        drawer.hidden = true;
+        b.textContent = b.dataset.label ?? b.textContent;
+        return;
+      }
+      b.dataset.label ??= b.textContent.trim();
+      b.textContent = "Fetching the pages…";
+      b.disabled = true;
+      try {
+        const corpus = await load(`data/passages/${slug}.json`);
+        const picked = pickPassages(corpus.passages, subject, 3);
+        drawer.innerHTML = picked.length
+          ? picked.map((x) => passageCard(x, corpus)).join("")
+          : `<p class="counts">Nothing in this corpus touches ${esc(subject)}.</p>`;
+        drawer.hidden = false;
+        b.textContent = "Close";
+      } catch {
+        b.textContent = "Those pages did not load";
+      } finally {
+        b.disabled = false;
+      }
+    }),
+  );
+}
+
+// Prefer passages already tagged with this conversation's subject, then fill from the rest,
+// and take the shorter ones so a rail stays a rail.
+function pickPassages(passages, subject, n) {
+  const onSubject = passages.filter((p) => (p.topics ?? []).includes(subject));
+  const pool = onSubject.length ? onSubject : passages;
+  return [...pool].sort((a, b) => a.text.length - b.text.length).slice(0, n);
+}
+
+function passageCard(x, corpus) {
+  const credit = corpus.translation_credits.find((c) => c.work === x.work);
+  return `<figure class="passage">
+    <blockquote>${esc(trim(x.text, 320))}</blockquote>
+    <figcaption>
+      ${esc(x.work)}, ${esc(x.ref)}${credit ? `, translated by ${esc(credit.translator)}, ${credit.year}` : ""}
+      ${credit?.source_url ? `<a href="${esc(credit.source_url)}" rel="noopener">source</a>` : ""}
+    </figcaption>
+  </figure>`;
 }
 
 function utterance(m, by) {
@@ -324,6 +478,7 @@ function utterance(m, by) {
   if (!p) return "";
   return `<li><article class="utterance" style="--speaker:${esc(p.accent)}">
     <div class="said">
+      ${seat(p)}
       <span class="name"><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a></span>
       <span class="school">${esc(p.tradition)}</span>
     </div>
@@ -331,12 +486,14 @@ function utterance(m, by) {
   </article></li>`;
 }
 
-function ritual(convo, seats) {
+// `opener` is passed in rather than read off document.activeElement, which is the body when
+// the button is activated by anything other than a pointer.
+function ritual(convo, seats, opener) {
   const wrap = document.createElement("div");
   wrap.className = "ritual-backdrop";
   wrap.innerHTML = `<div class="ritual" role="dialog" aria-modal="true" aria-labelledby="ritual-t">
     <h2 id="ritual-t">You are about to sit down</h2>
-    <p>“${esc(convo.topic)}”</p>
+    <p>${esc(convo.topic)}</p>
     <div class="table-of">${seats.map((p) => seat(p)).join("")}<span>${seats.map((p) => esc(p.name_en)).join(", ")} will answer you.</span></div>
     <p class="how">Your words travel through GitHub: open the prepared form, write what you would say at the table, and submit. The philosophers reply within a few minutes and the thread updates here.</p>
     <div class="row">
@@ -345,7 +502,6 @@ function ritual(convo, seats) {
     </div>
   </div>`;
   document.body.appendChild(wrap);
-  const opener = document.activeElement;
   function close() {
     document.removeEventListener("keydown", onKey);
     wrap.remove();

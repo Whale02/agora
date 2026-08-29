@@ -333,6 +333,24 @@ main:focus { outline: none; }
 
 .tally { margin: 0 0 16px; color: var(--faint); font-size: 0.82rem; }
 
+.btn {
+  display: inline-block; font: inherit; font-size: 0.95rem;
+  padding: 10px 22px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--gold); text-decoration: none;
+  /* colour and gradient set separately so the label stays legible if the image layer drops */
+  background-color: var(--gold);
+  background-image: linear-gradient(180deg, var(--gold-bright), var(--gold));
+  color: #17120A;
+  transition: filter 0.15s ease-out, transform 0.15s ease-out;
+}
+.btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.btn:disabled { opacity: 0.6; cursor: default; transform: none; }
+.btn.quiet {
+  background-color: transparent; background-image: none;
+  color: var(--ink); border: 1px solid var(--line-strong);
+}
+.btn.quiet:hover { background-color: var(--surface-raised); border-color: var(--gold-deep); filter: none; }
+
 .kind {
   font-size: 0.7rem; letter-spacing: 0.09em; text-transform: uppercase;
   color: var(--gold); border: 1px solid var(--gold-deep);
@@ -487,25 +505,79 @@ main:focus { outline: none; }
 
 .loading { margin: 70px 0; text-align: center; color: var(--faint); font-family: var(--lapidary); letter-spacing: 0.1em; }
 
-/* ---------- conversation ---------- */
-.thread { max-width: 72ch; margin: 0 auto; }
+/* ---------- the room: one conversation, read ---------- */
+.thread { max-width: 1080px; margin: 0 auto; }
 .crumb { margin: 30px 0 0; font-size: 0.86rem; }
 .crumb a { color: var(--muted); text-decoration: none; }
 .crumb a:hover { color: var(--gold); text-decoration: underline; text-decoration-color: var(--gold-deep); }
-.thread header.q { margin: 14px 0 8px; padding: 30px 28px 26px; --scene-at: 78% 46%; }
+
+.thread header.q { margin: 14px 0 0; padding: 32px 30px 28px; --scene-at: 78% 46%; }
+.thread header.q .kind { align-self: flex-start; width: fit-content; margin: 0 0 16px; }
 .thread header.q h1 {
   font-family: var(--display); font-weight: 500;
-  font-size: clamp(1.7rem, 4.8vw, 2.5rem); line-height: 1.16;
-  margin: 0 0 12px; text-wrap: balance;
+  font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.12;
+  margin: 0 0 16px; text-wrap: balance;
   color: var(--ink);
 }
-.thread .standing { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; color: var(--muted); font-size: 0.86rem; }
+.thread .standing { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; color: var(--muted); font-size: 0.86rem; }
+@container court (min-width: 700px) { .thread header.q { min-height: 260px; display: flex; flex-direction: column; justify-content: center; } }
 
-.exchange { list-style: none; margin: 30px 0 0; padding: 0; }
-.exchange > li { margin: 0 0 34px; }
-.utterance .said {
-  display: flex; align-items: baseline; gap: 10px; margin: 0 0 8px 0;
+/* the seated rail: who is at this table and what they already hold about the subject */
+.bench {
+  display: grid; grid-template-columns: 1fr; gap: 10px;
+  margin: 14px 0 0;
 }
+@container court (min-width: 620px) { .bench { grid-template-columns: 1fr 1fr; } }
+@container court (min-width: 980px) { .bench { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.seated {
+  position: relative;
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 13px 14px;
+  background: var(--grain), var(--surface);
+  border: 1px solid var(--line);
+  border-top: 2px solid color-mix(in oklab, var(--speaker, var(--gold)) var(--seat-lift), var(--seat-toward));
+  border-radius: 9px;
+  transition: border-color 0.15s ease-out, background-color 0.15s ease-out;
+}
+.seated:hover { background: var(--grain), var(--surface-raised); }
+.seated > a.cover { position: absolute; inset: 0; border-radius: 9px; }
+.seated .said-by { min-width: 0; }
+.seated .name { display: block; font-family: var(--display); font-weight: 600; font-size: 1.06rem; color: var(--ink); }
+.seated .school { display: block; color: var(--faint); font-size: 0.74rem; margin-top: 1px; }
+.seated .stance {
+  margin: 8px 0 0; font-family: var(--serif); font-size: 0.86rem; line-height: 1.45;
+  color: var(--ink-soft);
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
+}
+.seated .stance .on {
+  font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold); margin-right: 8px;
+}
+.seated .stance.manner { color: var(--muted); font-style: italic; }
+
+/* a handoff portrait where one exists, in the same frame the medallion uses */
+.face {
+  display: block; flex-shrink: 0;
+  width: 44px; height: 44px; border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid color-mix(in oklab, var(--seat, var(--gold)) var(--seat-lift), var(--seat-toward));
+  background: var(--surface-sunk);
+}
+.face img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; display: block; }
+.face.lg { width: 64px; height: 64px; }
+.face.xl { width: 116px; height: 116px; border-width: 2px; border-radius: 12px; }
+
+/* the floor and the rail beside it */
+.room { display: grid; grid-template-columns: minmax(0, 1fr); gap: 30px; margin: 34px 0 0; }
+@container court (min-width: 900px) {
+  .room { grid-template-columns: minmax(0, 1fr) 300px; gap: 40px; align-items: start; }
+  .apse { position: sticky; top: 24px; }
+}
+.floor { min-width: 0; max-width: 72ch; }
+
+.exchange { list-style: none; margin: 0; padding: 0; }
+.exchange > li { margin: 0 0 34px; }
+.utterance .said { display: flex; align-items: center; gap: 10px; margin: 0 0 9px; }
 .utterance .said .name {
   font-family: var(--display); font-size: 1.15rem; font-weight: 600; letter-spacing: 0.01em;
   color: color-mix(in oklab, var(--speaker, var(--gold)) var(--seat-lift), var(--seat-toward));
@@ -515,13 +587,14 @@ main:focus { outline: none; }
 .utterance .said .school { color: var(--faint); font-size: 0.78rem; }
 .utterance .body {
   border-left: 2px solid color-mix(in oklab, var(--speaker, var(--line-strong)) var(--seat-lift), var(--seat-toward));
-  padding-left: 16px;
+  padding-left: 16px; margin-left: 16px;
 }
 .utterance .body p {
   font-family: var(--serif); font-size: 1.04rem; line-height: 1.66;
   margin: 0 0 14px; color: var(--ink-soft);
 }
 .utterance .body p:last-child { margin-bottom: 0; }
+.utterance.visitor .said { padding-left: 0; }
 .utterance.visitor .body {
   border-left-color: var(--verdigris);
   background: rgba(127, 163, 145, 0.07);
@@ -535,21 +608,41 @@ main:focus { outline: none; }
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(232, 208, 160, 0.05);
   text-align: center;
 }
-.sitdown p { margin: 0 0 14px; color: var(--muted); font-size: 0.95rem; max-width: 46ch; margin-inline: auto; }
-.btn {
-  display: inline-block; font: inherit; font-size: 0.95rem;
-  padding: 10px 22px; border-radius: 6px; cursor: pointer;
-  border: 1px solid var(--gold); text-decoration: none;
-  /* colour and gradient set separately so the label stays legible if the image layer drops */
-  background-color: var(--gold);
-  background-image: linear-gradient(180deg, var(--gold-bright), var(--gold));
-  color: #17120A;
-  transition: filter 0.15s ease-out, transform 0.15s ease-out;
-}
-.btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
-.btn.quiet { background: transparent; color: var(--ink); border: 1px solid var(--line-strong); }
-.btn.quiet:hover { background: var(--surface-raised); border-color: var(--gold-deep); filter: none; }
+.sitdown p { margin: 0 0 16px; color: var(--muted); font-size: 0.95rem; max-width: 46ch; margin-inline: auto; }
 .thread .actions { display: flex; gap: 10px; justify-content: center; margin-top: 12px; }
+
+/* the sources rail, holding what this repository can actually cite */
+.apse h2 {
+  font-family: var(--lapidary); font-weight: 400; font-size: 0.9rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  margin: 0 0 14px; color: var(--gold);
+}
+.apse .waiting { color: var(--faint); font-size: 0.85rem; margin: 0; }
+.source {
+  padding: 14px 15px; margin: 0 0 10px;
+  background: var(--surface-sunk);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.source h3 { margin: 0 0 5px; font-family: var(--display); font-weight: 600; font-size: 1.02rem; color: var(--ink); }
+.source h3 a { text-decoration: none; }
+.source h3 a:hover { text-decoration: underline; text-decoration-color: var(--gold-deep); }
+.source .credit { margin: 0 0 5px; font-size: 0.8rem; line-height: 1.45; color: var(--muted); }
+.source .counts { margin: 0; font-size: 0.76rem; color: var(--faint); }
+.source .btn.small { margin-top: 11px; font-size: 0.8rem; padding: 6px 13px; }
+.source.none .counts { font-style: italic; }
+
+.passages { margin-top: 12px; }
+.passage { margin: 0 0 14px; padding: 0; }
+.passage:last-child { margin-bottom: 0; }
+.passage blockquote {
+  margin: 0; padding: 0 0 0 12px;
+  border-left: 2px solid var(--gold-deep);
+  font-family: var(--serif); font-size: 0.88rem; line-height: 1.55;
+  color: var(--ink-soft);
+}
+.passage figcaption { margin: 6px 0 0 14px; font-size: 0.72rem; color: var(--faint); }
+.passage figcaption a { color: var(--gold); margin-left: 6px; }
 
 /* the sit-down ritual */
 .ritual-backdrop {

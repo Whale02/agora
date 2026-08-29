@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-08-29T23:24:47.692Z",
+  "philosophers": [
+    {
+      "slug": "marcus-aurelius",
+      "passages": 205,
+      "words": 45353,
+      "works": [
+        {
+          "work": "Meditations",
+          "count": 205
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 123
+        },
+        {
+          "topic": "action",
+          "count": 111
+        },
+        {
+          "topic": "nature",
+          "count": 100
+        },
+        {
+          "topic": "meaning",
+          "count": 69
+        },
+        {
+          "topic": "virtue",
+          "count": 60
+        },
+        {
+          "topic": "suffering",
+          "count": 56
+        },
+        {
+          "topic": "self",
+          "count": 49
+        },
+        {
+          "topic": "meta",
+          "count": 30
+        },
+        {
+          "topic": "freedom",
+          "count": 23
+        },
+        {
+          "topic": "work",
+          "count": 12
+        },
+        {
+          "topic": "love",
+          "count": 9
+        },
+        {
+          "topic": "education",
+          "count": 6
+        },
+        {
+          "topic": "technology",
+          "count": 1
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Meditations",
+          "translator": "George Long",
+          "year": 1862,
+          "source_url": "https://www.gutenberg.org/ebooks/15877"
+        }
+      ]
+    },
+    {
+      "slug": "plato",
+      "passages": 360,
+      "words": 70396,
+      "works": [
+        {
+          "work": "Republic",
+          "count": 119
+        },
+        {
+          "work": "Theaetetus",
+          "count": 44
+        },
+        {
+          "work": "Phaedo",
+          "count": 38
+        },
+        {
+          "work": "Timaeus",
+          "count": 37
+        },
+        {
+          "work": "Phaedrus",
+          "count": 35
+        },
+        {
+          "work": "Symposium",
+          "count": 33
+        },
+        {
+          "work": "Meno",
+          "count": 31
+        },
+        {
+          "work": "Apology",
+          "count": 23
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 214
+        },
+        {
+          "topic": "meta",
+          "count": 174
+        },
+        {
+          "topic": "virtue",
+          "count": 124
+        },
+        {
+          "topic": "action",
+          "count": 109
+        },
+        {
+          "topic": "nature",
+          "count": 81
+        },
+        {
+          "topic": "love",
+          "count": 80
+        },
+        {
+          "topic": "meaning",
+          "count": 61
+        },
+        {
+          "topic": "self",
+          "count": 55
+        },
+        {
+          "topic": "freedom",
+          "count": 51
+        },
+        {
+          "topic": "suffering",
+          "count": 48
+        },
+        {
+          "topic": "work",
+          "count": 36
+        },
+        {
+          "topic": "education",
+          "count": 35
+        },
+        {
+          "topic": "technology",
+          "count": 3
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Republic",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1497"
+        },
+        {
+          "work": "Symposium",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1600"
+        },
+        {
+          "work": "Phaedo",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1658"
+        },
+        {
+          "work": "Phaedrus",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1636"
+        },
+        {
+          "work": "Meno",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1643"
+        },
+        {
+          "work": "Apology",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1656"
+        },
+        {
+          "work": "Theaetetus",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1726"
+        },
+        {
+          "work": "Timaeus",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1572"
+        }
+      ]
+    }
+  ]
+}

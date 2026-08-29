@@ -293,37 +293,138 @@ main:focus { outline: none; }
   text-decoration-color: var(--gold-deep);
 }
 
+/* ---------- the feed: filters, tally, one row per table ---------- */
 .filters {
-  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
-  margin: 30px 0 20px;
-  padding-top: 18px;
+  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center;
+  margin: 28px 0 14px;
+  padding-top: 20px;
   border-top: 1px solid var(--line);
 }
-.filters .chip {
+.search {
+  display: flex; align-items: center; gap: 9px;
+  flex: 1 1 240px; min-width: 200px;
+  padding: 8px 13px; border-radius: 8px;
+  background: var(--surface-sunk);
+  border: 1px solid var(--line-strong);
+  transition: border-color 0.15s ease-out;
+}
+.search:focus-within { border-color: var(--gold-deep); }
+.search svg {
+  width: 16px; height: 16px; flex-shrink: 0;
+  fill: none; stroke: var(--faint); stroke-width: 1.6; stroke-linecap: round;
+}
+.search input {
+  font: inherit; font-size: 0.9rem; color: var(--ink);
+  background: transparent; border: 0; outline: none; width: 100%; min-width: 0;
+}
+.search input::placeholder { color: var(--faint); }
+
+.chiprow { display: flex; flex-wrap: wrap; gap: 8px; }
+.chiprow.sort { margin-left: auto; }
+.chip {
   font: inherit; font-size: 0.86rem;
   border: 1px solid var(--line-strong);
   background: transparent; color: var(--muted);
   padding: 5px 12px; border-radius: 999px; cursor: pointer;
   transition: border-color 0.15s ease-out, color 0.15s ease-out, background-color 0.15s ease-out;
 }
-.filters .chip:hover { border-color: var(--gold-deep); color: var(--ink); }
-.filters .chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #17120A; }
-.filters .sort { margin-left: auto; display: flex; gap: 8px; }
+.chip:hover { border-color: var(--gold-deep); color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #17120A; }
 
-.tables { display: grid; grid-template-columns: 1fr; gap: 18px; list-style: none; margin: 0; padding: 0; }
-@container court (min-width: 800px) {
-  .tables { grid-template-columns: 1fr 1fr; }
-  /* tables of varied size, not a uniform grid */
-  .tables > li:nth-child(3n + 1) { grid-column: 1 / -1; }
-  .tables > li:nth-child(3n + 1) blockquote { max-width: 72ch; }
+.tally { margin: 0 0 16px; color: var(--faint); font-size: 0.82rem; }
+
+.kind {
+  font-size: 0.7rem; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--gold); border: 1px solid var(--gold-deep);
+  padding: 3px 9px; border-radius: 999px; white-space: nowrap;
+  justify-self: start;
 }
 
+/* The row answers to the list it sits in, not to the page: the same component appears in
+   the plaza at full width and on a profile inside a 72ch measure, where the column layout
+   would crush the question to one word per line. */
+.tables {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 10px;
+  container-type: inline-size; container-name: feed;
+}
+
+.table-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 11px 16px;
+  padding: 16px 18px;
+  background: var(--grain), var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(232, 208, 160, 0.04);
+  transition: border-color 0.16s ease-out, background-color 0.16s ease-out, transform 0.16s ease-out;
+}
+.table-row:hover {
+  transform: translateY(-1px);
+  border-color: var(--line-strong);
+  background: var(--grain), var(--surface-raised);
+}
+.table-row > a.cover { position: absolute; inset: 0; border-radius: 10px; }
+.table-row .what { min-width: 0; }
+.table-row h2 {
+  font-family: var(--display); font-weight: 500;
+  font-size: 1.3rem; line-height: 1.2;
+  margin: 0 0 5px; color: var(--ink); text-wrap: balance;
+}
+.table-row .voices { color: var(--muted); font-size: 0.82rem; margin: 0 0 7px; }
+.table-row .said {
+  margin: 0; font-family: var(--serif); font-size: 0.94rem; line-height: 1.5;
+  color: var(--ink-soft);
+  padding-left: 12px; border-left: 2px solid var(--gold-deep);
+}
+.table-row .said .who {
+  display: block; margin-top: 4px;
+  font-family: var(--sans); font-size: 0.76rem; color: var(--faint);
+}
+.table-row .meta {
+  grid-column: 1 / -1;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px;
+  color: var(--faint); font-size: 0.8rem;
+}
+
+/* room for the seats beside the question rather than above it */
+@container feed (min-width: 480px) {
+  .table-row { grid-template-columns: auto minmax(0, 1fr); }
+}
+
+/* a heated table's surface warms perceptibly */
+.table-row.h3 { background: var(--grain), #1A130F; border-color: #3A281C; }
+.table-row.h3:hover { background: var(--grain), #211710; }
+
+/* wide enough for the mockup's columns: who is seated, the question, then the measures */
+@container feed (min-width: 820px) {
+  .table-row {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 20px;
+    padding: 18px 22px;
+  }
+  .table-row .meta {
+    grid-column: auto;
+    display: grid;
+    grid-template-columns: 116px 88px 92px 78px;
+    align-items: center;
+    gap: 12px;
+  }
+  .table-row .when { text-align: right; }
+}
+
+/* ---------- the lead table: the hottest exchange, readable before anything else ---------- */
+.lead-slot:empty { display: none; }
 .tablet {
   position: relative;
   background: var(--grain), var(--surface);
   border: 1px solid var(--line);
   border-radius: 10px;
-  padding: 22px 22px 18px;
+  padding: 26px 26px 22px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(232, 208, 160, 0.05);
   transition: transform 0.18s ease-out, box-shadow 0.18s ease-out, border-color 0.18s ease-out;
 }
@@ -333,38 +434,24 @@ main:focus { outline: none; }
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(232, 208, 160, 0.08);
 }
 .tablet > a.cover { position: absolute; inset: 0; border-radius: 10px; }
+.tablet .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.tablet .meta .kind { margin-left: auto; }
 .tablet h2 {
   font-family: var(--display); font-weight: 500;
-  font-size: 1.42rem; line-height: 1.22;
-  margin: 10px 0 12px; text-wrap: balance;
+  font-size: 1.75rem; line-height: 1.18;
+  margin: 12px 0 14px; text-wrap: balance;
   color: var(--ink);
 }
-.tablet .meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.tablet .voices { color: var(--muted); font-size: 0.86rem; margin: 0 0 4px; }
-.tablet blockquote {
-  margin: 0; padding: 0 0 0 14px;
-  border-left: 2px solid var(--gold-deep);
-  font-family: var(--serif); font-size: 0.98rem; line-height: 1.5;
-  color: var(--ink-soft);
-}
-.tablet blockquote .who { display: block; margin-top: 6px; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); font-style: normal; }
-.tablet .foot { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; color: var(--faint); font-size: 0.8rem; }
-
-/* a heated table's surface warms perceptibly */
-.tablet.h3 { background: var(--grain), #1C1410; border-color: #3E2A1E; }
-
-/* the lead table: the hottest exchange, readable before anything else */
-.tablet.lead { padding: 26px 26px 22px; }
-.tablet.lead h2 { font-size: 1.75rem; margin-bottom: 14px; }
-.tablet.lead .live .turn {
+.tablet.h3 { background: var(--grain), #1A130F; border-color: #3A281C; }
+.tablet .live .turn {
   border-left: 2px solid color-mix(in oklab, var(--speaker, var(--gold)) var(--seat-lift), var(--seat-toward));
   padding-left: 14px; margin: 0 0 14px;
 }
-.tablet.lead .live .turn:last-child { margin-bottom: 0; }
-.tablet.lead .live .name { font-size: 0.8rem; color: var(--muted); letter-spacing: 0.04em; }
-.tablet.lead .live p { margin: 4px 0 0; font-family: var(--serif); font-size: 0.97rem; line-height: 1.55; color: var(--ink-soft); }
-.tablet.lead .enter { margin: 16px 0 0; font-size: 0.92rem; color: var(--gold); }
-.tablet.lead:hover .enter { text-decoration: underline; text-underline-offset: 3px; }
+.tablet .live .turn:last-child { margin-bottom: 0; }
+.tablet .live .name { font-size: 0.8rem; color: var(--muted); letter-spacing: 0.04em; }
+.tablet .live p { margin: 4px 0 0; font-family: var(--serif); font-size: 0.97rem; line-height: 1.55; color: var(--ink-soft); }
+.tablet .enter { margin: 16px 0 0; font-size: 0.92rem; color: var(--gold); }
+.tablet:hover .enter { text-decoration: underline; text-underline-offset: 3px; }
 
 .seats { display: flex; }
 .seats .seat { margin-left: -7px; }
@@ -528,7 +615,7 @@ main:focus { outline: none; }
 .profile .positions dd { margin: 0; font-family: var(--serif); color: var(--ink-soft); }
 .profile ul { padding-left: 20px; }
 .profile li { margin: 6px 0; color: var(--ink-soft); }
-.profile .kind { color: var(--muted); font-size: 0.86rem; }
+.profile .rel { color: var(--muted); font-size: 0.86rem; }
 
 /* ---------- about ---------- */
 .about { max-width: 66ch; }
@@ -562,15 +649,15 @@ main:focus { outline: none; }
 
 /* arrival: tables settle into the plaza once */
 @media (prefers-reduced-motion: no-preference) {
-  .tables .tablet { animation: settle 0.4s ease-out backwards; }
-  .tables li:nth-child(2) .tablet { animation-delay: 0.05s; }
-  .tables li:nth-child(3) .tablet { animation-delay: 0.1s; }
-  .tables li:nth-child(4) .tablet { animation-delay: 0.15s; }
-  .tables li:nth-child(n+5) .tablet { animation-delay: 0.2s; }
+  .tables .table-row { animation: settle 0.4s ease-out backwards; }
+  .tables li:nth-child(2) .table-row { animation-delay: 0.05s; }
+  .tables li:nth-child(3) .table-row { animation-delay: 0.1s; }
+  .tables li:nth-child(4) .table-row { animation-delay: 0.15s; }
+  .tables li:nth-child(n+5) .table-row { animation-delay: 0.2s; }
 }
 @keyframes settle { from { opacity: 0; transform: translateY(12px); } }
 
 @media (max-width: 560px) {
-  .filters .sort { margin-left: 0; }
+  .chiprow.sort { margin-left: 0; }
   .thread .actions { flex-wrap: wrap; }
 }

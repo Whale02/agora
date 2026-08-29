@@ -67,31 +67,30 @@ function setNav(name, title) {
 
 /* ---------- plaza ---------- */
 
-const plazaState = { category: null, sort: "recent" };
+const plazaState = { category: null, type: null, sort: "recent", q: "" };
+
+// The engine writes two kinds of conversation; the hub mockup's type chip carries them.
+const TYPE_LABEL = { heartbeat: "symposium", user_initiated: "a visitor's question" };
+const typeLabel = (t) => TYPE_LABEL[t] ?? String(t).replaceAll("_", " ");
+
+const chips = (items, key, current) =>
+  items
+    .map(
+      ([value, label]) =>
+        `<button class="chip" data-${key}="${esc(value ?? "")}" aria-pressed="${current === value}">${esc(label)}</button>`,
+    )
+    .join("");
+
+const DAY = 86400000;
 
 async function renderPlaza() {
   setNav("plaza");
   main.innerHTML = `<p class="loading">Opening the plaza…</p>`;
   const [idx, phils] = await Promise.all([indexP(), philosophersP()]);
   const by = Object.fromEntries(phils.map((p) => [p.slug, p]));
-  const categories = [...new Set(idx.conversations.map((c) => c.category).filter(Boolean))];
-
-  const list = idx.conversations
-    .filter((c) => !plazaState.category || c.category === plazaState.category)
-    .sort((a, b) => (plazaState.sort === "heat" ? b.heat - a.heat : b.updated_at.localeCompare(a.updated_at)));
-
-  // The hottest table leads the plaza; its exchange is readable before anything else.
-  const lead = [...list].sort((a, b) => b.heat - a.heat)[0];
-  const rest = list.filter((c) => c !== lead);
-  const leadHTML = lead ? await leadTablet(lead, by) : "";
-
-  const chips = (items, key, current) =>
-    items
-      .map(
-        ([value, label]) =>
-          `<button class="chip" data-${key}="${esc(value ?? "")}" aria-pressed="${current === value}">${esc(label)}</button>`,
-      )
-      .join("");
+  const all = idx.conversations;
+  const categories = [...new Set(all.map((c) => c.category).filter(Boolean))];
+  const types = [...new Set(all.map((c) => c.type).filter(Boolean))];
 
   main.innerHTML = `
     <section class="canopy scene s-plaza split">
@@ -99,29 +98,109 @@ async function renderPlaza() {
       <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say, sit down.</p>
       <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
     </section>
-    ${leadHTML}
-    <div class="filters" role="toolbar" aria-label="Filter conversations">
-      ${chips([[null, "All"], ...categories.map((c) => [c, c])], "cat", plazaState.category)}
-      <span class="sort">${chips([["recent", "Latest"], ["heat", "Most heated"]], "sort", plazaState.sort)}</span>
+    <div class="lead-slot"></div>
+    <div class="filters">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 20 20"/></svg>
+        <input type="search" id="plaza-q" placeholder="Search a topic, a philosopher, a phrase" aria-label="Search the plaza">
+      </label>
+      <div class="chiprow" role="group" aria-label="Filter by subject">
+        ${chips([[null, "All subjects"], ...categories.map((c) => [c, c])], "cat", plazaState.category)}
+      </div>
+      ${
+        types.length > 1
+          ? `<div class="chiprow" role="group" aria-label="Filter by kind">
+              ${chips([[null, "Any kind"], ...types.map((t) => [t, typeLabel(t)])], "kind", plazaState.type)}
+            </div>`
+          : ""
+      }
+      <div class="chiprow sort" role="group" aria-label="Sort">
+        ${chips([["recent", "Latest"], ["heat", "Most heated"]], "sort", plazaState.sort)}
+      </div>
     </div>
-    ${
-      rest.length || lead
-        ? `<ul class="tables">${rest.map((c) => tablet(c, by)).join("")}</ul>`
-        : `<div class="empty"><h2>No tables here yet</h2><p>No conversation under this topic so far. The heartbeat brings new ones every few hours.</p></div>`
-    }`;
+    <p class="tally" role="status"></p>
+    <ul class="tables"></ul>
+    <div class="empty" hidden></div>`;
 
+  const q = $("#plaza-q", main);
+  q.value = plazaState.q;
+  q.addEventListener("input", () => {
+    plazaState.q = q.value;
+    paint();
+  });
   main.querySelectorAll("[data-cat]").forEach((b) =>
     b.addEventListener("click", () => {
       plazaState.category = b.dataset.cat || null;
-      renderPlaza();
+      paint();
+    }),
+  );
+  main.querySelectorAll("[data-kind]").forEach((b) =>
+    b.addEventListener("click", () => {
+      plazaState.type = b.dataset.kind || null;
+      paint();
     }),
   );
   main.querySelectorAll("[data-sort]").forEach((b) =>
     b.addEventListener("click", () => {
       plazaState.sort = b.dataset.sort;
-      renderPlaza();
+      paint();
     }),
   );
+
+  async function paint() {
+    const needle = plazaState.q.trim().toLowerCase();
+    const list = all
+      .filter((c) => !plazaState.category || c.category === plazaState.category)
+      .filter((c) => !plazaState.type || c.type === plazaState.type)
+      .filter((c) => !needle || haystack(c, by).includes(needle))
+      .sort((a, b) => (plazaState.sort === "heat" ? b.heat - a.heat : b.updated_at.localeCompare(a.updated_at)));
+
+    // The hottest table leads the plaza; its exchange is readable before anything else.
+    const lead = [...list].sort((a, b) => b.heat - a.heat)[0];
+    const rest = list.filter((c) => c !== lead);
+
+    for (const b of main.querySelectorAll("[data-cat]")) {
+      b.setAttribute("aria-pressed", String((b.dataset.cat || null) === plazaState.category));
+    }
+    for (const b of main.querySelectorAll("[data-kind]")) {
+      b.setAttribute("aria-pressed", String((b.dataset.kind || null) === plazaState.type));
+    }
+    for (const b of main.querySelectorAll("[data-sort]")) {
+      b.setAttribute("aria-pressed", String(b.dataset.sort === plazaState.sort));
+    }
+
+    $(".lead-slot", main).innerHTML = lead ? await leadTablet(lead, by) : "";
+    $(".tally", main).textContent = tally(list);
+    $(".tables", main).innerHTML = rest.map((c) => tablet(c, by)).join("");
+
+    const empty = $(".empty", main);
+    empty.hidden = list.length > 0;
+    empty.innerHTML = list.length
+      ? ""
+      : needle
+        ? `<h2>Nothing under that</h2><p>No table matches ${esc(plazaState.q.trim())}. Try a philosopher's name, or a word one of them would use.</p>`
+        : `<h2>No tables here yet</h2><p>No conversation under this filter so far. The heartbeat brings new ones every few hours.</p>`;
+  }
+
+  await paint();
+}
+
+// What the search reads: the question, the last thing said, who is seated, the subject.
+function haystack(c, by) {
+  const names = c.participants.flatMap((s) => [by[s]?.name_en, by[s]?.name_zh, s]).filter(Boolean);
+  return [c.topic, c.preview, c.category, typeLabel(c.type), ...names].join(" ").toLowerCase();
+}
+
+// The count strip from the hub mockup, carrying the numbers this site can actually know.
+function tally(list) {
+  const now = Date.now();
+  const today = list.filter((c) => now - new Date(c.updated_at).getTime() < DAY).length;
+  const seated = list.filter((c) => c.has_user).length;
+  return [
+    `${list.length} ${list.length === 1 ? "table" : "tables"} open`,
+    `${today} moved in the last day`,
+    seated ? `${seated} with a visitor seated` : "no visitor seated yet",
+  ].join(" · ");
 }
 
 const trim = (text, n) => {
@@ -153,6 +232,7 @@ async function leadTablet(c, by) {
     <a class="cover" href="#/c/${esc(c.id)}" aria-label="Enter: ${esc(c.topic)}"></a>
     <div class="meta">
       <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
+      <span class="kind">${esc(typeLabel(c.type))}</span>
       ${heatMark(c.heat)}
     </div>
     <h2>${esc(c.topic)}</h2>
@@ -161,19 +241,25 @@ async function leadTablet(c, by) {
   </article>`;
 }
 
+// One row per table, the hub mockup's list: who is seated, the question, the kind, the heat,
+// how much has been said, when it last moved.
 function tablet(c, by) {
   const seats = c.participants.map((s) => by[s]).filter(Boolean);
   const lastSpeaker = by[c.last_speaker]?.name_en;
-  return `<li><article class="tablet h${heatLevel(c.heat)}">
+  return `<li><article class="table-row h${heatLevel(c.heat)}">
     <a class="cover" href="#/c/${esc(c.id)}" aria-label="Read: ${esc(c.topic)}"></a>
-    <div class="meta">
-      <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
-      ${heatMark(c.heat)}
+    <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
+    <div class="what">
+      <h2>${esc(c.topic)}</h2>
+      <p class="voices">${seats.map((p) => esc(p.name_en)).join(" · ")}${c.has_user ? " · a visitor" : ""}</p>
+      <p class="said">${esc(trim(c.preview, 118))}${lastSpeaker ? `<span class="who">${esc(lastSpeaker)}</span>` : ""}</p>
     </div>
-    <h2>${esc(c.topic)}</h2>
-    <p class="voices">${seats.map((p) => esc(p.name_en)).join(" · ")}${c.has_user ? " · a visitor" : ""}</p>
-    <blockquote>${esc(c.preview)}${lastSpeaker ? `<span class="who">— ${esc(lastSpeaker)}, just now at this table</span>` : ""}</blockquote>
-    <div class="foot"><span>${c.message_count} exchanges</span><span>${ago(c.updated_at)}</span></div>
+    <div class="meta">
+      <span class="kind">${esc(typeLabel(c.type))}</span>
+      ${heatMark(c.heat)}
+      <span class="count">${c.message_count} exchanges</span>
+      <span class="when">${ago(c.updated_at)}</span>
+    </div>
   </article></li>`;
 }
 
@@ -341,14 +427,14 @@ async function renderPhilosopher(slug) {
           .map((r) => {
             const o = by[r.slug];
             return o
-              ? `<li><span class="kind">${esc(r.kind)}</span> <a href="#/p/${esc(o.slug)}">${esc(o.name_en)}</a>, <span class="kind">${esc(r.note)}</span></li>`
+              ? `<li><span class="rel">${esc(r.kind)}</span> <a href="#/p/${esc(o.slug)}">${esc(o.name_en)}</a>, <span class="rel">${esc(r.note)}</span></li>`
               : "";
           })
           .join("")}
       </ul>
       ${
         theirs.length
-          ? `<h2>At these tables</h2><ul class="tables" style="list-style:none;padding:0">${theirs.map((c) => tablet(c, by)).join("")}</ul>`
+          ? `<h2>At these tables</h2><ul class="tables">${theirs.map((c) => tablet(c, by)).join("")}</ul>`
           : ""
       }
     </div>`;

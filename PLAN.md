@@ -44,10 +44,10 @@ Lane A, the reskin (first):
       texture treatment, gold/bronze accents, type pairing). Type: a serif display with real
       classical character plus a quiet sans; Chinese display text must render well (name the
       zh fallback stack deliberately). Keep a11y contrast, reduced-motion, mobile-first.
-- [ ] A2. App shell: sidebar navigation on desktop per the hub mockup (Plaza, Symposium,
+- [x] A2. App shell: sidebar navigation on desktop per the hub mockup (Plaza, Symposium,
       Conversations, Study, Sources, Settings collapse to what actually exists in v1),
       top-bar collapse on mobile. Bilingual labels.
-- [ ] A3. Background system: hero/header/section variants using the optimized assets, with
+- [x] A3. Background system: hero/header/section variants using the optimized assets, with
       legibility guaranteed (scrims, not hope).
 - [ ] A4. Conversations hub: the plaza feed recomposed per the hub mockup: lead conversation,
       table list with type, participants, heat, status, last activity; filters and sort
@@ -58,7 +58,8 @@ Lane A, the reskin (first):
 - [ ] A6. Philosopher profiles per the profile mockups: era rail, representative
       conversations, sources block, the handoff profile art where it exists (8 philosophers),
       a consistent gold-on-marble medallion treatment for the rest.
-- [ ] A7. About, 404, share stubs, favicon, OG tags restyled to the world.
+- [ ] A7. About, 404, share stubs, favicon, OG tags restyled to the world, and DESIGN.md
+      rewritten from the built site so the design record matches what ships.
 
 Lane D, the corpus (after lane A; the depth that feeds lane B):
 - [ ] D1. Passage corpus at docs/data/passages/<slug>.json for every philosopher with a

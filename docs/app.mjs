@@ -145,7 +145,7 @@ async function leadTablet(c, by) {
     .map((m) => {
       const p = by[m.speaker];
       const name = m.speaker_type === "user" ? m.speaker : p?.name_en ?? m.speaker;
-      return `<div class="turn" style="--speaker:${esc(p?.accent ?? "var(--sage)")}">
+      return `<div class="turn" style="--speaker:${esc(p?.accent ?? "var(--gold)")}">
         <span class="name">${esc(name)}</span>
         <p>${esc(trim(m.content, 190))}</p>
       </div>`;

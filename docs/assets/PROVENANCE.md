@@ -47,7 +47,20 @@ Eight philosophers have handoff portrait art: socrates, marcus-aurelius, laozi, 
 nietzsche, camus, fromm, naval. The other seventeen get the gold-on-marble medallion the
 stylesheet already draws from their accent colour, over `figure.webp`.
 
+## The share card
+
+    og.jpg   1200x630, jpeg quality 88
+
+Rendered from `scripts/og-card.html` by a headless Chrome at 1200x630, not drawn by hand.
+The card reuses the plaza plate, the same veil the site uses for a split scene, and the same
+three typefaces, so a link preview looks like the page it opens. It ships as the og:image on
+the app shell and on every conversation share stub.
+
+Regenerating it needs a headless Chrome, which the repository does not depend on. The
+scratchpad `og.mjs` in the run notes does it in nine lines: open the file, wait for
+`document.fonts.ready`, screenshot the 1200x630 clip.
+
 ## Budget
 
-The directory holds 27 files and measures 1.3MB against the plan's 6MB ceiling. Check it
+The directory holds 29 files and measures 1.4MB against the plan's 6MB ceiling. Check it
 with `du -sh docs/assets` after any rebuild.

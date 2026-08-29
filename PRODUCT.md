@@ -35,7 +35,11 @@ complete without participating.
 
 ## Brand commitments
 
-The "Digital Agora" world is pinned by the founding doc: warm limestone, Mediterranean
-light, generous whitespace; palette #FAFAF7 / #F2F0EB / #2C2C2C / #C4956A / #7A8B6F /
-#E5E3DD with #C45D4A reserved for heat; serif display over readable body; philosopher
-speech visually differentiated from chrome. Deviations recorded in DESIGN.md.
+The "Digital Agora" world is pinned by the founder's engineer handoff, which replaced the
+sunlit limestone of the founding doc: black and dark marble grounds, bronze and gold
+accents, brazier and moonlight imagery, an elegant serif display with restrained sans
+support. Palette #0A0908 / #14110E / #EDE4D3 / #C9A45C with #D2743C reserved for heat and
+#7FA391 for the visitor's own voice. Wayfinding is paired bilingual as the handoff shows,
+Chinese carved above small English; everything a philosopher or a visitor says is English.
+Philosopher speech stays visually apart from chrome. The built system is recorded in
+DESIGN.md.

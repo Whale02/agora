@@ -792,8 +792,8 @@ main:focus { outline: none; }
 .about p, .about li { font-family: var(--serif); font-size: 1.05rem; line-height: 1.68; color: var(--ink-soft); }
 .about h2 { font-family: var(--lapidary); font-weight: 400; font-size: 0.95rem; letter-spacing: 0.18em; text-transform: uppercase; margin: 36px 0 10px; color: var(--gold); }
 .about .plain { font-family: var(--sans); font-size: 0.92rem; color: var(--muted); }
-.about .invite { margin: 44px 0 0; padding: 34px 28px; text-align: center; --scene-at: 50% 28%; }
-.about .invite p { margin: 0 auto 18px; max-width: 44ch; color: var(--muted); font-family: var(--sans); font-size: 0.95rem; }
+.invite { margin: 48px 0 0; padding: 40px 28px; text-align: center; --scene-at: 50% 26%; }
+.invite p { margin: 0 auto 20px; max-width: 46ch; color: var(--ink-soft); font-family: var(--serif); font-size: 1.02rem; line-height: 1.55; }
 
 /* ---------- footer, toast ---------- */
 .stylobate {

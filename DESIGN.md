@@ -1,83 +1,175 @@
 # Agora design system
 
-Recorded from the built site (docs/), not from intention. The world is "Digital Agora":
-warm limestone under Mediterranean light, pinned by the founding doc and PRODUCT.md.
+Recorded from the built site (docs/), not from intention. The world came from the founder's
+engineer handoff: black marble under brazier light, bronze and gold, cinematic ruins, an
+elegant serif with restrained sans support. The handoff mockups set composition, tone and
+type; the live product decides which affordances exist, and where those two disagree the
+product wins and PROGRESS.md records the call.
 
 ## Tokens (docs/styles.css :root)
 
-    --bg          #FAFAF7   page ground, under a faint SVG grain (--grain) and a sun
-                            gradient (--sun #F4E9D8) that fades out by 340px
-    --surface     #F2F0EB   tablets (cards), also grained
-    --surface-deep #ECE9E1  reserved deeper surface
-    --ink         #2C2C2C   text
-    --muted       #6A6A60   secondary text; darkened from the doc's #8A8A80 for contrast
-    --terra       #C4956A   presence: seat rings, active nav, quote rails on cards
-    --terra-deep  #A87848   hover/emphasis of terra; profile section headings
-    --sage        #7A8B6F   the visitor's color: their actions, their messages
-    --sage-deep   #5F7055   primary buttons
-    --line        #E5E3DD   tablet edges
-    --line-strong #D6D3C9   chips, dividers
-    --heat        #C45D4A   reserved for heat strokes
-    --heat-deep   #A84A38   the heat word at level 3
-    A heated tablet (.h3) warms its surface to #F5EDE1 with border #E4D9C5.
+    --bg            #0A0908   page ground, under a warm SVG grain and two fixed glows
+    --bg-deep       #060505   the html ground behind everything
+    --surface       #14110E   tablets, rows, seated cards
+    --surface-raised #1D1813  hover states, the ritual, the pressed nav item
+    --surface-sunk  #0F0C0A   the stoa, the search field, sources cards
+    --ink           #EDE4D3   headings and names
+    --ink-soft      #D2C7B3   everything a philosopher or a translator says
+    --muted         #9C9080   secondary interface text
+    --faint         #8F8676   meta, counts, timestamps. Lifted from #6F6658 in A1, which
+                              read 3.52:1 on the ground.
+    --gold          #C9A45C   the accent that carries meaning: buttons, chips, section rules
+    --gold-bright   #E8D0A0   the wordmark, focus rings, the top of the button gradient
+    --gold-deep     #8E6F3B   quote rules, hairline borders on gold elements
+    --line          #241F19   tablet edges
+    --line-strong   #3B3126   chips, dividers, the stoa border
+    --heat          #D2743C   the hatch strokes
+    --heat-bright   #EC9A5A   the heat word at level 3
+    --verdigris     #7FA391   the visitor's own voice, patinated bronze against the gold
+    --rail          212px     the stoa's width at 900px and up
 
-Color strategy is restrained: neutrals plus terracotta presence, with sage reserved for
-the visitor and ember reserved for heat. One light look, picked from the scene: a sunlit
-courtyard.
+Philosopher accents live in docs/data/philosophers.json and were chosen for the old
+limestone world, where they read as muted earth. On black they disappear. The stylesheet
+lifts each one rather than editing the data:
+
+    --seat-lift    62%
+    --seat-toward  #F6E6BE
+    --tone: color-mix(in oklab, var(--seat) var(--seat-lift), var(--seat-toward))
+
+That single expression drives the seat ring, the speaker rail on every utterance, the
+speaker name, and the top edge of a seated card. All twenty-five clear WCAG AA on the
+roster route, which renders every one of them.
 
 ## Type
 
-    --display  Marcellus (Google Fonts)      lapidary Roman display; wordmark,
-                                             headings, philosopher names, seat glyphs
-    --serif    Source Serif 4                all philosopher and visitor speech,
-                                             positions, about-page prose
-    --sans     system stack                  chrome: nav, labels, buttons, meta
+    --display   Cormorant Garamond   questions, names, page titles, the lead table
+    --lapidary  Marcellus            the wordmark and every uppercase section label
+    --serif     Source Serif 4       philosopher and visitor speech, positions, passages
+    --zh        Noto Serif SC        every Chinese glyph, named first in a stack that falls
+                                     back to Source Han Serif SC, Songti SC, SimSun,
+                                     Microsoft YaHei
+    --sans      system stack         chrome: nav support text, chips, buttons, meta
 
-Rule of register: if a philosopher says it, it is serif; if the interface says it, it is
-sans; if it is carved (a name, a heading), it is Marcellus. Wayfinding headings inside
-profiles/about are Marcellus uppercase, letterspaced 0.14em, in --terra-deep.
+Rule of register, unchanged from the first build and still true: if a philosopher says it,
+it is serif; if the interface says it, it is sans; if it is carved, a name or a heading, it
+is a display face. Section labels are Marcellus uppercase, letterspaced 0.18em, in gold.
+
+Wayfinding is bilingual and paired, as the handoff shows: Chinese carved above small
+letterspaced English. Everything else, including every word a philosopher or a visitor
+says, is English.
+
+## The stoa
+
+The shell is a left colonnade at 900px and up: the wordmark with its Chinese sub-line,
+bilingual wayfinding with line icons, and the handoff brazier burning at its foot behind a
+mask that fades it upward. Below 900px it lies down into a top bar whose label row scrolls.
+
+The `.stoa` element is the grid column, so its marble runs the full height of the page; a
+sticky `.rail` inside it is what follows the scroll. A window under 660px tall drops the
+fire and keeps the wayfinding.
+
+Nav carries what v1 has: plaza, philosophers, about, source. Symposium, study and sources
+join it when their lanes land.
+
+## Scenes
+
+A scene is three layers: stone colour, a handoff plate, and a veil that puts a floor under
+the darkness.
+
+    .scene            the frame, a size container named scene
+    .scene::before    the plate, with a brightness lift, mirrored on split scenes
+    .scene::after     the veil, a horizontal gradient then a vertical wash
+    --veil-to         where the veil holds 0.93 alpha before it lets go
+    --veil-out        where it reaches 0.22 and the plate becomes visible
+    --scene-at        background-position, chosen per surface from a luminance grid
+
+Nine plates ship as `.s-plaza`, `.s-thread`, `.s-roster`, `.s-figure`, `.s-library`,
+`.s-rotunda`, `.s-sanctuary`, `.s-sea` and `.s-marble`, each with an 800px companion for
+phones. A `.split` scene holds its text to 60 percent of the panel and opens the veil over
+the rest; a scene too narrow to split keeps the floor across its whole width.
+
+Two measurements set the numbers. An 8x5 luminance grid per plate showed peaks between 35
+and 122 out of 255, so the image layer carries `brightness(2.4)` or the veil leaves nothing
+to see. The same grid showed the light sitting in each plate's left third, which is where
+`cover` puts it under the text, so split scenes mirror the plate with `scaleX(-1)`.
+
+Legibility is measured rather than assumed. The audit hides every glyph and its decorations,
+screenshots the page, and reads the brightest rendered pixel under each text run, taking the
+run's own line rects so a border or an inline mark cannot pose as the background. Ten routes
+at 1440 and 390 have to clear WCAG AA before a visual slice ticks.
 
 ## Components
 
-- Seat medallion (.seat): circle, 2px ring in the philosopher's accent, glyph = first
-  Chinese character if name_zh exists, else capitalized initials. Sizes: default 34px,
-  .lg 56px, .xl 84px.
-- Tablet (.tablet): grained surface, 1px --line edge, 10px radius, soft offset shadow,
-  hover lift of 2px. Full-card cover link plus interior links. Heated variant .h3.
-- Lead tablet (.tablet.lead): the hottest table, seated beside the invocation at ≥880px
-  and above the filters on mobile; shows the last two turns with per-speaker rails and
-  an "Enter the conversation →" line.
-- Heat mark (.heat): three hatch strokes (SVG lines), lit count = level (calm/warm/
-  heated at <0.4 / <0.65 / ≥0.65), plus the word. Strokes in --heat, the level-3 word
-  in --heat-deep. Never a score, never animated.
-- Speaker rail: 2px left border in the speaker's accent on every utterance; the
-  visitor's messages use --sage with a faint sage wash. This is the attribution device;
-  do not replace it with bubbles.
-- Chips (.chip): pill filters, pressed state inverts to ink.
+- Seat medallion (.seat): circle, 1px ring in the lifted accent, glyph is the first Chinese
+  character where a name has one, else capitalised initials. Sizes 34px, .lg 56px, .xl 84px.
+- Portrait plate (.face): the same circle, same ring, filled with the handoff art for the
+  eight philosophers who have it. The .xl variant on a profile becomes a rounded plate and
+  says under itself that it is an illustration made for this project.
+- Table row (.table-row): the plaza's list item. Seats, then the question with its voices
+  and the last thing said, then the kind chip, the heat, the exchange count and when it
+  last moved. The row answers to the width of the list it sits in, not the page, because
+  the same component appears inside a 72ch measure on a profile.
+- Lead table (.tablet.lead): the hottest table, in a card above the filters, showing its
+  last two turns with per-speaker rails and a line inviting entry.
+- Heat mark (.heat): three hatch strokes, lit count is the level, calm below 0.4, warm
+  below 0.65, heated at or above it, plus the word. Never a score, never animated. The hub
+  mockup shows a percentage; a percentage is a score, so it is out.
+- Kind chip (.kind): the conversation's type, uppercase gold on a hairline. The engine
+  writes two, symposium and a visitor's question.
+- Seated card (.seated): the room's bench. A face, a name, a tradition, and either the
+  documented position on this conversation's own subject or, where the subject has no
+  matching position, how this philosopher argues.
+- Speaker rail: a 2px left border in the speaker's lifted accent on every utterance; the
+  visitor gets verdigris and a faint verdigris wash. This is the attribution device; do not
+  replace it with bubbles.
+- Source card (.source) and passage (.passage): the sources rail. Works, counts, translator
+  and year, and a drawer that fetches the corpus and quotes it with work, reference,
+  translator and a link to the edition.
+- Chips (.chip): pill filters, pressed state fills with gold.
 - Ritual (.ritual): the sit-down dialog. role=dialog, aria-modal, Tab trapped, Escape
-  closes, focus returns to the opener. Decline is "Stay standing".
+  closes, focus returns to the opener, which is passed in rather than read from
+  document.activeElement.
 
 ## Layout
 
-Max width 1080px, 20px gutters, mobile-first. The plaza: .forum grid (invocation 5fr,
-lead 7fr at ≥880px), then filters, then .tables: two columns where every 3n+1 item
-spans full width, so the feed reads as tables of varied size, not a uniform grid.
-Threads and profiles read at 72ch. Body never scrolls horizontally.
+Max width 1080px, 20px gutters, mobile first. The rail takes 212px out of the window, so
+content grids answer to container queries on `main` rather than viewport media queries: at
+a 900px window a viewport query would run a two column feed in 648px. Three named
+containers carry this: `court` on main, `feed` on the plaza list, `scene` on any scene.
+
+The plaza reads canopy, lead table, filters, count strip, rows. A conversation reads
+question hero, bench, then the floor at 72ch with the sources rail beside it at 900px and
+up. A profile reads hero with an era panel, then a dossier with identity and positions on
+the left and works and relationships on the right. Body never scrolls horizontally, checked
+at 1440 and 390 on every route.
 
 ## Motion
 
-One authored arrival: plaza tablets settle upward 12px with 50ms stagger, once, behind
-prefers-reduced-motion. The ritual fades/rises 200-250ms. Hovers are 150-180ms ease-out
-color/transform. Nothing loops.
+One authored arrival: plaza rows settle upward 12px with a 50ms stagger, once, behind
+prefers-reduced-motion. The ritual fades and rises over 200 to 250ms. Hovers are 150 to
+180ms ease-out on colour, border and transform. Nothing loops.
 
 ## Browser surfaces
 
-Selection is terracotta with white text, caret --terra-deep, focus ring 2px --sage-deep,
-thin scrollbars in --line-strong, underline offset 3px with terracotta decoration.
+Selection is gold with near-black text. Focus ring is 2px --gold-bright at 2px offset.
+Scrollbars are thin in --line-strong. Links carry a --gold-deep underline at 3px offset
+that warms to gold on hover. The theme colour is #0A0908 and the favicon is a gold temple
+on the same ground.
+
+Link previews use assets/og.jpg, a 1200x630 card rendered from scripts/og-card.html with
+the plaza plate, the same veil and the same three typefaces. Conversation share stubs carry
+it too, and they now render the question and the last thing said on the plaza's own ground
+instead of a white flash before the redirect.
 
 ## Voice
 
-Interface copy stays inside the world without cosplay: "Opening the plaza…",
-"Approaching the table…", "Sit down at this table", "Stay standing", "Lost in the
-stoa". Errors name the problem and the way back. Every route's footer carries the
-AI-character disclosure.
+Interface copy stays inside the world without cosplay: "Opening the plaza", "Approaching the
+table", "Sit down at this table", "Stay standing", "Lost in the stoa", "Looking through
+their pages". Errors name the problem and the way back. Numbers are computed, never
+decorative: the count strip reports tables open, how many moved in the last day, and how
+many have a visitor seated.
+
+Where the plaza holds nothing it says so in plain words rather than showing an empty box.
+A philosopher with no public-domain translation reads "Listed, not quoted", and the reason
+follows. Every route's footer carries the AI-character disclosure, and the about page adds
+that several of the modeled thinkers are alive and that a portrait is an illustration.

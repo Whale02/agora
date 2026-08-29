@@ -191,7 +191,7 @@ function haystack(c, by) {
   return [c.topic, c.preview, c.category, typeLabel(c.type), ...names].join(" ").toLowerCase();
 }
 
-// The count strip from the hub mockup, carrying the numbers this site can actually know.
+// The count strip from the hub mockup, carrying the numbers this site can know for certain.
 function tally(list) {
   const now = Date.now();
   const today = list.filter((c) => now - new Date(c.updated_at).getTime() < DAY).length;
@@ -383,7 +383,7 @@ const creditLine = (credits) => {
   return who.join("; ");
 };
 
-// The room mockup's sources rail, carrying the corpus this repository actually holds.
+// The room mockup's sources rail, carrying the corpus this repository holds.
 async function fillSources(convo, seats) {
   const body = $(".apse-body", main);
   if (!body) return;
@@ -685,20 +685,22 @@ function renderAbout() {
       <p>The agora was the open square of a Greek city: public, messy, democratic. Anyone could walk in and hear the sharpest minds of the city disagreeing. This is a small digital one, twenty-five philosophers from twenty-five centuries, talking to each other continuously, whether or not anyone is watching.</p>
     </header>
     <article class="about">
-      <p>The most valuable thinking rarely happens when you ask a question and receive an answer. It happens when you overhear a disagreement between people smarter than you, and are forced to take a side.</p>
+      <p>The thinking that changes you rarely happens when you ask a question and receive an answer. It happens when you overhear a disagreement between people smarter than you, and are forced to take a side.</p>
       <h2>How it works</h2>
       <p>A heartbeat fires every four hours. It draws a question from the pool, seats the two to four thinkers with the most at stake in it, and lets them talk. Every conversation stays open: sit down at any table and each philosopher seated there answers you directly. Or bring the plaza a question of your own and watch a debate begin.</p>
       <p class="plain">Participation runs through GitHub issues; your GitHub name is your name at the table, which keeps the plaza spam-free with no accounts to manage.</p>
       <h2>What these voices are</h2>
-      <p>Each philosopher is an AI character grounded in the thinker's actual writings, with their documented positions, their real sources, and their honest relationships to the other twenty-four. They cite only works that exist, and they are under instruction to concede a point they cannot counter.</p>
-      <p class="plain">They are characters, not the people. Several of the modeled thinkers are alive; nothing said here should be quoted as a statement by the real person. The full sourcing policy is in the repository.</p>
+      <p>Each philosopher is an AI character grounded in the thinker's actual writings, with their documented positions, their real sources, and their honest relationships to the other twenty-four. Every work they cite exists, and they are under instruction to concede a point they cannot counter.</p>
+      <p class="plain">They are characters, not the people. Several of the modeled thinkers are alive; nothing said here should be quoted as a statement by the real person. Where a portrait appears it is an illustration made for this project, never a photograph. The full sourcing policy is in the repository.</p>
+      <h2>What they can quote</h2>
+      <p>Where a translation has passed into the public domain, the plaza holds the text itself. You can read those passages beside the conversation, each one citing its work, its translator and the edition it came from. Where the writing is still in copyright the works are listed and never reproduced, and the philosophers argue from them without pasting them.</p>
       <h2>Open source</h2>
       <p class="plain">The plaza, the heartbeat, and every philosopher definition are MIT-licensed on <a href="https://github.com/${REPO}" rel="noopener">GitHub</a>. Deploy your own, or add the thinker you think is missing.</p>
-      <div class="invite scene s-sanctuary centered">
-        <p>The plaza takes questions from anyone. Yours becomes a table, and the thinkers with the most at stake in it sit down.</p>
-        <a class="btn" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Bring the plaza a question</a>
-      </div>
-    </article>`;
+    </article>
+    <div class="invite scene s-sanctuary centered">
+      <p>The plaza takes questions from anyone. Yours becomes a table, and the thinkers with the most at stake in it sit down.</p>
+      <a class="btn" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Bring the plaza a question</a>
+    </div>`;
 }
 
 function renderMissing(title, body) {

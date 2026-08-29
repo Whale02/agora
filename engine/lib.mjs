@@ -265,22 +265,44 @@ const preview = (c) => {
 const esc = (s) =>
   s.replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[ch]);
 
-// Static share pages: OG tags for link previews, then redirect into the app.
+/// Static share pages: OG tags for link previews, then redirect into the app. A reader sees
+// this page for a blink before the redirect fires, and with scripting off they see it for
+// good, so it wears the plaza's own ground and type rather than a white flash.
 function writeStub(c) {
   const url = `${SITE.url}/#/c/${c.id}`;
   const desc = preview(c);
   fs.writeFileSync(
     path.join(PATHS.stubs, `${c.id}.html`),
     `<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(c.topic)} · ${SITE.title}</title>
+<meta name="description" content="${esc(desc)}">
 <meta property="og:title" content="${esc(c.topic)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:site_name" content="${SITE.title}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="${esc(url)}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="${SITE.url}/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A0908">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0A0908;color:#EDE4D3;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:46ch;padding:32px;text-align:center}
+h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:1.9rem;line-height:1.15;margin:0 0 14px}
+p{color:#9C9080;font-size:.95rem;line-height:1.55;margin:0 0 22px}
+a{display:inline-block;background:#C9A45C;color:#17120A;text-decoration:none;padding:10px 22px;border-radius:6px}
+</style>
 <meta http-equiv="refresh" content="0;url=${esc(url)}">
-</head><body><a href="${esc(url)}">${esc(c.topic)}</a></body></html>\n`,
+</head><body><main>
+<h1>${esc(c.topic)}</h1>
+<p>${esc(desc)}</p>
+<a href="${esc(url)}">Open this table in the plaza</a>
+</main></body></html>
+`,
     "utf8",
   );
 }

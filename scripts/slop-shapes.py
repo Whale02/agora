@@ -5,7 +5,7 @@ slop-scan.py covers the vocabulary half. This covers the shapes: em dashes, curl
 bullet-bold-colon lists, emoji markers, title-case headings, the rule of three, negative
 parallelism, and sentence-length monotony.
 
-Every metric here is tied to a section of docs/design/writing-guidelines.md, and the quote
+Every metric here is tied to a section of writing/de-ai-slop-rulebook.md, and the quote
 that motivates it is pulled out of that file at run time and printed with the number. If a
 section is renamed or removed, this script says so instead of silently measuring something
 the rulebook no longer claims.

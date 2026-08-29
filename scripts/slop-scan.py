@@ -2,7 +2,7 @@
 """Scan text for the tells the de-AI-slop rulebook already quotes.
 
 This script invents nothing. Every pattern it looks for is parsed at run time out of
-the "Words to watch:" lines inside docs/design/writing-guidelines.md, which are verbatim
+the "Words to watch:" lines inside writing/de-ai-slop-rulebook.md, which are verbatim
 quotes from the cited sources. Change the rulebook and this scanner changes with it;
 there is no second list to keep in sync.
 

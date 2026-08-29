@@ -28,8 +28,10 @@ const glyph = (p) =>
 const seat = (p, size = "") =>
   `<span class="seat ${size}" style="--seat:${esc(p.accent)}" title="${esc(p.name_en)}" aria-hidden="true">${esc(glyph(p))}</span>`;
 
+const heatLevel = (heat) => (heat >= 0.65 ? 3 : heat >= 0.4 ? 2 : 1);
+
 function heatMark(heat) {
-  const level = heat >= 0.65 ? 3 : heat >= 0.4 ? 2 : 1;
+  const level = heatLevel(heat);
   const word = ["calm", "warm", "heated"][level - 1];
   const strokes = [0, 1, 2]
     .map((i) => `<line class="stroke${i < level ? " on" : ""}" x1="${4 + i * 7}" y1="14" x2="${9 + i * 7}" y2="2" stroke-width="2.4" stroke-linecap="round"/>`)
@@ -78,6 +80,11 @@ async function renderPlaza() {
     .filter((c) => !plazaState.category || c.category === plazaState.category)
     .sort((a, b) => (plazaState.sort === "heat" ? b.heat - a.heat : b.updated_at.localeCompare(a.updated_at)));
 
+  // The hottest table leads the plaza; its exchange is readable before anything else.
+  const lead = [...list].sort((a, b) => b.heat - a.heat)[0];
+  const rest = list.filter((c) => c !== lead);
+  const leadHTML = lead ? await leadTablet(lead, by) : "";
+
   const chips = (items, key, current) =>
     items
       .map(
@@ -87,18 +94,21 @@ async function renderPlaza() {
       .join("");
 
   main.innerHTML = `
-    <section class="invocation">
-      <h1>The philosophers are already talking.</h1>
-      <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say — sit down.</p>
-      <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
+    <section class="forum">
+      <div class="invocation">
+        <h1>The philosophers are already talking.</h1>
+        <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say — sit down.</p>
+        <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
+      </div>
+      ${leadHTML}
     </section>
     <div class="filters" role="toolbar" aria-label="Filter conversations">
       ${chips([[null, "All"], ...categories.map((c) => [c, c])], "cat", plazaState.category)}
       <span class="sort">${chips([["recent", "Latest"], ["heat", "Most heated"]], "sort", plazaState.sort)}</span>
     </div>
     ${
-      list.length
-        ? `<ul class="tables">${list.map((c) => tablet(c, by)).join("")}</ul>`
+      rest.length || lead
+        ? `<ul class="tables">${rest.map((c) => tablet(c, by)).join("")}</ul>`
         : `<div class="empty"><h2>No tables here yet</h2><p>No conversation under this topic so far. The heartbeat brings new ones every few hours.</p></div>`
     }`;
 
@@ -116,10 +126,47 @@ async function renderPlaza() {
   );
 }
 
+const trim = (text, n) => {
+  const cut = text.replace(/\s+/g, " ").trim();
+  return cut.length > n ? cut.slice(0, n).replace(/\s\S*$/, "") + "…" : cut;
+};
+
+// The lead table: the plaza's hottest exchange, its last two turns readable in the first viewport.
+async function leadTablet(c, by) {
+  let turns = [];
+  try {
+    const convo = await load(`data/conversations/${c.id}.json`);
+    turns = convo.messages.slice(-2);
+  } catch {
+    return "";
+  }
+  const seats = c.participants.map((s) => by[s]).filter(Boolean);
+  const live = turns
+    .map((m) => {
+      const p = by[m.speaker];
+      const name = m.speaker_type === "user" ? m.speaker : p?.name_en ?? m.speaker;
+      return `<div class="turn" style="--speaker:${esc(p?.accent ?? "var(--sage)")}">
+        <span class="name">${esc(name)}</span>
+        <p>${esc(trim(m.content, 190))}</p>
+      </div>`;
+    })
+    .join("");
+  return `<article class="tablet lead h${heatLevel(c.heat)}">
+    <a class="cover" href="#/c/${esc(c.id)}" aria-label="Enter: ${esc(c.topic)}"></a>
+    <div class="meta">
+      <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
+      ${heatMark(c.heat)}
+    </div>
+    <h2>${esc(c.topic)}</h2>
+    <div class="live">${live}</div>
+    <p class="enter">Enter the conversation →</p>
+  </article>`;
+}
+
 function tablet(c, by) {
   const seats = c.participants.map((s) => by[s]).filter(Boolean);
   const lastSpeaker = by[c.last_speaker]?.name_en;
-  return `<li><article class="tablet">
+  return `<li><article class="tablet h${heatLevel(c.heat)}">
     <a class="cover" href="#/c/${esc(c.id)}" aria-label="Read: ${esc(c.topic)}"></a>
     <div class="meta">
       <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
@@ -214,12 +261,25 @@ function ritual(convo, seats) {
     </div>
   </div>`;
   document.body.appendChild(wrap);
-  const close = () => wrap.remove();
+  const opener = document.activeElement;
+  function close() {
+    document.removeEventListener("keydown", onKey);
+    wrap.remove();
+    if (opener instanceof HTMLElement) opener.focus();
+  }
+  function onKey(e) {
+    if (e.key === "Escape") return close();
+    if (e.key !== "Tab") return;
+    const f = [...wrap.querySelectorAll("button, a[href]")];
+    const edge = e.shiftKey ? f[0] : f[f.length - 1];
+    if (document.activeElement === edge) {
+      e.preventDefault();
+      (e.shiftKey ? f[f.length - 1] : f[0]).focus();
+    }
+  }
+  document.addEventListener("keydown", onKey);
   $("[data-x]", wrap).addEventListener("click", close);
   wrap.addEventListener("click", (e) => e.target === wrap && close());
-  document.addEventListener("keydown", function onEsc(e) {
-    if (e.key === "Escape") { close(); document.removeEventListener("keydown", onEsc); }
-  });
   $("[data-go]", wrap).focus();
 }
 

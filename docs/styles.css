@@ -4,7 +4,7 @@
   --surface: #F2F0EB;
   --surface-deep: #ECE9E1;
   --ink: #2C2C2C;
-  --muted: #77776D;
+  --muted: #6A6A60;
   --terra: #C4956A;
   --terra-deep: #A87848;
   --sage: #7A8B6F;
@@ -12,7 +12,9 @@
   --line: #E5E3DD;
   --line-strong: #D6D3C9;
   --heat: #C45D4A;
+  --heat-deep: #A84A38;
   --sun: #F4E9D8;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.17 0 0 0 0 0.17 0 0 0 0 0.16 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");
   --display: "Marcellus", "Times New Roman", serif;
   --serif: "Source Serif 4", Georgia, "Noto Serif SC", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -35,7 +37,7 @@ body {
   color: var(--ink);
   background:
     linear-gradient(180deg, var(--sun) 0, rgba(244, 233, 216, 0) 340px),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.17 0 0 0 0 0.17 0 0 0 0 0.16 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E"),
+    var(--grain),
     var(--bg);
 }
 
@@ -85,7 +87,10 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 20px 72px; }
 main:focus { outline: none; }
 
 /* ---------- plaza ---------- */
-.invocation { margin: 44px 0 8px; max-width: 34ch; }
+.forum { display: grid; grid-template-columns: 1fr; gap: 26px; margin: 38px 0 8px; align-items: center; }
+@media (min-width: 880px) { .forum { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 44px; } }
+
+.invocation { max-width: 34ch; }
 .invocation h1 {
   font-family: var(--display); font-weight: 400;
   font-size: clamp(1.9rem, 5.5vw, 3rem);
@@ -117,11 +122,16 @@ main:focus { outline: none; }
 .filters .sort { margin-left: auto; display: flex; gap: 8px; }
 
 .tables { display: grid; grid-template-columns: 1fr; gap: 18px; list-style: none; margin: 0; padding: 0; }
-@media (min-width: 880px) { .tables { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 880px) {
+  .tables { grid-template-columns: 1fr 1fr; }
+  /* tables of varied size, not a uniform grid */
+  .tables > li:nth-child(3n + 1) { grid-column: 1 / -1; }
+  .tables > li:nth-child(3n + 1) blockquote { max-width: 72ch; }
+}
 
 .tablet {
   position: relative;
-  background: var(--surface);
+  background: var(--grain), var(--surface);
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 22px 22px 18px;
@@ -146,6 +156,19 @@ main:focus { outline: none; }
 .tablet blockquote .who { display: block; margin-top: 6px; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); font-style: normal; }
 .tablet .foot { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; color: var(--muted); font-size: 0.8rem; }
 
+/* a heated table's surface warms perceptibly */
+.tablet.h3 { background: var(--grain), #F5EDE1; border-color: #E4D9C5; }
+
+/* the lead table: the hottest exchange, readable before anything else */
+.tablet.lead { padding: 26px 26px 22px; }
+.tablet.lead h2 { font-size: 1.5rem; margin-bottom: 14px; }
+.tablet.lead .live .turn { border-left: 2px solid var(--speaker, var(--line-strong)); padding-left: 14px; margin: 0 0 14px; }
+.tablet.lead .live .turn:last-child { margin-bottom: 0; }
+.tablet.lead .live .name { font-size: 0.8rem; color: var(--muted); letter-spacing: 0.04em; }
+.tablet.lead .live p { margin: 4px 0 0; font-family: var(--serif); font-size: 0.97rem; line-height: 1.55; color: #44443E; }
+.tablet.lead .enter { margin: 16px 0 0; font-size: 0.92rem; color: var(--sage-deep); }
+.tablet.lead:hover .enter { text-decoration: underline; text-underline-offset: 3px; }
+
 .seats { display: flex; }
 .seats .seat { margin-left: -7px; }
 .seats .seat:first-child { margin-left: 0; }
@@ -166,7 +189,7 @@ main:focus { outline: none; }
 .heat svg { display: block; }
 .heat .stroke { stroke: var(--line-strong); }
 .heat .stroke.on { stroke: var(--heat); }
-.heat.h3 { color: var(--heat); }
+.heat.h3 { color: var(--heat-deep); }
 
 .empty, .err {
   margin: 60px auto; max-width: 46ch; text-align: center; color: var(--muted);
@@ -327,7 +350,6 @@ main:focus { outline: none; }
 @media (max-width: 560px) {
   .colonnade { flex-wrap: wrap; padding-top: 16px; }
   .colonnade nav { width: 100%; justify-content: flex-start; margin-left: -11px; }
-  .invocation { margin-top: 30px; }
   .filters .sort { margin-left: 0; }
   .thread .actions { flex-wrap: wrap; }
 }

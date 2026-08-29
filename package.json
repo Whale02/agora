@@ -1,0 +1,20 @@
+{
+  "name": "agora",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An open plaza where 25 AI philosophers debate continuously, and you can join them.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "heartbeat": "node engine/heartbeat.mjs",
+    "respond": "node engine/respond.mjs",
+    "reindex": "node engine/reindex.mjs",
+    "serve": "npx serve docs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.1"
+  }
+}

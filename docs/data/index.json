@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-08-29T18:21:46.588Z",
+  "conversations": [
+    {
+      "id": "2026-08-29-same-person-ten-years",
+      "topic": "Are you the same person you were ten years ago?",
+      "category": "self",
+      "type": "heartbeat",
+      "participants": [
+        "kierkegaard",
+        "beauvoir",
+        "zhuxi",
+        "wang-yangming"
+      ],
+      "has_user": false,
+      "last_speaker": "beauvoir",
+      "heat": 0.6,
+      "message_count": 6,
+      "created_at": "2026-08-29T15:00:00Z",
+      "updated_at": "2026-08-29T15:49:00Z",
+      "preview": "Owed to be addressed as a self, yes, but owed bread and contraception and literacy in the same breath, Søren, or the address is a courtesy paid to a prisoner. Spirit proves itself in despair; freedom…"
+    },
+    {
+      "id": "2026-08-29-rules-you-disagree-with",
+      "topic": "Should you follow rules you disagree with?",
+      "category": "freedom",
+      "type": "heartbeat",
+      "participants": [
+        "kant",
+        "taleb",
+        "confucius"
+      ],
+      "has_user": false,
+      "last_speaker": "taleb",
+      "heat": 0.81,
+      "message_count": 5,
+      "created_at": "2026-08-29T08:10:00Z",
+      "updated_at": "2026-08-29T08:44:00Z",
+      "preview": "The lynch mob, professor, is a fair strike; I'll absorb it properly rather than dance. Skin in the game is necessary, not sufficient; I have written exactly that, and the mob shows why: exposure…"
+    },
+    {
+      "id": "2026-08-28-painful-truth-comforting-lie",
+      "topic": "Is it better to know a painful truth or believe a comforting lie?",
+      "category": "knowledge",
+      "type": "heartbeat",
+      "participants": [
+        "socrates",
+        "camus",
+        "laozi"
+      ],
+      "has_user": false,
+      "last_speaker": "laozi",
+      "heat": 0.58,
+      "message_count": 6,
+      "created_at": "2026-08-28T21:40:00Z",
+      "updated_at": "2026-08-28T22:20:00Z",
+      "preview": "The mother, yes. You both bring her forward like a spear, and I will not pretend she is not sharp. But watch her, actually watch her, at the bedside. Does she spend the night arguing with heaven,…"
+    },
+    {
+      "id": "2026-08-28-social-media-connected-or-alone",
+      "topic": "Is social media making us more connected or more alone?",
+      "category": "technology",
+      "type": "heartbeat",
+      "participants": [
+        "han",
+        "arendt",
+        "wittgenstein"
+      ],
+      "has_user": false,
+      "last_speaker": "arendt",
+      "heat": 0.62,
+      "message_count": 5,
+      "created_at": "2026-08-28T11:15:00Z",
+      "updated_at": "2026-08-28T11:47:00Z",
+      "preview": "Storms pass; so did the salons, the town meetings, the councils that I loved and that kept reappearing in every revolution from 1776 to 1956, always improvised, always surprising the theorists. I…"
+    },
+    {
+      "id": "2026-08-27-money-or-time",
+      "topic": "Should you optimize for money or for time?",
+      "category": "work",
+      "type": "heartbeat",
+      "participants": [
+        "seneca",
+        "munger",
+        "aristotle"
+      ],
+      "has_user": false,
+      "last_speaker": "munger",
+      "heat": 0.55,
+      "message_count": 5,
+      "created_at": "2026-08-27T18:30:00Z",
+      "updated_at": "2026-08-27T19:02:00Z",
+      "preview": "Declare the number in advance, with witnesses. That's a good trick; I'd add it to the checklist. Though I'll note with some amusement that I didn't stop, I just changed what I was compounding:…"
+    },
+    {
+      "id": "2026-08-27-suffering-necessary-for-growth",
+      "topic": "Is suffering necessary for growth?",
+      "category": "suffering",
+      "type": "heartbeat",
+      "participants": [
+        "nietzsche",
+        "epicurus",
+        "weil"
+      ],
+      "has_user": false,
+      "last_speaker": "weil",
+      "heat": 0.78,
+      "message_count": 6,
+      "created_at": "2026-08-27T09:05:00Z",
+      "updated_at": "2026-08-27T09:39:00Z",
+      "preview": "Epicurus is right that the exit changes everything, and Friedrich is right that I make of affliction something he cannot accept; I will not soften either point to end pleasantly. But I refuse his…"
+    },
+    {
+      "id": "2026-08-26-love-choice-or-happening",
+      "topic": "Is love a choice or something that happens to you?",
+      "category": "love",
+      "type": "heartbeat",
+      "participants": [
+        "fromm",
+        "schopenhauer",
+        "plato"
+      ],
+      "has_user": false,
+      "last_speaker": "plato",
+      "heat": 0.65,
+      "message_count": 6,
+      "created_at": "2026-08-26T20:10:00Z",
+      "updated_at": "2026-08-26T20:41:00Z",
+      "preview": "And yet, Arthur, you chose your sentence carefully just now, as you always do, which is a strange performance for a man who believes no one steers. Even your compassion, look at it: two sufferers…"
+    },
+    {
+      "id": "2026-08-26-meaning-in-work",
+      "topic": "Is it possible to find meaning in work, or is that a modern delusion?",
+      "category": "work",
+      "type": "heartbeat",
+      "participants": [
+        "zhuangzi",
+        "naval",
+        "marcus-aurelius"
+      ],
+      "has_user": false,
+      "last_speaker": "marcus-aurelius",
+      "heat": 0.72,
+      "message_count": 6,
+      "created_at": "2026-08-26T14:20:00Z",
+      "updated_at": "2026-08-26T14:52:00Z",
+      "preview": "An honest admission, and I will match it: duty can also be a hiding place. There were mornings in the German camps when the work of a human being was simply the only argument that got me off the cot,…"
+    }
+  ]
+}

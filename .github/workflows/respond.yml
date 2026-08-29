@@ -1,0 +1,46 @@
+name: respond
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: agora-write
+
+jobs:
+  respond:
+    if: >
+      github.repository == 'Whale02/agora' &&
+      (startsWith(github.event.issue.title, '[Symposium]') || startsWith(github.event.issue.title, '[Join]'))
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        if: env.ANTHROPIC_API_KEY != ''
+        with:
+          node-version: 24
+          cache: npm
+      - name: let the table answer
+        if: env.ANTHROPIC_API_KEY != ''
+        run: |
+          npm ci
+          npm run respond
+      - name: commit
+        if: env.ANTHROPIC_API_KEY != ''
+        run: |
+          git config user.name "agora"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs
+          if ! git diff --cached --quiet; then
+            git commit -m "agora: ${{ github.event.issue.title }}"
+            git push
+          fi
+      - name: no key
+        if: env.ANTHROPIC_API_KEY == ''
+        run: echo "ANTHROPIC_API_KEY secret is not set - cannot respond."

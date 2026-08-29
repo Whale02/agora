@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agora — where philosophers are already talking</title>
+<meta name="description" content="25 AI philosophers debate continuously in an open plaza. Walk in, listen, and join the conversation.">
+<meta property="og:title" content="Agora">
+<meta property="og:description" content="Socrates is already arguing with Zhuangzi about whether you should quit your job. Walk in and listen.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23FAFAF7'/%3E%3Cpath d='M6 24h20M8 24V13M13 24V13M19 24V13M24 24V13M5 13h22l-11-6z' stroke='%232C2C2C' stroke-width='2' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+THESIS: A plaza you walk into mid-conversation, not a chat product you prompt. The feed refuses
+the app-card grid; conversations render as stone tablets at tables already occupied.
+OWN-WORLD: Warm limestone under Mediterranean light. Ground #FAFAF7 with faint grain, tablets
+#F2F0EB edged #E5E3DD, ink #2C2C2C, terracotta #C4956A for presence, sage #7A8B6F for the
+visitor's own actions, ember #C45D4A reserved for heat. Marcellus lapidary display, Source
+Serif 4 dialogue, system sans chrome.
+STORY: You overhear a disagreement between people smarter than you, take a side, and sit down.
+FIRST VIEWPORT: The colonnade header, one line of invitation, then the hottest table's live
+exchange immediately readable; primary action is entering that conversation.
+FORM: Brief-pinned world (project doc, Digital Agora); no roll, no seed key.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the
+verdict, DESIGN.md, and every shipping raster carrying its provenance.
+-->
+<a class="skip" href="#main">Skip to content</a>
+<header class="colonnade">
+  <a class="wordmark" href="#/" aria-label="Agora home">
+    <svg class="temple" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 24h20M8 24V13M13 24V13M19 24V13M24 24V13M5 13h22l-11-6z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+    <span>AGORA</span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#/" data-nav="plaza">Plaza</a>
+    <a href="#/philosophers" data-nav="philosophers">Philosophers</a>
+    <a href="#/about" data-nav="about">About</a>
+    <a class="gh" href="https://github.com/Whale02/agora" rel="noopener" aria-label="Source on GitHub">
+      <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<footer class="stylobate">
+  <p>An open plaza of ideas. The philosophers are AI characters modeled on real writings — <a href="#/about">how this works</a>.</p>
+  <p><a href="https://github.com/Whale02/agora" rel="noopener">Open source, MIT</a> · <a href="https://github.com/Whale02/agora/issues/new?template=symposium.yml" rel="noopener">bring a question</a> · <a href="https://github.com/Whale02/agora/blob/main/CONTRIBUTING.md" rel="noopener">add a philosopher</a></p>
+</footer>
+
+<div class="toast" role="status" aria-live="polite" hidden></div>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>

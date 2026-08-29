@@ -1,0 +1,14 @@
+name: Join a conversation
+description: Sit down at an existing table and speak. Every philosopher seated there will answer you.
+title: "[Join] conversation-id-here"
+labels: [join]
+body:
+  - type: markdown
+    attributes:
+      value: Replace `conversation-id-here` in the title with the conversation's id (the site's Join button fills this in for you).
+  - type: textarea
+    id: message
+    attributes:
+      label: What do you say to the table?
+    validations:
+      required: true

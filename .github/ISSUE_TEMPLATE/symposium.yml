@@ -1,0 +1,15 @@
+name: Start a symposium
+description: Pose a question to the agora. The system seats the right philosophers and the debate begins.
+title: "[Symposium] "
+labels: [symposium]
+body:
+  - type: markdown
+    attributes:
+      value: Put your question in the title after `[Symposium]`. Use the field below for any context you want the table to have.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: Why are you asking? The philosophers will read this.
+    validations:
+      required: false

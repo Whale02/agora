@@ -97,6 +97,38 @@ exits 1 on any WCAG AA miss. Run it on every visual slice; it caught two real de
 - `node shot.mjs` exit 0; `node contrast.mjs` exit 0 at 1440 and 390; `node engine/reindex.mjs`
   exit 0; both prose gates exit 0.
 
+### A6. Philosopher profiles, commit ea18e2a
+
+- `proftest.mjs` drives both profile kinds: 15 checks over the hero, the era rail, the
+  dossier, the works block, the passage drawer fetch, the citation shape, and the roster's
+  split of eight handoff portraits against seventeen medallions. Exit 0.
+- The drawer check opens Plato, fetches 437KB of corpus, and asserts the caption reads
+  `Republic, Book I, translated by Benjamin Jowett, 1892` with a link to
+  gutenberg.org/ebooks/1497 and a passage over 60 characters of verbatim text.
+- `node contrast.mjs` failed first with 14 misses, worst 1.35, because the figure hero's
+  veil opened under text that the layout does not hold to the left column. The veil now
+  closes across the whole panel except in the wide three column layout, where the titles end
+  near 70 percent and the era panel over the bright strip is opaque. Exit 0 after the fix.
+- `node shot.mjs` exit 0, no horizontal overflow on 14 captures at 1440 and 390.
+
+### A7. About, 404, stubs, favicon, OG, DESIGN.md, commit 9461f1c
+
+- `docs/assets/og.jpg` rendered at 1200x630 from `scripts/og-card.html`, reviewed as an
+  image. The app shell and all eight regenerated stubs carry it with the large-image card.
+- The restyled stub photographed at 1440 and 390 with the meta refresh stripped, which is
+  what a link preview and a scripting-off reader see: the question, the last thing said, and
+  a door back into the plaza on the plaza's ground.
+- `node engine/reindex.mjs` exit 0 and regenerated all eight stubs from the new writeStub.
+- DESIGN.md rewritten from the built site and gated: `slop-scan.py` clean, `slop-shapes.py`
+  exit 0 with 0 spaced em dashes, 0 curly quotes, 0 title case headings.
+- PRODUCT.md's brand commitments still pinned warm limestone and the old palette; repinned
+  to the handoff world, both gates exit 0.
+- Four flagged words removed from shipped copy, caught by running the scanner over app.mjs
+  even though it is not a gated file: `valuable` and `only` on the about page, `actually` in
+  two source comments.
+- Full sweep on the same HEAD: `shot.mjs` exit 0, `contrast.mjs` exit 0, `feedtest.mjs`
+  exit 0, `roomtest.mjs` exit 0, `proftest.mjs` exit 0, both prose gates exit 0.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)
@@ -137,6 +169,40 @@ A5, the room:
     Those pages did not load
     On work                                       the label above a documented position
 
+A6, the profile:
+
+    Illustration made for this project            under every handoff portrait
+    Era / Tradition / In this plaza / Works listed  the era rail terms
+    360 passages in the plaza, translated by Benjamin Jowett, 1892.
+    Read from their own pages                     the drawer control
+    Listed, not quoted. The plaza carries no passages from Zhuangzi, so the
+    philosophers cite these works without reproducing them.
+    No conversation has seated Kant yet. The heartbeat seats the thinkers with the
+    most at stake in each question.
+
+A7, the about page gained two sections and a card:
+
+    Where a portrait appears it is an illustration made for this project, never a
+    photograph.
+
+    What they can quote
+    Where a translation has passed into the public domain, the plaza holds the text
+    itself. You can read those passages beside the conversation, each one citing its
+    work, its translator and the edition it came from. Where the writing is still in
+    copyright the works are listed and never reproduced, and the philosophers argue
+    from them without pasting them.
+
+    Open this table in the plaza                  the share stub's door
+    The philosophers are already talking.         the share card
+    Twenty-five thinkers from twenty-five centuries share one plaza, whether or not
+    anyone is watching.
+
+Two older lines were rewritten to clear the vocabulary gate:
+
+    The thinking that changes you rarely happens when you ask a question and
+    receive an answer.                            was "the most valuable thinking"
+    Every work they cite exists                   was "they cite only works that exist"
+
 ## Adaptation calls
 
 (mockup elements dropped or rewired under the honesty law, with one line of reasoning)
@@ -174,6 +240,18 @@ A5, the room:
 - A5. The mockup's clarifying-question button would route to the same GitHub form as sitting
   down, so it is one door, not two.
 
+- A6. Dropped the mockup's gold quote band and its closing quote line. The one first person
+  text on file is the in-character identity written for this project, and setting that in
+  quotation marks would present it as something the thinker wrote. Philosophers with a
+  corpus get the passage drawer instead, which quotes what a translator published.
+- A6. Every handoff portrait says under itself that it is an illustration made for this
+  project. Several modeled thinkers are alive, and an AI portrait beside AI words should not
+  be mistaken for a photograph. The about page repeats it in prose.
+- A6. The mockup's invite-to-sit button on a profile is held for C1, which owns the
+  one-on-one flow. Nothing else on the profile depends on it.
+- A7. The share stub keeps its meta refresh, so it is a redirect first and a page second,
+  but it now renders the question and the last thing said rather than a bare link on white.
+
 ## Overseer calls
 
 (reversible decisions the overseer made on the run's behalf; founder review pending)
@@ -192,6 +270,14 @@ A5, the room:
   summary is a build-order bug and not a claim. Without it the sources rail would have to
   probe for 404s or fetch hundreds of kilobytes to learn what exists. Lane B's sources
   library needs the same file.
+
+- A7 edited `writeStub` in engine/lib.mjs. The scope boundary reserves engine edits for lane
+  D, but A7 names the share stubs as a deliverable and the stubs exist nowhere else: they are
+  generated, so a hand edit would be overwritten by the next reindex. The change is confined
+  to the emitted HTML and touches no generation path.
+- A7 also repinned PRODUCT.md's brand commitments, which still described the sunlit limestone
+  world the handoff replaced. The plan makes the handoff world binding, so leaving PRODUCT.md
+  contradicting it would have left two pins in the repository.
 
 ## For the founder
 

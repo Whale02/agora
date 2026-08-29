@@ -55,10 +55,10 @@ Lane A, the reskin (first):
 - [x] A5. Symposium room reading view: the thread view recomposed per the room mockup:
       question hero, seated-philosopher rail, exchange list, the sit-down flow (GitHub issue)
       as the one real action; sources rail lights up when lane B lands.
-- [ ] A6. Philosopher profiles per the profile mockups: era rail, representative
+- [x] A6. Philosopher profiles per the profile mockups: era rail, representative
       conversations, sources block, the handoff profile art where it exists (8 philosophers),
       a consistent gold-on-marble medallion treatment for the rest.
-- [ ] A7. About, 404, share stubs, favicon, OG tags restyled to the world, and DESIGN.md
+- [x] A7. About, 404, share stubs, favicon, OG tags restyled to the world, and DESIGN.md
       rewritten from the built site so the design record matches what ships.
 
 Lane D, the corpus (after lane A; the depth that feeds lane B):

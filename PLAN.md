@@ -49,10 +49,10 @@ Lane A, the reskin (first):
       top-bar collapse on mobile. Bilingual labels.
 - [x] A3. Background system: hero/header/section variants using the optimized assets, with
       legibility guaranteed (scrims, not hope).
-- [ ] A4. Conversations hub: the plaza feed recomposed per the hub mockup: lead conversation,
+- [x] A4. Conversations hub: the plaza feed recomposed per the hub mockup: lead conversation,
       table list with type, participants, heat, status, last activity; filters and sort
       carried over from the current app.
-- [ ] A5. Symposium room reading view: the thread view recomposed per the room mockup:
+- [x] A5. Symposium room reading view: the thread view recomposed per the room mockup:
       question hero, seated-philosopher rail, exchange list, the sit-down flow (GitHub issue)
       as the one real action; sources rail lights up when lane B lands.
 - [ ] A6. Philosopher profiles per the profile mockups: era rail, representative

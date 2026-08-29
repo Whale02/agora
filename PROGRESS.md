@@ -65,6 +65,38 @@ exits 1 on any WCAG AA miss. Run it on every visual slice; it caught two real de
   captured separately at both widths.
 - Prose gates on the gated files: `slop-scan.py` exit 0, `slop-shapes.py` exit 0.
 
+### A4. Conversations hub, commit 0f028fa
+
+- `feedtest.mjs` in the scratchpad drives the hub in a real browser: 11 checks covering the
+  row list, the tally, search narrowing, focus retention in the search field, the empty
+  state on no match, subject filtering, pressed state, sort reordering, and the presence of
+  every column the slice asked for. Exit 0.
+- Negative control: replacing the search predicate with a pass-through failed 3 of the 11.
+- `node shot.mjs` exit 0, no horizontal overflow on 14 captures; `node contrast.mjs` exit 0
+  at 1440 and 390.
+- The audit caught a real layout defect. The same row component appears on a profile inside
+  a 72ch measure, where the column layout crushed the question to one word per line; the
+  gold rule beside it then sat under the text at 2.8:1. Rows now answer to the width of the
+  list they sit in, using a container on the list rather than on the page.
+- The new `.kind` chip collided with the profile's existing `.kind` spans and its `nowrap`
+  gave 641px of horizontal overflow at 390. The profile spans moved to `.rel`.
+
+### A5. Symposium room, commit 9d6635f
+
+- `roomtest.mjs` drives the room: 14 checks over the question hero, the bench, the exchange,
+  the sources rail, the passage drawer, and the sit-down ritual. Exit 0.
+- The drawer check is a real fetch: it opens Marcus Aurelius, loads 282KB of corpus, and
+  asserts the rendered caption reads `Meditations, Book I, 17, translated by George Long,
+  1862` with a link to gutenberg.org/ebooks/15877, and that the quoted text is verbatim
+  rather than a summary.
+- It found a real defect: the ritual read its opener from `document.activeElement`, which is
+  the body unless a pointer did the activating, so Escape did not return focus. The opener is
+  now passed in, and the check passes.
+- One check asserts the absence of borrowed chrome: no like counts, save controls, AI
+  annotation, presence count or elapsed timer anywhere in the rendered page.
+- `node shot.mjs` exit 0; `node contrast.mjs` exit 0 at 1440 and 390; `node engine/reindex.mjs`
+  exit 0; both prose gates exit 0.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)
@@ -81,6 +113,29 @@ A3, the invitation band at the foot of the about page:
 
     The plaza takes questions from anyone. Yours becomes a table, and the thinkers with
     the most at stake in it sit down.
+
+A4, the hub. The count strip, assembled from the index at render time:
+
+    8 tables open · 2 moved in the last day · no visitor seated yet
+
+    Search a topic, a philosopher, a phrase       the search placeholder
+    All subjects / Any kind / Latest / Most heated  the filter and sort chips
+    symposium / a visitor's question              the two kinds the engine writes
+
+    Nothing under that
+    No table matches <what you typed>. Try a philosopher's name, or a word one of
+    them would use.
+
+A5, the room:
+
+    What they wrote                               the sources rail heading
+    Looking through their pages...                while the rail loads
+    205 passages · 12 on work                     the counts line
+    Read from Marcus Aurelius on work             the drawer control
+    Listed, not quoted. The plaza carries no passages from Zhuangzi.
+    Nothing in this corpus touches work.
+    Those pages did not load
+    On work                                       the label above a documented position
 
 ## Adaptation calls
 
@@ -101,6 +156,24 @@ A3, the invitation band at the foot of the about page:
 - A3. The plates ship with a brightness lift in CSS rather than baked into the webp files,
   so the originals stay untouched and the lift is one number to retune per surface.
 
+- A4. The hub mockup's saved and favourite tabs, its source-count column and its percentage
+  heat score are out. Saved and favourite need accounts. The source count needs lane D. The
+  percentage would make heat a score, which DESIGN.md forbids; the hatch mark stays.
+- A4. The count strip stayed, rebuilt from numbers the index actually holds: tables open,
+  how many moved in the last day, how many have a visitor seated.
+- A4. The kind filter renders only when the index holds more than one type, so the plaza
+  never shows a tab that can only come back empty.
+- A5. Dropped from the room mockup: the elapsed timer, the room presence count, the like and
+  comment and save counts, the AI annotation button, the invite control, the summary mode,
+  and the four phase debate timeline. Nothing in the data marks phases, and the rest need a
+  server or an account.
+- A5. Kept and wired: the seated rail, whose stance line is either a documented position on
+  this conversation's own subject or the philosopher's recorded manner of arguing, and the
+  sources rail, which cites the passage corpus this repository holds and says plainly where
+  it holds none.
+- A5. The mockup's clarifying-question button would route to the same GitHub form as sitting
+  down, so it is one door, not two.
+
 ## Overseer calls
 
 (reversible decisions the overseer made on the run's behalf; founder review pending)
@@ -112,6 +185,13 @@ A3, the invitation band at the foot of the about page:
   lane A. DESIGN.md still describes the limestone world, and rewriting it while the surfaces
   are mid-recomposition would document a moving target. This adds a requirement rather than
   relaxing one.
+
+- A5 added `docs/data/passages.json`, a 4.6KB summary generated from the corpus files by
+  `scripts/build-passage-index.mjs`. The scope boundary reserves data edits for lane D, and
+  this is derived rather than authored: it is read back out of the corpus files, so a stale
+  summary is a build-order bug and not a claim. Without it the sources rail would have to
+  probe for 404s or fetch hundreds of kilobytes to learn what exists. Lane B's sources
+  library needs the same file.
 
 ## For the founder
 

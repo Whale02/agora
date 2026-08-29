@@ -94,14 +94,12 @@ async function renderPlaza() {
       .join("");
 
   main.innerHTML = `
-    <section class="forum">
-      <div class="invocation">
-        <h1>The philosophers are already talking.</h1>
-        <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say, sit down.</p>
-        <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
-      </div>
-      ${leadHTML}
+    <section class="canopy scene s-plaza split">
+      <h1>The philosophers are already talking.</h1>
+      <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say, sit down.</p>
+      <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
     </section>
+    ${leadHTML}
     <div class="filters" role="toolbar" aria-label="Filter conversations">
       ${chips([[null, "All"], ...categories.map((c) => [c, c])], "cat", plazaState.category)}
       <span class="sort">${chips([["recent", "Latest"], ["heat", "Most heated"]], "sort", plazaState.sort)}</span>
@@ -198,7 +196,7 @@ async function renderConversation(id) {
   main.innerHTML = `
     <article class="thread">
       <p class="crumb"><a href="#/">← Back to the plaza</a></p>
-      <header class="q">
+      <header class="q scene s-thread split">
         <h1>${esc(convo.topic)}</h1>
         <div class="standing">
           <span class="seats">${seats.map((p) => seat(p)).join("")}</span>
@@ -207,7 +205,7 @@ async function renderConversation(id) {
         </div>
       </header>
       <ol class="exchange">${convo.messages.map((m) => utterance(m, by)).join("")}</ol>
-      <div class="sitdown">
+      <div class="sitdown scene s-rotunda centered">
         <p>The table is still open. When you speak, every philosopher seated here answers you directly.</p>
         <button class="btn" data-join>Sit down at this table</button>
         <div class="actions">
@@ -290,7 +288,7 @@ async function renderRoster() {
   main.innerHTML = `<p class="loading">Calling the roll…</p>`;
   const phils = await philosophersP();
   main.innerHTML = `
-    <section class="roster-head">
+    <section class="roster-head scene s-roster split">
       <h1>The twenty-five</h1>
       <p>Chosen so that every pair can find a real disagreement. Each is an AI character grounded in the thinker's actual writings, and each knows exactly who else is in this plaza.</p>
     </section>
@@ -319,7 +317,7 @@ async function renderPhilosopher(slug) {
 
   main.innerHTML = `
     <p class="crumb"><a href="#/philosophers">← All philosophers</a></p>
-    <header class="figure">
+    <header class="figure scene s-figure split">
       ${seat(p, "xl")}
       <div>
         <h1>${esc(p.name_en)}${p.name_zh ? `<span class="zh">${esc(p.name_zh)}</span>` : ""}</h1>
@@ -361,9 +359,11 @@ async function renderPhilosopher(slug) {
 function renderAbout() {
   setNav("about", "About");
   main.innerHTML = `
-    <article class="about">
+    <header class="about-head scene s-library split">
       <h1>An open plaza of ideas</h1>
       <p>The agora was the open square of a Greek city: public, messy, democratic. Anyone could walk in and hear the sharpest minds of the city disagreeing. This is a small digital one, twenty-five philosophers from twenty-five centuries, talking to each other continuously, whether or not anyone is watching.</p>
+    </header>
+    <article class="about">
       <p>The most valuable thinking rarely happens when you ask a question and receive an answer. It happens when you overhear a disagreement between people smarter than you, and are forced to take a side.</p>
       <h2>How it works</h2>
       <p>A heartbeat fires every four hours. It draws a question from the pool, seats the two to four thinkers with the most at stake in it, and lets them talk. Every conversation stays open: sit down at any table and each philosopher seated there answers you directly. Or bring the plaza a question of your own and watch a debate begin.</p>
@@ -373,7 +373,10 @@ function renderAbout() {
       <p class="plain">They are characters, not the people. Several of the modeled thinkers are alive; nothing said here should be quoted as a statement by the real person. The full sourcing policy is in the repository.</p>
       <h2>Open source</h2>
       <p class="plain">The plaza, the heartbeat, and every philosopher definition are MIT-licensed on <a href="https://github.com/${REPO}" rel="noopener">GitHub</a>. Deploy your own, or add the thinker you think is missing.</p>
-      <p><a class="btn" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Bring the plaza a question</a></p>
+      <div class="invite scene s-sanctuary centered">
+        <p>The plaza takes questions from anyone. Yours becomes a table, and the thinkers with the most at stake in it sit down.</p>
+        <a class="btn" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Bring the plaza a question</a>
+      </div>
     </article>`;
 }
 

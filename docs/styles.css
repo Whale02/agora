@@ -95,7 +95,15 @@ body { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 100vh; 
 /* .stoa is the column itself, so its stone runs the whole page; .rail is what sticks. */
 .stoa {
   position: relative; z-index: 10;
-  background: var(--surface-sunk);
+  background-color: var(--surface-sunk);
+  /* the rail is cut from the same marble as the rest; fixed so the slab does not smear
+     down a column that runs the whole page height */
+  background-image:
+    linear-gradient(180deg, rgba(9, 8, 7, 0.9) 0%, rgba(9, 8, 7, 0.97) 62%),
+    url("assets/marble.webp");
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  background-repeat: no-repeat, no-repeat;
   border-bottom: 1px solid var(--line-strong);
 }
 .rail {
@@ -184,22 +192,103 @@ main {
 }
 main:focus { outline: none; }
 
-/* ---------- plaza ---------- */
-.forum { display: grid; grid-template-columns: 1fr; gap: 26px; margin: 38px 0 8px; align-items: center; }
-/* the rail eats 212px, so the content grids answer to main's own width, not the window's */
-@container (min-width: 800px) { .forum { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 44px; } }
+/* ---------- scenes: the handoff grounds, behind the words ---------- */
+/* A scene is three layers: stone colour, then a handoff plate, then a scrim that puts a
+   floor under the darkness. Legibility never depends on which part of the photograph
+   happens to land behind a line of text; scratchpad/contrast.mjs samples the brightest
+   rendered pixel under every glyph run and fails the build if any of them falls short. */
+.scene {
+  position: relative;
+  isolation: isolate;
+  container: scene / inline-size;
+  /* how far the veil holds its floor before it lets the plate through */
+  --veil-to: 100%; --veil-out: 100%;
+  background-color: var(--surface-sunk);
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.scene > * { position: relative; }
+.scene::before, .scene::after { content: ""; position: absolute; inset: 0; pointer-events: none; }
+.scene::before {
+  z-index: -2;
+  background-image: var(--scene);
+  background-size: cover;
+  background-position: var(--scene-at, center);
+  /* the handoff plates are painted very dark, peaking near 40 percent grey; without this
+     lift the veil leaves nothing to see. Measured per plate with ffmpeg, not guessed. */
+  filter: brightness(var(--scene-lift, 2.4)) saturate(1.06);
+}
+/* Text keeps to a measure down the left, so the veil holds a hard floor across that column
+   and then lets go, and the plate is legible in the space the words do not use. A panel too
+   narrow to split keeps the floor across its whole width, which is the default. */
+.scene::after {
+  z-index: -1;
+  background:
+    linear-gradient(97deg,
+      rgba(7, 6, 5, 0.95) 0%,
+      rgba(7, 6, 5, 0.93) var(--veil-to),
+      rgba(7, 6, 5, 0.22) var(--veil-out),
+      rgba(7, 6, 5, 0) 100%),
+    linear-gradient(0deg, rgba(7, 6, 5, 0.34) 0%, rgba(7, 6, 5, 0) 100%);
+}
+/* Nearly every handoff plate is lit from its own left, and cover matches a wide panel by
+   width, so no background-position can move that light out from under the words. Split
+   scenes mirror the plate instead: the architecture is symmetrical enough not to care, and
+   the lit half lands in the half the text leaves empty. */
+.scene.split::before { transform: scaleX(-1); }
+@container scene (min-width: 520px) {
+  .scene.split { --veil-to: 76%; --veil-out: 95%; }
+  .scene.split > * { max-width: 74%; }
+}
+@container scene (min-width: 760px) {
+  .scene.split { --veil-to: 61%; --veil-out: 87%; }
+  .scene.split > * { max-width: 60%; }
+}
+/* a band whose text runs down the middle needs the veil even everywhere instead */
+.scene.centered::after {
+  background:
+    radial-gradient(120% 130% at 50% 50%, rgba(7, 6, 5, 0.86) 0%, rgba(7, 6, 5, 0.95) 70%),
+    linear-gradient(0deg, rgba(7, 6, 5, 0.6), rgba(7, 6, 5, 0.6));
+}
 
-.invocation { max-width: 34ch; }
-.invocation h1 {
+.s-plaza     { --scene: url("assets/plaza.webp"); }
+.s-thread    { --scene: url("assets/thread.webp"); }
+.s-roster    { --scene: url("assets/roster.webp"); }
+.s-figure    { --scene: url("assets/figure.webp"); }
+.s-library   { --scene: url("assets/library.webp"); }
+.s-rotunda   { --scene: url("assets/rotunda.webp"); }
+.s-sanctuary { --scene: url("assets/sanctuary.webp"); }
+.s-sea       { --scene: url("assets/sea.webp"); }
+.s-marble    { --scene: url("assets/marble.webp"); }
+
+/* phones get the 800px plates: same picture, a fifth of the bytes */
+@media (max-width: 899px) {
+  .s-plaza     { --scene: url("assets/plaza-sm.webp"); }
+  .s-thread    { --scene: url("assets/thread-sm.webp"); }
+  .s-roster    { --scene: url("assets/roster-sm.webp"); }
+  .s-figure    { --scene: url("assets/figure-sm.webp"); }
+  .s-library   { --scene: url("assets/library-sm.webp"); }
+  .s-rotunda   { --scene: url("assets/rotunda-sm.webp"); }
+  .s-sanctuary { --scene: url("assets/sanctuary-sm.webp"); }
+  .s-sea       { --scene: url("assets/sea-sm.webp"); }
+  .s-marble    { --scene: url("assets/marble-sm.webp"); }
+}
+
+/* ---------- plaza ---------- */
+/* the canopy: the plaza's own sky, with the invitation under it */
+.canopy { margin: 34px 0 20px; padding: 34px 26px 30px; --scene-at: 66% 46%; }
+@container court (min-width: 700px) { .canopy { padding: 56px 42px 50px; min-height: 320px; display: flex; flex-direction: column; justify-content: center; } }
+.canopy h1 {
   font-family: var(--display); font-weight: 500;
-  font-size: clamp(2rem, 5.8vw, 3.2rem);
-  line-height: 1.1; margin: 0 0 10px;
+  font-size: clamp(2.1rem, 5.8vw, 3.5rem);
+  line-height: 1.06; margin: 0 0 12px;
   color: var(--ink);
   text-wrap: balance;
 }
-.invocation p { color: var(--muted); font-size: 1.02rem; margin: 0; max-width: 44ch; }
-.invocation .ask {
-  display: inline-block; margin-top: 18px;
+.canopy p { color: var(--muted); font-size: 1.04rem; margin: 0; }
+.canopy .ask {
+  display: inline-block; margin-top: 20px;
   font-size: 0.95rem; color: var(--gold);
   text-decoration-color: var(--gold-deep);
 }
@@ -222,7 +311,7 @@ main:focus { outline: none; }
 .filters .sort { margin-left: auto; display: flex; gap: 8px; }
 
 .tables { display: grid; grid-template-columns: 1fr; gap: 18px; list-style: none; margin: 0; padding: 0; }
-@container (min-width: 800px) {
+@container court (min-width: 800px) {
   .tables { grid-template-columns: 1fr 1fr; }
   /* tables of varied size, not a uniform grid */
   .tables > li:nth-child(3n + 1) { grid-column: 1 / -1; }
@@ -316,7 +405,7 @@ main:focus { outline: none; }
 .crumb { margin: 30px 0 0; font-size: 0.86rem; }
 .crumb a { color: var(--muted); text-decoration: none; }
 .crumb a:hover { color: var(--gold); text-decoration: underline; text-decoration-color: var(--gold-deep); }
-.thread header.q { margin: 14px 0 8px; }
+.thread header.q { margin: 14px 0 8px; padding: 30px 28px 26px; --scene-at: 78% 46%; }
 .thread header.q h1 {
   font-family: var(--display); font-weight: 500;
   font-size: clamp(1.7rem, 4.8vw, 2.5rem); line-height: 1.16;
@@ -354,10 +443,8 @@ main:focus { outline: none; }
 .utterance.visitor .said .name { font-family: var(--sans); font-weight: 600; font-size: 0.95rem; color: var(--verdigris); }
 
 .sitdown {
-  margin: 44px 0 0; padding: 26px;
-  background: var(--grain), var(--surface);
-  border: 1px solid var(--line-strong);
-  border-radius: 10px;
+  margin: 44px 0 0; padding: 30px 26px;
+  --scene-at: 50% 62%;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(232, 208, 160, 0.05);
   text-align: center;
 }
@@ -403,12 +490,13 @@ main:focus { outline: none; }
 @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
 
 /* ---------- philosophers ---------- */
-.roster-head { margin: 44px 0 24px; }
+.roster-head { margin: 40px 0 24px; padding: 34px 30px 30px; --scene-at: 44% 76%; }
+@container court (min-width: 700px) { .roster-head { min-height: 250px; display: flex; flex-direction: column; justify-content: center; } }
 .roster-head h1 { font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 5vw, 2.8rem); margin: 0 0 8px; color: var(--ink); }
 .roster-head p { color: var(--muted); max-width: 52ch; margin: 0; }
 .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 10px; }
-@container (min-width: 560px) { .roster { grid-template-columns: 1fr 1fr; } }
-@container (min-width: 880px) { .roster { grid-template-columns: 1fr 1fr 1fr; } }
+@container court (min-width: 560px) { .roster { grid-template-columns: 1fr 1fr; } }
+@container court (min-width: 880px) { .roster { grid-template-columns: 1fr 1fr 1fr; } }
 .roster a {
   display: flex; gap: 14px; align-items: center;
   padding: 14px 16px; border-radius: 10px; text-decoration: none;
@@ -421,7 +509,10 @@ main:focus { outline: none; }
 .roster .line { display: block; color: var(--muted); font-size: 0.82rem; margin-top: 2px; }
 
 /* profile */
-.figure { margin: 44px 0 0; display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+.figure {
+  margin: 40px 0 0; padding: 28px 30px; --scene-at: 62% 34%;
+  display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+}
 .figure h1 { font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 5vw, 2.9rem); margin: 0; color: var(--ink); }
 .figure .zh { font-family: var(--zh); color: var(--gold); font-size: 1.4rem; margin-left: 10px; }
 .figure .school { color: var(--muted); margin: 4px 0 0; font-size: 0.95rem; }
@@ -441,10 +532,16 @@ main:focus { outline: none; }
 
 /* ---------- about ---------- */
 .about { max-width: 66ch; }
-.about h1 { font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 5vw, 2.8rem); margin: 44px 0 16px; color: var(--ink); }
+.about-head { padding: 34px 30px 30px; margin: 40px 0 26px; --scene-at: 30% 46%; }
+@container court (min-width: 700px) { .about-head { min-height: 250px; display: flex; flex-direction: column; justify-content: center; padding: 40px 40px 36px; } }
+.about-head h1 { font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 5vw, 2.9rem); margin: 0 0 12px; color: var(--ink); text-wrap: balance; }
+.about-head p { margin: 0; font-family: var(--serif); font-size: 1.05rem; line-height: 1.66; color: var(--ink-soft); }
+.about h1 { font-family: var(--display); font-weight: 500; font-size: clamp(2rem, 5vw, 2.8rem); margin: 0 0 12px; color: var(--ink); }
 .about p, .about li { font-family: var(--serif); font-size: 1.05rem; line-height: 1.68; color: var(--ink-soft); }
 .about h2 { font-family: var(--lapidary); font-weight: 400; font-size: 0.95rem; letter-spacing: 0.18em; text-transform: uppercase; margin: 36px 0 10px; color: var(--gold); }
 .about .plain { font-family: var(--sans); font-size: 0.92rem; color: var(--muted); }
+.about .invite { margin: 44px 0 0; padding: 34px 28px; text-align: center; --scene-at: 50% 28%; }
+.about .invite p { margin: 0 auto 18px; max-width: 44ch; color: var(--muted); font-family: var(--sans); font-size: 0.95rem; }
 
 /* ---------- footer, toast ---------- */
 .stylobate {

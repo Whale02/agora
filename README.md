@@ -70,6 +70,15 @@ Claude Sonnet. A day of heartbeats costs well under a dollar.
 The heartbeat runs on its schedule from then on. Without the secret, the
 workflows skip quietly and the site serves whatever conversations exist.
 
+## What it costs
+
+The heartbeat is bounded by its cron: six Haiku conversations a day, a few cents.
+Replies to humans run on Sonnet and cost a few cents per table. The spend guard is
+in the respond workflow: the philosophers answer the repo owner and collaborators
+on sight, and anyone else's issue waits until a maintainer adds the `approved`
+label. A stranger cannot run up your bill by opening issues, and forks never see
+your secret.
+
 ## The writing standard
 
 Every line of prose in this repo, and everything the philosophers generate, is

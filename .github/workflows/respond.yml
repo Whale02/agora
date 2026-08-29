@@ -1,7 +1,7 @@
 name: respond
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   contents: write
@@ -10,11 +10,16 @@ permissions:
 concurrency:
   group: agora-write
 
+# Spend guard: the philosophers answer the repo owner and collaborators on sight.
+# Anyone else's issue waits until a maintainer adds the "approved" label, so a
+# stranger cannot run up the API bill by opening issues.
 jobs:
   respond:
     if: >
       github.repository == 'Whale02/agora' &&
-      (startsWith(github.event.issue.title, '[Symposium]') || startsWith(github.event.issue.title, '[Join]'))
+      (startsWith(github.event.issue.title, '[Symposium]') || startsWith(github.event.issue.title, '[Join]')) &&
+      ((github.event.action == 'opened' && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)) ||
+       (github.event.action == 'labeled' && github.event.label.name == 'approved'))
     runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

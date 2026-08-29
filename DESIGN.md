@@ -1,4 +1,4 @@
-# Agora — design system
+# Agora design system
 
 Recorded from the built site (docs/), not from intention. The world is "Digital Agora":
 warm limestone under Mediterranean light, pinned by the founding doc and PRODUCT.md.
@@ -17,12 +17,13 @@ warm limestone under Mediterranean light, pinned by the founding doc and PRODUCT
     --sage-deep   #5F7055   primary buttons
     --line        #E5E3DD   tablet edges
     --line-strong #D6D3C9   chips, dividers
-    --heat        #C45D4A   heat strokes only
+    --heat        #C45D4A   reserved for heat strokes
     --heat-deep   #A84A38   the heat word at level 3
     A heated tablet (.h3) warms its surface to #F5EDE1 with border #E4D9C5.
 
 Color strategy is restrained: neutrals plus terracotta presence, with sage reserved for
-the visitor and ember reserved for heat. Light mode only, by scene: a sunlit courtyard.
+the visitor and ember reserved for heat. One light look, picked from the scene: a sunlit
+courtyard.
 
 ## Type
 
@@ -59,7 +60,7 @@ profiles/about are Marcellus uppercase, letterspaced 0.14em, in --terra-deep.
 ## Layout
 
 Max width 1080px, 20px gutters, mobile-first. The plaza: .forum grid (invocation 5fr,
-lead 7fr at ≥880px), then filters, then .tables — two columns where every 3n+1 item
+lead 7fr at ≥880px), then filters, then .tables: two columns where every 3n+1 item
 spans full width, so the feed reads as tables of varied size, not a uniform grid.
 Threads and profiles read at 72ch. Body never scrolls horizontally.
 

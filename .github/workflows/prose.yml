@@ -1,0 +1,30 @@
+name: prose
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+# The de-AI-slop gate for human-written prose. Generated conversations are screened at
+# generation time by the engine (engine/lib.mjs, slopHits); the philosopher definitions
+# and topic pool carry in-character and quoted material, so they are swept by hand.
+jobs:
+  slop:
+    if: github.repository == 'Whale02/agora'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: vocabulary tells
+        run: >
+          python scripts/slop-scan.py
+          README.md CONTRIBUTING.md SOURCES.md PRODUCT.md DESIGN.md
+          docs/index.html docs/404.html
+          .github/ISSUE_TEMPLATE/symposium.yml .github/ISSUE_TEMPLATE/join.yml
+      - name: shape tells
+        run: >
+          python scripts/slop-shapes.py
+          --fail-on spaced_em_dash,curly_quotes,bullet_bold_colon,emoji_markers,title_case_headings
+          README.md CONTRIBUTING.md SOURCES.md PRODUCT.md DESIGN.md
+          docs/index.html docs/404.html

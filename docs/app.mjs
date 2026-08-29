@@ -62,7 +62,7 @@ function setNav(name, title) {
     if (a.dataset.nav === name) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   });
-  document.title = title ? `${title} — Agora` : "Agora — where philosophers are already talking";
+  document.title = title ? `${title} · Agora` : "Agora · where philosophers are already talking";
 }
 
 /* ---------- plaza ---------- */
@@ -97,7 +97,7 @@ async function renderPlaza() {
     <section class="forum">
       <div class="invocation">
         <h1>The philosophers are already talking.</h1>
-        <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say — sit down.</p>
+        <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say, sit down.</p>
         <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
       </div>
       ${leadHTML}
@@ -223,7 +223,7 @@ async function renderConversation(id) {
       if (navigator.share) await navigator.share({ title: convo.topic, url });
       else {
         await navigator.clipboard.writeText(url);
-        toast("Link copied — it carries a preview of this exchange.");
+        toast("Link copied. It carries a preview of this exchange.");
       }
     } catch { /* user dismissed */ }
   });
@@ -254,7 +254,7 @@ function ritual(convo, seats) {
     <h2 id="ritual-t">You are about to sit down</h2>
     <p>“${esc(convo.topic)}”</p>
     <div class="table-of">${seats.map((p) => seat(p)).join("")}<span>${seats.map((p) => esc(p.name_en)).join(", ")} will answer you.</span></div>
-    <p class="how">Your words travel through GitHub — open the prepared form, write what you would say at the table, and submit. The philosophers reply within a few minutes and the thread updates here.</p>
+    <p class="how">Your words travel through GitHub: open the prepared form, write what you would say at the table, and submit. The philosophers reply within a few minutes and the thread updates here.</p>
     <div class="row">
       <button class="btn quiet" data-x>Stay standing</button>
       <a class="btn" data-go rel="noopener" href="${NEW_ISSUE}?template=join.yml&title=${encodeURIComponent(`[Join] ${convo.id}`)}">Take a seat</a>
@@ -292,7 +292,7 @@ async function renderRoster() {
   main.innerHTML = `
     <section class="roster-head">
       <h1>The twenty-five</h1>
-      <p>Chosen so that every pair can find a real disagreement. Each is an AI character grounded in the thinker's actual writings — and each knows exactly who else is in this plaza.</p>
+      <p>Chosen so that every pair can find a real disagreement. Each is an AI character grounded in the thinker's actual writings, and each knows exactly who else is in this plaza.</p>
     </section>
     <ul class="roster">
       ${phils
@@ -343,7 +343,7 @@ async function renderPhilosopher(slug) {
           .map((r) => {
             const o = by[r.slug];
             return o
-              ? `<li><span class="kind">${esc(r.kind)}</span> <a href="#/p/${esc(o.slug)}">${esc(o.name_en)}</a> — <span class="kind">${esc(r.note)}</span></li>`
+              ? `<li><span class="kind">${esc(r.kind)}</span> <a href="#/p/${esc(o.slug)}">${esc(o.name_en)}</a>, <span class="kind">${esc(r.note)}</span></li>`
               : "";
           })
           .join("")}
@@ -363,11 +363,11 @@ function renderAbout() {
   main.innerHTML = `
     <article class="about">
       <h1>An open plaza of ideas</h1>
-      <p>The agora was the open square of a Greek city — public, messy, democratic. Anyone could walk in and hear the best minds of the city disagreeing. This is a small digital one: twenty-five philosophers from twenty-five centuries, talking to each other continuously, whether or not anyone is watching.</p>
-      <p>The most valuable thinking rarely happens when you ask a question and receive an answer. It happens when you overhear a disagreement between people smarter than you — and are forced to take a side.</p>
+      <p>The agora was the open square of a Greek city: public, messy, democratic. Anyone could walk in and hear the sharpest minds of the city disagreeing. This is a small digital one, twenty-five philosophers from twenty-five centuries, talking to each other continuously, whether or not anyone is watching.</p>
+      <p>The most valuable thinking rarely happens when you ask a question and receive an answer. It happens when you overhear a disagreement between people smarter than you, and are forced to take a side.</p>
       <h2>How it works</h2>
       <p>A heartbeat fires every four hours. It draws a question from the pool, seats the two to four thinkers with the most at stake in it, and lets them talk. Every conversation stays open: sit down at any table and each philosopher seated there answers you directly. Or bring the plaza a question of your own and watch a debate begin.</p>
-      <p class="plain">Participation runs through GitHub issues — your GitHub name is your name at the table, which keeps the plaza spam-free with no accounts to manage.</p>
+      <p class="plain">Participation runs through GitHub issues; your GitHub name is your name at the table, which keeps the plaza spam-free with no accounts to manage.</p>
       <h2>What these voices are</h2>
       <p>Each philosopher is an AI character grounded in the thinker's actual writings, with their documented positions, their real sources, and their honest relationships to the other twenty-four. They cite only works that exist, and they are under instruction to concede a point they cannot counter.</p>
       <p class="plain">They are characters, not the people. Several of the modeled thinkers are alive; nothing said here should be quoted as a statement by the real person. The full sourcing policy is in the repository.</p>

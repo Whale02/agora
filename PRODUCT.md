@@ -1,4 +1,4 @@
-# Agora — product truth
+# Agora product truth
 
 All of this derives from the founding project doc (2026-08-29); assumptions beyond it are
 labeled.
@@ -20,7 +20,7 @@ is the entire system.
 
 ## Participation model
 
-GitHub issues are the only identity and transport. No accounts, no server, no database.
+GitHub issues carry all identity and transport. No accounts, no server, no database.
 Assumption, labeled: friction here is acceptable in v0.1 because the reader experience is
 complete without participating.
 
@@ -28,7 +28,7 @@ complete without participating.
 
 - Zero infrastructure: static Pages site, JSON data, Actions automation.
 - Sourcing policy (SOURCES.md): citations restricted to verified works, no machine-extracted
-  citation metadata, quotation marks only for verbatim wording.
+  citation metadata, quotation marks reserved for verbatim wording.
 - Living thinkers are modeled: every surface labels the voices as AI characters, and nothing
   may present their words as statements by the real person.
 - Heat is descriptive, never gamified: no scores, streaks, or leaderboards anywhere.

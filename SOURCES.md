@@ -9,9 +9,9 @@ failure mode that kills a project like this, so sourcing is enforced structurall
    must be a real, verifiable work. Compiled or posthumous sources say so in the entry itself:
    the Analects and the Chuanxilu are student records, Gravity and Grace is Thibon's arrangement
    of Weil's notebooks, Socrates wrote nothing and his entry says exactly that.
-2. The runtime prompt restricts each agent to citing from its own `works` list, permits precise
-   book/chapter references only under certainty, and allows quotation marks only for verbatim
-   wording. Paraphrase is the default register.
+2. The runtime prompt restricts each agent to citing from its own `works` list, requires
+   certainty before any precise book or chapter reference, and reserves quotation marks for
+   verbatim wording. Paraphrase is the default register.
 3. No machine-extracted `sources` metadata. An earlier design attached structured citations to
    each message by having the model extract them from its own output. That amplifies fabrication
    and dresses it as scholarship, so conversations carry citations inline in the text, where they

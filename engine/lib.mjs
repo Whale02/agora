@@ -1,7 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { MODELS, PATHS, SITE } from "./config.mjs";
+
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 export const client = new Anthropic();
 
@@ -54,11 +57,63 @@ ${table}
 4. You may be wrong. When another speaker lands a point you cannot easily counter, say so.
 5. Stay in your natural voice. Do not break character, and do not mention being an AI.
 6. Two to four short paragraphs at most. One paragraph is often better.
-7. When a human joins, address them directly by name. Ask them questions. Challenge their assumptions with respect.`;
+7. When a human joins, address them directly by name. Ask them questions. Challenge their assumptions with respect.
+8. Write like a person, not a machine. Avoid the stock vocabulary of machine prose (delve, showcase, underscore, tapestry, testament, pivotal, crucial, vibrant, robust, intricate, meticulous, foster, boast, landscape as an abstraction), spaced em dashes, reflexive "not X but Y" turns, and lists of three used for rhythm alone. Vary your sentence length and say the plain thing.`;
 }
 
 const nameOf = (slug, roster) =>
   roster.find((p) => p.slug === slug)?.name_en ?? slug;
+
+// ---------- the de-AI-slop gate ----------
+// writing/de-ai-slop-rulebook.md governs all prose here, generated speech included. The
+// patterns come from its "Words to watch" lines at run time, the same source that
+// scripts/slop-scan.py parses; there is no second list to keep in sync. A hit is lint,
+// not a verdict (the rulebook's own Caveats section), so a reply that trips several
+// gets one rewrite request and the cleaner draft wins.
+
+const SKIP_TELLS = new Set(["...", "such as", "refers to", "as of [date]"]);
+
+function inflect(w) {
+  if (w.length < 5) return [];
+  if (w.endsWith("e")) return [w + "s", w + "d", w.slice(0, -1) + "ing"];
+  if (w.endsWith("y") && !"aeiou".includes(w.at(-2))) return [w.slice(0, -1) + "ies", w.slice(0, -1) + "ied", w + "ing"];
+  return [w + "s", w + "ed", w + "ing"];
+}
+
+function loadTells() {
+  const text = fs.readFileSync(path.join(ROOT, "writing", "de-ai-slop-rulebook.md"), "utf8");
+  const out = new Set();
+  for (const line of text.split("\n")) {
+    const body = line.replace(/^>\s*/, "");
+    if (!/^words to watch:/i.test(body)) continue;
+    for (const raw of body.slice(body.indexOf(":") + 1).split(",")) {
+      const entry = raw.trim().replace(/\s*\([^)]*\)/g, "").replaceAll("[a]", "").replace(/\.+$/, "").trim();
+      if (!entry || SKIP_TELLS.has(entry) || entry.includes("...")) continue;
+      const groups = entry.split(/\s+/).map((w) => w.split("/"));
+      const combos = groups.reduce((acc, g) => acc.flatMap((c) => g.map((w) => [...c, w])), [[]]);
+      for (const combo of combos) {
+        const phrase = combo.join(" ").toLowerCase();
+        // Short single words (key, only, hit) are the noisiest patterns and would flag
+        // ordinary in-character speech; the multiword phrases keep their full length.
+        if (!phrase.includes(" ") && phrase.length < 5) continue;
+        out.add(phrase);
+        if (!phrase.includes(" ")) for (const f of inflect(phrase)) out.add(f);
+      }
+    }
+  }
+  return [...out];
+}
+
+const TELLS = loadTells();
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+export function slopHits(text) {
+  const low = text.toLowerCase();
+  const hits = TELLS.filter((t) => new RegExp(`(?<![a-z])${escapeRe(t)}(?![a-z])`).test(low));
+  if (/\s—\s/.test(text)) hits.push("a spaced em dash");
+  if (/not (just|only|merely)\b[^.!?]{0,80}\bbut\b/.test(low)) hits.push('the "not just X but Y" turn');
+  return hits;
+}
 
 // ---------- generation ----------
 
@@ -81,14 +136,32 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
     ? `The question before the table: "${topic}"\n\nOpen the discussion. State your position plainly and stake out ground the others will have to answer.`
     : `The question before the table: "${topic}"\n\nThe conversation so far:\n\n${transcript(messages, all)}\n\n${instruction ?? "You speak next. Respond to what has actually been said — press a disagreement, concede a real point, or turn the question. Do not summarize."}`;
 
+  const system = systemPrompt(phil, roster);
   const res = await client.messages.create({
     model,
     max_tokens: 1024,
-    system: systemPrompt(phil, roster),
+    system,
     messages: [{ role: "user", content: prompt }],
   });
-  const text = res.content.find((b) => b.type === "text")?.text?.trim();
+  let text = res.content.find((b) => b.type === "text")?.text?.trim();
   if (!text) throw new Error(`empty response for ${phil.slug} (stop: ${res.stop_reason})`);
+
+  const hits = slopHits(text);
+  if (hits.length >= 3) {
+    console.log(`  [gate] ${phil.slug} tripped ${hits.length} tells (${hits.slice(0, 5).join(", ")}), asking for a rewrite`);
+    const res2 = await client.messages.create({
+      model,
+      max_tokens: 1024,
+      system,
+      messages: [
+        { role: "user", content: prompt },
+        { role: "assistant", content: text },
+        { role: "user", content: `Rewrite your reply in your own voice without these phrases: ${hits.join("; ")}. Same substance, same length or shorter.` },
+      ],
+    });
+    const rewrite = res2.content.find((b) => b.type === "text")?.text?.trim();
+    if (rewrite && slopHits(rewrite).length < hits.length) text = rewrite;
+  }
   return text;
 }
 
@@ -199,7 +272,7 @@ function writeStub(c) {
   fs.writeFileSync(
     path.join(PATHS.stubs, `${c.id}.html`),
     `<!doctype html><html lang="en"><head><meta charset="utf-8">
-<title>${esc(c.topic)} — ${SITE.title}</title>
+<title>${esc(c.topic)} · ${SITE.title}</title>
 <meta property="og:title" content="${esc(c.topic)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:site_name" content="${SITE.title}">

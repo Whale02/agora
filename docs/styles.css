@@ -64,8 +64,32 @@ body {
     radial-gradient(112% 62% at 50% -6%, rgba(201, 164, 92, 0.13), rgba(201, 164, 92, 0) 62%),
     radial-gradient(80% 46% at 6% 104%, rgba(210, 116, 60, 0.09), rgba(210, 116, 60, 0) 68%),
     var(--grain),
-    var(--bg);
+    transparent;
   background-attachment: fixed, fixed, scroll, scroll;
+}
+
+/* The general ground: the celestial marble plate, veiled, fixed to the viewport.
+   It sits under the body's glows and grain (a negative z-index pseudo paints above
+   the canvas but below in-flow backgrounds, so the body's own solid layer is
+   transparent and the solid ground lives here). */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(10, 9, 8, 0.84), rgba(10, 9, 8, 0.92) 60%, rgba(10, 9, 8, 0.95)),
+    url("assets/marble-sm.webp") center / cover no-repeat,
+    var(--bg);
+}
+@media (min-width: 900px) {
+  body::before {
+    background:
+      linear-gradient(180deg, rgba(10, 9, 8, 0.84), rgba(10, 9, 8, 0.92) 60%, rgba(10, 9, 8, 0.95)),
+      url("assets/marble.webp") center / cover no-repeat,
+      var(--bg);
+  }
 }
 
 ::selection { background: var(--gold); color: #17120A; }

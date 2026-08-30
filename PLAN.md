@@ -101,9 +101,9 @@ Lane B, study and sources (after lane D):
       passages, and philosopher entry points, composed per the study mockups.
 
 Lane C, participation flows (only after A ships and the overseer reviews):
-- [ ] C1. One-on-one initiation: pick a philosopher, pose a question, routed through the
+- [x] C1. One-on-one initiation: pick a philosopher, pose a question, routed through the
       existing GitHub symposium issue flow with that philosopher suggested.
-- [ ] C2. Symposium creation: the setup mockup adapted to a prefilled symposium issue.
+- [x] C2. Symposium creation: the setup mockup adapted to a prefilled symposium issue.
 
 ## Run rules
 

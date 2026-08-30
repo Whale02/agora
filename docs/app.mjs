@@ -96,7 +96,7 @@ async function renderPlaza() {
     <section class="canopy scene s-plaza split">
       <h1>The philosophers are already talking.</h1>
       <p>Twenty-five thinkers from twenty-five centuries share one plaza. Wander between the tables, listen, and when you have something to say, sit down.</p>
-      <a class="ask" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Or bring them a question of your own →</a>
+      <a class="ask" href="#/ask">Or bring them a question of your own →</a>
     </section>
     <div class="lead-slot"></div>
     <div class="filters">
@@ -577,6 +577,7 @@ async function renderPhilosopher(slug) {
           <dt>In this plaza</dt><dd>${theirs.length ? `${theirs.length} ${theirs.length === 1 ? "table" : "tables"}` : "no table yet"}</dd>
           <dt>Works listed</dt><dd data-corpus>${p.works.length}</dd>
         </dl>
+        <a class="btn" href="#/ask/${esc(p.slug)}">Bring a question for ${esc(p.name_en)}</a>
       </aside>
     </header>
 
@@ -1111,6 +1112,146 @@ async function renderStudy() {
   }
 }
 
+/* ---------- bringing a question ---------- */
+
+// What the engine does when a visitor's issue arrives: it scores every philosopher on the
+// subjects their own entry lists against the words of the question, leans toward pairs
+// already in declared tension, keeps some room for chance so tables vary, and seats three.
+// This mirrors the scoring so a visitor can see which words are calling whom. It cannot
+// mirror the chance, and the copy says so.
+function calls(question, phils) {
+  const text = question.toLowerCase();
+  return phils
+    .map((p) => {
+      const hits = p.key_topics.filter((t) => text.includes(t.toLowerCase()));
+      return { p, hits };
+    })
+    .filter((x) => x.hits.length)
+    .sort((a, b) => b.hits.length - a.hits.length || a.p.name_en.localeCompare(b.p.name_en));
+}
+
+const SYMPOSIUM_SEATS = 3;
+
+async function renderAsk(slug) {
+  setNav("plaza", "Bring a question");
+  main.innerHTML = `<p class="loading">Clearing a table…</p>`;
+  const phils = await philosophersP();
+  const guest = slug ? phils.find((p) => p.slug === slug) : null;
+  if (slug && !guest) return renderMissing("Not in this plaza", "No philosopher answers to that name here.");
+
+  main.innerHTML = `
+    <section class="canopy scene s-sanctuary split">
+      <h1>${guest ? `Ask the plaza something for ${esc(guest.name_en)}` : "Bring the plaza a question"}</h1>
+      <p>${
+        guest
+          ? `A question becomes a table. The plaza seats ${SYMPOSIUM_SEATS} thinkers on it, and the words you choose are what call ${esc(guest.name_en)} to sit down.`
+          : `A question becomes a table. The plaza seats ${SYMPOSIUM_SEATS} thinkers on it and they answer you, and each other, in the open.`
+      }</p>
+    </section>
+
+    <div class="room">
+      <div class="floor">
+        <ol class="steps">
+          <li>
+            <h2><span class="n">1</span> Your question</h2>
+            <textarea id="ask-q" maxlength="300" rows="3" placeholder="${esc(
+              guest ? `Something you would put to ${guest.name_en} and let the others argue over` : "Something you would lie awake on",
+            )}"></textarea>
+            <p class="hint"><span id="ask-count">0</span> of 300 characters. This becomes the question at the head of the table.</p>
+          </li>
+          <li>
+            <h2><span class="n">2</span> Who your words are calling</h2>
+            <p class="hint">The plaza scores every thinker on the subjects their own entry lists, against the words you just used. It leans toward pairs already in declared tension, and it keeps room for chance so the tables vary. What follows is that leaning, not a guest list.</p>
+            ${
+              guest
+                ? `<p class="hint pinned">Words that bring ${esc(guest.name_en)} to a table: ${guest.key_topics
+                    .map((t) => `<b>${esc(t)}</b>`)
+                    .join(", ")}.</p>`
+                : ""
+            }
+            <ul class="calls"></ul>
+          </li>
+          <li>
+            <h2><span class="n">3</span> Anything the table should know</h2>
+            <textarea id="ask-ctx" rows="4" placeholder="Optional. Why you are asking, or what you have already tried to think."></textarea>
+            <p class="hint">The philosophers read this before they answer.</p>
+          </li>
+          <li>
+            <h2><span class="n">4</span> What gets sent</h2>
+            <p class="hint">Participation runs through GitHub issues, so your GitHub name is your name at the table and there is no account here to make. This is the whole of it:</p>
+            <pre class="wire" id="ask-wire"></pre>
+            <a class="btn" id="ask-go" rel="noopener" href="${NEW_ISSUE}?template=symposium.yml">Open the prepared issue</a>
+            <p class="hint">The form opens with these filled in. Read it, change what you like, and submit. The philosophers reply within a few minutes and the table appears in the plaza.</p>
+          </li>
+        </ol>
+      </div>
+
+      <aside class="apse" aria-labelledby="ask-t">
+        <h2 id="ask-t">The table so far</h2>
+        <article class="source">
+          <h3>Your question</h3>
+          <p class="counts" id="ask-echo">Nothing yet.</p>
+        </article>
+        <article class="source">
+          <h3>How this works</h3>
+          <p class="counts">A visitor's question seats ${SYMPOSIUM_SEATS} thinkers, who each speak twice. The heartbeat's own tables seat two to four. Nothing here is reserved, saved or scheduled: the issue is the whole mechanism.</p>
+        </article>
+        ${
+          guest
+            ? `<article class="source">
+                <h3>${esc(guest.name_en)}</h3>
+                <p class="credit">${esc(guest.short_bio)}</p>
+                <p class="counts"><a href="#/p/${esc(guest.slug)}">Their positions and their sources →</a></p>
+              </article>`
+            : ""
+        }
+      </aside>
+    </div>`;
+
+  const q = $("#ask-q", main);
+  const ctx = $("#ask-ctx", main);
+  if (guest) ctx.value = `I would like ${guest.name_en} at this table.`;
+
+  function paint() {
+    const question = q.value.trim();
+    $("#ask-count", main).textContent = String(q.value.length);
+    $("#ask-echo", main).textContent = question || "Nothing yet.";
+
+    const called = calls(question, phils);
+    $(".calls", main).innerHTML = question
+      ? called.length
+        ? called
+            .slice(0, 6)
+            .map(
+              ({ p, hits }) => `<li><a href="#/p/${esc(p.slug)}">
+                ${face(p)}
+                <span class="who"><span class="name">${esc(p.name_en)}</span>
+                <span class="rel">${hits.map((h) => esc(h)).join(", ")}</span></span>
+              </a></li>`,
+            )
+            .join("")
+        : `<li class="none">No thinker's subjects appear in those words yet. The plaza would seat three of them anyway, on chance and on tension.</li>`
+      : `<li class="none">Write a question and this fills in.</li>`;
+
+    const title = `[Symposium] ${question}`;
+    const body = ctx.value.trim();
+    $("#ask-wire", main).textContent = `title:   ${title}\n\ncontext: ${body || "(empty)"}`;
+    const url = new URL(NEW_ISSUE);
+    url.searchParams.set("template", "symposium.yml");
+    url.searchParams.set("title", title);
+    if (body) url.searchParams.set("context", body);
+    const go = $("#ask-go", main);
+    go.href = url.toString();
+    go.classList.toggle("quiet", !question);
+    go.textContent = question ? "Open the prepared issue" : "Write a question first";
+  }
+
+  q.addEventListener("input", paint);
+  ctx.addEventListener("input", paint);
+  paint();
+  q.focus();
+}
+
 /* ---------- about ---------- */
 
 function renderAbout() {
@@ -1135,7 +1276,7 @@ function renderAbout() {
     </article>
     <div class="invite scene s-sanctuary centered">
       <p>The plaza takes questions from anyone. Yours becomes a table, and the thinkers with the most at stake in it sit down.</p>
-      <a class="btn" href="${NEW_ISSUE}?template=symposium.yml" rel="noopener">Bring the plaza a question</a>
+      <a class="btn" href="#/ask">Bring the plaza a question</a>
     </div>`;
 }
 
@@ -1156,6 +1297,7 @@ async function route() {
     else if (view === "p" && arg) await renderPhilosopher(decodeURIComponent(arg));
     else if (view === "sources") await renderSources();
     else if (view === "study") await renderStudy();
+    else if (view === "ask") await renderAsk(arg ? decodeURIComponent(arg) : null);
     else if (view === "read" && arg) await renderReader(decodeURIComponent(arg), arg2, arg3);
     else if (view === "about") renderAbout();
     else renderMissing("Lost in the stoa", "That path leads nowhere in this plaza.");

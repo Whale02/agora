@@ -137,6 +137,9 @@ a phone can run past the 16384px Chrome will capture, so the shot is clipped and
 - Ritual (.ritual): the sit-down dialog. role=dialog, aria-modal, Tab trapped, Escape
   closes, focus returns to the opener, which is passed in rather than read from
   document.activeElement.
+- Steps (.steps): the composer. A numbered ring, a heading, one field, one hint. Step four
+  prints the issue title and context verbatim in a monospace block before the button opens
+  the prepared form, so nothing leaves the page unseen.
 
 ## Layout
 
@@ -152,8 +155,9 @@ the left and works and relationships on the right. The library reads canopy, the
 passage, filters, shelf, and a timeline of the thinkers who have one. The reader reads
 folio, the other works, the stretches of this one, then twelve passages at a time beside a
 rail of subjects, related tables and a citation. The study reads canopy, a strip of counts,
-recent tables on the left and today's pages with philosopher doors on the right. Body never
-scrolls horizontally, checked at 1440 and 390 on every route.
+recent tables on the left and today's pages with philosopher doors on the right. The
+composer reads canopy, then four numbered steps down the floor with the table so far beside
+them. Body never scrolls horizontally, checked at 1440 and 390 on every route.
 
 ## Motion
 
@@ -172,6 +176,24 @@ Link previews use assets/og.jpg, a 1200x630 card rendered from scripts/og-card.h
 the plaza plate, the same veil and the same three typefaces. Conversation share stubs carry
 it too, and they now render the question and the last thing said on the plaza's own ground
 instead of a white flash before the redirect.
+
+## What the interface will not claim
+
+Every affordance has to work against static pages, JSON files and GitHub issues. The handoff
+mockups show a logged-in reader throughout: saved conversations, favourites, notification
+badges, like counts, a reading queue with progress, a weekly study plan, room presence, an
+elapsed timer, AI annotations on the primary texts, a philosopher picker for a new
+symposium. None of it ships as decoration. Where a mockup element could be wired to
+something real it was, and where it could not it is gone and PROGRESS.md says why under
+`## Adaptation calls`.
+
+The composer is the sharpest case. The setup mockup lets a visitor choose the thinkers, but
+`selectPhilosophers` in the engine seats three of its own, scored on the subjects each
+philosopher's entry lists against the words of the question, with a bonus where two are in
+declared tension and a random term so tables vary. A picker would be a fiction. So the
+composer shows the scoring instead: type a question and it names which thinkers your words
+are calling and which of their subjects matched, and it says in as many words that this is
+a leaning and not a guest list.
 
 ## Voice
 

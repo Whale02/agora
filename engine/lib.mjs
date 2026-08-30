@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { MODELS, PATHS, SITE } from "./config.mjs";
+import { creditFor, retrieve } from "./retrieve.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -16,8 +17,51 @@ export const philosophers = () => readJSON(PATHS.philosophers);
 export const bySlug = (list) => Object.fromEntries(list.map((p) => [p.slug, p]));
 
 // ---------- prompt assembly (philosophers.json is the single source of truth) ----------
+//
+// The philosopher's own pages:
+// Where a public-domain translation exists, the passage corpus is retrieved for whatever
+// is being discussed and handed to the philosopher as their own text. Rule 2 already
+// forbids inventing a quotation; this gives them something real to quote instead.
 
-export function systemPrompt(p, roster) {
+const PAGE_WORD_CAP = 1800;
+
+export function ownPages(slug, topic, messages = [], k = 8) {
+  const recent = messages
+    .slice(-2)
+    .map((m) => m.content)
+    .join(" ");
+  const kept = [];
+  let total = 0;
+  for (const hit of retrieve(slug, `${topic} ${recent}`, k)) {
+    const n = hit.text.trim().split(/\s+/).length;
+    if (total + n > PAGE_WORD_CAP) break;
+    kept.push(hit);
+    total += n;
+  }
+  return kept;
+}
+
+export function passageBlock(slug, pages) {
+  if (!pages.length) return "";
+  const body = pages
+    .map((p) => {
+      const credit = creditFor(slug, p.work);
+      const where = [p.work, p.ref].filter(Boolean).join(", ");
+      const trans = credit ? `, translated by ${credit.translator}, ${credit.year}` : "";
+      return `[${where}${trans}]\n${p.text}`;
+    })
+    .join("\n\n");
+  return `
+
+## Your own pages, on what is being discussed
+Verbatim passages from your works, in a public-domain translation, retrieved for this
+question. Any direct quotation you make must be copied exactly from this list and cited by
+work and reference. If nothing here fits what you want to say, argue without quoting.
+
+${body}`;
+}
+
+export function systemPrompt(p, roster, pages = []) {
   const positions = Object.entries(p.positions)
     .map(([k, v]) => `- On ${k.replaceAll("_", " ")}: ${v}`)
     .join("\n");
@@ -58,7 +102,7 @@ ${table}
 5. Stay in your natural voice. Do not break character, and do not mention being an AI.
 6. Two to four short paragraphs at most. One paragraph is often better.
 7. When a human joins, address them directly by name. Ask them questions. Challenge their assumptions with respect.
-8. Write like a person, not a machine. Avoid the stock vocabulary of machine prose (delve, showcase, underscore, tapestry, testament, pivotal, crucial, vibrant, robust, intricate, meticulous, foster, boast, landscape as an abstraction), spaced em dashes, reflexive "not X but Y" turns, and lists of three used for rhythm alone. Vary your sentence length and say the plain thing.`;
+8. Write like a person, not a machine. Avoid the stock vocabulary of machine prose (delve, showcase, underscore, tapestry, testament, pivotal, crucial, vibrant, robust, intricate, meticulous, foster, boast, landscape as an abstraction), spaced em dashes, reflexive "not X but Y" turns, and lists of three used for rhythm alone. Vary your sentence length and say the plain thing.${passageBlock(p.slug, pages)}`;
 }
 
 const nameOf = (slug, roster) =>
@@ -136,7 +180,8 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
     ? `The question before the table: "${topic}"\n\nOpen the discussion. State your position plainly and stake out ground the others will have to answer.`
     : `The question before the table: "${topic}"\n\nThe conversation so far:\n\n${transcript(messages, all)}\n\n${instruction ?? "You speak next. Respond to what has actually been said — press a disagreement, concede a real point, or turn the question. Do not summarize."}`;
 
-  const system = systemPrompt(phil, roster);
+  const pages = ownPages(phil.slug, topic, messages);
+  const system = systemPrompt(phil, roster, pages);
   const res = await client.messages.create({
     model,
     max_tokens: 1024,

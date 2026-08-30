@@ -48,6 +48,44 @@ A flagged line is a query in the margin, not a verdict. In-character material
 quoting a real thinker's own words outranks the scanner; machine-flavored filler
 does not.
 
+## Adding passages
+
+`docs/data/passages/<slug>.json` holds the philosopher's own text, and `speak()` hands
+the relevant part of it to them when they talk. Two bars have to be cleared before a
+file goes in.
+
+The translation has to be out of copyright, not the original. Jowett's Plato and Long's
+Marcus Aurelius are clear; a 1940s rendering of the same Greek is not. In practice that
+means a translation published before 1929, and the file records the year so the check is
+mechanical.
+
+The text has to be reliable enough to quote. A passage in this corpus is presented as
+verbatim, so a page scan whose OCR is visibly damaged does not qualify. Where two scans
+of the same translation exist, take the one with fewer broken tokens and keep the one
+that preserves end-of-line hyphens.
+
+```text
+slug                  matches philosophers.json
+translation_credits   one per work: work, translator, year, source_url
+passages              work, ref, text, topics
+```
+
+Every `work` must already appear in that philosopher's `works` array. Adding a real work
+to that array is allowed and is the way to cite something the entry has not listed yet.
+`ref` points at a division a reader can find: a book, a chapter, a letter, a proposition.
+`topics` come from the categories in `docs/data/topics.json`. Aim for passages of roughly
+sixty to three hundred and fifty words; a short book ships whole rather than padded.
+
+```bash
+node scripts/build-passage-index.mjs   # refresh docs/data/passages.json
+node engine/test-retrieve.mjs          # validate every corpus file and the retrieval
+```
+
+The validator is the gate. It fails on a passage citing a work the philosopher does not
+have, a credit missing a translator, a year or a source, a credit dated 1929 or later, a
+passage far outside the length band, a duplicate, or a retrieval that cannot find a
+passage from its own wording.
+
 ## Adding topics
 
 Add questions to `docs/data/topics.json` with a category and, optionally,

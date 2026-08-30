@@ -1,0 +1,162 @@
+// Validate the passage corpus and the retrieval over it.
+//
+//     node engine/test-retrieve.mjs
+//
+// Exits 1 on the first kind of failure that would put something untrue on the site: a
+// corpus file that does not parse, a passage citing a work its philosopher does not have,
+// a translation credit without a source, a passage far outside the length band, or a
+// retrieval that comes back empty for a subject the corpus is tagged for.
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { corpusSlugs, creditFor, retrieve, tokenize } from "./retrieve.mjs";
+import { ownPages, passageBlock, systemPrompt } from "./lib.mjs";
+
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const DIR = path.join(ROOT, "docs", "data", "passages");
+const MIN_WORDS = 50;
+const MAX_WORDS = 400;
+
+const philosophers = JSON.parse(fs.readFileSync(path.join(ROOT, "docs", "data", "philosophers.json"), "utf8"));
+const topics = JSON.parse(fs.readFileSync(path.join(ROOT, "docs", "data", "topics.json"), "utf8"));
+const bySlug = Object.fromEntries(philosophers.map((p) => [p.slug, p]));
+
+let failed = 0;
+const check = (ok, label, detail) => {
+  if (!ok) failed++;
+  console.log(`${ok ? "ok  " : "FAIL"} ${label}${detail ? `  ${detail}` : ""}`);
+};
+
+const slugs = corpusSlugs();
+check(slugs.length > 0, "a corpus exists", `${slugs.length} philosophers`);
+
+let totalPassages = 0;
+let totalBytes = 0;
+
+for (const slug of slugs) {
+  const file = path.join(DIR, `${slug}.json`);
+  totalBytes += fs.statSync(file).size;
+  let corpus;
+  try {
+    corpus = JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch (e) {
+    check(false, `${slug} parses`, e.message);
+    continue;
+  }
+
+  const p = bySlug[slug];
+  if (!p) {
+    check(false, `${slug} is a philosopher in philosophers.json`);
+    continue;
+  }
+
+  const problems = [];
+  const works = new Set(p.works);
+  const seen = new Set();
+  let short = 0;
+  let long = 0;
+  const topicsUsed = new Set();
+
+  for (const [i, x] of corpus.passages.entries()) {
+    if (!works.has(x.work)) problems.push(`passage ${i} cites a work not in philosophers.json: ${x.work}`);
+    if (typeof x.text !== "string" || !x.text.trim()) problems.push(`passage ${i} has no text`);
+    if (!Array.isArray(x.topics) || !x.topics.length) problems.push(`passage ${i} has no topics`);
+    const n = String(x.text).trim().split(/\s+/).length;
+    if (n < MIN_WORDS) short++;
+    if (n > MAX_WORDS) long++;
+    const key = String(x.text).slice(0, 60);
+    if (seen.has(key)) problems.push(`passage ${i} repeats an earlier one`);
+    seen.add(key);
+    for (const t of x.topics ?? []) topicsUsed.add(t);
+  }
+  for (const c of corpus.translation_credits ?? []) {
+    if (!works.has(c.work)) problems.push(`credit names a work not in philosophers.json: ${c.work}`);
+    if (!c.translator || !c.year) problems.push(`credit for ${c.work} lacks a translator or a year`);
+    if (!/^https?:\/\//.test(c.source_url ?? "")) problems.push(`credit for ${c.work} lacks a source url`);
+    if (c.year >= 1929) problems.push(`credit for ${c.work} is dated ${c.year}, which is not clear of copyright`);
+  }
+  if (short) problems.push(`${short} passages under ${MIN_WORDS} words`);
+  if (long) problems.push(`${long} passages over ${MAX_WORDS} words`);
+  if (!corpus.passages.length) problems.push("no passages");
+
+  totalPassages += corpus.passages.length;
+  check(
+    problems.length === 0,
+    `${slug}: ${corpus.passages.length} passages, ${topicsUsed.size} subjects`,
+    problems.slice(0, 3).join("; "),
+  );
+}
+
+check(totalBytes < 8 * 1024 * 1024, "the corpus stays under 8MB", `${(totalBytes / 1024 / 1024).toFixed(1)}MB, ${totalPassages} passages`);
+
+// Retrieval has to find a passage from its own wording. Twelve words out of a passage,
+// asked back, must bring that same passage into the top four.
+for (const slug of slugs) {
+  const corpus = JSON.parse(fs.readFileSync(path.join(DIR, `${slug}.json`), "utf8"));
+  const step = Math.max(1, Math.floor(corpus.passages.length / 12));
+  let asked = 0;
+  let found = 0;
+  for (let i = 0; i < corpus.passages.length; i += step) {
+    const want = corpus.passages[i];
+    const query = want.text.trim().split(/\s+/).slice(6, 18).join(" ");
+    if (tokenize(query).length < 4) continue;
+    asked++;
+    if (retrieve(slug, query, 4).some((h) => h.text === want.text)) found++;
+  }
+  check(asked > 0 && found / asked >= 0.9, `${slug} finds its own passages`, `${found} of ${asked}`);
+}
+
+// And it has to be useful against the questions the heartbeat actually draws from. A corpus
+// need not answer every subject in the pool, because a book of logic has nothing to say
+// about love, but most of the pool should reach something.
+const questions = topics.map((t) => t.question);
+for (const slug of slugs) {
+  let hit = 0;
+  for (const q of questions) {
+    const hits = retrieve(slug, q, 4);
+    if (hits.length && hits.every((h) => h.text && h.work)) hit++;
+  }
+  check(hit / questions.length >= 0.6, `${slug} answers the topic pool`, `${hit} of ${questions.length} questions`);
+}
+
+// A philosopher with no corpus is a normal state, not an error.
+const noCorpus = philosophers.map((p) => p.slug).filter((s) => !slugs.includes(s));
+check(
+  noCorpus.every((s) => retrieve(s, "what is the good life", 4).length === 0),
+  "philosophers without a corpus retrieve nothing",
+  `${noCorpus.length} of ${philosophers.length}`,
+);
+
+check(tokenize("The Sufferings of a Philosopher").join(" ") === "suffer philosopher", "the tokenizer stems and drops stop words", tokenize("The Sufferings of a Philosopher").join(" "));
+
+// The prompt actually carries the pages, cited, with the instruction that binds a quotation
+// to them. No model is called: this is the string the model would be given.
+{
+  const slug = "marcus-aurelius";
+  const phil = bySlug[slug];
+  const pages = ownPages(slug, "Is it possible to find meaning in work?", [
+    { speaker: "zhuangzi", content: "Meaning is not something work contains, like rice in a box." },
+  ]);
+  check(pages.length > 0, "retrieval finds pages for a real question", `${pages.length} passages`);
+  const block = passageBlock(slug, pages);
+  const cited = pages.every((x) => block.includes(x.work) && (!x.ref || block.includes(x.ref)));
+  const credit = creditFor(slug, pages[0]?.work);
+  check(cited, "every page in the prompt carries its work and reference");
+  check(block.includes(`translated by ${credit?.translator}`), "the prompt names the translator", credit?.translator);
+  check(
+    /must be copied exactly from this list/.test(block),
+    "the prompt binds direct quotation to the retrieved pages",
+  );
+  const words = block.trim().split(/\s+/).length;
+  check(words < 2100, "the page block stays near the word cap", `${words} words`);
+
+  const system = systemPrompt(phil, philosophers, pages);
+  const rules = [1, 2, 3, 4, 5, 6, 7, 8].every((n) => system.includes(`\n${n}. `));
+  check(rules, "rules 1 to 8 survive the injection");
+  check(system.indexOf("## Rules") < system.indexOf("## Your own pages"), "the pages come after the rules");
+  const bare = systemPrompt(phil, philosophers);
+  check(!bare.includes("## Your own pages"), "a prompt without pages carries no empty section");
+}
+
+console.log(failed ? `\n${failed} checks failed` : `\nthe corpus and its retrieval hold: ${slugs.length} philosophers, ${totalPassages} passages`);
+process.exit(failed ? 1 : 0);

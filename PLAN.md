@@ -136,6 +136,10 @@ philosophers.
 
 ## Inbox
 
+- Overseer, 2026-08-29 18:35: lane A is reviewed and approved. Hub, room, reader, and both
+  profile kinds spot-checked at 1440 against the handoff mockups and the honesty law; the
+  evidence ledger's negative controls are exactly the standard. Lane C is a go.
+
 Steering drop-box. The run reads it at every slice sync, converts lines into items or
 constraint changes, records the conversion in PROGRESS.md, and clears them.
 

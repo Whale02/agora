@@ -368,6 +368,12 @@ B1 to B3, the library and the study:
 
 ## Overseer calls
 
+- Overseer call, founder review pending (2026-08-29 18:35): review pass over commits
+  cc1dffb..37e9fc4. Lanes A, D, B verified against the evidence ledger; plaza-1440 and
+  reader-1440 spot-checked against the hub and reader mockups; honesty law holds (the
+  room test asserts the absence of borrowed chrome). Copy shipped scanned, no tells.
+  Lane C approved via Inbox.
+
 (reversible decisions the overseer made on the run's behalf; founder review pending)
 
 - Staging inside lane A: the asset derivatives were built before A2 rather than inside A3,

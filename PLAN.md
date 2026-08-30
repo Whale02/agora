@@ -91,13 +91,13 @@ Lane D, the corpus (after lane A; the depth that feeds lane B):
       status; CONTRIBUTING.md updated with how to add passages; both pass the prose gates.
 
 Lane B, study and sources (after lane D):
-- [ ] B1. Sources library: per-philosopher list of works and passage counts from
+- [x] B1. Sources library: per-philosopher list of works and passage counts from
       docs/data/passages/<slug>.json (shape: slug, translation_credits[], passages[] with
       work, ref, text, topics).
-- [ ] B2. Scholarly reader per the reader mockup: passage reading view with work/ref
+- [x] B2. Scholarly reader per the reader mockup: passage reading view with work/ref
       citations and translation credits; annotations rail shows real data only (passage
       refs, related conversations by topic overlap), no fabricated commentary.
-- [ ] B3. Study desk: a reading-centric home showing recent conversations, the day's
+- [x] B3. Study desk: a reading-centric home showing recent conversations, the day's
       passages, and philosopher entry points, composed per the study mockups.
 
 Lane C, participation flows (only after A ships and the overseer reviews):

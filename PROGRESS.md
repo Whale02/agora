@@ -151,6 +151,30 @@ exits 1 on any WCAG AA miss. Run it on every visual slice; it caught two real de
 - Prose gates after the SOURCES.md and CONTRIBUTING.md rewrites: `slop-scan.py` exit 0,
   `slop-shapes.py` exit 0. `node engine/reindex.mjs` exit 0.
 
+### B1 to B3. The library, the reader, the study, commit 0772ac1
+
+- `librarytest.mjs` drives all three surfaces: 26 checks. The library lists all 36 works the
+  manifest holds, each naming its translator; the tally matches; searching a translator
+  narrows to their eight works; a subject chip cuts the shelf to eleven. The reader shows a
+  stretch at a time, says where it is in the work, labels the stretch by its references, and
+  the first passage on the page is byte-for-byte the corpus text. The citation reads
+  `Plato, Republic, translated by Benjamin Jowett (1892). https://...`. The study's counts
+  are the plaza's own numbers. Exit 0.
+- Negative control: setting the reader page size to 999 fails 4 of the 26.
+- Two checks assert absence rather than presence: no annotation, reading progress, bookmark
+  or download anywhere in the reader, and nothing on the study desk that needs an account.
+- `node contrast.mjs` exit 0 on twelve routes at 1440 and 390. It failed three times first
+  and drove three fixes: the subject chips sat on a border 4.06:1 from their text, the
+  reference line above each passage was gold-deep at 4.03:1, and the rail's explanatory lines
+  were faint at 3.53:1.
+- `node shot.mjs` exit 0, no horizontal overflow on 18 captures.
+- The nav measurement caught a real regression: six wayfinding pairs need 533px against the
+  378px a 390px phone has, so 155px was scrolling out of sight. Below 620px the row wraps.
+- A work rendered whole ran past 16384px, which Chrome refuses to screenshot and nobody wants
+  to scroll. The reader paginates at twelve passages and the audit clips and says so.
+- `node engine/test-retrieve.mjs` exit 0, `node engine/reindex.mjs` exit 0, both prose gates
+  exit 0, and the three earlier suites still pass on this HEAD.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)
@@ -225,6 +249,34 @@ Two older lines were rewritten to clear the vocabulary gate:
     receive an answer.                            was "the most valuable thinking"
     Every work they cite exists                   was "they cite only works that exist"
 
+B1 to B3, the library and the study:
+
+    What they can quote                           the library's heading
+    Fourteen of the twenty-five wrote in a language whose translations have passed
+    into the public domain. Their pages are here, 3,338 passages across 36 works,
+    and the philosophers read from them when they speak.
+
+    Today, from the library                       the day's passage
+    Read on in <work>                             its one action
+    Search a work, a thinker, a translator        the library search
+    Everyone / Any subject                        the filters
+    Where they stand in time                      the timeline
+    Nothing on that shelf                         the empty state
+
+    Beside the text                               the reader's rail
+    What this book is about
+    Subjects are tagged from the words each passage uses, and they are what the
+    philosophers search when they answer a question.
+    Argued at the plaza
+    Tables under the same subjects. No one here is commenting on this text.
+    How to cite this / Copy the citation
+    Passages 1 to 12 of 119                       where you are in the work
+
+    The study                                     the desk's heading
+    A quieter door into the same plaza. What the tables are arguing now, a page or
+    two to read today, and a way in through whichever thinker you trust least.
+    Lately at the tables / Pages for today / Where to start
+
 ## Adaptation calls
 
 (mockup elements dropped or rewired under the honesty law, with one line of reasoning)
@@ -295,6 +347,24 @@ Two older lines were rewritten to clear the vocabulary gate:
   The Moment. Hollander's 1923 selections draw on all three, they are real Kierkegaard works,
   and lane D licenses real additions to a works array. The edit is three lines and leaves the
   file's own formatting alone.
+
+- B2. Dropped from the reader mockup: the interlinear commentary and its up and down votes,
+  the guide and annotation-square tabs, the version comparison, the bookmark, the download,
+  the reading progress bar and the font-size control. The commentary would be fabricated
+  scholarship, which SOURCES.md forbids outright; the rest need an account or a second
+  translation the plaza does not hold. What the rail carries instead is the subjects the
+  passages are already tagged with and the tables arguing under those subjects, labelled as
+  topic overlap so nobody reads it as commentary on the text.
+- B3. The study mockup is a personal desk: notes, bookmarks, a weekly plan with progress
+  bars, revisited insights based on a reading history. Every one of those needs a logged-in
+  reader. What ships is the three things the plan names, with the mockup's composition: a
+  strip of counts that are all computed from the index and the manifest, recent tables on
+  the left, today's pages and philosopher doors on the right.
+- B1. The library's featured scroll keeps the mockup's shape but quotes a real passage with
+  its citation, chosen by the date rather than by anything about the reader, so one corpus
+  file is fetched instead of fourteen and nobody is tracked to make it change.
+- B1. Dropped the mockup's citation counts on each work card. Nothing counts citations.
+  The card carries passages, words, and how many tables are arguing under its subjects.
 
 ## Overseer calls
 

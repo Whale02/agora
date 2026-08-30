@@ -191,6 +191,35 @@ exits 1 on any WCAG AA miss. Run it on every visual slice; it caught two real de
   horizontal overflow on 22 captures; `node engine/test-retrieve.mjs` exit 0;
   `node engine/reindex.mjs` exit 0; both prose gates exit 0.
 
+### Final verification, all sixteen slices, on one HEAD
+
+Run at 076d690, the commit that closes the plan. Every command below was run against that
+tree with nothing uncommitted but the screenshots, which are gitignored.
+
+    python scripts/slop-scan.py <the nine gated files>          exit 0
+    python scripts/slop-shapes.py --fail-on ... <seven files>   exit 0
+    node engine/reindex.mjs                                     exit 0, no change but the timestamp
+    node engine/test-retrieve.mjs                               exit 0, 54 checks
+    node shot.mjs                                               exit 0, 28 captures, no overflow
+    node contrast.mjs                                           exit 0, 14 routes at 1440 and 390
+    node feedtest.mjs                                           exit 0, 11 checks
+    node roomtest.mjs                                           exit 0, 14 checks
+    node proftest.mjs                                           exit 0, 16 checks
+    node librarytest.mjs                                        exit 0, 26 checks
+    node asktest.mjs                                            exit 0, 27 checks
+
+Fourteen surfaces are captured at both widths: plaza, thread, roster, a profile with handoff
+art, a profile with the medallion, study, library, reader, the composer open and opened for
+one thinker, about, the in-app lost page, the static 404, and a conversation share stub.
+
+Budgets: `docs/assets` is 1.4MB against a 6MB ceiling, `docs/data/passages` is 4.6MB against
+8MB. `git ls-files` returns nothing under `.handoff/` or `.impeccable/`.
+
+Each behaviour suite has been shown to fail. The controls used: reversing the BM25 sort (14
+failures), disabling the plaza's search predicate (3), setting the reader's page size to 999
+(4), pointing the composer at the join template (1), and flattening the scene veil to a 0.2
+alpha wash (5 contrast failures on two routes).
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

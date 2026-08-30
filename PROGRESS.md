@@ -461,6 +461,11 @@ C1 and C2, the composer:
 
 ## Overseer calls
 
+- Overseer call, founder review pending (2026-08-29 20:45): the goal completed and the
+  supervisor exited on its own; the overseer's 2h review cron is disarmed. The run system
+  stays in the repo (scripts/autonomous-loop.py, .claude/prompt-run.md, .claude/
+  run-contract.md); the next plan re-arms it by writing PLAN.md and relaunching the loop.
+
 - Overseer call, founder review pending (2026-08-29 18:35): review pass over commits
   cc1dffb..37e9fc4. Lanes A, D, B verified against the evidence ledger; plaza-1440 and
   reader-1440 spot-checked against the hub and reader mockups; honesty law holds (the

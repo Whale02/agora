@@ -602,6 +602,7 @@ async function renderPhilosopher(slug) {
       <aside class="col-side">
         <h2>Sources</h2>
         <div class="works"><ul>${p.works.map((w) => `<li>${esc(w)}</li>`).join("")}</ul></div>
+        ${p.sep ? `<p class="sep-link">Scholarship on ${esc(p.name_en)}: <a href="${esc(p.sep)}" rel="noopener">their entry in the Stanford Encyclopedia of Philosophy</a>.</p>` : ""}
         <h2>In this plaza</h2>
         <ul class="kin">
           ${p.relationships

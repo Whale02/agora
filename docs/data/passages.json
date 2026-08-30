@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T00:16:42.070Z",
+  "generated_at": "2026-08-30T00:36:02.643Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -154,6 +154,95 @@
       ]
     },
     {
+      "slug": "epicurus",
+      "passages": 53,
+      "words": 10208,
+      "works": [
+        {
+          "work": "Letter to Herodotus",
+          "count": 26
+        },
+        {
+          "work": "Principal Doctrines",
+          "count": 16
+        },
+        {
+          "work": "Letter to Menoeceus",
+          "count": 11
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 31
+        },
+        {
+          "topic": "action",
+          "count": 21
+        },
+        {
+          "topic": "nature",
+          "count": 20
+        },
+        {
+          "topic": "suffering",
+          "count": 12
+        },
+        {
+          "topic": "meaning",
+          "count": 10
+        },
+        {
+          "topic": "virtue",
+          "count": 9
+        },
+        {
+          "topic": "self",
+          "count": 6
+        },
+        {
+          "topic": "meta",
+          "count": 3
+        },
+        {
+          "topic": "love",
+          "count": 3
+        },
+        {
+          "topic": "education",
+          "count": 2
+        },
+        {
+          "topic": "freedom",
+          "count": 2
+        },
+        {
+          "topic": "work",
+          "count": 1
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Letter to Herodotus",
+          "translator": "R. D. Hicks",
+          "year": 1925,
+          "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+        },
+        {
+          "work": "Letter to Menoeceus",
+          "translator": "R. D. Hicks",
+          "year": 1925,
+          "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+        },
+        {
+          "work": "Principal Doctrines",
+          "translator": "R. D. Hicks",
+          "year": 1925,
+          "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+        }
+      ]
+    },
+    {
       "slug": "kant",
       "passages": 300,
       "words": 73139,
@@ -243,6 +332,115 @@
           "translator": "J. M. D. Meiklejohn",
           "year": 1855,
           "source_url": "https://www.gutenberg.org/ebooks/4280"
+        }
+      ]
+    },
+    {
+      "slug": "kierkegaard",
+      "passages": 280,
+      "words": 66778,
+      "works": [
+        {
+          "work": "Stages on Life's Way",
+          "count": 101
+        },
+        {
+          "work": "Training in Christianity",
+          "count": 90
+        },
+        {
+          "work": "Fear and Trembling",
+          "count": 47
+        },
+        {
+          "work": "The Moment",
+          "count": 39
+        },
+        {
+          "work": "Either/Or",
+          "count": 3
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 176
+        },
+        {
+          "topic": "action",
+          "count": 113
+        },
+        {
+          "topic": "meaning",
+          "count": 92
+        },
+        {
+          "topic": "self",
+          "count": 78
+        },
+        {
+          "topic": "love",
+          "count": 74
+        },
+        {
+          "topic": "suffering",
+          "count": 47
+        },
+        {
+          "topic": "nature",
+          "count": 45
+        },
+        {
+          "topic": "meta",
+          "count": 44
+        },
+        {
+          "topic": "virtue",
+          "count": 31
+        },
+        {
+          "topic": "work",
+          "count": 26
+        },
+        {
+          "topic": "education",
+          "count": 8
+        },
+        {
+          "topic": "freedom",
+          "count": 6
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Either/Or",
+          "translator": "Lee M. Hollander",
+          "year": 1923,
+          "source_url": "https://www.gutenberg.org/ebooks/60333"
+        },
+        {
+          "work": "Stages on Life's Way",
+          "translator": "Lee M. Hollander",
+          "year": 1923,
+          "source_url": "https://www.gutenberg.org/ebooks/60333"
+        },
+        {
+          "work": "Fear and Trembling",
+          "translator": "Lee M. Hollander",
+          "year": 1923,
+          "source_url": "https://www.gutenberg.org/ebooks/60333"
+        },
+        {
+          "work": "Training in Christianity",
+          "translator": "Lee M. Hollander",
+          "year": 1923,
+          "source_url": "https://www.gutenberg.org/ebooks/60333"
+        },
+        {
+          "work": "The Moment",
+          "translator": "Lee M. Hollander",
+          "year": 1923,
+          "source_url": "https://www.gutenberg.org/ebooks/60333"
         }
       ]
     },
@@ -738,6 +936,270 @@
           "translator": "Arthur Brodrick Bullock",
           "year": 1903,
           "source_url": "https://www.gutenberg.org/ebooks/44929"
+        }
+      ]
+    },
+    {
+      "slug": "seneca",
+      "passages": 320,
+      "words": 74662,
+      "works": [
+        {
+          "work": "Letters to Lucilius (Epistulae Morales)",
+          "count": 320
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 198
+        },
+        {
+          "topic": "action",
+          "count": 131
+        },
+        {
+          "topic": "suffering",
+          "count": 93
+        },
+        {
+          "topic": "self",
+          "count": 80
+        },
+        {
+          "topic": "virtue",
+          "count": 77
+        },
+        {
+          "topic": "nature",
+          "count": 66
+        },
+        {
+          "topic": "meaning",
+          "count": 63
+        },
+        {
+          "topic": "work",
+          "count": 62
+        },
+        {
+          "topic": "meta",
+          "count": 55
+        },
+        {
+          "topic": "freedom",
+          "count": 53
+        },
+        {
+          "topic": "love",
+          "count": 53
+        },
+        {
+          "topic": "education",
+          "count": 29
+        },
+        {
+          "topic": "technology",
+          "count": 6
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Letters to Lucilius (Epistulae Morales)",
+          "translator": "Richard Mott Gummere",
+          "year": 1917,
+          "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+        }
+      ]
+    },
+    {
+      "slug": "wang-yangming",
+      "passages": 300,
+      "words": 71034,
+      "works": [
+        {
+          "work": "Instructions for Practical Living (传习录), as my students recorded them",
+          "count": 300
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 246
+        },
+        {
+          "topic": "action",
+          "count": 136
+        },
+        {
+          "topic": "nature",
+          "count": 129
+        },
+        {
+          "topic": "education",
+          "count": 104
+        },
+        {
+          "topic": "self",
+          "count": 99
+        },
+        {
+          "topic": "virtue",
+          "count": 93
+        },
+        {
+          "topic": "love",
+          "count": 47
+        },
+        {
+          "topic": "meaning",
+          "count": 40
+        },
+        {
+          "topic": "meta",
+          "count": 33
+        },
+        {
+          "topic": "suffering",
+          "count": 32
+        },
+        {
+          "topic": "freedom",
+          "count": 26
+        },
+        {
+          "topic": "work",
+          "count": 20
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Instructions for Practical Living (传习录), as my students recorded them",
+          "translator": "Frederick Goodrich Henke",
+          "year": 1916,
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+        }
+      ]
+    },
+    {
+      "slug": "wittgenstein",
+      "passages": 76,
+      "words": 13405,
+      "works": [
+        {
+          "work": "Tractatus Logico-Philosophicus",
+          "count": 76
+        }
+      ],
+      "topics": [
+        {
+          "topic": "meta",
+          "count": 61
+        },
+        {
+          "topic": "knowledge",
+          "count": 52
+        },
+        {
+          "topic": "meaning",
+          "count": 11
+        },
+        {
+          "topic": "nature",
+          "count": 11
+        },
+        {
+          "topic": "action",
+          "count": 10
+        },
+        {
+          "topic": "freedom",
+          "count": 6
+        },
+        {
+          "topic": "self",
+          "count": 2
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Tractatus Logico-Philosophicus",
+          "translator": "C. K. Ogden",
+          "year": 1922,
+          "source_url": "https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus"
+        }
+      ]
+    },
+    {
+      "slug": "zhuangzi",
+      "passages": 300,
+      "words": 70713,
+      "works": [
+        {
+          "work": "Zhuangzi (庄子), especially the Inner Chapters",
+          "count": 300
+        }
+      ],
+      "topics": [
+        {
+          "topic": "nature",
+          "count": 159
+        },
+        {
+          "topic": "action",
+          "count": 150
+        },
+        {
+          "topic": "knowledge",
+          "count": 148
+        },
+        {
+          "topic": "virtue",
+          "count": 72
+        },
+        {
+          "topic": "freedom",
+          "count": 55
+        },
+        {
+          "topic": "suffering",
+          "count": 52
+        },
+        {
+          "topic": "self",
+          "count": 38
+        },
+        {
+          "topic": "meta",
+          "count": 37
+        },
+        {
+          "topic": "work",
+          "count": 30
+        },
+        {
+          "topic": "meaning",
+          "count": 30
+        },
+        {
+          "topic": "love",
+          "count": 28
+        },
+        {
+          "topic": "education",
+          "count": 25
+        },
+        {
+          "topic": "technology",
+          "count": 5
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Zhuangzi (庄子), especially the Inner Chapters",
+          "translator": "James Legge",
+          "year": 1891,
+          "source_url": "https://ctext.org/zhuangzi"
         }
       ]
     }

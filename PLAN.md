@@ -62,7 +62,7 @@ Lane A, the reskin (first):
       rewritten from the built site so the design record matches what ships.
 
 Lane D, the corpus (after lane A; the depth that feeds lane B):
-- [ ] D1. Passage corpus at docs/data/passages/<slug>.json for every philosopher with a
+- [x] D1. Passage corpus at docs/data/passages/<slug>.json for every philosopher with a
       genuinely public-domain translation. The translation itself must be public domain,
       not just the original: Jowett's Plato, Long's Marcus Aurelius, Gummere's Seneca,
       Hicks's Epicurus, Legge's Confucius, Laozi, and Zhuangzi, Henke's Wang Yangming,
@@ -77,15 +77,15 @@ Lane D, the corpus (after lane A; the depth that feeds lane B):
       directory stays under 8MB. Every passage's work must appear in that philosopher's
       works array in philosophers.json; real additions to works arrays are allowed and are
       the one permitted edit to that file.
-- [ ] D2. Retrieval: engine/retrieve.mjs, a zero-dependency BM25 (or length-normalized
+- [x] D2. Retrieval: engine/retrieve.mjs, a zero-dependency BM25 (or length-normalized
       tf-idf) over a philosopher's passages, lazy per-slug index, retrieve(slug, query, k)
       defaulting to 4, empty for philosophers without a corpus.
-- [ ] D3. Wiring: speak() in engine/lib.mjs injects retrieved passages (query = topic plus
+- [x] D3. Wiring: speak() in engine/lib.mjs injects retrieved passages (query = topic plus
       the last two messages, capped near 1800 words) as the philosopher's own verbatim
       passages with work and ref, with the instruction that direct quotations must come
       from these passages; rules 1-8 stay intact. No Anthropic API calls to test this;
       structure only.
-- [ ] D4. Verification and docs: engine/test-retrieve.mjs validating every corpus file
+- [x] D4. Verification and docs: engine/test-retrieve.mjs validating every corpus file
       (parse, works match, word counts, sensible retrieval for topic-pool queries), exit
       0/1, run and recorded; SOURCES.md updated with the corpus policy and per-philosopher
       status; CONTRIBUTING.md updated with how to add passages; both pass the prose gates.

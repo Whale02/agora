@@ -129,6 +129,28 @@ exits 1 on any WCAG AA miss. Run it on every visual slice; it caught two real de
 - Full sweep on the same HEAD: `shot.mjs` exit 0, `contrast.mjs` exit 0, `feedtest.mjs`
   exit 0, `roomtest.mjs` exit 0, `proftest.mjs` exit 0, both prose gates exit 0.
 
+### D1 to D4. The corpus and its retrieval, commits 9f8280f, 38c2acc, 630285d, 02bc0eb
+
+- `node engine/test-retrieve.mjs` exit 0, 54 checks over all fourteen corpus files and the
+  prompt they feed. Negative control: reversing the BM25 sort produced 14 failures.
+- Fourteen philosophers, 3338 passages, 4.5MB against the plan's 8MB ceiling. Every
+  passage's work and every translation credit names a work philosophers.json already lists,
+  every credit carries a translator, a year before 1929 and a source url.
+- Retrieval finds its own passages: twelve words taken out of the middle of a passage bring
+  that passage back into the top four, and all fourteen corpora score a clean sweep.
+- The corpora reach the topic pool: eleven of fourteen answer all fifty questions, Confucius
+  and Epicurus forty-nine, Laozi forty-eight, Wittgenstein forty-three.
+- The prompt check runs without calling a model: it asserts that every retrieved page
+  carries its work, reference and translator, that the instruction binding quotation to the
+  list is present, that the block stays near the 1800-word cap, and that rules 1 through 8
+  survive and come before it.
+- Two defects the tests found. The stemmer took one suffix off, so `sufferings` reduced to
+  `suffering` and never met `suffers`. And the Wikisource Tractatus does not wrap proposition
+  7 in a paragraph, so the most famous line in the book was being dropped; the build now
+  reads it out of the page body and fails loudly if it cannot.
+- Prose gates after the SOURCES.md and CONTRIBUTING.md rewrites: `slop-scan.py` exit 0,
+  `slop-shapes.py` exit 0. `node engine/reindex.mjs` exit 0.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)
@@ -252,6 +274,28 @@ Two older lines were rewritten to clear the vocabulary gate:
 - A7. The share stub keeps its meta refresh, so it is a redirect first and a page second,
   but it now renders the question and the last thing said rather than a bare link on white.
 
+- D1. Socrates ships with a works list and no text. His words survive inside Plato, and
+  plato.json already carries them; a socrates.json cut from the same dialogues would
+  attribute the same sentences twice under two names.
+- D1. Zhu Xi ships with a works list and no text. Bruce 1922 is out of copyright, but the
+  only copies are page scans whose OCR is broken by the interleaved Chinese, and a passage
+  in this corpus is presented as verbatim. Zhu Xi is not in the plan's enumerated list.
+- D1. Wang Yangming is in that list and does ship. Three scans of Henke 1916 were measured:
+  0.06, 0.17 and 0.01 percent damaged tokens. The cleanest by that count drops end-of-line
+  hyphens, which runs words together, so the build takes the 0.06 percent scan, which keeps
+  them, and drops any passage still carrying a token that looks like OCR damage.
+- D1. Nietzsche's corpus adds Samuel 1913 and Ludovici 1911 to the Common and Zimmern
+  translations the plan names. Both are pre-1929 and on Gutenberg, so both meet the rule the
+  plan states, and each translator is recorded per work rather than averaged into one credit.
+- D1. Laozi, Wittgenstein and Epicurus come in under the 150 passage floor at 77, 76 and 53.
+  Their surviving texts are short: the Daodejing ships as all 81 chapters, the Tractatus as
+  every proposition through the seventh, Epicurus as the three works Diogenes quotes whole.
+  Reaching 150 would mean quoting the same pages twice, which is worse than a smaller corpus.
+- D1. Kierkegaard's works array gained Stages on Life's Way, Training in Christianity and
+  The Moment. Hollander's 1923 selections draw on all three, they are real Kierkegaard works,
+  and lane D licenses real additions to a works array. The edit is three lines and leaves the
+  file's own formatting alone.
+
 ## Overseer calls
 
 (reversible decisions the overseer made on the run's behalf; founder review pending)
@@ -278,6 +322,10 @@ Two older lines were rewritten to clear the vocabulary gate:
 - A7 also repinned PRODUCT.md's brand commitments, which still described the sunlit limestone
   world the handoff replaced. The plan makes the handoff world binding, so leaving PRODUCT.md
   contradicting it would have left two pins in the repository.
+
+- Lane D added `scripts/build-passage-index.mjs` output and two engine files that the plan
+  names, plus the works-array edit above. No conversation JSON, no topic pool and no workflow
+  was touched.
 
 ## For the founder
 

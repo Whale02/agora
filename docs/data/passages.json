@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-08-29T23:24:47.692Z",
+  "generated_at": "2026-08-30T00:08:36.701Z",
   "philosophers": [
+    {
+      "slug": "kant",
+      "passages": 300,
+      "words": 73052,
+      "works": [
+        {
+          "work": "Critique of Pure Reason",
+          "count": 139
+        },
+        {
+          "work": "Groundwork of the Metaphysics of Morals",
+          "count": 86
+        },
+        {
+          "work": "Critique of Practical Reason",
+          "count": 75
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 237
+        },
+        {
+          "topic": "action",
+          "count": 116
+        },
+        {
+          "topic": "meta",
+          "count": 100
+        },
+        {
+          "topic": "meaning",
+          "count": 92
+        },
+        {
+          "topic": "virtue",
+          "count": 88
+        },
+        {
+          "topic": "self",
+          "count": 67
+        },
+        {
+          "topic": "nature",
+          "count": 55
+        },
+        {
+          "topic": "freedom",
+          "count": 47
+        },
+        {
+          "topic": "work",
+          "count": 25
+        },
+        {
+          "topic": "education",
+          "count": 20
+        },
+        {
+          "topic": "love",
+          "count": 19
+        },
+        {
+          "topic": "suffering",
+          "count": 16
+        },
+        {
+          "topic": "technology",
+          "count": 1
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Groundwork of the Metaphysics of Morals",
+          "translator": "Thomas Kingsmill Abbott",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/5682"
+        },
+        {
+          "work": "Critique of Practical Reason",
+          "translator": "Thomas Kingsmill Abbott",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/5683"
+        },
+        {
+          "work": "Critique of Pure Reason",
+          "translator": "J. M. D. Meiklejohn",
+          "year": 1855,
+          "source_url": "https://www.gutenberg.org/ebooks/4280"
+        }
+      ]
+    },
     {
       "slug": "marcus-aurelius",
       "passages": 205,
@@ -71,6 +164,119 @@
           "translator": "George Long",
           "year": 1862,
           "source_url": "https://www.gutenberg.org/ebooks/15877"
+        }
+      ]
+    },
+    {
+      "slug": "nietzsche",
+      "passages": 320,
+      "words": 60345,
+      "works": [
+        {
+          "work": "Thus Spoke Zarathustra",
+          "count": 100
+        },
+        {
+          "work": "The Gay Science",
+          "count": 68
+        },
+        {
+          "work": "Beyond Good and Evil",
+          "count": 58
+        },
+        {
+          "work": "On the Genealogy of Morals",
+          "count": 53
+        },
+        {
+          "work": "Twilight of the Idols",
+          "count": 41
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 150
+        },
+        {
+          "topic": "virtue",
+          "count": 108
+        },
+        {
+          "topic": "meta",
+          "count": 94
+        },
+        {
+          "topic": "self",
+          "count": 84
+        },
+        {
+          "topic": "meaning",
+          "count": 76
+        },
+        {
+          "topic": "nature",
+          "count": 65
+        },
+        {
+          "topic": "action",
+          "count": 60
+        },
+        {
+          "topic": "suffering",
+          "count": 49
+        },
+        {
+          "topic": "love",
+          "count": 43
+        },
+        {
+          "topic": "freedom",
+          "count": 40
+        },
+        {
+          "topic": "work",
+          "count": 33
+        },
+        {
+          "topic": "education",
+          "count": 30
+        },
+        {
+          "topic": "technology",
+          "count": 9
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Thus Spoke Zarathustra",
+          "translator": "Thomas Common",
+          "year": 1909,
+          "source_url": "https://www.gutenberg.org/ebooks/1998"
+        },
+        {
+          "work": "Beyond Good and Evil",
+          "translator": "Helen Zimmern",
+          "year": 1907,
+          "source_url": "https://www.gutenberg.org/ebooks/4363"
+        },
+        {
+          "work": "On the Genealogy of Morals",
+          "translator": "Horace B. Samuel",
+          "year": 1913,
+          "source_url": "https://www.gutenberg.org/ebooks/52319"
+        },
+        {
+          "work": "The Gay Science",
+          "translator": "Thomas Common",
+          "year": 1910,
+          "source_url": "https://www.gutenberg.org/ebooks/52881"
+        },
+        {
+          "work": "Twilight of the Idols",
+          "translator": "Anthony M. Ludovici",
+          "year": 1911,
+          "source_url": "https://www.gutenberg.org/ebooks/52263"
         }
       ]
     },

@@ -38,8 +38,8 @@
       "text": "We may call all philosophy empirical, so far as it is based on grounds of experience: on the other hand, that which delivers its doctrines from a priori principles alone we may call pure philosophy. When the latter is merely formal it is logic; if it is restricted to definite objects of the understanding it is metaphysic.\n\nIn this way there arises the idea of a twofold metaphysic- a metaphysic of nature and a metaphysic of morals. Physics will thus have an empirical and also a rational part. It is the same with Ethics; but here the empirical part might have the special name of practical anthropology, the name morality being appropriated to the rational part.\n\nAll trades, arts, and handiworks have gained by division of labour, namely, when, instead of one man doing everything, each confines himself to a certain kind of work distinct from others in the treatment it requires, so as to be able to perform it with greater facility and in the greatest perfection. Where the different kinds of work are not distinguished and divided, where everyone is a jack-of-all-trades, there manufactures remain still in the greatest barbarism. It might deserve to be considered whether pure philosophy in all its parts does not require a man specially devoted to it, and whether it would not be better for the whole business of science if those who, to please the tastes of the public, are wont to blend the rational and empirical elements together, mixed in all sorts of proportions unknown to themselves, and who call themselves independent thinkers, giving the name of minute philosophers to those who apply themselves to the rational part only- if these, I say, were warned not to carry on two employments together which differ widely in the treatment they demand, for each of which perhaps a special talent is required, and the combination of which in one person only produces bunglers.",
       "topics": [
         "knowledge",
-        "meta",
         "work",
+        "meta",
         "self"
       ]
     },
@@ -340,8 +340,8 @@
       "text": "Innocence is indeed a glorious thing; only, on the other hand, it is very sad that it cannot well maintain itself and is easily seduced. On this account even wisdom- which otherwise consists more in conduct than in knowledge- yet has need of science, not in order to learn from it, but to secure for its precepts admission and permanence. Against all the commands of duty which reason represents to man as so deserving of respect, he feels in himself a powerful counterpoise in his wants and inclinations, the entire satisfaction of which he sums up under the name of happiness. Now reason issues its commands unyieldingly, without promising anything to the inclinations, and, as it were, with disregard and contempt for these claims, which are so impetuous, and at the same time so plausible, and which will not allow themselves to be suppressed by any command. Hence there arises a natural dialectic, i.e., a disposition, to argue against these strict laws of duty and to question their validity, or at least their purity and strictness; and, if possible, to make them more accordant with our wishes and inclinations, that is to say, to corrupt them at their very source, and entirely to destroy their worth- a thing which even common practical reason cannot ultimately call good.",
       "topics": [
         "knowledge",
-        "meta",
         "freedom",
+        "meta",
         "self"
       ]
     },
@@ -412,8 +412,8 @@
       "ref": "Second Section",
       "text": "If then there is no genuine supreme principle of morality but what must rest simply on pure reason, independent of all experience, I think it is not necessary even to put the question whether it is good to exhibit these concepts in their generality (in abstracto) as they are established a priori along with the principles belonging to them, if our knowledge is to be distinguished from the vulgar and to be called philosophical.\n\nIn our times indeed this might perhaps be necessary; for if we collected votes whether pure rational knowledge separated from everything empirical, that is to say, metaphysic of morals, or whether popular practical philosophy is to be preferred, it is easy to guess which side would preponderate.\n\nThis descending to popular notions is certainly very commendable, if the ascent to the principles of pure reason has first taken place and been satisfactorily accomplished. This implies that we first found ethics on metaphysics, and then, when it is firmly established, procure a hearing for it by giving it a popular character. But it is quite absurd to try to be popular in the first inquiry, on which the soundness of the principles depends. It is not only that this proceeding can never lay claim to the very rare merit of a true philosophical popularity, since there is no art in being intelligible if one renounces all thoroughness of insight; but also it produces a disgusting medley of compiled observations and half-reasoned principles. Shallow pates enjoy this because it can be used for every-day chat, but the sagacious find in it only confusion, and being unsatisfied and unable to help themselves, they turn away their eyes, while philosophers, who see quite well through this delusion, are little listened to when they call men off for a time from this pretended popularity, in order that they might be rightfully popular after they have attained a definite insight.",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "virtue"
       ]
     },
@@ -467,9 +467,9 @@
       "text": "But in order that in this study we may not merely advance by the natural steps from the common moral judgement (in this case very worthy of respect) to the philosophical, as has been already done, but also from a popular philosophy, which goes no further than it can reach by groping with the help of examples, to metaphysic (which does allow itself to be checked by anything empirical and, as it must measure the whole extent of this kind of rational knowledge, goes as far as ideal conceptions, where even examples fail us), we must follow and clearly describe the practical faculty of reason, from the general rules of its determination to the point where the notion of duty springs from it.\n\nEverything in nature works according to laws. Rational beings alone have the faculty of acting according to the conception of laws, that is according to principles, i.e., have a will. Since the deduction of actions from principles requires reason, the will is nothing but practical reason. If reason infallibly determines the will, then the actions of such a being which are recognised as objectively necessary are subjectively necessary also, i.e., the will is a faculty to choose that only which reason independent of inclination recognises as practically necessary, i.e., as good. But if reason of itself does not sufficiently determine the will, if the latter is subject also to subjective conditions (particular impulses) which do not always coincide with the objective conditions; in a word, if the will does not in itself completely accord with reason (which is actually the case with men), then the actions which objectively are recognised as necessary are subjectively contingent, and the determination of such a will according to objective laws is obligation, that is to say, the relation of the objective laws to a will that is not thoroughly good is conceived as the determination of the will of a rational being by principles of reason, but which the will from its nature does not of necessity follow.",
       "topics": [
         "action",
-        "meta",
         "knowledge",
-        "virtue"
+        "virtue",
+        "meaning"
       ]
     },
     {
@@ -478,8 +478,7 @@
       "text": "The conception of an objective principle, in so far as it is obligatory for a will, is called a command (of reason), and the formula of the command is called an imperative.\n\nAll imperatives are expressed by the word ought [or shall], and thereby indicate the relation of an objective law of reason to a will, which from its subjective constitution is not necessarily determined by it (an obligation). They say that something would be good to do or to forbear, but they say it to a will which does not always do a thing because it is conceived to be good to do it. That is practically good, however, which determines the will by means of the conceptions of reason, and consequently not from subjective causes, but objectively, that is on principles which are valid for every rational being as such. It is distinguished from the pleasant, as that which influences the will only by means of sensation from merely subjective causes, valid only for the sense of this or that one, and not as a principle of reason, which holds for every one. *\n\n* The dependence of the desires on sensations is called inclination, and this accordingly always indicates a want. The dependence of a contingently determinable will on principles of reason is called an interest. This therefore, is found only in the case of a dependent will which does not always of itself conform to reason; in the Divine will we cannot conceive any interest.",
       "topics": [
         "knowledge",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -507,8 +506,7 @@
       "topics": [
         "knowledge",
         "meaning",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -527,8 +525,8 @@
       "topics": [
         "knowledge",
         "meaning",
-        "meta",
-        "nature"
+        "nature",
+        "action"
       ]
     },
     {
@@ -547,8 +545,8 @@
       "text": "* It seems to me that the proper signification of the word pragmatic may be most accurately defined in this way. For sanctions are called pragmatic which flow properly not from the law of the states as necessary enactments, but from precaution for the general welfare. A history is composed pragmatically when it teaches prudence, i.e., instructs the world how it can provide for its interests better, or at least as well as, the men of former time.\n\nNow arises the question, how are all these imperatives possible? This question does not seek to know how we can conceive the accomplishment of the action which the imperative ordains, but merely how we can conceive the obligation of the will which the imperative expresses. No special explanation is needed to show how an imperative of skill is possible. Whoever wills the end, wills also (so far as reason decides his conduct) the means in his power which are indispensably necessary thereto. This proposition is, as regards the volition, analytical; for, in willing an object as my effect, there is already thought the causality of myself as an acting cause, that is to say, the use of the means; and the imperative educes from the conception of volition of an end the conception of actions necessary to this end. Synthetical propositions must no doubt be employed in defining the means to a proposed end; but they do not concern the principle, the act of the will, but the object and its realization.",
       "topics": [
         "action",
-        "meta",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -557,8 +555,8 @@
       "text": "E.g., that in order to bisect a line on an unerring principle I must draw from its extremities two intersecting arcs; this no doubt is taught by mathematics only in synthetical propositions; but if I know that it is only by this process that the intended operation can be performed, then to say that, if I fully will the operation, I also will the action required for it, is an analytical proposition; for it is one and the same thing to conceive something as an effect which I can produce in a certain way, and to conceive myself as acting in this way.",
       "topics": [
         "knowledge",
-        "meta",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -567,8 +565,7 @@
       "text": "If it were only equally easy to give a definite conception of happiness, the imperatives of prudence would correspond exactly with those of skill, and would likewise be analytical. For in this case as in that, it could be said: \"Whoever wills the end, wills also (according to the dictate of reason necessarily) the indispensable means thereto which are in his power.\" But, unfortunately, the notion of happiness is so indefinite that although every man wishes to attain it, yet he never can say definitely and consistently what it is that he really wishes and wills. The reason of this is that all the elements which belong to the notion of happiness are altogether empirical, i.e., they must be borrowed from experience, and nevertheless the idea of happiness requires an absolute whole, a maximum of welfare in my present and all future circumstances. Now it is impossible that the most clear-sighted and at the same time most powerful being (supposed finite) should frame to himself a definite conception of what he really wills in this. Does he will riches, how much anxiety, envy, and snares might he not thereby draw upon his shoulders? Does he will knowledge and discernment, perhaps it might prove to be only an eye so much the sharper to show him so much the more fearfully the evils that are now concealed from him, and that cannot be avoided, or to impose more wants on his desires, which already give him concern enough.",
       "topics": [
         "knowledge",
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -742,7 +739,7 @@
         "self",
         "meaning",
         "action",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -1055,8 +1052,7 @@
       "topics": [
         "knowledge",
         "freedom",
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -1064,8 +1060,7 @@
       "ref": "Preface",
       "text": "In this manner, then, the a priori principles of two faculties of the mind, the faculty of cognition and that of desire, would be found and determined as to the conditions, extent, and limits of their use, and thus a sure foundation be paid for a scientific system of philosophy, both theoretic and practical.\n\nNothing worse could happen to these labours than that anyone should make the unexpected discovery that there neither is, nor can be, any a priori knowledge at all. But there is no danger of this. This would be the same thing as if one sought to prove by reason that there is no reason. For we only say that we know something by reason, when we are conscious that we could have known it, even if it had not been given to us in experience; hence rational knowledge and knowledge a priori are one and the same. It is a clear contradiction to try to extract necessity from a principle of experience (ex pumice aquam), and to try by this to give a judgement true universality (without which there is no rational inference, not even inference from analogy, which is at least a presumed universality and objective necessity). To substitute subjective necessity, that is, custom, for objective, which exists only in a priori judgements, is to deny to reason the power of judging about the object, i.e., of knowing it, and what belongs to it.",
       "topics": [
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -1084,8 +1079,7 @@
       "text": "Hume would be quite satisfied with this system of universal empiricism, for, as is well known, he desired nothing more than that, instead of ascribing any objective meaning to the necessity in the concept of cause, a merely subjective one should be assumed, viz., custom, in order to deny that reason could judge about God, freedom, and immortality; and if once his principles were granted, he was certainly well able to deduce his conclusions therefrom, with all logical coherence. But even Hume did not make his empiricism so universal as to include mathematics. He holds the principles of mathematics to be analytical; and if his were correct, they would certainly be apodeictic also: but we could not infer from this that reason has the faculty of forming apodeictic judgements in philosophy also- that is to say, those which are synthetical judgements, like the judgement of causality. But if we adopt a universal empiricism, then mathematics will be included.\n\nNow if this science is in contradiction with a reason that admits only empirical principles, as it inevitably is in the antinomy in which mathematics prove the infinite divisibility of space, which empiricism cannot admit; then the greatest possible evidence of demonstration is in manifest contradiction with the alleged conclusions from experience, and we are driven to ask, like Cheselden's blind patient, \"Which deceives me, sight or touch?\" (for empiricism is based on a necessity felt, rationalism on a necessity seen). And thus universal empiricism reveals itself as absolute scepticism. It is erroneous to attribute this in such an unqualified sense to Hume, * since he left at least one certain touchstone (which can only be found in a priori principles), although experience consists not only of feelings, but also of judgements.",
       "topics": [
         "knowledge",
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -1093,8 +1087,8 @@
       "ref": "Preface",
       "text": "* Names that designate the followers of a sect have always been accompanied with much injustice; just as if one said, \"N is an Idealist.\" For although he not only admits, but even insists, that our ideas of external things have actual objects of external things corresponding to them, yet he holds that the form of the intuition does not depend on them but on the human mind.\n\nHowever, as in this philosophical and critical age such empiricism can scarcely be serious, and it is probably put forward only as an intellectual exercise and for the purpose of putting in a clearer light, by contrast, the necessity of rational a priori principles, we can only be grateful to those who employ themselves in this otherwise uninstructive labour.",
       "topics": [
-        "meta",
-        "virtue"
+        "virtue",
+        "meta"
       ]
     },
     {
@@ -1266,14 +1260,6 @@
     {
       "work": "Critique of Practical Reason",
       "ref": "Book I, Chapter I",
-      "text": "I apply it, therefore, to the present case, and ask whether it could take the form of a law, and consequently whether I can by my maxim at the same time give such a law as this, that everyone may deny a deposit of which no one can produce a proof. I at once become aware that such a principle, viewed as a law, would annihilate itself, because the result would be that there would be no deposits. A practical law which I recognise as such must be qualified for universal legislation; this is an identical proposition and, therefore, self-evident. Now, if I say that my will is subject to a practical law, I cannot adduce my inclination (e.g., in the present case my avarice) as a principle of determination fitted to be a universal practical law; for this is so far from being fitted for a universal legislation that, if put in the form of a universal law, it would destroy itself.",
-      "topics": [
-        "meta"
-      ]
-    },
-    {
-      "work": "Critique of Practical Reason",
-      "ref": "Book I, Chapter I",
       "text": "It is, therefore, surprising that intelligent men could have thought of calling the desire of happiness a universal practical law on the ground that the desire is universal, and, therefore, also the maxim by which everyone makes this desire determine his will. For whereas in other cases a universal law of nature makes everything harmonious; here, on the contrary, if we attribute to the maxim the universality of a law, the extreme opposite of harmony will follow, the greatest opposition and the complete destruction of the maxim itself and its purpose. For, in that case, the will of all has not one and the same object, but everyone has his own (his private welfare), which may accidentally accord with the purposes of others which are equally selfish, but it is far from sufficing for a law; because the occasional exceptions which one is permitted to make are endless, and cannot be definitely embraced in one universal rule. In this manner, then, results a harmony like that which a certain satirical poem depicts as existing between a married couple bent on going to ruin, \"O, marvellous harmony, what he wishes, she wishes also\"; or like what is said of the pledge of Francis I to the Emperor Charles V, \"What my brother Charles wishes that I wish also\" (viz., Milan). Empirical principles of determination are not fit for any universal external legislation, but just as little for internal; for each man makes his own subject the foundation of his inclination, and in the same subject sometimes one inclination, sometimes another, has the preponderance. To discover a law which would govern them all under this condition, namely, bringing them all into harmony, is quite impossible.",
       "topics": [
         "love",
@@ -1309,14 +1295,6 @@
       "topics": [
         "knowledge",
         "virtue"
-      ]
-    },
-    {
-      "work": "Critique of Practical Reason",
-      "ref": "Book I, Chapter I",
-      "text": "He would perhaps not venture to affirm whether he would do so or not, but he must unhesitatingly admit that it is possible to do so. He judges, therefore, that he can do a certain thing because he is conscious that he ought, and he recognizes that he is free- a fact which but for the moral law he would never have known.",
-      "topics": [
-        "knowledge"
       ]
     },
     {
@@ -1431,17 +1409,6 @@
     {
       "work": "Critique of Practical Reason",
       "ref": "Book I, Chapter I",
-      "text": "He who has lost at play may be vexed at himself and his folly, but if he is conscious of having cheated at play (although he has gained thereby), he must despise himself as soon as he compares himself with the moral law. This must, therefore, be something different from the principle of private happiness. For a man must have a different criterion when he is compelled to say to himself: \"I am a worthless fellow, though I have filled my purse\"; and when he approves himself, and says: \"I am a prudent man, for I have enriched my treasure.\"\n\nFinally, there is something further in the idea of our practical reason, which accompanies the transgression of a moral law- namely, its ill desert. Now the notion of punishment, as such, cannot be united with that of becoming a partaker of happiness; for although he who inflicts the punishment may at the same time have the benevolent purpose of directing this punishment to this end, yet it must first be justified in itself as punishment, i.e., as mere harm, so that if it stopped there, and the person punished could get no glimpse of kindness hidden behind this harshness, he must yet admit that justice was done him, and that his reward was perfectly suitable to his conduct. In every punishment, as such, there must first be justice, and this constitutes the essence of the notion. Benevolence may, indeed, be united with it, but the man who has deserved punishment has not the least reason to reckon upon this.",
-      "topics": [
-        "virtue",
-        "meaning",
-        "action",
-        "meta"
-      ]
-    },
-    {
-      "work": "Critique of Practical Reason",
-      "ref": "Book I, Chapter I",
       "text": "Punishment, then, is a physical evil, which, though it be not connected with moral evil as a natural consequence, ought to be connected with it as a consequence by the principles of a moral legislation. Now, if every crime, even without regarding the physical consequence with respect to the actor, is in itself punishable, that is, forfeits happiness (at least partially), it is obviously absurd to say that the crime consisted just in this, that he has drawn punishment on himself, thereby injuring his private happiness (which, on the principle of self-love, must be the proper notion of all crime). According to this view, the punishment would be the reason for calling anything a crime, and justice would, on the contrary, consist in omitting all punishment, and even preventing that which naturally follows; for, if this were done, there would no longer be any evil in the action, since the harm which otherwise followed it, and on account of which alone the action was called evil, would now be prevented. To look, however, on all rewards and punishments as merely the machinery in the hand of a higher power, which is to serve only to set rational creatures striving after their final end (happiness), this is to reduce the will to a mechanism destructive of freedom; this is so evident that it need not detain us.",
       "topics": [
         "self",
@@ -1458,6 +1425,16 @@
         "virtue",
         "knowledge",
         "self"
+      ]
+    },
+    {
+      "work": "Critique of Practical Reason",
+      "ref": "Book I, Chapter I",
+      "text": "This Analytic shows that pure reason can be practical, that is, can of itself determine the will independently of anything empirical; and this it proves by a fact in which pure reason in us proves itself actually practical, namely, the autonomy shown in the fundamental principle of morality, by which reason determines the will to action.\n\nIt shows at the same time that this fact is inseparably connected with the consciousness of freedom of the will, nay, is identical with it; and by this the will of a rational being, although as belonging to the world of sense it recognizes itself as necessarily subject to the laws of causality like other efficient causes; yet, at the same time, on another side, namely, as a being in itself, is conscious of existing in and being determined by an intelligible order of things; conscious not by virtue of a special intuition of itself, but by virtue of certain dynamical laws which determine its causality in the sensible world; for it has been elsewhere proved that if freedom is predicated of us, it transports us into an intelligible order of things.\n\nNow, if we compare with this the analytical part of the critique of pure speculative reason, we shall see a remarkable contrast. There it was not fundamental principles, but pure, sensible intuition (space and time), that was the first datum that made a priori knowledge possible, though only of objects of the senses.",
+      "topics": [
+        "knowledge",
+        "freedom",
+        "virtue"
       ]
     },
     {
@@ -1493,11 +1470,21 @@
     {
       "work": "Critique of Practical Reason",
       "ref": "Book I, Chapter I",
-      "text": "In this inquiry criticism may and must begin with pure practical laws and their reality. But instead of intuition it takes as their foundation the conception of their existence in the intelligible world, namely, the concept of freedom. For this concept has no other meaning, and these laws are only possible in relation to freedom of the will; but freedom being supposed, they are necessary; or conversely freedom is necessary because those laws are necessary, being practical postulates. It cannot be further explained how this consciousness of the moral law, or, what is the same thing, of freedom, is possible; but that it is admissible is well established in the theoretical critique.\n\nThe exposition of the supreme principle of practical reason is now finished; that is to say, it has been shown first, what it contains, that it subsists for itself quite a priori and independent of empirical principles; and next in what it is distinguished from all other practical principles. With the deduction, that is, the justification of its objective and universal validity, and the discernment of the possibility of such a synthetical proposition a priori, we cannot expect to succeed so well as in the case of the principles of pure theoretical reason. For these referred to objects of possible experience, namely, to phenomena, and we could prove that these phenomena could be known as objects of experience only by being brought under the categories in accordance with these laws; and consequently that all possible experience must conform to these laws. But I could not proceed in this way with the deduction of the moral law. For this does not concern the knowledge of the properties of objects, which may be given to the reason from some other source; but a knowledge which can itself be the ground of the existence of the objects, and by which reason in a rational being has causality, i.e., pure reason, which can be regarded as a faculty immediately determining the will.",
+      "text": "Mathematics escaped well, so far, because Hume thought that its propositions were analytical; that is, proceeded from one property to another, by virtue of identity and, consequently, according to the principle of contradiction. This, however, is not the case, since, on the contrary, they are synthetical; and although geometry, for example, has not to do with the existence of things, but only with their a priori properties in a possible intuition, yet it proceeds just as in the case of the causal notion, from one property (A) to another wholly distinct (B), as necessarily connected with the former. Nevertheless, mathematical science, so highly vaunted for its apodeictic certainty, must at last fall under this empiricism for the same reason for which Hume put custom in the place of objective necessity in the notion of cause and, in spite of all its pride, must consent to lower its bold pretension of claiming assent a priori and depend for assent to the universality of its propositions on the kindness of observers, who, when called as witnesses, would surely not hesitate to admit that what the geometer propounds as a theorem they have always perceived to be the fact, and, consequently, although it be not necessarily true, yet they would permit us to expect it to be true in the future. In this manner Hume's empiricism leads inevitably to scepticism, even with regard to mathematics, and consequently in every scientific theoretical use of reason (for this belongs either to philosophy or mathematics). Whether with such a terrible overthrow of the chief branches of knowledge, common reason will escape better, and will not rather become irrecoverably involved in this destruction of all knowledge, so that from the same principles a universal scepticism should follow (affecting, indeed, only the learned), this I will leave everyone to judge for himself.",
       "topics": [
         "knowledge",
-        "freedom",
-        "action",
+        "self",
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "Critique of Practical Reason",
+      "ref": "Book I, Chapter II",
+      "text": "If the notion of good is not to be derived from an antecedent practical law, but, on the contrary, is to serve as its foundation, it can only be the notion of something whose existence promises pleasure, and thus determines the causality of the subject to produce it, that is to say, determines the faculty of desire. Now, since it is impossible to discern a priori what idea will be accompanied with pleasure and what with pain, it will depend on experience alone to find out what is primarily good or evil. The property of the subject, with reference to which alone this experiment can be made, is the feeling of pleasure and pain, a receptivity belonging to the internal sense; thus that only would be primarily good with which the sensation of pleasure is immediately connected, and that simply evil which immediately excites pain. Since, however, this is opposed even to the usage of language, which distinguishes the pleasant from the good, the unpleasant from the evil, and requires that good and evil shall always be judged by reason, and, therefore, by concepts which can be communicated to everyone, and not by mere sensation, which is limited to individual [subjects] and their susceptibility; and, since nevertheless, pleasure or pain cannot be connected with any idea of an object a priori, the philosopher who thought himself obliged to make a feeling of pleasure the foundation of his practical judgements would call that good which is a means to the pleasant, and evil, what is a cause of unpleasantness and pain; for the judgement on the relation of means to ends certainly belongs to reason.",
+      "topics": [
+        "knowledge",
+        "self",
         "meta"
       ]
     },
@@ -1507,6 +1494,14 @@
       "text": "But, although reason is alone capable of discerning the connexion of means with their ends (so that the will might even be defined as the faculty of ends, since these are always determining principles of the desires), yet the practical maxims which would follow from the aforesaid principle of the good being merely a means, would never contain as the object of the will anything good in itself, but only something good for something; the good would always be merely the useful, and that for which it is useful must always lie outside the will, in sensation. Now if this as a pleasant sensation were to be distinguished from the notion of good, then there would be nothing primarily good at all, but the good would have to be sought only in the means to something else, namely, some pleasantness.",
       "topics": [
         "love"
+      ]
+    },
+    {
+      "work": "Critique of Practical Reason",
+      "ref": "Book I, Chapter II",
+      "text": "It is an old formula of the schools: Nihil appetimus nisi sub ratione boni; Nihil aversamur nisi sub ratione mali, and it is used often correctly, but often also in a manner injurious to philosophy, because the expressions boni and mali are ambiguous, owing to the poverty of language, in consequence of which they admit a double sense, and, therefore, inevitably bring the practical laws into ambiguity; and philosophy, which in employing them becomes aware of the different meanings in the same word, but can find no special expressions for them, is driven to subtile distinctions about which there is subsequently no unanimity, because the distinction could not be directly marked by any suitable expression. *\n\n* Besides this, the expression sub ratione boni is also ambiguous. For it may mean: \"We represent something to ourselves as good, when and because we desire (will) it\"; or \"We desire something because we represent it to ourselves as good,\" so that either the desire determines the notion of the object as a good, or the notion of good determines the desire (the will); so that in the first case sub ratione boni would mean, \"We will something under the idea of the good\"; in the second, \"In consequence of this idea,\" which, as determining the volition, must precede it.",
+      "topics": [
+        "meta"
       ]
     },
     {
@@ -1576,8 +1571,8 @@
       "ref": "Book II, Chapter I",
       "text": "It may be seen in detail in the Critique of Pure Reason how in its speculative employment this natural dialectic is to be solved, and how the error which arises from a very natural illusion may be guarded against. But reason in its practical use is not a whit better off. As pure practical reason, it likewise seeks to find the unconditioned for the practically conditioned (which rests on inclinations and natural wants), and this is not as the determining principle of the will, but even when this is given (in the moral law) it seeks the unconditioned totality of the object of pure practical reason under the name of the summum bonum.\n\nTo define this idea practically, i.e., sufficiently for the maxims of our rational conduct, is the business of practical wisdom, and this again as a science is philosophy, in the sense in which the word was understood by the ancients, with whom it meant instruction in the conception in which the summum bonum was to be placed, and the conduct by which it was to be obtained. It would be well to leave this word in its ancient signification as a doctrine of the summum bonum, so far as reason endeavours to make this into a science. For on the one hand the restriction annexed would suit the Greek expression (which signifies the love of wisdom), and yet at the same time would be sufficient to embrace under the name of philosophy the love of science: that is to say, of all speculative rational knowledge, so far as it is serviceable to reason, both for that conception and also for the practical principle determining our conduct, without letting out of sight the main end, on account of which alone it can be called a doctrine of practical wisdom.",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "work"
       ]
     },
@@ -1683,9 +1678,9 @@
       "text": "This path—the only one now remaining—has been entered upon by me; and I flatter myself that I have, in this way, discovered the cause of—and consequently the mode of removing—all the errors which have hitherto set reason at variance with itself, in the sphere of non-empirical thought. I have not returned an evasive answer to the questions of reason, by alleging the inability and limitation of the faculties of the mind; I have, on the contrary, examined them completely in the light of principles, and, after having discovered the cause of the doubts and contradictions into which reason fell, have solved them to its perfect satisfaction. It is true, these questions have not been solved as dogmatism, in its vain fancies and desires, had expected; for it can only be satisfied by the exercise of magical arts, and of these I have no knowledge. But neither do these come within the compass of our mental powers; and it was the duty of philosophy to destroy the illusions which had their origin in misconceptions, whatever darling hopes and valued expectations may be ruined by its explanations. My chief aim in this work has been thoroughness; and I make bold to say that there is not a single metaphysical problem that does not find its solution, or at least the key to its solution, here. Pure reason is a perfect unity; and therefore, if the principle presented by it prove to be insufficient for the solution of even a single one of those questions to which the very nature of reason gives birth, we must reject it, as we could not be perfectly certain of its sufficiency in the case of the others.",
       "topics": [
         "knowledge",
-        "meta",
         "self",
-        "meaning"
+        "meaning",
+        "action"
       ]
     },
     {
@@ -1695,8 +1690,8 @@
       "topics": [
         "knowledge",
         "self",
-        "meta",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -1726,9 +1721,9 @@
       "ref": "Preface to the First Edition",
       "text": "As regards clearness, the reader has a right to demand, in the first place, discursive or logical clearness, that is, on the basis of conceptions, and, secondly, intuitive or æsthetic clearness, by means of intuitions, that is, by examples or other modes of illustration in concreto. I have done what I could for the first kind of intelligibility. This was essential to my purpose; and it thus became the accidental cause of my inability to do complete justice to the second requirement. I have been almost always at a loss, during the progress of this work, how to settle this question. Examples and illustrations always appeared to me necessary, and, in the first sketch of the Critique, naturally fell into their proper places. But I very soon became aware of the magnitude of my task, and the numerous problems with which I should be engaged; and, as I perceived that this critical investigation would, even if delivered in the driest scholastic manner, be far from being brief, I found it unadvisable to enlarge it still more with examples and explanations, which are necessary only from a popular point of view. I was induced to take this course from the consideration also that the present work is not intended for popular use, that those devoted to science do not require such helps, although they are always acceptable, and that they would have materially interfered with my present purpose. Abbé Terrasson remarks with great justice that, if we estimate the size of a work, not from the number of its pages, but from the time which we require to make ourselves master of it, it may be said of many a book—that it would be much shorter, if it were not so short.",
       "topics": [
-        "meta",
         "meaning",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -1736,7 +1731,7 @@
       "ref": "Preface to the First Edition",
       "text": "On the other hand, as regards the comprehensibility of a system of speculative cognition, connected under a single principle, we may say with equal justice: many a book would have been much clearer, if it had not been intended to be so very clear. For explanations and examples, and other helps to intelligibility, aid us in the comprehension of parts, but they distract the attention, dissipate the mental power of the reader, and stand in the way of his forming a clear conception of the whole; as he cannot attain soon enough to a survey of the system, and the colouring and embellishments bestowed upon it prevent his observing its articulation or organization—which is the most important consideration with him, when he comes to judge of its unity and stability.",
       "topics": [
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -1963,8 +1958,7 @@
       "text": "Thus, while it may be no very difficult task to bequeath a legacy to posterity, in the shape of a system of metaphysics constructed in accordance with the Critique of Pure Reason, still the value of such a bequest is not to be depreciated. It will render an important service to reason, by substituting the certainty of scientific method for that random groping after results without the guidance of principles, which has hitherto characterized the pursuit of metaphysical studies. It will render an important service to the inquiring mind of youth, by leading the student to apply his powers to the cultivation of genuine science, instead of wasting them, as at present, on speculations which can never lead to any result, or on the idle attempt to invent new ideas and opinions. But, above all, it will confer an inestimable benefit on morality and religion, by showing that all the objections urged against them may be silenced for ever by the Socratic method, that is to say, by proving the ignorance of the objector. For, as the world has never been, and, no doubt, never will be without a system of metaphysics of one kind or another, it is the highest and weightiest concern of philosophy to render it powerless for harm, by closing up the sources of error.",
       "topics": [
         "knowledge",
-        "education",
-        "meta"
+        "education"
       ]
     },
     {
@@ -2107,8 +2101,8 @@
       "ref": "Preface to the Second Edition",
       "text": "But the expression, “à priori,” is not as yet definite enough adequately to indicate the whole meaning of the question above started. For, in speaking of knowledge which has its sources in experience, we are wont to say, that this or that may be known à priori, because we do not derive this knowledge immediately from experience, but from a general rule, which, however, we have itself borrowed from experience. Thus, if a man undermined his house, we say, “he might know à priori that it would have fallen;” that is, he needed not to have waited for the experience that it did actually fall. But still, à priori, he could not know even this much. For, that bodies are heavy, and, consequently, that they fall when their supports are taken away, must have been known to him previously, by means of experience.\n\nBy the term “knowledge à priori,” therefore, we shall in the sequel understand, not such as is independent of this or that kind of experience, but such as is absolutely so of all experience. Opposed to this is empirical knowledge, or that which is possible only à posteriori, that is, through experience. Knowledge à priori is either pure or impure. Pure knowledge à priori is that with which no empirical element is mixed up. For example, the proposition, “Every change has a cause,” is a proposition à priori, but impure, because change is a conception which can only be derived from experience.",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "meaning"
       ]
     },
@@ -2136,8 +2130,7 @@
       "text": "Not only in judgements, however, but even in conceptions, is an à priori origin manifest. For example, if we take away by degrees from our conceptions of a body all that can be referred to mere sensuous experience—colour, hardness or softness, weight, even impenetrability—the body will then vanish; but the space which it occupied still remains, and this it is utterly impossible to annihilate in thought. Again, if we take away, in like manner, from our empirical conception of any object, corporeal or incorporeal, all properties which mere experience has taught us to connect with it, still we cannot think away those through which we cogitate it as substance, or adhering to substance, although our conception of substance is more determined than that of an object. Compelled, therefore, by that necessity with which the conception of substance forces itself upon us, we must confess that it has its seat in our faculty of cognition à priori.\n\nIII. Philosophy stands in need of a Science which shall Determine the Possibility, Principles, and Extent of Human Knowledge “à priori”\n\nOf far more importance than all that has been above said, is the consideration that certain of our cognitions rise completely above the sphere of all possible experience, and by means of conceptions, to which there exists in the whole extent of experience no corresponding object, seem to extend the range of our judgements beyond its bounds. And just in this transcendental or supersensible sphere, where experience affords us neither instruction nor guidance, lie the investigations of reason, which, on account of their importance, we consider far preferable to, and as having a far more elevated aim than, all that the understanding can achieve within the sphere of sensuous phenomena.",
       "topics": [
         "knowledge",
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -2156,9 +2149,9 @@
       "text": "Now the safe ground of experience being thus abandoned, it seems nevertheless natural that we should hesitate to erect a building with the cognitions we possess, without knowing whence they come, and on the strength of principles, the origin of which is undiscovered. Instead of thus trying to build without a foundation, it is rather to be expected that we should long ago have put the question, how the understanding can arrive at these à priori cognitions, and what is the extent, validity, and worth which they may possess? We say, “This is natural enough,” meaning by the word natural, that which is consistent with a just and reasonable way of thinking; but if we understand by the term, that which usually happens, nothing indeed could be more natural and more comprehensible than that this investigation should be left long unattempted. For one part of our pure knowledge, the science of mathematics, has been long firmly established, and thus leads us to form flattering expectations with regard to others, though these may be of quite a different nature. Besides, when we get beyond the bounds of experience, we are of course safe from opposition in that quarter; and the charm of widening the range of our knowledge is so great that, unless we are brought to a standstill by some evident contradiction, we hurry on undoubtingly in our course. This, however, may be avoided, if we are sufficiently cautious in the construction of our fictions, which are not the less fictions on that account.",
       "topics": [
         "knowledge",
-        "meta",
         "meaning",
-        "nature"
+        "nature",
+        "meta"
       ]
     },
     {
@@ -2196,8 +2189,7 @@
       "topics": [
         "knowledge",
         "meaning",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2313,8 +2305,7 @@
       "ref": "Preface to the Second Edition",
       "text": "VII. Idea and Division of a Particular Science, under the Name of a Critique of Pure Reason.\n\nFrom all that has been said, there results the idea of a particular science, which may be called the Critique of Pure Reason. For reason is the faculty which furnishes us with the principles of knowledge à priori. Hence, pure reason is the faculty which contains the principles of cognizing anything absolutely à priori. An organon of pure reason would be a compendium of those principles according to which alone all pure cognitions à priori can be obtained. The completely extended application of such an organon would afford us a system of pure reason. As this, however, is demanding a great deal, and it is yet doubtful whether any extension of our knowledge be here possible, or, if so, in what cases; we can regard a science of the mere criticism of pure reason, its sources and limits, as the propædeutic to a system of pure reason. Such a science must not be called a doctrine, but only a critique of pure reason; and its use, in regard to speculation, would be only negative, not to enlarge the bounds of, but to purify, our reason, and to shield it against error—which alone is no little gain. I apply the term transcendental to all knowledge which is not so much occupied with objects as with the mode of our cognition of these objects, so far as this mode of cognition is possible à priori.",
       "topics": [
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -2342,8 +2333,7 @@
       "topics": [
         "knowledge",
         "meaning",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -2371,8 +2361,7 @@
       "text": "The effect of an object upon the faculty of representation, so far as we are affected by the said object, is sensation. That sort of intuition which relates to an object by means of sensation is called an empirical intuition. The undetermined object of an empirical intuition is called phenomenon. That which in the phenomenon corresponds to the sensation, I term its matter; but that which effects that the content of the phenomenon can be arranged under certain relations, I call its form. But that in which our sensations are merely arranged, and by which they are susceptible of assuming a certain form, cannot be itself sensation. It is, then, the matter of all phenomena that is given to us à posteriori; the form must lie ready à priori for them in the mind, and consequently can be regarded separately from all sensation.\n\nI call all representations pure, in the transcendental meaning of the word, wherein nothing is met with that belongs to sensation. And accordingly we find existing in the mind à priori, the pure form of sensuous intuitions in general, in which all the manifold content of the phenomenal world is arranged and viewed under certain relations. This pure form of sensibility I shall call pure intuition. Thus, if I take away from our representation of a body all that the understanding thinks as belonging to it, as substance, force, divisibility, etc., and also whatever belongs to sensation, as impenetrability, hardness, colour, etc.; yet there is still something left us from this empirical intuition, namely, extension and shape. These belong to pure intuition, which exists à priori in the mind, as a mere form of sensibility, and without any real object of the senses or any sensation.",
       "topics": [
         "knowledge",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2405,27 +2394,18 @@
     {
       "work": "Critique of Pure Reason",
       "ref": "Transcendental Aesthetic, Section I",
-      "text": "1. Space is not a conception which has been derived from outward experiences. For, in order that certain sensations may relate to something without me (that is, to something which occupies a different part of space from that in which I am); in like manner, in order that I may represent them not merely as without, of, and near to each other, but also in separate places, the representation of space must already exist as a foundation. Consequently, the representation of space cannot be borrowed from the relations of external phenomena through experience; but, on the contrary, this external experience is itself only possible through the said antecedent representation.\n\n2. Space then is a necessary representation à priori, which serves for the foundation of all external intuitions. We never can imagine or make a representation to ourselves of the non-existence of space, though we may easily enough think that no objects are found in it. It must, therefore, be considered as the condition of the possibility of phenomena, and by no means as a determination dependent on them, and is a representation à priori, which necessarily supplies the basis for external phenomena.\n\n3. Space is no discursive, or as we say, general conception of the relations of things, but a pure intuition. For, in the first place, we can only represent to ourselves one space, and, when we talk of divers spaces, we mean only parts of one and the same space.",
-      "topics": [
-        "meta"
-      ]
-    },
-    {
-      "work": "Critique of Pure Reason",
-      "ref": "Transcendental Aesthetic, Section I",
-      "text": "4. Space is represented as an infinite given quantity. Now every conception must indeed be considered as a representation which is contained in an infinite multitude of different possible representations, which, therefore, comprises these under itself; but no conception, as such, can be so conceived, as if it contained within itself an infinite multitude of representations. Nevertheless, space is so conceived of, for all parts of space are equally capable of being produced to infinity. Consequently, the original representation of space is an intuition à priori, and not a conception.\n\nBy a transcendental exposition, I mean the explanation of a conception, as a principle, whence can be discerned the possibility of other synthetical à priori cognitions. For this purpose, it is requisite, firstly, that such cognitions do really flow from the given conception; and, secondly, that the said cognitions are only possible under the presupposition of a given mode of explaining this conception.\n\nGeometry is a science which determines the properties of space synthetically, and yet à priori. What, then, must be our representation of space, in order that such a cognition of it may be possible? It must be originally intuition, for from a mere conception, no propositions can be deduced which go out beyond the conception, and yet this happens in geometry. (Introd. V.) But this intuition must be found in the mind à priori, that is, before any perception of objects, consequently must be pure, not empirical, intuition.",
-      "topics": [
-        "knowledge",
-        "meta"
-      ]
-    },
-    {
-      "work": "Critique of Pure Reason",
-      "ref": "Transcendental Aesthetic, Section I",
       "text": "It is therefore from the human point of view only that we can speak of space, extended objects, etc. If we depart from the subjective condition, under which alone we can obtain external intuition, or, in other words, by means of which we are affected by objects, the representation of space has no meaning whatsoever. This predicate is only applicable to things in so far as they appear to us, that is, are objects of sensibility. The constant form of this receptivity, which we call sensibility, is a necessary condition of all relations in which objects can be intuited as existing without us, and when abstraction of these objects is made, is a pure intuition, to which we give the name of space. It is clear that we cannot make the special conditions of sensibility into conditions of the possibility of things, but only of the possibility of their existence as far as they are phenomena. And so we may correctly say that space contains all which can appear to us externally, but not all things considered as things in themselves, be they intuited or not, or by whatsoever subject one will. As to the intuitions of other thinking beings, we cannot judge whether they are or are not bound by the same conditions which limit our own intuition, and which for us are universally valid. If we join the limitation of a judgement to the conception of the subject, then the judgement will possess unconditioned validity.",
       "topics": [
-        "meta",
-        "meaning"
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "Critique of Pure Reason",
+      "ref": "Transcendental Aesthetic, Section I",
+      "text": "For example, the proposition, “All objects are beside each other in space,” is valid only under the limitation that these things are taken as objects of our sensuous intuition. But if I join the condition to the conception and say, “All things, as external phenomena, are beside each other in space,” then the rule is valid universally, and without any limitation. Our expositions, consequently, teach the reality (i.e., the objective validity) of space in regard of all which can be presented to us externally as object, and at the same time also the ideality of space in regard to objects when they are considered by means of reason as things in themselves, that is, without reference to the constitution of our sensibility. We maintain, therefore, the empirical reality of space in regard to all possible external experience, although we must admit its transcendental ideality; in other words, that it is nothing, so soon as we withdraw the condition upon which the possibility of all experience depends and look upon space as something that belongs to things in themselves.",
+      "topics": [
+        "meta"
       ]
     },
     {
@@ -2452,8 +2432,7 @@
       "text": "I can indeed say “my representations follow one another, or are successive”; but this means only that we are conscious of them as in a succession, that is, according to the form of the internal sense. Time, therefore, is not a thing in itself, nor is it any objective determination pertaining to, or inherent in things.\n\nBut the reason why this objection is so unanimously brought against our doctrine of time, and that too by disputants who cannot start any intelligible arguments against the doctrine of the ideality of space, is this—they have no hope of demonstrating apodeictically the absolute reality of space, because the doctrine of idealism is against them, according to which the reality of external objects is not capable of any strict proof. On the other hand, the reality of the object of our internal sense (that is, myself and my internal state) is clear immediately through consciousness. The former—external objects in space—might be a mere delusion, but the latter—the object of my internal perception—is undeniably real. They do not, however, reflect that both, without question of their reality as representations, belong only to the genus phenomenon, which has always two aspects, the one, the object considered as a thing in itself, without regard to the mode of intuiting it, and the nature of which remains for this very reason problematical, the other, the form of our intuition of the object, which must be sought not in the object as a thing in itself, but in the subject to which it appears—which form of intuition nevertheless belongs really and necessarily to the phenomenal object.",
       "topics": [
         "knowledge",
-        "self",
-        "meta"
+        "self"
       ]
     },
     {
@@ -2484,9 +2463,9 @@
       "text": "In conclusion, that transcendental æsthetic cannot contain any more than these two elements—space and time, is sufficiently obvious from the fact that all other conceptions appertaining to sensibility, even that of motion, which unites in itself both elements, presuppose something empirical. Motion, for example, presupposes the perception of something movable. But space considered in itself contains nothing movable, consequently motion must be something which is found in space only through experience—in other words, an empirical datum. In like manner, transcendental æsthetic cannot number the conception of change among its data à priori; for time itself does not change, but only something which is in time. To acquire the conception of change, therefore, the perception of some existing object and of the succession of its determinations, in one word, experience, is necessary.\n\nI. In order to prevent any misunderstanding, it will be requisite, in the first place, to recapitulate, as clearly as possible, what our opinion is with respect to the fundamental nature of our sensuous cognition in general. We have intended, then, to say that all our intuition is nothing but the representation of phenomena; that the things which we intuite, are not in themselves the same as our representations of them in intuition, nor are their relations in themselves so constituted as they appear to us; and that if we take away the subject, or even only the subjective constitution of our senses in general, then not only the nature and relations of objects in space and time, but even space and time themselves disappear; and that these, as phenomena, cannot exist in themselves, but only in us.",
       "topics": [
         "knowledge",
-        "meta",
         "nature",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -2506,8 +2485,7 @@
       "topics": [
         "knowledge",
         "self",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -2568,6 +2546,15 @@
     {
       "work": "Critique of Pure Reason",
       "ref": "Transcendental Logic, Introduction",
+      "text": "Our knowledge springs from two main sources in the mind, first of which is the faculty or power of receiving representations (receptivity for impressions); the second is the power of cognizing by means of these representations (spontaneity in the production of conceptions). Through the first an object is given to us; through the second, it is, in relation to the representation (which is a mere determination of the mind), thought. Intuition and conceptions constitute, therefore, the elements of all our knowledge, so that neither conceptions without an intuition in some way corresponding to them, nor intuition without conceptions, can afford us a cognition. Both are either pure or empirical. They are empirical, when sensation (which presupposes the actual presence of the object) is contained in them; and pure, when no sensation is mixed with the representation. Sensations we may call the matter of sensuous cognition. Pure intuition consequently contains merely the form under which something is intuited, and pure conception only the form of the thought of an object. Only pure intuitions and pure conceptions are possible à priori; the empirical only à posteriori.\n\nWe apply the term sensibility to the receptivity of the mind for impressions, in so far as it is in some way affected; and, on the other hand, we call the faculty of spontaneously producing representations, or the spontaneity of cognition, understanding. Our nature is so constituted that intuition with us never can be other than sensuous, that is, it contains only the mode in which we are affected by objects.",
+      "topics": [
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "Critique of Pure Reason",
+      "ref": "Transcendental Logic, Introduction",
       "text": "Pure general logic has to do, therefore, merely with pure à priori principles, and is a canon of understanding and reason, but only in respect of the formal part of their use, be the content what it may, empirical or transcendental. General logic is called applied, when it is directed to the laws of the use of the understanding, under the subjective empirical conditions which psychology teaches us. It has therefore empirical principles, although, at the same time, it is in so far general, that it applies to the exercise of the understanding, without regard to the difference of objects. On this account, moreover, it is neither a canon of the understanding in general, nor an organon of a particular science, but merely a cathartic of the human understanding.",
       "topics": [
         "knowledge",
@@ -2608,6 +2595,15 @@
     },
     {
       "work": "Critique of Pure Reason",
+      "ref": "Transcendental Logic, Introduction",
+      "text": "Transcendental analytic is the dissection of the whole of our à priori knowledge into the elements of the pure cognition of the understanding. In order to effect our purpose, it is necessary: (1) That the conceptions be pure and not empirical; (2) That they belong not to intuition and sensibility, but to thought and understanding; (3) That they be elementary conceptions, and as such, quite different from deduced or compound conceptions; (4) That our table of these elementary conceptions be complete, and fill up the whole sphere of the pure understanding. Now this completeness of a science cannot be accepted with confidence on the guarantee of a mere estimate of its existence in an aggregate formed only by means of repeated experiments and attempts. The completeness which we require is possible only by means of an idea of the totality of the à priori cognition of the understanding, and through the thereby determined division of the conceptions which form the said whole; consequently, only by means of their connection in a system. Pure understanding distinguishes itself not merely from everything empirical, but also completely from all sensibility. It is a unity self-subsistent, self-sufficient, and not to be enlarged by any additions from without. Hence the sum of its cognition constitutes a system to be determined by and comprised under an idea; and the completeness and articulation of this system can at the same time serve as a test of the correctness and genuineness of all the parts of cognition that belong to it. The whole of this part of transcendental logic consists of two books, of which the one contains the conceptions, and the other the principles of pure understanding.",
+      "topics": [
+        "knowledge",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Critique of Pure Reason",
       "ref": "Transcendental Analytic, Book I",
       "text": "If we abstract all the content of a judgement, and consider only the intellectual form thereof, we find that the function of thought in a judgement can be brought under four heads, of which each contains three momenta. These may be conveniently represented in the following table:\n\nAs this division appears to differ in some, though not essential points, from the usual technique of logicians, the following observations, for the prevention of otherwise possible misunderstanding, will not be without their use.\n\n1. Logicians say, with justice, that in the use of judgements in syllogisms, singular judgements may be treated like universal ones. For, precisely because a singular judgement has no extent at all, its predicate cannot refer to a part of that which is contained in the conception of the subject and be excluded from the rest. The predicate is valid for the whole conception just as if it were a general conception, and had extent, to the whole of which the predicate applied. On the other hand, let us compare a singular with a general judgement, merely as a cognition, in regard to quantity. The singular judgement relates to the general one, as unity to infinity, and is therefore in itself essentially different. Thus, if we estimate a singular judgement (judicium singulare) not merely according to its intrinsic validity as a judgement, but also as a cognition generally, according to its quantity in comparison with that of other cognitions, it is then entirely different from a general judgement (judicium commune), and in a complete table of the momenta of thought deserves a separate place—though, indeed, this would not be necessary in a logic limited merely to the consideration of the use of judgements in reference to each other.",
       "topics": [
@@ -2632,8 +2628,7 @@
       "topics": [
         "knowledge",
         "virtue",
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -2703,6 +2698,14 @@
     {
       "work": "Critique of Pure Reason",
       "ref": "Transcendental Analytic, Book II",
+      "text": "If I say: “A triangle can be constructed with three lines, any two of which taken together are greater than the third,” I exercise merely the pure function of the productive imagination, which may draw the lines longer or shorter and construct the angles at its pleasure. On the contrary, the number seven is possible only in one manner, and so is likewise the number twelve, which results from the synthesis of seven and five. Such propositions, then, cannot be termed axioms (for in that case we should have an infinity of these), but numerical formulae.",
+      "topics": [
+        "education"
+      ]
+    },
+    {
+      "work": "Critique of Pure Reason",
+      "ref": "Transcendental Analytic, Book II",
       "text": "This property of quantities, according to which no part of them is the smallest possible (no part simple), is called their continuity. Space and time are quanta continua, because no part of them can be given, without enclosing it within boundaries (points and moments), consequently, this given part is itself a space or a time. Space, therefore, consists only of spaces, and time of times. Points and moments are only boundaries, that is, the mere places or positions of their limitation. But places always presuppose intuitions which are to limit or determine them; and we cannot conceive either space or time composed of constituent parts which are given before space or time. Such quantities may also be called flowing, because synthesis (of the productive imagination) in the production of these quantities is a progression in time, the continuity of which we are accustomed to indicate by the expression flowing.\n\nAll phenomena, then, are continuous quantities, in respect both to intuition and mere perception (sensation, and with it reality). In the former case they are extensive quantities; in the latter, intensive. When the synthesis of the manifold of a phenomenon is interrupted, there results merely an aggregate of several phenomena, and not properly a phenomenon as a quantity, which is not produced by the mere continuation of the productive synthesis of a certain kind, but by the repetition of a synthesis always ceasing. For example, if I call thirteen dollars a sum or quantity of money, I employ the term quite correctly, inasmuch as I understand by thirteen dollars the value of a mark in standard silver, which is, to be sure, a continuous quantity, in which no part is the smallest, but every part might constitute a piece of money, which would contain material for still smaller pieces.",
       "topics": [
         "knowledge",
@@ -2726,8 +2729,7 @@
       "topics": [
         "knowledge",
         "freedom",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2766,8 +2768,7 @@
       "text": "A phenomenon was for him the representation of the thing in itself, although distinguished from cognition by the understanding only in respect of the logical form—the former with its usual want of analysis containing, according to him, a certain mixture of collateral representations in its conception of a thing, which it is the duty of the understanding to separate and distinguish. In one word, Leibnitz intellectualized phenomena, just as Locke, in his system of noogony (if I may be allowed to make use of such expressions), sensualized the conceptions of the understanding, that is to say, declared them to be nothing more than empirical or abstract conceptions of reflection. Instead of seeking in the understanding and sensibility two different sources of representations, which, however, can present us with objective judgements of things only in conjunction, each of these great men recognized but one of these faculties, which, in their opinion, applied immediately to things in themselves, the other having no duty but that of confusing or arranging the representations of the former.",
       "topics": [
         "knowledge",
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -2777,8 +2778,7 @@
       "topics": [
         "freedom",
         "knowledge",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2796,8 +2796,8 @@
       "ref": "Transcendental Analytic, Book II",
       "text": "But if we consider these principles of the pure understanding in relation to their origin, we shall find them to be anything rather than cognitions from conceptions. For they would not even be possible à priori, if we could not rely on the assistance of pure intuition (in mathematics), or on that of the conditions of a possible experience. That everything that happens has a cause, cannot be concluded from the general conception of that which happens; on the contrary the principle of causality instructs us as to the mode of obtaining from that which happens a determinate empirical conception.\n\nSynthetical cognitions from conceptions the understanding cannot supply, and they alone are entitled to be called principles. At the same time, all general propositions may be termed comparative principles.\n\nIt has been a long-cherished wish—that (who knows how late), may one day, be happily accomplished—that the principles of the endless variety of civil laws should be investigated and exposed; for in this way alone can we find the secret of simplifying legislation. But in this case, laws are nothing more than limitations of our freedom upon conditions under which it subsists in perfect harmony with itself; they consequently have for their object that which is completely our own work, and of which we ourselves may be the cause by means of these conceptions. But how objects as things in themselves—how the nature of things is subordinated to principles and is to be determined, according to conceptions, is a question which it seems well nigh impossible to answer. Be this, however, as it may—for on this point our investigation is yet to be made—it is at least manifest from what we have said that cognition from principles is something very different from cognition by means of the understanding, which may indeed precede other cognitions in the form of a principle, but in itself—in so far as it is synthetical—is neither based upon mere thought, nor contains a general proposition drawn from conceptions alone.",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "freedom"
       ]
     },
@@ -2830,8 +2830,8 @@
       "topics": [
         "freedom",
         "knowledge",
-        "meta",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -2861,8 +2861,7 @@
       "topics": [
         "meaning",
         "knowledge",
-        "freedom",
-        "meta"
+        "freedom"
       ]
     },
     {
@@ -2925,28 +2924,6 @@
         "meaning",
         "suffering",
         "nature"
-      ]
-    },
-    {
-      "work": "Critique of Pure Reason",
-      "ref": "Transcendental Dialectic, Book I",
-      "text": "I understand, then, by the transcendental doctrine of method, the determination of the formal conditions of a complete system of pure reason. We shall accordingly have to treat of the discipline, the canon, the architectonic, and, finally, the history of pure reason. This part of our Critique will accomplish, from the transcendental point of view, what has been usually attempted, but miserably executed, under the name of practical logic. It has been badly executed, I say, because general logic, not being limited to any particular kind of cognition (not even to the pure cognition of the understanding) nor to any particular objects, it cannot, without borrowing from other sciences, do more than present merely the titles or signs of possible methods and the technical expressions, which are employed in the systematic parts of all sciences; and thus the pupil is made acquainted with names, the meaning and application of which he is to learn only at some future time.\n\nNegative judgements—those which are so not merely as regards their logical form, but in respect of their content—are not commonly held in especial respect. They are, on the contrary, regarded as jealous enemies of our insatiable desire for knowledge; and it almost requires an apology to induce us to tolerate, much less to prize and to respect them.",
-      "topics": [
-        "knowledge",
-        "education",
-        "meta",
-        "meaning"
-      ]
-    },
-    {
-      "work": "Critique of Pure Reason",
-      "ref": "Transcendental Dialectic, Book I",
-      "text": "All propositions, indeed, may be logically expressed in a negative form; but, in relation to the content of our cognition, the peculiar province of negative judgements is solely to prevent error. For this reason, too, negative propositions, which are framed for the purpose of correcting false cognitions where error is absolutely impossible, are undoubtedly true, but inane and senseless; that is, they are in reality purposeless and, for this reason, often very ridiculous. Such is the proposition of the schoolman that Alexander could not have subdued any countries without an army.\n\nBut where the limits of our possible cognition are very much contracted, the attraction to new fields of knowledge great, the illusions to which the mind is subject of the most deceptive character, and the evil consequences of error of no inconsiderable magnitude—the negative element in knowledge, which is useful only to guard us against error, is of far more importance than much of that positive instruction which makes additions to the sum of our knowledge. The restraint which is employed to repress, and finally to extirpate the constant inclination to depart from certain rules, is termed discipline. It is distinguished from culture, which aims at the formation of a certain degree of skill, without attempting to repress or to destroy any other mental power, already existing. In the cultivation of a talent, which has given evidence of an impulse towards self-development, discipline takes a negative, culture and doctrine a positive, part.",
-      "topics": [
-        "knowledge",
-        "self",
-        "meaning",
-        "education"
       ]
     },
     {

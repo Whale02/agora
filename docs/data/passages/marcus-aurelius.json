@@ -37,8 +37,8 @@
       "text": "From Rusticus I received the impression that my character required improvement and discipline; and from him I learned not to be led astray to sophistic emulation, nor to writing on speculative matters, nor to delivering little hortatory orations, nor to showing myself off as a man who practises much discipline, or does benevolent acts in order to make a display; and to abstain from rhetoric, and poetry, and fine writing; and not to walk about in the house in my outdoor dress, nor to do other things of the kind; and to write my letters with simplicity, like the letter which Rusticus wrote from Sinuessa to my mother; and with respect to those who have offended me by words, or done me wrong, to be easily disposed to be pacified and reconciled, as soon as they have shown a readiness to be reconciled; and to read carefully, and not to be satisfied with a superficial understanding of a book; nor hastily to give my assent to those who talk overmuch; and I am indebted to him for being acquainted with the discourses of Epictetus, which he communicated to me out of his own collection.",
       "topics": [
         "action",
-        "education",
         "meta",
+        "education",
         "self"
       ]
     },
@@ -59,9 +59,9 @@
       "text": "From Alexander the grammarian, to refrain from fault-finding, and not in a reproachful way to chide those who uttered any barbarous or solecistic or strange-sounding expression; but dexterously to introduce the very expression which ought to have been used, and in the way of answer or giving confirmation, or joining in an inquiry about the thing itself, not about the word, or by some other fit suggestion.\n\nFrom Fronto I learned to observe what envy and duplicity and hypocrisy are in a tyrant, and that generally those among us who are called Patricians are rather deficient in paternal affection.\n\nFrom Alexander the Platonic, not frequently nor without necessity to say to any one, or to write in a letter, that I have no leisure; nor continually to excuse the neglect of duties required by our relation to those with whom we live, by alleging urgent occupations.\n\nFrom Catulus not to be indifferent when a friend finds fault, even if he should find fault without reason, but to try to restore him to his usual disposition; and to be ready to speak well of teachers, as it is reported of Domitius and Athenodotus; and to love my children truly.",
       "topics": [
         "love",
-        "meta",
         "knowledge",
-        "education"
+        "education",
+        "meta"
       ]
     },
     {
@@ -92,8 +92,7 @@
       "text": "And the things which conduce in any way to the commodity of life, and of which fortune gives an abundant supply, he used without arrogance and without excusing himself; so that when he had them, he enjoyed them without affectation, and when he had them not, he did not want them. No one could ever say of him that he was either a sophist or a [home-bred] flippant slave or a pedant; but every one acknowledged him to be a man ripe, perfect, above flattery, able to manage his own and other men's affairs. Besides this, he honored those who were true philosophers, and he did not reproach those who pretended to be philosophers, nor yet was he easily led by them. He was also easy in conversation, and he made himself agreeable without any offensive affectation. He took a reasonable care of his body's health, not as one who was greatly attached to life, nor out of regard to personal appearance, nor yet in a careless way, but so that through his own attention he very seldom stood in need of the physician's art or of medicine or external applications. He was most ready to give without envy to those who possessed any particular faculty, such as that of eloquence or knowledge of the law or of morals, or of anything else; and he gave them his help, that each might enjoy reputation according to his deserts; and he always acted conformably to the institutions of his country, without showing any affectation of doing so.",
       "topics": [
         "knowledge",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -170,9 +169,9 @@
       "text": "Through not observing what is in the mind of another a man has seldom been seen to be unhappy; but those who do not observe the movements of their own minds must of necessity be unhappy.\n\nThis thou must always bear in mind, what is the nature of the whole, and what is my nature, and how this is related to that, and what kind of a part it is of what kind of a whole, and that there is no one who hinders thee from always doing and saying the things which are according to the nature of which thou art a part.\n\nTheophrastus, in his comparison of bad acts--such a comparison as one would make in accordance with the common notions of mankind--says, like a true philosopher, that the offenses which are committed through desire are more blamable than those which are committed through anger. For he who is excited by anger seems to turn away from reason with a certain pain and unconscious contraction; but he who offends through desire, being overpowered by pleasure, seems to be in a manner more intemperate and more womanish in his offences. Rightly, then, and in a way worthy of philosophy, he said that the offence which is committed with pleasure is more blamable than that which is committed with pain; and on the whole the one is more like a person who has been first wronged and through pain is compelled to be angry, but the other is moved by his own impulse to do wrong, being carried towards doing something by desire.",
       "topics": [
         "knowledge",
-        "meta",
         "action",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -265,7 +264,7 @@
         "self",
         "virtue",
         "action",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -283,9 +282,9 @@
       "text": "Labor not unwillingly, nor without regard to the common interest, nor without due consideration, nor with distraction; nor let studied ornament set off thy thoughts, and be not either a man of many words, or busy about too many things. And further, let the deity which is in thee be the guardian of a living being, manly and of ripe age, and engaged in matter political, and a Roman, and a ruler, who has taken his post like a man waiting for the signal which summons him from life, and ready to go, having need neither of oath nor of any man's testimony. Be cheerful also, and seek not external help nor the tranquillity which others give. A man then must stand erect, not be kept erect by others.\n\nIf thou findest in human life anything better than justice, truth, temperance, fortitude, and, in a word, anything better than thy own mind's self-satisfaction in the things which it enables thee to do according to right reason, and in the condition that is assigned to thee without thy own choice; if, I say, thou seest anything better than this, turn to it with all thy soul, and enjoy that which thou hast found to be the best. But if nothing appears to be better than the Deity which is planted in thee, which has subjected to itself all thy appetites, and carefully examines all the impressions, and, as Socrates said, has detached itself from the persuasions of sense, and has submitted itself to the gods, and cares for mankind; if thou findest everything else smaller and of less value than this, give place to nothing else, for if thou dost once diverge and incline to it, thou wilt no longer without distraction be able to give the preference to that good thing which is thy proper possession and thy own; for it is not right that anything of any other kind, such as praise from the many, or power, or enjoyment of pleasure, should come into competition with that which is rationally and politically [or, practically] good.",
       "topics": [
         "knowledge",
-        "meta",
         "virtue",
-        "self"
+        "self",
+        "meaning"
       ]
     },
     {
@@ -421,8 +420,7 @@
       "topics": [
         "suffering",
         "virtue",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -442,8 +440,7 @@
       "topics": [
         "nature",
         "knowledge",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -476,7 +473,7 @@
         "suffering",
         "action",
         "meaning",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -562,9 +559,9 @@
       "text": "How easy it is to repel and to wipe away every impression which is troublesome or unsuitable, and immediately to be in all tranquillity.\n\nJudge every word and deed which are according to nature to be fit for thee; and be not diverted by the blame which follows from any people, nor by their words, but if a thing is good to be done or said, do not consider it unworthy of thee. For those persons have their peculiar leading principle and follow their peculiar movement; which things do not thou regard, but go straight on, following thy own nature and the common nature; and the way of both is one.\n\nI go through the things which happen according to nature until I shall fall and rest, breathing out my breath into that element out of which I daily draw it in, and falling upon that earth out of which my father collected the seed, and my mother the blood, and my nurse the milk; out of which during so many years I have been supplied with food and drink; which bears me when I tread on it and abuse it for so many purposes.\n\nThou sayest, Men cannot admire the sharpness of thy wits.--Be it so: but there are many other things of which thou canst not say, I am not formed from them by nature. Show those qualities then which are altogether in thy power, sincerity, gravity, endurance of labor, aversion to pleasure, contentment with thy portion and with few things, benevolence, frankness, no love of superfluity, freedom from trifling, magnanimity.",
       "topics": [
         "action",
-        "meta",
         "virtue",
-        "nature"
+        "nature",
+        "meta"
       ]
     },
     {
@@ -638,7 +635,7 @@
         "knowledge",
         "self",
         "virtue",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -917,8 +914,8 @@
       "text": "Whatever happens to every man, this is for the interest of the universal: this might be sufficient. But further thou wilt observe this also as a general truth, if thou dost observe, that whatever is profitable to any man is profitable also to other men. But let the word profitable be taken here in the common sense as said of things of the middle kind [neither good nor bad].\n\nAs it happens to thee in the amphitheatre and such places, that the continual sight of the same things, and the uniformity, make the spectacle wearisome, so it is in the whole of life; for all things above, below, are the same and from the same. How long then?\n\nThink continually that all kinds of men and all kinds of pursuits and of all nations are dead, so that thy thoughts come down even to Philistion and Phoebus and Origanion. Now turn thy thoughts to the other kinds [of men]. To that place then we must remove, where there are so many great orators, and so many noble philosophers, Heraclitus, Pythagoras, Socrates; so many heroes of former days, and so many generals after them, and tyrants; besides these, Eudoxus, Hipparchus, Archimedes, and other men of acute natural talents, great minds, lovers of labor, versatile, confident, mockers even of the perishable and ephemeral life of man, as Menippus and such as are like him. As to all these consider that they have long been in the dust. What harm then is this to them; and what to those whose names are altogether unknown? One thing here is worth a great deal, to pass thy life in truth and justice, with a benevolent disposition even to liars and unjust men.",
       "topics": [
         "virtue",
-        "meta",
         "knowledge",
+        "meta",
         "meaning"
       ]
     },
@@ -1547,9 +1544,9 @@
       "text": "Epicurus says, In my sickness my conversation was not about my bodily sufferings, nor, says he, did I talk on such subjects to those who visited me; but I continued to discourse on the nature of things as before, keeping to this main point, how the mind, while participating in such movements as go on in the poor flesh, shall be free from perturbations and maintain its proper good. Nor did I, he says, give the physicians an opportunity of putting on solemn looks, as if they were doing something great, but my life went on well and happily. Do, then, the same that he did both in sickness, if thou art sick, and in any other circumstances; for never to desert philosophy in any events that may befall us, nor to hold trifling talks either with an ignorant man or with one unacquainted with nature, is a principle of all schools of philosophy; but to be intent only on that which thou art now doing and on the instrument by which thou doest it.\n\nWhen thou art offended with any man's shameless conduct, immediately ask thyself, Is it possible, then, that shameless men should not be in the world? It is not possible. Do not, then, require what is impossible. For this man also is one of those shameless men who must of necessity be in the world. Let the same considerations be present to thy mind in the case of the knave, and the faithless man, and of every man who does wrong in any way.",
       "topics": [
         "action",
-        "meta",
         "suffering",
-        "knowledge"
+        "knowledge",
+        "nature"
       ]
     },
     {
@@ -1615,7 +1612,7 @@
       "ref": "Book X, 7",
       "text": "And do not imagine that the solid and the airy part belong to thee from the time of generation. For all this received its accretion only yesterday and the day before, as one may say, from the food and the air which is inspired. This, then, which has received [the accretion], changes, not that which thy mother brought forth. But suppose that this [which thy mother brought forth] implicates thee very much with that other part, which has the peculiar quality [of change], this is nothing in fact in the way of objection to what is said.",
       "topics": [
-        "meta"
+        "action"
       ]
     },
     {
@@ -1653,8 +1650,7 @@
       "topics": [
         "action",
         "knowledge",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -1682,9 +1678,9 @@
       "text": "That is for the good of each thing, which the universal nature brings to each. And it is for its good at the time when nature brings it.\n\n\"The earth loves the shower;\" and \"the solemn ether loves;\" and the universe loves to make whatever is about to be. I say then to the universe, that I love as thou lovest. And is not this too said that \"this or that loves [is wont] to be produced?\"\n\nEither thou livest here and hast already accustomed thyself to it, or thou art going away, and this was thy own will; or thou art dying and hast discharged thy duty. But besides these things there is nothing. Be of good cheer, then.\n\nLet this always be plain to thee, that this piece of land is like any other; and that all things here are the same with things on the top of a mountain, or on the sea-shore, or wherever thou choosest to be. For thou wilt find just what Plato says, Dwelling within the walls of a city as in a shepherd's fold on a mountain. [The three last words are omitted in the translation.]",
       "topics": [
         "nature",
-        "meta",
         "virtue",
-        "love"
+        "love",
+        "meta"
       ]
     },
     {
@@ -1719,8 +1715,7 @@
       "topics": [
         "action",
         "nature",
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -1794,8 +1789,8 @@
       "text": "What is thy art? To be good. And how is this accomplished well except by general principles, some about the nature of the universe, and others about the proper constitution of man?\n\nAt first tragedies were brought on the stage as means of reminding men of the things which happen to them, and that it is according to nature for things to happen so, and that, if you are delighted with what is shown on the stage, you should not be troubled with that which takes place on the larger stage. For you see that these things must be accomplished thus, and that even they bear them who cry out, \"O Cithaeron.\" And, indeed, some things are said well by the dramatic writers, of which kind is the following especially:--\n\nAfter tragedy the old comedy was introduced, which had a magisterial freedom of speech, and by its very plainness of speaking was useful in reminding men to beware of insolence; and for this purpose too Diogenes used to take from these writers.\n\nBut as to the middle comedy, which came next, observe what it was, and again, for what object the new comedy was introduced, which gradually sank down into a mere mimic artifice. That some good things are said even by these writers, everybody knows: but the whole plan of such poetry and dramaturgy, to what end does it look?",
       "topics": [
         "meaning",
-        "meta",
-        "nature"
+        "nature",
+        "meta"
       ]
     },
     {
@@ -1838,7 +1833,7 @@
         "virtue",
         "love",
         "action",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -1916,8 +1911,7 @@
       "text": "He who has not one and always the same object in life, cannot be one and the same all through his life. But what I have said is not enough, unless this also is added, what this object ought to be. For as there is not the same opinion about all the things which in some way or other are considered by the majority to be good, but only about some certain things, that is, things which concern the common interest, so also ought we to propose to ourselves an object which shall be of a common kind [social] and political. For he who directs all his own efforts to this object, will make all his acts alike, and thus will always be the same.\n\nThink of the country mouse and of the town mouse, and of the alarm and trepidation of the town mouse.\n\nSocrates used to call the opinions of the many by the name of Lamiae,--bugbears to frighten children.\n\nThe Lacedaemonians at their public spectacles used to set seats in the shade for strangers, but themselves sat down anywhere.",
       "topics": [
         "knowledge",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -1951,7 +1945,7 @@
       "ref": "Book XI, 38-39",
       "text": "The dispute then, he said, is not about any common matter, but about being mad or not.\n\nSocrates used to say, What do you want, souls of rational men or irrational?--Souls of rational men.--Of what rational men, sound or unsound?--Sound.--Why then do you not seek for them?--Because we have them.--Why then do you fight and quarrel?",
       "topics": [
-        "meta"
+        "self"
       ]
     },
     {

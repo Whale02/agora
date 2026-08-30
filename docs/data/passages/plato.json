@@ -80,7 +80,7 @@
       "ref": "Book I",
       "text": "I replied: There is nothing which for my part I like better, Cephalus, than conversing with aged men; for I regard them as travellers who have gone a journey which I too may have to go, and of whom I ought to enquire, whether the way is smooth and easy, or rugged and difficult. And this is a question which I should like to ask of you who have arrived at that time which the poets call the ‘threshold of old age’—Is life harder towards the end, or what report do you give of it?\n\nI will tell you, Socrates, he said, what my own feeling is. Men of my age flock together; we are birds of a feather, as the old proverb says; and at our meetings the tale of my acquaintance commonly is—I cannot eat, I cannot drink; the pleasures of youth and love are fled away: there was a good time once, but now that is gone, and life is no longer life. Some complain of the slights which are put upon them by relations, and they will tell you sadly of how many evils their old age is the cause. But to me, Socrates, these complainers seem to blame that which is not really in fault. For if old age were the cause, I too being old, and every other old man, would have felt as they do. But this is not my own experience, nor that of others whom I have known.",
       "topics": [
-        "meta"
+        "love"
       ]
     },
     {
@@ -89,8 +89,8 @@
       "text": "How well I remember the aged poet Sophocles, when in answer to the question, How does love suit with age, Sophocles,—are you still the man you were? Peace, he replied; most gladly have I escaped the thing of which you speak; I feel as if I had escaped from a mad and furious master. His words have often occurred to my mind since, and they seem as good to me now as at the time when he uttered them. For certainly old age has a great sense of calm and freedom; when the passions relax their hold, then, as Sophocles says, we are freed from the grasp not of one mad master only, but of many. The truth is, Socrates, that these regrets, and also the complaints about relations, are to be attributed to the same cause, which is not old age, but men’s characters and tempers; for he who is of a calm and happy nature will hardly feel the pressure of age, but to him who is of an opposite disposition youth and age are equally a burden.",
       "topics": [
         "knowledge",
-        "meta",
-        "freedom"
+        "freedom",
+        "meta"
       ]
     },
     {
@@ -99,8 +99,7 @@
       "text": "I listened in admiration, and wanting to draw him out, that he might go on—Yes, Cephalus, I said: but I rather suspect that people in general are not convinced by you when you speak thus; they think that old age sits lightly upon you, not because of your happy disposition, but because you are rich, and wealth is well known to be a great comforter.\n\nYou are right, he replied; they are not convinced: and there is something in what they say; not, however, so much as they imagine. I might answer them as Themistocles answered the Seriphian who was abusing him and saying that he was famous, not for his own merits but because he was an Athenian: ‘If you had been a native of my country or I of yours, neither of us would have been famous.’ And to those who are not rich and are impatient of old age, the same reply may be made; for to the good poor man old age cannot be a light burden, nor can a bad rich man ever have peace with himself.\n\nMay I ask, Cephalus, whether your fortune was for the most part inherited or acquired by you?",
       "topics": [
         "work",
-        "self",
-        "meta"
+        "self"
       ]
     },
     {
@@ -131,9 +130,9 @@
       "text": "How admirable are his words! And the great blessing of riches, I do not say to every man, but to a good man, is, that he has had no occasion to deceive or to defraud others, either intentionally or unintentionally; and when he departs to the world below he is not in any apprehension about offerings due to the gods or debts which he owes to men. Now to this peace of mind the possession of wealth greatly contributes; and therefore I say, that, setting one thing against another, of the many advantages which wealth has to give, to a man of sense this is in my opinion the greatest.\n\nWell said, Cephalus, I replied; but as concerning justice, what is it?—to speak the truth and to pay your debts—no more than this? And even to this are there not exceptions? Suppose that a friend when in his right mind has deposited arms with me and he asks for them when he is not in his right mind, ought I to give them back to him? No one would say that I ought or that I should be right in doing so, any more than they would say that I ought always to speak the truth to one who is in his condition.",
       "topics": [
         "knowledge",
-        "meta",
         "work",
-        "virtue"
+        "virtue",
+        "action"
       ]
     },
     {
@@ -153,8 +152,7 @@
       "topics": [
         "knowledge",
         "virtue",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -162,8 +160,7 @@
       "ref": "Book I",
       "text": "You mean that the return of a deposit of gold which is to the injury of the receiver, if the two parties are friends, is not the repayment of a debt,—that is what you would imagine him to say?\n\nTo be sure, he said, they are to receive what we owe them, and an enemy, as I take it, owes to an enemy that which is due or proper to him—that is to say, evil.\n\nSimonides, then, after the manner of poets, would seem to have spoken darkly of the nature of justice; for he really meant to say that justice is the giving to each man what is proper to him, and this he termed a debt.\n\nBy heaven! I replied; and if we asked him what due or proper thing is given by medicine, and to whom, what answer do you think that he would make to us?",
       "topics": [
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -213,9 +210,9 @@
       "ref": "Book I",
       "text": "And so, you and Homer and Simonides are agreed that justice is an art of theft; to be practised however ‘for the good of friends and for the harm of enemies,’—that was what you were saying?\n\nNo, certainly not that, though I do not now know what I did say; but I still stand by the latter words.\n\nWell, there is another question: By friends and enemies do we mean those who are so really, or only in seeming?\n\nSurely, he said, a man may be expected to love those whom he thinks good, and to hate those whom he thinks evil.",
       "topics": [
-        "meta",
         "love",
-        "virtue"
+        "virtue",
+        "meta"
       ]
     },
     {
@@ -235,8 +232,7 @@
       "topics": [
         "knowledge",
         "virtue",
-        "love",
-        "meta"
+        "love"
       ]
     },
     {
@@ -245,7 +241,6 @@
       "text": "We should rather say that he is a friend who is, as well as seems, good; and that he who seems only, and is not good, only seems to be and is not a friend; and of an enemy the same may be said.\n\nAnd instead of saying simply as we did at first, that it is just to do good to our friends and harm to our enemies, we should further say: It is just to do good to our friends when they are good and harm to our enemies when they are evil?\n\nAnd will not men who are injured be deteriorated in that which is the proper virtue of man?\n\nAnd can the just by justice make men unjust, or speaking generally, can the good by virtue make them bad?",
       "topics": [
         "virtue",
-        "meta",
         "love"
       ]
     },
@@ -277,9 +272,9 @@
       "text": "I was panic-stricken at his words, and could not look at him without trembling. Indeed I believe that if I had not fixed my eye upon him, I should have been struck dumb: but when I saw his fury rising, I looked at him first, and was therefore able to reply to him.\n\nThrasymachus, I said, with a quiver, don’t be hard upon us. Polemarchus and I may have been guilty of a little mistake in the argument, but I can assure you that the error was not intentional. If we were seeking for a piece of gold, you would not imagine that we were ‘knocking under to one another,’ and so losing our chance of finding it. And why, when we are seeking for justice, a thing more precious than many pieces of gold, do you say that we are weakly yielding to one another and not doing our utmost to get at the truth? Nay, my good friend, we are most willing and anxious to do so, but the fact is that we cannot. And if so, you people who know all things should pity us and not be angry with us.\n\nHow characteristic of Socrates! he replied, with a bitter laugh;—that’s your ironical style! Did I not foresee—have I not already told you, that whatever he was asked he would refuse to answer, and try irony or any other shuffle, in order that he might avoid answering?",
       "topics": [
         "knowledge",
-        "meta",
         "virtue",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -319,10 +314,10 @@
       "ref": "Book I",
       "text": "That’s abominable of you, Socrates; you take the words in the sense which is most damaging to the argument.\n\nNot at all, my good sir, I said; I am trying to understand them; and I wish that you would be a little clearer.\n\nWell, he said, have you never heard that forms of government differ; there are tyrannies, and there are democracies, and there are aristocracies?\n\nAnd the different forms of government make laws democratical, aristocratical, tyrannical, with a view to their several interests; and these laws, which are made by them for their own interests, are the justice which they deliver to their subjects, and him who transgresses them they punish as a breaker of the law, and unjust. And that is what I mean when I say that in all states there is the same principle of justice, which is the interest of the government; and as the government must be supposed to have power, the only reasonable conclusion is, that everywhere there is one principle of justice, which is the interest of the stronger.",
       "topics": [
-        "meta",
         "freedom",
         "knowledge",
-        "virtue"
+        "virtue",
+        "meta"
       ]
     },
     {
@@ -330,8 +325,8 @@
       "ref": "Book I",
       "text": "Now I understand you, I said; and whether you are right or not I will try to discover. But let me remark, that in defining justice you have yourself used the word ‘interest’ which you forbade me to use. It is true, however, that in your definition the words ‘of the stronger’ are added.\n\nGreat or small, never mind about that: we must first enquire whether what you are saying is the truth. Now we are both agreed that justice is interest of some sort, but you go on to say ‘of the stronger’; about this addition I am not so sure, and must therefore consider further.\n\nI will; and first tell me, Do you admit that it is just for subjects to obey their rulers?\n\nBut are the rulers of states absolutely infallible, or are they sometimes liable to err?",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "freedom",
         "virtue"
       ]
@@ -351,7 +346,6 @@
       "text": "Then you must also have acknowledged justice not to be for the interest of the stronger, when the rulers unintentionally command things to be done which are to their own injury. For if, as you say, justice is the obedience which the subject renders to their commands, in that case, O wisest of men, is there any escape from the conclusion that the weaker are commanded to do, not what is for the interest, but what is for the injury of the stronger?\n\nBut there is no need of any witness, said Polemarchus, for Thrasymachus himself acknowledges that rulers may sometimes command what is not for their own interest, and that for subjects to obey them is justice.\n\nYes, Polemarchus,—Thrasymachus said that for subjects to do what was commanded by their rulers is just.\n\nYes, Cleitophon, but he also said that justice is the interest of the stronger, and, while admitting both these propositions, he further acknowledged that the stronger may command the weaker who are his subjects to do what is not for his own interest; whence follows that justice is the injury quite as much as the interest of the stronger.",
       "topics": [
         "freedom",
-        "meta",
         "virtue",
         "action"
       ]
@@ -361,8 +355,7 @@
       "ref": "Book I",
       "text": "But, said Cleitophon, he meant by the interest of the stronger what the stronger thought to be his interest,—this was what the weaker had to do; and this was affirmed by him to be justice.\n\nNever mind, I replied, if he now says that they are, let us accept his statement. Tell me, Thrasymachus, I said, did you mean by justice what the stronger thought to be his interest, whether really so or not?\n\nCertainly not, he said. Do you suppose that I call him who is mistaken the stronger at the time when he is mistaken?\n\nYes, I said, my impression was that you did so, when you admitted that the ruler was not infallible but might be sometimes mistaken.",
       "topics": [
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -398,8 +391,7 @@
       "ref": "Book I",
       "text": "And the interest of any art is the perfection of it—this and nothing else?\n\nI mean what I may illustrate negatively by the example of the body. Suppose you were to ask me whether the body is self-sufficing or has wants, I should reply: Certainly the body has wants; for the body may be ill and require to be cured, and has therefore interests to which the art of medicine ministers; and this is the origin and intention of medicine, as you will acknowledge. Am I not right?\n\nBut is the art of medicine or any other art faulty or deficient in any quality in the same way that the eye may be deficient in sight or the ear fail of hearing, and therefore requires another art to provide for the interests of seeing and hearing—has art in itself, I say, any similar liability to fault or defect, and does every art require another supplementary art to provide for its interests, and that another and another without end? Or have the arts to look only after their own interests? Or have they no need either of themselves or of another?—having no faults or defects, they have no need to correct them, either by the exercise of their own art or of any other; they have only to consider the interest of their subject-matter. For every art remains pure and faultless while remaining true—that is to say, while perfect and unimpaired. Take the words in your precise sense, and tell me whether I am not right.",
       "topics": [
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -416,8 +408,8 @@
       "ref": "Book I",
       "text": "And the pilot likewise, in the strict sense of the term, is a ruler of sailors and not a mere sailor?\n\nAnd such a pilot and ruler will provide and prescribe for the interest of the sailor who is under him, and not for his own or the ruler’s interest?\n\nThen, I said, Thrasymachus, there is no one in any rule who, in so far as he is a ruler, considers or enjoins what is for his own interest, but always what is for the interest of his subject or suitable to his art; to that he looks, and that alone he considers in everything which he says and does.\n\nWhen we had got to this point in the argument, and every one saw that the definition of justice had been completely upset, Thrasymachus, instead of replying to me, said: Tell me, Socrates, have you got a nurse?",
       "topics": [
-        "meta",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -427,7 +419,6 @@
       "topics": [
         "virtue",
         "freedom",
-        "meta",
         "knowledge"
       ]
     },
@@ -449,8 +440,7 @@
       "topics": [
         "freedom",
         "work",
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -460,8 +450,7 @@
       "topics": [
         "knowledge",
         "virtue",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -471,7 +460,6 @@
       "topics": [
         "freedom",
         "knowledge",
-        "meta",
         "virtue"
       ]
     },
@@ -480,8 +468,8 @@
       "ref": "Book I",
       "text": "Then why in the case of lesser offices do men never take them willingly without payment, unless under the idea that they govern for the advantage not of themselves but of others? Let me ask you a question: Are not the several arts different, by reason of their each having a separate function? And, my dear illustrious friend, do say what you think, that we may make a little progress.\n\nAnd each art gives us a particular good and not merely a general one—medicine, for example, gives us health; navigation, safety at sea, and so on?\n\nAnd the art of payment has the special function of giving pay: but we do not confuse this with other arts, any more than the art of the pilot is to be confused with the art of medicine, because the health of the pilot may be improved by a sea voyage. You would not be inclined to say, would you, that navigation is the art of medicine, at least if we are to adopt your exact use of language?\n\nOr because a man is in good health when he receives pay you would not say that the art of payment is medicine?",
       "topics": [
-        "meta",
-        "love"
+        "love",
+        "meta"
       ]
     },
     {
@@ -489,7 +477,7 @@
       "ref": "Book I",
       "text": "Nor would you say that medicine is the art of receiving pay because a man takes fees when he is engaged in healing?\n\nAnd we have admitted, I said, that the good of each art is specially confined to the art?\n\nThen, if there be any good which all artists have in common, that is to be attributed to something of which they all have the common use?\n\nAnd when the artist is benefited by receiving pay the advantage is gained by an additional use of the art of pay, which is not the art professed by him?",
       "topics": [
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -509,8 +497,7 @@
       "text": "What do you mean, Socrates? said Glaucon. The first two modes of payment are intelligible enough, but what the penalty is I do not understand, or how a penalty can be a payment.\n\nYou mean that you do not understand the nature of this payment which to the best men is the great inducement to rule? Of course you know that ambition and avarice are held to be, as indeed they are, a disgrace?\n\nAnd for this reason, I said, money and honour have no attraction for them; good men do not wish to be openly demanding payment for governing and so to get the name of hirelings, nor by secretly helping themselves out of the public revenues to get the name of thieves. And not being ambitious they do not care about honour. Wherefore necessity must be laid upon them, and they must be induced to serve from the fear of punishment. And this, as I imagine, is the reason why the forwardness to take office, instead of waiting to be compelled, has been deemed dishonourable. Now the worst part of the punishment is that he who refuses to rule is liable to be ruled by one who is worse than himself. And the fear of this, as I conceive, induces the good to take office, not because they would, but because they cannot help—not under the idea that they are going to have any benefit or enjoyment themselves, but as a necessity, and because they are not able to commit the task of ruling to any one who is better than themselves, or indeed as good.",
       "topics": [
         "knowledge",
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -530,8 +517,7 @@
       "text": "I for my part deem the life of the just to be the more advantageous, he answered.\n\nThen shall we try to find some way of convincing him, if we can, that he is saying what is not true?\n\nIf, I said, he makes a set speech and we make another recounting all the advantages of being just, and he answers and we rejoin, there must be a numbering and measuring of the goods which are claimed on either side, and in the end we shall want judges to decide; but if we proceed in our enquiry as we lately did, by making admissions to one another, we shall unite the offices of judge and advocate in our own persons.\n\nWell, then, Thrasymachus, I said, suppose you begin at the beginning and answer me. You say that perfect injustice is more gainful than perfect justice?",
       "topics": [
         "virtue",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -539,8 +525,7 @@
       "ref": "Book I",
       "text": "And what is your view about them? Would you call one of them virtue and the other vice?\n\nWhat a charming notion! So likely too, seeing that I affirm injustice to be profitable and justice not.\n\nYes, he said; at any rate those of them who are able to be perfectly unjust, and who have the power of subduing states and nations; but perhaps you imagine me to be talking of cutpurses. Even this profession if undetected has advantages, though they are not to be compared with those of which I was just now speaking.\n\nI do not think that I misapprehend your meaning, Thrasymachus, I replied; but still I cannot hear without amazement that you class injustice with wisdom and virtue, and justice with the opposite.",
       "topics": [
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -559,8 +544,7 @@
       "ref": "Book I",
       "text": "Far otherwise; if he did he would not be the simple amusing creature which he is.\n\nAnd how would he regard the attempt to gain an advantage over the unjust; would that be considered by him as just or unjust?\n\nHe would think it just, and would try to gain the advantage; but he would not be able.\n\nWhether he would or would not be able, I said, is not to the point. My question is only whether the just man, while refusing to have more than another just man, would wish and claim to have more than the unjust?",
       "topics": [
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -597,7 +581,6 @@
       "text": "But did we not say, Thrasymachus, that the unjust goes beyond both his like and unlike? Were not these your words?\n\nAnd you also said that the just will not go beyond his like but his unlike?\n\nThen the just is like the wise and good, and the unjust like the evil and ignorant?\n\nThen the just has turned out to be wise and good and the unjust evil and ignorant.",
       "topics": [
         "virtue",
-        "meta",
         "knowledge"
       ]
     },
@@ -607,8 +590,7 @@
       "text": "Thrasymachus made all these admissions, not fluently, as I repeat them, but with extreme reluctance; it was a hot summer’s day, and the perspiration poured from him in torrents; and then I saw what I had never seen before, Thrasymachus blushing. As we were now agreed that justice was virtue and wisdom, and injustice vice and ignorance, I proceeded to another point:\n\nWell, I said, Thrasymachus, that matter is now settled; but were we not also saying that injustice had strength; do you remember?\n\nYes, I remember, he said, but do not suppose that I approve of what you are saying or have no answer; if however I were to answer, you would be quite certain to accuse me of haranguing; therefore either permit me to have my say out, or if you would rather ask, do so, and I will answer ‘Very good,’ as they say to story-telling old women, and will nod ‘Yes’ and ‘No.’\n\nYes, he said, I will, to please you, since you will not let me speak. What else would you have?",
       "topics": [
         "virtue",
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -620,15 +602,6 @@
         "virtue",
         "freedom",
         "nature"
-      ]
-    },
-    {
-      "work": "Republic",
-      "ref": "Book I",
-      "text": "If you are right in your view, and justice is wisdom, then only with justice; but if I am right, then without justice.\n\nI am delighted, Thrasymachus, to see you not only nodding assent and dissent, but making answers which are quite excellent.\n\nYou are very kind, I said; and would you have the goodness also to inform me, whether you think that a state, or an army, or a band of robbers and thieves, or any other gang of evil-doers could act at all if they injured one another?\n\nAnd this is because injustice creates divisions and hatreds and fighting, and justice imparts harmony and friendship; is not that true, Thrasymachus?",
-      "topics": [
-        "virtue",
-        "knowledge"
       ]
     },
     {
@@ -649,8 +622,8 @@
       "topics": [
         "knowledge",
         "virtue",
-        "meta",
-        "self"
+        "self",
+        "meaning"
       ]
     },
     {
@@ -658,8 +631,7 @@
       "ref": "Book I",
       "text": "I will proceed by asking a question: Would you not say that a horse has some end?\n\nAnd the end or use of a horse or of anything would be that which could not be accomplished, or not so well accomplished, by any other thing?\n\nBut you can cut off a vine-branch with a dagger or with a chisel, and in many other ways?\n\nThen now I think you will have no difficulty in understanding my meaning when I asked the question whether the end of anything would be that which could not be accomplished, or not so well accomplished, by any other thing?",
       "topics": [
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -667,8 +639,7 @@
       "ref": "Book I",
       "text": "And that to which an end is appointed has also an excellence? Need I ask again whether the eye has an end?\n\nAnd the same is true of all other things; they have each of them an end and a special excellence?\n\nWell, and can the eyes fulfil their end if they are wanting in their own proper excellence and have a defect instead?\n\nYou mean to say, if they have lost their proper excellence, which is sight; but I have not arrived at that point yet. I would rather ask the question more generally, and only enquire whether the things which fulfil their ends fulfil them by their own proper excellence, and fail of fulfilling them by their own defect?",
       "topics": [
-        "meaning",
-        "meta"
+        "meaning"
       ]
     },
     {
@@ -686,9 +657,9 @@
       "text": "And we have admitted that justice is the excellence of the soul, and injustice the defect of the soul?\n\nThen the just soul and the just man will live well, and the unjust man will live ill?\n\nAnd he who lives well is blessed and happy, and he who lives ill the reverse of happy?\n\nFor which I am indebted to you, I said, now that you have grown gentle towards me and have left off scolding. Nevertheless, I have not been well entertained; but that was my own fault and not yours. As an epicure snatches a taste of every dish which is successively brought to table, he not having allowed himself time to enjoy the one before, so have I gone from one subject to another without having discovered what I sought at first, the nature of justice. I left that enquiry and turned away to consider whether justice is virtue and wisdom or evil and folly; and when there arose a further question about the comparative advantages of justice and injustice, I could not refrain from passing on to that. And the result of the whole discussion has been that I know nothing at all. For I know not what justice is, and therefore I am not likely to know whether it is or is not a virtue, nor can I say whether the just man is happy or unhappy.",
       "topics": [
         "virtue",
-        "meta",
         "knowledge",
-        "self"
+        "self",
+        "meta"
       ]
     },
     {
@@ -698,17 +669,8 @@
       "topics": [
         "virtue",
         "action",
-        "meta",
-        "knowledge"
-      ]
-    },
-    {
-      "work": "Republic",
-      "ref": "Book II",
-      "text": "Because I want to know in which of the three classes you would place justice?\n\nIn the highest class, I replied,—among those goods which he who would be happy desires both for their own sake and for the sake of their results.\n\nThen the many are of another mind; they think that justice is to be reckoned in the troublesome class, among goods which are to be pursued for the sake of rewards and of reputation, but in themselves are disagreeable and rather to be avoided.\n\nI know, I said, that this is their manner of thinking, and that this was the thesis which Thrasymachus was maintaining just now, when he censured justice and praised injustice. But I am too stupid to be convinced by him.",
-      "topics": [
-        "virtue",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -718,8 +680,8 @@
       "topics": [
         "knowledge",
         "virtue",
-        "meta",
-        "self"
+        "self",
+        "action"
       ]
     },
     {
@@ -790,8 +752,7 @@
       "topics": [
         "knowledge",
         "virtue",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -801,8 +762,7 @@
       "topics": [
         "virtue",
         "love",
-        "work",
-        "meta"
+        "work"
       ]
     },
     {
@@ -811,9 +771,9 @@
       "text": "Nonsense, he replied. But let me add something more: There is another side to Glaucon’s argument about the praise and censure of justice and injustice, which is equally required in order to bring out what I believe to be his meaning. Parents and tutors are always telling their sons and their wards that they are to be just; but why? not for the sake of justice, but for the sake of character and reputation; in the hope of obtaining for him who is reputed just some of those offices, marriages, and the like which Glaucon has enumerated among the advantages accruing to the unjust from the reputation of justice. More, however, is made of appearances by this class of persons than by the others; for they throw in the good opinion of the gods, and will tell you of a shower of benefits which the heavens, as they say, rain upon the pious; and this accords with the testimony of the noble Hesiod and Homer, the first of whom says, that the gods make the oaks of the just—\n\n‘To bear acorns at their summit, and bees in the middle; And the sheep are bowed down with the weight of their fleeces,’",
       "topics": [
         "virtue",
-        "meta",
         "knowledge",
-        "meaning"
+        "meaning",
+        "nature"
       ]
     },
     {
@@ -831,9 +791,9 @@
       "text": "Once more, Socrates, I will ask you to consider another way of speaking about justice and injustice, which is not confined to the poets, but is found in prose writers. The universal voice of mankind is always declaring that justice and virtue are honourable, but grievous and toilsome; and that the pleasures of vice and injustice are easy of attainment, and are only censured by law and opinion. They say also that honesty is for the most part less profitable than dishonesty; and they are quite ready to call wicked men happy, and to honour them both in public and private when they are rich or in any other way influential, while they despise and overlook those who may be weak and poor, even though acknowledging them to be better than the others. But most extraordinary of all is their mode of speaking about virtue and the gods: they say that the gods apportion calamity and misery to many good men, and good and happiness to the wicked. And mendicant prophets go to rich men’s doors and persuade them that they have a power committed to them by the gods of making an atonement for a man’s own or his ancestor’s sins by sacrifices or charms, with rejoicings and feasts; and they promise to harm an enemy, whether just or unjust, at a small cost; with magic arts and incantations binding heaven, as they say, to execute their will. And the poets are the authorities to whom they appeal, now smoothing the path of vice with the words of Hesiod;—",
       "topics": [
         "virtue",
-        "meta",
         "work",
-        "suffering"
+        "suffering",
+        "meta"
       ]
     },
     {
@@ -841,10 +801,10 @@
       "ref": "Book II",
       "text": "‘Vice may be had in abundance without trouble; the way is smooth and her dwelling-place is near. But before virtue the gods have set toil,’\n\nand a tedious and uphill road: then citing Homer as a witness that the gods may be influenced by men; for he also says:—\n\n‘The gods, too, may be turned from their purpose; and men pray to them and avert their wrath by sacrifices and soothing entreaties, and by libations and the odour of fat, when they have sinned and transgressed.’\n\nAnd they produce a host of books written by Musaeus and Orpheus, who were children of the Moon and the Muses—that is what they say—according to which they perform their ritual, and persuade not only individuals, but whole cities, that expiations and atonements for sin may be made by sacrifices and amusements which fill a vacant hour, and are equally at the service of the living and the dead; the latter sort they call mysteries, and they redeem us from the pains of hell, but if we neglect them no one knows what awaits us.",
       "topics": [
-        "meta",
         "suffering",
         "meaning",
-        "virtue"
+        "virtue",
+        "meta"
       ]
     },
     {
@@ -853,9 +813,9 @@
       "text": "He proceeded: And now when the young hear all this said about virtue and vice, and the way in which gods and men regard them, how are their minds likely to be affected, my dear Socrates,—those of them, I mean, who are quickwitted, and, like bees on the wing, light on every flower, and from all that they hear are prone to draw conclusions as to what manner of persons they should be and in what way they should walk if they would make the best of life? Probably the youth will say to himself in the words of Pindar—\n\n‘Can I by justice or by crooked ways of deceit ascend a loftier tower which may be a fortress to me all my days?’\n\nFor what men say is that, if I am really just and am not also thought just profit there is none, but the pain and loss on the other hand are unmistakeable. But if, though unjust, I acquire the reputation of justice, a heavenly life is promised to me. Since then, as philosophers prove, appearance tyrannizes over truth and is lord of happiness, to appearance I must devote myself. I will describe around me a picture and shadow of virtue to be the vestibule and exterior of my house; behind I will trail the subtle and crafty fox, as Archilochus, greatest of sages, recommends. But I hear some one exclaiming that the concealment of wickedness is often difficult; to which I answer, Nothing great is easy.",
       "topics": [
         "virtue",
-        "meta",
         "knowledge",
-        "suffering"
+        "suffering",
+        "self"
       ]
     },
     {
@@ -874,9 +834,9 @@
       "ref": "Book II",
       "text": "The cause of all this, Socrates, was indicated by us at the beginning of the argument, when my brother and I told you how astonished we were to find that of all the professing panegyrists of justice—beginning with the ancient heroes of whom any memorial has been preserved to us, and ending with the men of our own time—no one has ever blamed injustice or praised justice except with a view to the glories, honours, and benefits which flow from them. No one has ever adequately described either in verse or prose the true essential nature of either of them abiding in the soul, and invisible to any human or divine eye; or shown that of all the things of a man’s soul which he has within him, justice is the greatest good, and injustice the greatest evil. Had this been the universal strain, had you sought to persuade us of this from our youth upwards, we should not have been on the watch to keep one another from doing wrong, but every one would have been his own watchman, because afraid, if he did wrong, of harbouring in himself the greatest of evils. I dare say that Thrasymachus and others would seriously hold the language which I have been merely repeating, and words even stronger than these about justice and injustice, grossly, as I conceive, perverting their true nature. But I speak in this vehement manner, as I must frankly confess to you, because I want to hear from you the opposite side; and I would ask you to show not only the superiority which justice has over injustice, but what effect they have on the possessor of them which makes the one to be a good and the other an evil to him.",
       "topics": [
-        "meta",
         "self",
         "virtue",
+        "meta",
         "knowledge"
       ]
     },
@@ -897,9 +857,9 @@
       "text": "I had always admired the genius of Glaucon and Adeimantus, but on hearing these words I was quite delighted, and said: Sons of an illustrious father, that was not a bad beginning of the Elegiac verses which the admirer of Glaucon made in honour of you after you had distinguished yourselves at the battle of Megara:—\n\nThe epithet is very appropriate, for there is something truly divine in being able to argue as you have done for the superiority of injustice, and remaining unconvinced by your own arguments. And I do believe that you are not convinced—this I infer from your general character, for had I judged only from your speeches I should have mistrusted you. But now, the greater my confidence in you, the greater is my difficulty in knowing what to say. For I am in a strait between two; on the one hand I feel that I am unequal to the task; and my inability is brought home to me by the fact that you were not satisfied with the answer which I made to Thrasymachus, proving, as I thought, the superiority which justice has over injustice. And yet I cannot refuse to help, while breath and speech remain to me; I am afraid that there would be an impiety in being present when justice is evil spoken of and not lifting up a hand in her defence. And therefore I had best give such help as I can.",
       "topics": [
         "knowledge",
-        "meta",
         "virtue",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -957,6 +917,25 @@
     {
       "work": "Republic",
       "ref": "Book II",
+      "text": "Probably in the dealings of these citizens with one another. I cannot imagine that they are more likely to be found any where else.\n\nI dare say that you are right in your suggestion, I said; we had better think the matter out, and not shrink from the enquiry.\n\nLet us then consider, first of all, what will be their way of life, now that we have thus established them. Will they not produce corn, and wine, and clothes, and shoes, and build houses for themselves? And when they are housed, they will work, in summer, commonly, stripped and barefoot, but in winter substantially clothed and shod. They will feed on barley-meal and flour of wheat, baking and kneading them, making noble cakes and loaves; these they will serve up on a mat of reeds or on clean leaves, themselves reclining the while upon beds strewn with yew or myrtle. And they and their children will feast, drinking of the wine which they have made, wearing garlands on their heads, and hymning the praises of the gods, in happy converse with one another. And they will take care that their families do not exceed their means; having an eye to poverty or war.",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "work": "Republic",
+      "ref": "Book II",
+      "text": "True, I replied, I had forgotten; of course they must have a relish—salt, and olives, and cheese, and they will boil roots and herbs such as country people prepare; for a dessert we shall give them figs, and peas, and beans; and they will roast myrtle-berries and acorns at the fire, drinking in moderation. And with such a diet they may be expected to live in peace and health to a good old age, and bequeath a similar life to their children after them.\n\nYes, Socrates, he said, and if you were providing for a city of pigs, how else would you feed the beasts?\n\nWhy, he said, you should give them the ordinary conveniences of life. People who are to be comfortable are accustomed to lie on sofas, and dine off tables, and they should have sauces and sweets in the modern style.\n\nYes, I said, now I understand: the question which you would have me consider is, not only how a State, but how a luxurious State is created; and possibly there is no harm in this, for in such a State we shall be more likely to see how justice and injustice originate. In my opinion the true and healthy constitution of the State is the one which I have described. But if you wish also to see a State at fever-heat, I have no objection. For I suspect that many will not be satisfied with the simpler way of life. They will be for adding sofas, and tables, and other furniture; also dainties, and perfumes, and incense, and courtesans, and cakes, all these not of one sort only, but in every variety; we must go beyond the necessaries of which I was at first speaking, such as houses, and clothes, and shoes: the arts of the painter and the embroiderer will have to be set in motion, and gold and ivory and all sorts of materials must be procured.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "freedom",
+        "nature"
+      ]
+    },
+    {
+      "work": "Republic",
+      "ref": "Book II",
       "text": "Then we must enlarge our borders; for the original healthy State is no longer sufficient. Now will the city have to fill and swell with a multitude of callings which are not required by any natural want; such as the whole tribe of hunters and actors, of whom one large class have to do with forms and colours; another will be the votaries of music—poets and their attendant train of rhapsodists, players, dancers, contractors; also makers of divers kinds of articles, including women’s dresses. And we shall want more servants. Will not tutors be also in request, and nurses wet and dry, tirewomen and barbers, as well as confectioners and cooks; and swineherds, too, who were not needed and therefore had no place in the former edition of our State, but are needed now? They must not be forgotten: and there will be animals of many other kinds, if people eat them.\n\nAnd living in this way we shall have much greater need of physicians than before?\n\nAnd the country which was enough to support the original inhabitants will be too small now, and not enough?\n\nThen a slice of our neighbours’ land will be wanted by us for pasture and tillage, and they will want a slice of ours, if, like ourselves, they exceed the limit of necessity, and give themselves up to the unlimited accumulation of wealth?",
       "topics": [
         "freedom",
@@ -986,7 +965,15 @@
       "ref": "Book II",
       "text": "Here feeling perplexed I began to think over what had preceded.—My friend, I said, no wonder that we are in a perplexity; for we have lost sight of the image which we had before us.\n\nMany animals, I replied, furnish examples of them; our friend the dog is a very good one: you know that well-bred dogs are perfectly gentle to their familiars and acquaintances, and the reverse to strangers.\n\nThen there is nothing impossible or out of the order of nature in our finding a guardian who has a similar combination of qualities?\n\nWould not he who is fitted to be a guardian, besides the spirited nature, need to have the qualities of a philosopher?",
       "topics": [
-        "nature",
+        "nature"
+      ]
+    },
+    {
+      "work": "Republic",
+      "ref": "Book II",
+      "text": "The trait of which I am speaking, I replied, may be also seen in the dog, and is remarkable in the animal.\n\nWhy, a dog, whenever he sees a stranger, is angry; when an acquaintance, he welcomes him, although the one has never done him any harm, nor the other any good. Did this never strike you as curious?\n\nThe matter never struck me before; but I quite recognise the truth of your remark.\n\nAnd surely this instinct of the dog is very charming;—your dog is a true philosopher.",
+      "topics": [
+        "knowledge",
         "meta"
       ]
     },
@@ -1004,9 +991,12 @@
     {
       "work": "Republic",
       "ref": "Book II",
-      "text": "Then, I said, my dear friend, the task must not be given up, even if somewhat long.\n\nCome then, and let us pass a leisure hour in story-telling, and our story shall be the education of our heroes.\n\nAnd what shall be their education? Can we find a better than the traditional sort?—and this has two divisions, gymnastic for the body, and music for the soul.\n\nAnd the young should be trained in both kinds, and we begin with the false?",
+      "text": "Yes, Adeimantus, they are stories not to be repeated in our State; the young man should not be told that in committing the worst of crimes he is far from doing anything outrageous; and that even if he chastises his father when he does wrong, in whatever manner, he will only be following the example of the first and greatest among the gods.\n\nI entirely agree with you, he said; in my opinion those stories are quite unfit to be repeated.\n\nNeither, if we mean our future guardians to regard the habit of quarrelling among themselves as of all things the basest, should any word be said to them of the wars in heaven, and of the plots and fightings of the gods against one another, for they are not true. No, we shall never mention the battles of the giants, or let them be embroidered on garments; and we shall be silent about the innumerable other quarrels of gods and heroes with their friends and relatives. If they would only believe us we would tell them that quarrelling is unholy, and that never up to this time has there been any quarrel between citizens; this is what old men and old women should begin by telling children; and when they grow up, the poets also should be told to compose for them in a similar spirit. But the narrative of Hephaestus binding Here his mother, or how on another occasion Zeus sent him flying for taking her part when she was being beaten, and all the battles of the gods in Homer—these tales must not be admitted into our State, whether they are supposed to have an allegorical meaning or not. For a young person cannot judge what is allegorical and what is literal; anything that he receives into his mind at that age is likely to become indelible and unalterable; and therefore it is most important that the tales which the young first hear should be models of virtuous thoughts.",
       "topics": [
-        "love"
+        "knowledge",
+        "action",
+        "freedom",
+        "meaning"
       ]
     },
     {
@@ -1023,8 +1013,7 @@
       "text": "And if a poet writes of the sufferings of Niobe—the subject of the tragedy in which these iambic verses occur—or of the house of Pelops, or of the Trojan war or on any similar theme, either we must not permit him to say that these are the works of God, or if they are of God, he must devise some explanation of them such as we are seeking; he must say that God did what was just and right, and they were the better for being punished; but that those who are punished are miserable, and that God is the author of their misery—the poet is not to be permitted to say; though he may say that the wicked are miserable because they require to be punished, and are benefited by receiving punishment from God; but that God being good is the author of evil to any one is to be strenuously denied, and not to be said or sung or heard in verse or prose by any one whether old or young in any well-ordered commonwealth. Such a fiction is suicidal, ruinous, impious.\n\nI agree with you, he replied, and am ready to give my assent to the law.",
       "topics": [
         "virtue",
-        "suffering",
-        "meta"
+        "suffering"
       ]
     },
     {
@@ -1058,9 +1047,20 @@
       "text": "Do you not know, I said, that the true lie, if such an expression may be allowed, is hated of gods and men?\n\nI mean that no one is willingly deceived in that which is the truest and highest part of himself, or about the truest and highest matters; there, above all, he is most afraid of a lie having possession of him.\n\nThe reason is, I replied, that you attribute some profound meaning to my words; but I am only saying that deception, or being deceived or uninformed about the highest realities in the highest part of themselves, which is the soul, and in that part of them to have and to hold the lie, is what mankind least like;—that, I say, is what they utterly detest.\n\nAnd, as I was just now remarking, this ignorance in the soul of him who is deceived may be called the true lie; for the lie in words is only a kind of imitation and shadowy image of a previous affection of the soul, not pure unadulterated falsehood. Am I not right?",
       "topics": [
         "knowledge",
-        "meta",
         "self",
-        "meaning"
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "Republic",
+      "ref": "Book II",
+      "text": "Whereas the lie in words is in certain cases useful and not hateful; in dealing with enemies—that would be an instance; or again, when those whom we call our friends in a fit of madness or illusion are going to do some harm, then it is useful and is a sort of medicine or preventive; also in the tales of mythology, of which we were just now speaking—because we do not know the truth about ancient times, we make falsehood as much like truth as we can, and so turn it to account.\n\nBut can any of these reasons apply to God? Can we suppose that he is ignorant of antiquity, and therefore has recourse to invention?\n\nThen is God perfectly simple and true both in word and deed; he changes not; he deceives not, either by sign or word, by dream or waking vision.\n\nYou agree with me then, I said, that this is the second type or form in which we should write and speak about divine things. The gods are not magicians who transform themselves, neither do they deceive mankind in any way.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "meta",
+        "action"
       ]
     },
     {
@@ -1070,8 +1070,8 @@
       "topics": [
         "knowledge",
         "meaning",
-        "meta",
-        "self"
+        "self",
+        "education"
       ]
     },
     {
@@ -1099,20 +1099,11 @@
     {
       "work": "Republic",
       "ref": "Book III",
-      "text": "Also we shall have to reject all the terrible and appalling names which describe the world below—Cocytus and Styx, ghosts under the earth, and sapless shades, and any similar words of which the very mention causes a shudder to pass through the inmost soul of him who hears them. I do not say that these horrible stories may not have a use of some kind; but there is a danger that the nerves of our guardians may be rendered too excitable and effeminate by them.\n\nAnd shall we proceed to get rid of the weepings and wailings of famous men?\n\nBut shall we be right in getting rid of them? Reflect: our principle is that the good man will not consider death terrible to any other good man who is his comrade.\n\nAnd therefore he will not sorrow for his departed friend as though he had suffered anything terrible?",
+      "text": "Woe is me that I am fated to have Sarpedon, dearest of men to me, subdued at the hands of Patroclus the son of Menoetius.’\n\nFor if, my sweet Adeimantus, our youth seriously listen to such unworthy representations of the gods, instead of laughing at them as they ought, hardly will any of them deem that he himself, being but a man, can be dishonoured by similar actions; neither will he rebuke any inclination which may arise in his mind to say and do the like. And instead of having any shame or self-control, he will be always whining and lamenting on slight occasions.\n\nYes, I replied; but that surely is what ought not to be, as the argument has just proved to us; and by that proof we must abide until it is disproved by a better.\n\nNeither ought our guardians to be given to laughter. For a fit of laughter which has been indulged to excess almost always produces a violent reaction.",
       "topics": [
-        "suffering",
-        "meta",
-        "nature"
-      ]
-    },
-    {
-      "work": "Republic",
-      "ref": "Book III",
-      "text": "Then we will once more entreat Homer and the other poets not to depict Achilles, who is the son of a goddess, first lying on his side, then on his back, and then on his face; then starting up and sailing in a frenzy along the shores of the barren sea; now taking the sooty ashes in both his hands and pouring them over his head, or weeping and wailing in the various modes which Homer has delineated. Nor should he describe Priam the kinsman of the gods as praying and beseeching,\n\nStill more earnestly will we beg of him at all events not to introduce the gods lamenting and saying,\n\nBut if he must introduce the gods, at any rate let him not dare so completely to misrepresent the greatest of the gods, as to make him say—\n\n‘O heavens! with my eyes verily I behold a dear friend of mine chased round and round the city, and my heart is sorrowful.’",
-      "topics": [
-        "love",
-        "nature"
+        "knowledge",
+        "self",
+        "action"
       ]
     },
     {
@@ -1176,8 +1167,8 @@
       "topics": [
         "knowledge",
         "nature",
-        "meta",
-        "technology"
+        "technology",
+        "meaning"
       ]
     },
     {
@@ -1218,23 +1209,11 @@
       ]
     },
     {
-      "work": "Republic",
-      "ref": "Book V",
-      "text": "Next, we shall ask our opponent how, in reference to any of the pursuits or arts of civic life, the nature of a woman differs from that of a man?\n\nAnd perhaps he, like yourself, will reply that to give a sufficient answer on the instant is not easy; but after a little reflection there is no difficulty.\n\nSuppose then that we invite him to accompany us in the argument, and then we may hope to show him that there is nothing peculiar in the constitution of women which would affect them in the administration of the State.\n\nLet us say to him: Come now, and we will ask you a question:—when you spoke of a nature gifted or not gifted in any respect, did you mean to say that one man will acquire a thing easily, another with difficulty; a little learning will lead the one to discover a great deal; whereas the other, after much study and application, no sooner learns than he forgets; or again, did you mean, that the one has a body which is a good servant to his mind, while the body of the other is a hindrance to him?—would not these be the sort of differences which distinguish the man gifted by nature from the one who is ungifted?",
-      "topics": [
-        "education",
-        "meta",
-        "knowledge",
-        "nature"
-      ]
-    },
-    {
       "work": "Symposium",
       "ref": null,
       "text": "Concerning the things about which you ask to be informed I believe that I am not ill-prepared with an answer. For the day before yesterday I was coming from my own home at Phalerum to the city, and one of my acquaintance, who had caught a sight of me from behind, calling out playfully in the distance, said: Apollodorus, O thou Phalerian (Probably a play of words on (Greek), 'bald-headed.') man, halt! So I did as I was bid; and then he said, I was looking for you, Apollodorus, only just now, that I might ask you about the speeches in praise of love, which were delivered by Socrates, Alcibiades, and others, at Agathon's supper. Phoenix, the son of Philip, told another person who told me of them; his narrative was very indistinct, but he said that you knew, and I wish that you would give me an account of them. Who, if not you, should be the reporter of the words of your friend? And first tell me, he said, were you present at this meeting?\n\nYour informant, Glaucon, I said, must have been very indistinct indeed, if you imagine that the occasion was recent; or that I could have been of the party.",
       "topics": [
-        "love",
-        "meta"
+        "love"
       ]
     },
     {
@@ -1243,7 +1222,6 @@
       "text": "Impossible: I said. Are you ignorant that for many years Agathon has not resided at Athens; and not three have elapsed since I became acquainted with Socrates, and have made it my daily business to know all that he says and does. There was a time when I was running about the world, fancying myself to be well employed, but I was really a most wretched being, no better than you are now. I thought that I ought to do anything rather than be a philosopher.\n\nWell, he said, jesting apart, tell me when the meeting occurred.\n\nIn our boyhood, I replied, when Agathon won the prize with his first tragedy, on the day after that on which he and his chorus offered the sacrifice of victory.\n\nThen it must have been a long while ago, he said; and who told you--did Socrates?",
       "topics": [
         "knowledge",
-        "meta",
         "action"
       ]
     },
@@ -1252,7 +1230,6 @@
       "ref": null,
       "text": "No indeed, I replied, but the same person who told Phoenix;--he was a little fellow, who never wore any shoes, Aristodemus, of the deme of Cydathenaeum. He had been at Agathon's feast; and I think that in those days there was no one who was a more devoted admirer of Socrates. Moreover, I have asked Socrates about the truth of some parts of his narrative, and he confirmed them. Then, said Glaucon, let us have the tale over again; is not the road to Athens just made for conversation? And so we walked, and talked of the discourses on love; and therefore, as I said at first, I am not ill-prepared to comply with your request, and will have another rehearsal of them if you like. For to speak or to hear others speak of philosophy always gives me the greatest pleasure, to say nothing of the profit. But when I hear another strain, especially that of you rich men and traders, such conversation displeases me; and I pity you who are my companions, because you think that you are doing something when in reality you are doing nothing. And I dare say that you pity me in return, whom you regard as an unhappy creature, and very probably you are right. But I certainly know of you what you only think of me--there is the difference.",
       "topics": [
-        "meta",
         "work",
         "knowledge"
       ]
@@ -1263,8 +1240,8 @@
       "text": "COMPANION: I see, Apollodorus, that you are just the same--always speaking evil of yourself, and of others; and I do believe that you pity all mankind, with the exception of Socrates, yourself first of all, true in this to your old name, which, however deserved, I know not how you acquired, of Apollodorus the madman; for you are always raging against yourself and everybody but Socrates.\n\nAPOLLODORUS: Yes, friend, and the reason why I am said to be mad, and out of my wits, is just because I have these notions of myself and you; no other evidence is required.\n\nCOMPANION: No more of that, Apollodorus; but let me renew my request that you would repeat the conversation.\n\nAPOLLODORUS: Well, the tale of love was on this wise:--But perhaps I had better begin at the beginning, and endeavour to give you the exact words of Aristodemus:",
       "topics": [
         "knowledge",
-        "meta",
         "action",
+        "meta",
         "love"
       ]
     },
@@ -1273,7 +1250,7 @@
       "ref": null,
       "text": "He said that he met Socrates fresh from the bath and sandalled; and as the sight of the sandals was unusual, he asked him whither he was going that he had been converted into such a beau:--\n\nTo a banquet at Agathon's, he replied, whose invitation to his sacrifice of victory I refused yesterday, fearing a crowd, but promising that I would come to-day instead; and so I have put on my finery, because he is such a fine man. What say you to going with me unasked?\n\nI will do as you bid me, I replied.\n\nFollow then, he said, and let us demolish the proverb:--",
       "topics": [
-        "meta"
+        "action"
       ]
     },
     {
@@ -1289,8 +1266,7 @@
       "ref": null,
       "text": "'To the feasts of the wise unbidden goes.'\n\nBut I shall say that I was bidden of you, and then you will have to make an excuse.\n\nhe replied, in Homeric fashion, one or other of them may invent an excuse by the way (Iliad).\n\nThis was the style of their conversation as they went along. Socrates dropped behind in a fit of abstraction, and desired Aristodemus, who was waiting, to go on before him. When he reached the house of Agathon he found the doors wide open, and a comical thing happened. A servant coming out met him, and led him at once into the banqueting-hall in which the guests were reclining, for the banquet was about to begin. Welcome, Aristodemus, said Agathon, as soon as he appeared--you are just in time to sup with us; if you come on any other matter put it off, and make one of us, as I was looking for you yesterday and meant to have asked you, if I could have found you. But what have you done with Socrates?",
       "topics": [
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -1321,14 +1297,6 @@
     {
       "work": "Symposium",
       "ref": null,
-      "text": "I entirely agree, said Aristophanes, that we should, by all means, avoid hard drinking, for I was myself one of those who were yesterday drowned in drink.\n\nI think that you are right, said Eryximachus, the son of Acumenus; but I should still like to hear one other person speak: Is Agathon able to drink hard?\n\nI am not equal to it, said Agathon.\n\nThen, said Eryximachus, the weak heads like myself, Aristodemus, Phaedrus, and others who never can drink, are fortunate in finding that the stronger ones are not in a drinking mood. (I do not include Socrates, who is able either to drink or to abstain, and will not mind, whichever we do.) Well, as of none of the company seem disposed to drink much, I may be forgiven for saying, as a physician, that drinking deep is a bad practice, which I never follow, if I can help, and certainly do not recommend to another, least of all to any one who still feels the effects of yesterday's carouse.",
-      "topics": [
-        "action"
-      ]
-    },
-    {
-      "work": "Symposium",
-      "ref": null,
       "text": "I always do what you advise, and especially what you prescribe as a physician, rejoined Phaedrus the Myrrhinusian, and the rest of the company, if they are wise, will do the same.\n\nIt was agreed that drinking was not to be the order of the day, but that they were all to drink only so much as they pleased.\n\nThen, said Eryximachus, as you are all agreed that drinking is to be voluntary, and that there is to be no compulsion, I move, in the next place, that the flute-girl, who has just made her appearance, be told to go away and play to herself, or, if she likes, to the women who are within (compare Prot.). To-day let us have conversation instead; and, if you will allow me, I will tell you what sort of conversation. This proposal having been accepted, Eryximachus proceeded as follows:--\n\nI will begin, he said, after the manner of Melanippe in Euripides,",
       "topics": [
         "action",
@@ -1340,8 +1308,8 @@
       "ref": null,
       "text": "which I am about to speak, but that of Phaedrus. For often he says to me in an indignant tone:--'What a strange thing it is, Eryximachus, that, whereas other gods have poems and hymns made in their honour, the great and glorious god, Love, has no encomiast among all the poets who are so many. There are the worthy sophists too--the excellent Prodicus for example, who have descanted in prose on the virtues of Heracles and other heroes; and, what is still more extraordinary, I have met with a philosophical work in which the utility of salt has been made the theme of an eloquent discourse; and many other like things have had a like honour bestowed upon them. And only to think that there should have been an eager interest created about them, and yet that to this day no one has ever dared worthily to hymn Love's praises! So entirely has this great deity been neglected.' Now in this Phaedrus seems to me to be quite right, and therefore I want to offer him a contribution; also I think that at the present moment we who are here assembled cannot do better than honour the god Love. If you agree with me, there will be no lack of conversation; for I mean to propose that each of us in turn, going from left to right, shall make a speech in honour of Love. Let him give us the best which he can; and Phaedrus, because he is sitting first on the left hand, and because he is the father of the thought, shall begin.",
       "topics": [
-        "meta",
         "meaning",
+        "meta",
         "virtue",
         "action"
       ]
@@ -1365,7 +1333,7 @@
         "action",
         "love",
         "virtue",
-        "meta"
+        "work"
       ]
     },
     {
@@ -1406,10 +1374,10 @@
       "ref": null,
       "text": "This, or something like this, was the speech of Phaedrus; and some other speeches followed which Aristodemus did not remember; the next which he repeated was that of Pausanias. Phaedrus, he said, the argument has not been set before us, I think, quite in the right form;--we should not be called upon to praise Love in such an indiscriminate manner. If there were only one Love, then what you said would be well enough; but since there are more Loves than one,--should have begun by determining which of them was to be the theme of our praises. I will amend this defect; and first of all I will tell you which Love is deserving of praise, and then try to hymn the praiseworthy one in a manner worthy of him. For we all know that Love is inseparable from Aphrodite, and if there were only one Aphrodite there would be only one Love; but as there are two goddesses there must be two Loves. And am I not right in asserting that there are two goddesses? The elder one, having no mother, who is called the heavenly Aphrodite--she is the daughter of Uranus; the younger, who is the daughter of Zeus and Dione--her we call common; and the Love who is her fellow-worker is rightly named common, as the other love is called heavenly. All the gods ought to have praise given to them, but not without distinction of their natures; and therefore I must try to distinguish the characters of the two Loves.",
       "topics": [
-        "meta",
         "love",
         "knowledge",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -1440,8 +1408,7 @@
       "text": "In Ionia and other places, and generally in countries which are subject to the barbarians, the custom is held to be dishonourable; loves of youths share the evil repute in which philosophy and gymnastics are held, because they are inimical to tyranny; for the interests of rulers require that their subjects should be poor in spirit (compare Arist. Politics), and that there should be no strong bond of friendship or society among them, which love, above all other motives, is likely to inspire, as our Athenian tyrants learned by experience; for the love of Aristogeiton and the constancy of Harmodius had a strength which undid their power. And, therefore, the ill-repute into which these attachments have fallen is to be ascribed to the evil condition of those who make them to be ill-reputed; that is to say, to the self-seeking of the governors and the cowardice of the governed; on the other hand, the indiscriminate honour which is given to them in some countries is attributable to the laziness of those who hold this opinion of them. In our own country a far better principle prevails, but, as I was saying, the explanation of it is rather perplexing. For, observe that open loves are held to be more honourable than secret ones, and that the love of the noblest and highest, even if their persons are less beautiful than others, is especially honourable. Consider, too, how great is the encouragement which all the world gives to the lover; neither is he supposed to be doing anything dishonourable; but if he succeeds he is praised, and if he fail he is blamed.",
       "topics": [
         "love",
-        "freedom",
-        "meta"
+        "freedom"
       ]
     },
     {
@@ -1452,7 +1419,7 @@
         "love",
         "freedom",
         "action",
-        "meta"
+        "suffering"
       ]
     },
     {
@@ -1464,6 +1431,15 @@
         "knowledge",
         "virtue",
         "work"
+      ]
+    },
+    {
+      "work": "Symposium",
+      "ref": null,
+      "text": "For none of these things are of a permanent or lasting nature; not to mention that no generous friendship ever sprang from them. There remains, then, only one way of honourable attachment which custom allows in the beloved, and this is the way of virtue; for as we admitted that any service which the lover does to him is not to be accounted flattery or a dishonour to himself, so the beloved has one way only of voluntary service which is not dishonourable, and this is virtuous service.",
+      "topics": [
+        "love",
+        "virtue"
       ]
     },
     {
@@ -1484,7 +1460,6 @@
       "topics": [
         "nature",
         "action",
-        "meta",
         "love"
       ]
     },
@@ -1504,8 +1479,7 @@
       "ref": null,
       "text": "Any one who pays the least attention to the subject will also perceive that in music there is the same reconciliation of opposites; and I suppose that this must have been the meaning of Heracleitus, although his words are not accurate; for he says that The One is united by disunion, like the harmony of the bow and the lyre. Now there is an absurdity saying that harmony is discord or is composed of elements which are still in a state of discord. But what he probably meant was, that harmony is composed of differing notes of higher or lower pitch which disagreed once, but are now reconciled by the art of music; for if the higher and lower notes still disagreed, there could be no harmony,--clearly not. For harmony is a symphony, and symphony is an agreement; but an agreement of disagreements while they disagree there cannot be; you cannot harmonize that which disagrees. In like manner rhythm is compounded of elements short and long, once differing and now in accord; which accordance, as in the former instance, medicine, so in all these other cases, music implants, making love and unison to grow up among them; and thus music, too, is concerned with the principles of love in their application to harmony and rhythm. Again, in the essential nature of harmony and rhythm there is no difficulty in discerning love which has not yet become double. But when you want to use them in actual life, either in the composition of songs or in the correct performance of airs or metres composed already, which latter is called education, then the difficulty begins, and the good artist is needed.",
       "topics": [
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -1522,9 +1496,8 @@
     {
       "work": "Symposium",
       "ref": null,
-      "text": "Such is the great and mighty, or rather omnipotent force of love in general. And the love, more especially, which is concerned with the good, and which is perfected in company with temperance and justice, whether among gods or men, has the greatest power, and is the source of all our happiness and harmony, and makes us friends with the gods who are above us, and with one another. I dare say that I too have omitted several things which might be said in praise of Love, but this was not intentional, and you, Aristophanes, may now supply the omission or take some other line of commendation; for I perceive that you are rid of the hiccough.",
+      "text": "Yes, said Aristophanes, who followed, the hiccough is gone; not, however, until I applied the sneezing; and I wonder whether the harmony of the body has a love of such noises and ticklings, for I no sooner applied the sneezing than I was cured.\n\nEryximachus said: Beware, friend Aristophanes, although you are going to speak, you are making fun of me; and I shall have to watch and see whether I cannot have a laugh at your expense, when you might speak in peace.\n\nYou are right, said Aristophanes, laughing. I will unsay my words; but do you please not to watch me, as I fear that in the speech which I am about to make, instead of others laughing with me, which is to the manner born of our muse and would be all the better, I shall only be laughed at by them.\n\nDo you expect to shoot your bolt and escape, Aristophanes? Well, perhaps if you are very careful and bear in mind that you will be called to account, I may be induced to let you off.",
       "topics": [
-        "virtue",
         "love",
         "meta"
       ]
@@ -1566,7 +1539,7 @@
       "ref": null,
       "text": "Phaedo, who is the narrator of the dialogue to Echecrates of Phlius. Socrates, Apollodorus, Simmias, Cebes, Crito and an Attendant of the Prison.\n\nECHECRATES: Were you yourself, Phaedo, in the prison with Socrates on the day when he drank the poison?\n\nECHECRATES: I should so like to hear about his death. What did he say in his last hours? We were informed that he died by taking poison, but no one knew anything more; for no Phliasian ever goes to Athens now, and it is a long time since any stranger from Athens has found his way hither; so that we had no clear account.\n\nPHAEDO: Did you not hear of the proceedings at the trial?",
       "topics": [
-        "meta"
+        "suffering"
       ]
     },
     {
@@ -1645,8 +1618,8 @@
       "ref": null,
       "text": "Why do you say, enquired Cebes, that a man ought not to take his own life, but that the philosopher will be ready to follow the dying?\n\nSocrates replied: And have you, Cebes and Simmias, who are the disciples of Philolaus, never heard him speak of this?\n\nMy words, too, are only an echo; but there is no reason why I should not repeat what I have heard: and indeed, as I am going to another place, it is very meet for me to be thinking and talking of the nature of the pilgrimage which I am about to make. What can I do better in the interval between this and the setting of the sun?\n\nThen tell me, Socrates, why is suicide held to be unlawful? as I have certainly heard Philolaus, about whom you were just now asking, affirm when he was staying with us at Thebes: and there are others who say the same, although I have never understood what was meant by any of them.",
       "topics": [
-        "meta",
-        "nature"
+        "nature",
+        "meta"
       ]
     },
     {
@@ -1655,8 +1628,7 @@
       "text": "Do not lose heart, replied Socrates, and the day may come when you will understand. I suppose that you wonder why, when other things which are evil may be good at certain times and to certain persons, death is to be the only exception, and why, when a man is better dead, he is not permitted to be his own benefactor, but must wait for the hand of another.\n\nVery true, said Cebes, laughing gently and speaking in his native Boeotian.\n\nI admit the appearance of inconsistency in what I am saying; but there may not be any real inconsistency after all. There is a doctrine whispered in secret that man is a prisoner who has no right to open the door and run away; this is a great mystery which I do not quite understand. Yet I too believe that the gods are our guardians, and that we are a possession of theirs. Do you not agree?\n\nAnd if one of your own possessions, an ox or an ass, for example, took the liberty of putting himself out of the way when you had given no intimation of your wish that he should die, would you not be angry with him, and would you not punish him if you could?",
       "topics": [
         "suffering",
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -1698,9 +1670,9 @@
       "text": "Only this, Socrates, replied Crito:--the attendant who is to give you the poison has been telling me, and he wants me to tell you, that you are not to talk much, talking, he says, increases heat, and this is apt to interfere with the action of the poison; persons who excite themselves are sometimes obliged to take a second or even a third dose.\n\nThen, said Socrates, let him mind his business and be prepared to give the poison twice or even thrice if necessary; that is all.\n\nI knew quite well what you would say, replied Crito; but I was obliged to satisfy him.\n\nAnd now, O my judges, I desire to prove to you that the real philosopher has reason to be of good cheer when he is about to die, and that after death he may hope to obtain the greatest good in the other world. And how this may be, Simmias and Cebes, I will endeavour to explain. For I deem that the true votary of philosophy is likely to be misunderstood by other men; they do not perceive that he is always pursuing death and dying; and if this be so, and he has had the desire of death all his life long, why when his time comes should he repine at that which he has been always pursuing and desiring?",
       "topics": [
         "knowledge",
-        "meta",
         "suffering",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -1720,8 +1692,7 @@
       "text": "And what about the pleasures of love--should he care for them?\n\nAnd will he think much of the other ways of indulging the body, for example, the acquisition of costly raiment, or sandals, or other adornments of the body? Instead of caring about them, does he not rather despise anything more than nature needs? What do you say?\n\nI should say that the true philosopher would despise them.\n\nWould you not say that he is entirely concerned with the soul and not with the body? He would like, as far as he can, to get away from the body and to turn to the soul.",
       "topics": [
         "nature",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -1730,7 +1701,6 @@
       "text": "In matters of this sort philosophers, above all other men, may be observed in every sort of way to dissever the soul from the communion of the body.\n\nWhereas, Simmias, the rest of the world are of opinion that to him who has no sense of pleasure and no part in bodily pleasure, life is not worth having; and that he who is indifferent about them is as good as dead.\n\nWhat again shall we say of the actual acquirement of knowledge?--is the body, if invited to share in the enquiry, a hinderer or a helper? I mean to say, have sight and hearing any truth in them? Are they not, as the poets are always telling us, inaccurate witnesses? and yet, if even they are inaccurate and indistinct, what is to be said of the other senses?--for you will allow that they are the best of them?\n\nThen when does the soul attain truth?--for in attempting to consider anything in company with the body she is obviously deceived.",
       "topics": [
         "knowledge",
-        "meta",
         "nature",
         "action"
       ]
@@ -1761,8 +1731,8 @@
       "ref": null,
       "text": "What you say has a wonderful truth in it, Socrates, replied Simmias.\n\nAnd when real philosophers consider all these things, will they not be led to make a reflection which they will express in words something like the following? 'Have we not found,' they will say, 'a path of thought which seems to bring us and our argument to the conclusion, that while we are in the body, and while the soul is infected with the evils of the body, our desire will not be satisfied? and our desire is of the truth. For the body is a source of endless trouble to us by reason of the mere requirement of food; and is liable also to diseases which overtake and impede us in the search after true being: it fills us full of loves, and lusts, and fears, and fancies of all kinds, and endless foolery, and in fact, as men say, takes away from us the power of thinking at all. Whence come wars, and fightings, and factions? whence but from the body and the lusts of the body? wars are occasioned by the love of money, and money has to be acquired for the sake and in the service of the body; and by reason of all these impediments we have no time to give to philosophy; and, last and worst of all, even if we are at leisure and betake ourselves to some speculation, the body is always breaking in upon us, causing turmoil and confusion in our enquiries, and so amazing us that we are prevented from seeing the truth.",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "love",
         "suffering"
       ]
@@ -1815,8 +1785,7 @@
       "text": "Well, he said, you are aware that death is regarded by men in general as a great evil.\n\nAnd do not courageous men face death because they are afraid of yet greater evils?\n\nThen all but the philosophers are courageous only from fear, and because they are afraid; and yet that a man should be courageous from fear, and because he is a coward, is surely a strange thing.\n\nAnd are not the temperate exactly in the same case? They are temperate because they are intemperate--which might seem to be a contradiction, but is nevertheless the sort of thing which happens with this foolish temperance. For there are pleasures which they are afraid of losing; and in their desire to keep them, they abstain from some pleasures, because they are overcome by others; and although to be conquered by pleasure is called by men intemperance, to them the conquest of pleasure consists in being conquered by pleasure. And that is what I mean by saying that, in a sense, they are made temperate through intemperance.",
       "topics": [
         "virtue",
-        "suffering",
-        "meta"
+        "suffering"
       ]
     },
     {
@@ -1825,9 +1794,9 @@
       "text": "Yet the exchange of one fear or pleasure or pain for another fear or pleasure or pain, and of the greater for the less, as if they were coins, is not the exchange of virtue. O my blessed Simmias, is there not one true coin for which all things ought to be exchanged?--and that is wisdom; and only in exchange for this, and in company with this, is anything truly bought or sold, whether courage or temperance or justice. And is not all true virtue the companion of wisdom, no matter what fears or pleasures or other similar goods or evils may or may not attend her? But the virtue which is made up of these goods, when they are severed from wisdom and exchanged with one another, is a shadow of virtue only, nor is there any freedom or health or truth in her; but in the true exchange there is a purging away of all these things, and temperance, and justice, and courage, and wisdom herself are the purgation of them. The founders of the mysteries would appear to have had a real meaning, and were not talking nonsense when they intimated in a figure long ago that he who passes unsanctified and uninitiated into the world below will lie in a slough, but that he who arrives there after initiation and purification will dwell with the gods. For 'many,' as they say in the mysteries, 'are the thyrsus-bearers, but few are the mystics,'--meaning, as I interpret the words, 'the true philosophers.'",
       "topics": [
         "virtue",
-        "meta",
         "suffering",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -1845,9 +1814,9 @@
       "text": "Cebes answered: I agree, Socrates, in the greater part of what you say. But in what concerns the soul, men are apt to be incredulous; they fear that when she has left the body her place may be nowhere, and that on the very day of death she may perish and come to an end--immediately on her release from the body, issuing forth dispersed like smoke or air and in her flight vanishing away into nothingness. If she could only be collected into herself after she has obtained release from the evils of which you are speaking, there would be good reason to hope, Socrates, that what you say is true. But surely it requires a great deal of argument and many proofs to show that when the man is dead his soul yet exists, and has any force or intelligence.\n\nTrue, Cebes, said Socrates; and shall I suggest that we converse a little of the probabilities of these things?\n\nI am sure, said Cebes, that I should greatly like to know your opinion about them.\n\nI reckon, said Socrates, that no one who heard me now, not even if he were one of my old enemies, the Comic poets, could accuse me of idle talking about matters in which I have no concern:--If you please, then, we will proceed with the inquiry.",
       "topics": [
         "knowledge",
-        "meta",
         "suffering",
-        "meaning"
+        "meaning",
+        "self"
       ]
     },
     {
@@ -1864,28 +1833,19 @@
     {
       "work": "Phaedo",
       "ref": null,
-      "text": "Cebes added: Your favorite doctrine, Socrates, that knowledge is simply recollection, if true, also necessarily implies a previous time in which we have learned that which we now recollect. But this would be impossible unless our soul had been in some place before existing in the form of man; here then is another proof of the soul's immortality.\n\nBut tell me, Cebes, said Simmias, interposing, what arguments are urged in favour of this doctrine of recollection. I am not very sure at the moment that I remember them.\n\nOne excellent proof, said Cebes, is afforded by questions. If you put a question to a person in a right way, he will give a true answer of himself, but how could he do this unless there were knowledge and right reason already in him? And this is most clearly shown when he is taken to a diagram or to anything of that sort. (Compare Meno.)\n\nBut if, said Socrates, you are still incredulous, Simmias, I would ask you whether you may not agree with me when you look at the matter in another way;--I mean, if you are still incredulous as to whether knowledge is recollection.",
+      "text": "Now, said Socrates, I will analyze one of the two pairs of opposites which I have mentioned to you, and also its intermediate processes, and you shall analyze the other to me. One of them I term sleep, the other waking. The state of sleep is opposed to the state of waking, and out of sleeping waking is generated, and out of waking, sleeping; and the process of generation is in the one case falling asleep, and in the other waking up. Do you agree?\n\nThen, suppose that you analyze life and death to me in the same manner. Is not death opposed to life?\n\nAnd they are generated one from the other?\n\nI can only say in answer--the living.",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "Phaedo",
+      "ref": null,
+      "text": "A simple thing enough, which I will illustrate by the case of sleep, he replied. You know that if there were no alternation of sleeping and waking, the tale of the sleeping Endymion would in the end have no meaning, because all other things would be asleep, too, and he would not be distinguishable from the rest. Or if there were composition only, and no division of substances, then the chaos of Anaxagoras would come again. And in like manner, my dear Cebes, if all things which partook of life were to die, and after they were dead remained in the form of death, and did not come to life again, all would at last die, and nothing would be alive--what other result could there be? For if the living spring from any other things, and they too die, must not all things at last be swallowed up in death? (But compare Republic.)\n\nThere is no escape, Socrates, said Cebes; and to me your argument seems to be absolutely true.\n\nYes, he said, Cebes, it is and must be so, in my opinion; and we have not been deluded in making these admissions; but I am confident that there truly is such a thing as living again, and that the living spring from the dead, and that the souls of the dead are in existence, and that the good souls have a better portion than the evil.",
       "topics": [
         "knowledge",
-        "meta",
-        "self"
-      ]
-    },
-    {
-      "work": "Phaedo",
-      "ref": null,
-      "text": "And yet what is the feeling of lovers when they recognize a lyre, or a garment, or anything else which the beloved has been in the habit of using? Do not they, from knowing the lyre, form in the mind's eye an image of the youth to whom the lyre belongs? And this is recollection. In like manner any one who sees Simmias may remember Cebes; and there are endless examples of the same thing.\n\nAnd recollection is most commonly a process of recovering that which has been already forgotten through time and inattention.\n\nWell; and may you not also from seeing the picture of a horse or a lyre remember a man? and from the picture of Simmias, you may be led to remember Cebes?\n\nOr you may also be led to the recollection of Simmias himself?",
-      "topics": [
-        "love",
-        "action"
-      ]
-    },
-    {
-      "work": "Phaedo",
-      "ref": null,
-      "text": "And yet from these equals, although differing from the idea of equality, you conceived and attained that idea?\n\nWhich might be like, or might be unlike them?\n\nBut that makes no difference; whenever from seeing one thing you conceived another, whether like or unlike, there must surely have been an act of recollection?\n\nBut what would you say of equal portions of wood and stone, or other material equals? and what is the impression produced by them? Are they equals in the same sense in which absolute equality is equal? or do they fall short of this perfect equality in a measure?",
-      "topics": [
-        "action"
+        "suffering",
+        "meaning"
       ]
     },
     {
@@ -1895,6 +1855,14 @@
       "topics": [
         "knowledge",
         "education"
+      ]
+    },
+    {
+      "work": "Phaedo",
+      "ref": null,
+      "text": "I think such an opinion to be exceedingly probable.\n\nAnd those who have chosen the portion of injustice, and tyranny, and violence, will pass into wolves, or into hawks and kites;--whither else can we suppose them to go?\n\nYes, said Cebes; with such natures, beyond question.\n\nAnd there is no difficulty, he said, in assigning to all of them places answering to their several natures and propensities?",
+      "topics": [
+        "freedom"
       ]
     },
     {
@@ -1926,7 +1894,6 @@
       "topics": [
         "nature",
         "action",
-        "meta",
         "education"
       ]
     },
@@ -1937,8 +1904,7 @@
       "topics": [
         "knowledge",
         "nature",
-        "freedom",
-        "meta"
+        "freedom"
       ]
     },
     {
@@ -1962,9 +1928,9 @@
       "ref": null,
       "text": "PHAEDRUS: My tale, Socrates, is one of your sort, for love was the theme which occupied us--love after a fashion: Lysias has been writing about a fair youth who was being tempted, but not by a lover; and this was the point: he ingeniously proved that the non-lover should be accepted rather than the lover.\n\nSOCRATES: O that is noble of him! I wish that he would say the poor man rather than the rich, and the old man rather than the young one;--then he would meet the case of me and of many a man; his words would be quite refreshing, and he would be a public benefactor. For my part, I do so long to hear his speech, that if you walk all the way to Megara, and when you have reached the wall come back, as Herodicus recommends, without going in, I will keep you company.\n\nPHAEDRUS: What do you mean, my good Socrates? How can you imagine that my unpractised memory can do justice to an elaborate work, which the greatest rhetorician of the age spent a long time in composing. Indeed, I cannot; I would give a great deal if I could.",
       "topics": [
-        "meta",
         "work",
         "virtue",
+        "meta",
         "love"
       ]
     },
@@ -1984,10 +1950,10 @@
       "ref": null,
       "text": "PHAEDRUS: I see that you will not let me off until I speak in some fashion or other; verily therefore my best plan is to speak as I best can.\n\nSOCRATES: A very true remark, that of yours.\n\nPHAEDRUS: I will do as I say; but believe me, Socrates, I did not learn the very words--O no; nevertheless I have a general notion of what he said, and will give you a summary of the points in which the lover differed from the non-lover. Let me begin at the beginning.\n\nSOCRATES: Yes, my sweet one; but you must first of all show what you have in your left hand under your cloak, for that roll, as I suspect, is the actual discourse. Now, much as I love you, I would not have you suppose that I am going to have your memory exercised at my expense, if you have Lysias himself here.",
       "topics": [
-        "meta",
         "action",
         "love",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -2011,8 +1977,7 @@
       "ref": null,
       "text": "SOCRATES: I believe that the spot is not exactly here, but about a quarter of a mile lower down, where you cross to the temple of Artemis, and there is, I think, some sort of an altar of Boreas at the place.\n\nPHAEDRUS: I have never noticed it; but I beseech you to tell me, Socrates, do you believe this tale?\n\nSOCRATES: The wise are doubtful, and I should not be singular if, like them, I too doubted. I might have a rational explanation that Orithyia was playing with Pharmacia, when a northern gust carried her over the neighbouring rocks; and this being the manner of her death, she was said to have been carried away by Boreas. There is a discrepancy, however, about the locality; according to another version of the story she was taken from Areopagus, and not from this place. Now I quite acknowledge that these allegories are very nice, but he is not to be envied who has to invent them; much labour and ingenuity will be required of him; and when he has once begun, he must go on and rehabilitate Hippocentaurs and chimeras dire. Gorgons and winged steeds flow in apace, and numberless other inconceivable and portentous natures. And if he is sceptical about them, and would fain reduce them one after another to the rules of probability, this sort of crude philosophy will take up a great deal of time. Now I have no leisure for such enquiries; shall I tell you why?",
       "topics": [
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -2095,8 +2060,8 @@
       "text": "'Perhaps you will ask me whether I propose that you should indulge every non-lover. To which I reply that not even the lover would advise you to indulge all lovers, for the indiscriminate favour is less esteemed by the rational recipient, and less easily hidden by him who would escape the censure of the world. Now love ought to be for the advantage of both parties, and for the injury of neither.\n\n'I believe that I have said enough; but if there is anything more which you desire or which in your opinion needs to be supplied, ask and I will answer.'\n\nNow, Socrates, what do you think? Is not the discourse excellent, more especially in the matter of the language?\n\nSOCRATES: Yes, quite admirable; the effect on me was ravishing. And this I owe to you, Phaedrus, for I observed you while reading to be in an ecstasy, and thinking that you are more experienced in these matters than I am, I followed your example, and, like you, my divine darling, I became inspired with a phrenzy.",
       "topics": [
         "love",
-        "meta",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -2104,9 +2069,9 @@
       "ref": null,
       "text": "PHAEDRUS: Indeed, you are pleased to be merry.\n\nSOCRATES: Do you mean that I am not in earnest?\n\nPHAEDRUS: Now don't talk in that way, Socrates, but let me have your real opinion; I adjure you, by Zeus, the god of friendship, to tell me whether you think that any Hellene could have said more or spoken better on the same subject.\n\nSOCRATES: Well, but are you and I expected to praise the sentiments of the author, or only the clearness, and roundness, and finish, and tournure of the language? As to the first I willingly submit to your better judgment, for I am not worthy to form an opinion, having only attended to the rhetorical manner; and I was doubting whether this could have been defended even by Lysias himself; I thought, though I speak under correction, that he repeated himself two or three times, either from want of words or from want of pains; and also, he appeared to me ostentatiously to exult in showing how well he could say the same thing in two or three ways.",
       "topics": [
-        "meta",
         "knowledge",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -2123,9 +2088,9 @@
       "ref": null,
       "text": "PHAEDRUS: That is grand:--but never mind where you heard the discourse or from whom; let that be a mystery not to be divulged even at my earnest desire. Only, as you say, promise to make another and better oration, equal in length and entirely new, on the same subject; and I, like the nine Archons, will promise to set up a golden image at Delphi, not only of myself, but of you, and as large as life.\n\nSOCRATES: You are a dear golden ass if you suppose me to mean that Lysias has altogether missed the mark, and that I can make a speech from which all his arguments are to be excluded. The worst of authors will say something which is to the point. Who, for example, could speak on this thesis of yours without praising the discretion of the non-lover and blaming the indiscretion of the lover? These are the commonplaces of the subject which must come in (for what else is there to be said?) and must be allowed and excused; the only merit is in the arrangement of them, for there can be none in the invention; but when you leave the commonplaces, then there may be some originality.",
       "topics": [
-        "meta",
         "love",
-        "knowledge"
+        "knowledge",
+        "meta"
       ]
     },
     {
@@ -2135,18 +2100,7 @@
       "topics": [
         "knowledge",
         "self",
-        "meta",
         "love"
-      ]
-    },
-    {
-      "work": "Phaedrus",
-      "ref": null,
-      "text": "PHAEDRUS: Only go on and you may do anything else which you please.\n\nSOCRATES: Come, O ye Muses, melodious, as ye are called, whether you have received this name from the character of your strains, or because the Melians are a musical race, help, O help me in the tale which my good friend here desires me to rehearse, in order that his friend whom he always deemed wise may seem to him to be wiser than ever.\n\nOnce upon a time there was a fair boy, or, more properly speaking, a youth; he was very fair and had a great many lovers; and there was one special cunning one, who had persuaded the youth that he did not love him, but he really loved him all the same; and one day when he was paying his addresses to him, he used this very argument--that he ought to accept the non-lover rather than the lover; his words were as follows:--\n\n'All good counsel begins in the same way; a man should know what he is advising about, or his counsel will all come to nought. But people imagine that they know about the nature of things, when they don't know about them, and, not having come to an understanding at first because they think that they know, they end, as might be expected, in contradicting one another and themselves. Now you and I must not be guilty of this fundamental error which we condemn in others; but as our question is whether the lover or non-lover is to be preferred, let us first of all agree in defining the nature and power of love, and then, keeping our eyes upon the definition and to this appealing, let us further enquire whether love brings advantage or disadvantage.",
-      "topics": [
-        "love",
-        "meta",
-        "knowledge"
       ]
     },
     {
@@ -2177,8 +2131,7 @@
       "text": "There are some sort of animals, such as flatterers, who are dangerous and mischievous enough, and yet nature has mingled a temporary pleasure and grace in their composition. You may say that a courtesan is hurtful, and disapprove of such creatures and their practices, and yet for the time they are very pleasant. But the lover is not only hurtful to his love; he is also an extremely disagreeable companion. The old proverb says that 'birds of a feather flock together'; I suppose that equality of years inclines them to the same pleasures, and similarity begets friendship; yet you may have more than enough even of this; and verily constraint is always said to be grievous. Now the lover is not only unlike his beloved, but he forces himself upon him. For he is old and his love is young, and neither day nor night will he leave him if he can help; necessity and the sting of desire drive him on, and allure him with the pleasure which he receives from seeing, hearing, touching, perceiving him in every way. And therefore he is delighted to fasten upon him and to minister to him. But what pleasure or consolation can the beloved be receiving all this time? Must he not feel the extremity of disgust when he looks at an old shrivelled face and the remainder to match, which even in a description is disagreeable, and quite detestable when he is forced into daily contact with his lover; moreover he is jealously watched and guarded against everything and everybody, and has to hear misplaced and exaggerated praises of himself, and censures equally inappropriate, which are intolerable when the man is sober, and, besides being intolerable, are published all over the world in all their indelicacy and wearisomeness when he is drunk.",
       "topics": [
         "love",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2195,12 +2148,12 @@
     {
       "work": "Phaedrus",
       "ref": null,
-      "text": "PHAEDRUS: Not yet, Socrates; not until the heat of the day has passed; do you not see that the hour is almost noon? there is the midday sun standing still, as people say, in the meridian. Let us rather stay and talk over what has been said, and then return in the cool.\n\nSOCRATES: Your love of discourse, Phaedrus, is superhuman, simply marvellous, and I do not believe that there is any one of your contemporaries who has either made or in one way or another has compelled others to make an equal number of speeches. I would except Simmias the Theban, but all the rest are far behind you. And now I do verily believe that you have been the cause of another.\n\nPHAEDRUS: That is good news. But what do you mean?\n\nSOCRATES: I mean to say that as I was about to cross the stream the usual sign was given to me,--that sign which always forbids, but never bids, me to do anything which I am going to do; and I thought that I heard a voice saying in my ear that I had been guilty of impiety, and that I must not go away until I had made an atonement. Now I am a diviner, though not a very good one, but I have enough religion for my own use, as you might say of a bad writer--his writing is good enough for him; and I am beginning to see that I was in error. O my friend, how prophetic is the human soul! At the time I had a sort of misgiving, and, like Ibycus, 'I was troubled; I feared that I might be buying honour from men at the price of sinning against the gods.' Now I recognize my error.",
+      "text": "'As wolves love lambs so lovers love their loves.'\n\nBut I told you so, I am speaking in verse, and therefore I had better make an end; enough.\n\nPHAEDRUS: I thought that you were only half-way and were going to make a similar speech about all the advantages of accepting the non-lover. Why do you not proceed?\n\nSOCRATES: Does not your simplicity observe that I have got out of dithyrambics into heroics, when only uttering a censure on the lover? And if I am to add the praises of the non-lover what will become of me? Do you not perceive that I am already overtaken by the Nymphs to whom you have mischievously exposed me? And therefore I will only add that the non-lover has all the advantages in which the lover is accused of being deficient. And now I will say no more; there has been enough of both of them. Leaving the tale to its fate, I will cross the river and make the best of my way home, lest a worse thing be inflicted upon me by you.",
       "topics": [
-        "meta",
+        "love",
         "knowledge",
-        "action",
-        "love"
+        "meaning",
+        "action"
       ]
     },
     {
@@ -2278,6 +2231,17 @@
     {
       "work": "Phaedrus",
       "ref": null,
+      "text": "And thus he loves, but he knows not what; he does not understand and cannot explain his own state; he appears to have caught the infection of blindness from another; the lover is his mirror in whom he is beholding himself, but he is not aware of this. When he is with the lover, both cease from their pain, but when he is away then he longs as he is longed for, and has love's image, love for love (Anteros) lodging in his breast, which he calls and believes to be not love but friendship only, and his desire is as the desire of the other, but weaker; he wants to see him, touch him, kiss him, embrace him, and probably not long afterwards his desire is accomplished. When they meet, the wanton steed of the lover has a word to say to the charioteer; he would like to have a little pleasure in return for many pains, but the wanton steed of the beloved says not a word, for he is bursting with passion which he understands not;--he throws his arms round the lover and embraces him as his dearest friend; and, when they are side by side, he is not in a state in which he can refuse the lover anything, if he ask him; although his fellow-steed and the charioteer oppose him with the arguments of shame and reason. After this their happiness depends upon their self-control; if the better elements of the mind which lead to order and philosophy prevail, then they pass their life here in happiness and harmony--masters of themselves and orderly--enslaving the vicious and emancipating the virtuous elements of the soul; and when the end comes, they are light and winged for flight, having conquered in one of the three heavenly or truly Olympian victories; nor can human discipline or divine inspiration confer any greater blessing on man than this.",
+      "topics": [
+        "love",
+        "knowledge",
+        "self",
+        "freedom"
+      ]
+    },
+    {
+      "work": "Phaedrus",
+      "ref": null,
       "text": "SOCRATES: Any one may see that there is no disgrace in the mere fact of writing.\n\nSOCRATES: The disgrace begins when a man writes not well, but badly.\n\nSOCRATES: And what is well and what is badly--need we ask Lysias, or any other poet or orator, who ever wrote or will write either a political or any other work, in metre or out of metre, poet or prose writer, to teach us this?\n\nPHAEDRUS: Need we? For what should a man live if not for the pleasures of discourse? Surely not for the sake of bodily pleasures, which almost always have previous pain as a condition of them, and therefore are rightly called slavish.",
       "topics": [
         "education",
@@ -2290,9 +2254,9 @@
       "text": "SOCRATES: Yes, friend, and he was right:--still, we ought not to be content with the name of Hippocrates, but to examine and see whether his argument agrees with his conception of nature.\n\nSOCRATES: Then consider what truth as well as Hippocrates says about this or about any other nature. Ought we not to consider first whether that which we wish to learn and to teach is a simple or multiform thing, and if simple, then to enquire what power it has of acting or being acted upon in relation to other things, and if multiform, then to number the forms; and see first in the case of one of them, and then in the case of all of them, what is that power of acting or being acted upon which makes each and all of them to be what they are?\n\nPHAEDRUS: You may very likely be right, Socrates.\n\nSOCRATES: The method which proceeds without analysis is like the groping of a blind man. Yet, surely, he who is an artist ought not to admit of a comparison with the blind, or deaf. The rhetorician, who teaches his pupil to speak scientifically, will particularly set forth the nature of that being to which he addresses his speeches; and this, I conceive, to be the soul.",
       "topics": [
         "education",
-        "meta",
         "knowledge",
-        "self"
+        "self",
+        "action"
       ]
     },
     {
@@ -2322,7 +2286,7 @@
         "virtue",
         "knowledge",
         "freedom",
-        "meta"
+        "love"
       ]
     },
     {
@@ -2331,8 +2295,7 @@
       "text": "SOCRATES: How fortunate I am, Meno! When I ask you for one virtue, you present me with a swarm of them (Compare Theaet.), which are in your keeping. Suppose that I carry on the figure of the swarm, and ask of you, What is the nature of the bee? and you answer that there are many kinds of bees, and I reply: But do bees differ as bees, because there are many and different kinds of them; or are they not rather to be distinguished by some other quality, as for example beauty, size, or shape? How would you answer me?\n\nMENO: I should answer that bees do not differ from one another, as bees.\n\nSOCRATES: And if I went on to say: That is what I desire to know, Meno; tell me what is the quality in which they do not differ, but are all alike;--would you be able to answer?\n\nSOCRATES: And so of the virtues, however many and different they may be, they have all a common nature which makes them virtues; and on this he who would answer the question, 'What is virtue?' would do well to have his eye fixed: Do you understand?",
       "topics": [
         "knowledge",
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -2341,8 +2304,7 @@
       "text": "MENO: I am beginning to understand; but I do not as yet take hold of the question as I could wish.\n\nSOCRATES: When you say, Meno, that there is one virtue of a man, another of a woman, another of a child, and so on, does this apply only to virtue, or would you say the same of health, and size, and strength? Or is the nature of health always the same, whether in man or woman?\n\nMENO: I should say that health is the same, both in man and woman.\n\nSOCRATES: And is not this true of size and strength? If a woman is strong, she will be strong by reason of the same form and of the same strength subsisting in her which there is in the man. I mean to say that strength, as strength, whether of man or woman, is the same. Is there any difference?",
       "topics": [
         "knowledge",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -2364,21 +2326,11 @@
     {
       "work": "Meno",
       "ref": null,
-      "text": "SOCRATES: And they surely would not have been good in the same way, unless their virtue had been the same?\n\nSOCRATES: Then now that the sameness of all virtue has been proven, try and remember what you and Gorgias say that virtue is.\n\nMENO: Will you have one definition of them all?\n\nMENO: If you want to have one definition of them all, I know not what to say, but that virtue is the power of governing mankind.",
-      "topics": [
-        "virtue",
-        "meta"
-      ]
-    },
-    {
-      "work": "Meno",
-      "ref": null,
       "text": "SOCRATES: And does this definition of virtue include all virtue? Is virtue the same in a child and in a slave, Meno? Can the child govern his father, or the slave his master; and would he who governed be any longer a slave?\n\nSOCRATES: No, indeed; there would be small reason in that. Yet once more, fair friend; according to you, virtue is 'the power of governing;' but do you not add 'justly and not unjustly'?\n\nMENO: Yes, Socrates; I agree there; for justice is virtue.\n\nSOCRATES: Would you say 'virtue,' Meno, or 'a virtue'?",
       "topics": [
         "freedom",
         "virtue",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -2395,8 +2347,16 @@
       "ref": null,
       "text": "SOCRATES: Yes, Meno; and again we are in the same case: in searching after one virtue we have found many, though not in the same way as before; but we have been unable to find the common virtue which runs through them all.\n\nMENO: Why, Socrates, even now I am not able to follow you in the attempt to get at one common notion of virtue as of other things.\n\nSOCRATES: No wonder; but I will try to get nearer if I can, for you know that all things have a common notion. Suppose now that some one asked you the question which I asked before: Meno, he would say, what is figure? And if you answered 'roundness,' he would reply to you, in my way of speaking, by asking whether you would say that roundness is 'figure' or 'a figure;' and you would answer 'a figure.'\n\nSOCRATES: And for this reason--that there are other figures?",
       "topics": [
-        "meta",
-        "knowledge"
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And if he proceeded to ask, What other figures are there? you would have told him.\n\nSOCRATES: And if he similarly asked what colour is, and you answered whiteness, and the questioner rejoined, Would you say that whiteness is colour or a colour? you would reply, A colour, because there are other colours as well.\n\nSOCRATES: And if he had said, Tell me what they are?--you would have told him of other colours which are colours just as much as whiteness.\n\nSOCRATES: And suppose that he were to pursue the matter in my way, he would say: Ever and anon we are landed in particulars, but this is not what I want; tell me then, since you call them by a common name, and say that they are all figures, even when opposed to one another, what is that common nature which you designate as figure--which contains straight as well as round, and is no more one than the other--that would be your mode of speaking?",
+      "topics": [
+        "meta"
       ]
     },
     {
@@ -2404,8 +2364,8 @@
       "ref": null,
       "text": "SOCRATES: And in speaking thus, you do not mean to say that the round is round any more than straight, or the straight any more straight than round?\n\nSOCRATES: You only assert that the round figure is not more a figure than the straight, or the straight than the round?\n\nSOCRATES: To what then do we give the name of figure? Try and answer. Suppose that when a person asked you this question either about figure or colour, you were to reply, Man, I do not understand what you want, or know what you are saying; he would look rather astonished and say: Do you not understand that I am looking for the 'simile in multis'? And then he might put the question in another form: Meno, he might say, what is that 'simile in multis' which you call figure, and which includes not only round and straight figures, but all? Could you not answer that question, Meno? I wish that you would try; the attempt will be good practice with a view to the answer about virtue.\n\nMENO: I would rather that you should answer, Socrates.",
       "topics": [
-        "meta",
         "action",
+        "meta",
         "knowledge",
         "virtue"
       ]
@@ -2443,8 +2403,7 @@
       "text": "MENO: But I will stay, Socrates, if you will give me many such answers.\n\nSOCRATES: Well then, for my own sake as well as for yours, I will do my very best; but I am afraid that I shall not be able to give you very many as good: and now, in your turn, you are to fulfil your promise, and tell me what virtue is in the universal; and do not make a singular into a plural, as the facetious say of those who break a thing, but deliver virtue to me whole and sound, and not broken into a number of pieces: I have given you the pattern.\n\nMENO: Well then, Socrates, virtue, as I take it, is when he, who desires the honourable, is able to provide it for himself; so the poet says, and I say too--\n\n'Virtue is the desire of things honourable and the power of attaining them.'",
       "topics": [
         "love",
-        "virtue",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -2474,7 +2433,6 @@
       "topics": [
         "action",
         "virtue",
-        "meta",
         "meaning"
       ]
     },
@@ -2486,7 +2444,7 @@
         "knowledge",
         "virtue",
         "nature",
-        "meta"
+        "self"
       ]
     },
     {
@@ -2496,8 +2454,7 @@
       "topics": [
         "education",
         "knowledge",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -2506,6 +2463,14 @@
       "text": "SOCRATES: And these lines which I have drawn through the middle of the square are also equal?\n\nSOCRATES: A square may be of any size?\n\nSOCRATES: And if one side of the figure be of two feet, and the other side be of two feet, how much will the whole be? Let me explain: if in one direction the space was of two feet, and in the other direction of one foot, the whole would be of two feet taken once?\n\nSOCRATES: But since this side is also of two feet, there are twice two feet?",
       "topics": [
         "meaning"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And that is the line which the learned call the diagonal. And if this is the proper name, then you, Meno's slave, are prepared to affirm that the double space is the square of the diagonal?\n\nSOCRATES: What do you say of him, Meno? Were not all these answers given out of his own head?\n\nSOCRATES: And yet, as we were just now saying, he did not know?\n\nSOCRATES: But still he had in him those notions of his--had he not?",
+      "topics": [
+        "freedom"
       ]
     },
     {
@@ -2579,17 +2544,6 @@
     {
       "work": "Meno",
       "ref": null,
-      "text": "SOCRATES: Very good. And now you are in a position to advise with me about my friend Meno. He has been telling me, Anytus, that he desires to attain that kind of wisdom and virtue by which men order the state or the house, and honour their parents, and know when to receive and when to send away citizens and strangers, as a good man should. Now, to whom should he go in order that he may learn this virtue? Does not the previous argument imply clearly that we should send him to those who profess and avouch that they are the common teachers of all Hellas, and are ready to impart instruction to any one who likes, at a fixed price?\n\nSOCRATES: You surely know, do you not, Anytus, that these are the people whom mankind call Sophists?\n\nANYTUS: By Heracles, Socrates, forbear! I only hope that no friend or kinsman or acquaintance of mine, whether citizen or stranger, will ever be so mad as to allow himself to be corrupted by them; for they are a manifest pest and corrupting influence to those who have to do with them.\n\nSOCRATES: What, Anytus? Of all the people who profess that they know how to do men good, do you mean to say that these are the only ones who not only do them no good, but positively corrupt those who are entrusted to them, and in return for this disservice have the face to demand money?",
-      "topics": [
-        "freedom",
-        "knowledge",
-        "virtue",
-        "education"
-      ]
-    },
-    {
-      "work": "Meno",
-      "ref": null,
       "text": "Indeed, I cannot believe you; for I know of a single man, Protagoras, who made more out of his craft than the illustrious Pheidias, who created such noble works, or any ten other statuaries. How could that be? A mender of old shoes, or patcher up of clothes, who made the shoes or clothes worse than he received them, could not have remained thirty days undetected, and would very soon have starved; whereas during more than forty years, Protagoras was corrupting all Hellas, and sending his disciples from him worse than he received them, and he was never found out. For, if I am not mistaken, he was about seventy years old at his death, forty of which were spent in the practice of his profession; and during all that time he had a good reputation, which to this day he retains: and not only Protagoras, but many others are well spoken of; some who lived before him, and others who are still living. Now, when you say that they deceived and corrupted the youth, are they to be supposed to have corrupted them consciously or unconsciously? Can those who were deemed by many to be the wisest men of Hellas have been out of their minds?",
       "topics": [
         "work",
@@ -2603,9 +2557,9 @@
       "text": "How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth. But of the many falsehoods told by them, there was one which quite amazed me;—I mean when they said that you should be upon your guard and not allow yourselves to be deceived by the force of my eloquence. To say this, when they were certain to be detected as soon as I opened my lips and proved myself to be anything but a great speaker, did indeed appear to me most shameless—unless by the force of eloquence they mean the force of truth; for if such is their meaning, I admit that I am eloquent. But in how different a way from theirs! Well, as I was saying, they have scarcely spoken the truth at all; but from me you shall hear the whole truth: not, however, delivered after their manner in a set oration duly ornamented with words and phrases. No, by heaven! but I shall use the words and arguments which occur to me at the moment; for I am confident in the justice of my cause (Or, I am certain that I am right in taking this course.): at my time of life I ought not to be appearing before you, O men of Athens, in the character of a juvenile orator—let no one expect it of me.",
       "topics": [
         "knowledge",
-        "meta",
         "self",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -2656,7 +2610,6 @@
       "text": "I dare say, Athenians, that some one among you will reply, “Yes, Socrates, but what is the origin of these accusations which are brought against you; there must have been something strange which you have been doing? All these rumours and this talk about you would never have arisen if you had been like other men: tell us, then, what is the cause of them, for we should be sorry to judge hastily of you.” Now I regard this as a fair challenge, and I will endeavour to explain to you the reason why I am called wise and have such an evil fame. Please to attend then. And although some of you may think that I am joking, I declare that I will tell you the entire truth. Men of Athens, this reputation of mine has come of a certain sort of wisdom which I possess. If you ask me what kind of wisdom, I reply, wisdom such as may perhaps be attained by man, for to that extent I am inclined to believe that I am wise; whereas the persons of whom I was speaking have a superhuman wisdom which I may fail to describe, because I have it not myself; and he who says that I have, speaks falsely, and is taking away my character. And here, O men of Athens, I must beg you not to interrupt me, even if I seem to say something extravagant.",
       "topics": [
         "knowledge",
-        "meta",
         "self"
       ]
     },
@@ -2675,18 +2628,18 @@
       "text": "Why do I mention this? Because I am going to explain to you why I have such an evil name. When I heard the answer, I said to myself, What can the god mean? and what is the interpretation of his riddle? for I know that I have no wisdom, small or great. What then can he mean when he says that I am the wisest of men? And yet he is a god, and cannot lie; that would be against his nature. After long consideration, I thought of a method of trying the question. I reflected that if I could only find a man wiser than myself, then I might go to the god with a refutation in my hand. I should say to him, “Here is a man who is wiser than I am; but you said that I was the wisest.” Accordingly I went to one who had the reputation of wisdom, and observed him—his name I need not mention; he was a politician whom I selected for examination—and the result was as follows: When I began to talk with him, I could not help thinking that he was not really wise, although he was thought wise by many, and still wiser by himself; and thereupon I tried to explain to him that he thought himself wise, but was not really wise; and the consequence was that he hated me, and his enmity was shared by several who were present and heard me. So I left him, saying to myself, as I went away: Well, although I do not suppose that either of us knows anything really beautiful and good, I am better off than he is,—for he knows nothing, and thinks that he knows; I neither know nor think that I know. In this latter particular, then, I seem to have slightly the advantage of him. Then I went to another who had still higher pretensions to wisdom, and my conclusion was exactly the same. Whereupon I made another enemy of him, and of many others besides him.",
       "topics": [
         "knowledge",
-        "meta",
-        "self"
+        "self",
+        "meta"
       ]
     },
     {
       "work": "Apology",
       "ref": null,
-      "text": "Then I went to one man after another, being not unconscious of the enmity which I provoked, and I lamented and feared this: but necessity was laid upon me,—the word of God, I thought, ought to be considered first. And I said to myself, Go I must to all who appear to know, and find out the meaning of the oracle. And I swear to you, Athenians, by the dog I swear!—for I must tell you the truth—the result of my mission was just this: I found that the men most in repute were all but the most foolish; and that others less esteemed were really wiser and better. I will tell you the tale of my wanderings and of the “Herculean” labours, as I may call them, which I endured only to find at last the oracle irrefutable. After the politicians, I went to the poets; tragic, dithyrambic, and all sorts. And there, I said to myself, you will be instantly detected; now you will find out that you are more ignorant than they are. Accordingly, I took them some of the most elaborate passages in their own writings, and asked what was the meaning of them—thinking that they would teach me something. Will you believe me? I am almost ashamed to confess the truth, but I must say that there is hardly a person present who would not have talked better about their poetry than they did themselves. Then I knew that not by wisdom do poets write poetry, but by a sort of genius and inspiration; they are like diviners or soothsayers who also say many fine things, but do not understand the meaning of them. The poets appeared to me to be much in the same case; and I further observed that upon the strength of their poetry they believed themselves to be the wisest of men in other things in which they were not wise. So I departed, conceiving myself to be superior to them for the same reason that I was superior to the politicians.",
+      "text": "At last I went to the artisans. I was conscious that I knew nothing at all, as I may say, and I was sure that they knew many fine things; and here I was not mistaken, for they did know many things of which I was ignorant, and in this they certainly were wiser than I was. But I observed that even the good artisans fell into the same error as the poets;—because they were good workmen they thought that they also knew all sorts of high matters, and this defect in them overshadowed their wisdom; and therefore I asked myself on behalf of the oracle, whether I would like to be as I was, neither having their knowledge nor their ignorance, or like them in both; and I made answer to myself and to the oracle that I was better off as I was.\n\nThis inquisition has led to my having many enemies of the worst and most dangerous kind, and has given occasion also to many calumnies. And I am called wise, for my hearers always imagine that I myself possess the wisdom which I find wanting in others: but the truth is, O men of Athens, that God only is wise; and by his answer he intends to show that the wisdom of men is worth little or nothing; he is not speaking of Socrates, he is only using my name by way of illustration, as if he said, He, O men, is the wisest, who, like Socrates, knows that his wisdom is in truth worth nothing.",
       "topics": [
         "knowledge",
-        "meta",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -2704,9 +2657,9 @@
       "text": "There is another thing:—young men of the richer classes, who have not much to do, come about me of their own accord; they like to hear the pretenders examined, and they often imitate me, and proceed to examine others; there are plenty of persons, as they quickly discover, who think that they know something, but really know little or nothing; and then those who are examined by them instead of being angry with themselves are angry with me: This confounded Socrates, they say; this villainous misleader of youth!—and then if somebody asks them, Why, what evil does he practise or teach? they do not know, and cannot tell; but in order that they may not appear to be at a loss, they repeat the ready-made charges which are used against all philosophers about teaching things up in the clouds and under the earth, and having no gods, and making the worse appear the better cause; for they do not like to confess that their pretence of knowledge has been detected—which is the truth; and as they are numerous and ambitious and energetic, and are drawn up in battle array and have persuasive tongues, they have filled your ears with their loud and inveterate calumnies. And this is the reason why my three accusers, Meletus and Anytus and Lycon, have set upon me; Meletus, who has a quarrel with me on behalf of the poets; Anytus, on behalf of the craftsmen and politicians; Lycon, on behalf of the rhetoricians: and as I said at the beginning, I cannot expect to get rid of such a mass of calumny all in a moment. And this, O men of Athens, is the truth and the whole truth; I have concealed nothing, I have dissembled nothing. And yet, I know that my plainness of speech makes them hate me, and what is their hatred but a proof that I am speaking the truth?—Hence has arisen the prejudice against me; and this is the reason of it, as you will find out either in this or in any future enquiry.",
       "topics": [
         "knowledge",
-        "meta",
         "action",
-        "education"
+        "education",
+        "meta"
       ]
     },
     {
@@ -2716,8 +2669,7 @@
       "topics": [
         "knowledge",
         "action",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2738,8 +2690,7 @@
       "topics": [
         "knowledge",
         "freedom",
-        "education",
-        "meta"
+        "education"
       ]
     },
     {
@@ -2749,7 +2700,6 @@
       "topics": [
         "knowledge",
         "nature",
-        "meta",
         "action"
       ]
     },
@@ -2759,9 +2709,9 @@
       "text": "Nobody will believe you, Meletus, and I am pretty sure that you do not believe yourself. I cannot help thinking, men of Athens, that Meletus is reckless and impudent, and that he has written this indictment in a spirit of mere wantonness and youthful bravado. Has he not compounded a riddle, thinking to try me? He said to himself:—I shall see whether the wise Socrates will discover my facetious contradiction, or whether I shall be able to deceive him and the rest of them. For he certainly does appear to me to contradict himself in the indictment as much as if he said that Socrates is guilty of not believing in the gods, and yet of believing in them—but this is not like a person who is in earnest.\n\nI should like you, O men of Athens, to join me in examining what I conceive to be his inconsistency; and do you, Meletus, answer. And I must remind the audience of my request that they would not make a disturbance if I speak in my accustomed manner:\n\nDid ever man, Meletus, believe in the existence of human things, and not of human beings?...I wish, men of Athens, that he would answer, and not be always trying to get up an interruption. Did ever any man believe in horsemanship, and not in horses? or in flute-playing, and not in flute-players? No, my friend; I will answer to you and to the court, as you refuse to answer for yourself. There is no man who ever did. But now please to answer the next question: Can a man believe in spiritual and divine agencies, and not in spirits or demigods?",
       "topics": [
         "action",
-        "meta",
         "knowledge",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -2770,7 +2720,6 @@
       "text": "I have said enough in answer to the charge of Meletus: any elaborate defence is unnecessary, but I know only too well how many are the enmities which I have incurred, and this is what will be my destruction if I am destroyed;—not Meletus, nor yet Anytus, but the envy and detraction of the world, which has been the death of many good men, and will probably be the death of many more; there is no danger of my being the last of them.\n\nSome one will say: And are you not ashamed, Socrates, of a course of life which is likely to bring you to an untimely end? To him I may fairly answer: There you are mistaken: a man who is good for anything ought not to calculate the chance of living or dying; he ought only to consider whether in doing anything he is doing right or wrong—acting the part of a good man or of a bad. Whereas, upon your view, the heroes who fell at Troy were not good for much, and the son of Thetis above all, who altogether despised danger in comparison with disgrace; and when he was so eager to slay Hector, his goddess mother said to him, that if he avenged his companion Patroclus, and slew Hector, he would die himself—“Fate,” she said, in these or the like words, “waits for you next after Hector;” he, receiving this warning, utterly despised danger and death, and instead of fearing them, feared rather to live in dishonour, and not to avenge his friend.",
       "topics": [
         "suffering",
-        "meta",
         "meaning",
         "action"
       ]
@@ -2800,10 +2749,21 @@
       "ref": null,
       "text": "And therefore if you let me go now, and are not convinced by Anytus, who said that since I had been prosecuted I must be put to death; (or if not that I ought never to have been prosecuted at all); and that if I escape now, your sons will all be utterly ruined by listening to my words—if you say to me, Socrates, this time we will not mind Anytus, and you shall be let off, but upon one condition, that you are not to enquire and speculate in this way any more, and that if you are caught doing so again you shall die;—if this was the condition on which you let me go, I should reply: Men of Athens, I honour and love you; but I shall obey God rather than you, and while I have life and strength I shall never cease from the practice and teaching of philosophy, exhorting any one whom I meet and saying to him after my manner: You, my friend,—a citizen of the great and mighty and wise city of Athens,—are you not ashamed of heaping up the greatest amount of money and honour and reputation, and caring so little about wisdom and truth and the greatest improvement of the soul, which you never regard or heed at all? And if the person with whom I am arguing, says: Yes, but I do care; then I do not leave him or let him go at once; but I proceed to interrogate and examine and cross-examine him, and if I think that he has no virtue in him, but only says that he has, I reproach him with undervaluing the greater, and overvaluing the less.",
       "topics": [
-        "meta",
         "knowledge",
         "freedom",
-        "action"
+        "action",
+        "love"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "And I shall repeat the same words to every one whom I meet, young and old, citizen and alien, but especially to the citizens, inasmuch as they are my brethren. For know that this is the command of God; and I believe that no greater good has ever happened in the state than my service to the God. For I do nothing but go about persuading you all, old and young alike, not to take thought for your persons or your properties, but first and chiefly to care about the greatest improvement of the soul. I tell you that virtue is not given by money, but that from virtue comes money and every other good of man, public as well as private. This is my teaching, and if this is the doctrine which corrupts the youth, I am a mischievous person. But if any one says that this is not my teaching, he is speaking an untruth. Wherefore, O men of Athens, I say to you, do as Anytus bids or not as Anytus bids, and either acquit me or not; but whichever you do, understand that I shall never alter my ways, not even if I have to die many times.",
+      "topics": [
+        "freedom",
+        "knowledge",
+        "virtue",
+        "meta"
       ]
     },
     {
@@ -2822,17 +2782,9 @@
       "ref": null,
       "text": "Well, Athenians, this and the like of this is all the defence which I have to offer. Yet a word more. Perhaps there may be some one who is offended at me, when he calls to mind how he himself on a similar, or even a less serious occasion, prayed and entreated the judges with many tears, and how he produced his children in court, which was a moving spectacle, together with a host of relations and friends; whereas I, who am probably in danger of my life, will do none of these things. The contrast may occur to his mind, and he may be set against me, and vote in anger because he is displeased at me on this account. Now if there be such a person among you,—mind, I do not say that there is,—to him I may fairly reply: My friend, I am a man, and like other men, a creature of flesh and blood, and not “of wood or stone,” as Homer says; and I have a family, yes, and sons, O Athenians, three in number, one almost a man, and two others who are still young; and yet I will not bring any of them hither in order to petition you for an acquittal. And why not? Not from any self-assertion or want of respect for you. Whether I am or am not afraid of death is another question, of which I will not now speak.",
       "topics": [
-        "meta",
         "love",
-        "self"
-      ]
-    },
-    {
-      "work": "Apology",
-      "ref": null,
-      "text": "No indeed, men of Athens, that is not very likely. And what a life should I lead, at my age, wandering from city to city, ever changing my place of exile, and always being driven out! For I am quite sure that wherever I go, there, as here, the young men will flock to me; and if I drive them away, their elders will drive me out at their request; and if I let them come, their fathers and friends will drive me out for their sakes.",
-      "topics": [
-        "love"
+        "self",
+        "meta"
       ]
     },
     {
@@ -2856,9 +2808,9 @@
       "ref": null,
       "text": "TERPSION: No wonder; I should rather be surprised at hearing anything else of him. But why did he go on, instead of stopping at Megara?\n\nEUCLID: He wanted to get home: although I entreated and advised him to remain, he would not listen to me; so I set him on his way, and turned back, and then I remembered what Socrates had said of him, and thought how remarkably this, like all his predictions, had been fulfilled. I believe that he had seen him a little before his own death, when Theaetetus was a youth, and he had a memorable conversation with him, which he repeated to me when I came to Athens; he was full of admiration of his genius, and said that he would most certainly be a great man, if he lived.\n\nTERPSION: The prophecy has certainly been fulfilled; but what was the conversation? can you tell me?\n\nEUCLID: No, indeed, not offhand; but I took notes of it as soon as I got home; these I filled up from memory, writing them out at leisure; and whenever I went to Athens, I asked Socrates about any point which I had forgotten, and on my return I made corrections; thus I have nearly the whole conversation written down.",
       "topics": [
-        "meta",
         "knowledge",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -2866,8 +2818,8 @@
       "ref": null,
       "text": "TERPSION: I remember--you told me; and I have always been intending to ask you to show me the writing, but have put off doing so; and now, why should we not read it through?--having just come from the country, I should greatly like to rest.\n\nEUCLID: I too shall be very glad of a rest, for I went with Theaetetus as far as Erineum. Let us go in, then, and, while we are reposing, the servant shall read to us.\n\nEUCLID: Here is the roll, Terpsion; I may observe that I have introduced Socrates, not as narrating to me, but as actually conversing with the persons whom he mentioned--these were, Theodorus the geometrician (of Cyrene), and Theaetetus. I have omitted, for the sake of convenience, the interlocutory words 'I said,' 'I remarked,' which he used when he spoke of himself, and again, 'he agreed,' or 'disagreed,' in the answer, lest the repetition of them should be troublesome.\n\nEUCLID: And now, boy, you may take the roll and read.",
       "topics": [
-        "meta",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -2877,8 +2829,7 @@
       "topics": [
         "knowledge",
         "virtue",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2895,7 +2846,7 @@
       "ref": null,
       "text": "SOCRATES: He must be a fine fellow; tell him to come and sit by me.\n\nTHEODORUS: I will. Come hither, Theaetetus, and sit by Socrates.\n\nSOCRATES: By all means, Theaetetus, in order that I may see the reflection of myself in your face, for Theodorus says that we are alike; and yet if each of us held in his hands a lyre, and he said that they were tuned alike, should we at once take his word, or should we ask whether he who said so was or was not a musician?\n\nSOCRATES: And if we found that he was, we should take his word; and if not, not?",
       "topics": [
-        "meta"
+        "self"
       ]
     },
     {
@@ -2938,8 +2889,8 @@
       "ref": null,
       "text": "SOCRATES: Do you hear, Theaetetus, what Theodorus says? The philosopher, whom you would not like to disobey, and whose word ought to be a command to a young man, bids me interrogate you. Take courage, then, and nobly say what you think that knowledge is.\n\nTHEAETETUS: Well, Socrates, I will answer as you and he bid me; and if I make a mistake, you will doubtless correct me.\n\nTHEAETETUS: Then, I think that the sciences which I learn from Theodorus--geometry, and those which you just now mentioned--are knowledge; and I would include the art of the cobbler and other craftsmen; these, each and all of, them, are knowledge.\n\nSOCRATES: Too much, Theaetetus, too much; the nobility and liberality of your nature make you give many and diverse things, when I am asking for one simple thing.",
       "topics": [
-        "meta",
-        "virtue"
+        "virtue",
+        "meta"
       ]
     },
     {
@@ -2964,6 +2915,14 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "THEAETETUS: I think that we did; but I should like to have your opinion.\n\nTHEAETETUS: We divided all numbers into two classes: those which are made up of equal factors multiplying into one another, which we compared to square figures and called square or equilateral numbers;--that was one class.\n\nTHEAETETUS: The intermediate numbers, such as three and five, and every other number which is made up of unequal factors, either of a greater multiplied by a less, or of a less multiplied by a greater, and when regarded as a figure, is contained in unequal sides;--all these we compared to oblong figures, and called them oblong numbers.\n\nTHEAETETUS: The lines, or sides, which have for their squares the equilateral plane numbers, were called by us lengths or magnitudes; and the lines which are the roots of (or whose squares are equal to) the oblong numbers, were called powers or roots; the reason of this latter name being, that they are commensurable with the former [i.e., with the so-called lengths or magnitudes] not in linear measurement, but in the value of the superficial content of their squares; and the same about solids.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "THEAETETUS: By heaven, they should be the top of all perfection!\n\nSOCRATES: Well, then, be of good cheer; do not say that Theodorus was mistaken about you, but do your best to ascertain the true nature of knowledge, as well as of other things.\n\nTHEAETETUS: I am eager enough, Socrates, if that would bring to light the truth.\n\nSOCRATES: Come, you made a good beginning just now; let your own answer about roots be your model, and as you comprehended them all in one class, try and bring the many sorts of knowledge under one definition.",
       "topics": [
         "knowledge",
@@ -2977,8 +2936,8 @@
       "ref": null,
       "text": "THEAETETUS: I can assure you, Socrates, that I have tried very often, when the report of questions asked by you was brought to me; but I can neither persuade myself that I have a satisfactory answer to give, nor hear of any one who answers as you would have him; and I cannot shake off a feeling of anxiety.\n\nSOCRATES: These are the pangs of labour, my dear Theaetetus; you have something within you which you are bringing to the birth.\n\nTHEAETETUS: I do not know, Socrates; I only say what I feel.\n\nSOCRATES: And have you never heard, simpleton, that I am the son of a midwife, brave and burly, whose name was Phaenarete?",
       "topics": [
-        "meta",
-        "self"
+        "self",
+        "meta"
       ]
     },
     {
@@ -2988,8 +2947,7 @@
       "topics": [
         "knowledge",
         "meaning",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -3027,9 +2985,9 @@
       "text": "Dire are the pangs which my art is able to arouse and to allay in those who consort with me, just like the pangs of women in childbirth; night and day they are full of perplexity and travail which is even worse than that of the women. So much for them. And there are others, Theaetetus, who come to me apparently having nothing in them; and as I know that they have no need of my art, I coax them into marrying some one, and by the grace of God I can generally tell who is likely to do them good. Many of them I have given away to Prodicus, and many to other inspired sages. I tell you this long story, friend Theaetetus, because I suspect, as indeed you seem to think yourself, that you are in labour--great with some conception. Come then to me, who am a midwife's son and myself a midwife, and do your best to answer the questions which I will ask you. And if I abstract and expose your first-born, because I discover upon inspection that the conception which you have formed is a vain shadow, do not quarrel with me on that account, as the manner of women is when their first children are taken from them. For I have actually known some who were ready to bite me when I deprived them of a darling folly; they did not perceive that I acted from goodwill, not knowing that no god is the enemy of man--that was not within the range of their ideas; neither am I their enemy in all this, but it would be wrong for me to admit falsehood, or to stifle the truth. Once more, then, Theaetetus, I repeat my old question, 'What is knowledge?'--and do not say that you cannot tell; but quit yourself like a man, and by the help of God you will be able to tell.",
       "topics": [
         "knowledge",
-        "meta",
         "self",
-        "virtue"
+        "virtue",
+        "meaning"
       ]
     },
     {
@@ -3038,7 +2996,6 @@
       "text": "THEAETETUS: At any rate, Socrates, after such an exhortation I should be ashamed of not trying to do my best. Now he who knows perceives what he knows, and, as far as I can see at present, knowledge is perception.\n\nSOCRATES: Bravely said, boy; that is the way in which you should express your opinion. And now, let us examine together this conception of yours, and see whether it is a true birth or a mere wind-egg:--You say that knowledge is perception?\n\nSOCRATES: Well, you have delivered yourself of a very important doctrine about knowledge; it is indeed the opinion of Protagoras, who has another way of expressing it. Man, he says, is the measure of all things, of the existence of things that are, and of the non-existence of things that are not:--You have read him?\n\nSOCRATES: Does he not say that things are to you such as they appear to you, and to me such as they appear to me, and that you and I are men?",
       "topics": [
         "knowledge",
-        "meta",
         "action"
       ]
     },
@@ -3084,22 +3041,12 @@
     {
       "work": "Theaetetus",
       "ref": null,
-      "text": "SOCRATES: Or that anything appears the same to you as to another man? Are you so profoundly convinced of this? Rather would it not be true that it never appears exactly the same to you, because you are never exactly the same?\n\nSOCRATES: And if that with which I compare myself in size, or which I apprehend by touch, were great or white or hot, it could not become different by mere contact with another unless it actually changed; nor again, if the comparing or apprehending subject were great or white or hot, could this, when unchanged from within, become changed by any approximation or affection of any other thing. The fact is that in our ordinary way of speaking we allow ourselves to be driven into most ridiculous and wonderful contradictions, as Protagoras and all who take his line of argument would remark.\n\nTHEAETETUS: How? and of what sort do you mean?\n\nSOCRATES: A little instance will sufficiently explain my meaning: Here are six dice, which are more by a half when compared with four, and fewer by a half than twelve--they are more and also fewer. How can you or any one maintain the contrary?",
-      "topics": [
-        "knowledge",
-        "self",
-        "meta"
-      ]
-    },
-    {
-      "work": "Theaetetus",
-      "ref": null,
       "text": "THEAETETUS: Yes, Socrates, and I am amazed when I think of them; by the Gods I am! and I want to know what on earth they mean; and there are times when my head quite swims with the contemplation of them.\n\nSOCRATES: I see, my dear Theaetetus, that Theodorus had a true insight into your nature when he said that you were a philosopher, for wonder is the feeling of a philosopher, and philosophy begins in wonder. He was not a bad genealogist who said that Iris (the messenger of heaven) is the child of Thaumas (wonder). But do you begin to see what is the explanation of this perplexity on the hypothesis which we attribute to Protagoras?\n\nSOCRATES: Then you will be obliged to me if I help you to unearth the hidden 'truth' of a famous man or school.\n\nTHEAETETUS: To be sure, I shall be very much obliged.",
       "topics": [
         "nature",
-        "meta",
         "knowledge",
-        "action"
+        "action",
+        "meta"
       ]
     },
     {
@@ -3155,9 +3102,17 @@
       "text": "THEODORUS: Do as you say, Socrates; you are quite right.\n\nSOCRATES: Shall I tell you, Theodorus, what amazes me in your acquaintance Protagoras?\n\nSOCRATES: I am charmed with his doctrine, that what appears is to each one, but I wonder that he did not begin his book on Truth with a declaration that a pig or a dog-faced baboon, or some other yet stranger monster which has sensation, is the measure of all things; then he might have shown a magnificent contempt for our opinion of him by informing us at the outset that while we were reverencing him like a God for his wisdom he was no better than a tadpole, not to speak of his fellow-men--would not this have produced an overpowering effect? For if truth is only sensation, and no man can discern another's feelings better than he, or has any superior right to determine whether his opinion is true or false, but each, as we have several times repeated, is to himself the sole judge, and everything that he judges is true and right, why, my friend, should Protagoras be preferred to the place of wisdom and instruction, and deserve to be well paid, and we poor ignoramuses have to go to him, if each one is the measure of his own wisdom? Must he not be talking 'ad captandum' in all this? I say nothing of the ridiculous predicament in which my own midwifery and the whole art of dialectic is placed; for the attempt to supervise or refute the notions or opinions of others would be a tedious and enormous piece of folly, if to each man his own are right; and this must be the case if Protagoras' Truth is the real truth, and the philosopher is not merely amusing himself by giving oracles out of the shrine of his book.",
       "topics": [
         "knowledge",
-        "meta",
         "action",
+        "meta",
         "meaning"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "THEODORUS: He was a friend of mine, Socrates, as you were saying, and therefore I cannot have him refuted by my lips, nor can I oppose you when I agree with you; please, then, to take Theaetetus again; he seemed to answer very nicely.\n\nSOCRATES: If you were to go into a Lacedaemonian palestra, Theodorus, would you have a right to look on at the naked wrestlers, some of them making a poor figure, if you did not strip and give them an opportunity of judging of your own person?\n\nTHEODORUS: Why not, Socrates, if they would allow me, as I think you will, in consideration of my age and stiffness; let some more supple youth try a fall with you, and do not drag me into the gymnasium.\n\nSOCRATES: Your will is my will, Theodorus, as the proverbial philosophers say, and therefore I will return to the sage Theaetetus: Tell me, Theaetetus, in reference to what I was saying, are you not lost in wonder, like myself, when you find that all of a sudden you are raised to the level of the wisest of men, or indeed of the gods?--for you would assume the measure of Protagoras to apply to the gods as well as men?",
+      "topics": [
+        "love"
       ]
     },
     {
@@ -3165,8 +3120,8 @@
       "ref": null,
       "text": "THEAETETUS: Certainly I should, and I confess to you that I am lost in wonder. At first hearing, I was quite satisfied with the doctrine, that whatever appears is to each one, but now the face of things has changed.\n\nSOCRATES: Why, my dear boy, you are young, and therefore your ear is quickly caught and your mind influenced by popular arguments. Protagoras, or some one speaking on his behalf, will doubtless say in reply,--Good people, young and old, you meet and harangue, and bring in the gods, whose existence or non-existence I banish from writing and speech, or you talk about the reason of man being degraded to the level of the brutes, which is a telling argument with the multitude, but not one word of proof or demonstration do you offer. All is probability with you, and yet surely you and Theodorus had better reflect whether you are disposed to admit of probability and figures of speech in matters of such importance. He or any other mathematician who argued from probabilities and likelihoods in geometry, would not be worth an ace.\n\nTHEAETETUS: But neither you nor we, Socrates, would be satisfied with such arguments.\n\nSOCRATES: Then you and Theodorus mean to say that we must look at the matter in some other way?",
       "topics": [
-        "meta",
         "knowledge",
+        "meta",
         "meaning"
       ]
     },
@@ -3188,7 +3143,7 @@
         "knowledge",
         "nature",
         "education",
-        "meta"
+        "virtue"
       ]
     },
     {
@@ -3218,8 +3173,8 @@
       "ref": null,
       "text": "SOCRATES: I mean to say, that those who have been trained in philosophy and liberal pursuits are as unlike those who from their youth upwards have been knocking about in the courts and such places, as a freeman is in breeding unlike a slave.\n\nSOCRATES: In the leisure spoken of by you, which a freeman can always command: he has his talk out in peace, and, like ourselves, he wanders at will from one subject to another, and from a second to a third,--if the fancy takes him, he begins again, as we are doing now, caring not whether his words are many or few; his only aim is to attain the truth. But the lawyer is always in a hurry; there is the water of the clepsydra driving him on, and not allowing him to expatiate at will: and there is his adversary standing over him, enforcing his rights; the indictment, which in their phraseology is termed the affidavit, is recited at the time: and from this he must not deviate. He is a servant, and is continually disputing about a fellow-servant before his master, who is seated, and has the cause in his hands; the trial is never about some indifferent matter, but always concerns himself; and often the race is for his life. The consequence has been, that he has become keen and shrewd; he has learned how to flatter his master in word and indulge him in deed; but his soul is small and unrighteous.",
       "topics": [
-        "meta",
         "freedom",
+        "meta",
         "self",
         "action"
       ]
@@ -3241,19 +3196,7 @@
       "topics": [
         "work",
         "nature",
-        "freedom",
-        "meta"
-      ]
-    },
-    {
-      "work": "Theaetetus",
-      "ref": null,
-      "text": "SOCRATES: There are two patterns eternally set before them; the one blessed and divine, the other godless and wretched: but they do not see them, or perceive that in their utter folly and infatuation they are growing like the one and unlike the other, by reason of their evil deeds; and the penalty is, that they lead a life answering to the pattern which they are growing like. And if we tell them, that unless they depart from their cunning, the place of innocence will not receive them after death; and that here on earth, they will live ever in the likeness of their own evil selves, and with evil friends--when they hear this they in their superior cunning will seem to be listening to the talk of idiots.\n\nSOCRATES: Too true, my friend, as I well know; there is, however, one peculiarity in their case: when they begin to reason in private about their dislike of philosophy, if they have the courage to hear the argument out, and do not run away, they grow at last strangely discontented with themselves; their rhetoric fades away, and they become helpless as children. These however are digressions from which we must now desist, or they will overflow, and drown the original argument; to which, if you please, we will now return.",
-      "topics": [
-        "knowledge",
-        "action",
-        "love",
-        "nature"
+        "freedom"
       ]
     },
     {
@@ -3277,8 +3220,7 @@
       "ref": null,
       "text": "SOCRATES: Do you remember what were the points of which I required you to speak?\n\nTIMAEUS: We remember some of them, and you will be here to remind us of anything which we have forgotten: or rather, if we are not troubling you, will you briefly recapitulate the whole, and then the particulars will be more firmly fixed in our memories?\n\nSOCRATES: To be sure I will: the chief theme of my yesterday’s discourse was the State—how constituted and of what citizens composed it would seem likely to be most perfect.\n\nTIMAEUS: Yes, Socrates; and what you said of it was very much to our mind.",
       "topics": [
-        "freedom",
-        "meta"
+        "freedom"
       ]
     },
     {
@@ -3286,7 +3228,6 @@
       "ref": null,
       "text": "SOCRATES: Did we not begin by separating the husbandmen and the artisans from the class of defenders of the State?\n\nSOCRATES: And when we had given to each one that single employment and particular art which was suited to his nature, we spoke of those who were intended to be our warriors, and said that they were to be guardians of the city against attacks from within as well as from without, and to have no other employment; they were to be merciful in judging their subjects, of whom they were by nature friends, but fierce to their enemies, when they came across them in battle.\n\nSOCRATES: We said, if I am not mistaken, that the guardians should be gifted with a temperament in a high degree both passionate and philosophical; and that then they would be as they ought to be, gentle to their friends and fierce with their enemies.\n\nSOCRATES: And what did we say of their education? Were they not to be trained in gymnastic, and music, and all other sorts of knowledge which were proper for them?",
       "topics": [
-        "meta",
         "freedom",
         "self"
       ]
@@ -3304,7 +3245,6 @@
       "ref": null,
       "text": "TIMAEUS: Yes, and the proposal is easy to remember, as you say.\n\nSOCRATES: And do you also remember how, with a view of securing as far as we could the best breed, we said that the chief magistrates, male and female, should contrive secretly, by the use of certain lots, so to arrange the nuptial meeting, that the bad of either sex and the good of either sex might pair with their like; and there was to be no quarrelling on this account, for they would imagine that the union was a mere accident, and was to be attributed to the lot?\n\nSOCRATES: And you remember how we said that the children of the good parents were to be educated, and the children of the bad secretly dispersed among the inferior citizens; and while they were all growing up the rulers were to be on the look-out, and to bring up from below in their turn those who were worthy, and those among themselves who were unworthy were to take the places of those who came up?\n\nSOCRATES: Then have I now given you all the heads of our yesterday’s discussion? Or is there anything more, my dear Timaeus, which has been omitted?",
       "topics": [
-        "meta",
         "freedom"
       ]
     },
@@ -3315,8 +3255,8 @@
       "topics": [
         "action",
         "freedom",
-        "meta",
-        "education"
+        "education",
+        "meta"
       ]
     },
     {
@@ -3335,8 +3275,7 @@
       "text": "HERMOCRATES: And we too, Socrates, as Timaeus says, will not be wanting in enthusiasm; and there is no excuse for not complying with your request. As soon as we arrived yesterday at the guest-chamber of Critias, with whom we are staying, or rather on our way thither, we talked the matter over, and he told us an ancient tradition, which I wish, Critias, that you would repeat to Socrates, so that he may help us to judge whether it will satisfy his requirements or not.\n\nCRITIAS: I will, if Timaeus, who is our other partner, approves.\n\nCRITIAS: Then listen, Socrates, to a tale which, though strange, is certainly true, having been attested by Solon, who was the wisest of the seven sages. He was a relative and a dear friend of my great-grandfather, Dropides, as he himself says in many passages of his poems; and he told the story to Critias, my grandfather, who remembered and repeated it to us. There were of old, he said, great and marvellous actions of the Athenian city, which have passed into oblivion through lapse of time and the destruction of mankind, and one in particular, greater than all the rest. This we will now rehearse. It will be a fitting monument of our gratitude to you, and a hymn of praise true and worthy of the goddess, on this her day of festival.",
       "topics": [
         "love",
-        "action",
-        "meta"
+        "action"
       ]
     },
     {
@@ -3352,7 +3291,6 @@
       "ref": null,
       "text": "And what was the tale about, Critias? said Amynander.\n\nAbout the greatest action which the Athenians ever did, and which ought to have been the most famous, but, through the lapse of time and the destruction of the actors, it has not come down to us.\n\nTell us, said the other, the whole story, and how and from whom Solon heard this veritable tradition.\n\nHe replied:—In the Egyptian Delta, at the head of which the river Nile divides, there is a certain district which is called the district of Sais, and the great city of the district is also called Sais, and is the city from which King Amasis came. The citizens have a deity for their foundress; she is called in the Egyptian tongue Neith, and is asserted by them to be the same whom the Hellenes call Athene; they are great lovers of the Athenians, and say that they are in some way related to them. To this city came Solon, and was received there with great honour; he asked the priests who were most skilful in such matters, about antiquity, and made the discovery that neither he nor any other Hellene knew anything worth mentioning about the times of old. On one occasion, wishing to draw them on to speak of antiquity, he began to tell about the most ancient things in our part of the world—about Phoroneus, who is called ‘the first man,’ and about Niobe; and after the Deluge, of the survival of Deucalion and Pyrrha; and he traced the genealogy of their descendants, and reckoning up the dates, tried to compute how many years ago the events of which he was speaking happened.",
       "topics": [
-        "meta",
         "freedom",
         "meaning",
         "nature"
@@ -3364,8 +3302,7 @@
       "text": "Thereupon one of the priests, who was of a very great age, said: O Solon, Solon, you Hellenes are never anything but children, and there is not an old man among you. Solon in return asked him what he meant. I mean to say, he replied, that in mind you are all young; there is no old opinion handed down among you by ancient tradition, nor any science which is hoary with age. And I will tell you why. There have been, and will be again, many destructions of mankind arising out of many causes; the greatest have been brought about by the agencies of fire and water, and other lesser ones by innumerable other causes. There is a story, which even you have preserved, that once upon a time Paethon, the son of Helios, having yoked the steeds in his father’s chariot, because he was not able to drive them in the path of his father, burnt up all that was upon the earth, and was himself destroyed by a thunderbolt. Now this has the form of a myth, but really signifies a declination of the bodies moving in the heavens around the earth, and a great conflagration of things upon the earth, which recurs after long intervals; at such times those who live upon the mountains and in dry and lofty places are more liable to destruction than those who dwell by rivers or on the seashore.",
       "topics": [
         "nature",
-        "knowledge",
-        "meta"
+        "knowledge"
       ]
     },
     {
@@ -3384,8 +3321,8 @@
       "ref": null,
       "text": "As for those genealogies of yours which you just now recounted to us, Solon, they are no better than the tales of children. In the first place you remember a single deluge only, but there were many previous ones; in the next place, you do not know that there formerly dwelt in your land the fairest and noblest race of men which ever lived, and that you and your whole city are descended from a small seed or remnant of them which survived. And this was unknown to you, because, for many generations, the survivors of that destruction died, leaving no written word. For there was a time, Solon, before the great deluge of all, when the city which now is Athens was first in war and in every way the best governed of all cities, is said to have performed the noblest deeds and to have had the fairest constitution of any of which tradition tells, under the face of heaven. Solon marvelled at his words, and earnestly requested the priests to inform him exactly and in order about these former citizens. You are welcome to hear about them, Solon, said the priest, both for your own sake and for that of your city, and above all, for the sake of the goddess who is the common patron and parent and educator of both our cities. She founded your city a thousand years before ours (Observe that Plato gives the same date (9000 years ago) for the foundation of Athens and for the repulse of the invasion from Atlantis (Crit.)",
       "topics": [
-        "meta",
         "freedom",
+        "meta",
         "action"
       ]
     },
@@ -3476,9 +3413,9 @@
       "text": "The work of the creator, whenever he looks to the unchangeable and fashions the form and nature of his work after an unchangeable pattern, must necessarily be made fair and perfect; but when he looks to the created only, and uses a created pattern, it is not fair or perfect. Was the heaven then or the world, whether called by this or by any other more appropriate name—assuming the name, I am asking a question which has to be asked at the beginning of an enquiry about anything—was the world, I say, always in existence and without beginning? or created, and had it a beginning? Created, I reply, being visible and tangible and having a body, and therefore sensible; and all sensible things are apprehended by opinion and sense and are in a process of creation and created. Now that which is created must, as we affirm, of necessity be created by a cause. But the father and maker of all this universe is past finding out; and even if we found him, to tell of him to all men would be impossible. And there is still a question to be asked about him: Which of the patterns had the artificer in view when he made the world—the pattern of the unchangeable, or of that which is created? If the world be indeed fair and the artificer good, it is manifest that he must have looked to that which is eternal; but if what cannot be said without blasphemy is true, then to the created pattern.",
       "topics": [
         "nature",
-        "meta",
         "knowledge",
-        "meaning"
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -3495,17 +3432,6 @@
     {
       "work": "Timaeus",
       "ref": null,
-      "text": "SOCRATES: Excellent, Timaeus; and we will do precisely as you bid us. The prelude is charming, and is already accepted by us—may we beg of you to proceed to the strain?\n\nTIMAEUS: Let me tell you then why the creator made this world of generation. He was good, and the good can never have any jealousy of anything. And being free from jealousy, he desired that all things should be as like himself as they could be. This is in the truest sense the origin of creation and of the world, as we shall do well in believing on the testimony of wise men: God desired that all things should be good and nothing bad, so far as this was attainable. Wherefore also finding the whole visible sphere not at rest, but moving in an irregular and disorderly fashion, out of disorder he brought order, considering that this was in every way better than the other. Now the deeds of the best could never be or have been other than the fairest; and the creator, reflecting on the things which are by nature visible, found that no unintelligent creature taken as a whole was fairer than the intelligent taken as a whole; and that intelligence could not be present in anything which was devoid of soul. For which reason, when he was framing the universe, he put intelligence in soul, and soul in body, that he might be the creator of a work which was by nature fairest and best. Wherefore, using the language of probability, we may say that the world became a living creature truly endowed with soul and intelligence by the providence of God.",
-      "topics": [
-        "meaning",
-        "nature",
-        "knowledge",
-        "action"
-      ]
-    },
-    {
-      "work": "Timaeus",
-      "ref": null,
       "text": "This he finished off, making the surface smooth all round for many reasons; in the first place, because the living being had no need of eyes when there was nothing remaining outside him to be seen; nor of ears when there was nothing to be heard; and there was no surrounding atmosphere to be breathed; nor would there have been any use of organs by the help of which he might receive his food or get rid of what he had already digested, since there was nothing which went from him or came into him: for there was nothing beside him. Of design he was created thus, his own waste providing his own food, and all that he did or suffered taking place in and by himself. For the Creator conceived that a being which was self-sufficient would be far more excellent than one which lacked anything; and, as he had no need to take anything or defend himself against any one, the Creator did not think it necessary to bestow upon him hands: nor had he any need of feet, nor of the whole apparatus of walking; but the movement suited to his spherical form was assigned to him, being of all the seven that which is most appropriate to mind and intelligence; and he was made to move in the same manner and on the same spot, within his own limits revolving in a circle. All the other six motions were taken away from him, and he was made not to partake of their deviations. And as this circular movement required no feet, the universe was created without legs and without feet.",
       "topics": [
         "self",
@@ -3515,11 +3441,11 @@
     {
       "work": "Timaeus",
       "ref": null,
-      "text": "Now when the Creator had framed the soul according to his will, he formed within her the corporeal universe, and brought the two together, and united them centre to centre. The soul, interfused everywhere from the centre to the circumference of heaven, of which also she is the external envelopment, herself turning in herself, began a divine beginning of never-ceasing and rational life enduring throughout all time. The body of heaven is visible, but the soul is invisible, and partakes of reason and harmony, and being made by the best of intellectual and everlasting natures, is the best of things created. And because she is composed of the same and of the other and of the essence, these three, and is divided and united in due proportion, and in her revolutions returns upon herself, the soul, when touching anything which has essence, whether dispersed in parts or undivided, is stirred through all her powers, to declare the sameness or difference of that thing and some other; and to what individuals are related, and by what affected, and in what way and how and when, both in the world of generation and in the world of immutable being. And when reason, which works with equal truth, whether she be in the circle of the diverse or of the same—in voiceless silence holding her onward course in the sphere of the self-moved—when reason, I say, is hovering around the sensible world and when the circle of the diverse also moving truly imparts the intimations of sense to the whole soul, then arise opinions and beliefs sure and certain. But when reason is concerned with the rational, and the circle of the same moving smoothly declares it, then intelligence and knowledge are necessarily perfected. And if any one affirms that in which these two are found to be other than the soul, he will say the very opposite of the truth.",
+      "text": "To know or tell the origin of the other divinities is beyond us, and we must accept the traditions of the men of old time who affirm themselves to be the offspring of the gods—that is what they say—and they must surely have known their own ancestors. How can we doubt the word of the children of the gods? Although they give no probable or certain proofs, still, as they declare that they are speaking of what took place in their own family, we must conform to custom and believe them. In this manner, then, according to them, the genealogy of these gods is to be received and set forth.\n\nOceanus and Tethys were the children of Earth and Heaven, and from these sprang Phorcys and Cronos and Rhea, and all that generation; and from Cronos and Rhea sprang Zeus and Here, and all those who are said to be their brethren, and others who were the children of these.\n\nNow, when all of them, both those who visibly appear in their revolutions as well as those other gods who are of a more retiring nature, had come into being, the creator of the universe addressed them in these words: ‘Gods, children of gods, who are my works, and of whom I am the artificer and father, my creations are indissoluble, if so I will. All that is bound may be undone, but only an evil being would wish to undo that which is harmonious and happy.",
       "topics": [
         "knowledge",
-        "self",
         "nature",
+        "meta",
         "meaning"
       ]
     },
@@ -3543,6 +3469,16 @@
         "suffering",
         "meaning",
         "self"
+      ]
+    },
+    {
+      "work": "Timaeus",
+      "ref": null,
+      "text": "He who lived well during his appointed time was to return and dwell in his native star, and there he would have a blessed and congenial existence. But if he failed in attaining this, at the second birth he would pass into a woman, and if, when in that state of being, he did not desist from evil, he would continually be changed into some brute who resembled him in the evil nature which he had acquired, and would not cease from his toils and transformations until he followed the revolution of the same and the like within him, and overcame by the help of reason the turbulent and irrational mob of later accretions, made up of fire and air and water and earth, and returned to the form of his first and better state. Having given all these laws to his creatures, that he might be guiltless of future evil in any of them, the creator sowed some of them in the earth, and some in the moon, and some in the other instruments of time; and when he had sown them he committed to the younger gods the fashioning of their mortal bodies, and desired them to furnish what was still lacking to the human soul, and having made all the suitable additions, to rule over them, and to pilot the mortal animal in the best and wisest manner which they could, and avert from him all but self-inflicted evils.",
+      "topics": [
+        "nature",
+        "self",
+        "freedom"
       ]
     },
     {
@@ -3605,8 +3541,7 @@
       "text": "But when these same particles, refined by putrefaction, enter into the narrow veins, and are duly proportioned to the particles of earth and air which are there, they set them whirling about one another, and while they are in a whirl cause them to dash against and enter into one another, and so form hollows surrounding the particles that enter—which watery vessels of air (for a film of moisture, sometimes earthy, sometimes pure, is spread around the air) are hollow spheres of water; and those of them which are pure, are transparent, and are called bubbles, while those composed of the earthy liquid, which is in a state of general agitation and effervescence, are said to boil or ferment—of all these affections the cause is termed acid. And there is the opposite affection arising from an opposite cause, when the mass of entering particles, immersed in the moisture of the mouth, is congenial to the tongue, and smooths and oils over the roughness, and relaxes the parts which are unnaturally contracted, and contracts the parts which are relaxed, and disposes them all according to their nature;—that sort of remedy of violent affections is pleasant and agreeable to every man, and has the name sweet. But enough of this.",
       "topics": [
         "nature",
-        "love",
-        "meta"
+        "love"
       ]
     },
     {
@@ -3627,8 +3562,7 @@
       "topics": [
         "virtue",
         "knowledge",
-        "nature",
-        "meta"
+        "nature"
       ]
     },
     {

@@ -1,10 +1,162 @@
 {
-  "generated_at": "2026-08-30T00:08:36.701Z",
+  "generated_at": "2026-08-30T00:16:42.070Z",
   "philosophers": [
+    {
+      "slug": "aristotle",
+      "passages": 280,
+      "words": 67019,
+      "works": [
+        {
+          "work": "Nicomachean Ethics",
+          "count": 140
+        },
+        {
+          "work": "Politics",
+          "count": 140
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 137
+        },
+        {
+          "topic": "virtue",
+          "count": 128
+        },
+        {
+          "topic": "action",
+          "count": 115
+        },
+        {
+          "topic": "freedom",
+          "count": 109
+        },
+        {
+          "topic": "work",
+          "count": 72
+        },
+        {
+          "topic": "meaning",
+          "count": 51
+        },
+        {
+          "topic": "nature",
+          "count": 49
+        },
+        {
+          "topic": "self",
+          "count": 45
+        },
+        {
+          "topic": "suffering",
+          "count": 33
+        },
+        {
+          "topic": "meta",
+          "count": 32
+        },
+        {
+          "topic": "love",
+          "count": 30
+        },
+        {
+          "topic": "education",
+          "count": 22
+        },
+        {
+          "topic": "technology",
+          "count": 4
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Nicomachean Ethics",
+          "translator": "F. H. Peters",
+          "year": 1893,
+          "source_url": "https://www.gutenberg.org/ebooks/8438"
+        },
+        {
+          "work": "Politics",
+          "translator": "William Ellis",
+          "year": 1912,
+          "source_url": "https://www.gutenberg.org/ebooks/6762"
+        }
+      ]
+    },
+    {
+      "slug": "confucius",
+      "passages": 166,
+      "words": 17397,
+      "works": [
+        {
+          "work": "The Analects (论语), my conversations as my students recorded them",
+          "count": 166
+        }
+      ],
+      "topics": [
+        {
+          "topic": "freedom",
+          "count": 67
+        },
+        {
+          "topic": "action",
+          "count": 35
+        },
+        {
+          "topic": "virtue",
+          "count": 29
+        },
+        {
+          "topic": "work",
+          "count": 17
+        },
+        {
+          "topic": "knowledge",
+          "count": 15
+        },
+        {
+          "topic": "self",
+          "count": 15
+        },
+        {
+          "topic": "nature",
+          "count": 13
+        },
+        {
+          "topic": "education",
+          "count": 12
+        },
+        {
+          "topic": "meta",
+          "count": 12
+        },
+        {
+          "topic": "love",
+          "count": 9
+        },
+        {
+          "topic": "suffering",
+          "count": 3
+        },
+        {
+          "topic": "meaning",
+          "count": 2
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "The Analects (论语), my conversations as my students recorded them",
+          "translator": "James Legge",
+          "year": 1893,
+          "source_url": "https://www.gutenberg.org/ebooks/3330"
+        }
+      ]
+    },
     {
       "slug": "kant",
       "passages": 300,
-      "words": 73052,
+      "words": 73139,
       "works": [
         {
           "work": "Critique of Pure Reason",
@@ -29,24 +181,24 @@
           "count": 116
         },
         {
-          "topic": "meta",
-          "count": 100
+          "topic": "virtue",
+          "count": 91
         },
         {
           "topic": "meaning",
-          "count": 92
+          "count": 91
         },
         {
-          "topic": "virtue",
-          "count": 88
+          "topic": "meta",
+          "count": 74
         },
         {
           "topic": "self",
-          "count": 67
+          "count": 68
         },
         {
           "topic": "nature",
-          "count": 55
+          "count": 56
         },
         {
           "topic": "freedom",
@@ -57,11 +209,11 @@
           "count": 25
         },
         {
-          "topic": "education",
-          "count": 20
+          "topic": "love",
+          "count": 19
         },
         {
-          "topic": "love",
+          "topic": "education",
           "count": 19
         },
         {
@@ -95,6 +247,79 @@
       ]
     },
     {
+      "slug": "laozi",
+      "passages": 77,
+      "words": 10324,
+      "works": [
+        {
+          "work": "Daodejing (道德经)",
+          "count": 77
+        }
+      ],
+      "topics": [
+        {
+          "topic": "action",
+          "count": 38
+        },
+        {
+          "topic": "nature",
+          "count": 20
+        },
+        {
+          "topic": "knowledge",
+          "count": 14
+        },
+        {
+          "topic": "suffering",
+          "count": 10
+        },
+        {
+          "topic": "virtue",
+          "count": 9
+        },
+        {
+          "topic": "love",
+          "count": 8
+        },
+        {
+          "topic": "meaning",
+          "count": 8
+        },
+        {
+          "topic": "freedom",
+          "count": 8
+        },
+        {
+          "topic": "work",
+          "count": 7
+        },
+        {
+          "topic": "meta",
+          "count": 5
+        },
+        {
+          "topic": "self",
+          "count": 5
+        },
+        {
+          "topic": "technology",
+          "count": 2
+        },
+        {
+          "topic": "education",
+          "count": 1
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Daodejing (道德经)",
+          "translator": "James Legge",
+          "year": 1891,
+          "source_url": "https://www.gutenberg.org/ebooks/216"
+        }
+      ]
+    },
+    {
       "slug": "marcus-aurelius",
       "passages": 205,
       "words": 45353,
@@ -107,19 +332,19 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 123
+          "count": 126
         },
         {
           "topic": "action",
-          "count": 111
+          "count": 112
         },
         {
           "topic": "nature",
-          "count": 100
+          "count": 102
         },
         {
           "topic": "meaning",
-          "count": 69
+          "count": 70
         },
         {
           "topic": "virtue",
@@ -131,15 +356,15 @@
         },
         {
           "topic": "self",
-          "count": 49
-        },
-        {
-          "topic": "meta",
-          "count": 30
+          "count": 50
         },
         {
           "topic": "freedom",
           "count": 23
+        },
+        {
+          "topic": "meta",
+          "count": 16
         },
         {
           "topic": "work",
@@ -170,7 +395,7 @@
     {
       "slug": "nietzsche",
       "passages": 320,
-      "words": 60345,
+      "words": 60249,
       "works": [
         {
           "work": "Thus Spoke Zarathustra",
@@ -196,47 +421,47 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 150
+          "count": 149
         },
         {
           "topic": "virtue",
-          "count": 108
-        },
-        {
-          "topic": "meta",
-          "count": 94
+          "count": 105
         },
         {
           "topic": "self",
-          "count": 84
+          "count": 91
         },
         {
           "topic": "meaning",
-          "count": 76
+          "count": 75
+        },
+        {
+          "topic": "meta",
+          "count": 69
         },
         {
           "topic": "nature",
-          "count": 65
+          "count": 66
         },
         {
           "topic": "action",
           "count": 60
         },
         {
-          "topic": "suffering",
-          "count": 49
+          "topic": "love",
+          "count": 48
         },
         {
-          "topic": "love",
-          "count": 43
+          "topic": "suffering",
+          "count": 48
         },
         {
           "topic": "freedom",
-          "count": 40
+          "count": 41
         },
         {
           "topic": "work",
-          "count": 33
+          "count": 34
         },
         {
           "topic": "education",
@@ -244,7 +469,7 @@
         },
         {
           "topic": "technology",
-          "count": 9
+          "count": 8
         }
       ],
       "translation_credits": [
@@ -283,7 +508,7 @@
     {
       "slug": "plato",
       "passages": 360,
-      "words": 70396,
+      "words": 70556,
       "works": [
         {
           "work": "Republic",
@@ -324,48 +549,48 @@
           "count": 214
         },
         {
-          "topic": "meta",
-          "count": 174
-        },
-        {
           "topic": "virtue",
           "count": 124
         },
         {
           "topic": "action",
-          "count": 109
+          "count": 111
         },
         {
-          "topic": "nature",
-          "count": 81
+          "topic": "meta",
+          "count": 88
         },
         {
           "topic": "love",
           "count": 80
         },
         {
+          "topic": "nature",
+          "count": 79
+        },
+        {
           "topic": "meaning",
-          "count": 61
+          "count": 67
         },
         {
           "topic": "self",
-          "count": 55
+          "count": 59
         },
         {
           "topic": "freedom",
-          "count": 51
+          "count": 58
         },
         {
           "topic": "suffering",
-          "count": 48
+          "count": 50
         },
         {
           "topic": "work",
-          "count": 36
+          "count": 38
         },
         {
           "topic": "education",
-          "count": 35
+          "count": 34
         },
         {
           "topic": "technology",
@@ -420,6 +645,99 @@
           "translator": "Benjamin Jowett",
           "year": 1892,
           "source_url": "https://www.gutenberg.org/ebooks/1572"
+        }
+      ]
+    },
+    {
+      "slug": "schopenhauer",
+      "passages": 301,
+      "words": 72808,
+      "works": [
+        {
+          "work": "The World as Will and Representation",
+          "count": 145
+        },
+        {
+          "work": "On the Basis of Morality",
+          "count": 90
+        },
+        {
+          "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+          "count": 66
+        }
+      ],
+      "topics": [
+        {
+          "topic": "knowledge",
+          "count": 217
+        },
+        {
+          "topic": "self",
+          "count": 96
+        },
+        {
+          "topic": "meaning",
+          "count": 89
+        },
+        {
+          "topic": "action",
+          "count": 85
+        },
+        {
+          "topic": "nature",
+          "count": 85
+        },
+        {
+          "topic": "meta",
+          "count": 83
+        },
+        {
+          "topic": "virtue",
+          "count": 82
+        },
+        {
+          "topic": "work",
+          "count": 46
+        },
+        {
+          "topic": "suffering",
+          "count": 39
+        },
+        {
+          "topic": "freedom",
+          "count": 33
+        },
+        {
+          "topic": "love",
+          "count": 28
+        },
+        {
+          "topic": "education",
+          "count": 24
+        },
+        {
+          "topic": "technology",
+          "count": 6
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "The World as Will and Representation",
+          "translator": "R. B. Haldane and J. Kemp",
+          "year": 1883,
+          "source_url": "https://www.gutenberg.org/ebooks/38427"
+        },
+        {
+          "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+          "translator": "T. Bailey Saunders",
+          "year": 1890,
+          "source_url": "https://www.gutenberg.org/ebooks/10741"
+        },
+        {
+          "work": "On the Basis of Morality",
+          "translator": "Arthur Brodrick Bullock",
+          "year": 1903,
+          "source_url": "https://www.gutenberg.org/ebooks/44929"
         }
       ]
     }

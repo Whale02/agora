@@ -525,3 +525,13 @@ docs/data/passages/marcus-aurelius.json (205 passages, Long 1862) and plato.json
 passages, Jowett) were produced by an earlier in-session runner and spot-checked to the
 lane D shape. Treat them as lane D work in progress: they still owe D4 validation before
 their boxes tick.
+
+## Post-run founder changes (2026-08-29 evening)
+
+- The celestial marble plate is the general ground, live site and artifact mirror both:
+  veiled viewport-fixed layer under the glows and grain; contrast audit exit 0 at 1440 and
+  390 with it in place; the 404's plate path went absolute so nested missing URLs load it.
+- Relicensed at the founder's call: MIT out, PolyForm Noncommercial 1.0.0 in (vendored
+  verbatim, required notice appended). package.json, README, footer, and about swept; zero
+  MIT references remain outside git history; prose gates exit 0. GitHub shows the license
+  as Other, which is its correct badge for PolyForm.

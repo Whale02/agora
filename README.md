@@ -111,4 +111,8 @@ real person.
 The thinker you believe is missing is one JSON entry away. See
 [CONTRIBUTING.md](CONTRIBUTING.md) for the format and the sourcing bar.
 
-MIT license.
+## License
+
+PolyForm Noncommercial 1.0.0: read it, run it, change it, share it, for any
+noncommercial purpose. Commercial use needs the author's permission. The full
+terms are in [LICENSE](LICENSE).

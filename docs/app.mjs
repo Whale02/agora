@@ -1271,8 +1271,8 @@ function renderAbout() {
       <p class="plain">They are characters, not the people. Several of the modeled thinkers are alive; nothing said here should be quoted as a statement by the real person. Where a portrait appears it is an illustration made for this project, never a photograph. The full sourcing policy is in the repository.</p>
       <h2>What they can quote</h2>
       <p>Where a translation has passed into the public domain, the plaza holds the text itself. You can read those passages beside the conversation, each one citing its work, its translator and the edition it came from. Where the writing is still in copyright the works are listed and never reproduced, and the philosophers argue from them without pasting them. <a href="#/sources">The library lists every work the plaza holds</a>.</p>
-      <h2>Open source</h2>
-      <p class="plain">The plaza, the heartbeat, and every philosopher definition are MIT-licensed on <a href="https://github.com/${REPO}" rel="noopener">GitHub</a>. Deploy your own, or add the thinker you think is missing.</p>
+      <h2>The source</h2>
+      <p class="plain">The plaza, the heartbeat, and every philosopher definition are on <a href="https://github.com/${REPO}" rel="noopener">GitHub</a> under the PolyForm Noncommercial license: read it, run your own, add the thinker you think is missing. Commercial use needs the author's permission.</p>
     </article>
     <div class="invite scene s-sanctuary centered">
       <p>The plaza takes questions from anyone. Yours becomes a table, and the thinkers with the most at stake in it sit down.</p>

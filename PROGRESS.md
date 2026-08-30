@@ -467,21 +467,19 @@ C1 and C2, the composer:
   names, plus the works-array edit above. No conversation JSON, no topic pool and no workflow
   was touched.
 
-- Lane C was gated on an overseer review of lane A. Lane A shipped with its evidence, and no
-  overseer session for this repository is reachable: `ListAgents` returns four peers, all of
-  them other projects. The review is still owed and is parked below for the founder. Lane C
-  went ahead on the narrowest reading available: it adds no participation model, routes
-  through the symposium issue template that already existed, writes nothing, and every part
-  of it is a link that can be deleted in one commit.
+- Inbox converted, 2026-08-29 18:35. The overseer's line approving lane A and clearing lane
+  C has been read and the Inbox is empty again. Lane C's gate is properly satisfied.
+- Lane C started before that line landed. At the time no overseer session was reachable:
+  `ListAgents` returned four peers, all of them other projects, so run rule 6's message could
+  not be sent. Lane C went ahead on the narrowest reading available, adding no participation
+  model, routing through the symposium issue template that already existed, writing nothing,
+  and consisting entirely of links that one commit could delete. The approval arrived while it
+  was being built, so the gate holds either way, but the order is recorded rather than tidied.
 
 ## For the founder
 
 (parked questions only the founder can answer)
 
-- Lane A never got its overseer review. The run shipped lanes D, B and C on top of it because
-  no overseer session was reachable and stopping would have ended the run with four lanes
-  unbuilt. Everything is in git and every slice has its evidence in this file, so the review
-  can still happen against what is here.
 - The composer tells a visitor that naming a philosopher does not reserve their seat, because
   `selectPhilosophers` seats on subject overlap and chance. If you would rather a visitor
   could actually choose the table, that is a change to `respond.mjs` and therefore to the

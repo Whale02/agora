@@ -24,15 +24,29 @@ const philosophers = files.map((f) => {
   const topics = new Map();
   let words = 0;
   for (const p of c.passages) {
-    works.set(p.work, (works.get(p.work) ?? 0) + 1);
-    for (const t of p.topics ?? []) topics.set(t, (topics.get(t) ?? 0) + 1);
-    words += p.text.trim().split(/\s+/).length;
+    if (!works.has(p.work)) works.set(p.work, { count: 0, words: 0, topics: new Map() });
+    const w = works.get(p.work);
+    const n = p.text.trim().split(/\s+/).length;
+    w.count++;
+    w.words += n;
+    words += n;
+    for (const t of p.topics ?? []) {
+      topics.set(t, (topics.get(t) ?? 0) + 1);
+      w.topics.set(t, (w.topics.get(t) ?? 0) + 1);
+    }
   }
   return {
     slug: c.slug,
     passages: c.passages.length,
     words,
-    works: [...works].sort((a, b) => b[1] - a[1]).map(([work, count]) => ({ work, count })),
+    works: [...works]
+      .sort((a, b) => b[1].count - a[1].count)
+      .map(([work, w]) => ({
+        work,
+        count: w.count,
+        words: w.words,
+        topics: [...w.topics].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([topic]) => topic),
+      })),
     topics: [...topics].sort((a, b) => b[1] - a[1]).map(([topic, count]) => ({ topic, count })),
     translation_credits: c.translation_credits,
   };

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T00:36:02.643Z",
+  "generated_at": "2026-08-30T00:45:45.345Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -8,11 +8,29 @@
       "works": [
         {
           "work": "Nicomachean Ethics",
-          "count": 140
+          "count": 140,
+          "words": 32433,
+          "topics": [
+            "virtue",
+            "action",
+            "knowledge",
+            "self",
+            "meaning",
+            "work"
+          ]
         },
         {
           "work": "Politics",
-          "count": 140
+          "count": 140,
+          "words": 34586,
+          "topics": [
+            "freedom",
+            "knowledge",
+            "work",
+            "virtue",
+            "action",
+            "nature"
+          ]
         }
       ],
       "topics": [
@@ -91,7 +109,16 @@
       "works": [
         {
           "work": "The Analects (论语), my conversations as my students recorded them",
-          "count": 166
+          "count": 166,
+          "words": 17397,
+          "topics": [
+            "freedom",
+            "action",
+            "virtue",
+            "work",
+            "knowledge",
+            "self"
+          ]
         }
       ],
       "topics": [
@@ -160,15 +187,42 @@
       "works": [
         {
           "work": "Letter to Herodotus",
-          "count": 26
+          "count": 26,
+          "words": 6483,
+          "topics": [
+            "knowledge",
+            "nature",
+            "action",
+            "meaning",
+            "self",
+            "suffering"
+          ]
         },
         {
           "work": "Principal Doctrines",
-          "count": 16
+          "count": 16,
+          "words": 1407,
+          "topics": [
+            "knowledge",
+            "suffering",
+            "virtue",
+            "nature",
+            "love",
+            "meaning"
+          ]
         },
         {
           "work": "Letter to Menoeceus",
-          "count": 11
+          "count": 11,
+          "words": 2318,
+          "topics": [
+            "action",
+            "knowledge",
+            "suffering",
+            "nature",
+            "virtue",
+            "meaning"
+          ]
         }
       ],
       "topics": [
@@ -249,15 +303,42 @@
       "works": [
         {
           "work": "Critique of Pure Reason",
-          "count": 139
+          "count": 139,
+          "words": 33681,
+          "topics": [
+            "knowledge",
+            "meta",
+            "meaning",
+            "action",
+            "nature",
+            "self"
+          ]
         },
         {
           "work": "Groundwork of the Metaphysics of Morals",
-          "count": 86
+          "count": 86,
+          "words": 20819,
+          "topics": [
+            "knowledge",
+            "action",
+            "virtue",
+            "meaning",
+            "self",
+            "meta"
+          ]
         },
         {
           "work": "Critique of Practical Reason",
-          "count": 75
+          "count": 75,
+          "words": 18639,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "meaning",
+            "self",
+            "meta"
+          ]
         }
       ],
       "topics": [
@@ -342,23 +423,68 @@
       "works": [
         {
           "work": "Stages on Life's Way",
-          "count": 101
+          "count": 101,
+          "words": 24374,
+          "topics": [
+            "knowledge",
+            "love",
+            "action",
+            "self",
+            "meta",
+            "meaning"
+          ]
         },
         {
           "work": "Training in Christianity",
-          "count": 90
+          "count": 90,
+          "words": 21038,
+          "topics": [
+            "knowledge",
+            "action",
+            "meaning",
+            "self",
+            "suffering",
+            "nature"
+          ]
         },
         {
           "work": "Fear and Trembling",
-          "count": 47
+          "count": 47,
+          "words": 11325,
+          "topics": [
+            "action",
+            "knowledge",
+            "meaning",
+            "self",
+            "love",
+            "nature"
+          ]
         },
         {
           "work": "The Moment",
-          "count": 39
+          "count": 39,
+          "words": 9139,
+          "topics": [
+            "knowledge",
+            "meaning",
+            "action",
+            "love",
+            "self",
+            "nature"
+          ]
         },
         {
           "work": "Either/Or",
-          "count": 3
+          "count": 3,
+          "words": 902,
+          "topics": [
+            "love",
+            "action",
+            "virtue",
+            "freedom",
+            "knowledge",
+            "meaning"
+          ]
         }
       ],
       "topics": [
@@ -451,7 +577,16 @@
       "works": [
         {
           "work": "Daodejing (道德经)",
-          "count": 77
+          "count": 77,
+          "words": 10324,
+          "topics": [
+            "action",
+            "nature",
+            "knowledge",
+            "suffering",
+            "virtue",
+            "love"
+          ]
         }
       ],
       "topics": [
@@ -524,7 +659,16 @@
       "works": [
         {
           "work": "Meditations",
-          "count": 205
+          "count": 205,
+          "words": 45353,
+          "topics": [
+            "knowledge",
+            "action",
+            "nature",
+            "meaning",
+            "virtue",
+            "suffering"
+          ]
         }
       ],
       "topics": [
@@ -597,23 +741,68 @@
       "works": [
         {
           "work": "Thus Spoke Zarathustra",
-          "count": 100
+          "count": 100,
+          "words": 11243,
+          "topics": [
+            "nature",
+            "knowledge",
+            "virtue",
+            "love",
+            "self",
+            "meaning"
+          ]
         },
         {
           "work": "The Gay Science",
-          "count": 68
+          "count": 68,
+          "words": 14288,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "self",
+            "suffering",
+            "love",
+            "meaning"
+          ]
         },
         {
           "work": "Beyond Good and Evil",
-          "count": 58
+          "count": 58,
+          "words": 13414,
+          "topics": [
+            "knowledge",
+            "self",
+            "meta",
+            "virtue",
+            "meaning",
+            "action"
+          ]
         },
         {
           "work": "On the Genealogy of Morals",
-          "count": 53
+          "count": 53,
+          "words": 13266,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "meaning",
+            "self",
+            "meta",
+            "action"
+          ]
         },
         {
           "work": "Twilight of the Idols",
-          "count": 41
+          "count": 41,
+          "words": 8038,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "self",
+            "meaning",
+            "meta"
+          ]
         }
       ],
       "topics": [
@@ -710,35 +899,107 @@
       "works": [
         {
           "work": "Republic",
-          "count": 119
+          "count": 119,
+          "words": 21404,
+          "topics": [
+            "virtue",
+            "knowledge",
+            "action",
+            "meta",
+            "freedom",
+            "work"
+          ]
         },
         {
           "work": "Theaetetus",
-          "count": 44
+          "count": 44,
+          "words": 7953,
+          "topics": [
+            "knowledge",
+            "meta",
+            "action",
+            "nature",
+            "virtue",
+            "self"
+          ]
         },
         {
           "work": "Phaedo",
-          "count": 38
+          "count": 38,
+          "words": 7315,
+          "topics": [
+            "knowledge",
+            "suffering",
+            "meta",
+            "nature",
+            "action",
+            "meaning"
+          ]
         },
         {
           "work": "Timaeus",
-          "count": 37
+          "count": 37,
+          "words": 8545,
+          "topics": [
+            "nature",
+            "knowledge",
+            "meaning",
+            "freedom",
+            "self",
+            "action"
+          ]
         },
         {
           "work": "Phaedrus",
-          "count": 35
+          "count": 35,
+          "words": 7539,
+          "topics": [
+            "love",
+            "knowledge",
+            "meta",
+            "self",
+            "action",
+            "nature"
+          ]
         },
         {
           "work": "Symposium",
-          "count": 33
+          "count": 33,
+          "words": 7386,
+          "topics": [
+            "love",
+            "action",
+            "knowledge",
+            "virtue",
+            "meaning",
+            "work"
+          ]
         },
         {
           "work": "Meno",
-          "count": 31
+          "count": 31,
+          "words": 4875,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "love",
+            "meta",
+            "work"
+          ]
         },
         {
           "work": "Apology",
-          "count": 23
+          "count": 23,
+          "words": 5539,
+          "topics": [
+            "knowledge",
+            "action",
+            "meta",
+            "meaning",
+            "education",
+            "virtue"
+          ]
         }
       ],
       "topics": [
@@ -853,15 +1114,42 @@
       "works": [
         {
           "work": "The World as Will and Representation",
-          "count": 145
+          "count": 145,
+          "words": 36019,
+          "topics": [
+            "knowledge",
+            "meaning",
+            "nature",
+            "meta",
+            "self",
+            "action"
+          ]
         },
         {
           "work": "On the Basis of Morality",
-          "count": 90
+          "count": 90,
+          "words": 21861,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "meta",
+            "self",
+            "meaning"
+          ]
         },
         {
           "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
-          "count": 66
+          "count": 66,
+          "words": 14928,
+          "topics": [
+            "knowledge",
+            "self",
+            "work",
+            "meaning",
+            "nature",
+            "suffering"
+          ]
         }
       ],
       "topics": [
@@ -946,7 +1234,16 @@
       "works": [
         {
           "work": "Letters to Lucilius (Epistulae Morales)",
-          "count": 320
+          "count": 320,
+          "words": 74662,
+          "topics": [
+            "knowledge",
+            "action",
+            "suffering",
+            "self",
+            "virtue",
+            "nature"
+          ]
         }
       ],
       "topics": [
@@ -1019,7 +1316,16 @@
       "works": [
         {
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
-          "count": 300
+          "count": 300,
+          "words": 71034,
+          "topics": [
+            "knowledge",
+            "action",
+            "nature",
+            "education",
+            "self",
+            "virtue"
+          ]
         }
       ],
       "topics": [
@@ -1088,7 +1394,16 @@
       "works": [
         {
           "work": "Tractatus Logico-Philosophicus",
-          "count": 76
+          "count": 76,
+          "words": 13405,
+          "topics": [
+            "meta",
+            "knowledge",
+            "meaning",
+            "nature",
+            "action",
+            "freedom"
+          ]
         }
       ],
       "topics": [
@@ -1137,7 +1452,16 @@
       "works": [
         {
           "work": "Zhuangzi (庄子), especially the Inner Chapters",
-          "count": 300
+          "count": 300,
+          "words": 70713,
+          "topics": [
+            "nature",
+            "action",
+            "knowledge",
+            "virtue",
+            "freedom",
+            "suffering"
+          ]
         }
       ],
       "topics": [

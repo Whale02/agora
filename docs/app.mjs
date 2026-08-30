@@ -675,6 +675,442 @@ async function fillProfileSources(p) {
   });
 }
 
+/* ---------- the library: sources and the reader ---------- */
+
+const manifestP = () => load("data/passages.json");
+const corpusP = (slug) => load(`data/passages/${slug}.json`);
+
+// A philosopher's era string is prose. This pulls the first year out of it, negative for BC,
+// so the shelf and the timeline can stand in order without a second field in the data.
+function eraYear(era) {
+  const bc = /\bBC\b/.test(era);
+  const century = /(\d+)(?:st|nd|rd|th)\s+century/i.exec(era);
+  if (century) {
+    const c = Number(century[1]);
+    return bc ? -(c * 100) : (c - 1) * 100;
+  }
+  const first = /(\d{1,4})/.exec(era);
+  if (!first) return 0;
+  const n = Number(first[1]);
+  return bc ? -n : n;
+}
+
+const commas = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+// Every work in the library, flattened, in the order the thinkers lived.
+function shelf(manifest, by) {
+  const out = [];
+  for (const m of manifest.philosophers) {
+    const p = by[m.slug];
+    if (!p) continue;
+    m.works.forEach((w, i) => {
+      const credit = m.translation_credits.find((c) => c.work === w.work);
+      out.push({ ...w, slug: m.slug, index: i, phil: p, credit, year: eraYear(p.era) });
+    });
+  }
+  return out.sort((a, b) => a.year - b.year || a.phil.name_en.localeCompare(b.phil.name_en) || b.count - a.count);
+}
+
+// A work title carries its own gloss in philosophers.json for the compiled sources, which
+// reads well in a list of works and badly in a citation.
+const shortWork = (w) => w.replace(/,\s+(?:my|as|especially|including|published|compiled)\b.*$/, "");
+
+const sourcesState = { q: "", who: null, subject: null };
+
+async function renderSources() {
+  setNav("sources", "Sources");
+  main.innerHTML = `<p class="loading">Unlocking the library…</p>`;
+  const [manifest, phils, idx] = await Promise.all([manifestP(), philosophersP(), indexP()]);
+  const by = Object.fromEntries(phils.map((p) => [p.slug, p]));
+  const all = shelf(manifest, by);
+  const subjects = [...new Set(all.flatMap((w) => w.topics))].sort();
+  const passages = manifest.philosophers.reduce((n, m) => n + m.passages, 0);
+  const words = manifest.philosophers.reduce((n, m) => n + m.words, 0);
+
+  // The day's passage, chosen by the date so everyone sees the same one and nobody has to
+  // be tracked to make it change.
+  const daily = (await dailyPages(manifest, by, 1)).map((d) => pageCard(d, { label: "Today, from the library" })).join("");
+
+  main.innerHTML = `
+    <section class="canopy scene s-library split">
+      <h1>What they can quote</h1>
+      <p>Fourteen of the twenty-five wrote in a language whose translations have passed into the public domain. Their pages are here, ${commas(passages)} passages across ${all.length} works, and the philosophers read from them when they speak.</p>
+    </section>
+    ${daily}
+    <div class="filters">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 20 20"/></svg>
+        <input type="search" id="lib-q" placeholder="Search a work, a thinker, a translator" aria-label="Search the library">
+      </label>
+      <div class="chiprow" role="group" aria-label="Filter by thinker">
+        ${chips([[null, "Everyone"], ...[...new Set(all.map((w) => w.slug))].map((s) => [s, by[s].name_en])], "who", sourcesState.who)}
+      </div>
+      <div class="chiprow" role="group" aria-label="Filter by subject">
+        ${chips([[null, "Any subject"], ...subjects.map((s) => [s, s])], "subj", sourcesState.subject)}
+      </div>
+    </div>
+    <p class="tally" role="status"></p>
+    <ul class="shelf"></ul>
+    <div class="empty" hidden></div>
+    <section class="ages">
+      <h2>Where they stand in time</h2>
+      <ol>
+        ${manifest.philosophers
+          .map((m) => by[m.slug])
+          .filter(Boolean)
+          .sort((a, b) => eraYear(a.era) - eraYear(b.era))
+          .map(
+            (p) => `<li><a href="#/p/${esc(p.slug)}">${seat(p)}<span class="name">${esc(p.name_en)}</span><span class="when">${esc(p.era)}</span></a></li>`,
+          )
+          .join("")}
+      </ol>
+    </section>`;
+
+  const q = $("#lib-q", main);
+  q.value = sourcesState.q;
+  q.addEventListener("input", () => {
+    sourcesState.q = q.value;
+    paint();
+  });
+  main.querySelectorAll("[data-who]").forEach((b) =>
+    b.addEventListener("click", () => {
+      sourcesState.who = b.dataset.who || null;
+      paint();
+    }),
+  );
+  main.querySelectorAll("[data-subj]").forEach((b) =>
+    b.addEventListener("click", () => {
+      sourcesState.subject = b.dataset.subj || null;
+      paint();
+    }),
+  );
+
+  function paint() {
+    const needle = sourcesState.q.trim().toLowerCase();
+    const list = all
+      .filter((w) => !sourcesState.who || w.slug === sourcesState.who)
+      .filter((w) => !sourcesState.subject || w.topics.includes(sourcesState.subject))
+      .filter(
+        (w) =>
+          !needle ||
+          `${w.work} ${w.phil.name_en} ${w.phil.name_zh ?? ""} ${w.credit?.translator ?? ""} ${w.topics.join(" ")}`
+            .toLowerCase()
+            .includes(needle),
+      );
+
+    for (const b of main.querySelectorAll("[data-who]")) {
+      b.setAttribute("aria-pressed", String((b.dataset.who || null) === sourcesState.who));
+    }
+    for (const b of main.querySelectorAll("[data-subj]")) {
+      b.setAttribute("aria-pressed", String((b.dataset.subj || null) === sourcesState.subject));
+    }
+
+    $(".tally", main).textContent = `${list.length} ${list.length === 1 ? "work" : "works"} · ${commas(
+      list.reduce((n, w) => n + w.count, 0),
+    )} passages · ${commas(list.reduce((n, w) => n + w.words, 0))} words`;
+    $(".shelf", main).innerHTML = list.map((w) => volume(w, idx)).join("");
+    const empty = $(".empty", main);
+    empty.hidden = list.length > 0;
+    empty.innerHTML = list.length ? "" : `<h2>Nothing on that shelf</h2><p>No work here matches. Try a thinker's name, a translator, or a subject.</p>`;
+  }
+
+  paint();
+}
+
+function volume(w, idx) {
+  const tables = idx.conversations.filter((c) => w.topics.includes(c.category)).length;
+  return `<li><article class="volume">
+    <a class="cover" href="#/read/${esc(w.slug)}/${w.index}" aria-label="Read ${esc(shortWork(w.work))}"></a>
+    ${face(w.phil)}
+    <div class="spine">
+      <h2>${esc(shortWork(w.work))}</h2>
+      <p class="by"><span class="who">${esc(w.phil.name_en)}</span> · <span class="when">${esc(w.phil.era)}</span></p>
+      ${w.credit ? `<p class="credit">translated by ${esc(w.credit.translator)}, ${w.credit.year}</p>` : ""}
+      <ul class="topics">${w.topics.slice(0, 5).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+    </div>
+    <div class="tallies">
+      <span><b>${w.count}</b> passages</span>
+      <span><b>${commas(w.words)}</b> words</span>
+      ${tables ? `<span><b>${tables}</b> ${tables === 1 ? "table" : "tables"} on these subjects</span>` : ""}
+    </div>
+  </article></li>`;
+}
+
+/* ---------- the reader ---------- */
+
+const READER_PAGE = 12;
+
+// A book is read a stretch at a time. The stretches are fixed length so every corpus gets
+// the same treatment, and each is labelled by the references at its ends, so the nav reads
+// "Book I to Book III" rather than "page 2".
+function stretches(passages) {
+  const out = [];
+  for (let i = 0; i < passages.length; i += READER_PAGE) {
+    const part = passages.slice(i, i + READER_PAGE);
+    const first = part[0]?.ref;
+    const last = part.at(-1)?.ref;
+    out.push({
+      from: i,
+      to: i + part.length,
+      label: !first ? `${i + 1} to ${i + part.length}` : first === last ? first : `${first} to ${last}`,
+    });
+  }
+  return out;
+}
+
+async function renderReader(slug, workArg, sectionArg) {
+  setNav("sources");
+  main.innerHTML = `<p class="loading">Turning to the page…</p>`;
+  const [manifest, phils, idx] = await Promise.all([manifestP(), philosophersP(), indexP()]);
+  const by = Object.fromEntries(phils.map((p) => [p.slug, p]));
+  const m = manifest.philosophers.find((x) => x.slug === slug);
+  const p = by[slug];
+  if (!m || !p) {
+    return renderMissing("Nothing on that shelf", "The plaza holds no passages under that name. The library lists what it does hold.");
+  }
+  const n = Math.min(Math.max(0, Number(workArg) || 0), m.works.length - 1);
+  const work = m.works[n];
+  const credit = m.translation_credits.find((c) => c.work === work.work);
+  setNav("sources", shortWork(work.work));
+
+  let corpus;
+  try {
+    corpus = await corpusP(slug);
+  } catch {
+    return renderMissing("That book will not open", "The passages for this thinker did not load. The library page lists the rest.");
+  }
+  const passages = corpus.passages.filter((x) => x.work === work.work);
+  const parts = stretches(passages);
+  const sec = Math.min(Math.max(0, Number(sectionArg) || 0), parts.length - 1);
+  const part = parts[sec];
+  const shown = passages.slice(part.from, part.to);
+
+  // What is being argued at the plaza on the subjects this book touches. Topic overlap is
+  // the whole of the relation; nothing here is a commentary on the text.
+  const related = idx.conversations
+    .filter((c) => work.topics.includes(c.category))
+    .slice(0, 5);
+
+  main.innerHTML = `
+    <p class="crumb"><a href="#/sources">← The library</a></p>
+    <header class="folio scene s-library split">
+      <h1>${esc(shortWork(work.work))}</h1>
+      <p class="by"><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a>${p.name_zh ? ` <span class="zh">${esc(p.name_zh)}</span>` : ""} · ${esc(p.era)}</p>
+      ${credit ? `<p class="credit">Translated by ${esc(credit.translator)}, ${credit.year}. <a href="${esc(credit.source_url)}" rel="noopener">The edition this came from</a>.</p>` : ""}
+      <p class="counts">${passages.length} passages · ${commas(work.words)} words</p>
+    </header>
+
+    ${
+      m.works.length > 1
+        ? `<nav class="volumes" aria-label="Works by ${esc(p.name_en)}">
+            ${m.works
+              .map(
+                (w, i) =>
+                  `<a href="#/read/${esc(slug)}/${i}/0"${i === n ? ' aria-current="page"' : ""}>${esc(shortWork(w.work))}<span>${w.count}</span></a>`,
+              )
+              .join("")}
+          </nav>`
+        : ""
+    }
+
+    ${
+      parts.length > 1
+        ? `<nav class="stretches" aria-label="Sections of ${esc(shortWork(work.work))}">
+            ${parts
+              .map(
+                (x, i) =>
+                  `<a href="#/read/${esc(slug)}/${n}/${i}"${i === sec ? ' aria-current="page"' : ""}>${esc(x.label)}</a>`,
+              )
+              .join("")}
+          </nav>`
+        : ""
+    }
+
+    <div class="room">
+      <div class="floor">
+        <p class="reading">Passages ${part.from + 1} to ${part.to} of ${passages.length}</p>
+        <ol class="pages">
+          ${shown
+            .map(
+              (x, i) => `<li id="p${part.from + i + 1}">
+                <div class="lineno">${part.from + i + 1}</div>
+                <div class="page">
+                  <p class="where">${x.ref ? esc(x.ref) : esc(shortWork(x.work))}</p>
+                  <p class="body">${esc(x.text)}</p>
+                  <ul class="topics">${(x.topics ?? []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+                </div>
+              </li>`,
+            )
+            .join("")}
+        </ol>
+        ${
+          parts.length > 1
+            ? `<nav class="turn">
+                ${sec > 0 ? `<a href="#/read/${esc(slug)}/${n}/${sec - 1}">← ${esc(parts[sec - 1].label)}</a>` : "<span></span>"}
+                ${sec < parts.length - 1 ? `<a href="#/read/${esc(slug)}/${n}/${sec + 1}">${esc(parts[sec + 1].label)} →</a>` : "<span></span>"}
+              </nav>`
+            : ""
+        }
+      </div>
+      <aside class="apse" aria-labelledby="apse-t">
+        <h2 id="apse-t">Beside the text</h2>
+        <article class="source">
+          <h3>What this book is about</h3>
+          <ul class="topics">${work.topics.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+          <p class="counts">Subjects are tagged from the words each passage uses, and they are what the philosophers search when they answer a question.</p>
+        </article>
+        ${
+          related.length
+            ? `<article class="source">
+                <h3>Argued at the plaza</h3>
+                <p class="counts">Tables under the same subjects. No one here is commenting on this text.</p>
+                <ul class="kin">
+                  ${related
+                    .map(
+                      (c) => `<li><a href="#/c/${esc(c.id)}">${esc(c.topic)}</a><span class="rel">${esc(c.category ?? "")} · ${c.message_count} exchanges</span></li>`,
+                    )
+                    .join("")}
+                </ul>
+              </article>`
+            : ""
+        }
+        ${
+          credit
+            ? `<article class="source">
+                <h3>How to cite this</h3>
+                <p class="credit" id="cite-line">${esc(p.name_en)}, ${esc(shortWork(work.work))}, translated by ${esc(credit.translator)} (${credit.year}). ${esc(credit.source_url)}</p>
+                <button class="btn quiet small" data-cite>Copy the citation</button>
+              </article>`
+            : ""
+        }
+      </aside>
+    </div>`;
+
+  const cite = $("[data-cite]", main);
+  if (cite) {
+    cite.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText($("#cite-line", main).textContent.trim());
+        toast("Citation copied.");
+      } catch {
+        toast("Your browser would not let the page copy that.");
+      }
+    });
+  }
+}
+
+/* ---------- the study ---------- */
+
+// The day's philosopher and a few of their pages, chosen by the date. One corpus file is
+// fetched, not fourteen, and nobody is tracked to make the choice.
+async function dailyPages(manifest, by, count = 1) {
+  const day = Math.floor(Date.now() / 86400000);
+  const held = manifest.philosophers;
+  if (!held.length) return [];
+  const m = held[day % held.length];
+  const p = by[m.slug];
+  if (!p) return [];
+  let corpus;
+  try {
+    corpus = await corpusP(m.slug);
+  } catch {
+    return [];
+  }
+  const out = [];
+  for (let i = 0; i < count; i++) {
+    const x = corpus.passages[(day * 7919 + i * 2711) % corpus.passages.length];
+    out.push({
+      phil: p,
+      slug: m.slug,
+      passage: x,
+      credit: corpus.translation_credits.find((c) => c.work === x.work),
+      index: Math.max(0, m.works.findIndex((w) => w.work === x.work)),
+    });
+  }
+  return out;
+}
+
+function pageCard(d, { label } = {}) {
+  return `<figure class="daily scene s-marble split">
+    ${label ? `<p class="label">${esc(label)}</p>` : ""}
+    <blockquote>${esc(trim(d.passage.text, 460))}</blockquote>
+    <figcaption>
+      <a href="#/p/${esc(d.slug)}">${esc(d.phil.name_en)}</a>, ${esc(shortWork(d.passage.work))}${d.passage.ref ? `, ${esc(d.passage.ref)}` : ""}${d.credit ? `, translated by ${esc(d.credit.translator)}, ${d.credit.year}` : ""}
+    </figcaption>
+    <a class="btn" href="#/read/${esc(d.slug)}/${d.index}">Read on in ${esc(shortWork(d.passage.work))}</a>
+  </figure>`;
+}
+
+async function renderStudy() {
+  setNav("study", "The study");
+  main.innerHTML = `<p class="loading">Lighting the lamp…</p>`;
+  const [idx, phils, manifest] = await Promise.all([indexP(), philosophersP(), manifestP()]);
+  const by = Object.fromEntries(phils.map((p) => [p.slug, p]));
+  const held = Object.fromEntries(manifest.philosophers.map((m) => [m.slug, m]));
+
+  const exchanges = idx.conversations.reduce((n, c) => n + c.message_count, 0);
+  const passages = manifest.philosophers.reduce((n, m) => n + m.passages, 0);
+  const works = manifest.philosophers.reduce((n, m) => n + m.works.length, 0);
+
+  const recent = [...idx.conversations]
+    .sort((a, b) => b.updated_at.localeCompare(a.updated_at))
+    .slice(0, 5);
+
+  // Where to start: the thinkers the plaza is arguing with most, then the deepest shelves.
+  const seatedCount = new Map();
+  for (const c of idx.conversations) for (const s of c.participants) seatedCount.set(s, (seatedCount.get(s) ?? 0) + 1);
+  const doors = phils
+    .map((p) => ({ p, tables: seatedCount.get(p.slug) ?? 0, passages: held[p.slug]?.passages ?? 0 }))
+    .sort((a, b) => b.tables - a.tables || b.passages - a.passages)
+    .slice(0, 8);
+
+  main.innerHTML = `
+    <section class="canopy scene s-library split">
+      <h1>The study</h1>
+      <p>A quieter door into the same plaza. What the tables are arguing now, a page or two to read today, and a way in through whichever thinker you trust least.</p>
+    </section>
+
+    <div class="ledger">
+      <span><b>${commas(idx.conversations.length)}</b> tables open</span>
+      <span><b>${commas(exchanges)}</b> exchanges spoken</span>
+      <span><b>${commas(passages)}</b> passages held</span>
+      <span><b>${commas(works)}</b> works</span>
+      <span><b>${commas(phils.length)}</b> philosophers</span>
+    </div>
+
+    <div class="desk">
+      <section class="col-main">
+        <h2>Lately at the tables</h2>
+        <ul class="tables">${recent.map((c) => tablet(c, by)).join("")}</ul>
+        <p class="more"><a href="#/">All of the plaza →</a></p>
+      </section>
+      <aside class="col-side">
+        <h2>Pages for today</h2>
+        <div class="today"><p class="waiting">Finding the day's pages…</p></div>
+        <h2>Where to start</h2>
+        <ul class="doors">
+          ${doors
+            .map(
+              ({ p, tables, passages: n }) => `<li><a href="#/p/${esc(p.slug)}">
+                ${face(p)}
+                <span class="who"><span class="name">${esc(p.name_en)}</span>
+                <span class="rel">${tables ? `${tables} ${tables === 1 ? "table" : "tables"}` : "no table yet"}${n ? ` · ${commas(n)} passages` : ""}</span></span>
+              </a></li>`,
+            )
+            .join("")}
+        </ul>
+      </aside>
+    </div>`;
+
+  const pages = await dailyPages(manifest, by, 2);
+  const slot = $(".today", main);
+  if (slot) {
+    slot.innerHTML = pages.length
+      ? pages.map((d) => pageCard(d)).join("")
+      : `<p class="waiting">The library did not open. The <a href="#/sources">sources page</a> lists what it holds.</p>`;
+  }
+}
+
 /* ---------- about ---------- */
 
 function renderAbout() {
@@ -693,7 +1129,7 @@ function renderAbout() {
       <p>Each philosopher is an AI character grounded in the thinker's actual writings, with their documented positions, their real sources, and their honest relationships to the other twenty-four. Every work they cite exists, and they are under instruction to concede a point they cannot counter.</p>
       <p class="plain">They are characters, not the people. Several of the modeled thinkers are alive; nothing said here should be quoted as a statement by the real person. Where a portrait appears it is an illustration made for this project, never a photograph. The full sourcing policy is in the repository.</p>
       <h2>What they can quote</h2>
-      <p>Where a translation has passed into the public domain, the plaza holds the text itself. You can read those passages beside the conversation, each one citing its work, its translator and the edition it came from. Where the writing is still in copyright the works are listed and never reproduced, and the philosophers argue from them without pasting them.</p>
+      <p>Where a translation has passed into the public domain, the plaza holds the text itself. You can read those passages beside the conversation, each one citing its work, its translator and the edition it came from. Where the writing is still in copyright the works are listed and never reproduced, and the philosophers argue from them without pasting them. <a href="#/sources">The library lists every work the plaza holds</a>.</p>
       <h2>Open source</h2>
       <p class="plain">The plaza, the heartbeat, and every philosopher definition are MIT-licensed on <a href="https://github.com/${REPO}" rel="noopener">GitHub</a>. Deploy your own, or add the thinker you think is missing.</p>
     </article>
@@ -711,13 +1147,16 @@ function renderMissing(title, body) {
 
 async function route() {
   const hash = location.hash.replace(/^#/, "") || "/";
-  const [, view, arg] = hash.split("/");
+  const [, view, arg, arg2, arg3] = hash.split("/");
   window.scrollTo(0, 0);
   try {
     if (view === "" || view === undefined) await renderPlaza();
     else if (view === "c" && arg) await renderConversation(decodeURIComponent(arg));
     else if (view === "philosophers") await renderRoster();
     else if (view === "p" && arg) await renderPhilosopher(decodeURIComponent(arg));
+    else if (view === "sources") await renderSources();
+    else if (view === "study") await renderStudy();
+    else if (view === "read" && arg) await renderReader(decodeURIComponent(arg), arg2, arg3);
     else if (view === "about") renderAbout();
     else renderMissing("Lost in the stoa", "That path leads nowhere in this plaza.");
   } catch (err) {

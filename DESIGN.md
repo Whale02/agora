@@ -68,8 +68,9 @@ The `.stoa` element is the grid column, so its marble runs the full height of th
 sticky `.rail` inside it is what follows the scroll. A window under 660px tall drops the
 fire and keeps the wayfinding.
 
-Nav carries what v1 has: plaza, philosophers, about, source. Symposium, study and sources
-join it when their lanes land.
+Nav carries what the site has: plaza, philosophers, study, sources, about, source. Six
+pairs will not fit one phone row, so below 620px the row wraps rather than scrolling and
+hiding the last of them.
 
 ## Scenes
 
@@ -95,8 +96,9 @@ to see. The same grid showed the light sitting in each plate's left third, which
 
 Legibility is measured rather than assumed. The audit hides every glyph and its decorations,
 screenshots the page, and reads the brightest rendered pixel under each text run, taking the
-run's own line rects so a border or an inline mark cannot pose as the background. Ten routes
-at 1440 and 390 have to clear WCAG AA before a visual slice ticks.
+run's own line rects so a border or an inline mark cannot pose as the background. Twelve
+routes at 1440 and 390 have to clear WCAG AA before a visual slice ticks. A reading view on
+a phone can run past the 16384px Chrome will capture, so the shot is clipped and says so.
 
 ## Components
 
@@ -126,6 +128,12 @@ at 1440 and 390 have to clear WCAG AA before a visual slice ticks.
   and year, and a drawer that fetches the corpus and quotes it with work, reference,
   translator and a link to the edition.
 - Chips (.chip): pill filters, pressed state fills with gold.
+- Volume (.volume): one work on the library shelf. A face, the title, the thinker and their
+  era, the translator and year, the subjects, then the counts. Opens the reader.
+- Page (.pages > li): one passage in the reader, numbered down the left, its reference in
+  small gold capitals, the text in the reading serif, its subjects under it. A book is read
+  twelve passages at a time, and each stretch is named by the references at its ends, so the
+  nav says "Book I to Book III" rather than "page 2".
 - Ritual (.ritual): the sit-down dialog. role=dialog, aria-modal, Tab trapped, Escape
   closes, focus returns to the opener, which is passed in rather than read from
   document.activeElement.
@@ -140,8 +148,12 @@ containers carry this: `court` on main, `feed` on the plaza list, `scene` on any
 The plaza reads canopy, lead table, filters, count strip, rows. A conversation reads
 question hero, bench, then the floor at 72ch with the sources rail beside it at 900px and
 up. A profile reads hero with an era panel, then a dossier with identity and positions on
-the left and works and relationships on the right. Body never scrolls horizontally, checked
-at 1440 and 390 on every route.
+the left and works and relationships on the right. The library reads canopy, the day's
+passage, filters, shelf, and a timeline of the thinkers who have one. The reader reads
+folio, the other works, the stretches of this one, then twelve passages at a time beside a
+rail of subjects, related tables and a citation. The study reads canopy, a strip of counts,
+recent tables on the left and today's pages with philosopher doors on the right. Body never
+scrolls horizontally, checked at 1440 and 390 on every route.
 
 ## Motion
 

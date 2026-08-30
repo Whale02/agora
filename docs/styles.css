@@ -156,6 +156,11 @@ body { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 100vh; 
   .stoa nav a { padding: 6px 8px; gap: 7px; }
   .stoa nav .label .en { letter-spacing: 0.1em; }
 }
+/* six wayfinding pairs will not fit one phone row, and a row that scrolls hides the last
+   of them with nothing to say so; below 620px it wraps instead */
+@media (max-width: 620px) {
+  .stoa nav { flex-wrap: wrap; overflow-x: visible; }
+}
 
 @media (min-width: 900px) {
   .stoa { border-bottom: 0; border-right: 1px solid var(--line-strong); }
@@ -628,7 +633,7 @@ main:focus { outline: none; }
 .source h3 a { text-decoration: none; }
 .source h3 a:hover { text-decoration: underline; text-decoration-color: var(--gold-deep); }
 .source .credit { margin: 0 0 5px; font-size: 0.8rem; line-height: 1.45; color: var(--muted); }
-.source .counts { margin: 0; font-size: 0.76rem; color: var(--faint); }
+.source .counts { margin: 0; font-size: 0.78rem; line-height: 1.5; color: var(--muted); }
 .source .btn.small { margin-top: 11px; font-size: 0.8rem; padding: 6px 13px; }
 .source.none .counts { font-style: italic; }
 
@@ -726,9 +731,9 @@ main:focus { outline: none; }
 }
 .topics { list-style: none; display: flex; flex-wrap: wrap; gap: 7px; margin: 16px 0 0; padding: 0; }
 .topics li {
-  font-size: 0.74rem; letter-spacing: 0.06em;
-  color: var(--muted); border: 1px solid var(--line-strong);
-  padding: 3px 10px; border-radius: 999px;
+  font-size: 0.74rem; line-height: 1.5; letter-spacing: 0.06em;
+  color: var(--ink-soft); border: 1px solid var(--line-strong);
+  padding: 3px 11px; border-radius: 999px;
 }
 
 /* the mockup's era panel, opaque so it stays readable wherever the plate is bright */
@@ -753,7 +758,7 @@ main:focus { outline: none; }
   .col-side { position: sticky; top: 24px; }
 }
 .col-main { min-width: 0; max-width: 72ch; }
-.dossier h2 {
+.dossier > .col-main > h2, .dossier > .col-side > h2 {
   font-family: var(--lapidary); font-weight: 400; font-size: 0.9rem;
   letter-spacing: 0.18em; text-transform: uppercase;
   margin: 38px 0 14px; color: var(--gold);
@@ -781,6 +786,185 @@ main:focus { outline: none; }
 .works .credit { margin: 12px 0 0; font-size: 0.78rem; line-height: 1.5; color: var(--muted); }
 .works .btn.small { margin-top: 11px; font-size: 0.8rem; padding: 6px 13px; }
 .works .none { margin: 10px 0 0; font-size: 0.8rem; line-height: 1.5; color: var(--faint); }
+
+/* ---------- the library ---------- */
+.daily { margin: 22px 0 0; padding: 30px 26px; --scene-at: 40% 50%; }
+@container court (min-width: 700px) { .daily { padding: 38px 40px; } }
+.daily .label {
+  margin: 0 0 14px; font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--gold);
+}
+.daily blockquote {
+  margin: 0; padding: 0 0 0 16px;
+  border-left: 2px solid var(--gold-deep);
+  font-family: var(--serif); font-size: 1.06rem; line-height: 1.62; color: var(--ink);
+}
+.daily figcaption { margin: 14px 0 0 18px; font-size: 0.84rem; color: var(--muted); }
+.daily .btn { margin: 22px 0 0 18px; font-size: 0.88rem; padding: 8px 18px; }
+
+.shelf { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 12px; }
+@container court (min-width: 700px) { .shelf { grid-template-columns: 1fr 1fr; } }
+
+.volume {
+  position: relative; height: 100%;
+  display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 16px;
+  padding: 18px 20px;
+  background: var(--grain), var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  transition: border-color 0.16s ease-out, background-color 0.16s ease-out, transform 0.16s ease-out;
+}
+.volume:hover { transform: translateY(-1px); border-color: var(--line-strong); background: var(--grain), var(--surface-raised); }
+.volume > a.cover { position: absolute; inset: 0; border-radius: 10px; }
+.volume .spine { min-width: 0; }
+.volume h2 {
+  font-family: var(--display); font-weight: 500; font-size: 1.3rem; line-height: 1.2;
+  margin: 0 0 4px; color: var(--ink); text-wrap: balance;
+}
+.volume .by { margin: 0 0 3px; font-size: 0.84rem; color: var(--muted); }
+.volume .by .when { color: var(--faint); }
+.volume .credit { margin: 0; font-size: 0.78rem; color: var(--faint); }
+.volume .tallies {
+  grid-column: 1 / -1;
+  display: flex; flex-wrap: wrap; gap: 6px 16px;
+  margin-top: 4px; font-size: 0.78rem; color: var(--faint);
+}
+.volume .tallies b { color: var(--ink-soft); font-weight: 600; }
+
+.volume .topics, .pages .topics { gap: 6px; margin-top: 10px; }
+.volume .topics li, .pages .topics li { font-size: 0.7rem; padding: 3px 10px; }
+
+.ages { margin: 44px 0 0; }
+.ages h2 {
+  font-family: var(--lapidary); font-weight: 400; font-size: 0.9rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold);
+  margin: 0 0 16px;
+}
+.ages ol {
+  list-style: none; margin: 0; padding: 18px 0 0;
+  display: flex; gap: 10px; overflow-x: auto;
+  border-top: 1px solid var(--line-strong);
+  scrollbar-width: thin;
+}
+.ages li { flex: 0 0 auto; }
+.ages a {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  width: 116px; padding: 6px; border-radius: 8px; text-decoration: none; text-align: center;
+}
+.ages a:hover { background: var(--surface); }
+.ages .name { font-family: var(--display); font-size: 0.98rem; font-weight: 600; color: var(--ink); }
+.ages .when { font-size: 0.7rem; color: var(--faint); line-height: 1.3; }
+
+/* ---------- the reader ---------- */
+.folio { margin: 14px 0 0; padding: 30px 28px; --scene-at: 34% 46%; }
+@container court (min-width: 700px) { .folio { padding: 40px 40px 36px; } }
+.folio h1 {
+  font-family: var(--display); font-weight: 500;
+  font-size: clamp(1.9rem, 5vw, 2.9rem); line-height: 1.08;
+  margin: 0 0 10px; color: var(--ink); text-wrap: balance;
+}
+.folio .by { margin: 0 0 8px; font-size: 0.95rem; color: var(--ink-soft); }
+.folio .by .zh { font-family: var(--zh); color: var(--gold); }
+.folio .credit { margin: 0 0 6px; font-size: 0.86rem; color: var(--muted); }
+.folio .counts { margin: 0; font-size: 0.8rem; color: var(--faint); }
+
+.volumes { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; }
+.volumes a {
+  display: inline-flex; align-items: baseline; gap: 8px;
+  font-size: 0.84rem; text-decoration: none; color: var(--muted);
+  border: 1px solid var(--line-strong); border-radius: 999px; padding: 5px 13px;
+  transition: color 0.15s ease-out, border-color 0.15s ease-out, background-color 0.15s ease-out;
+}
+.volumes a span { font-size: 0.72rem; color: var(--faint); }
+.volumes a:hover { color: var(--ink); border-color: var(--gold-deep); }
+.volumes a[aria-current="page"] { background: var(--gold); border-color: var(--gold); color: #17120A; }
+.volumes a[aria-current="page"] span { color: #4A3A18; }
+
+.pages { list-style: none; margin: 0; padding: 0; }
+.pages > li {
+  display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: 0 12px;
+  padding: 20px 0; border-bottom: 1px solid var(--line);
+  scroll-margin-top: 20px;
+}
+.pages > li:last-child { border-bottom: 0; }
+.pages .lineno {
+  font-size: 0.78rem; color: var(--faint); text-align: right;
+  font-variant-numeric: tabular-nums; padding-top: 0.3rem;
+}
+.pages .where {
+  margin: 0 0 6px; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold);
+}
+.pages .body {
+  margin: 0; font-family: var(--serif); font-size: 1.05rem; line-height: 1.7;
+  color: var(--ink-soft);
+}
+.pages .topics { margin-top: 12px; }
+.pages .topics li { font-size: 0.68rem; }
+
+
+.stretches { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 0; }
+.stretches a {
+  font-size: 0.78rem; text-decoration: none; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 6px; padding: 4px 11px;
+  transition: color 0.15s ease-out, border-color 0.15s ease-out;
+}
+.stretches a:hover { color: var(--ink); border-color: var(--gold-deep); }
+.stretches a[aria-current="page"] { color: var(--gold-bright); border-color: var(--gold-deep); background: var(--surface-raised); }
+
+.reading {
+  margin: 0 0 4px; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--faint);
+}
+.turn {
+  display: flex; justify-content: space-between; gap: 16px;
+  margin: 26px 0 0; padding-top: 18px; border-top: 1px solid var(--line);
+  font-size: 0.88rem;
+}
+.turn a { color: var(--gold); text-decoration: none; }
+.turn a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+
+/* ---------- the study ---------- */
+.ledger {
+  display: flex; flex-wrap: wrap; gap: 10px 30px;
+  margin: 22px 0 0; padding: 16px 20px;
+  background: var(--surface-sunk);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 0.82rem; color: var(--faint);
+}
+.ledger b { display: block; font-family: var(--display); font-weight: 600; font-size: 1.5rem; color: var(--gold); line-height: 1.1; }
+
+.desk { display: grid; grid-template-columns: minmax(0, 1fr); gap: 34px; margin: 34px 0 0; }
+@container court (min-width: 900px) {
+  .desk { grid-template-columns: minmax(0, 1fr) 320px; gap: 44px; align-items: start; }
+}
+.desk > .col-main > h2, .desk > .col-side > h2 {
+  font-family: var(--lapidary); font-weight: 400; font-size: 0.9rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold);
+  margin: 34px 0 14px;
+}
+.desk .col-main > h2:first-child, .desk .col-side > h2:first-child { margin-top: 0; }
+.desk .more { margin: 16px 0 0; font-size: 0.88rem; }
+.desk .more a { color: var(--gold); text-decoration: none; }
+.desk .more a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.desk .waiting { color: var(--faint); font-size: 0.85rem; margin: 0; }
+.desk .daily { margin: 0 0 14px; padding: 22px 20px; }
+.desk .daily blockquote { font-size: 0.96rem; }
+.desk .daily .btn { margin-left: 18px; font-size: 0.82rem; padding: 7px 15px; }
+
+.doors { list-style: none; margin: 0; padding: 0; }
+.doors li { border-bottom: 1px solid var(--line); }
+.doors li:last-child { border-bottom: 0; }
+.doors a {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 8px; border-radius: 8px; text-decoration: none;
+  transition: background-color 0.15s ease-out;
+}
+.doors a:hover { background: var(--surface); }
+.doors .name { display: block; font-family: var(--display); font-weight: 600; font-size: 1.04rem; color: var(--ink); }
+.doors .rel { margin-top: 1px; }
 
 /* ---------- about ---------- */
 .about { max-width: 66ch; }

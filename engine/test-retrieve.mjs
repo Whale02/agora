@@ -113,22 +113,35 @@ for (const slug of slugs) {
   }
   if (index.works.length !== new Set(index.works.map((w) => w.work)).size) problems.push("a work is indexed twice");
 
-  // The original beside the translation. A passage that carries one has to carry real
-  // characters in it, and a work with any of them has to say which edition they came from,
-  // or the reader is looking at an original nobody can trace.
+  // The original beside the translation. A work that carries any has to say which edition
+  // they came from and what language they are in, or the reader is looking at an original
+  // nobody can trace; and every one of them has to be written in that language, because a
+  // field named for the original holding English would be the quietest kind of wrong.
+  const SCRIPT = {
+    "zh-Hant": /[㐀-鿿]/,
+    grc: /[Ͱ-Ͽἀ-῿]/,
+    la: /^[^Ͱ-Ͽἀ-῿㐀-鿿]+$/,
+    de: /[a-zäöüß]/i,
+    da: /[a-zæøå]/i,
+  };
   for (const w of index.works) {
     const held = readWork(slug, w.slug);
     if (!held) continue;
-    const withOriginal = held.passages.filter((x) => x.text_zh);
+    const withOriginal = held.passages.filter((x) => x.text_original);
     if (!withOriginal.length) {
       if (held.original_credit) problems.push(`${w.file} credits an original no passage carries`);
       continue;
     }
-    if (!held.original_credit?.title || !held.original_credit?.source_url) {
-      problems.push(`${w.file} carries ${withOriginal.length} originals with no original_credit`);
+    const credit = held.original_credit;
+    if (!credit?.title || !credit?.source_url || !credit?.lang) {
+      problems.push(`${w.file} carries ${withOriginal.length} originals with no complete original_credit`);
     }
-    const empty = withOriginal.filter((x) => !/[㐀-鿿Ͱ-Ͽἀ-῿]/.test(x.text_zh));
-    if (empty.length) problems.push(`${empty.length} originals in ${w.file} carry no Chinese or Greek characters`);
+    const script = SCRIPT[credit?.lang];
+    if (credit?.lang && !script) problems.push(`${w.file} names a language nothing knows how to check: ${credit.lang}`);
+    if (script) {
+      const wrong = withOriginal.filter((x) => !script.test(x.text_original));
+      if (wrong.length) problems.push(`${wrong.length} originals in ${w.file} are not written in ${credit.lang}`);
+    }
     if (w.paired !== withOriginal.length) problems.push(`${w.file} pairs ${withOriginal.length}, the index says ${w.paired ?? 0}`);
   }
   if (short) problems.push(`${short} passages under ${MIN_WORDS} words`);
@@ -178,24 +191,27 @@ for (const slug of slugs) {
   check(asked > 0 && found / asked >= 0.9, `${slug} finds its own passages`, `${found} of ${asked}`);
 }
 
-// A question asked in Chinese has to reach the passage it was taken from. The Chinese sits
-// on a shelf of its own, so this fails independently of anything the English retrieval does.
+// A question asked in the philosopher's own language has to reach the passage it was taken
+// from. The originals sit on a shelf of their own, so this fails independently of anything
+// the English retrieval does.
 for (const slug of slugs) {
-  const paired = readIndex(slug)
-    .works.flatMap((w) => readWork(slug, w.slug).passages)
-    .filter((x) => x.text_zh);
+  const works = readIndex(slug).works.map((w) => readWork(slug, w.slug));
+  const paired = works.flatMap((f) => f.passages.filter((x) => x.text_original));
   if (!paired.length) continue;
+  const lang = works.find((f) => f.original_credit)?.original_credit?.lang;
   const step = Math.max(1, Math.floor(paired.length / 12));
   let asked = 0;
   let found = 0;
   for (let i = 0; i < paired.length; i += step) {
     const want = paired[i];
-    const query = want.text_zh.replace(/[^㐀-鿿]/g, "").slice(4, 20);
+    const query = /^zh/.test(lang ?? "")
+      ? want.text_original.replace(/[^㐀-鿿]/g, "").slice(4, 20)
+      : want.text_original.split(/\s+/).slice(3, 12).join(" ");
     if (query.length < 8) continue;
     asked++;
     if (retrieve(slug, query, 4).some((h) => h.text === want.text)) found++;
   }
-  check(asked > 0 && found / asked >= 0.9, `${slug} finds its passages from a question in Chinese`, `${found} of ${asked}`);
+  check(asked > 0 && found / asked >= 0.9, `${slug} finds its passages from a question in ${lang ?? "its own language"}`, `${found} of ${asked}`);
 }
 
 // And it has to be useful against the questions the heartbeat actually draws from. A corpus

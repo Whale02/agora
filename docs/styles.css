@@ -41,6 +41,10 @@
   --lapidary: "Marcellus", "Cormorant Garamond", serif;
   --serif: "Source Serif 4", Georgia, serif;
   --zh: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", "Microsoft YaHei", serif;
+  /* Polytonic Greek. Source Serif 4 has no precomposed glyphs for it, so a browser draws
+     the letter and then drops the breathing and the accent beside it: Παρα` for Παρὰ. Every
+     face below carries the Greek Extended block whole. */
+  --greek: "Palatino Linotype", "Book Antiqua", Palatino, Cambria, "Times New Roman", "Liberation Serif", "DejaVu Serif", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   color-scheme: dark;
@@ -673,15 +677,18 @@ main:focus { outline: none; }
 .passage figcaption { margin: 6px 0 0 14px; font-size: 0.72rem; color: var(--faint); }
 .passage figcaption a { color: var(--gold); margin-left: 6px; }
 
-/* The philosopher's own language, above the English. It is set in the Chinese face, a
-   shade brighter than the translation and looser between the characters, because the two
-   are not the same text and the eye should not run them together. */
+/* The philosopher's own language, above the English: a shade brighter than the translation
+   and set a little looser, because the two are not the same text and the eye should not run
+   them together. Chinese gets the Chinese face; Greek and the rest keep the serif, which
+   carries their letters already. */
 .passage blockquote.original {
-  font-family: var(--zh); font-size: 0.92rem; line-height: 1.9; letter-spacing: 0.04em;
+  font-size: 0.92rem; line-height: 1.9; letter-spacing: 0.02em;
   color: var(--ink); margin-bottom: 8px; border-left-color: var(--gold);
 }
+.passage blockquote.original[lang^="zh"] { font-family: var(--zh); letter-spacing: 0.04em; }
+.passage blockquote.original[lang="grc"] { font-family: var(--greek); font-size: 0.95rem; }
 .passage figcaption .from-original {
-  display: block; margin-top: 3px; font-family: var(--zh); letter-spacing: 0.03em;
+  display: block; margin-top: 3px; letter-spacing: 0.03em;
 }
 .passage figcaption .from-original a { margin-left: 4px; }
 
@@ -984,10 +991,12 @@ main:focus { outline: none; }
   color: var(--ink-soft);
 }
 .pages .body.original {
-  font-family: var(--zh); font-size: 1.02rem; line-height: 2.05; letter-spacing: 0.05em;
+  font-size: 1.02rem; line-height: 1.95; letter-spacing: 0.02em;
   color: var(--ink); margin-bottom: 14px;
   padding-bottom: 14px; border-bottom: 1px solid var(--line);
 }
+.pages .body.original[lang^="zh"] { font-family: var(--zh); line-height: 2.05; letter-spacing: 0.05em; }
+.pages .body.original[lang="grc"] { font-family: var(--greek); font-size: 1.08rem; }
 .pages .topics { margin-top: 12px; }
 .pages .topics li { font-size: 0.68rem; }
 

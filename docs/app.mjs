@@ -488,12 +488,12 @@ function pickPassages(passages, subject, n) {
 // goes first and the translator is named on the English, the edition on the original.
 function passageCard(x, credit, original) {
   return `<figure class="passage">
-    ${x.text_zh ? `<blockquote class="original" lang="zh-Hant">${esc(trim(x.text_zh, 200))}</blockquote>` : ""}
+    ${x.text_original ? `<blockquote class="original" lang="${esc(original?.lang ?? "")}">${esc(trim(x.text_original, 200))}</blockquote>` : ""}
     <blockquote>${esc(trim(x.text, 320))}</blockquote>
     <figcaption>
       ${esc(shortWork(x.work))}${x.ref ? `, ${esc(x.ref)}` : ""}${credit ? `, translated by ${esc(credit.translator)}, ${credit.year}` : ""}
       ${credit?.source_url ? `<a href="${esc(credit.source_url)}" rel="noopener">source</a>` : ""}
-      ${x.text_zh && original ? `<span class="from-original">${esc(original.title)}${original.source_url ? `, <a href="${esc(original.source_url)}" rel="noopener">${esc(sourceName(original.source_url))}</a>` : ""}</span>` : ""}
+      ${x.text_original && original ? `<span class="from-original">${esc(original.title)}${original.source_url ? `, <a href="${esc(original.source_url)}" rel="noopener">${esc(sourceName(original.source_url))}</a>` : ""}</span>` : ""}
     </figcaption>
   </figure>`;
 }
@@ -1063,7 +1063,7 @@ async function renderReader(slug, workArg, sectionArg) {
       <h1>${esc(shortWork(work.work))}</h1>
       <p class="by"><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a>${p.name_zh ? ` <span class="zh">${esc(p.name_zh)}</span>` : ""} · ${esc(p.era)}</p>
       ${credit ? `<p class="credit">Translated by ${esc(credit.translator)}, ${credit.year}. <a href="${esc(credit.source_url)}" rel="noopener">The edition this came from</a>.${credit.note ? ` ${esc(credit.note)}` : ""}</p>` : ""}
-      ${file.original_credit ? `<p class="credit">The original, <span lang="zh-Hant">${esc(file.original_credit.title)}</span>${file.original_credit.edition ? `, ${esc(file.original_credit.edition)}` : ""}. <a href="${esc(file.original_credit.source_url)}" rel="noopener">Where it was transcribed</a>. It stands above the English on the ${work.paired ?? 0} of these ${passages.length} passages it could be aligned to.</p>` : ""}
+      ${file.original_credit ? `<p class="credit">The original, <span lang="${esc(file.original_credit.lang ?? "")}">${esc(file.original_credit.title)}</span>${file.original_credit.edition ? `, ${esc(file.original_credit.edition)}` : ""}. <a href="${esc(file.original_credit.source_url)}" rel="noopener">Where it was transcribed</a>. It stands above the English on the ${work.paired ?? 0} of these ${passages.length} passages it could be aligned to.${file.original_credit.note ? ` ${esc(file.original_credit.note)}` : ""}</p>` : ""}
       <p class="counts">${passages.length} passages · ${commas(work.words)} words</p>
     </header>
 
@@ -1103,7 +1103,7 @@ async function renderReader(slug, workArg, sectionArg) {
                 <div class="lineno">${part.from + i + 1}</div>
                 <div class="page">
                   <p class="where">${x.ref ? esc(x.ref) : esc(shortWork(x.work))}</p>
-                  ${x.text_zh ? `<p class="body original" lang="zh-Hant">${esc(x.text_zh)}</p>` : ""}
+                  ${x.text_original ? `<p class="body original" lang="${esc(file.original_credit?.lang ?? "")}">${esc(x.text_original)}</p>` : ""}
                   <p class="body">${esc(x.text)}</p>
                   <ul class="topics">${(x.topics ?? []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
                 </div>

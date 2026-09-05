@@ -51,7 +51,7 @@ export function passageBlock(slug, pages) {
       // Where the original survives beside the translation, the philosopher gets both, his
       // own words first. He wrote those; the English is another man's reading of them, and
       // someone quoting himself should be able to reach for what he actually wrote.
-      const original = p.text_zh ? `${originalFor(slug, p.work)?.title ?? "原文"}: ${p.text_zh}\n` : "";
+      const original = p.text_original ? `${originalFor(slug, p.work)?.title ?? "原文"}: ${p.text_original}\n` : "";
       return `[${where}${trans}]\n${original}${p.text}`;
     })
     .join("\n\n");

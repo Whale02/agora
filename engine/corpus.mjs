@@ -78,7 +78,7 @@ export function refreshIndex(slug) {
   if (!index) throw new Error(`no corpus for ${slug}`);
   index.works = index.works.map((w) => {
     const file = readWork(slug, w.slug);
-    const paired = file.passages.filter((p) => p.text_zh).length;
+    const paired = file.passages.filter((p) => p.text_original).length;
     const { paired: _p, original: _o, ...rest } = w;
     return {
       ...rest,
@@ -111,9 +111,9 @@ export function writeCorpus(slug, credits, passages) {
     const wslug = workSlug(work, taken);
     taken.add(wslug);
     // A work may carry the original language beside the translation: the credit names the
-    // edition the Chinese or the Greek came from, and a passage carries `text_zh` where the
-    // original for it is known. A passage without one is a passage nobody could align, which
-    // is a normal state and not a gap.
+    // edition it came from and the language it is in, and a passage carries `text_original`
+    // where the original for it is known. A passage without one is a passage nobody could
+    // align, which is a normal state and not a gap.
     const { original, ...translation } = credit;
     const body = {
       slug,
@@ -124,7 +124,7 @@ export function writeCorpus(slug, credits, passages) {
       passages: list,
     };
     fs.writeFileSync(path.join(dir, `${wslug}.json`), JSON.stringify(body, null, 2) + "\n", "utf8");
-    const paired = list.filter((p) => p.text_zh).length;
+    const paired = list.filter((p) => p.text_original).length;
     works.push({
       work,
       slug: wslug,

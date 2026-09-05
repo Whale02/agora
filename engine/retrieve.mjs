@@ -52,20 +52,34 @@ export function tokenize(text) {
   return out;
 }
 
-// Classical Chinese writes no spaces and few words of more than two characters, so the
-// unit to match on is the character pair: 天命 and 命性 out of 天命性, which finds a phrase
-// wherever the question breaks it. A run of one character stands as its own token, or a
-// question about 仁 would find nothing at all.
-export function tokenizeZh(text) {
+// The originals are not all one language, so they are not all one kind of token. Classical
+// Chinese writes no spaces and few words of more than two characters, so the unit to match
+// on is the character pair: 天命 and 命性 out of 天命性, which finds a phrase wherever the
+// question breaks it. Greek, Latin, German and Danish write words, so words is what they
+// give, lowercased and stripped of the accents an asker is unlikely to type. No English
+// stemmer and no English stop list touches either: both would be nonsense here.
+const CJK = /[㐀-鿿]/;
+const CJK_RUN = /[㐀-鿿]+/g;
+const WORD_RUN = /[\p{L}\p{M}]{2,}/gu;
+
+export function tokenizeOriginal(text) {
+  const s = String(text);
   const out = [];
-  for (const run of String(text).match(/[㐀-鿿]+/g) ?? []) {
+  for (const run of s.match(CJK_RUN) ?? []) {
     if (run.length === 1) out.push(run);
     for (let i = 0; i + 1 < run.length; i++) out.push(run.slice(i, i + 2));
+  }
+  if (CJK.test(s)) return out;
+  for (const w of s.toLowerCase().match(WORD_RUN) ?? []) {
+    out.push(w.normalize("NFD").replace(/\p{M}/gu, ""));
   }
   return out;
 }
 
-export const looksChinese = (s) => /[㐀-鿿]/.test(String(s));
+// Which shelf a question belongs on. A question in Chinese or Greek could only be asking
+// after an original; a question in Latin script might be English, so that one tries the
+// translations first and falls back.
+export const askedInOriginal = (s) => CJK.test(s) || /[Ͱ-Ͽἀ-῿]/.test(String(s));
 
 const indexes = new Map();
 
@@ -88,11 +102,11 @@ function build(slug) {
   if (!index) return null;
   const docs = [];
   // The originals get a shelf of their own rather than a share of the English one. Folding
-  // the Chinese into the same document would roughly double the length of every passage
-  // that carries an original, and BM25 divides by length, so a paired passage would sink in
-  // English results for having been paired. Two shelves keep English retrieval exactly as
-  // it was and let a question asked in Chinese be answered in the language it was asked in.
-  const zhDocs = [];
+  // an original into the same document would roughly double the length of every passage
+  // that carries one, and BM25 divides by length, so a paired passage would sink in English
+  // results for having been paired. Two shelves keep English retrieval exactly as it was and
+  // let a question asked in another language be answered in the language it was asked in.
+  const originalDocs = [];
   const credits = [];
   const originals = [];
   for (const w of index.works) {
@@ -103,10 +117,10 @@ function build(slug) {
     for (const p of file.passages) {
       const toks = tokenize(`${p.text} ${p.work} ${p.ref ?? ""} ${(p.topics ?? []).join(" ")}`);
       docs.push({ passage: p, ...counted(toks) });
-      if (p.text_zh) zhDocs.push({ passage: p, ...counted(tokenizeZh(p.text_zh)) });
+      if (p.text_original) originalDocs.push({ passage: p, ...counted(tokenizeOriginal(p.text_original)) });
     }
   }
-  return { slug, ...shelf(docs), zh: shelf(zhDocs), credits, originals };
+  return { slug, ...shelf(docs), original: shelf(originalDocs), credits, originals };
 }
 
 // The index for a philosopher, or null when the plaza holds no passages from them.
@@ -120,10 +134,15 @@ export const hasCorpus = (slug) => indexFor(slug) !== null;
 export function retrieve(slug, query, k = 4) {
   const idx = indexFor(slug);
   if (!idx || !idx.docs.length) return [];
-  // A question written in Chinese is asked of the originals; anything else, of the English.
-  const inChinese = looksChinese(query);
-  const shelved = inChinese ? idx.zh : idx;
-  const terms = [...new Set(inChinese ? tokenizeZh(query) : tokenize(query))];
+  // A question in a script the translations are not written in is asked of the originals.
+  // A question in Latin script is asked of the translations, and only if they hold nothing
+  // for it is it put to the originals, which is where a question in German or Latin lands.
+  let shelved = askedInOriginal(query) ? idx.original : idx;
+  let terms = [...new Set(shelved === idx ? tokenize(query) : tokenizeOriginal(query))];
+  if (shelved === idx && !terms.some((t) => idx.df.has(t)) && idx.original.docs.length) {
+    shelved = idx.original;
+    terms = [...new Set(tokenizeOriginal(query))];
+  }
   if (!terms.length || !shelved.docs.length) return [];
 
   const N = shelved.docs.length;
@@ -144,7 +163,7 @@ export function retrieve(slug, query, k = 4) {
     work: d.passage.work,
     ref: d.passage.ref ?? null,
     text: d.passage.text,
-    ...(d.passage.text_zh ? { text_zh: d.passage.text_zh } : {}),
+    ...(d.passage.text_original ? { text_original: d.passage.text_original } : {}),
     topics: d.passage.topics ?? [],
     score: Math.round(score * 1000) / 1000,
   }));

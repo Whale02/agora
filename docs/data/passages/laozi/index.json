@@ -1,0 +1,15 @@
+{
+  "slug": "laozi",
+  "works": [
+    {
+      "work": "Daodejing (道德经)",
+      "slug": "daodejing",
+      "file": "daodejing.json",
+      "passages": 77,
+      "words": 10324,
+      "translator": "James Legge",
+      "year": 1891,
+      "source_url": "https://www.gutenberg.org/ebooks/216"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "wittgenstein",
+  "works": [
+    {
+      "work": "Tractatus Logico-Philosophicus",
+      "slug": "tractatus-logico-philosophicus",
+      "file": "tractatus-logico-philosophicus.json",
+      "passages": 76,
+      "words": 13405,
+      "translator": "C. K. Ogden",
+      "year": 1922,
+      "source_url": "https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus"
+    }
+  ]
+}

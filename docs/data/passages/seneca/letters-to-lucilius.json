@@ -1,13 +1,13 @@
 {
   "slug": "seneca",
-  "translation_credits": [
-    {
-      "work": "Letters to Lucilius (Epistulae Morales)",
-      "translator": "Richard Mott Gummere",
-      "year": 1917,
-      "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
-    }
-  ],
+  "work": "Letters to Lucilius (Epistulae Morales)",
+  "work_slug": "letters-to-lucilius",
+  "translation_credit": {
+    "work": "Letters to Lucilius (Epistulae Morales)",
+    "translator": "Richard Mott Gummere",
+    "year": 1917,
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+  },
   "passages": [
     {
       "work": "Letters to Lucilius (Epistulae Morales)",

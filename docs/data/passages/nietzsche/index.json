@@ -1,0 +1,55 @@
+{
+  "slug": "nietzsche",
+  "works": [
+    {
+      "work": "Thus Spoke Zarathustra",
+      "slug": "thus-spoke-zarathustra",
+      "file": "thus-spoke-zarathustra.json",
+      "passages": 100,
+      "words": 11243,
+      "translator": "Thomas Common",
+      "year": 1909,
+      "source_url": "https://www.gutenberg.org/ebooks/1998"
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "slug": "beyond-good-and-evil",
+      "file": "beyond-good-and-evil.json",
+      "passages": 58,
+      "words": 13414,
+      "translator": "Helen Zimmern",
+      "year": 1907,
+      "source_url": "https://www.gutenberg.org/ebooks/4363"
+    },
+    {
+      "work": "On the Genealogy of Morals",
+      "slug": "on-the-genealogy-of-morals",
+      "file": "on-the-genealogy-of-morals.json",
+      "passages": 53,
+      "words": 13266,
+      "translator": "Horace B. Samuel",
+      "year": 1913,
+      "source_url": "https://www.gutenberg.org/ebooks/52319"
+    },
+    {
+      "work": "The Gay Science",
+      "slug": "the-gay-science",
+      "file": "the-gay-science.json",
+      "passages": 68,
+      "words": 14288,
+      "translator": "Thomas Common",
+      "year": 1910,
+      "source_url": "https://www.gutenberg.org/ebooks/52881"
+    },
+    {
+      "work": "Twilight of the Idols",
+      "slug": "twilight-of-the-idols",
+      "file": "twilight-of-the-idols.json",
+      "passages": 41,
+      "words": 8038,
+      "translator": "Anthony M. Ludovici",
+      "year": 1911,
+      "source_url": "https://www.gutenberg.org/ebooks/52263"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "slug": "marcus-aurelius",
-  "translation_credits": [
-    {
-      "work": "Meditations",
-      "translator": "George Long",
-      "year": 1862,
-      "source_url": "https://www.gutenberg.org/ebooks/15877"
-    }
-  ],
+  "work": "Meditations",
+  "work_slug": "meditations",
+  "translation_credit": {
+    "work": "Meditations",
+    "translator": "George Long",
+    "year": 1862,
+    "source_url": "https://www.gutenberg.org/ebooks/15877"
+  },
   "passages": [
     {
       "work": "Meditations",

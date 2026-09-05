@@ -1,13 +1,13 @@
 {
   "slug": "confucius",
-  "translation_credits": [
-    {
-      "work": "The Analects (论语), my conversations as my students recorded them",
-      "translator": "James Legge",
-      "year": 1893,
-      "source_url": "https://www.gutenberg.org/ebooks/3330"
-    }
-  ],
+  "work": "The Analects (论语), my conversations as my students recorded them",
+  "work_slug": "the-analects",
+  "translation_credit": {
+    "work": "The Analects (论语), my conversations as my students recorded them",
+    "translator": "James Legge",
+    "year": 1893,
+    "source_url": "https://www.gutenberg.org/ebooks/3330"
+  },
   "passages": [
     {
       "work": "The Analects (论语), my conversations as my students recorded them",

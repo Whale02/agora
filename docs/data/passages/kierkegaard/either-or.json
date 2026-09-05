@@ -1,0 +1,43 @@
+{
+  "slug": "kierkegaard",
+  "work": "Either/Or",
+  "work_slug": "either-or",
+  "translation_credit": {
+    "work": "Either/Or",
+    "translator": "Lee M. Hollander",
+    "year": 1923,
+    "source_url": "https://www.gutenberg.org/ebooks/60333"
+  },
+  "passages": [
+    {
+      "work": "Either/Or",
+      "ref": "Diapsalmata",
+      "text": "What is a poet? An unhappy man who conceals profound anguish in his heart, but whose lips are so fashioned that when sighs and groans pass over them they sound like beautiful music. His fate resembles that of the unhappy men who were slowly roasted by a gentle fire in the tyrant Phalaris' bull--their shrieks could not reach his ear to terrify him, to him they sounded like sweet music. And people flock about the poet and say to him: do sing again; which means, would that new sufferings tormented your soul, and: would that your lips stayed fashioned as before, for your cries would only terrify us, but your music is delightful. And the critics join them, saying: well done, thus must it be according to the laws of æsthetics. Why, to be sure, a critic resembles a poet as one pea another, the only difference being that he has no anguish in his heart and no music on his lips. Behold, therefore would I rather be a swineherd on Amager, and be understood by the swine than a poet, and misunderstood by men.\n\nIn addition to my numerous other acquaintances I have still one more intimate friend--my melancholy. In the midst of pleasure, in the midst of work, he beckons to me, calls me aside, even though I remain present bodily. My melancholy is the most faithful sweetheart I have had--no wonder that I return the love!",
+      "topics": [
+        "love",
+        "freedom",
+        "action"
+      ]
+    },
+    {
+      "work": "Either/Or",
+      "ref": "Diapsalmata",
+      "text": "Of all ridiculous things the most ridiculous seems to me, to be busy--to be a man who is brisk about his food and his work. Therefore, whenever I see a fly settling, in the decisive moment, on the nose of such a person of affairs; or if he is spattered with mud from a carriage which drives past him in still greater haste; or the drawbridge opens up before him; or a tile falls down and knocks him dead, then I laugh heartily. And who, indeed, could help laughing? What, I wonder, do these busy folks get done? Are they not to be classed with the woman who in her confusion about the house being on fire carried out the fire-tongs? What things of greater account, do you suppose, will they rescue from life's great conflagration?\n\nLet others complain that the times are wicked. I complain that they are paltry; for they are without passion. The thoughts of men are thin and frail like lace, and they themselves are feeble like girl lace-makers. The thoughts of their hearts are too puny to be sinful. For a worm it might conceivably be regarded a sin to harbor thoughts such as theirs, not for a man who is formed in the image of God. Their lusts are staid and sluggish, their passions sleepy; they do their duty, these sordid minds, but permit themselves, as did the Jews, to trim the coins just the least little bit, thinking that if our Lord keep tab of them ever so carefully one might yet safely venture to fool him a bit. Fye upon them! It is therefore my soul ever returns to the Old Testament and to Shakespeare. There at least one feels that one is dealing with men and women; there one hates and loves, there one murders one's enemy and curses his issue through all generations--there one sins.",
+      "topics": [
+        "virtue",
+        "action"
+      ]
+    },
+    {
+      "work": "Either/Or",
+      "ref": "Diapsalmata",
+      "text": "Just as, according to the legend, Parmeniscus in the Trophonian cave lost his ability to laugh, but recovered it again on the island of Delos at the sight of a shapeless block which was exhibited as the image of the goddess Leto: likewise did it happen to me. When I was very young I forgot in the Trophonian cave how to laugh; but when I grew older and opened my eyes and contemplated the real world, I had to laugh, and have not ceased laughing, ever since. I beheld that the meaning of life was to make a living; its goal, to become Chief Justice; that the delights of love consisted in marrying a woman with ample means; that it was the blessedness of friendship to help one another in financial difficulties; that wisdom was what most people supposed it to be; that it showed enthusiasm to make a speech, and courage, to risk being fined 10 dollars; that it was cordiality to say \"may it agree with you\" after a repast; that it showed piety to partake of the communion once a year. I saw that and laughed.\n\nA strange thing happened to me in my dream. I was rapt into the Seventh Heaven. There sat all the gods assembled. As a special dispensation I was granted the favor to have one wish. \"Do you wish for youth,\" said Mercury, \"or for beauty, or power, or a long life; or do you wish for the most beautiful woman, or any other of the many fine things we have in our treasure trove? Choose, but only one thing!\" For a moment I was at a loss. Then I addressed the gods in this wise: \"Most honorable contemporaries, I choose one thing--that I may always have the laughs on my side.\" Not one god made answer, but all began to laugh. From this I concluded that my wish had been granted and thought that the gods knew how to express themselves with good taste; for it would surely have been inappropriate to answer gravely: your wish has been granted.",
+      "topics": [
+        "virtue",
+        "knowledge",
+        "meaning",
+        "love"
+      ]
+    }
+  ]
+}

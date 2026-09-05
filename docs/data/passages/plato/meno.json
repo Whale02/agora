@@ -1,0 +1,305 @@
+{
+  "slug": "plato",
+  "work": "Meno",
+  "work_slug": "meno",
+  "translation_credit": {
+    "work": "Meno",
+    "translator": "Benjamin Jowett",
+    "year": 1892,
+    "source_url": "https://www.gutenberg.org/ebooks/1643"
+  },
+  "passages": [
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: Can you tell me, Socrates, whether virtue is acquired by teaching or by practice; or if neither by teaching nor by practice, then whether it comes to man by nature, or in what other way?\n\nSOCRATES: O Meno, there was a time when the Thessalians were famous among the other Hellenes only for their riches and their riding; but now, if I am not mistaken, they are equally famous for their wisdom, especially at Larisa, which is the native city of your friend Aristippus. And this is Gorgias' doing; for when he came there, the flower of the Aleuadae, among them your admirer Aristippus, and the other chiefs of the Thessalians, fell in love with his wisdom. And he has taught you the habit of answering questions in a grand and bold style, which becomes those who know, and is the style in which he himself answers all comers; and any Hellene who likes may ask him anything. How different is our lot! my dear Meno. Here at Athens there is a dearth of the commodity, and all wisdom seems to have emigrated from us to you. I am certain that if you were to ask any Athenian whether virtue was natural or acquired, he would laugh in your face, and say: 'Stranger, you have far too good an opinion of me, if you think that I can answer your question. For I literally do not know what virtue is, and much less whether it is acquired by teaching or not.' And I myself, Meno, living as I do in this region of poverty, am as poor as the rest of the world; and I confess with shame that I know literally nothing about virtue; and when I do not know the 'quid' of anything how can I know the 'quale'? How, if I knew nothing at all of Meno, could I tell if he was fair, or the opposite of fair; rich and noble, or the reverse of rich and noble? Do you think that I could?",
+      "topics": [
+        "action",
+        "work",
+        "knowledge",
+        "love"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: No, indeed. But are you in earnest, Socrates, in saying that you do not know what virtue is? And am I to carry back this report of you to Thessaly?\n\nSOCRATES: Not only that, my dear boy, but you may say further that I have never known of any one else who did, in my judgment.\n\nMENO: Then you have never met Gorgias when he was at Athens?\n\nMENO: And did you not think that he knew?",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: I have not a good memory, Meno, and therefore I cannot now tell what I thought of him at the time. And I dare say that he did know, and that you know what he said: please, therefore, to remind me of what he said; or, if you would rather, tell me your own view; for I suspect that you and he think much alike.\n\nSOCRATES: Then as he is not here, never mind him, and do you tell me: By the gods, Meno, be generous, and tell me what you say that virtue is; for I shall be truly delighted to find that I have been mistaken, and that you and Gorgias do really have this knowledge; although I have been just saying that I have never found anybody who had.\n\nMENO: There will be no difficulty, Socrates, in answering your question. Let us take first the virtue of a man--he should know how to administer the state, and in the administration of it to benefit his friends and harm his enemies; and he must also be careful not to suffer harm himself. A woman's virtue, if you wish to know about that, may also be easily described: her duty is to order her house, and keep what is indoors, and obey her husband. Every age, every condition of life, young or old, male or female, bond or free, has a different virtue: there are virtues numberless, and no lack of definitions of them; for virtue is relative to the actions and ages of each of us in all that we do. And the same may be said of vice, Socrates (Compare Arist. Pol.).",
+      "topics": [
+        "virtue",
+        "knowledge",
+        "freedom",
+        "love"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: How fortunate I am, Meno! When I ask you for one virtue, you present me with a swarm of them (Compare Theaet.), which are in your keeping. Suppose that I carry on the figure of the swarm, and ask of you, What is the nature of the bee? and you answer that there are many kinds of bees, and I reply: But do bees differ as bees, because there are many and different kinds of them; or are they not rather to be distinguished by some other quality, as for example beauty, size, or shape? How would you answer me?\n\nMENO: I should answer that bees do not differ from one another, as bees.\n\nSOCRATES: And if I went on to say: That is what I desire to know, Meno; tell me what is the quality in which they do not differ, but are all alike;--would you be able to answer?\n\nSOCRATES: And so of the virtues, however many and different they may be, they have all a common nature which makes them virtues; and on this he who would answer the question, 'What is virtue?' would do well to have his eye fixed: Do you understand?",
+      "topics": [
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: I am beginning to understand; but I do not as yet take hold of the question as I could wish.\n\nSOCRATES: When you say, Meno, that there is one virtue of a man, another of a woman, another of a child, and so on, does this apply only to virtue, or would you say the same of health, and size, and strength? Or is the nature of health always the same, whether in man or woman?\n\nMENO: I should say that health is the same, both in man and woman.\n\nSOCRATES: And is not this true of size and strength? If a woman is strong, she will be strong by reason of the same form and of the same strength subsisting in her which there is in the man. I mean to say that strength, as strength, whether of man or woman, is the same. Is there any difference?",
+      "topics": [
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And will not virtue, as virtue, be the same, whether in a child or in a grown-up person, in a woman or in a man?\n\nMENO: I cannot help feeling, Socrates, that this case is different from the others.\n\nSOCRATES: But why? Were you not saying that the virtue of a man was to order a state, and the virtue of a woman was to order a house?\n\nSOCRATES: And can either house or state or anything be well ordered without temperance and without justice?",
+      "topics": [
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Then they who order a state or a house temperately or justly order them with temperance and justice?\n\nSOCRATES: Then both men and women, if they are to be good men and women, must have the same virtues of temperance and justice?\n\nSOCRATES: And can either a young man or an elder one be good, if they are intemperate and unjust?\n\nSOCRATES: Then all men are good in the same way, and by participation in the same virtues?",
+      "topics": [
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And does this definition of virtue include all virtue? Is virtue the same in a child and in a slave, Meno? Can the child govern his father, or the slave his master; and would he who governed be any longer a slave?\n\nSOCRATES: No, indeed; there would be small reason in that. Yet once more, fair friend; according to you, virtue is 'the power of governing;' but do you not add 'justly and not unjustly'?\n\nMENO: Yes, Socrates; I agree there; for justice is virtue.\n\nSOCRATES: Would you say 'virtue,' Meno, or 'a virtue'?",
+      "topics": [
+        "freedom",
+        "virtue",
+        "action"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: I mean as I might say about anything; that a round, for example, is 'a figure' and not simply 'figure,' and I should adopt this mode of speaking, because there are other figures.\n\nMENO: Quite right; and that is just what I am saying about virtue--that there are other virtues as well as justice.\n\nSOCRATES: What are they? tell me the names of them, as I would tell you the names of the other figures if you asked me.\n\nMENO: Courage and temperance and wisdom and magnanimity are virtues; and there are many others.",
+      "topics": [
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Yes, Meno; and again we are in the same case: in searching after one virtue we have found many, though not in the same way as before; but we have been unable to find the common virtue which runs through them all.\n\nMENO: Why, Socrates, even now I am not able to follow you in the attempt to get at one common notion of virtue as of other things.\n\nSOCRATES: No wonder; but I will try to get nearer if I can, for you know that all things have a common notion. Suppose now that some one asked you the question which I asked before: Meno, he would say, what is figure? And if you answered 'roundness,' he would reply to you, in my way of speaking, by asking whether you would say that roundness is 'figure' or 'a figure;' and you would answer 'a figure.'\n\nSOCRATES: And for this reason--that there are other figures?",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And if he proceeded to ask, What other figures are there? you would have told him.\n\nSOCRATES: And if he similarly asked what colour is, and you answered whiteness, and the questioner rejoined, Would you say that whiteness is colour or a colour? you would reply, A colour, because there are other colours as well.\n\nSOCRATES: And if he had said, Tell me what they are?--you would have told him of other colours which are colours just as much as whiteness.\n\nSOCRATES: And suppose that he were to pursue the matter in my way, he would say: Ever and anon we are landed in particulars, but this is not what I want; tell me then, since you call them by a common name, and say that they are all figures, even when opposed to one another, what is that common nature which you designate as figure--which contains straight as well as round, and is no more one than the other--that would be your mode of speaking?",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And in speaking thus, you do not mean to say that the round is round any more than straight, or the straight any more straight than round?\n\nSOCRATES: You only assert that the round figure is not more a figure than the straight, or the straight than the round?\n\nSOCRATES: To what then do we give the name of figure? Try and answer. Suppose that when a person asked you this question either about figure or colour, you were to reply, Man, I do not understand what you want, or know what you are saying; he would look rather astonished and say: Do you not understand that I am looking for the 'simile in multis'? And then he might put the question in another form: Meno, he might say, what is that 'simile in multis' which you call figure, and which includes not only round and straight figures, but all? Could you not answer that question, Meno? I wish that you would try; the attempt will be good practice with a view to the answer about virtue.\n\nMENO: I would rather that you should answer, Socrates.",
+      "topics": [
+        "action",
+        "meta",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: Because, according to you, figure is that which always follows colour.\n\nMENO: But if a person were to say that he does not know what colour is, any more than what figure is--what sort of answer would you have given him?\n\nSOCRATES: I should have told him the truth. And if he were a philosopher of the eristic and antagonistic sort, I should say to him: You have my answer, and if I am wrong, your business is to take up the argument and refute me. But if we were friends, and were talking as you and I are now, I should reply in a milder strain and more in the dialectician's vein; that is to say, I should not only speak the truth, but I should make use of premises which the person interrogated would be willing to admit. And this is the way in which I shall endeavour to approach you. You will acknowledge, will you not, that there is such a thing as an end, or termination, or extremity?--all which words I use in the same sense, although I am aware that Prodicus might draw distinctions about them: but still you, I am sure, would speak of a thing as ended or terminated--that is all which I am saying--not anything very difficult.",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: Yes, I should; and I believe that I understand your meaning.\n\nSOCRATES: And you would speak of a surface and also of a solid, as for example in geometry.\n\nSOCRATES: Well then, you are now in a condition to understand my definition of figure. I define figure to be that in which the solid ends; or, more concisely, the limit of solid.\n\nSOCRATES: You are outrageous, Meno, in thus plaguing a poor old man to give you an answer, when you will not take the trouble of remembering what is Gorgias' definition of virtue.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: When you have told me what I ask, I will tell you, Socrates.\n\nSOCRATES: A man who was blindfolded has only to hear you talking, and he would know that you are a fair creature and have still many lovers.\n\nSOCRATES: Why, because you always speak in imperatives: like all beauties when they are in their prime, you are tyrannical; and also, as I suspect, you have found out that I have weakness for the fair, and therefore to humour you I must answer.\n\nSOCRATES: Would you like me to answer you after the manner of Gorgias, which is familiar to you?",
+      "topics": [
+        "love"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: But I will stay, Socrates, if you will give me many such answers.\n\nSOCRATES: Well then, for my own sake as well as for yours, I will do my very best; but I am afraid that I shall not be able to give you very many as good: and now, in your turn, you are to fulfil your promise, and tell me what virtue is in the universal; and do not make a singular into a plural, as the facetious say of those who break a thing, but deliver virtue to me whole and sound, and not broken into a number of pieces: I have given you the pattern.\n\nMENO: Well then, Socrates, virtue, as I take it, is when he, who desires the honourable, is able to provide it for himself; so the poet says, and I say too--\n\n'Virtue is the desire of things honourable and the power of attaining them.'",
+      "topics": [
+        "love",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And does he who desires the honourable also desire the good?\n\nSOCRATES: Then are there some who desire the evil and others who desire the good? Do not all men, my dear sir, desire good?\n\nSOCRATES: Do you mean that they think the evils which they desire, to be good; or do they know that they are evil and yet desire them?\n\nSOCRATES: And do you really imagine, Meno, that a man knows evils to be evils and desires them notwithstanding?",
+      "topics": [
+        "love",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: But if there is no one who desires to be miserable, there is no one, Meno, who desires evil; for what is misery but the desire and possession of evil?\n\nMENO: That appears to be the truth, Socrates, and I admit that nobody desires evil.\n\nSOCRATES: And yet, were you not saying just now that virtue is the desire and power of attaining good?\n\nSOCRATES: But if this be affirmed, then the desire of good is common to all, and one man is no better than another in that respect?",
+      "topics": [
+        "virtue",
+        "love",
+        "suffering"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And so, Meno, this is the way in which you mock me.\n\nSOCRATES: Why, because I asked you to deliver virtue into my hands whole and unbroken, and I gave you a pattern according to which you were to frame your answer; and you have forgotten already, and tell me that virtue is the power of attaining good justly, or with justice; and justice you acknowledge to be a part of virtue.\n\nSOCRATES: Then it follows from your own admissions, that virtue is doing what you do with a part of virtue; for justice and the like are said by you to be parts of virtue.\n\nSOCRATES: What of that! Why, did not I ask you to tell me the nature of virtue as a whole? And you are very far from telling me this; but declare every action to be virtue which is done with a part of virtue; as though you had told me and I must already know the whole of virtue, and this too when frittered away into little pieces. And, therefore, my dear Meno, I fear that I must begin again and repeat the same question: What is virtue? for otherwise, I can only say, that every action done with a part of virtue is virtue; what else is the meaning of saying that every action done with justice is virtue? Ought I not to ask the question over again; for can any one who does not know virtue know a part of virtue?",
+      "topics": [
+        "action",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: What was it? and who were they?\n\nSOCRATES: Some of them were priests and priestesses, who had studied how they might be able to give a reason of their profession: there have been poets also, who spoke of these things by inspiration, like Pindar, and many others who were inspired. And they say--mark, now, and see whether their words are true--they say that the soul of man is immortal, and at one time has an end, which is termed dying, and at another time is born again, but is never destroyed. And the moral is, that a man ought to live always in perfect holiness. 'For in the ninth year Persephone sends the souls of those from whom she has received the penalty of ancient crime back again from beneath into the light of the sun above, and these are they who become noble kings and mighty men and great in wisdom and are called saintly heroes in after ages.' The soul, then, as being immortal, and having been born again many times, and having seen all things that exist, whether in this world or in the world below, has knowledge of them all; and it is no wonder that she should be able to call to remembrance all that she ever knew about virtue, and about everything; for as all nature is akin, and the soul has learned all things; there is no difficulty in her eliciting or as men say learning, out of a single recollection all the rest, if a man is strenuous and does not faint; for all enquiry and all learning is but recollection. And therefore we ought not to listen to this sophistical argument about the impossibility of enquiry: for it will make us idle; and is sweet only to the sluggard; but the other saying will make us active and inquisitive. In that confiding, I will gladly enquire with you into the nature of virtue.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "nature",
+        "self"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: Yes, Socrates; but what do you mean by saying that we do not learn, and that what we call learning is only a process of recollection? Can you teach me how this is?\n\nSOCRATES: I told you, Meno, just now that you were a rogue, and now you ask whether I can teach you, when I am saying that there is no teaching, but only recollection; and thus you imagine that you will involve me in a contradiction.\n\nMENO: Indeed, Socrates, I protest that I had no such intention. I only asked the question from habit; but if you can prove to me that what you say is true, I wish that you would.\n\nSOCRATES: It will be no easy matter, but I will try to please you to the utmost of my power. Suppose that you call one of your numerous attendants, that I may demonstrate on him.",
+      "topics": [
+        "education",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And these lines which I have drawn through the middle of the square are also equal?\n\nSOCRATES: A square may be of any size?\n\nSOCRATES: And if one side of the figure be of two feet, and the other side be of two feet, how much will the whole be? Let me explain: if in one direction the space was of two feet, and in the other direction of one foot, the whole would be of two feet taken once?\n\nSOCRATES: But since this side is also of two feet, there are twice two feet?",
+      "topics": [
+        "meaning"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And that is the line which the learned call the diagonal. And if this is the proper name, then you, Meno's slave, are prepared to affirm that the double space is the square of the diagonal?\n\nSOCRATES: What do you say of him, Meno? Were not all these answers given out of his own head?\n\nSOCRATES: And yet, as we were just now saying, he did not know?\n\nSOCRATES: But still he had in him those notions of his--had he not?",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And this knowledge which he now has must he not either have acquired or always possessed?\n\nSOCRATES: But if he always possessed this knowledge he would always have known; or if he has acquired the knowledge he could not have acquired it in this life, unless he has been taught geometry; for he may be made to do the same with all geometry and every other branch of knowledge. Now, has any one ever taught him all this? You must know about him, if, as you say, he was born and bred in your house.\n\nMENO: And I am certain that no one ever did teach him.\n\nSOCRATES: But if he did not acquire the knowledge in this life, then he must have had and learned it at some other time?",
+      "topics": [
+        "knowledge",
+        "education"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Had I the command of you as well as of myself, Meno, I would not have enquired whether virtue is given by instruction or not, until we had first ascertained 'what it is.' But as you think only of controlling me who am your slave, and never of controlling yourself,--such being your notion of freedom, I must yield to you, for you are irresistible. And therefore I have now to enquire into the qualities of a thing of which I do not as yet know the nature. At any rate, will you condescend a little, and allow the question 'Whether virtue is given by instruction, or in any other way,' to be argued upon hypothesis? As the geometrician, when he is asked whether a certain triangle is capable being inscribed in a certain circle (Or, whether a certain area is capable of being inscribed as a triangle in a certain circle.), will reply: 'I cannot tell you as yet; but I will offer a hypothesis which may assist us in forming a conclusion: If the figure be such that when you have produced a given side of it (Or, when you apply it to the given line, i.e. the diameter of the circle (autou).), the given area of the triangle falls short by an area corresponding to the part produced (Or, similar to the area so applied.), then one consequence follows, and if this is impossible then some other; and therefore I wish to assume a hypothesis before I tell you whether this triangle is capable of being inscribed in the circle':--that is a geometrical hypothesis.",
+      "topics": [
+        "freedom",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Do we not say that virtue is a good?--This is a hypothesis which is not set aside.\n\nSOCRATES: Now, if there be any sort of good which is distinct from knowledge, virtue may be that good; but if knowledge embraces all good, then we shall be right in thinking that virtue is knowledge?\n\nSOCRATES: And if we are good, then we are profitable; for all good things are profitable?\n\nSOCRATES: Then now let us see what are the things which severally profit us. Health and strength, and beauty and wealth--these, and the like of these, we call profitable?",
+      "topics": [
+        "work",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And the same may be said of temperance and quickness of apprehension; whatever things are learned or done with sense are profitable, but when done without sense they are hurtful?\n\nSOCRATES: And in general, all that the soul attempts or endures, when under the guidance of wisdom, ends in happiness; but when she is under the guidance of folly, in the opposite?\n\nSOCRATES: If then virtue is a quality of the soul, and is admitted to be profitable, it must be wisdom or prudence, since none of the things of the soul are either profitable or hurtful in themselves, but they are all made profitable or hurtful by the addition of wisdom or of folly; and therefore if virtue is profitable, virtue must be a sort of wisdom or prudence?\n\nSOCRATES: And the other goods, such as wealth and the like, of which we were just now saying that they are sometimes good and sometimes evil, do not they also become profitable or hurtful, accordingly as the soul guides and uses them rightly or wrongly; just as the things of the soul herself are benefited when under the guidance of wisdom and harmed by folly?",
+      "topics": [
+        "virtue",
+        "action",
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And the wise soul guides them rightly, and the foolish soul wrongly.\n\nSOCRATES: And is not this universally true of human nature? All other things hang upon the soul, and the things of the soul herself hang upon wisdom, if they are to be good; and so wisdom is inferred to be that which profits--and virtue, as we say, is profitable?\n\nSOCRATES: And thus we arrive at the conclusion that virtue is either wholly or partly wisdom?\n\nMENO: I think that what you are saying, Socrates, is very true.",
+      "topics": [
+        "knowledge",
+        "self",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "MENO: Well; and why are you so slow of heart to believe that knowledge is virtue?\n\nSOCRATES: I will try and tell you why, Meno. I do not retract the assertion that if virtue is knowledge it may be taught; but I fear that I have some reason in doubting whether virtue is knowledge: for consider now and say whether virtue, and not only virtue but anything that is taught, must not have teachers and disciples?\n\nSOCRATES: And conversely, may not the art of which neither teachers nor disciples exist be assumed to be incapable of being taught?\n\nMENO: True; but do you think that there are no teachers of virtue?",
+      "topics": [
+        "knowledge",
+        "education"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: I have certainly often enquired whether there were any, and taken great pains to find them, and have never succeeded; and many have assisted me in the search, and they were the persons whom I thought the most likely to know. Here at the moment when he is wanted we fortunately have sitting by us Anytus, the very person of whom we should make enquiry; to him then let us repair. In the first place, he is the son of a wealthy and wise father, Anthemion, who acquired his wealth, not by accident or gift, like Ismenias the Theban (who has recently made himself as rich as Polycrates), but by his own skill and industry, and who is a well-conditioned, modest man, not insolent, or overbearing, or annoying; moreover, this son of his has received a good education, as the Athenian people certainly appear to think, for they choose him to fill the highest offices. And these are the sort of men from whom you are likely to learn whether there are any teachers of virtue, and who they are. Please, Anytus, to help me and your friend Meno in answering our question, Who are the teachers? Consider the matter thus: If we wanted Meno to be a good physician, to whom should we send him? Should we not send him to the physicians?",
+      "topics": [
+        "work",
+        "knowledge",
+        "education",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "Indeed, I cannot believe you; for I know of a single man, Protagoras, who made more out of his craft than the illustrious Pheidias, who created such noble works, or any ten other statuaries. How could that be? A mender of old shoes, or patcher up of clothes, who made the shoes or clothes worse than he received them, could not have remained thirty days undetected, and would very soon have starved; whereas during more than forty years, Protagoras was corrupting all Hellas, and sending his disciples from him worse than he received them, and he was never found out. For, if I am not mistaken, he was about seventy years old at his death, forty of which were spent in the practice of his profession; and during all that time he had a good reputation, which to this day he retains: and not only Protagoras, but many others are well spoken of; some who lived before him, and others who are still living. Now, when you say that they deceived and corrupted the youth, are they to be supposed to have corrupted them consciously or unconsciously? Can those who were deemed by many to be the wisest men of Hellas have been out of their minds?",
+      "topics": [
+        "work",
+        "knowledge",
+        "virtue"
+      ]
+    }
+  ]
+}

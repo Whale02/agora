@@ -1,0 +1,15 @@
+{
+  "slug": "zhuangzi",
+  "works": [
+    {
+      "work": "Zhuangzi (庄子), especially the Inner Chapters",
+      "slug": "zhuangzi",
+      "file": "zhuangzi.json",
+      "passages": 300,
+      "words": 70713,
+      "translator": "James Legge",
+      "year": 1891,
+      "source_url": "https://ctext.org/zhuangzi"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "slug": "wang-yangming",
-  "translation_credits": [
-    {
-      "work": "Instructions for Practical Living (传习录), as my students recorded them",
-      "translator": "Frederick Goodrich Henke",
-      "year": 1916,
-      "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
-    }
-  ],
+  "work": "Instructions for Practical Living (传习录), as my students recorded them",
+  "work_slug": "instructions-for-practical-living",
+  "translation_credit": {
+    "work": "Instructions for Practical Living (传习录), as my students recorded them",
+    "translator": "Frederick Goodrich Henke",
+    "year": 1916,
+    "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+  },
   "passages": [
     {
       "work": "Instructions for Practical Living (传习录), as my students recorded them",

@@ -1,0 +1,680 @@
+{
+  "slug": "nietzsche",
+  "work": "The Gay Science",
+  "work_slug": "the-gay-science",
+  "translation_credit": {
+    "work": "The Gay Science",
+    "translator": "Thomas Common",
+    "year": 1910,
+    "source_url": "https://www.gutenberg.org/ebooks/52881"
+  },
+  "passages": [
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "Perhaps more than one preface would be necessary for this book; and after all it might still be doubtful whether any one could be brought nearer to the experiences in it by means of prefaces, without having himself experienced something similar. It seems to be written in the language of the thawing-wind: there is wantonness, restlessness, contradiction and April-weather in it; so that one is as constantly reminded of the proximity of winter as of the victory over it: the victory which is coming, which must come, which has perhaps already come.... Gratitude continually flows forth, as if the most unexpected thing had happened, the gratitude of a convalescent—for convalescence was this most unexpected thing. \"Joyful Wisdom\": that implies the Saturnalia of a spirit which has patiently withstood a long, frightful pressure—patiently, strenuously, impassionately, without submitting, but without hope—and which is now suddenly o'erpowered with hope, the hope of health, the intoxication of convalescence. What wonder that much that is unreasonable and foolish thereby comes to light: much wanton tenderness expended even on problems which have a prickly hide, and are not therefore fit to be fondled and allured. The whole book is really nothing but a revel after long privation and impotence: the frolicking of returning energy, of newly awakened belief in a to-morrow and after-to-morrow; of sudden sentience and prescience of a future, of near adventures, of seas open once more, and aims once more permitted and believed in.",
+      "topics": [
+        "meaning",
+        "meta",
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "And what was now all behind me! This track of desert, exhaustion, unbelief, and frigidity in the midst of youth, this advent of grey hairs at the wrong time, this tyranny of pain, surpassed, however, by the tyranny of pride which repudiated the consequences of pain—and consequences are comforts,—this radical isolation, as defence against the contempt of mankind become morbidly clairvoyant, this restriction upon principle to all that is bitter, sharp, and painful in knowledge, as prescribed by the disgust which had gradually resulted from imprudent spiritual diet and pampering—it is called Romanticism,—oh, who could realise all those feelings of mine! He, however, who could do so would certainly forgive me everything, and more than a little folly, boisterousness and \"Joyful Wisdom\"—for example, the handful of songs which are given along with the book on this occasion,—songs in which a poet makes merry over all poets in a way not easily pardoned.—Alas, it is not only on the poets and their fine \"lyrical sentiments\" that this reconvalescent must vent his malignity: who knows what kind of victim he seeks, what kind of monster of material for parody will allure him ere long? Incipit tragœdia, it is said at the conclusion of this seriously frivolous book; let people be on their guard! Something or other extraordinarily bad and wicked announces itself: incipit parodia, there is no doubt...",
+      "topics": [
+        "knowledge",
+        "suffering"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "——But let us leave Herr Nietzsche; what does it matter to people that Herr Nietzsche has got well again?... A psychologist knows few questions so attractive as those concerning the relations of health to philosophy, and in the case when he himself falls sick, he carries with him all his scientific curiosity into his sickness. For, granting that one is a person, one has necessarily also the philosophy of one's personality, there is, however, an important distinction here. With the one it is his defects which philosophise, with the other it is his riches and powers. The former requires his philosophy, whether it be as support, sedative, or medicine, as salvation, elevation, or self-alienation; with the latter it is merely a fine luxury, at best the voluptuousness of a triumphant gratitude, which must inscribe itself ultimately in cosmic capitals on the heaven of ideas. In the other more usual case, however, when states of distress occupy themselves with philosophy (as is the case with all sickly thinkers—and perhaps the sickly thinkers preponderate in the history of philosophy), what will happen to the thought itself which is brought under the pressure of sickness? This is the important question for psychologists: and here experiment is possible. We philosophers do just like a traveller who resolves to awake at a given hour, and then quietly yields himself to sleep: we surrender ourselves temporarily, body and soul, to the sickness, supposing we become ill—we shut, as it were, our eyes on ourselves.",
+      "topics": [
+        "self",
+        "meta",
+        "suffering",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "And as the traveller knows that something does not sleep, that something counts the hours and will awake him, we also know that the critical moment will find us awake—that then something will spring forward and surprise the spirit in the very act, I mean in weakness, or reversion, or submission, or obduracy, or obscurity, or whatever the morbid conditions are called, which in times of good health have the pride of the spirit opposed to them (for it is as in the old rhyme: \"The spirit proud, peacock and horse are the three proudest things of earthly source\"). After such self-questioning and self-testing, one learns to look with a sharper eye at all that has hitherto been philosophised; one divines better than before the arbitrary by-ways, side-streets, resting-places, and sunny places of thought, to which suffering thinkers, precisely as sufferers, are led and misled: one knows now in what direction the sickly body and its requirements unconsciously press, push, and allure the spirit—towards the sun, stillness, gentleness, patience, medicine, refreshment in any sense whatever. Every philosophy which puts peace higher than war, every ethic with a negative grasp of the idea of happiness, every metaphysic and physic that knows a finale, an ultimate condition of any kind whatever, every predominating, æsthetic or religious longing for an aside, a beyond, an outside, an above—all these permit one to ask whether sickness has not been the motive which inspired the philosopher.",
+      "topics": [
+        "knowledge",
+        "suffering",
+        "nature",
+        "action"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "The unconscious disguising of physiological requirements under the cloak of the objective, the ideal, the purely spiritual, is carried on to an alarming extent,—and I have often enough asked myself, whether, on the whole, philosophy hitherto has not generally been merely an interpretation of the body, and a misunderstanding of the body. Behind the loftiest estimates of value by which the history of thought has hitherto been governed, misunderstandings of the bodily constitution, either of individuals, classes, or entire races are concealed. One may always primarily consider these audacious freaks of metaphysic, and especially its answers to the question of the worth of existence, as symptoms of certain bodily constitutions; and if, on the whole, when scientifically determined, not a particle of significance attaches to such affirmations and denials of the world, they nevertheless furnish the historian and psychologist with hints so much the more valuable (as we have said) as symptoms of the bodily constitution, its good or bad condition, its fullness, powerfulness, and sovereignty in history; or else of its obstructions, exhaustions, and impoverishments, its premonition of the end, its will to the end. I still expect that a philosophical physician, in the exceptional sense of the word—one who applies himself to the problem of the collective health of peoples, periods, races, and mankind generally—will some day have the courage to follow out my suspicion to its ultimate conclusions, and to venture on the judgment that in all philosophising it has not hitherto been a question of \"truth\" at all, but of something else,—namely, of health, futurity, growth, power, life....",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "meta",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "It will be surmised that I should not like to take leave ungratefully of that period of severe sickness, the advantage of which is not even yet exhausted in me: for I am sufficiently conscious of what I have in advance of the spiritually robust generally, in my changeful state of health. A philosopher who has made the tour of many states of health, and always makes it anew, has also gone through just as many philosophies: he really cannot do otherwise than transform his condition on every occasion into the most ingenious posture and position,—this art of transfiguration is just philosophy. We philosophers are not at liberty to separate soul and body, as the people separate them; and we are still less at liberty to separate soul and spirit. We are not thinking frogs, we are not objectifying and registering apparatuses with cold entrails,—our thoughts must be continually born to us out of our pain, and we must, motherlike, share with them all that we have in us of blood, heart, ardour, joy, passion, pang, conscience, fate and fatality. Life—that means for us to transform constantly into light and flame all that we are, and also all that we meet with; we cannot possibly do otherwise. And as regards sickness, should we not be almost tempted to ask whether we could in general dispense with it? It is great pain only which is the ultimate emancipator of the spirit; for it is the teacher of the strong suspicion which makes an X out of every U, a true, correct X, i.",
+      "topics": [
+        "meta",
+        "freedom",
+        "suffering",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "e., the ante-penultimate letter.... It is great pain only, the long slow pain which takes time, by which we are burned as it were with green wood, that compels us philosophers to descend into our ultimate depths, and divest ourselves of all trust, all good-nature, veiling, gentleness, and averageness, wherein we have perhaps formerly installed our humanity. I doubt whether such pain \"improves\" us; but I know that it deepens us. Be it that we learn to confront it with our pride, our scorn, our strength of will, doing like the Indian who, however sorely tortured, revenges himself on his tormentor with his bitter tongue; be it that we withdraw from the pain into the oriental nothingness—it is called Nirvana,—into mute, benumbed, deaf self-surrender, self-forgetfulness, and self-effacement: one emerges from such long, dangerous exercises in self-mastery as another being, with several additional notes of interrogation, and above all, with the will to question more than ever, more profoundly, more strictly, more sternly, more wickedly, more quietly than has ever been questioned hitherto. Confidence in life is gone: life itself has become a problem.—Let it not be imagined that one has necessarily become a hypochondriac thereby! Even love of life is still possible—only one loves differently. It is the love of a woman of whom one is doubtful.... The charm, however, of all that is problematic, the delight in the X, is too great in those more spiritual and more spiritualised men, not to spread itself again and again like a clear glow over all the trouble of the problematic, over all the danger of uncertainty, and even over the jealousy of the lover. We know a new happiness....",
+      "topics": [
+        "love",
+        "self",
+        "suffering",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "Finally, (that the most essential may not remain unsaid), one comes back out of such abysses, out of such severe sickness, and out of the sickness of strong suspicion—new-born, with the skin cast; more sensitive, more wicked, with a finer taste for joy, with a more delicate tongue for all good things, with a merrier disposition, with a second and more dangerous innocence in joy; more childish at the same time, and a hundred times more refined than ever before. Oh, how repugnant to us now is pleasure, coarse, dull, drab pleasure, as the pleasure-seekers, our \"cultured\" classes, our rich and ruling classes, usually understand it! How malignantly we now listen to the great holiday-hubbub with which \"cultured people\" and city-men at present allow themselves to be forced to \"spiritual enjoyment\" by art, books, and music, with the help of spirituous liquors! How the theatrical cry of passion now pains our ear, how strange to our taste has all the romantic riot and sensuous bustle which the cultured populace love become (together with their aspirations after the exalted, the elevated, and the intricate)! No, if we convalescents need an art at all, it is another art—a mocking, light, volatile, divinely serene, divinely ingenious art, which blazes up like a clear flame, into a cloudless heaven! Above all, an art for artists, only for artists! We at last know better what is first of all necessary for it—namely, cheerfulness, every kind of cheerfulness, my friends!",
+      "topics": [
+        "love",
+        "suffering",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "also as artists:—I should like to prove it. We now know something too well, we men of knowledge: oh, how well we are now learning to forget and not know, as artists! And as to our future, we are not likely to be found again in the tracks of those Egyptian youths who at night make the temples unsafe, embrace statues, and would fain unveil, uncover, and put in clear light, everything which for good reasons is kept concealed. No, we have got disgusted with this bad taste, this will to truth, to \"truth at all costs,\" this youthful madness in the love of truth: we are now too experienced, too serious, too joyful, too singed, too profound for that.... We no longer believe that truth remains truth when the veil is withdrawn from it: we have lived long enough to believe this. At present we regard it as a matter of propriety not to be anxious either to see everything naked, or to be present at everything, or to understand and \"know\" everything. \"Is it true that the good God is everywhere present?\" asked a little girl of her mother: \"I think that is indecent\":—a hint to philosophers! One should have more reverence for the shamefacedness with which nature has concealed herself behind enigmas and motley uncertainties. Perhaps truth is a woman who has reasons for not showing her reasons? Perhaps her name is Baubo, to speak in Greek?...",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Preface to the Second Edition",
+      "text": "Oh, those Greeks! They knew how to live: for that purpose it is necessary to keep bravely to the surface, the fold and the skin; to worship appearance, to believe in forms, tones, and words, in the whole Olympus of appearance! Those Greeks were superficial—from profundity! And are we not coming back precisely to this point, we dare-devils of the spirit, who have scaled the highest and most dangerous peak of contemporary thought, and have looked around us from it, have looked down from it? Are we not precisely in this respect—Greeks? Worshippers of forms, of tones, and of words? And precisely on that account—artists?\n\nThis means literally to put the numeral X instead of the numeral V (formerly U); hence it means to double a number unfairly, to exaggerate, humbug, cheat.—TR.",
+      "topics": [
+        "meaning",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Venture, comrades, I implore you, On the fare I set before you, You will like it more to-morrow, Better still the following day: If yet more you're then requiring, Old success I'll find inspiring, And fresh courage thence will borrow Novel dainties to display.\n\nWeary of Seeking had I grown, So taught myself the way to Find: Back by the storm I once was blown, But follow now, where drives the wind.\n\nWhere you're standing, dig, dig out: Down below's the Well: Let them that walk in darkness shout: \"Down below—there's Hell!\"\n\nA. Was I ill? and is it ended? Pray, by what physician tended? I recall no pain endured! B. Now I know your trouble's ended: He that can forget, is cured.",
+      "topics": [
+        "suffering"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Let our virtues be easy and nimble-footed in motion, Like unto Homer's verse ought they to come and to go.\n\nStay not on level plain, Climb not the mount too high, But half-way up remain— The world you'll best descry!\n\nAttracted by my style and talk You'd follow, in my footsteps walk? Follow yourself unswervingly, So—careful!—shall you follow me.\n\nMy skin bursts, breaks for fresh rebirth, And new desires come thronging: Much I've devoured, yet for more earth The serpent in me's longing. 'Twixt stone and grass I crawl once more, Hungry, by crooked ways, To eat the food I ate before, Earth-fare all serpents praise!",
+      "topics": [
+        "love",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "My luck's good—I'd make yours fairer, (Good luck ever needs a sharer), Will you stop and pluck my roses?\n\nOft mid rocks and thorns you'll linger, Hide and stoop, suck bleeding finger— Will you stop and pluck my roses?\n\nFor my good luck's a trifle vicious, Fond of teasing, tricks malicious— Will you stop and pluck my roses?\n\nMany drops I waste and spill, So my scornful mood you curse: Who to brim his cup doth fill, Many drops must waste and spill— Yet he thinks the wine no worse.",
+      "topics": [
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Harsh and gentle, fine and mean, Quite rare and common, dirty and clean, The fools' and the sages' go-between: All this I will be, this have been, Dove and serpent and swine, I ween!\n\nThat eye and sense be not fordone E'en in the shade pursue the sun!\n\nA feud that knows not flaw nor break, Rather then patched-up friendship, take.\n\nRust's needed: keenness will not satisfy! \"He is too young!\" the rabble loves to cry.",
+      "topics": [
+        "love",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "\"How shall I reach the top?\" No time For thus reflecting! Start to climb!\n\nNarrow souls hate I like the devil, Souls wherein grows nor good nor evil.\n\nHe shot an empty word Into the empty blue; But on the way it met A woman whom it slew.\n\nA twofold pain is easier far to bear Than one: so now to suffer wilt thou dare?",
+      "topics": [
+        "suffering"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Brother, to puff thyself up ne'er be quick: For burst thou shalt be by a tiny prick!\n\n\"The woman seize, who to thy heart appeals!\" Man's motto: woman seizes not, but steals.\n\nIf I explain my wisdom, surely 'Tis but entangled more securely, I can't expound myself aright: But he that's boldly up and doing, His own unaided course pursuing, Upon my image casts more light!\n\nThose old capricious fancies, friend! You say your palate naught can please, I hear you bluster, spit and wheeze, My love, my patience soon will end! Pluck up your courage, follow me— Here's a fat toad! Now then, don't blink, Swallow it whole, nor pause to think! From your dyspepsia you'll be free!",
+      "topics": [
+        "love",
+        "meaning"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Many men's minds I know full well, Yet what mine own is, cannot tell. I cannot see—my eye's too near— And falsely to myself appear. 'Twould be to me a benefit Far from myself if I could sit, Less distant than my enemy, And yet my nearest friend's too nigh— 'Twixt him and me, just in the middle! What do I ask for? Guess my riddle!\n\nI must ascend an hundred stairs, I must ascend: the herd declares I'm cruel: \"Are we made of stone?\" I must ascend an hundred stairs: All men the part of stair disown.\n\n\"No longer path! Abyss and silence chilling!\" Thy fault! To leave the path thou wast too willing! Now comes the test! Keep cool—eyes bright and clear! Thou'rt lost for sure, if thou permittest—fear.\n\nSee the infant, helpless creeping— Swine around it grunt swine-talk— Weeping always, naught but weeping, Will it ever learn to walk? Never fear! Just wait, I swear it Soon to dance will be inclined, And this babe, when two legs bear it, Standing on its head you'll find.",
+      "topics": [
+        "suffering"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Did I not turn, a rolling cask, Ever about myself, I ask, How could I without burning run Close on the track of the hot sun?\n\nToo nigh, my friend my joy doth mar, I'd have him high above and far, Or how can he become my star?\n\nLest we for thy bliss should slay thee, In devil's wiles thou dost array thee, Devil's wit and devil's dress. But in vain! Thy looks betray thee And proclaim thy holiness.\n\nA. He stands and listens: whence his pain? What smote his ears? Some far refrain? Why is his heart with anguish torn? B. Like all that fetters once have worn, He always hears the clinking—chain!",
+      "topics": [
+        "suffering"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "I hate to follow and I hate to lead. Obedience? no! and ruling? no, indeed! Wouldst fearful be in others' sight? Then e'en thyself thou must affright: The people but the Terror's guidance heed. I hate to guide myself, I hate the fray. Like the wild beasts I'll wander far afield. In Error's pleasing toils I'll roam Awhile, then lure myself back home, Back home, and—to my self-seduction yield.\n\nThey write and write (quite maddening me) Their \"sapient\" twaddle airy, As if 'twere primum scribere, Deinde philosophari.\n\nYes! I manufacture ice: Ice may help you to digest: If you had much to digest, How you would enjoy my ice!\n\nMy wisdom's A and final O Was then the sound that smote mine ear. Yet now it rings no longer so, My youth's eternal Ah! and Oh! Is now the only sound I hear.",
+      "topics": [
+        "self"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "In yonder region travelling, take good care! An hast thou wit, then be thou doubly ware! They'll smile and lure thee; then thy limbs they'll tear: Fanatics' country this where wits are rare!\n\nGod loves us, for he made us, sent us here!— \"Man hath made God!\" ye subtle ones reply. His handiwork he must hold dear, And what he made shall he deny? There sounds the devil's halting hoof, I fear.\n\nIn sweat of face, so runs the screed, We e'er must eat our bread, Yet wise physicians if we heed \"Eat naught in sweat,\" 'tis said. The dog-star's blinking: what's his need? What tells his blazing sign? In sweat of face (so runs his screed) We're meant to drink our wine!\n\nHis look bewrays no envy: and ye laud him? He cares not, asks not if your throng applaud him! He has the eagle's eye for distance far, He sees you not, he sees but star on star!",
+      "topics": [
+        "love"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Brethren, war's the origin Of happiness on earth: Powder-smoke and battle-din Witness friendship's birth! Friendship means three things, you know,— Kinship in luckless plight, Equality before the foe Freedom—in death's sight!\n\n\"Rather on your toes stand high Than crawl upon all fours, Rather through the keyhole spy Than through open doors!\"\n\nRenown you're quite resolved to earn? My thought about it Is this: you need not fame, must learn To do without it!\n\nI an Inquirer? No, that's not my calling Only I weigh a lot—I'm such a lump!— And through the waters I keep falling, falling, Till on the ocean's deepest bed I bump.",
+      "topics": [
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "\"To-day is meet for me, I come to-day,\" Such is the speech of men foredoomed to stay. \"Thou art too soon,\" they cry, \"thou art too late,\" What care the Immortals what the rabble say?\n\nThe weary shun the glaring sun, afraid, And only care for trees to gain the shade.\n\n\"He sinks, he falls,\" your scornful looks portend: The truth is, to your level he'll descend. His Too Much Joy is turned to weariness, His Too Much Light will in your darkness end.\n\nAround my neck, on chain of hair, The timepiece hangs—a sign of care. For me the starry course is o'er, No sun and shadow as before, No cockcrow summons at the door, For nature tells the time no more! Too many clocks her voice have drowned, And droning law has dulled her sound.",
+      "topics": [
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Strange to the crowd, yet useful to the crowd, I still pursue my path, now sun, now cloud, But always pass above the crowd!\n\nShe now has wit—how did it come her way? A man through her his reason lost, they say. His head, though wise ere to this pastime lent, Straight to the devil—no, to woman went!\n\n\"Oh, might all keys be lost! 'Twere better so And in all keyholes might the pick-lock go!\" Who thus reflects ye may as—picklock know.\n\nI write not with the hand alone, My foot would write, my foot that capers, Firm, free and bold, it's marching on Now through the fields, now through the papers.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Shy, gloomy, when your looks are backward thrust, Trusting the future where yourself you trust, Are you an eagle, mid the nobler fowl, Or are you like Minerva's darling owl?\n\nGood teeth and a digestion good I wish you—these you need, be sure! And, certes, if my book you've stood, Me with good humour you'll endure.\n\n\"To nature true, complete!\" so he begins. Who complete Nature to his canvas wins? Her tiniest fragment's endless, no constraint Can know: he paints just what his fancy pins: What does his fancy pin? What he can paint!\n\nGlue, only glue to me dispense, The wood I'll find myself, don't fear! To give four senseless verses sense— That's an achievement I revere!",
+      "topics": [
+        "knowledge",
+        "suffering",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "If to choose my niche precise Freedom I could win from fate, I'd be in midst of Paradise— Or, sooner still—before the gate!\n\nWide blow your nostrils, and across The land your nose holds haughty sway: So you, unhorned rhinoceros, Proud mannikin, fall forward aye! The one trait with the other goes: A straight pride and a crooked nose.\n\nThe pen is scratching: hang the pen! To scratching I'm condemned to sink! I grasp the inkstand fiercely then And write in floods of flowing ink. How broad, how full the stream's career! What luck my labours doth requite! 'Tis true, the writing's none too clear— What then? Who reads the stuff I write?\n\nThis man's climbing up—let us praise him— But that other we love From aloft doth eternally move, So above even praise let us raise him, He comes from above!",
+      "topics": [
+        "love"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Jest, Ruse and Revenge, a Prelude in Rhyme",
+      "text": "Your life is half-way o'er; The clock-hand moves; your soul is thrilled with fear, It roamed to distant shore And sought and found not, yet you—linger here!\n\nYour life is half-way o'er; That hour by hour was pain and error sheer: Why stay? What seek you more? \"That's what I'm seeking—reasons why I'm here!\"\n\nYes, I know where I'm related, Like the flame, unquenched, unsated, I consume myself and glow: All's turned to light I lay my hand on, All to coal that I abandon, Yes, I am a flame, I know!\n\nA and O, suggestive of Ah! and Oh! refer of course to Alpha and Omega, the first and last letters of the Greek alphabet.—TR.",
+      "topics": [
+        "suffering",
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The Teachers of the Object of Existence.—Whether I look with a good or an evil eye upon men, I find them always at one problem, each and all of them: to do that which conduces to the conservation of the human species. And certainly not out of any sentiment of love for this species, but simply because nothing in them is older, stronger, more inexorable, and more unconquerable than that instinct,—because it is precisely the essence of our race and herd. Although we are accustomed readily enough, with our usual short-sightedness, to separate our neighbours precisely into useful and hurtful, into good and evil men, yet when we make a general calculation, and on longer reflection on the whole question, we become distrustful of this defining and separating, and finally leave it alone. Even the most hurtful man is still perhaps, in respect to the conservation of the race, the most useful of all; for he conserves in himself or by his effect on others, impulses without which mankind might long ago have languished or decayed. Hatred, delight in mischief, rapacity and ambition, and whatever else is called evil—belong to the marvellous economy of the conservation of the race; to be sure a costly, lavish, and on the whole very foolish economy:—which has, however, hitherto preserved our race, as is demonstrated to us. I no longer know, my dear fellow-man and neighbour, if thou canst at all live to the disadvantage of the race, and therefore, \"unreasonably\" and \"badly\"; that which could have injured the race has perhaps died out many millenniums ago, and now belongs to the things which are no longer possible even to God.",
+      "topics": [
+        "love",
+        "self",
+        "meaning"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Indulge thy best or thy worst desires, and above all, go to wreck!—in either case thou art still probably the furtherer and benefactor of mankind in some way or other, and in that respect thou mayest have thy panegyrists—and similarly thy mockers! But thou wilt never find him who would be quite qualified to mock at thee, the individual, at thy best, who could bring home to thy conscience its limitless, buzzing and croaking wretchedness so as to be in accord with truth! To laugh at oneself as one would have to laugh in order to laugh out of the veriest truth,—to do this the best have not hitherto had enough of the sense of truth, and the most endowed have had far too little genius! There is perhaps still a future even for laughter! When the maxim, \"The race is all, the individual is nothing,\"—has incorporated itself in humanity, and when access stands open to every one at all times to this ultimate emancipation and irresponsibility.—Perhaps then laughter will have united with wisdom, perhaps then there will be only \"joyful wisdom.\" Meanwhile, however, it is quite otherwise, meanwhile the comedy of existence has not yet \"become conscious\" of itself, meanwhile it is still the period of tragedy, the period of morals and religions. What does the ever new appearing of founders of morals and religions, of instigators of struggles for moral valuations, of teachers of remorse of conscience and religious war, imply?",
+      "topics": [
+        "knowledge",
+        "self",
+        "virtue",
+        "action"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "What do these heroes on this stage imply? For they have hitherto been the heroes of it, and all else, though solely visible for the time being, and too close to one, has served only as preparation for these heroes, whether as machinery and coulisse, or in the rôle of confidants and valets. (The poets, for example, have always been the valets of some morality or other.)—It is obvious of itself that these tragedians also work in the interest of the race, though they may believe that they work in the interest of God, and as emissaries of God. They also further the life of the species, in that they further the belief in life. \"It is worth while to live\"—each of them calls out,—\"there is something of importance in this life; life has something behind it and under it; take care!\" That impulse, which rules equally in the noblest and the ignoblest, the impulse towards the conservation of the species, breaks forth from time to time as reason and passion of spirit; it has then a brilliant train of motives about it, and tries with all its power to make us forget that fundamentally it is just impulse, instinct, folly and baselessness. Life should be loved, for...! Man should benefit himself and his neighbour, for...! And whatever all these shoulds and fors imply, and may imply in future! In order that that which necessarily and always happens of itself and without design, may henceforth appear to be done by design, and may appeal to men as reason and ultimate command,—for that purpose the ethiculturist comes forward as the teacher of design in existence; for that purpose he devises a second and different existence, and by means of this new mechanism he lifts the old common existence off its old common hinges.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "virtue",
+        "action"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "No! he does not at all want us to laugh at existence, nor even at ourselves—nor at himself; to him an individual is always an individual, something first and last and immense, to him there are no species, no sums, no noughts. However foolish and fanatical his inventions and valuations may be, however much he may misunderstand the course of nature and deny its conditions—and all systems of ethics hitherto have been foolish and anti-natural to such a degree that mankind would have been ruined by any one of them had it got the upper hand,—at any rate, every time that \"the hero\" came upon the stage something new was attained: the frightful counterpart of laughter, the profound convulsion of many individuals at the thought, \"Yes, it is worth while to live! yes, I am worthy to live!\"—life, and thou, and I, and all of us together became for a while interesting to ourselves once more.—It is not to be denied that hitherto laughter and reason and nature have in the long run got the upper hand of all the great teachers of design: in the end the short tragedy always passed over once more into the eternal comedy of existence; and the \"waves of innumerable laughters\"—to use the expression of Æschylus—must also in the end beat over the greatest of these tragedies. But with all this corrective laughter, human nature has on the whole been changed by the ever new appearance of those teachers of the design of existence,—human nature has now an additional requirement, the very requirement of the ever new appearance of such teachers and doctrines of \"design.\"",
+      "topics": [
+        "meaning",
+        "knowledge",
+        "self",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Man has gradually become a visionary animal, who has to fulfil one more condition of existence than the other animals: man must from time to time believe that he knows why he exists; his species cannot flourish without periodically confiding in life! Without the belief in reason in life! And always from time to time will the human race decree anew that \"there is something which really may not be laughed at.\" And the most clairvoyant philanthropist will add that \"not only laughing and joyful wisdom, but also the tragic, with all its sublime irrationality, counts among the means and necessities for the conservation of the race!\"—And consequently! Consequently! Consequently! Do you understand me, oh my brothers? Do you understand this new law of ebb and flow? We also shall have our time!",
+      "topics": [
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The Intellectual Conscience.—I have always the same experience over again, and always make a new effort against it; for although it is evident to me I do not want to believe it: in the greater number of men the intellectual conscience is lacking; indeed, it would often seem to me that in demanding such a thing, one is as solitary in the largest cities as in the desert. Everyone looks at you with strange eyes, and continues to make use of his scales, calling this good and that bad; and no one blushes for shame when you remark that these weights are not the full amount,—there is also no indignation against you; perhaps they laugh at your doubt. I mean to say that the greater number of people do not find it contemptible to believe this or that, and live according to it, without having been previously aware of the ultimate and surest reasons for and against it, and without even giving themselves any trouble about such reasons afterwards,—the most gifted men and the noblest women still belong to this \"greater number.\" But what is kind-heartedness, refinement and genius to me, if the man with these virtues harbours indolent sentiments in belief and judgment, if the longing for certainty does not rule in him, as his innermost desire and profoundest need—as that which separates higher from lower men! In certain pious people I have found a hatred of reason, and have been favourably disposed to them for it: their bad, intellectual conscience still betrayed itself, at least in this manner!",
+      "topics": [
+        "knowledge",
+        "action",
+        "love",
+        "self"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "But to stand in the midst of this rerum concordia discors and all the marvellous uncertainty and ambiguity of existence, and not to question, not to tremble with desire and delight in questioning, not even to hate the questioner—perhaps even to make merry over him to the extent of weariness—that is what I regard as contemptible, and it is this sentiment which I first of all search for in every one:—some folly or other always persuades me anew that every man has this sentiment, as man. This is my special kind of unrighteousness.",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Noble and Ignoble.—To ignoble natures all noble, magnanimous sentiments appear inexpedient, and on that account first and foremost, as incredible: they blink with their eyes when they hear of such matters, and seem inclined to say, \"there will, no doubt, be some advantage therefrom, one cannot see through all walls;\"—they are jealous of the noble person, as if he sought advantage by back-stair methods. When they are all too plainly convinced of the absence of selfish intentions and emoluments, the noble person is regarded by them as a kind of fool: they despise him in his gladness, and laugh at the lustre of his eye. \"How can a person rejoice at being at a disadvantage, how can a person with open eyes want to meet with disadvantage! It must be a disease of the reason with which the noble affection is associated,\"—so they think, and they look depreciatingly thereon; just as they depreciate the joy which the lunatic derives from his fixed idea. The ignoble nature is distinguished by the fact that it keeps its advantage steadily in view, and that this thought of the end and advantage is even stronger than its strongest impulse: not to be tempted to inexpedient activities by its impulses—that is its wisdom and inspiration. In comparison with the ignoble nature the higher nature is more irrational:—for the noble, magnanimous, and self-sacrificing person succumbs in fact to his impulses, and in his best moments his reason lapses altogether.",
+      "topics": [
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "An animal, which at the risk of life protects its young, or in the pairing season follows the female where it meets with death, does not think of the risk and the death; its reason pauses likewise, because its delight in its young, or in the female, and the fear of being deprived of this delight, dominate it exclusively; it becomes stupider than at other times, like the noble and magnanimous person. He possesses feelings of pleasure and pain of such intensity that the intellect must either be silent before them, or yield itself to their service: his heart then goes into his head, and one henceforth speaks of \"passions.\" (Here and there to be sure, the antithesis to this, and as it were the \"reverse of passion,\" presents itself; for example in Fontenelle, to whom some one once laid the hand on the heart with the words, \"What you have there, my dearest friend, is brain also.\") It is the unreason, or perverse reason of passion, which the ignoble man despises in the noble individual, especially when it concentrates upon objects whose value appears to him to be altogether fantastic and arbitrary. He is offended at him who succumbs to the passion of the belly, but he understands the allurement which here plays the tyrant; but he does not understand, for example, how a person out of love of knowledge can stake his health and honour on the game.",
+      "topics": [
+        "knowledge",
+        "suffering",
+        "love",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The taste of the higher nature devotes itself to exceptional matters, to things which usually do not affect people, and seem to have no sweetness; the higher nature has a singular standard of value. Besides, it is mostly of the belief that it has not a singular standard of value in its idiosyncrasies of taste; it rather sets up its values and non-values as the generally valid values and non-values, and thus becomes incomprehensible and impracticable. It is very rarely that a higher nature has so much reason over and above as to understand and deal with everyday men as such; for the most part it believes in its passion as if it were the concealed passion of every one, and precisely in this belief it is full of ardour and eloquence. If then such exceptional men do not perceive themselves as exceptions, how can they ever understand the ignoble natures and estimate average men fairly! Thus it is that they also speak of the folly, inexpediency and fantasy of mankind, full of astonishment at the madness of the world, and that it will not recognise the \"one thing needful for it.\"—This is the eternal unrighteousness of noble natures.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "That which Preserves the Species.—The strongest and most evil spirits have hitherto advanced mankind the most: they always rekindled the sleeping passions—all orderly arranged society lulls the passions to sleep; they always reawakened the sense of comparison, of contradiction, of delight in the new, the adventurous, the untried; they compelled men to set opinion against opinion, ideal plan against ideal plan. By means of arms, by upsetting boundary-stones, by violations of piety most of all: but also by new religions and morals! The same kind of \"wickedness\" is in every teacher and preacher of the new—which makes a conqueror infamous, although it expresses itself more refinedly, and does not immediately set the muscles in motion (and just on that account does not make so infamous!). The new, however, is under all circumstances the evil, as that which wants to conquer, which tries to upset the old boundary-stones and the old piety; only the old is the good! The good men of every age are those who go to the roots of the old thoughts and bear fruit with them, the agriculturists of the spirit. But every soil becomes finally exhausted, and the ploughshare of evil must always come once more.—There is at present a fundamentally erroneous theory of morals which is much celebrated, especially in England: according to it the judgments \"good\" and \"evil\" are the accumulation of the experiences of that which is \"expedient\" and \"inexpedient\"; according to this theory, that which is called good is conservative of the species, what is called evil, however, is detrimental to it. But in reality the evil impulses are just in as high a degree expedient, indispensable, and conservative of the species as the good:—only, their function is different.",
+      "topics": [
+        "virtue",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Unconditional Duties.—All men who feel that they need the strongest words and intonations, the most eloquent gestures and attitudes, in order to operate at all—revolutionary politicians, socialists, preachers of repentance with or without Christianity, with all of whom there must be no mere half-success,—all these speak of \"duties,\" and indeed, always of duties, which have the character of being unconditional—without such they would have no right to their excessive pathos: they know that right well! They grasp, therefore, at philosophies of morality which preach some kind of categorical imperative, or they assimilate a good lump of religion, as, for example, Mazzini did. Because they want to be trusted unconditionally, it is first of all necessary for them to trust themselves unconditionally, on the basis of some ultimate, undebatable command, sublime in itself, as the ministers and instruments of which, they would fain feel and announce themselves. Here we have the most natural, and for the most part, very influential opponents of moral enlightenment and scepticism: but they are rare. On the other hand, there is always a very numerous class of those opponents wherever interest teaches subjection, while repute and honour seem to forbid it. He who feels himself dishonoured at the thought of being the instrument of a prince, or of a party and sect, or even of wealthy power (for example, as the descendant of a proud, ancient family), but wishes just to be this instrument, or must be so before himself and before the public—such a person has need of pathetic principles which can at all times be appealed to:—principles of an unconditional ought, to which a person can subject himself without shame, and can show himself subjected. All more refined servility holds fast to the categorical imperative, and is the mortal enemy of those who want to take away the unconditional character of duty: propriety demands this from them, and not only propriety.",
+      "topics": [
+        "virtue",
+        "self",
+        "freedom",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Loss of Dignity.—Meditation has lost all its dignity of form; the ceremonial and solemn bearing of the meditative person have been made a mockery, and one would no longer endure a wise man of the old style. We think too hastily and on the way and while walking and in the midst of business of all kinds, even when we think on the most serious matters; we require little preparation, even little quiet:—it is as if each of us carried about an unceasingly revolving machine in his head, which still works, even under the most unfavourable circumstances. Formerly it was perceived in a person that on some occasion he wanted to think—it was perhaps the exception!—that he now wanted to become wiser and collected his mind on a thought: he put on a long face for it, as for a prayer, and arrested his step—nay, stood still for hours on the street when the thought \"came\"—on one or on two legs. It was thus \"worthy of the affair\"!\n\nSomething for the Laborious.—He who at present wants to make moral questions a subject of study has an immense field of labour before him. All kinds of passions must be thought about singly, and followed singly throughout periods, peoples, great and insignificant individuals; all their rationality, all their valuations and elucidations of things, ought to come to light! Hitherto all that has given colour to existence has lacked a history: where would one find a history of love, of avarice, of envy, of conscience, of piety, of cruelty?",
+      "topics": [
+        "work",
+        "knowledge",
+        "suffering",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Even a comparative history of law, as also of punishment, has hitherto been completely lacking. Have the different divisions of the day, the consequences of a regular appointment of the times for labour, feast, and repose, ever been made the object of investigation? Do we know the moral effects of the alimentary substances? Is there a philosophy of nutrition? (The ever-recurring outcry for and against vegetarianism proves that as yet there is no such philosophy!) Have the experiences with regard to communal living, for example, in monasteries, been collected? Has the dialectic of marriage and friendship been set forth? The customs of the learned, of trades-people, of artists, and of mechanics—have they already found their thinkers? There is so much to think of thereon! All that up till now has been considered as the \"conditions of existence,\" of human beings, and all reason, passion and superstition in this consideration—have they been investigated to the end? The observation alone of the different degrees of development which the human impulses have attained, and could yet attain, according to the different moral climates, would furnish too much work for the most laborious; whole generations, and regular co-operating generations of the learned, would be needed in order to exhaust the points of view and the material here furnished. The same is true of the determining of the reasons for the differences of the moral climates (\"on what account does this sun of a fundamental moral judgment and standard of highest value shine here—and that sun there?\")",
+      "topics": [
+        "knowledge",
+        "work",
+        "meaning",
+        "love"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "And there is again a new labour which points out the erroneousness of all these reasons, and determines the entire essence of the moral judgments hitherto made. Supposing all these labours to be accomplished, the most critical of all questions would then come into the foreground: whether science is in a position to furnish goals for human action, after it has proved that it can take them away and annihilate them—and then would be the time for a process of experimenting in which every kind of heroism could satisfy itself, an experimenting for centuries, which would put into the shade all the great labours and sacrifices of previous history. Science has not hitherto built its Cyclopic structures; for that also the time will come.",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Unconscious Virtues.—All qualities in a man of which he is conscious—and especially when he presumes that they are visible and evident to his environment also—are subject to quite other laws of development than those qualities which are unknown to him, or imperfectly known, which by their subtlety can also conceal themselves from the subtlest observer, and hide as it were behind nothing,—as in the case of the delicate sculptures on the scales of reptiles (it would be an error to suppose them an adornment or a defence—for one sees them only with the microscope; consequently, with an eye artificially strengthened to an extent of vision which similar animals, to which they might perhaps have meant adornment or defence, do not possess!) Our visible moral qualities, and especially our moral qualities believed to be visible, follow their own course,—and our invisible qualities of similar name, which in relation to others neither serve for adornment nor defence, also follow their own course: quite a different course probably, and with lines and refinements, and sculptures, which might perhaps give pleasure to a God with a divine microscope. We have, for example, our diligence, our ambition, our acuteness: all the world knows about them,—and besides, we have probably once more our diligence, our ambition, our acuteness; but for these—our reptile scales—the microscope has not yet been invented!—And here the adherents of instinctive morality will say, \"Bravo! He at least regards unconscious virtues as possible—that suffices us!\"—Oh, ye unexacting creatures!",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Our Eruptions.—Numberless things which humanity acquired in its earlier stages, but so weakly and embryonically that it could not be noticed that they were acquired, are thrust suddenly into light long afterwards, perhaps after the lapse of centuries: they have in the interval become strong and mature. In some ages this or that talent, this or that virtue seems to be entirely lacking, as it is in some men; but let us wait only for the grandchildren and grandchildren's children, if we have time to wait,—they bring the interior of their grandfathers into the sun, that interior of which the grandfathers themselves were unconscious. The son, indeed, is often the betrayer of his father; the latter understands himself better since he has got his son. We have all hidden gardens and plantations in us; and by another simile, we are all growing volcanoes, which will have their hours of eruption:—how near or how distant this is, nobody of course knows, not even the good God.\n\nA Species of Atavism.—I like best to think of the rare men of an age as suddenly emerging aftershoots of past cultures, and of their persistent strength: like the atavism of a people and its civilisation:—there is thus still something in them to think of! They now seem strange, rare, and extraordinary: and he who feels these forces in himself has to foster them in face of a different, opposing world; he has to defend them, honour them, and rear them to maturity: and he either becomes a great man thereby, or a deranged and eccentric person, unless he should altogether break down betimes.",
+      "topics": [
+        "virtue",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Consciousness.—Consciousness is the last and latest development of the organic, and consequently also the most unfinished and least powerful of these developments. Innumerable mistakes originate out of consciousness, which, \"in spite of fate,\" as Homer says, cause an animal or a man to break down earlier than might be necessary. If the conserving bond of the instincts were not very much more powerful, it would not generally serve as a regulator: by perverse judging and dreaming with open eyes, by superficiality and credulity, in short, just by consciousness, mankind would necessarily have broken down: or rather, without the former there would long ago have been nothing more of the latter! Before a function is fully formed and matured, it is a danger to the organism: all the better if it be then thoroughly tyrannised over! Consciousness is thus thoroughly tyrannised over—and not least by the pride in it! It is thought that here is the quintessence of man; that which is enduring, eternal, ultimate, and most original in him! Consciousness is regarded as a fixed, given magnitude! Its growth and intermittences are denied! It is accepted as the \"unity of the organism\"!—This ludicrous overvaluation and misconception of consciousness, has as its result the great utility, that a too rapid maturing of it has thereby been hindered. Because men believed that they already possessed consciousness, they gave themselves very little trouble to acquire it—and even now it is not otherwise! It is still an entirely new problem just dawning on the human eye and hardly yet plainly recognisable: to embody knowledge in ourselves and make it instinctive,—a problem which is only seen by those who have grasped the fact that hitherto our errors alone have been embodied in us, and that all our consciousness is relative to errors!",
+      "topics": [
+        "knowledge",
+        "self",
+        "meaning",
+        "nature"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The Goal of Science.—What? The ultimate goal of science is to create the most pleasure possible to man, and the least possible pain? But what if pleasure and pain should be so closely connected that he who wants the greatest possible amount of the one must also have the greatest possible amount of the other,—that he who wants to experience the \"heavenly high jubilation,\" must also be ready to be \"sorrowful unto death\"?(ref. same footnote) And it is so, perhaps! The Stoics at least believed it was so, and they were consistent when they wished to have the least possible pleasure, in order to have the least possible pain from life. (When one uses the expression: \"The virtuous man is the happiest,\" it is as much the sign-board of the school for the masses, as a casuistic subtlety for the subtle.) At present also ye have still the choice: either the least possible pain, in short painlessness—and after all, socialists and politicians of all parties could not honourably promise more to their people,—or the greatest possible amount of pain, as the price of the growth of a fullness of refined delights and enjoyments rarely tasted hitherto! If ye decide for the former, if ye therefore want to depress and minimise man's capacity for pain, well, ye must also depress and minimise his capacity for enjoyment. In fact, one can further the one as well as the other goal by science! Perhaps science is as yet best known by its capacity for depriving man of enjoyment, and making him colder, more statuesque, and more Stoical. But it might also turn out to be the great pain-bringer!—And then, perhaps, its counteracting force would be discovered simultaneously, its immense capacity for making new sidereal worlds of enjoyment beam forth!",
+      "topics": [
+        "suffering",
+        "knowledge",
+        "nature",
+        "action"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The Theory of the Sense of Power.—We exercise our power over others by doing them good or by doing them ill—that is all we care for! Doing ill to those on whom we have to make our power felt; for pain is a far more sensitive means for that purpose than pleasure:—pain always asks concerning the cause, while pleasure is inclined to keep within itself and not look backward. Doing good and being kind to those who are in any way already dependent on us (that is, who are accustomed to think of us as their raison d'être); we want to increase their power, because we thus increase our own; or we want to show them the advantage there is in being in our power,—they thus become more contented with their position, and more hostile to the enemies of our power and readier to contend with them. If we make sacrifices in doing good or in doing ill, it does not alter the ultimate value of our actions; even if we stake our life in the cause, as martyrs for the sake of our church, it is a sacrifice to our longing for power, or for the purpose of conserving our sense of power. He who under these circumstances feels that he \"is in possession of truth,\" how many possessions does he not let go, in order to preserve this feeling! What does he not throw overboard, in order to keep himself \"up,\"—that is to say, above the others who lack the \"truth\"!",
+      "topics": [
+        "action",
+        "knowledge",
+        "self",
+        "meaning"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Certainly the condition we are in when we do ill is seldom so pleasant, so purely pleasant, as that in which we practise kindness,—it is an indication that we still lack power, or it betrays ill-humour at this defect in us; it brings with it new dangers and uncertainties as to the power we already possess, and clouds our horizon by the prospect of revenge, scorn, punishment and failure. Perhaps only those most susceptible to the sense of power, and eager for it, will prefer to impress the seal of power on the resisting individual,—those to whom the sight of the already subjugated person as the object of benevolence is a burden and a tedium. It is a question how a person is accustomed to season his life; it is a matter of taste whether a person would rather have the slow or the sudden, the safe or the dangerous and daring increase of power,—he seeks this or that seasoning always according to his temperament. An easy booty is something contemptible to proud natures; they have an agreeable sensation only at the sight of men of unbroken spirit who could be enemies to them, and similarly, also, at the sight of all not easily accessible possession; they are often hard toward the sufferer, for he is not worthy of their effort or their pride,—but they show themselves so much the more courteous towards their equals, with whom strife and struggle would in any case be full of honour, if at any time an occasion for it should present itself.",
+      "topics": [
+        "self",
+        "action",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "What is called Love.—The lust of property and love: what different associations each of these ideas evoke!—and yet it might be the same impulse twice named: on the one occasion disparaged from the standpoint of those already possessing (in whom the impulse has attained something of repose, and who are now apprehensive for the safety of their \"possession\"); on the other occasion viewed from the standpoint of the unsatisfied and thirsty, and therefore glorified as \"good.\" Our love of our neighbour,—is it not a striving after new property? And similarly our love of knowledge, of truth; and in general all the striving after novelties? We gradually become satiated with the old, the securely possessed, and again stretch out our hands; even the finest landscape in which we live for three months is no longer certain of our love, and any kind of more distant coast excites our covetousness: the possession for the most part becomes smaller through possessing. Our pleasure in ourselves seeks to maintain itself, by always transforming something new into ourselves,—that is just possessing. To become satiated with a possession, that is to become satiated with ourselves. (One can also suffer from excess,—even the desire to cast away, to share out, can assume the honourable name of \"love.\") When we see any one suffering, we willingly utilise the opportunity then afforded to take possession of him; the beneficent and sympathetic man, for example, does this; he also calls the desire for new possession awakened in him, by the name of \"love,\" and has enjoyment in it, as in a new acquisition suggesting itself to him.",
+      "topics": [
+        "knowledge",
+        "love",
+        "suffering",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The love of the sexes, however, betrays itself most plainly as the striving after possession: the lover wants the unconditioned, sole possession of the person longed for by him; he wants just as absolute power over her soul as over her body; he wants to be loved solely, and to dwell and rule in the other soul as what is highest and most to be desired. When one considers that this means precisely to exclude all the world from a precious possession, a happiness, and an enjoyment; when one considers that the lover has in view the impoverishment and privation of all other rivals, and would like to become the dragon of his golden hoard, as the most inconsiderate and selfish of all \"conquerors\" and exploiters; when one considers finally that to the lover himself, the whole world besides appears indifferent, colourless, and worthless, and that he is ready to make every sacrifice, disturb every arrangement, and put every other interest behind his own,—one is verily surprised that this ferocious lust of property and injustice of sexual love should have been glorified and deified to such an extent at all times; yea, that out of this love the conception of love as the antithesis of egoism should have been derived, when it is perhaps precisely the most unqualified expression of egoism. Here, evidently, the non-possessors and desirers have determined the usage of language,—there were, of course, always too many of them.",
+      "topics": [
+        "love",
+        "self",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Those who have been favoured with much possession and satiety, have, to be sure, dropped a word now and then about the \"raging demon,\" as, for instance, the most lovable and most beloved of all the Athenians—Sophocles; but Eros always laughed at such revilers,—they were always his greatest favourites.—There is, of course, here and there on this terrestrial sphere a kind of sequel to love, in which that covetous longing of two persons for one another has yielded to a new desire and covetousness, to a common, higher thirst for a superior ideal standing above them: but who knows this love? Who has experienced it? Its right name is friendship.",
+      "topics": [
+        "love",
+        "meta"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "—We were once on a time so near one another in the course of our lives, that nothing more seemed to hinder our friendship and fraternity, and there was merely a small plank between us. While you were just about to step on it, I asked you: \"Do you want to come across the plank to me?\" But then you did not want to come any longer; and when I again entreated, you were silent. Since then mountains and torrents, and whatever separates and alienates, have interposed between us, and even if we wanted to come to one another, we could no longer do so! When, however, you now remember that small plank, you have no longer words,—but merely sobs and amazement.",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Motivation of Poverty.—We cannot, to be sure, by any artifice make a rich and richly-flowing virtue out of a poor one, but we can gracefully enough reinterpret its poverty into necessity, so that its aspect no longer gives pain to us, and we do not make any reproachful faces at fate on account of it. It is thus that the wise gardener does, who puts the tiny streamlet of his garden into the arms of a fountain-nymph, and thus motivates the poverty:—and who would not like him need the nymphs!\n\nAncient Pride.—The ancient savour of nobility is lacking in us, because the ancient slave is lacking in our sentiment. A Greek of noble descent found such immense intermediate stages, and such a distance betwixt his elevation and that ultimate baseness, that he could hardly even see the slave plainly: even Plato no longer saw him entirely. It is otherwise with us, accustomed as we are to the doctrine of the equality of men, although not to the equality itself. A being who has not the free disposal of himself and has not got leisure,—that is not regarded by us as anything contemptible; there is perhaps too much of this kind of slavishness in each of us, in accordance with the conditions of our social order and activity, which are fundamentally different from those of the ancients.—The Greek philosopher went through life with the secret feeling that there were many more slaves than people supposed—that is to say, that every one was a slave who was not a philosopher. His pride was puffed up when he considered that even the mightiest of the earth were thus to be looked upon as slaves. This pride is also unfamiliar to us, and impossible; the word \"slave\" has not its full force for us even in simile.",
+      "topics": [
+        "work",
+        "freedom",
+        "virtue",
+        "self"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Perhaps one further considers the question, whether it would not have been more advantageous for the interests of society if he had laboured with less disregard of himself, and had preserved himself longer,—indeed, one readily admits an advantage therefrom, but one esteems the other advantage, namely, that a sacrifice has been made, and that the disposition of the sacrificial animal has once more been obviously endorsed—as higher and more enduring. It is accordingly, on the one part, the instrumental character in the virtues which is praised when the virtues are praised, and on the other part, the blind, ruling impulse in every virtue, which refuses to let itself be kept within bounds by the general advantage to the individual; in short, what is praised is the unreason in the virtues, in consequence of which the individual allows himself to be transformed into a function of the whole. The praise of the virtues is the praise of something which is privately injurious to the individual; it is praise of impulses which deprive man of his noblest self-love, and the power to take the best care of himself. To be sure, for the teaching and embodying of virtuous habits a series of effects of virtue are displayed, which make it appear that virtue and private advantage are closely related,—and there is in fact such a relationship! Blindly furious diligence, for example, the typical virtue of an instrument, is represented as the way to riches and honour, and as the most beneficial antidote to tedium and passion: but people are silent concerning its danger, its greatest dangerousness.",
+      "topics": [
+        "self",
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The \"neighbour\" praises unselfishness because he profits by it! If the neighbour were \"unselfishly\" disposed himself, he would reject that destruction of power, that injury for his advantage, he would thwart such inclinations in their origin, and above all he would manifest his unselfishness just by not giving it a good name! The fundamental contradiction in that morality which at present stands in high honour is here indicated: the motives to such a morality are in antithesis to its principle! That with which this morality wishes to prove itself, refutes it out of its criterion of what is moral! The maxim, \"Thou shalt renounce thyself and offer thyself as a sacrifice,\" in order not to be inconsistent with its own morality, could only be decreed by a being who himself renounced his own advantage thereby, and who perhaps in the required self-sacrifice of individuals brought about his own dissolution. As soon, however, as the neighbour (or society) recommended altruism on account of its utility, the precisely antithetical proposition, \"Thou shalt seek thy advantage even at the expense of everybody else,\" was brought into use: accordingly, \"thou shalt,\" and \"thou shalt not,\" are preached in one breath!",
+      "topics": [
+        "virtue",
+        "self",
+        "meta"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "—Fourthly, it is when \"morals decay\" that those beings whom one calls tyrants first make their appearance; they are the forerunners of the individual, and as it were early matured firstlings. Yet a little while, and this fruit of fruits hangs ripe and yellow on the tree of a people,—and only for the sake of such fruit did this tree exist! When the decay has reached its worst, and likewise the conflict of all sorts of tyrants, there always arises the Cæsar, the final tyrant, who puts an end to the exhausted struggle for sovereignty, by making the exhaustedness work for him. In his time the individual is usually most mature, and consequently the \"culture\" is highest and most fruitful, but not on his account nor through him: although the men of highest culture love to flatter their Cæsar by pretending that they are his creation. The truth, however, is that they need quietness externally, because internally they have disquietude and labour. In these times bribery and treason are at their height: for the love of the ego, then first discovered, is much more powerful than the love of the old, used-up, hackneyed \"fatherland\"; and the need to be secure in one way or other against the frightful fluctuations of fortune, opens even the nobler hands, as soon as a richer and more powerful person shows himself ready to put gold into them. There is then so little certainty with regard to the future; people live only for the day: a condition of mind which enables every deceiver to play an easy game,—people of course only let themselves be misled and bribed \"for the present,\" and reserve for themselves futurity and virtue.",
+      "topics": [
+        "work",
+        "knowledge",
+        "self",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "The individuals, as is well known, the men who only live for themselves, provide for the moment more than do their opposites, the gregarious men, because they consider themselves just as incalculable as the future; and similarly they attach themselves willingly to despots, because they believe themselves capable of activities and expedients, which can neither reckon on being understood by the multitude, nor on finding favour with them,—but the tyrant or the Cæsar understands the rights of the Individual even in his excesses, and has an interest in speaking on behalf of a bolder private morality, and even in giving his hand to it. For he thinks of himself, and wishes people to think of him what Napoleon once uttered in his classical style—\"I have the right to answer by an eternal 'thus I am' to everything about which complaint is brought against me. I am apart from all the world, I accept conditions from nobody. I wish people also to submit to my fancies, and to take it quite as a simple matter, if I should indulge in this or that diversion.\" Thus spoke Napoleon once to his wife, when she had reasons for calling in question the fidelity of her husband.—The times of corruption are the seasons when the apples fall from the tree: I mean the individuals, the seed-bearers of the future, the pioneers of the spiritual colonisation and of a new construction of national and social unions. Corruption is only an abusive term for the harvest time of a people.",
+      "topics": [
+        "nature",
+        "love",
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Adventitious Liars.—When people began to combat the unity of Aristotle in France, and consequently also to defend it, there was once more to be seen that which has been seen so often, but seen so unwillingly:—people imposed false reasons on themselves on account of which those laws ought to exist, merely for the sake of not acknowledging to themselves that they had accustomed themselves to the authority of those laws, and did not want any longer to have things otherwise. And people do so in every prevailing morality and religion, and have always done so: the reasons and intentions behind the habit, are only added surreptitiously when people begin to combat the habit, and ask for reasons and intentions. It is here that the great dishonesty of the conservatives of all times hides:—they are adventitious liars.\n\nThe Comedy of Celebrated Men.—Celebrated men who need their fame, as, for instance, all politicians, no longer select their associates and friends without after-thoughts: from the one they want a portion of the splendour and reflection of his virtues; from the other they want the fear-inspiring power of certain dubious qualities in him, of which everybody is aware; from another they steal his reputation for idleness and basking in the sun, because it is advantageous for their own ends to be regarded temporarily as heedless and lazy:—it conceals the fact that they lie in ambush; they now use the visionaries, now the experts, now the brooders, now the pedants in their neighbourhood, as their actual selves for the time, but very soon they do not need them any longer!",
+      "topics": [
+        "action",
+        "knowledge",
+        "freedom",
+        "virtue"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Commerce and Nobility.—Buying and selling is now regarded as something ordinary, like the art of reading and writing; everyone is now trained to it even when he is not a tradesman, exercising himself daily in the art; precisely as formerly in the period of uncivilised humanity, everyone was a hunter and exercised himself day by day in the art of hunting. Hunting was then something common: but just as this finally became a privilege of the powerful and noble, and thereby lost the character of the commonplace and the ordinary—by ceasing to be necessary and by becoming an affair of fancy and luxury:—so it might become the same some day with buying and selling. Conditions of society are imaginable in which there will be no selling and buying, and in which the necessity for this art will become quite lost; perhaps it may then happen that individuals who are less subjected to the law of the prevailing condition of things will indulge in buying and selling as a luxury of sentiment. It is then only that commerce would acquire nobility, and the noble would then perhaps occupy themselves just as readily with commerce as they have done hitherto with war and politics: while on the other hand the valuation of politics might then have entirely altered. Already even politics ceases to be the business of a gentleman; and it is possible that one day it may be found to be so vulgar as to be brought, like all party literature and daily literature, under the rubric: \"Prostitution of the intellect.\"",
+      "topics": [
+        "virtue",
+        "self",
+        "education"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "It is simply the law of necessity that operates here: people want to live, and have to sell themselves; but they despise him who exploits their necessity, and purchases the workman. It is curious that the subjection to powerful, fear-inspiring, and even dreadful individuals, to tyrants and leaders of armies, is not at all felt so painfully as the subjection to such undistinguished and uninteresting persons as the captains of industry; in the employer the workman usually sees merely a crafty, blood-sucking dog of a man, speculating on every necessity, whose name, form, character, and reputation are altogether indifferent to him. It is probable that the manufacturers and great magnates of commerce have hitherto lacked too much all those forms and attributes of a superior race, which alone make persons interesting; if they had had the nobility of the nobly-born in their looks and bearing, there would perhaps have been no socialism in the masses of the people. For these are really ready for slavery of every kind, provided that the superior class above them constantly shows itself legitimately superior, and born to command—by its noble presence! The commonest man feels that nobility is not to be improvised, and that it is his part to honour it as the fruit of protracted race-culture,—but the absence of superior presence, and the notorious vulgarity of manufacturers with red, fat hands, brings up the thought to him that it is only chance and fortune that has here elevated the one above the other; well then—so he reasons with himself—let us in our turn tempt chance and fortune! Let us in our turn throw the dice!—and socialism commences.",
+      "topics": [
+        "freedom",
+        "self",
+        "virtue",
+        "work"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Against Remorse.—The thinker sees in his own actions attempts and questionings to obtain information about something or other; success and failure are answers to him first and foremost. To vex himself, however, because something does not succeed, or to feel remorse at all—he leaves that to those who act because they are commanded to do so, and expect to get a beating when their gracious master is not satisfied with the result.\n\nWork and Ennui.—In respect to seeking work for the sake of the pay, almost all men are alike at present in civilised countries; to all of them work is a means, and not itself the end; on which account they are not very select in the choice of the work, provided it yields an abundant profit. But still there are rarer men who would rather perish than work without delight in their labour: the fastidious people, difficult to satisfy, whose object is not served by an abundant profit, unless the work itself be the reward of all rewards. Artists and contemplative men of all kinds belong to this rare species of human beings; and also the idlers who spend their life in hunting and travelling, or in love affairs and adventures. They all seek toil and trouble in so far as these are associated with pleasure, and they want the severest and hardest labour, if it be necessary. In other respects, however, they have a resolute indolence, even should impoverishment, dishonour, and danger to health and life be associated therewith.",
+      "topics": [
+        "action",
+        "work"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "They are not so much afraid of ennui as of labour without pleasure; indeed they require much ennui, if their work is to succeed with them. For the thinker and for all inventive spirits ennui is the unpleasant \"calm\" of the soul which precedes the happy voyage and the dancing breezes; he must endure it, he must await the effect it has on him:—it is precisely this which lesser natures cannot at all experience! It is common to scare away ennui in every way, just as it is common to labour without pleasure. It perhaps distinguishes the Asiatics above the Europeans, that they are capable of a longer and profounder repose; even their narcotics operate slowly and require patience, in contrast to the obnoxious suddenness of the European poison, alcohol.",
+      "topics": [
+        "work",
+        "suffering"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "What the Laws Betray.—One makes a great mistake when one studies the penal laws of a people, as if they were an expression of its character; the laws do not betray what a people is, but what appears to them foreign, strange, monstrous, and outlandish. The laws concern themselves with the exceptions to the morality of custom; and the severest punishments fall on acts which conform to the customs of the neighbouring peoples. Thus among the Wahabites, there are only two mortal sins: having another God than the Wahabite God, and—smoking (it is designated by them as \"the disgraceful kind of drinking\"). \"And how is it with regard to murder and adultery?\"—asked the Englishman with astonishment on learning these things. \"Well, God is gracious and pitiful!\" answered the old chief.—Thus among the ancient Romans there was the idea that a woman could only sin mortally in two ways: by adultery on the one hand, and—by wine-drinking on the other. Old Cato pretended that kissing among relatives had only been made a custom in order to keep women in control on this point; a kiss meant: did her breath smell of wine? Wives had actually been punished by death who were surprised taking wine: and certainly not merely because women under the influence of wine sometimes unlearn altogether the art of saying No; the Romans were afraid above all things of the orgiastic and Dionysian spirit with which the women of Southern Europe at that time (when wine was still new in Europe) were sometimes visited, as by a monstrous foreignness which subverted the basis of Roman sentiments; it seemed to them treason against Rome, as the embodiment of foreignness.",
+      "topics": [
+        "suffering",
+        "meaning",
+        "action",
+        "education"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book First",
+      "text": "Verily not a dead mask which one could put upon an unknown X, and which to be sure one could also remove! Appearance is for me the operating and living thing itself; which goes so far in its self-mockery as to make me feel that here there is appearance, and Will o' the Wisp, and spirit-dance, and nothing more,—that among all these dreamers, I also, the \"thinker,\" dance my dance, that the thinker is a means of prolonging further the terrestrial dance, and in so far is one of the masters of ceremony of existence, and that the sublime consistency and connectedness of all branches of knowledge is perhaps, and will perhaps, be the best means for maintaining the universality of the dreaming, the complete, mutual understandability of all those dreamers, and thereby the duration of the dream.",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book Second",
+      "text": "Translations.—One can estimate the amount of the historical sense which an age possesses by the way in which it makes translations and seeks to embody in itself past periods and literatures. The French of Corneille, and even the French of the Revolution, appropriated Roman antiquity in a manner for which we would no longer have the courage—owing to our superior historical sense. And Roman antiquity itself: how violently, and at the same time how naïvely, did it lay its hand on everything excellent and elevated belonging to the older Grecian antiquity! How they translated these writings into the Roman present! How they wiped away intentionally and unconcernedly the wing-dust of the butterfly moment! It is thus that Horace now and then translated Alcæus or Archilochus, it is thus that Propertius translated Callimachus and Philetas (poets of equal rank with Theocritus, if we be allowed to judge): of what consequence was it to them that the actual creator experienced this and that, and had inscribed the indication thereof in his poem!—as poets they were averse to the antiquarian, inquisitive spirit which precedes the historical sense; as poets they did not respect those essentially personal traits and names, nor anything peculiar to city, coast, or century, such as its costume and mask, but at once put the present and the Roman in its place. They seem to us to ask: \"Should we not make the old new for ourselves, and adjust ourselves to it?",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book Second",
+      "text": "It was likewise thought that people could make themselves audible at greater distances by the rhythmical beat; the rhythmical prayer seemed to come nearer to the ear of the Gods. Above all, however, people wanted to have the advantage of the elementary conquest which man experiences in himself when he hears music: rhythm is a constraint; it produces an unconquerable desire to yield, to join in; not only the step of the foot, but also the soul itself follows the measure,—probably the soul of the Gods also, as people thought! They attempted, therefore, to constrain the Gods by rhythm and to exercise a power over them; they threw poetry around the Gods like a magic noose. There was a still more wonderful idea, and it has perhaps operated most powerfully of all in the originating of poetry. Among the Pythagoreans it made its appearance as a philosophical doctrine and as an artifice of teaching: but long before there were philosophers music was acknowledged to possess the power of unburdening the emotions, of purifying the soul, of soothing the ferocia animi—and this was owing to the rhythmical element in music. When the proper tension and harmony of the soul were lost a person had to dance to the measure of the singer,—that was the recipe of this medical art. By means of it Terpander quieted a tumult, Empedocles calmed a maniac, Damon purged a love-sick youth; by means of it even the maddened, revengeful Gods were treated for the purpose of a cure.",
+      "topics": [
+        "love",
+        "self",
+        "meaning",
+        "education"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book Second",
+      "text": "Learning to do Homage.—One must learn the art of homage, as well as the art of contempt. Whoever goes in new paths and has led many persons therein, discovers with astonishment how awkward and incompetent all of them are in the expression of their gratitude, and indeed how rarely gratitude is able even to express itself. It is always as if something comes into people's throats when their gratitude wants to speak, so that it only hems and haws, and becomes silent again. The way in which a thinker succeeds in tracing the effect of his thoughts, and their transforming and convulsing power, is almost a comedy: it sometimes seems as if those who have been operated upon felt profoundly injured thereby, and could only assert their independence, which they suspect to be threatened, by all kinds of improprieties. It needs whole generations in order merely to devise a courteous convention of gratefulness; it is only very late that the period arrives when something of spirit and genius enters into gratitude. Then there is usually some one who is the great receiver of thanks, not only for the good he himself has done, but mostly for that which has been gradually accumulated by his predecessors, as a treasure of what is highest and best.",
+      "topics": [
+        "meta",
+        "action",
+        "education"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book Second",
+      "text": "The Germans as Artists.—When once a German actually experiences passion (and not only, as is usual, the mere inclination to it), he then behaves just as he must do in passion, and does not think further of his behaviour. The truth is, however, that he then behaves very awkwardly and uglily, and as if destitute of rhythm and melody; so that onlookers are pained or moved thereby, but nothing more—unless he elevate himself to the sublimity and enrapturedness of which certain passions are capable. Then even the German becomes beautiful. The perception of the height at which beauty begins to shed its charm even over Germans, raises German artists to the height, to the supreme height, and to the extravagances of passion: they have an actual, profound longing, therefore, to get beyond, or at least to look beyond the ugliness and awkwardness—into a better, easier, more southern, more sunny world. And thus their convulsions are often merely indications that they would like to dance: these poor bears in whom hidden nymphs and satyrs, and sometimes still higher divinities, carry on their game!\n\nMusic as Advocate.—\"I have a longing for a master of the musical art,\" said an innovator to his disciple, \"that he may learn from me my ideas and speak them more widely in his language: I shall thus be better able to reach men's ears and hearts. For by means of tones one can seduce men to every error and every truth: who could refute a tone?\"",
+      "topics": [
+        "knowledge",
+        "action",
+        "education"
+      ]
+    },
+    {
+      "work": "The Gay Science",
+      "ref": "Book Third",
+      "text": "Life no Argument.—We have arranged for ourselves a world in which we can live—by the postulating of bodies, lines, surfaces, causes and effects, motion and rest, form and content: without these articles of faith no one could manage to live at present! But for all that they are still unproved. Life is no argument; error might be among the conditions of life.\n\nThe Element of Moral Scepticism in Christianity.—Christianity also has made a great contribution to enlightenment, and has taught moral scepticism in a very impressive and effective manner—accusing and embittering, but with untiring patience and subtlety; it annihilated in every individual the belief in his virtues: it made the great virtuous ones, of whom antiquity had no lack, vanish for ever from the earth, those popular men, who, in the belief in their perfection, walked about with the dignity of a hero of the bull-fight. When, trained in this Christian school of scepticism, we now read the moral books of the ancients, for example those of Seneca and Epictetus, we feel a pleasurable superiority, and are full of secret insight and penetration,—it seems to us as if a child talked before an old man, or a pretty, gushing girl before La Rochefoucauld:—we know better what virtue is! After all, however, we have applied the same scepticism to all religious states and processes, such as sin, repentance, grace, sanctification, &c., and have allowed the worm to burrow so well, that we have now the same feeling of subtle superiority and insight even in reading all Christian books:—we know also the religious feelings better! And it is time to know them well and describe them well, for the pious ones of the old belief die out also; let us save their likeness and type, at least for the sake of knowledge.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "nature",
+        "education"
+      ]
+    }
+  ]
+}

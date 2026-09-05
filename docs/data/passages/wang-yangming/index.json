@@ -1,0 +1,15 @@
+{
+  "slug": "wang-yangming",
+  "works": [
+    {
+      "work": "Instructions for Practical Living (传习录), as my students recorded them",
+      "slug": "instructions-for-practical-living",
+      "file": "instructions-for-practical-living.json",
+      "passages": 300,
+      "words": 71034,
+      "translator": "Frederick Goodrich Henke",
+      "year": 1916,
+      "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+    }
+  ]
+}

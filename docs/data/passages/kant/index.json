@@ -1,0 +1,35 @@
+{
+  "slug": "kant",
+  "works": [
+    {
+      "work": "Groundwork of the Metaphysics of Morals",
+      "slug": "groundwork-of-the-metaphysics-of-morals",
+      "file": "groundwork-of-the-metaphysics-of-morals.json",
+      "passages": 86,
+      "words": 20819,
+      "translator": "Thomas Kingsmill Abbott",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/5682"
+    },
+    {
+      "work": "Critique of Practical Reason",
+      "slug": "critique-of-practical-reason",
+      "file": "critique-of-practical-reason.json",
+      "passages": 75,
+      "words": 18639,
+      "translator": "Thomas Kingsmill Abbott",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/5683"
+    },
+    {
+      "work": "Critique of Pure Reason",
+      "slug": "critique-of-pure-reason",
+      "file": "critique-of-pure-reason.json",
+      "passages": 139,
+      "words": 33681,
+      "translator": "J. M. D. Meiklejohn",
+      "year": 1855,
+      "source_url": "https://www.gutenberg.org/ebooks/4280"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "confucius",
+  "works": [
+    {
+      "work": "The Analects (论语), my conversations as my students recorded them",
+      "slug": "the-analects",
+      "file": "the-analects.json",
+      "passages": 166,
+      "words": 17397,
+      "translator": "James Legge",
+      "year": 1893,
+      "source_url": "https://www.gutenberg.org/ebooks/3330"
+    }
+  ]
+}

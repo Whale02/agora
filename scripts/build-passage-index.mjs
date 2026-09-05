@@ -1,54 +1,54 @@
-// Summarise docs/data/passages/*.json into docs/data/passages.json.
+// Summarise docs/data/passages/<slug>/*.json into docs/data/passages.json.
 //
-// The corpus files run to hundreds of kilobytes each, which is the right size for the
-// engine and the wrong size for a reading view that wants to say "Plato, 360 passages from
-// eight dialogues, Jowett 1892" before it fetches anything. This writes that summary: one
-// entry per philosopher with a corpus, their works with counts, their topics with counts,
-// and the translation credits. Nothing here is authored; it is all read back out of the
-// corpus files, so a stale summary is a bug in the build order, not a claim.
+// The work files run to tens or hundreds of kilobytes each, which is the right size for a
+// reader opening one book and the wrong size for a page that wants to say "Plato, 360
+// passages from eight dialogues, Jowett 1892" before it fetches anything. This writes that
+// summary: one entry per philosopher with a corpus, their works with counts and file names,
+// their topics with counts, and the translation credits. Nothing here is authored; it is all
+// read back out of the corpus files, so a stale summary is a bug in the build order, not a
+// claim.
 //
 //     node scripts/build-passage-index.mjs
 import fs from "node:fs";
-import path from "node:path";
+import { corpusSlugs, readIndex, readWork } from "../engine/corpus.mjs";
 
-const DIR = "docs/data/passages";
 const OUT = "docs/data/passages.json";
 
-const files = fs.existsSync(DIR)
-  ? fs.readdirSync(DIR).filter((f) => f.endsWith(".json")).sort()
-  : [];
-
-const philosophers = files.map((f) => {
-  const c = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8"));
-  const works = new Map();
+const philosophers = corpusSlugs().map((slug) => {
+  const idx = readIndex(slug);
   const topics = new Map();
+  const works = [];
+  const credits = [];
   let words = 0;
-  for (const p of c.passages) {
-    if (!works.has(p.work)) works.set(p.work, { count: 0, words: 0, topics: new Map() });
-    const w = works.get(p.work);
-    const n = p.text.trim().split(/\s+/).length;
-    w.count++;
-    w.words += n;
-    words += n;
-    for (const t of p.topics ?? []) {
-      topics.set(t, (topics.get(t) ?? 0) + 1);
-      w.topics.set(t, (w.topics.get(t) ?? 0) + 1);
+  let passages = 0;
+  for (const w of idx.works) {
+    const file = readWork(slug, w.slug);
+    const wt = new Map();
+    for (const p of file.passages) {
+      for (const t of p.topics ?? []) {
+        topics.set(t, (topics.get(t) ?? 0) + 1);
+        wt.set(t, (wt.get(t) ?? 0) + 1);
+      }
     }
+    words += w.words;
+    passages += file.passages.length;
+    works.push({
+      work: w.work,
+      slug: w.slug,
+      file: w.file,
+      count: file.passages.length,
+      words: w.words,
+      topics: [...wt].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([topic]) => topic),
+    });
+    credits.push(file.translation_credit);
   }
   return {
-    slug: c.slug,
-    passages: c.passages.length,
+    slug,
+    passages,
     words,
-    works: [...works]
-      .sort((a, b) => b[1].count - a[1].count)
-      .map(([work, w]) => ({
-        work,
-        count: w.count,
-        words: w.words,
-        topics: [...w.topics].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([topic]) => topic),
-      })),
+    works: works.sort((a, b) => b.count - a.count),
     topics: [...topics].sort((a, b) => b[1] - a[1]).map(([topic, count]) => ({ topic, count })),
-    translation_credits: c.translation_credits,
+    translation_credits: credits,
   };
 });
 
@@ -58,4 +58,5 @@ fs.writeFileSync(
   "utf8",
 );
 const total = philosophers.reduce((n, p) => n + p.passages, 0);
-console.log(`${OUT}: ${philosophers.length} philosophers, ${total} passages`);
+const shelves = philosophers.reduce((n, p) => n + p.works.length, 0);
+console.log(`${OUT}: ${philosophers.length} philosophers, ${shelves} works, ${total} passages`);

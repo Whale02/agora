@@ -1,0 +1,55 @@
+{
+  "slug": "kierkegaard",
+  "works": [
+    {
+      "work": "Either/Or",
+      "slug": "either-or",
+      "file": "either-or.json",
+      "passages": 3,
+      "words": 902,
+      "translator": "Lee M. Hollander",
+      "year": 1923,
+      "source_url": "https://www.gutenberg.org/ebooks/60333"
+    },
+    {
+      "work": "Stages on Life's Way",
+      "slug": "stages-on-life-s-way",
+      "file": "stages-on-life-s-way.json",
+      "passages": 101,
+      "words": 24374,
+      "translator": "Lee M. Hollander",
+      "year": 1923,
+      "source_url": "https://www.gutenberg.org/ebooks/60333"
+    },
+    {
+      "work": "Fear and Trembling",
+      "slug": "fear-and-trembling",
+      "file": "fear-and-trembling.json",
+      "passages": 47,
+      "words": 11325,
+      "translator": "Lee M. Hollander",
+      "year": 1923,
+      "source_url": "https://www.gutenberg.org/ebooks/60333"
+    },
+    {
+      "work": "Training in Christianity",
+      "slug": "training-in-christianity",
+      "file": "training-in-christianity.json",
+      "passages": 90,
+      "words": 21038,
+      "translator": "Lee M. Hollander",
+      "year": 1923,
+      "source_url": "https://www.gutenberg.org/ebooks/60333"
+    },
+    {
+      "work": "The Moment",
+      "slug": "the-moment",
+      "file": "the-moment.json",
+      "passages": 39,
+      "words": 9139,
+      "translator": "Lee M. Hollander",
+      "year": 1923,
+      "source_url": "https://www.gutenberg.org/ebooks/60333"
+    }
+  ]
+}

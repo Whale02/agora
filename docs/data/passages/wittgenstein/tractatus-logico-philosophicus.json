@@ -1,13 +1,13 @@
 {
   "slug": "wittgenstein",
-  "translation_credits": [
-    {
-      "work": "Tractatus Logico-Philosophicus",
-      "translator": "C. K. Ogden",
-      "year": 1922,
-      "source_url": "https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus"
-    }
-  ],
+  "work": "Tractatus Logico-Philosophicus",
+  "work_slug": "tractatus-logico-philosophicus",
+  "translation_credit": {
+    "work": "Tractatus Logico-Philosophicus",
+    "translator": "C. K. Ogden",
+    "year": 1922,
+    "source_url": "https://en.wikisource.org/wiki/Tractatus_Logico-Philosophicus"
+  },
   "passages": [
     {
       "work": "Tractatus Logico-Philosophicus",

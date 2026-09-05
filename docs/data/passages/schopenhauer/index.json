@@ -1,0 +1,35 @@
+{
+  "slug": "schopenhauer",
+  "works": [
+    {
+      "work": "The World as Will and Representation",
+      "slug": "the-world-as-will-and-representation",
+      "file": "the-world-as-will-and-representation.json",
+      "passages": 145,
+      "words": 36019,
+      "translator": "R. B. Haldane and J. Kemp",
+      "year": 1883,
+      "source_url": "https://www.gutenberg.org/ebooks/38427"
+    },
+    {
+      "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+      "slug": "parerga-and-paralipomena",
+      "file": "parerga-and-paralipomena.json",
+      "passages": 66,
+      "words": 14928,
+      "translator": "T. Bailey Saunders",
+      "year": 1890,
+      "source_url": "https://www.gutenberg.org/ebooks/10741"
+    },
+    {
+      "work": "On the Basis of Morality",
+      "slug": "on-the-basis-of-morality",
+      "file": "on-the-basis-of-morality.json",
+      "passages": 90,
+      "words": 21861,
+      "translator": "Arthur Brodrick Bullock",
+      "year": 1903,
+      "source_url": "https://www.gutenberg.org/ebooks/44929"
+    }
+  ]
+}

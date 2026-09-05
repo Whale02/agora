@@ -1,0 +1,35 @@
+{
+  "slug": "epicurus",
+  "works": [
+    {
+      "work": "Letter to Herodotus",
+      "slug": "letter-to-herodotus",
+      "file": "letter-to-herodotus.json",
+      "passages": 26,
+      "words": 6483,
+      "translator": "R. D. Hicks",
+      "year": 1925,
+      "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+    },
+    {
+      "work": "Letter to Menoeceus",
+      "slug": "letter-to-menoeceus",
+      "file": "letter-to-menoeceus.json",
+      "passages": 11,
+      "words": 2318,
+      "translator": "R. D. Hicks",
+      "year": 1925,
+      "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+    },
+    {
+      "work": "Principal Doctrines",
+      "slug": "principal-doctrines",
+      "file": "principal-doctrines.json",
+      "passages": 16,
+      "words": 1407,
+      "translator": "R. D. Hicks",
+      "year": 1925,
+      "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+    }
+  ]
+}

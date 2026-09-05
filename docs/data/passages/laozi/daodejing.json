@@ -1,13 +1,13 @@
 {
   "slug": "laozi",
-  "translation_credits": [
-    {
-      "work": "Daodejing (道德经)",
-      "translator": "James Legge",
-      "year": 1891,
-      "source_url": "https://www.gutenberg.org/ebooks/216"
-    }
-  ],
+  "work": "Daodejing (道德经)",
+  "work_slug": "daodejing",
+  "translation_credit": {
+    "work": "Daodejing (道德经)",
+    "translator": "James Legge",
+    "year": 1891,
+    "source_url": "https://www.gutenberg.org/ebooks/216"
+  },
   "passages": [
     {
       "work": "Daodejing (道德经)",

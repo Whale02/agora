@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T00:45:45.345Z",
+  "generated_at": "2026-09-05T05:42:17.553Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -8,6 +8,8 @@
       "works": [
         {
           "work": "Nicomachean Ethics",
+          "slug": "nicomachean-ethics",
+          "file": "nicomachean-ethics.json",
           "count": 140,
           "words": 32433,
           "topics": [
@@ -21,6 +23,8 @@
         },
         {
           "work": "Politics",
+          "slug": "politics",
+          "file": "politics.json",
           "count": 140,
           "words": 34586,
           "topics": [
@@ -109,6 +113,8 @@
       "works": [
         {
           "work": "The Analects (论语), my conversations as my students recorded them",
+          "slug": "the-analects",
+          "file": "the-analects.json",
           "count": 166,
           "words": 17397,
           "topics": [
@@ -187,6 +193,8 @@
       "works": [
         {
           "work": "Letter to Herodotus",
+          "slug": "letter-to-herodotus",
+          "file": "letter-to-herodotus.json",
           "count": 26,
           "words": 6483,
           "topics": [
@@ -200,6 +208,8 @@
         },
         {
           "work": "Principal Doctrines",
+          "slug": "principal-doctrines",
+          "file": "principal-doctrines.json",
           "count": 16,
           "words": 1407,
           "topics": [
@@ -213,6 +223,8 @@
         },
         {
           "work": "Letter to Menoeceus",
+          "slug": "letter-to-menoeceus",
+          "file": "letter-to-menoeceus.json",
           "count": 11,
           "words": 2318,
           "topics": [
@@ -303,6 +315,8 @@
       "works": [
         {
           "work": "Critique of Pure Reason",
+          "slug": "critique-of-pure-reason",
+          "file": "critique-of-pure-reason.json",
           "count": 139,
           "words": 33681,
           "topics": [
@@ -316,6 +330,8 @@
         },
         {
           "work": "Groundwork of the Metaphysics of Morals",
+          "slug": "groundwork-of-the-metaphysics-of-morals",
+          "file": "groundwork-of-the-metaphysics-of-morals.json",
           "count": 86,
           "words": 20819,
           "topics": [
@@ -329,6 +345,8 @@
         },
         {
           "work": "Critique of Practical Reason",
+          "slug": "critique-of-practical-reason",
+          "file": "critique-of-practical-reason.json",
           "count": 75,
           "words": 18639,
           "topics": [
@@ -423,6 +441,8 @@
       "works": [
         {
           "work": "Stages on Life's Way",
+          "slug": "stages-on-life-s-way",
+          "file": "stages-on-life-s-way.json",
           "count": 101,
           "words": 24374,
           "topics": [
@@ -436,6 +456,8 @@
         },
         {
           "work": "Training in Christianity",
+          "slug": "training-in-christianity",
+          "file": "training-in-christianity.json",
           "count": 90,
           "words": 21038,
           "topics": [
@@ -449,6 +471,8 @@
         },
         {
           "work": "Fear and Trembling",
+          "slug": "fear-and-trembling",
+          "file": "fear-and-trembling.json",
           "count": 47,
           "words": 11325,
           "topics": [
@@ -462,6 +486,8 @@
         },
         {
           "work": "The Moment",
+          "slug": "the-moment",
+          "file": "the-moment.json",
           "count": 39,
           "words": 9139,
           "topics": [
@@ -475,6 +501,8 @@
         },
         {
           "work": "Either/Or",
+          "slug": "either-or",
+          "file": "either-or.json",
           "count": 3,
           "words": 902,
           "topics": [
@@ -577,6 +605,8 @@
       "works": [
         {
           "work": "Daodejing (道德经)",
+          "slug": "daodejing",
+          "file": "daodejing.json",
           "count": 77,
           "words": 10324,
           "topics": [
@@ -659,6 +689,8 @@
       "works": [
         {
           "work": "Meditations",
+          "slug": "meditations",
+          "file": "meditations.json",
           "count": 205,
           "words": 45353,
           "topics": [
@@ -741,6 +773,8 @@
       "works": [
         {
           "work": "Thus Spoke Zarathustra",
+          "slug": "thus-spoke-zarathustra",
+          "file": "thus-spoke-zarathustra.json",
           "count": 100,
           "words": 11243,
           "topics": [
@@ -754,6 +788,8 @@
         },
         {
           "work": "The Gay Science",
+          "slug": "the-gay-science",
+          "file": "the-gay-science.json",
           "count": 68,
           "words": 14288,
           "topics": [
@@ -767,6 +803,8 @@
         },
         {
           "work": "Beyond Good and Evil",
+          "slug": "beyond-good-and-evil",
+          "file": "beyond-good-and-evil.json",
           "count": 58,
           "words": 13414,
           "topics": [
@@ -780,6 +818,8 @@
         },
         {
           "work": "On the Genealogy of Morals",
+          "slug": "on-the-genealogy-of-morals",
+          "file": "on-the-genealogy-of-morals.json",
           "count": 53,
           "words": 13266,
           "topics": [
@@ -793,6 +833,8 @@
         },
         {
           "work": "Twilight of the Idols",
+          "slug": "twilight-of-the-idols",
+          "file": "twilight-of-the-idols.json",
           "count": 41,
           "words": 8038,
           "topics": [
@@ -899,6 +941,8 @@
       "works": [
         {
           "work": "Republic",
+          "slug": "republic",
+          "file": "republic.json",
           "count": 119,
           "words": 21404,
           "topics": [
@@ -912,6 +956,8 @@
         },
         {
           "work": "Theaetetus",
+          "slug": "theaetetus",
+          "file": "theaetetus.json",
           "count": 44,
           "words": 7953,
           "topics": [
@@ -925,6 +971,8 @@
         },
         {
           "work": "Phaedo",
+          "slug": "phaedo",
+          "file": "phaedo.json",
           "count": 38,
           "words": 7315,
           "topics": [
@@ -938,6 +986,8 @@
         },
         {
           "work": "Timaeus",
+          "slug": "timaeus",
+          "file": "timaeus.json",
           "count": 37,
           "words": 8545,
           "topics": [
@@ -951,6 +1001,8 @@
         },
         {
           "work": "Phaedrus",
+          "slug": "phaedrus",
+          "file": "phaedrus.json",
           "count": 35,
           "words": 7539,
           "topics": [
@@ -964,6 +1016,8 @@
         },
         {
           "work": "Symposium",
+          "slug": "symposium",
+          "file": "symposium.json",
           "count": 33,
           "words": 7386,
           "topics": [
@@ -977,6 +1031,8 @@
         },
         {
           "work": "Meno",
+          "slug": "meno",
+          "file": "meno.json",
           "count": 31,
           "words": 4875,
           "topics": [
@@ -990,6 +1046,8 @@
         },
         {
           "work": "Apology",
+          "slug": "apology",
+          "file": "apology.json",
           "count": 23,
           "words": 5539,
           "topics": [
@@ -1114,6 +1172,8 @@
       "works": [
         {
           "work": "The World as Will and Representation",
+          "slug": "the-world-as-will-and-representation",
+          "file": "the-world-as-will-and-representation.json",
           "count": 145,
           "words": 36019,
           "topics": [
@@ -1127,6 +1187,8 @@
         },
         {
           "work": "On the Basis of Morality",
+          "slug": "on-the-basis-of-morality",
+          "file": "on-the-basis-of-morality.json",
           "count": 90,
           "words": 21861,
           "topics": [
@@ -1140,6 +1202,8 @@
         },
         {
           "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+          "slug": "parerga-and-paralipomena",
+          "file": "parerga-and-paralipomena.json",
           "count": 66,
           "words": 14928,
           "topics": [
@@ -1234,6 +1298,8 @@
       "works": [
         {
           "work": "Letters to Lucilius (Epistulae Morales)",
+          "slug": "letters-to-lucilius",
+          "file": "letters-to-lucilius.json",
           "count": 320,
           "words": 74662,
           "topics": [
@@ -1316,6 +1382,8 @@
       "works": [
         {
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
+          "slug": "instructions-for-practical-living",
+          "file": "instructions-for-practical-living.json",
           "count": 300,
           "words": 71034,
           "topics": [
@@ -1394,6 +1462,8 @@
       "works": [
         {
           "work": "Tractatus Logico-Philosophicus",
+          "slug": "tractatus-logico-philosophicus",
+          "file": "tractatus-logico-philosophicus.json",
           "count": 76,
           "words": 13405,
           "topics": [
@@ -1452,6 +1522,8 @@
       "works": [
         {
           "work": "Zhuangzi (庄子), especially the Inner Chapters",
+          "slug": "zhuangzi",
+          "file": "zhuangzi.json",
           "count": 300,
           "words": 70713,
           "topics": [

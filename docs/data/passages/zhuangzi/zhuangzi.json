@@ -1,13 +1,13 @@
 {
   "slug": "zhuangzi",
-  "translation_credits": [
-    {
-      "work": "Zhuangzi (庄子), especially the Inner Chapters",
-      "translator": "James Legge",
-      "year": 1891,
-      "source_url": "https://ctext.org/zhuangzi"
-    }
-  ],
+  "work": "Zhuangzi (庄子), especially the Inner Chapters",
+  "work_slug": "zhuangzi",
+  "translation_credit": {
+    "work": "Zhuangzi (庄子), especially the Inner Chapters",
+    "translator": "James Legge",
+    "year": 1891,
+    "source_url": "https://ctext.org/zhuangzi"
+  },
   "passages": [
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",

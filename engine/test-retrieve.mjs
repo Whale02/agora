@@ -157,6 +157,20 @@ for (const slug of slugs) {
   check(hit / questions.length >= 0.6, `${slug} answers the topic pool`, `${hit} of ${questions.length} questions`);
 }
 
+// A shelf is only a shelf if the retriever reaches all of it. Before the corpus grew, most
+// philosophers held one or two works and this could not be asked; now Plato holds
+// twenty-three, and a work nothing ever retrieves is a work the philosophers never quote.
+// A work under ten passages is exempt: it can lose every query to a longer one and still be
+// worth holding.
+for (const slug of slugs) {
+  const reached = new Set();
+  for (const q of questions) for (const h of retrieve(slug, q, 4)) reached.add(h.work);
+  const missed = readIndex(slug)
+    .works.filter((w) => w.passages >= 10 && !reached.has(w.work))
+    .map((w) => w.slug);
+  check(missed.length === 0, `${slug}: every work of ten passages or more is reachable`, missed.slice(0, 3).join(", "));
+}
+
 // A philosopher with no corpus is a normal state, not an error.
 const noCorpus = philosophers.map((p) => p.slug).filter((s) => !slugs.includes(s));
 check(

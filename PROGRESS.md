@@ -529,6 +529,33 @@ or a semicolon is dropped rather than cut mid-clause.
   rewrites they asked for: "the only copy is a page scan" lost its hedge, and the Great
   Learning is named by its Chinese title, as the Chuanxilu already was in the same file.
 
+### The shelf is read, not just held
+
+The outcome the plan set was that the philosophers quote from a real library rather than a
+sample of one. That is measurable, so it was measured: for each philosopher, the fifty
+questions of the topic pool were put to the retriever and the works that came back were
+counted.
+
+    Plato          23 works   23 reached   busiest work 12% of hits
+    Seneca         12         12           41%
+    Schopenhauer   11         11           17%
+    Nietzsche      10         10           14%
+    Aristotle       7          7           23%
+    Kant            6          6           20%
+    Epicurus        6          6           22%
+    Kierkegaard     5          4           39%
+    Wang Yangming   4          4           35%
+    Confucius       3          3           74%
+
+Every work of ten passages or more is reached. The one work never retrieved is Kierkegaard's
+Either/Or, which holds three passages of Hollander's selections and loses every query to a
+longer book. Before this run most of these philosophers held one or two works and the
+question could not be asked at all.
+
+`engine/test-retrieve.mjs` now asks it on every run: a work of ten passages or more that the
+topic pool never reaches fails the suite. Negative control: replacing the text of the Laws
+with a repeated nonsense token failed it, naming the Laws.
+
 ### Verification of the whole run, on one HEAD
 
 Run at bfc1766. Every command below was run against that tree with nothing uncommitted but

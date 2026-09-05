@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:57:53.107Z",
+  "generated_at": "2026-09-05T07:14:01.934Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -192,8 +192,8 @@
     },
     {
       "slug": "confucius",
-      "passages": 166,
-      "words": 17397,
+      "passages": 206,
+      "words": 27108,
       "works": [
         {
           "work": "The Analects (论语), my conversations as my students recorded them",
@@ -209,56 +209,86 @@
             "knowledge",
             "self"
           ]
+        },
+        {
+          "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+          "slug": "the-doctrine-of-the-mean",
+          "file": "the-doctrine-of-the-mean.json",
+          "count": 29,
+          "words": 6669,
+          "topics": [
+            "nature",
+            "action",
+            "self",
+            "virtue",
+            "freedom",
+            "knowledge"
+          ]
+        },
+        {
+          "work": "The Great Learning (大學), set down by my student Zengzi",
+          "slug": "the-great-learning",
+          "file": "the-great-learning.json",
+          "count": 11,
+          "words": 3042,
+          "topics": [
+            "action",
+            "virtue",
+            "love",
+            "freedom",
+            "knowledge",
+            "education"
+          ]
         }
       ],
       "topics": [
         {
           "topic": "freedom",
-          "count": 67
+          "count": 82
         },
         {
           "topic": "action",
-          "count": 35
+          "count": 54
         },
         {
           "topic": "virtue",
-          "count": 29
-        },
-        {
-          "topic": "work",
-          "count": 17
-        },
-        {
-          "topic": "knowledge",
-          "count": 15
-        },
-        {
-          "topic": "self",
-          "count": 15
+          "count": 47
         },
         {
           "topic": "nature",
-          "count": 13
+          "count": 31
         },
         {
-          "topic": "education",
-          "count": 12
+          "topic": "self",
+          "count": 29
+        },
+        {
+          "topic": "knowledge",
+          "count": 27
         },
         {
           "topic": "meta",
-          "count": 12
+          "count": 21
         },
         {
           "topic": "love",
-          "count": 9
+          "count": 19
         },
         {
-          "topic": "suffering",
-          "count": 3
+          "topic": "work",
+          "count": 19
+        },
+        {
+          "topic": "education",
+          "count": 16
         },
         {
           "topic": "meaning",
-          "count": 2
+          "count": 7
+        },
+        {
+          "topic": "suffering",
+          "count": 5
         }
       ],
       "translation_credits": [
@@ -267,6 +297,18 @@
           "translator": "James Legge",
           "year": 1893,
           "source_url": "https://www.gutenberg.org/ebooks/3330"
+        },
+        {
+          "work": "The Great Learning (大學), set down by my student Zengzi",
+          "translator": "James Legge",
+          "year": 1893,
+          "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Great_Learning"
+        },
+        {
+          "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+          "translator": "James Legge",
+          "year": 1893,
+          "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Doctrine_of_the_Mean"
         }
       ]
     },
@@ -810,61 +852,53 @@
     },
     {
       "slug": "laozi",
-      "passages": 77,
+      "passages": 64,
       "words": 10324,
       "works": [
         {
           "work": "Daodejing (道德经)",
           "slug": "daodejing",
           "file": "daodejing.json",
-          "count": 77,
+          "count": 64,
           "words": 10324,
           "topics": [
             "action",
             "nature",
             "knowledge",
             "suffering",
-            "virtue",
-            "love"
+            "meaning",
+            "virtue"
           ]
         }
       ],
       "topics": [
         {
           "topic": "action",
-          "count": 38
+          "count": 35
         },
         {
           "topic": "nature",
-          "count": 20
+          "count": 23
         },
         {
           "topic": "knowledge",
-          "count": 14
+          "count": 16
         },
         {
           "topic": "suffering",
           "count": 10
         },
         {
-          "topic": "virtue",
-          "count": 9
-        },
-        {
-          "topic": "love",
-          "count": 8
-        },
-        {
           "topic": "meaning",
+          "count": 10
+        },
+        {
+          "topic": "virtue",
           "count": 8
         },
         {
           "topic": "freedom",
-          "count": 8
-        },
-        {
-          "topic": "work",
-          "count": 7
+          "count": 6
         },
         {
           "topic": "meta",
@@ -873,6 +907,14 @@
         {
           "topic": "self",
           "count": 5
+        },
+        {
+          "topic": "love",
+          "count": 4
+        },
+        {
+          "topic": "work",
+          "count": 4
         },
         {
           "topic": "technology",
@@ -2273,77 +2315,77 @@
     },
     {
       "slug": "zhuangzi",
-      "passages": 258,
-      "words": 60683,
+      "passages": 252,
+      "words": 62113,
       "works": [
         {
           "work": "Zhuangzi (庄子), especially the Inner Chapters",
           "slug": "zhuangzi",
           "file": "zhuangzi.json",
-          "count": 258,
-          "words": 60683,
+          "count": 252,
+          "words": 62113,
           "topics": [
             "nature",
-            "knowledge",
             "action",
+            "knowledge",
             "virtue",
-            "freedom",
-            "suffering"
+            "suffering",
+            "freedom"
           ]
         }
       ],
       "topics": [
         {
           "topic": "nature",
-          "count": 137
-        },
-        {
-          "topic": "knowledge",
-          "count": 133
+          "count": 132
         },
         {
           "topic": "action",
-          "count": 123
+          "count": 128
+        },
+        {
+          "topic": "knowledge",
+          "count": 122
         },
         {
           "topic": "virtue",
-          "count": 62
-        },
-        {
-          "topic": "freedom",
-          "count": 49
+          "count": 67
         },
         {
           "topic": "suffering",
-          "count": 43
+          "count": 56
+        },
+        {
+          "topic": "freedom",
+          "count": 54
         },
         {
           "topic": "self",
-          "count": 34
-        },
-        {
-          "topic": "meta",
-          "count": 32
+          "count": 37
         },
         {
           "topic": "work",
+          "count": 30
+        },
+        {
+          "topic": "meta",
+          "count": 27
+        },
+        {
+          "topic": "love",
           "count": 25
         },
         {
           "topic": "meaning",
-          "count": 25
-        },
-        {
-          "topic": "love",
           "count": 24
         },
         {
           "topic": "education",
-          "count": 22
+          "count": 23
         },
         {
           "topic": "technology",
-          "count": 5
+          "count": 3
         }
       ],
       "translation_credits": [

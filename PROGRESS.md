@@ -361,6 +361,41 @@ The overseer's sourcing audit of 2026-09-04 23:20 covers F1 to F4 and is not rep
 69 work files, every credit complete, every year 1855 to 1928, every source on the approved
 list, no shadow-library reference anywhere in the corpus.
 
+### F7. Legge's coverage extended, and two false citations fixed
+
+Commit follows this entry. Confucius goes from one work to three, Laozi's chapters are
+cited correctly for the first time, and the Zhuangzi goes from 28 chapters to 32.
+
+- **Confucius.** The Great Learning and the Doctrine of the Mean, both in Legge's
+  translation, from the Wikisource transcription of the Chinese Classics volume I where his
+  English sits paragraph for paragraph beside the Chinese. 206 passages across three works.
+  Neither of the two is Confucius writing: the Great Learning was set down by his student
+  Zengzi and the Doctrine of the Mean by his grandson Zisi, and the work titles say so, as
+  the Analects entry already said "as my students recorded them".
+- **Laozi.** Fourteen chapters of the Daodejing were being cited under the number of the
+  chapter before them, and chapter 40 was not in the corpus at all. Legge writes a chapter
+  number and a paragraph number the same way, "12.", so the build could not tell the two
+  apart and lost the chapters he set entirely in verse. It now tells them apart by what
+  follows the number and by which number the book has reached. Chapter 40 is forty-two words
+  long, under the length floor, and a short passage can only merge into a neighbour with the
+  same reference, so it was being dropped: passages may now span chapters and cite the range
+  they cover. All 81 chapters are in the corpus and every reference points at the right one.
+- **Zhuangzi.** Two chapters were missing from the build's list, Tian Zi-fang and Delight in
+  the Sword-fight, and downsampling the whole book at once had emptied five more, because a
+  chapter with few passages loses all of them to a chapter with many. Each chapter now keeps
+  a share of its own. 252 passages across 32 of the 33 chapters.
+- Delight in the Sword-fight is the one chapter still missing. ctext.org began serving a
+  human-verification page partway through this slice, for every URL and not only that one,
+  so the chapter could not be fetched. The Internet Archive scan of the same Legge volume
+  holds it as OCR, which would need the page-image proofreading the sourcing law requires;
+  the chapter is a story about a king who liked sword fights and is the least philosophical
+  in the book. Recorded here rather than papered over.
+- Verified: `spotcheck.mjs` exit 0 on Confucius, 9 of 9 passages verbatim in their sources,
+  and on Laozi, 3 of 3. Zhuangzi's three sample passages were checked against the cached
+  ctext pages the build read, since ctext will not answer a fresh request at the moment.
+  `node engine/test-retrieve.mjs` exit 0: 15 philosophers, 5699 passages, 75 works, heaviest
+  work file 384KB.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

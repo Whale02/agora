@@ -822,6 +822,23 @@ C1 and C2, the composer:
 
 ## Overseer calls
 
+- Overseer call, founder review pending (2026-09-05 01:25): the copyright gate contradicted
+  the rule printed beside it. SOURCES.md stated correctly that a translation published 1930
+  or earlier is clear in the United States, then described the validator as failing anything
+  dated 1929 or later, and the validator did exactly that. Nothing illegitimate got in, since
+  the corpus tops out at 1928, but a contributor bringing a genuine 1929 or 1930 edition would
+  have been refused with the false message that it was not clear of copyright. The threshold
+  now computes from the current year (publication year plus 95), so it moves on its own each
+  1 January instead of going stale, and SOURCES.md and CONTRIBUTING.md say so. Validator exit
+  0, prose gates exit 0.
+- Overseer call, founder review pending (2026-09-05 01:25): sourcing audit of the whole corpus
+  at 91 work files and 7,103 passages. Every translation_credit complete, years 1855 to 1928,
+  every source on the approved list, no shadow-library reference, largest file 384KB under the
+  cap. Zhu Xi spot-checked against archive.org thephilosophyofh00chuhuoft: the passage at Book
+  III section 21 reads "which is free from blemishes" where the raw OCR reads "hich isjEreaJrom.
+  blemishes", so the page-image proofreading the law requires demonstrably happened rather than
+  being claimed. F7 is correctly left unchecked with its blocker recorded.
+
 - Overseer call, founder review pending (2026-09-04 23:20): sourcing audit of the whole
   corpus after F1 to F4. 69 work files, 5,592 passages, every translation_credit complete,
   every year 1930 or earlier, every source on the approved list, no shadow-library reference,

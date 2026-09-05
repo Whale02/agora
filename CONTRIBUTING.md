@@ -56,8 +56,9 @@ cleared before a file goes in.
 
 The translation has to be out of copyright, not the original. Jowett's Plato and Long's
 Marcus Aurelius are clear; a 1940s rendering of the same Greek is not. In practice that
-means a translation published before 1929, and the file records the year so the check is
-mechanical.
+means a translation published 95 years ago or more, and the file records the year so the
+check is mechanical. The validator works the cutoff out from today's date, so it moves on
+its own each 1 January.
 
 The text has to be reliable enough to quote. A passage in this corpus is presented as
 verbatim, so a page scan is not poured in as it stands: its OCR is proofread against the
@@ -87,7 +88,7 @@ node engine/test-retrieve.mjs          # validate every corpus file and the retr
 ```
 
 The validator is the gate. It fails on a passage citing a work the philosopher does not
-have, a credit missing a translator, a year or a source, a credit dated 1929 or later, a
+have, a credit missing a translator, a year or a source, a credit too new to be clear of copyright, a
 passage outside the length band, a duplicate, a work file over 400KB, an index that
 disagrees with the files beside it, or a retrieval that cannot find a passage from its
 own wording.

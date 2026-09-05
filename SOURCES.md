@@ -14,7 +14,7 @@ year of the edition being copied, not the author's dates. Kierkegaard comes from
 selections of 1923 rather than from Walter Lowrie, whose translations are 1941 and later. Kant's
 "What is Enlightenment?" is listed and unquoted because the version everyone reads is Lewis
 White Beck's of 1963, and it is still in copyright however freely it can be read online.
-`engine/test-retrieve.mjs` fails any credit dated 1929 or later.
+`engine/test-retrieve.mjs` computes that cutoff from the current year rather than storing it, and fails any credit newer than it.
 
 **Shadow libraries are never used.** Anna's Archive, Library Genesis, Z-Library, Sci-Hub and
 their mirrors are not fetched, not parsed, and not cited, whatever the convenience. One
@@ -61,7 +61,7 @@ opening one book downloads that book.
 `engine/retrieve.mjs` runs BM25 across one philosopher's works at a time and `speak()` puts what
 it finds into the prompt, capped near 1800 words. `node engine/test-retrieve.mjs` validates every
 file and exits 1 on a passage citing a work its philosopher does not have, a credit without a
-translator or a source, a credit dated 1929 or later, a passage outside the length band, a
+translator or a source, a credit too new to be clear of copyright, a passage outside the length band, a
 duplicate, a work file over 400KB, an index that disagrees with the files beside it, or a
 retrieval that cannot find a passage from its own wording.
 

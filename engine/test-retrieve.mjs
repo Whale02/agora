@@ -13,6 +13,11 @@ import { DIR, corpusSlugs, readIndex, readWork, workSlug } from "./corpus.mjs";
 import { creditFor, retrieve, tokenize } from "./retrieve.mjs";
 import { ownPages, passageBlock, systemPrompt } from "./lib.mjs";
 
+// United States copyright runs 95 years from publication, so the newest translation that is
+// clear today is the one published 95 years ago. Computed rather than written down: a
+// hardcoded year silently rejects a legitimate edition every 1 January.
+const PUBLIC_DOMAIN_THROUGH = new Date().getUTCFullYear() - 96;
+
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MIN_WORDS = 50;
 const MAX_WORDS = 400;
@@ -86,7 +91,7 @@ for (const slug of slugs) {
     if (!works.has(c.work)) problems.push(`credit names a work not in philosophers.json: ${c.work}`);
     if (!c.translator || !c.year) problems.push(`credit for ${c.work} lacks a translator or a year`);
     if (!/^https?:\/\//.test(c.source_url ?? "")) problems.push(`credit for ${c.work} lacks a source url`);
-    if (c.year >= 1929) problems.push(`credit for ${c.work} is dated ${c.year}, which is not clear of copyright`);
+    if (c.year > PUBLIC_DOMAIN_THROUGH) problems.push(`credit for ${c.work} is dated ${c.year}, which is not clear of copyright before ${PUBLIC_DOMAIN_THROUGH + 96}`);
   }
   // The index is what every page reads before it fetches anything, so it has to agree with
   // the files on disk: one entry per work, the count and the credit the file itself carries.

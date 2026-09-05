@@ -6,7 +6,7 @@
       "slug": "letter-to-herodotus",
       "file": "letter-to-herodotus.json",
       "passages": 26,
-      "words": 6483,
+      "words": 6436,
       "translator": "R. D. Hicks",
       "year": 1925,
       "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
@@ -35,11 +35,13 @@
       "work": "Principal Doctrines",
       "slug": "principal-doctrines",
       "file": "principal-doctrines.json",
-      "passages": 16,
-      "words": 1407,
+      "passages": 11,
+      "words": 1909,
       "translator": "R. D. Hicks",
       "year": 1925,
-      "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+      "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+      "paired": 11,
+      "original": "Κύριαι Δόξαι"
     },
     {
       "work": "Vatican Sayings",

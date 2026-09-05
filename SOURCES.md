@@ -84,7 +84,7 @@ files. Nothing in it is typed by hand.
 
 <!-- generated: what the plaza holds -->
 
-15 of the 25 are quoted, from 92 works and 7,335 passages.
+15 of the 25 are quoted, from 92 works and 7,330 passages.
 
     Philosopher      Works  Passages  Translations
     Plato               23      1285  Benjamin Jowett, 1892
@@ -98,18 +98,19 @@ files. Nothing in it is typed by hand.
     Kierkegaard          5       280  Lee M. Hollander, 1923
     Zhuangzi             1       224  James Legge, 1891
     Marcus Aurelius      1       205  George Long, 1862
-    Epicurus             6       110  R. D. Hicks, Cyril Bailey, 1925 to 1926
+    Epicurus             6       105  R. D. Hicks, Cyril Bailey, 1925 to 1926
     Laozi                1        79  James Legge, 1891
     Wittgenstein         1        76  C. K. Ogden, 1922
     Zhu Xi               1        29  J. Percy Bruce, 1922
 
-671 of those passages carry the philosopher's own language above the English:
+682 of those passages carry the philosopher's own language above the English:
 
     Nietzsche              34  Jenseits von Gut und Böse, Zur Genealogie der Moral
     Seneca                 63  De constantia sapientis, De ira, Ad Marciam, de Consolatione, De vita beata, De otio, De tranquillitate animi, De brevitate vitae, Ad Helviam matrem, de Consolatione, Ad Polybium, de Consolatione, De clementia
     Confucius             289  論語, 大學, 中庸
     Zhuangzi              142  莊子
     Marcus Aurelius        42  Τὰ εἰς ἑαυτόν
+    Epicurus               11  Κύριαι Δόξαι
     Laozi                  79  道德經
     Zhu Xi                 22  御纂朱子全書
 

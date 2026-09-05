@@ -1,20 +1,17 @@
 // Retrieval over a philosopher's own pages.
 //
-// BM25 with no dependencies, over docs/data/passages/<slug>.json. Each philosopher gets one
-// index, built the first time anyone asks for them and kept for the life of the process, so
-// a heartbeat that seats four thinkers reads four files and no more. A philosopher with no
-// corpus retrieves nothing rather than throwing, because most of the twenty-five have no
-// public-domain translation and that is a normal state, not an error.
+// BM25 with no dependencies, over docs/data/passages/<slug>/. Each philosopher gets one
+// index across all their works, built the first time anyone asks for them and kept for the
+// life of the process, so a heartbeat that seats four thinkers reads four shelves and no
+// more. A philosopher with no corpus retrieves nothing rather than throwing, because most of
+// the twenty-five have no public-domain translation and that is a normal state, not an error.
 //
 //     import { retrieve } from "./retrieve.mjs";
 //     retrieve("marcus-aurelius", "is work meaningful", 4)
 //     // -> [{ work, ref, text, topics, score }, ...]
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { corpusSlugs, readIndex, readWork } from "./corpus.mjs";
 
-const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const DIR = path.join(ROOT, "docs", "data", "passages");
+export { corpusSlugs };
 
 const K1 = 1.2;
 const B = 0.75;
@@ -58,26 +55,25 @@ export function tokenize(text) {
 const indexes = new Map();
 
 function build(slug) {
-  const file = path.join(DIR, `${slug}.json`);
-  if (!fs.existsSync(file)) return null;
-  const corpus = JSON.parse(fs.readFileSync(file, "utf8"));
+  const index = readIndex(slug);
+  if (!index) return null;
   const docs = [];
   const df = new Map();
-  for (const p of corpus.passages) {
-    const tf = new Map();
-    const toks = tokenize(`${p.text} ${p.work} ${p.ref ?? ""} ${(p.topics ?? []).join(" ")}`);
-    for (const t of toks) tf.set(t, (tf.get(t) ?? 0) + 1);
-    for (const t of tf.keys()) df.set(t, (df.get(t) ?? 0) + 1);
-    docs.push({ passage: p, tf, len: toks.length });
+  const credits = [];
+  for (const w of index.works) {
+    const file = readWork(slug, w.slug);
+    if (!file) continue;
+    credits.push(file.translation_credit);
+    for (const p of file.passages) {
+      const tf = new Map();
+      const toks = tokenize(`${p.text} ${p.work} ${p.ref ?? ""} ${(p.topics ?? []).join(" ")}`);
+      for (const t of toks) tf.set(t, (tf.get(t) ?? 0) + 1);
+      for (const t of tf.keys()) df.set(t, (df.get(t) ?? 0) + 1);
+      docs.push({ passage: p, tf, len: toks.length });
+    }
   }
   const total = docs.reduce((n, d) => n + d.len, 0);
-  return {
-    slug,
-    docs,
-    df,
-    avgdl: docs.length ? total / docs.length : 0,
-    credits: corpus.translation_credits ?? [],
-  };
+  return { slug, docs, df, avgdl: docs.length ? total / docs.length : 0, credits };
 }
 
 // The index for a philosopher, or null when the plaza holds no passages from them.
@@ -121,14 +117,4 @@ export function retrieve(slug, query, k = 4) {
 export function creditFor(slug, work) {
   const idx = indexFor(slug);
   return idx?.credits.find((c) => c.work === work) ?? null;
-}
-
-// Every slug with a corpus on disk, sorted, for validation and for the sources library.
-export function corpusSlugs() {
-  if (!fs.existsSync(DIR)) return [];
-  return fs
-    .readdirSync(DIR)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) => f.replace(/\.json$/, ""))
-    .sort();
 }

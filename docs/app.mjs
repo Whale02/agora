@@ -432,10 +432,11 @@ async function fillSources(convo, seats) {
       b.textContent = "Fetching the pages…";
       b.disabled = true;
       try {
-        const corpus = await load(`data/passages/${slug}.json`);
-        const picked = pickPassages(corpus.passages, subject, 3);
+        const chosen = pickWork(held[slug].works, subject);
+        const file = await workP(slug, chosen.file);
+        const picked = pickPassages(file.passages, subject, 3);
         drawer.innerHTML = picked.length
-          ? picked.map((x) => passageCard(x, corpus)).join("")
+          ? picked.map((x) => passageCard(x, file.translation_credit)).join("")
           : `<p class="counts">Nothing in this corpus touches ${esc(subject)}.</p>`;
         drawer.hidden = false;
         b.textContent = "Close";
@@ -456,8 +457,7 @@ function pickPassages(passages, subject, n) {
   return [...pool].sort((a, b) => a.text.length - b.text.length).slice(0, n);
 }
 
-function passageCard(x, corpus) {
-  const credit = corpus.translation_credits.find((c) => c.work === x.work);
+function passageCard(x, credit) {
   return `<figure class="passage">
     <blockquote>${esc(trim(x.text, 320))}</blockquote>
     <figcaption>
@@ -664,9 +664,10 @@ async function fillProfileSources(p) {
     b.textContent = "Fetching the pages…";
     b.disabled = true;
     try {
-      const corpus = await load(`data/passages/${p.slug}.json`);
-      const picked = pickPassages(corpus.passages, p.key_topics[0], 3);
-      drawer.innerHTML = picked.map((x) => passageCard(x, corpus)).join("");
+      const chosen = pickWork(m.works, p.key_topics[0]);
+      const file = await workP(p.slug, chosen.file);
+      const picked = pickPassages(file.passages, p.key_topics[0], 3);
+      drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit)).join("");
       drawer.hidden = false;
       b.textContent = "Close";
     } catch {
@@ -680,7 +681,18 @@ async function fillProfileSources(p) {
 /* ---------- the library: sources and the reader ---------- */
 
 const manifestP = () => load("data/passages.json");
-const corpusP = (slug) => load(`data/passages/${slug}.json`);
+
+// One work, not a philosopher's whole shelf. The manifest already carries the counts, the
+// credits and the file name for every work held, so a page that wants three passages from
+// the Republic fetches the Republic.
+const workP = (slug, file) => load(`data/passages/${slug}/${file}`);
+
+// The work most likely to speak to a subject: one that lists it, largest first, and
+// otherwise the largest work on the shelf.
+function pickWork(works, subject) {
+  const on = works.filter((w) => (w.topics ?? []).includes(subject));
+  return [...(on.length ? on : works)].sort((a, b) => b.count - a.count)[0];
+}
 
 // A philosopher's era string is prose. This pulls the first year out of it, negative for BC,
 // so the shelf and the timeline can stand in order without a second field in the data.
@@ -705,10 +717,10 @@ function shelf(manifest, by) {
   for (const m of manifest.philosophers) {
     const p = by[m.slug];
     if (!p) continue;
-    m.works.forEach((w, i) => {
+    for (const w of m.works) {
       const credit = m.translation_credits.find((c) => c.work === w.work);
-      out.push({ ...w, slug: m.slug, index: i, phil: p, credit, year: eraYear(p.era) });
-    });
+      out.push({ ...w, work_slug: w.slug, slug: m.slug, phil: p, credit, year: eraYear(p.era) });
+    }
   }
   return out.sort((a, b) => a.year - b.year || a.phil.name_en.localeCompare(b.phil.name_en) || b.count - a.count);
 }
@@ -822,7 +834,7 @@ async function renderSources() {
 function volume(w, idx) {
   const tables = idx.conversations.filter((c) => w.topics.includes(c.category)).length;
   return `<li><article class="volume">
-    <a class="cover" href="#/read/${esc(w.slug)}/${w.index}" aria-label="Read ${esc(shortWork(w.work))}"></a>
+    <a class="cover" href="#/read/${esc(w.slug)}/${esc(w.work_slug)}" aria-label="Read ${esc(shortWork(w.work))}"></a>
     ${face(w.phil)}
     <div class="spine">
       <h2>${esc(shortWork(w.work))}</h2>
@@ -870,18 +882,22 @@ async function renderReader(slug, workArg, sectionArg) {
   if (!m || !p) {
     return renderMissing("Nothing on that shelf", "The plaza holds no passages under that name. The library lists what it does hold.");
   }
-  const n = Math.min(Math.max(0, Number(workArg) || 0), m.works.length - 1);
-  const work = m.works[n];
-  const credit = m.translation_credits.find((c) => c.work === work.work);
+  // A work is addressed by its own slug, so a link keeps working when the shelf grows. The
+  // numeric form the library shipped before the split still resolves.
+  const work =
+    m.works.find((w) => w.slug === workArg) ??
+    m.works[Math.min(Math.max(0, Number(workArg) || 0), m.works.length - 1)];
+  const n = work.slug;
   setNav("sources", shortWork(work.work));
 
-  let corpus;
+  let file;
   try {
-    corpus = await corpusP(slug);
+    file = await workP(slug, work.file);
   } catch {
     return renderMissing("That book will not open", "The passages for this thinker did not load. The library page lists the rest.");
   }
-  const passages = corpus.passages.filter((x) => x.work === work.work);
+  const credit = file.translation_credit;
+  const passages = file.passages;
   const parts = stretches(passages);
   const sec = Math.min(Math.max(0, Number(sectionArg) || 0), parts.length - 1);
   const part = parts[sec];
@@ -907,8 +923,8 @@ async function renderReader(slug, workArg, sectionArg) {
         ? `<nav class="volumes" aria-label="Works by ${esc(p.name_en)}">
             ${m.works
               .map(
-                (w, i) =>
-                  `<a href="#/read/${esc(slug)}/${i}/0"${i === n ? ' aria-current="page"' : ""}>${esc(shortWork(w.work))}<span>${w.count}</span></a>`,
+                (w) =>
+                  `<a href="#/read/${esc(slug)}/${esc(w.slug)}/0"${w.slug === n ? ' aria-current="page"' : ""}>${esc(shortWork(w.work))}<span>${w.count}</span></a>`,
               )
               .join("")}
           </nav>`
@@ -1012,21 +1028,21 @@ async function dailyPages(manifest, by, count = 1) {
   const m = held[day % held.length];
   const p = by[m.slug];
   if (!p) return [];
-  let corpus;
+  const work = m.works[day % m.works.length];
+  let file;
   try {
-    corpus = await corpusP(m.slug);
+    file = await workP(m.slug, work.file);
   } catch {
     return [];
   }
   const out = [];
   for (let i = 0; i < count; i++) {
-    const x = corpus.passages[(day * 7919 + i * 2711) % corpus.passages.length];
     out.push({
       phil: p,
       slug: m.slug,
-      passage: x,
-      credit: corpus.translation_credits.find((c) => c.work === x.work),
-      index: Math.max(0, m.works.findIndex((w) => w.work === x.work)),
+      passage: file.passages[(day * 7919 + i * 2711) % file.passages.length],
+      credit: file.translation_credit,
+      work: work.slug,
     });
   }
   return out;
@@ -1039,7 +1055,7 @@ function pageCard(d, { label } = {}) {
     <figcaption>
       <a href="#/p/${esc(d.slug)}">${esc(d.phil.name_en)}</a>, ${esc(shortWork(d.passage.work))}${d.passage.ref ? `, ${esc(d.passage.ref)}` : ""}${d.credit ? `, translated by ${esc(d.credit.translator)}, ${d.credit.year}` : ""}
     </figcaption>
-    <a class="btn" href="#/read/${esc(d.slug)}/${d.index}">Read on in ${esc(shortWork(d.passage.work))}</a>
+    <a class="btn" href="#/read/${esc(d.slug)}/${esc(d.work)}">Read on in ${esc(shortWork(d.passage.work))}</a>
   </figure>`;
 }
 

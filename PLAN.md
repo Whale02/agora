@@ -37,16 +37,16 @@ a manifest a reader can check.
 ## Slices
 
 Lane E, structure (first, because everything after it lands in the new shape):
-- [ ] E1. Split the corpus per work: `docs/data/passages/<slug>/<work-slug>.json`, each with
+- [x] E1. Split the corpus per work: `docs/data/passages/<slug>/<work-slug>.json`, each with
       its own translation credit, plus `docs/data/passages/<slug>/index.json` listing the
       works, their credits and passage counts. Keep a top-level `docs/data/passages.json`
       manifest of philosophers. Migrate the fourteen existing files without changing a
       single passage's text or reference; a diff must show relocation only.
-- [ ] E2. Update engine/retrieve.mjs to index per philosopher across their work files
+- [x] E2. Update engine/retrieve.mjs to index per philosopher across their work files
       (still lazy, still zero-dependency), and the reader and profile pages to fetch one
       work rather than the whole shelf. Record the before and after transfer for a reader
       opening one passage.
-- [ ] E3. Update engine/test-retrieve.mjs for the new shape and keep every existing
+- [x] E3. Update engine/test-retrieve.mjs for the new shape and keep every existing
       assertion. Add one that fails if any passage file exceeds 400KB.
 
 Lane F, coverage (the canon each philosopher is missing; verify each translation's year

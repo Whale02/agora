@@ -220,6 +220,38 @@ failures), disabling the plaza's search predicate (3), setting the reader's page
 (4), pointing the composer at the join template (1), and flattening the scene veil to a 0.2
 alpha wash (5 contrast failures on two routes).
 
+## Run: the library (2026-09-04)
+
+### E1 to E3. One file per work, commits d2acbe8, d10807f, be98ace
+
+- The split is relocation only, and that was checked rather than asserted:
+  `verify-split.mjs` reads the fourteen flat corpus files out of git at HEAD and requires
+  every passage object to appear in its new per-work file, in the same order, serialising
+  identically, with the credit that travelled with it. Exit 0 on 3338 passages across 36
+  works. Negative control: changing one word in one Daodejing passage failed it.
+- `engine/corpus.mjs` is the only place that knows the layout. `workSlug` cuts a title at its
+  first bracket or comma, so "Instructions for Practical Living (传习录), as my students
+  recorded them" files as `instructions-for-practical-living.json` rather than as a path
+  nobody can read. Collisions inside one philosopher take a numeric suffix.
+- Transfer measured in a real browser with the cache off, the working tree on 8791 against
+  the tree at HEAD on 8792. A reader opening the Republic pulled 463KB of corpus and now
+  pulls 165KB. A profile opening its passage drawer: the same 463KB, now 165KB. The
+  library's front page, which quotes one passage of the day: 514KB, now 179KB.
+- The reader addresses a work by its own slug, `#/read/plato/republic`, so a link survives
+  the shelf growing. The numeric form the library shipped before the split still resolves.
+- `node engine/test-retrieve.mjs` exit 0, and it grew two assertions: the index has to agree
+  with the files beside it, work for work and count for count, and no work file may pass
+  400KB. Negative control on the first: an index count of 99 against a file of 77 failed it.
+- The 400KB cap caught three real files. Seneca's letters, Wang Yangming's instructions and
+  the Zhuangzi were each over 460KB, built to a passage target set before the split. They
+  are downsampled with the same topic-widening spread the corpus builds use: 320 to 260, 300
+  to 244, 300 to 258. No passage was rewritten. 3180 passages across 36 works, 4.3MB against
+  the plan's 25MB ceiling.
+- On the same tree: `node librarytest.mjs` exit 0 (26 checks, reader routes updated for the
+  work slug), `node roomtest.mjs` exit 0 (15), `node proftest.mjs` exit 0 (16),
+  `node shot.mjs` exit 0 with no horizontal overflow, `node contrast.mjs` exit 0 at 1440 and
+  390, `node engine/reindex.mjs` exit 0, both prose gates exit 0.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)
@@ -458,6 +490,18 @@ C1 and C2, the composer:
 - C2. The mockup says three to five thinkers. The engine seats three for a visitor's
   question and two to four for its own, so the copy says three, and says what the heartbeat
   does separately.
+
+- E1. `engine/corpus.mjs` is new. The plan's lane E names retrieve.mjs and test-retrieve.mjs,
+  and both would otherwise have derived paths of their own, as would the manifest build and
+  every corpus builder. One module owns the layout instead, so the shape is defined once.
+- E1. Each passage keeps its `work` field even though the file it sits in is that work. It
+  costs about two percent of the corpus and it is what makes the relocation check exact: the
+  passage objects are byte-identical to the ones at HEAD rather than merely equivalent.
+- E3. The 400KB cap cost 158 passages across three works rather than being met by splitting a
+  work into volumes. A volume split would put the reader's stretch labels and its passage
+  numbering in the index instead of the text, and the corpus is a selection of passages
+  already: the library says how many each work holds and claims nothing more. Lane F adds
+  works to two of the three philosophers affected, so their shelves grow either way.
 
 ## Overseer calls
 

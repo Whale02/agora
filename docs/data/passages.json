@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-09-05T05:42:44.853Z",
+  "generated_at": "2026-09-05T05:57:36.144Z",
   "philosophers": [
     {
       "slug": "aristotle",
-      "passages": 280,
-      "words": 67019,
+      "passages": 720,
+      "words": 174343,
       "works": [
         {
           "work": "Nicomachean Ethics",
           "slug": "nicomachean-ethics",
           "file": "nicomachean-ethics.json",
-          "count": 140,
-          "words": 32433,
+          "count": 150,
+          "words": 35142,
           "topics": [
             "virtue",
             "action",
             "knowledge",
             "self",
-            "meaning",
-            "work"
+            "suffering",
+            "meaning"
           ]
         },
         {
           "work": "Politics",
           "slug": "politics",
           "file": "politics.json",
-          "count": 140,
-          "words": 34586,
+          "count": 150,
+          "words": 36793,
           "topics": [
             "freedom",
             "knowledge",
@@ -35,60 +35,120 @@
             "action",
             "nature"
           ]
+        },
+        {
+          "work": "Metaphysics",
+          "slug": "metaphysics",
+          "file": "metaphysics.json",
+          "count": 150,
+          "words": 37764,
+          "topics": [
+            "knowledge",
+            "nature",
+            "action",
+            "meta",
+            "meaning",
+            "virtue"
+          ]
+        },
+        {
+          "work": "Rhetoric",
+          "slug": "rhetoric",
+          "file": "rhetoric.json",
+          "count": 150,
+          "words": 36909,
+          "topics": [
+            "knowledge",
+            "action",
+            "virtue",
+            "meta",
+            "suffering",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Poetics",
+          "slug": "poetics",
+          "file": "poetics.json",
+          "count": 60,
+          "words": 13962,
+          "topics": [
+            "action",
+            "knowledge",
+            "meta",
+            "meaning",
+            "virtue",
+            "nature"
+          ]
+        },
+        {
+          "work": "Categories",
+          "slug": "categories",
+          "file": "categories.json",
+          "count": 60,
+          "words": 13773,
+          "topics": [
+            "knowledge",
+            "meta",
+            "virtue",
+            "self",
+            "nature",
+            "action"
+          ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 137
-        },
-        {
-          "topic": "virtue",
-          "count": 128
+          "count": 393
         },
         {
           "topic": "action",
-          "count": 115
+          "count": 295
         },
         {
-          "topic": "freedom",
-          "count": 109
-        },
-        {
-          "topic": "work",
-          "count": 72
-        },
-        {
-          "topic": "meaning",
-          "count": 51
+          "topic": "virtue",
+          "count": 242
         },
         {
           "topic": "nature",
-          "count": 49
-        },
-        {
-          "topic": "self",
-          "count": 45
-        },
-        {
-          "topic": "suffering",
-          "count": 33
+          "count": 157
         },
         {
           "topic": "meta",
-          "count": 32
+          "count": 154
+        },
+        {
+          "topic": "freedom",
+          "count": 149
+        },
+        {
+          "topic": "meaning",
+          "count": 139
+        },
+        {
+          "topic": "self",
+          "count": 112
+        },
+        {
+          "topic": "work",
+          "count": 98
+        },
+        {
+          "topic": "suffering",
+          "count": 85
         },
         {
           "topic": "love",
-          "count": 30
+          "count": 66
         },
         {
           "topic": "education",
-          "count": 22
+          "count": 39
         },
         {
           "topic": "technology",
-          "count": 4
+          "count": 5
         }
       ],
       "translation_credits": [
@@ -103,6 +163,30 @@
           "translator": "William Ellis",
           "year": 1912,
           "source_url": "https://www.gutenberg.org/ebooks/6762"
+        },
+        {
+          "work": "Metaphysics",
+          "translator": "W. D. Ross",
+          "year": 1908,
+          "source_url": "https://en.wikisource.org/wiki/Metaphysics_(Ross,_1908)"
+        },
+        {
+          "work": "Rhetoric",
+          "translator": "John Henry Freese",
+          "year": 1924,
+          "source_url": "https://en.wikisource.org/wiki/Rhetoric_(Freese)"
+        },
+        {
+          "work": "Poetics",
+          "translator": "Ingram Bywater",
+          "year": 1920,
+          "source_url": "https://www.gutenberg.org/ebooks/6763"
+        },
+        {
+          "work": "Categories",
+          "translator": "E. M. Edghill",
+          "year": 1928,
+          "source_url": "https://www.gutenberg.org/ebooks/2412"
         }
       ]
     },

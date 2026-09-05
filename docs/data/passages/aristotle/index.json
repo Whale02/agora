@@ -5,8 +5,8 @@
       "work": "Nicomachean Ethics",
       "slug": "nicomachean-ethics",
       "file": "nicomachean-ethics.json",
-      "passages": 140,
-      "words": 32433,
+      "passages": 150,
+      "words": 35142,
       "translator": "F. H. Peters",
       "year": 1893,
       "source_url": "https://www.gutenberg.org/ebooks/8438"
@@ -15,11 +15,51 @@
       "work": "Politics",
       "slug": "politics",
       "file": "politics.json",
-      "passages": 140,
-      "words": 34586,
+      "passages": 150,
+      "words": 36793,
       "translator": "William Ellis",
       "year": 1912,
       "source_url": "https://www.gutenberg.org/ebooks/6762"
+    },
+    {
+      "work": "Metaphysics",
+      "slug": "metaphysics",
+      "file": "metaphysics.json",
+      "passages": 150,
+      "words": 37764,
+      "translator": "W. D. Ross",
+      "year": 1908,
+      "source_url": "https://en.wikisource.org/wiki/Metaphysics_(Ross,_1908)"
+    },
+    {
+      "work": "Rhetoric",
+      "slug": "rhetoric",
+      "file": "rhetoric.json",
+      "passages": 150,
+      "words": 36909,
+      "translator": "John Henry Freese",
+      "year": 1924,
+      "source_url": "https://en.wikisource.org/wiki/Rhetoric_(Freese)"
+    },
+    {
+      "work": "Poetics",
+      "slug": "poetics",
+      "file": "poetics.json",
+      "passages": 60,
+      "words": 13962,
+      "translator": "Ingram Bywater",
+      "year": 1920,
+      "source_url": "https://www.gutenberg.org/ebooks/6763"
+    },
+    {
+      "work": "Categories",
+      "slug": "categories",
+      "file": "categories.json",
+      "passages": 60,
+      "words": 13773,
+      "translator": "E. M. Edghill",
+      "year": 1928,
+      "source_url": "https://www.gutenberg.org/ebooks/2412"
     }
   ]
 }

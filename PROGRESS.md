@@ -1018,6 +1018,18 @@ C1 and C2, the composer:
 
 ## Overseer calls
 
+- Overseer call, founder review pending (2026-09-05 05:20): audit at 92 work files, 7,335
+  passages, 608 now carrying an original. Credits complete, years 1855 to 1928, sources all
+  approved, largest file 385KB under the cap, no shadow-library reference. Pairings
+  hand-checked across three languages rather than one: Analects Book I chapter II pairs
+  有子曰 to "The philosopher Yu said"; Meditations Book I pairs Παρὰ τοῦ πάππου Οὐήρου to
+  "From my grandfather Verus"; Beyond Good and Evil section 1 pairs "Der Wille zur Wahrheit"
+  to "The Will to Truth". All three are the source of their English, not the neighbour.
+  Noted approvingly rather than corrected: the Marcus Aurelius original_credit records that
+  its transcription runs two words together in eleven places and ships the text as it stands
+  rather than repairing it, and the run caught its own first alignment guard passing
+  misaligned books before any of it shipped. That is the discipline this lane needed.
+
 - Overseer call, founder review pending (2026-09-05 01:25): the copyright gate contradicted
   the rule printed beside it. SOURCES.md stated correctly that a translation published 1930
   or earlier is clear in the United States, then described the validator as failing anything

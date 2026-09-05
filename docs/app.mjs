@@ -384,14 +384,21 @@ function benchCard(p, category) {
 }
 
 const listWorks = (works, n = 3) => {
-  const names = works.map((w) => w.work);
+  const names = works.map((w) => shortWork(w.work));
   if (names.length <= n) return names.join(", ");
   return `${names.slice(0, n).join(", ")} and ${names.length - n} more`;
 };
 
+// Who translated the shelf. One or two names read as a credit; ten read as a list nobody
+// finishes, so past three the line counts them and gives the span of years instead.
 const creditLine = (credits) => {
-  const who = [...new Set(credits.map((c) => `${c.translator}, ${c.year}`))];
-  return who.join("; ");
+  const who = [...new Set(credits.map((c) => c.translator))];
+  const years = credits.map((c) => c.year);
+  const from = Math.min(...years);
+  const to = Math.max(...years);
+  const when = from === to ? `${from}` : `${from} to ${to}`;
+  if (who.length <= 3) return `${who.join(", ")}, ${when}`;
+  return `${who.slice(0, 2).join(", ")} and ${who.length - 2} others, ${when}`;
 };
 
 // The room mockup's sources rail, carrying the corpus this repository holds.

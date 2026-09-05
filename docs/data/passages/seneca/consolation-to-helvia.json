@@ -53,7 +53,8 @@
       "text": "The last wound is, I admit, the severest that you have ever yet sustained: it has not merely torn the skin, but has pierced you to the very heart: yet as recruits cry aloud when only slightly wounded, and shudder more at the hands of the surgeon than at the sword, while veterans even when transfixed allow their hurts to be dressed without a groan, and as patiently as if they were in some one else’s body, so now you ought to offer yourself courageously to be healed. Lay aside lamentations and wailings, and all the usual noisy manifestations of female sorrow: you have gained nothing by so many misfortunes, if you have not learned how to suffer. Now, do I seem not to have spared you? nay, I have not passed over any of your sorrows, but have placed them all together in a mass before you.",
       "topics": [
         "suffering"
-      ]
+      ],
+      "text_original": "Grauissimum est ex omnibus quae umquam in corpus tuum descenderunt recens uulnus, fateor; non summam cutem rupit, pectus et uiscera ipsa diuisit. Sed quemadmodum tirones leuiter saucii tamen uociferantur et manus medicorum magis quam ferrum horrent, at ueterani quamuis confossi patienter ac sine gemitu uelut aliena corpora exsaniari patiuntur, ita tu nunc debes fortiter praebere te curationi. Lamentationes quidem et eiulatus et alia per quae fere muliebris dolor tumultuatur amoue; perdidisti enim tot mala, si nondum misera esse didicisti. Ecquid uideor non timide tecum egisse? nihil tibi subduxi ex malis tuis, sed omnia coaceruata ante te posui."
     },
     {
       "work": "Consolation to Helvia",
@@ -63,7 +64,8 @@
         "suffering",
         "knowledge",
         "self"
-      ]
+      ],
+      "text_original": "Magno id animo feci; constitui enim uincere dolorem tuum, non circumscribere. Vincam autem, puto, primum si ostendero nihil me pati propter quod ipse dici possim miser, nedum propter quod miseros etiam quos contingo faciam; deinde si ad te transiero et probauero ne tuam quidem grauem esse fortunam, quae tota ex mea pendet. Hoc prius adgrediar quod pietas tua audire gestit, nihil mihi mali esse. Si potuero, ipsas res quibus me putas premi non esse intolerabiles faciam manifestum; sin id credi non potuerit, at ego mihi ipse magis placebo, quod inter eas res beatus ero quae miseros solent facere. Non est quod de me aliis credas: ipse tibi, ne quid incertis opinionibus perturberis, indico me non esse miserum. Adiciam, quo securior sis, ne fieri quidem me posse miserum."
     },
     {
       "work": "Consolation to Helvia",
@@ -336,7 +338,8 @@
       "topics": [
         "work",
         "knowledge"
-      ]
+      ],
+      "text_original": "Quoniam meo nomine nihil habes, mater carissima, quod te in infinitas lacrimas agat, sequitur ut causae tuae te stimulent. Sunt autem duae; nam aut illud te mouet quod praesidium aliquod uideris amisisse, aut illud quod desiderium ipsum per se pati non potes. Prior pars mihi leuiter perstringenda est; noui enim animum tuum nihil in suis praeter ipsos amantem. Viderint illae matres quae potentiam liberorum muliebri inpotentia exercent, quae, quia feminis honores non licet gerere, per illos ambitiosae sunt, quae patrimonia filiorum et exhauriunt et captant, quae eloquentiam commodando aliis fatigant: tu liberorum tuorum bonis plurimum gauisa es, minimum usa; tu liberalitati nostrae semper inposuisti modum, cum tuae non inponeres; tu filia familiae locupletibus filiis ultro contulisti; tu patrimonia nostra sic administrasti ut tamquam in tuis laborares, tamquam alienis abstineres; tu gratiae nostrae, tamquam alienis rebus utereris, pepercisti, et ex honoribus nostris nihil ad te nisi uoluptas et inpensa pertinuit. Numquam indulgentia ad utilitatem respexit; non potes itaque ea in erepto filio desiderare quae in incolumi numquam ad te pertinere duxisti."
     },
     {
       "work": "Consolation to Helvia",
@@ -480,7 +483,14 @@
         "meaning",
         "knowledge",
         "education"
-      ]
+      ],
+      "text_original": "Ceterum quia necesse est, cum omnia feceris, cogitationes tamen tuas subinde ad me recurrere nec quemquam nunc ex liberis tuis frequentius tibi obuersari, non quia illi minus cari sunt sed quia naturale est manum saepius ad id referre quod dolet, qualem me cogites accipe: laetum et alacrem uelut optimis rebus. Sunt enim optimae, quoniam animus omnis occupationis expers operibus suis uacat et modo se leuioribus studiis oblectat, modo ad considerandam suam uniuersique naturam ueri auidus insurgit. Terras primum situmque earum quaerit, deinde condicionem circumfusi maris cursusque eius alternos et recursus; tunc quidquid inter caelum terrasque plenum formidinis interiacet perspicit et hoc tonitribus fulminibus uentorum flatibus ac nimborum niuisque et grandinis iactu tumultuosum spatium; tum peragratis humilioribus ad summa perrumpit et pulcherrimo diuinorum spectaculo fruitur, aeternitatis suae memor in omne quod fuit futurumque est uadit omnibus saeculis."
     }
-  ]
+  ],
+  "original_credit": {
+    "title": "Ad Helviam matrem, de Consolatione",
+    "lang": "la",
+    "edition": "the Latin as transcribed on Latin Wikisource, chapter by chapter in Stewart's own numbering",
+    "source_url": "https://la.wikisource.org/wiki/Ad_Helviam_matrem%2C_de_Consolatione"
+  }
 }

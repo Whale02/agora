@@ -46,7 +46,8 @@
         "knowledge",
         "virtue",
         "action"
-      ]
+      ],
+      "text_original": "Nunc probabo tibi non desciscere me a praeceptis Stoicorum; nam ne ipsi quidem a suis desciuerunt, et tamen excusatissimus essem, etiam si non praecepta illorum sequerer sed exempla. Hoc quod dico in duas diuidam partes: primum, ut possit aliquis uel a prima aetate contemplationi ueritatis totum se tradere, rationem uiuendi quaerere atque exercere secreto; 2. deinde, ut possit hoc aliquis emeritis stipendiis, profligatae aetatis, iure optimo facere et ~ad alios actus animos~ referre, uirginum Vestalium more, quae annis inter officia diuisis discunt facere sacra et cum didicerunt docent."
     },
     {
       "work": "On Leisure",
@@ -78,7 +79,8 @@
         "freedom",
         "virtue",
         "meaning"
-      ]
+      ],
+      "text_original": "Duas res publicas animo complectamur, alteram magnam et uere publicam qua di atque homines continentur, in qua non ad hunc angulum respicimus aut ad illum sed terminos ciuitatis nostrae cum sole metimur, alteram cui nos adscripsit condicio nascendi; haec aut Atheniensium erit aut Carthaginiensium aut alterius alicuius urbis quae non ad omnis pertineat homines sed ad certos. Quidam eodem tempore utrique rei publicae dant operam, maiori minorique, quidam tantum minori, quidam tantum maiori. Huic maiori rei publicae et in otio deseruire possumus, immo uero nescio an in otio melius, ut quaeramus quid sit uirtus, una pluresne sint, natura an ars bonos uiros faciat; unum sit hoc quod maria terrasque et mari ac terris inserta complectitur, an multa eiusmodi corpora deus sparserit; continua sit omnis et plena materia ex qua cuncta gignuntur, an diducta et solidis inane permixtum; quae sit dei sedes, opus suum spectet an tractet, utrumne extrinsecus illi circumfusus sit an toti inditus; inmortalis sit mundus an inter caduca et ad tempus nata numerandus. Haec qui contemplatur, quid deo praestat? ne tanta eius opera sine teste sint."
     },
     {
       "work": "On Leisure",
@@ -144,7 +146,8 @@
         "action",
         "meaning",
         "meta"
-      ]
+      ],
+      "text_original": "Praeterea tria genera sunt uitae, inter quae quod sit optimum quaeri solet: unum uoluptati uacat, alterum contemplationi, tertium actioni. Primum deposita contentione depositoque odio quod inplacabile diuersa sequentibus indiximus, uideamus ut haec omnia ad idem sub alio atque alio titulo perueniant: nec ille qui uoluptatem probat sine contemplatione est, nec ille qui contemplationi inseruit sine uoluptate est, nec ille cuius uita actionibus destinata est sine contemplatione est. 2. 'Plurimum' inquis 'discriminis est utrum aliqua res propositum sit an propositi alterius accessio.' Sit sane grande discrimen, tamen alterum sine altero non est: nec ille sine actione contemplatur, nec hic sine contemplatione agit, nec ille tertius, de quo male existimare consensimus, uoluptatem inertem probat sed eam quam ratione efficit firmam sibi; ita et haec ipsa uoluptaria secta in actu est. Quidni in actu sit, cum ipse dicat Epicurus aliquando se recessurum a uoluptate, dolorem etiam adpetiturum, si aut uoluptati imminebit paenitentia aut dolor minor pro grauiore sumetur? Quo pertinet haec dicere? ut appareat contemplationem placere omnibus; alii petunt illam, nobis haec statio, non portus est."
     },
     {
       "work": "On Leisure",
@@ -157,5 +160,11 @@
         "suffering"
       ]
     }
-  ]
+  ],
+  "original_credit": {
+    "title": "De otio",
+    "lang": "la",
+    "edition": "the Latin as transcribed on Latin Wikisource, chapter by chapter in Stewart's own numbering",
+    "source_url": "https://la.wikisource.org/wiki/De_otio"
+  }
 }

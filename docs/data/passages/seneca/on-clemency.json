@@ -501,7 +501,8 @@
         "meta",
         "freedom",
         "knowledge"
-      ]
+      ],
+      "text_original": "Ut de clementia scriberem, Nero Caesar, una me vox tua maxime compulit, quam ego non sine admiratione et, cum diceretur, audisse memini et deinde aliis narrasse, vocem generosam, magni animi, magnae lenitatis, quae non composita nec alienis auribus data subito erupit et bonitatem tuam cum fortuna tua litigantem in medium adduxit. Animadversurus in latrones duos Burrus praefectus tuus, vir egregius et tibi principi natus, exigebat a te, scriberes, in quos et ex qua causa animadverti velles; hoc saepe dilatum ut aliquando fieret, instabat. Invitus invito cum chartam protulisset traderetque, exclamasti: 'Vellem litteras nescirem!' O dignam vocem, quam audirent omnes gentes, quae Romanum imperium incolunt quaeque iuxta iacent dubiae libertatis quaeque se contra viribus aut animis attollunt! O vocem in contionem omnium mortalium mittendam, in cuius verba principes regesque iurarent! O vocem publica generis humani innocentia dignam, cui redderetur antiquum illud saeculum! Nunc profecto consentire decebat ad aequum bonumque expulsa alieni cupidine, ex qua omne animi malum oritur, pietatem integritatemque cum fide ac modestia resurgere et vitia diuturno abusa regno dare tandem felici ac puro saeculo locum."
     },
     {
       "work": "On Clemency",
@@ -512,7 +513,8 @@
         "nature",
         "virtue",
         "meaning"
-      ]
+      ],
+      "text_original": "Futurum hoc, Caesar, ex magna parte sperare et confidere libet. Tradetur ista animi tui mansuetudo diffundeturque paulatim per omne imperii corpus, et cuncta in similitudinem tuam formabuntur. A capite bona valetudo: inde omnia vegeta sunt atque erecta aut languore demissa, prout animus eorum vivit aut marcet. Erunt cives, erunt socii digni hac bonitate, et in totum orbem recti mores revertentur; parcetur ubique manibus tuis. Diutius me morari hic patere, non ut blandum auribus tuis (nec enim hic mihi mos est; maluerim veris offendere quam placere adulando); quid ergo est? Praeter id, quod bene factis dictisque tuis quam familiarissimum esse te cupio, ut, quod nunc natura et impetus est, fiat iudicium, illud mecum considero multas voces magnas, sed detestabiles, in vitam humanam pervenisse celebresque volgo ferri, ut illam: 'oderint, dum metuant,' cui Graecus versus similis est, qui se mortuo terram misceri ignibus iubet, et alia huius notae. Ac nescio quomodo ingenia in immani et invisa materia secundiore ore expresserunt sensus vehementes et concitatos; nullam adhuc vocem audii ex bono lenique animosam. Quid ergo est? Ut raro, invitus et cum magna cunctatione, ita aliquando scribas necesse est istud, quod tibi in odium litteras adduxit, sed, sicut facis, cum magna cunctatione, cum multis dilationibus."
     },
     {
       "work": "On Clemency",
@@ -523,7 +525,8 @@
         "self",
         "virtue",
         "action"
-      ]
+      ],
+      "text_original": "Et ne forte decipiat nos speciosum clementiae nomen aliquando et in contrarium abducat, videamus, quid sit clementia qualisque sit et quos fines habeat. Clementia est temperantia animi in potestate ulciscendi vel lenitas superioris adversus inferiorem in constituendis poenis. Plura proponere tutius est, ne una finitio parum rem comprehendat et, ut ita dicam, formula excidat; itaque dici potest et inclinatio animi ad lenitatem in poena exigenda. Illa finitio contradictiones inveniet, quamvis maxime ad verum accedat, si dixerimus clementiam esse moderationem aliquid ex merita ac debita poena remittentem: reclamabitur nullam virtutem cuiquam minus debito facere. Atqui hoc omnes intellegunt clementiam esse, quae se flectit citra id, quod merito constitui posset."
     },
     {
       "work": "On Clemency",
@@ -633,5 +636,11 @@
         "action"
       ]
     }
-  ]
+  ],
+  "original_credit": {
+    "title": "De clementia",
+    "lang": "la",
+    "edition": "the Latin as transcribed on Latin Wikisource, chapter by chapter in Stewart's own numbering",
+    "source_url": "https://la.wikisource.org/wiki/De_clementia"
+  }
 }

@@ -103,9 +103,10 @@ files. Nothing in it is typed by hand.
     Wittgenstein         1        76  C. K. Ogden, 1922
     Zhu Xi               1        29  J. Percy Bruce, 1922
 
-608 of those passages carry the philosopher's own language above the English:
+671 of those passages carry the philosopher's own language above the English:
 
     Nietzsche              34  Jenseits von Gut und Böse, Zur Genealogie der Moral
+    Seneca                 63  De constantia sapientis, De ira, Ad Marciam, de Consolatione, De vita beata, De otio, De tranquillitate animi, De brevitate vitae, Ad Helviam matrem, de Consolatione, Ad Polybium, de Consolatione, De clementia
     Confucius             289  論語, 大學, 中庸
     Zhuangzi              142  莊子
     Marcus Aurelius        42  Τὰ εἰς ἑαυτόν

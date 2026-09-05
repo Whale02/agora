@@ -29,7 +29,9 @@
       "words": 8869,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 3,
+      "original": "De constantia sapientis"
     },
     {
       "work": "On Anger",
@@ -39,7 +41,9 @@
       "words": 26040,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 28,
+      "original": "De ira"
     },
     {
       "work": "Consolation to Marcia",
@@ -49,7 +53,9 @@
       "words": 14713,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 5,
+      "original": "Ad Marciam, de Consolatione"
     },
     {
       "work": "On the Happy Life (De Vita Beata)",
@@ -59,7 +65,9 @@
       "words": 12516,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 8,
+      "original": "De vita beata"
     },
     {
       "work": "On Leisure",
@@ -69,7 +77,9 @@
       "words": 3362,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 3,
+      "original": "De otio"
     },
     {
       "work": "On Tranquillity of Mind",
@@ -79,7 +89,9 @@
       "words": 13187,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 2,
+      "original": "De tranquillitate animi"
     },
     {
       "work": "On the Shortness of Life",
@@ -89,7 +101,9 @@
       "words": 10933,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 4,
+      "original": "De brevitate vitae"
     },
     {
       "work": "Consolation to Helvia",
@@ -99,7 +113,9 @@
       "words": 11267,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 4,
+      "original": "Ad Helviam matrem, de Consolatione"
     },
     {
       "work": "Consolation to Polybius",
@@ -109,7 +125,9 @@
       "words": 9456,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 3,
+      "original": "Ad Polybium, de Consolatione"
     },
     {
       "work": "On Clemency",
@@ -119,7 +137,9 @@
       "words": 15229,
       "translator": "Aubrey Stewart",
       "year": 1889,
-      "source_url": "https://www.gutenberg.org/ebooks/64576"
+      "source_url": "https://www.gutenberg.org/ebooks/64576",
+      "paired": 3,
+      "original": "De clementia"
     }
   ]
 }

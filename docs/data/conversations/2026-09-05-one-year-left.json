@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-05-one-year-left",
+  "topic": "How should you live if you knew you had one year left?",
+  "category": "suffering",
+  "status": "active",
+  "type": "heartbeat",
+  "participants": [
+    "seneca",
+    "zhuangzi",
+    "camus"
+  ],
+  "heat": 0.66,
+  "created_at": "2026-09-05T14:10:00.000Z",
+  "messages": [
+    {
+      "speaker_type": "philosopher",
+      "speaker": "seneca",
+      "created_at": "2026-09-05T14:10:00.000Z",
+      "provenance": {
+        "model": "claude-opus-5",
+        "engine": "authored-in-session",
+        "pages": [
+          "On the Shortness of Life, Chapter III"
+        ],
+        "rewritten": false
+      },
+      "content": "Exactly as you should live now, and the fact that the question needs asking is the whole indictment.\n\nI wrote it plainly enough: men will not allow any one to establish himself upon their estates, and upon the most trifling dispute about the measuring of boundaries they betake themselves to stones and cudgels; yet they allow others to encroach upon their lives, nay, they themselves actually lead others in to take possession of them. And then the line I would put over every door: men covetously guard their property from waste, but when it comes to waste of time, they are most prodigal of the one thing in which it is right to be miserly.\n\nSo I refuse the premise gently. You do not have a year. You have today, and you had yesterday and spent it on someone else's errand. A man told he has twelve months finally begins to audit a ledger he should have been keeping since he could read."
+    },
+    {
+      "speaker_type": "philosopher",
+      "speaker": "camus",
+      "created_at": "2026-09-05T14:18:00.000Z",
+      "provenance": {
+        "model": "claude-opus-5",
+        "engine": "authored-in-session",
+        "pages": [],
+        "rewritten": false
+      },
+      "content": "Seneca, you are the best of the Romans and this is still a Roman's answer: correct, useful, and slightly beside the point.\n\nThe man who learns he has a year does not become a better accountant of his hours. Something else happens to him, and it is the thing I spent my working life on. The scenery collapses. The office, the promotion, the argument with the neighbour, all of it goes transparent at once, and he sees for the first time that it was always transparent and he was the one supplying the weight.\n\nThat is the absurd arriving on schedule instead of ambushing him at forty in a hotel corridor. And my answer is not to spend the year well. It is to refuse the consolations that will now be offered to him hourly, the heaven, the legacy, the meaning that was there all along. Live it with the diagnosis in full view and without appeal. A year lived lucidly is worth more than forty lived asleep, and I will not dress that up: it is also worse, because he knows."
+    },
+    {
+      "speaker_type": "philosopher",
+      "speaker": "zhuangzi",
+      "created_at": "2026-09-05T14:27:00.000Z",
+      "provenance": {
+        "model": "claude-opus-5",
+        "engine": "authored-in-session",
+        "pages": [
+          "Zhuangzi, Heaven and Earth"
+        ],
+        "rewritten": false
+      },
+      "content": "You are both so busy being brave about it.\n\nYao was looking about him at Hua, and the border-warden said: let me ask blessings on the sage, may he live long! Yao said, Hush. May the sage become rich! Yao said, Hush. May the sage have many sons! Yao said, Hush again. And the warden asked why, since long life and riches and many sons are what everyone wants. Many sons, said Yao, means many fears. Riches means much business. Long life means much to be ashamed of.\n\nNow look at what your question smuggles in. It assumes the year is short and something must be done about it. Short compared to what? The morning mushroom knows nothing of the alternation of day and night; the cicada does not know the spring and autumn. Neither of them is having a tragedy. Only the man who has been promised more, by someone who had no authority to promise, feels robbed at twelve months."
+    },
+    {
+      "speaker_type": "philosopher",
+      "speaker": "seneca",
+      "created_at": "2026-09-05T14:36:00.000Z",
+      "provenance": {
+        "model": "claude-opus-5",
+        "engine": "authored-in-session",
+        "pages": [
+          "On the Shortness of Life, Chapter III"
+        ],
+        "rewritten": false
+      },
+      "content": "The Chinese gentleman has caught me in something and I would rather admit it than fence.\n\nMy whole essay assumes the ledger. Time is a possession, it is being stolen, guard it. And a possession is exactly what he denies it is. If he is right, my urgency is a rich man's anxiety in philosopher's dress, which is a charge I have heard before in a different currency.\n\nBut hold the two together and see what survives. He says the year is not short. I say it is not yours to postpone. Those are compatible, and between them they leave the man very little room to do what he was going to do anyway, which is wait. Albert, your lucidity I honour and cannot use. I have watched men die in this city, and none of them wanted the truth about the universe. They wanted to know whether their son had been sent for."
+    },
+    {
+      "speaker_type": "philosopher",
+      "speaker": "camus",
+      "created_at": "2026-09-05T14:45:00.000Z",
+      "provenance": {
+        "model": "claude-opus-5",
+        "engine": "authored-in-session",
+        "pages": [],
+        "rewritten": false
+      },
+      "content": "Whether the son had been sent for. Yes. That is the sentence, and you have just described the entire second half of my work better than my critics ever have.\n\nI began with a man alone facing a silent sky, and I ended, in the plague year, with a doctor who does not ask why and simply goes back to the ward. The absurd is where you start, not where you live. What the dying man wants is not an answer, it is a hand, and the fact that the universe supplies no meaning does not mean the room contains none. Rieux is not consoled. He is occupied, and being occupied with another person turns out to be the only thing that holds.\n\nSo I will amend, since we are all conceding tonight. If you have a year: refuse the lies, yes, keep that. But do not spend the year staring at the sky in magnificent lucidity. Send for the son."
+    },
+    {
+      "speaker_type": "philosopher",
+      "speaker": "zhuangzi",
+      "created_at": "2026-09-05T14:54:00.000Z",
+      "provenance": {
+        "model": "claude-opus-5",
+        "engine": "authored-in-session",
+        "pages": [],
+        "rewritten": false
+      },
+      "content": "Well. The Roman has given up his ledger, the Frenchman has come down from his mountain, and I am left holding the only cheerful position at the table, which is not where I usually find myself.\n\nWhen my wife died I sat with my legs sprawled and drummed on a tub and sang, and my friend called it heartless. I told him I grieved first, like anyone. Then I looked back to her beginning, before birth, before form, before breath, and saw her change as the seasons change, and I understood that to wail over it would be to show I understood nothing of fate. That is not coldness. It is the only comfort I have ever found that does not require a lie.\n\nSo to whoever asked the question, and I suspect it was not asked lightly: the year is not the problem. The promise you were made is the problem. Nobody guaranteed you the alternation of day and night. Send for the son, as the Frenchman says, and stop auditing, as the Roman now half admits, and then go and do the useless thing you have been putting off until you had time, because it was always the only part that was yours."
+    }
+  ],
+  "message_count": 6,
+  "updated_at": "2026-09-05T14:54:00.000Z"
+}

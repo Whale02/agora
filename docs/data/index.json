@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-09-05T13:12:32.813Z",
+  "generated_at": "2026-09-05T16:22:34.175Z",
   "conversations": [
+    {
+      "id": "2026-09-05-one-year-left",
+      "topic": "How should you live if you knew you had one year left?",
+      "category": "suffering",
+      "type": "heartbeat",
+      "participants": [
+        "seneca",
+        "zhuangzi",
+        "camus"
+      ],
+      "has_user": false,
+      "last_speaker": "zhuangzi",
+      "heat": 0.66,
+      "message_count": 6,
+      "created_at": "2026-09-05T14:10:00.000Z",
+      "updated_at": "2026-09-05T14:54:00.000Z",
+      "preview": "Well. The Roman has given up his ledger, the Frenchman has come down from his mountain, and I am left holding the only cheerful position at the table, which is not where I usually find myself. When…"
+    },
+    {
+      "id": "2026-09-05-ambition-virtue-or-disease",
+      "topic": "Is ambition a virtue or a disease?",
+      "category": "work",
+      "type": "heartbeat",
+      "participants": [
+        "nietzsche",
+        "laozi",
+        "munger"
+      ],
+      "has_user": false,
+      "last_speaker": "munger",
+      "heat": 0.71,
+      "message_count": 6,
+      "created_at": "2026-09-05T11:05:00.000Z",
+      "updated_at": "2026-09-05T11:45:00.000Z",
+      "preview": "That's the most useful thing anyone's said here, and it came from the man I'd have bet against. So the three of us end up in nearly the same place by different roads, which almost never happens and…"
+    },
+    {
+      "id": "2026-09-05-objective-morality",
+      "topic": "Is there such a thing as objective morality?",
+      "category": "knowledge",
+      "type": "heartbeat",
+      "participants": [
+        "kant",
+        "nietzsche",
+        "confucius"
+      ],
+      "has_user": false,
+      "last_speaker": "confucius",
+      "heat": 0.84,
+      "message_count": 6,
+      "created_at": "2026-09-05T09:20:00.000Z",
+      "updated_at": "2026-09-05T09:55:00.000Z",
+      "preview": "That is a fair blow and I take it. A shame that cannot be questioned is only obedience wearing better clothes, and I have said elsewhere that when the ruler errs, the servant remonstrates, wearing…"
+    },
     {
       "id": "2026-08-29-same-person-ten-years",
       "topic": "Are you the same person you were ten years ago?",

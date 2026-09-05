@@ -1,52 +1,504 @@
 [
-  { "question": "Is love a choice or something that happens to you?", "category": "love", "suggested": ["fromm", "schopenhauer", "plato"], "used": true },
-  { "question": "Can you truly love someone without understanding yourself?", "category": "love", "suggested": ["socrates", "fromm", "beauvoir"], "used": false },
-  { "question": "Is jealousy a sign of love or a sign of ownership?", "category": "love", "suggested": ["fromm", "han", "epicurus"], "used": false },
-  { "question": "Should you stay in a relationship that's comfortable but uninspiring?", "category": "love", "suggested": ["kierkegaard", "beauvoir", "seneca"], "used": false },
-  { "question": "Is it possible to find meaning in work, or is that a modern delusion?", "category": "work", "suggested": ["zhuangzi", "naval", "marcus-aurelius"], "used": true },
-  { "question": "Should you optimize for money or for time?", "category": "work", "suggested": ["seneca", "munger", "aristotle"], "used": true },
-  { "question": "Is ambition a virtue or a disease?", "category": "work", "suggested": ["nietzsche", "laozi", "munger"], "used": false },
-  { "question": "What would you do if money were irrelevant?", "category": "work", "suggested": ["epicurus", "naval", "weil"], "used": false },
-  { "question": "Is true freedom possible within society?", "category": "freedom", "suggested": ["beauvoir", "confucius", "camus"], "used": false },
-  { "question": "Should you follow rules you disagree with?", "category": "freedom", "suggested": ["kant", "taleb", "confucius"], "used": true },
-  { "question": "Is privacy a right or a luxury?", "category": "freedom", "suggested": ["han", "arendt", "epicurus"], "used": false },
-  { "question": "Does democracy actually produce good decisions?", "category": "freedom", "suggested": ["plato", "arendt", "taleb"], "used": false },
-  { "question": "Is suffering necessary for growth?", "category": "suffering", "suggested": ["nietzsche", "epicurus", "weil"], "used": true },
-  { "question": "How should you live if you knew you had one year left?", "category": "suffering", "suggested": ["seneca", "camus", "zhuangzi"], "used": false },
-  { "question": "Is it brave or foolish to accept suffering without trying to change it?", "category": "suffering", "suggested": ["marcus-aurelius", "beauvoir", "weil"], "used": false },
-  { "question": "What makes a death 'good'?", "category": "suffering", "suggested": ["socrates", "nietzsche", "confucius"], "used": false },
-  { "question": "Is it better to know a painful truth or believe a comforting lie?", "category": "knowledge", "suggested": ["socrates", "camus", "laozi"], "used": true },
-  { "question": "Can AI ever truly 'understand' anything?", "category": "knowledge", "suggested": ["wittgenstein", "zhuangzi", "arendt"], "used": false },
-  { "question": "Is there such a thing as objective morality?", "category": "knowledge", "suggested": ["kant", "nietzsche", "confucius"], "used": false },
-  { "question": "What's the difference between wisdom and intelligence?", "category": "knowledge", "suggested": ["socrates", "munger", "laozi"], "used": false },
-  { "question": "Are you the same person you were ten years ago?", "category": "self", "suggested": ["kierkegaard", "beauvoir", "zhuxi", "wang-yangming"], "used": true },
-  { "question": "Is authenticity possible, or are we always performing?", "category": "self", "suggested": ["han", "kierkegaard", "zhuangzi"], "used": false },
-  { "question": "Should you try to be consistent, or embrace contradiction?", "category": "self", "suggested": ["wittgenstein", "nietzsche", "aristotle"], "used": false },
-  { "question": "What part of yourself are you most afraid to examine?", "category": "self", "suggested": ["socrates", "schopenhauer", "fromm"], "used": false },
-  { "question": "Is social media making us more connected or more alone?", "category": "technology", "suggested": ["han", "arendt", "wittgenstein"], "used": true },
-  { "question": "Should we fear AI or embrace it?", "category": "technology", "suggested": ["taleb", "arendt", "laozi"], "used": false },
-  { "question": "Has technology made us happier?", "category": "technology", "suggested": ["epicurus", "han", "naval"], "used": false },
-  { "question": "Is the attention economy compatible with a good life?", "category": "technology", "suggested": ["weil", "naval", "han"], "used": false },
-  { "question": "Is it possible to be a good person in a corrupt system?", "category": "virtue", "suggested": ["confucius", "arendt", "seneca"], "used": false },
-  { "question": "Is anger ever justified?", "category": "virtue", "suggested": ["seneca", "aristotle", "beauvoir"], "used": false },
-  { "question": "What's more important: being kind or being honest?", "category": "virtue", "suggested": ["kant", "confucius", "nietzsche"], "used": false },
-  { "question": "Can you learn courage, or must you be born with it?", "category": "virtue", "suggested": ["aristotle", "taleb", "wang-yangming"], "used": false },
-  { "question": "Does life need a purpose to be worth living?", "category": "meaning", "suggested": ["camus", "kant", "zhuangzi"], "used": false },
-  { "question": "Is the search for meaning itself meaningful?", "category": "meaning", "suggested": ["kierkegaard", "wittgenstein", "camus"], "used": false },
-  { "question": "Can you create meaning, or must you discover it?", "category": "meaning", "suggested": ["nietzsche", "plato", "beauvoir"], "used": false },
-  { "question": "What would you say to someone who feels their life is pointless?", "category": "meaning", "suggested": ["camus", "fromm", "marcus-aurelius"], "used": false },
-  { "question": "Are humans fundamentally good or fundamentally selfish?", "category": "nature", "suggested": ["wang-yangming", "schopenhauer", "fromm"], "used": false },
-  { "question": "Should we try to control nature or live in harmony with it?", "category": "nature", "suggested": ["laozi", "kant", "taleb"], "used": false },
-  { "question": "Is progress real, or do we just trade old problems for new ones?", "category": "nature", "suggested": ["han", "munger", "plato"], "used": false },
-  { "question": "What can we learn from animals that we've forgotten?", "category": "nature", "suggested": ["zhuangzi", "schopenhauer", "epicurus"], "used": false },
-  { "question": "Is it better to act imperfectly or wait for the perfect moment?", "category": "action", "suggested": ["wang-yangming", "zhuxi", "taleb"], "used": false },
-  { "question": "When is doing nothing the wisest choice?", "category": "action", "suggested": ["laozi", "munger", "arendt"], "used": false },
-  { "question": "How do you know when to fight and when to let go?", "category": "action", "suggested": ["marcus-aurelius", "beauvoir", "laozi"], "used": false },
-  { "question": "Is patience a virtue or a form of cowardice?", "category": "action", "suggested": ["seneca", "nietzsche", "confucius"], "used": false },
-  { "question": "What's the one thing everyone should learn but almost no one does?", "category": "education", "suggested": ["munger", "socrates", "weil"], "used": false },
-  { "question": "Is formal education necessary for wisdom?", "category": "education", "suggested": ["zhuxi", "zhuangzi", "naval"], "used": false },
-  { "question": "How do you know if you're actually growing or just getting older?", "category": "education", "suggested": ["confucius", "kierkegaard", "aristotle"], "used": false },
-  { "question": "What's the most dangerous idea you believe?", "category": "education", "suggested": ["nietzsche", "taleb", "plato"], "used": false },
-  { "question": "Why do humans keep asking the same questions for thousands of years?", "category": "meta", "suggested": ["wittgenstein", "plato", "han"], "used": false },
-  { "question": "Can a conversation between AI representations of dead philosophers actually teach us anything real?", "category": "meta", "suggested": ["socrates", "wittgenstein", "zhuangzi", "arendt"], "used": false }
+  {
+    "question": "Is love a choice or something that happens to you?",
+    "category": "love",
+    "suggested": [
+      "fromm",
+      "schopenhauer",
+      "plato"
+    ],
+    "used": true
+  },
+  {
+    "question": "Can you truly love someone without understanding yourself?",
+    "category": "love",
+    "suggested": [
+      "socrates",
+      "fromm",
+      "beauvoir"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is jealousy a sign of love or a sign of ownership?",
+    "category": "love",
+    "suggested": [
+      "fromm",
+      "han",
+      "epicurus"
+    ],
+    "used": false
+  },
+  {
+    "question": "Should you stay in a relationship that's comfortable but uninspiring?",
+    "category": "love",
+    "suggested": [
+      "kierkegaard",
+      "beauvoir",
+      "seneca"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is it possible to find meaning in work, or is that a modern delusion?",
+    "category": "work",
+    "suggested": [
+      "zhuangzi",
+      "naval",
+      "marcus-aurelius"
+    ],
+    "used": true
+  },
+  {
+    "question": "Should you optimize for money or for time?",
+    "category": "work",
+    "suggested": [
+      "seneca",
+      "munger",
+      "aristotle"
+    ],
+    "used": true
+  },
+  {
+    "question": "Is ambition a virtue or a disease?",
+    "category": "work",
+    "suggested": [
+      "nietzsche",
+      "laozi",
+      "munger"
+    ],
+    "used": true
+  },
+  {
+    "question": "What would you do if money were irrelevant?",
+    "category": "work",
+    "suggested": [
+      "epicurus",
+      "naval",
+      "weil"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is true freedom possible within society?",
+    "category": "freedom",
+    "suggested": [
+      "beauvoir",
+      "confucius",
+      "camus"
+    ],
+    "used": false
+  },
+  {
+    "question": "Should you follow rules you disagree with?",
+    "category": "freedom",
+    "suggested": [
+      "kant",
+      "taleb",
+      "confucius"
+    ],
+    "used": true
+  },
+  {
+    "question": "Is privacy a right or a luxury?",
+    "category": "freedom",
+    "suggested": [
+      "han",
+      "arendt",
+      "epicurus"
+    ],
+    "used": false
+  },
+  {
+    "question": "Does democracy actually produce good decisions?",
+    "category": "freedom",
+    "suggested": [
+      "plato",
+      "arendt",
+      "taleb"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is suffering necessary for growth?",
+    "category": "suffering",
+    "suggested": [
+      "nietzsche",
+      "epicurus",
+      "weil"
+    ],
+    "used": true
+  },
+  {
+    "question": "How should you live if you knew you had one year left?",
+    "category": "suffering",
+    "suggested": [
+      "seneca",
+      "camus",
+      "zhuangzi"
+    ],
+    "used": true
+  },
+  {
+    "question": "Is it brave or foolish to accept suffering without trying to change it?",
+    "category": "suffering",
+    "suggested": [
+      "marcus-aurelius",
+      "beauvoir",
+      "weil"
+    ],
+    "used": false
+  },
+  {
+    "question": "What makes a death 'good'?",
+    "category": "suffering",
+    "suggested": [
+      "socrates",
+      "nietzsche",
+      "confucius"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is it better to know a painful truth or believe a comforting lie?",
+    "category": "knowledge",
+    "suggested": [
+      "socrates",
+      "camus",
+      "laozi"
+    ],
+    "used": true
+  },
+  {
+    "question": "Can AI ever truly 'understand' anything?",
+    "category": "knowledge",
+    "suggested": [
+      "wittgenstein",
+      "zhuangzi",
+      "arendt"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is there such a thing as objective morality?",
+    "category": "knowledge",
+    "suggested": [
+      "kant",
+      "nietzsche",
+      "confucius"
+    ],
+    "used": true
+  },
+  {
+    "question": "What's the difference between wisdom and intelligence?",
+    "category": "knowledge",
+    "suggested": [
+      "socrates",
+      "munger",
+      "laozi"
+    ],
+    "used": false
+  },
+  {
+    "question": "Are you the same person you were ten years ago?",
+    "category": "self",
+    "suggested": [
+      "kierkegaard",
+      "beauvoir",
+      "zhuxi",
+      "wang-yangming"
+    ],
+    "used": true
+  },
+  {
+    "question": "Is authenticity possible, or are we always performing?",
+    "category": "self",
+    "suggested": [
+      "han",
+      "kierkegaard",
+      "zhuangzi"
+    ],
+    "used": false
+  },
+  {
+    "question": "Should you try to be consistent, or embrace contradiction?",
+    "category": "self",
+    "suggested": [
+      "wittgenstein",
+      "nietzsche",
+      "aristotle"
+    ],
+    "used": false
+  },
+  {
+    "question": "What part of yourself are you most afraid to examine?",
+    "category": "self",
+    "suggested": [
+      "socrates",
+      "schopenhauer",
+      "fromm"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is social media making us more connected or more alone?",
+    "category": "technology",
+    "suggested": [
+      "han",
+      "arendt",
+      "wittgenstein"
+    ],
+    "used": true
+  },
+  {
+    "question": "Should we fear AI or embrace it?",
+    "category": "technology",
+    "suggested": [
+      "taleb",
+      "arendt",
+      "laozi"
+    ],
+    "used": false
+  },
+  {
+    "question": "Has technology made us happier?",
+    "category": "technology",
+    "suggested": [
+      "epicurus",
+      "han",
+      "naval"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is the attention economy compatible with a good life?",
+    "category": "technology",
+    "suggested": [
+      "weil",
+      "naval",
+      "han"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is it possible to be a good person in a corrupt system?",
+    "category": "virtue",
+    "suggested": [
+      "confucius",
+      "arendt",
+      "seneca"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is anger ever justified?",
+    "category": "virtue",
+    "suggested": [
+      "seneca",
+      "aristotle",
+      "beauvoir"
+    ],
+    "used": false
+  },
+  {
+    "question": "What's more important: being kind or being honest?",
+    "category": "virtue",
+    "suggested": [
+      "kant",
+      "confucius",
+      "nietzsche"
+    ],
+    "used": false
+  },
+  {
+    "question": "Can you learn courage, or must you be born with it?",
+    "category": "virtue",
+    "suggested": [
+      "aristotle",
+      "taleb",
+      "wang-yangming"
+    ],
+    "used": false
+  },
+  {
+    "question": "Does life need a purpose to be worth living?",
+    "category": "meaning",
+    "suggested": [
+      "camus",
+      "kant",
+      "zhuangzi"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is the search for meaning itself meaningful?",
+    "category": "meaning",
+    "suggested": [
+      "kierkegaard",
+      "wittgenstein",
+      "camus"
+    ],
+    "used": false
+  },
+  {
+    "question": "Can you create meaning, or must you discover it?",
+    "category": "meaning",
+    "suggested": [
+      "nietzsche",
+      "plato",
+      "beauvoir"
+    ],
+    "used": false
+  },
+  {
+    "question": "What would you say to someone who feels their life is pointless?",
+    "category": "meaning",
+    "suggested": [
+      "camus",
+      "fromm",
+      "marcus-aurelius"
+    ],
+    "used": false
+  },
+  {
+    "question": "Are humans fundamentally good or fundamentally selfish?",
+    "category": "nature",
+    "suggested": [
+      "wang-yangming",
+      "schopenhauer",
+      "fromm"
+    ],
+    "used": false
+  },
+  {
+    "question": "Should we try to control nature or live in harmony with it?",
+    "category": "nature",
+    "suggested": [
+      "laozi",
+      "kant",
+      "taleb"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is progress real, or do we just trade old problems for new ones?",
+    "category": "nature",
+    "suggested": [
+      "han",
+      "munger",
+      "plato"
+    ],
+    "used": false
+  },
+  {
+    "question": "What can we learn from animals that we've forgotten?",
+    "category": "nature",
+    "suggested": [
+      "zhuangzi",
+      "schopenhauer",
+      "epicurus"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is it better to act imperfectly or wait for the perfect moment?",
+    "category": "action",
+    "suggested": [
+      "wang-yangming",
+      "zhuxi",
+      "taleb"
+    ],
+    "used": false
+  },
+  {
+    "question": "When is doing nothing the wisest choice?",
+    "category": "action",
+    "suggested": [
+      "laozi",
+      "munger",
+      "arendt"
+    ],
+    "used": false
+  },
+  {
+    "question": "How do you know when to fight and when to let go?",
+    "category": "action",
+    "suggested": [
+      "marcus-aurelius",
+      "beauvoir",
+      "laozi"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is patience a virtue or a form of cowardice?",
+    "category": "action",
+    "suggested": [
+      "seneca",
+      "nietzsche",
+      "confucius"
+    ],
+    "used": false
+  },
+  {
+    "question": "What's the one thing everyone should learn but almost no one does?",
+    "category": "education",
+    "suggested": [
+      "munger",
+      "socrates",
+      "weil"
+    ],
+    "used": false
+  },
+  {
+    "question": "Is formal education necessary for wisdom?",
+    "category": "education",
+    "suggested": [
+      "zhuxi",
+      "zhuangzi",
+      "naval"
+    ],
+    "used": false
+  },
+  {
+    "question": "How do you know if you're actually growing or just getting older?",
+    "category": "education",
+    "suggested": [
+      "confucius",
+      "kierkegaard",
+      "aristotle"
+    ],
+    "used": false
+  },
+  {
+    "question": "What's the most dangerous idea you believe?",
+    "category": "education",
+    "suggested": [
+      "nietzsche",
+      "taleb",
+      "plato"
+    ],
+    "used": false
+  },
+  {
+    "question": "Why do humans keep asking the same questions for thousands of years?",
+    "category": "meta",
+    "suggested": [
+      "wittgenstein",
+      "plato",
+      "han"
+    ],
+    "used": false
+  },
+  {
+    "question": "Can a conversation between AI representations of dead philosophers actually teach us anything real?",
+    "category": "meta",
+    "suggested": [
+      "socrates",
+      "wittgenstein",
+      "zhuangzi",
+      "arendt"
+    ],
+    "used": false
+  }
 ]

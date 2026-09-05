@@ -115,7 +115,7 @@ English-only corpus would be the wrong way round.
       Kierkegaard. Same rule as H3: paired by section or left unpaired, never guessed. A
       philosopher whose original cannot be aligned keeps English alone, which is a correct
       state.
-- [ ] H7. The interface in Chinese. Every string the site itself says gains a Chinese
+- [x] H7. The interface in Chinese. Every string the site itself says gains a Chinese
       reading: wayfinding already has one, and this extends it to headings, empty states,
       buttons, the about page and the composer. A toggle in the stoa, remembered per reader,
       defaulting to the browser's language. What a philosopher or a visitor SAYS is never

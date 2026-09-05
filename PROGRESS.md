@@ -834,6 +834,61 @@ with the accents where they belong; `drawer-original-1440.png` and `-390.png` sh
 passage drawer with three originals, the Chinese in its own face and the edition credited
 under the translator.
 
+### H7. The interface in Chinese
+
+`docs/i18n.mjs` holds both readings of every string the plaza itself says: 233 of them,
+across the shell, the plaza, the room, the roster, a profile, the library, the reader, the
+study, the composer, the about page and every way of going wrong. The Chinese is written
+rather than run through a translator, and it obeys the same rulebook: plain words, no
+marketing, nothing said twice.
+
+A toggle at the foot of the stoa chooses, remembered in localStorage and defaulting to
+whatever the browser asks for. It says the language you would get by pressing it, which is a
+language switch nobody has to learn to read. The shell repaints from `data-i18n` attributes
+and the main panel repaints by re-running the route, which costs nothing because every fetch
+it makes is already in the cache.
+
+What a philosopher or a visitor SAYS is English in both readings, and that is the point
+rather than an omission. Their words are either a translation the library can name or a
+sentence they wrote themselves; putting either through a translator would turn a quotation
+into a paraphrase, which is the thing this project exists not to do. A Chinese reader gets a
+Chinese plaza around English speech, which is what a reader gets walking into a foreign
+square.
+
+The subject words split on the same rule. The sixteen the site files things under, the
+thirteen the corpus tags a passage with and the seven a philosopher's entry files a position
+under, read in Chinese: a chip says 自由 and a heading says 论知. The two hundred in a
+philosopher's own key_topics do not, because the composer's second step shows which of a
+visitor's words call whom, and it has to show the words the engine matches rather than words
+the visitor could not have typed.
+
+The 404 and the share stubs ship without the app, so their one to three lines each carry
+both readings and a seven-line inline script picks between them on the same rule. With
+scripting off the English shows, which is the reading the redirect target opens in for a
+reader who has never chosen.
+
+Evidence, all of it able to fail:
+
+    node langtest.mjs      exit 0, 12 routes in both readings
+    node shot.mjs          exit 0, 68 captures, no overflow at 1440 or 390 in either
+    node contrast.mjs      exit 0, 60 route-width-language passes, every run clears AA
+    node engine/test-retrieve.mjs   exit 0
+    node engine/reindex.mjs         exit 0
+    the two prose gates              exit 0 on the nine files CI covers
+
+`langtest.mjs` checks that every key carries two readings, that no reading is the same words
+twice, that every Chinese reading is written in Chinese apart from the two that say why they
+are not, and then loads all twelve routes with Chinese chosen and hunts each page for the
+English of all 97 fixed interface strings. Negative control: with the roster's lede put back
+into the markup in English it fails on that key and only that key. An earlier version of the
+hunt skipped any string containing a capital A, which quietly excluded a third of the table
+and passed the same planted string; the filter now skips only the strings that take an
+argument, since those have no fixed run of English to look for.
+
+The heading tracking needed taking back out. The lapidary headings are letterspaced 0.18em
+because Latin capitals want the air, and at that tracking a Chinese heading arrives as
+separated characters rather than a phrase.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:08:25.536Z",
+  "generated_at": "2026-09-05T06:21:01.290Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -272,8 +272,8 @@
     },
     {
       "slug": "epicurus",
-      "passages": 53,
-      "words": 10208,
+      "passages": 89,
+      "words": 16973,
       "works": [
         {
           "work": "Letter to Herodotus",
@@ -291,6 +291,21 @@
           ]
         },
         {
+          "work": "Letter to Pythocles",
+          "slug": "letter-to-pythocles",
+          "file": "letter-to-pythocles.json",
+          "count": 20,
+          "words": 5052,
+          "topics": [
+            "nature",
+            "knowledge",
+            "action",
+            "love",
+            "education",
+            "meta"
+          ]
+        },
+        {
           "work": "Principal Doctrines",
           "slug": "principal-doctrines",
           "file": "principal-doctrines.json",
@@ -303,6 +318,21 @@
             "nature",
             "love",
             "meaning"
+          ]
+        },
+        {
+          "work": "Vatican Sayings",
+          "slug": "vatican-sayings",
+          "file": "vatican-sayings.json",
+          "count": 16,
+          "words": 1713,
+          "topics": [
+            "knowledge",
+            "love",
+            "work",
+            "virtue",
+            "self",
+            "suffering"
           ]
         },
         {
@@ -324,56 +354,62 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 31
-        },
-        {
-          "topic": "action",
-          "count": 21
+          "count": 49
         },
         {
           "topic": "nature",
-          "count": 20
+          "count": 36
+        },
+        {
+          "topic": "action",
+          "count": 32
         },
         {
           "topic": "suffering",
-          "count": 12
+          "count": 15
         },
         {
           "topic": "meaning",
-          "count": 10
+          "count": 14
         },
         {
           "topic": "virtue",
-          "count": 9
+          "count": 13
         },
         {
           "topic": "self",
-          "count": 6
-        },
-        {
-          "topic": "meta",
-          "count": 3
+          "count": 10
         },
         {
           "topic": "love",
-          "count": 3
+          "count": 10
         },
         {
-          "topic": "education",
-          "count": 2
-        },
-        {
-          "topic": "freedom",
-          "count": 2
+          "topic": "meta",
+          "count": 7
         },
         {
           "topic": "work",
-          "count": 1
+          "count": 6
+        },
+        {
+          "topic": "education",
+          "count": 4
+        },
+        {
+          "topic": "freedom",
+          "count": 3
         }
       ],
       "translation_credits": [
         {
           "work": "Letter to Herodotus",
+          "translator": "R. D. Hicks",
+          "year": 1925,
+          "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+        },
+        {
+          "work": "Letter to Pythocles",
           "translator": "R. D. Hicks",
           "year": 1925,
           "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
@@ -389,6 +425,12 @@
           "translator": "R. D. Hicks",
           "year": 1925,
           "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+        },
+        {
+          "work": "Vatican Sayings",
+          "translator": "Cyril Bailey",
+          "year": 1926,
+          "source_url": "https://archive.org/details/EpicurusTheExtantRemainsBaileyOxford1926_201309"
         }
       ]
     },

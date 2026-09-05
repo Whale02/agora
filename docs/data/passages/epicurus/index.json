@@ -12,6 +12,16 @@
       "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
     },
     {
+      "work": "Letter to Pythocles",
+      "slug": "letter-to-pythocles",
+      "file": "letter-to-pythocles.json",
+      "passages": 20,
+      "words": 5052,
+      "translator": "R. D. Hicks",
+      "year": 1925,
+      "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+    },
+    {
       "work": "Letter to Menoeceus",
       "slug": "letter-to-menoeceus",
       "file": "letter-to-menoeceus.json",
@@ -30,6 +40,16 @@
       "translator": "R. D. Hicks",
       "year": 1925,
       "source_url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+    },
+    {
+      "work": "Vatican Sayings",
+      "slug": "vatican-sayings",
+      "file": "vatican-sayings.json",
+      "passages": 16,
+      "words": 1713,
+      "translator": "Cyril Bailey",
+      "year": 1926,
+      "source_url": "https://archive.org/details/EpicurusTheExtantRemainsBaileyOxford1926_201309"
     }
   ]
 }

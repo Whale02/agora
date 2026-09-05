@@ -8,6 +8,11 @@
     "year": 1893,
     "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Doctrine_of_the_Mean"
   },
+  "original_credit": {
+    "title": "中庸",
+    "edition": "the Chinese printed beside Legge's English in the same transcription",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Doctrine_of_the_Mean"
+  },
   "passages": [
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -17,38 +22,67 @@
         "nature",
         "self",
         "action"
-      ]
+      ],
+      "text_zh": "天命之謂性，率性之謂道，修道之謂教。道也者，不可須臾離也，可離非道也。是故君子戒慎乎其所不睹，恐懼乎其所不聞。莫見乎隱，莫顯乎微。故君子慎其獨也。喜怒哀樂之未發，謂之中；發而皆中節，謂之和；中也者，天下之大本也；和也者，天下之達道也。致中和，天地位焉，萬物育焉。"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "Zhong-ni said, \"The superior man embodies the course of the Mean; the mean man acts contrary to the course of the Mean. The superior man's embodying the course of the Mean is because he is a superior man, and so always maintains the Mean. The mean man's acting contrary to the course of the Mean is because he is a mean man, and has no caution.\"\n\nThe Master said, \"Perfect is the virtue which is according to the Mean! Rare have they long been among the people, who could practice it!\"\n\nThe Master said, \"I know how it is that the path of the Mean is not walked in: The knowing go beyond it, and the stupid do not come up to it. I know how it is that the path of the Mean is not understood: The men of talents and virtue go beyond it, and the worthless do not come up to it. There is no body but eats and drinks. But they are few who can distinguish flavors.\"\n\nThe Master said, \"Alas! How is the path of the Mean untrodden!\"",
+      "text": "Zhong-ni said, \"The superior man embodies the course of the Mean; the mean man acts contrary to the course of the Mean. The superior man's embodying the course of the Mean is because he is a superior man, and so always maintains the Mean. The mean man's acting contrary to the course of the Mean is because he is a mean man, and has no caution.\"",
       "topics": [
-        "action",
-        "knowledge"
-      ]
+        "action"
+      ],
+      "text_zh": "仲尼曰：「君子中庸，小人反中庸。君子之中庸也，君子而時中；小人之中庸也，小人而無忌憚也。」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "The Master said, \"There was Shun: He indeed was greatly wise! Shun loved to question others, and to study their words, though they might be shallow. He concealed what was bad in them and displayed what was good. He took hold of their two extremes, determined the Mean, and employed it in his government of the people. It was by this that he was Shun!\"\n\nThe Master said \"Men all say, 'We are wise'; but being driven forward and taken in a net, a trap, or a pitfall, they know not how to escape. Men all say, 'We are wise'; but happening to choose the course of the Mean, they are not able to keep it for a round month.\"\n\nThe Master said \"This was the manner of Hui: he made choice of the Mean, and whenever he got hold of what was good, he clasped it firmly, as if wearing it on his breast, and did not lose it.\"\n\nThe Master said, \"The kingdom, its states, and its families, may be perfectly ruled; dignities and emoluments may be declined; naked weapons may be trampled under the feet; but the course of the Mean cannot be attained to.\"",
+      "text": "The Master said, \"Perfect is the virtue which is according to the Mean! Rare have they long been among the people, who could practice it!\" The Master said, \"I know how it is that the path of the Mean is not walked in: The knowing go beyond it, and the stupid do not come up to it. I know how it is that the path of the Mean is not understood: The men of talents and virtue go beyond it, and the worthless do not come up to it. There is no body but eats and drinks. But they are few who can distinguish flavors.\"",
       "topics": [
-        "freedom",
         "knowledge",
-        "action",
-        "meta"
-      ]
+        "action"
+      ],
+      "text_zh": "子曰：「中庸其至矣乎！民鮮能久矣！」子曰：「道之不行也，我知之矣：知者過之，愚者不及也。道之不明也，我知之矣：賢者過之，不肖者不及也。人莫不飲食也，鮮能知味也。」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "Zi-lu asked about energy. The Master said, \"Do you mean the energy of the South, the energy of the North, or the energy which you should cultivate yourself? To show forbearance and gentleness in teaching others; and not to revenge unreasonable conduct - this is the energy of southern regions, and the good man makes it his study. To lie under arms; and meet death without regret - this is the energy of northern regions, and the forceful make it their study. Therefore, the superior man cultivates a friendly harmony, without being weak. How firm is he in his energy! He stands erect in the middle, without inclining to either side. How firm is he in his energy! When good principles prevail in the government of his country, he does not change from what he was in retirement. How firm is he in his energy! When bad principles prevail in the country, he maintains his course to death without changing. How firm is he in his energy!\"\n\nThe Master said, \"To live in obscurity, and yet practice wonders, in order to be mentioned with honor in future ages:-this is what I do not do. The good man tries to proceed according to the right path, but when he has gone halfway, he abandons it:-I am not able so to stop. The superior man accords with the course of the Mean. Though he may be all unknown, unregarded by the world, he feels no regret. It is only the sage who is able for this.",
+      "text": "The Master said, \"Alas! How is the path of the Mean untrodden!\" The Master said, \"There was Shun: He indeed was greatly wise! Shun loved to question others, and to study their words, though they might be shallow. He concealed what was bad in them and displayed what was good. He took hold of their two extremes, determined the Mean, and employed it in his government of the people. It was by this that he was Shun!\"",
+      "topics": [
+        "freedom",
+        "meta"
+      ],
+      "text_zh": "子曰：「道其不行矣夫。」子曰：「舜其大知也與！舜好問而好察邇言，隱惡而揚善，執其兩端，用其中於民，其斯以為舜乎！」"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "The Master said \"Men all say, 'We are wise'; but being driven forward and taken in a net, a trap, or a pitfall, they know not how to escape. Men all say, 'We are wise'; but happening to choose the course of the Mean, they are not able to keep it for a round month.\" The Master said \"This was the manner of Hui: he made choice of the Mean, and whenever he got hold of what was good, he clasped it firmly, as if wearing it on his breast, and did not lose it.\"",
+      "topics": [
+        "action"
+      ],
+      "text_zh": "子曰：「人皆曰『予知』，驅而納諸罟擭陷阱之中，而莫之知辟也。人皆曰『予知』，擇乎中庸，而不能期月守也。」子曰：「回之為人也，擇乎中庸，得一善，則拳拳服膺而弗失之矣。」"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "The Master said, \"The kingdom, its states, and its families, may be perfectly ruled; dignities and emoluments may be declined; naked weapons may be trampled under the feet; but the course of the Mean cannot be attained to.\" Zi-lu asked about energy. The Master said, \"Do you mean the energy of the South, the energy of the North, or the energy which you should cultivate yourself? To show forbearance and gentleness in teaching others; and not to revenge unreasonable conduct - this is the energy of southern regions, and the good man makes it his study. To lie under arms; and meet death without regret - this is the energy of northern regions, and the forceful make it their study. Therefore, the superior man cultivates a friendly harmony, without being weak. How firm is he in his energy! He stands erect in the middle, without inclining to either side. How firm is he in his energy! When good principles prevail in the government of his country, he does not change from what he was in retirement. How firm is he in his energy! When bad principles prevail in the country, he maintains his course to death without changing. How firm is he in his energy!\"",
       "topics": [
         "action",
         "freedom",
-        "virtue",
         "education"
-      ]
+      ],
+      "text_zh": "子曰：「天下國家可均也，爵祿可辭也，白刃可蹈也，中庸不可能也。」子路問強。子曰：「南方之強與？北方之強與？抑而強與？寬柔以教，不報無道，南方之強也，君子居之。衽金革，死而不厭，北方之強也，而強者居之。故君子和而不流，強哉矯！中立而不倚，強哉矯！國有道，不變塞焉，強哉矯！國無道，至死不變，強哉矯！」"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "The Master said, \"To live in obscurity, and yet practice wonders, in order to be mentioned with honor in future ages:-this is what I do not do. The good man tries to proceed according to the right path, but when he has gone halfway, he abandons it:-I am not able so to stop. The superior man accords with the course of the Mean. Though he may be all unknown, unregarded by the world, he feels no regret. It is only the sage who is able for this.",
+      "topics": [
+        "virtue",
+        "action"
+      ],
+      "text_zh": "子曰：「素隱行怪，後世有述焉，吾弗為之矣。君子遵道而行，半涂而廢，吾弗能已矣。君子依乎中庸，遁世不見知而不悔，唯聖者能之。"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -58,7 +92,8 @@
         "nature",
         "knowledge",
         "action"
-      ]
+      ],
+      "text_zh": "君子之道費而隱。夫婦之愚，可以與知焉，及其至也，雖聖人亦有所不知焉；夫婦之不肖，可以能行焉，及其至也，雖聖人亦有所不能焉。天地之大也，人猶有所憾，故君子語大，天下莫能載焉；語小，天下莫能破焉。《詩》云：『鳶飛戾天，魚躍于淵。』言其上下察也。君子之道，造端乎夫婦，及其至也，察乎天地。」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -69,28 +104,47 @@
         "self",
         "meta",
         "virtue"
-      ]
+      ],
+      "text_zh": "子曰：「道不遠人。人之為道而遠人，不可以為道。《詩》云：『伐柯伐柯，其則不遠。』執柯以伐柯，睨而視之，猶以為遠。故君子以人治人，改而止。忠恕違道不遠，施諸己而不愿，亦勿施於人。君子之道四，丘未能一焉：所求乎子以事父，未能也；所求乎臣以事君，未能也；所求乎弟以事兄，未能也；所求乎朋友先施之，未能也。庸德之行，庸言之謹，有所不足，不敢不勉，有餘不敢盡；言顧行，行顧言，君子胡不慥慥爾！"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "The superior man does what is proper to the station in which he is; he does not desire to go beyond this. In a position of wealth and honor, he does what is proper to a position of wealth and honor. In a poor and low position, he does what is proper to a poor and low position. Situated among barbarous tribes, he does what is proper to a situation among barbarous tribes. In a position of sorrow and difficulty, he does what is proper to a position of sorrow and difficulty. The superior man can find himself in no situation in which he is not himself. In a high situation, he does not treat with contempt his inferiors. In a low situation, he does not court the favor of his superiors. He rectifies himself, and seeks for nothing from others, so that he has no dissatisfactions. He does not murmur against Heaven, nor grumble against men. Thus it is that the superior man is quiet and calm, waiting for the appointments of Heaven, while the mean man walks in dangerous paths, looking for lucky occurrences.\n\nThe Master said, \"In archery we have something like the way of the superior man. When the archer misses the center of the target, he turns round and seeks for the cause of his failure in himself. The way of the superior man may be compared to what takes place in traveling, when to go to a distance we must first traverse the space that is near, and in ascending a height, when we must begin from the lower ground. It is said in the Book of Poetry, \"Happy union with wife and children is like the music of lutes and harps. When there is concord among brethren, the harmony is delightful and enduring. Thus may you regulate your family, and enjoy the pleasure of your wife and children.\" The Master said, \"In such a state of things, parents have entire complacence!\"",
+      "text": "The superior man does what is proper to the station in which he is; he does not desire to go beyond this. In a position of wealth and honor, he does what is proper to a position of wealth and honor. In a poor and low position, he does what is proper to a poor and low position. Situated among barbarous tribes, he does what is proper to a situation among barbarous tribes. In a position of sorrow and difficulty, he does what is proper to a position of sorrow and difficulty. The superior man can find himself in no situation in which he is not himself. In a high situation, he does not treat with contempt his inferiors. In a low situation, he does not court the favor of his superiors. He rectifies himself, and seeks for nothing from others, so that he has no dissatisfactions. He does not murmur against Heaven, nor grumble against men. Thus it is that the superior man is quiet and calm, waiting for the appointments of Heaven, while the mean man walks in dangerous paths, looking for lucky occurrences.",
       "topics": [
-        "action",
-        "love",
         "work",
-        "freedom"
-      ]
+        "action"
+      ],
+      "text_zh": "君子素其位而行，不愿乎其外。素富貴，行乎富貴；素貧賤，行乎貧賤；素夷狄，行乎夷狄；素患難，行乎患難：君子無入而不自得焉。在上位不陵下，在下位不援上，正己而不求於人，則無怨。上不怨天，下不尤人。故君子居易以俟命，小人行險以徼幸。」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "The Master said, \"How abundantly do spiritual beings display the powers that belong to them! We look for them, but do not see them; we listen to, but do not hear them; yet they enter into all things, and there is nothing without them. They cause all the people in the kingdom to fast and purify themselves, and array themselves in their richest dresses, in order to attend at their sacrifices. Then, like overflowing water, they seem to be over the heads, and on the right and left of their worshippers. It is said in the Book of Poetry, 'The approaches of the spirits, you cannot surmise; and can you treat them with indifference?' Such is the manifestness of what is minute! Such is the impossibility of repressing the outgoings of sincerity!\"\n\nThe Master said, \"How greatly filial was Shun! His virtue was that of a sage; his dignity was the throne; his riches were all within the four seas. He offered his sacrifices in his ancestral temple, and his descendants preserved the sacrifices to himself. Therefore having such great virtue, it could not but be that he should obtain the throne, that he should obtain those riches, that he should obtain his fame, that he should attain to his long life. Thus it is that Heaven, in the production of things, is sure to be bountiful to them, according to their qualities. Hence the tree that is flourishing, it nourishes, while that which is ready to fall, it overthrows. In the Book of Poetry, it is said, 'The admirable amiable prince displayed conspicuously his excelling virtue, adjusting his people, and adjusting his officers. Therefore, he received from Heaven his emoluments of dignity. It protected him, assisted him, decreed him the throne; sending from Heaven these favors, as it were repeatedly.' We may say therefore that he who is greatly virtuous will be sure to receive the appointment of Heaven.\"",
+      "text": "The Master said, \"In archery we have something like the way of the superior man. When the archer misses the center of the target, he turns round and seeks for the cause of his failure in himself. The way of the superior man may be compared to what takes place in traveling, when to go to a distance we must first traverse the space that is near, and in ascending a height, when we must begin from the lower ground. It is said in the Book of Poetry, \"Happy union with wife and children is like the music of lutes and harps. When there is concord among brethren, the harmony is delightful and enduring. Thus may you regulate your family, and enjoy the pleasure of your wife and children.\" The Master said, \"In such a state of things, parents have entire complacence!\"",
+      "topics": [
+        "freedom"
+      ],
+      "text_zh": "子曰：「射有似乎君子，失諸正鵠，反求諸其身。君子之道，辟如行遠必自邇，辟如登高必自卑。《詩》曰：『妻子好合，如鼓瑟琴；兄弟既翕，和樂且耽。宜爾室家，樂爾妻帑。』」子曰：「父母其順矣乎！」"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "The Master said, \"How abundantly do spiritual beings display the powers that belong to them! We look for them, but do not see them; we listen to, but do not hear them; yet they enter into all things, and there is nothing without them. They cause all the people in the kingdom to fast and purify themselves, and array themselves in their richest dresses, in order to attend at their sacrifices. Then, like overflowing water, they seem to be over the heads, and on the right and left of their worshippers. It is said in the Book of Poetry, 'The approaches of the spirits, you cannot surmise; and can you treat them with indifference?' Such is the manifestness of what is minute! Such is the impossibility of repressing the outgoings of sincerity!\"",
+      "topics": [
+        "freedom"
+      ],
+      "text_zh": "子曰：「鬼神之為德，其盛矣乎！視之而弗見，聽之而弗聞，體物而不可遺。使天下之人齊明盛服，以承祭祀，洋洋乎如在其上，如在其左右。《詩》曰：『神之格思，不可度思！矧可射思！』夫微之顯，誠之不可掩如此夫。」"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "The Master said, \"How greatly filial was Shun! His virtue was that of a sage; his dignity was the throne; his riches were all within the four seas. He offered his sacrifices in his ancestral temple, and his descendants preserved the sacrifices to himself. Therefore having such great virtue, it could not but be that he should obtain the throne, that he should obtain those riches, that he should obtain his fame, that he should attain to his long life. Thus it is that Heaven, in the production of things, is sure to be bountiful to them, according to their qualities. Hence the tree that is flourishing, it nourishes, while that which is ready to fall, it overthrows. In the Book of Poetry, it is said, 'The admirable amiable prince displayed conspicuously his excelling virtue, adjusting his people, and adjusting his officers. Therefore, he received from Heaven his emoluments of dignity. It protected him, assisted him, decreed him the throne; sending from Heaven these favors, as it were repeatedly.' We may say therefore that he who is greatly virtuous will be sure to receive the appointment of Heaven.\"",
       "topics": [
         "nature",
         "self",
         "virtue"
-      ]
+      ],
+      "text_zh": "子曰：「舜其大孝也與！德為聖人，尊為天子，富有四海之內。宗廟饗之，子孫保之。故大德必得其位，必得其祿，必得其名，必得其壽。故天之生物，必因其材而篤焉。故栽者培之，傾者覆之。《詩》曰：『嘉樂君子，憲憲令德！宜民宜人，受祿于天。保佑命之，自天申之！』故大德者必受命。」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -101,7 +155,8 @@
         "self",
         "virtue",
         "nature"
-      ]
+      ],
+      "text_zh": "子曰：「無憂者其惟文王乎！以王季為父，以武王為子，父作之，子述之。武王纘大王、王季、文王之緒，壹戎衣而有天下，身不失天下之顯名；尊為天子，富有四海之內。宗廟饗之，子孫保之。武王末受命，周公成文、武之德，追王大王、王季，上祀先公以天子之禮。斯禮也，達乎諸侯、大夫及士、庶人。父為大夫，子為士，葬以大夫，祭以士。父為士，子為大夫，葬以士，祭以大夫。期之喪，達乎大夫；三年之喪，達乎天子；父母之喪，無貴賤，一也。」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -112,7 +167,8 @@
         "nature",
         "love",
         "freedom"
-      ]
+      ],
+      "text_zh": "子曰：「武王、周公，其達孝矣乎！夫孝者：善繼人之志，善述人之事者也。春、秋修其祖廟，陳其宗器，設其裳衣，薦其時食。宗廟之禮，所以序昭穆也；序爵，所以辨貴賤也；序事，所以辨賢也；旅酬下為上，所以逮賤也；燕毛，所以序齒也。踐其位，行其禮，奏其樂，敬其所尊，愛其所親，事死如事生，事亡如事存，孝之至也。郊社之禮，所以事上帝也；宗廟之禮，所以祀乎其先也。明乎郊社之禮、禘嘗之義，治國其如示諸掌乎！」"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -188,29 +244,41 @@
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "When we have intelligence resulting from sincerity, this condition is to be ascribed to nature; when we have sincerity resulting from intelligence, this condition is to be ascribed to instruction. But given the sincerity, and there shall be the intelligence; given the intelligence, and there shall be the sincerity. It is only he who is possessed of the most complete sincerity that can exist under heaven, who can give its full development to his nature. Able to give its full development to his own nature, he can do the same to the nature of other men. Able to give its full development to the nature of other men, he can give their full development to the natures of animals and things. Able to give their full development to the natures of creatures and things, he can assist the transforming and nourishing powers of Heaven and Earth. Able to assist the transforming and nourishing powers of Heaven and Earth, he may with Heaven and Earth form a ternion.\n\nNext to the above is he who cultivates to the utmost the shoots of goodness in him. From those he can attain to the possession of sincerity. This sincerity becomes apparent. From being apparent, it becomes manifest. From being manifest, it becomes brilliant. Brilliant, it affects others. Affecting others, they are changed by it. Changed by it, they are transformed. It is only he who is possessed of the most complete sincerity that can exist under heaven, who can transform.",
+      "text": "When we have intelligence resulting from sincerity, this condition is to be ascribed to nature; when we have sincerity resulting from intelligence, this condition is to be ascribed to instruction. But given the sincerity, and there shall be the intelligence; given the intelligence, and there shall be the sincerity. It is only he who is possessed of the most complete sincerity that can exist under heaven, who can give its full development to his nature. Able to give its full development to his own nature, he can do the same to the nature of other men. Able to give its full development to the nature of other men, he can give their full development to the natures of animals and things. Able to give their full development to the natures of creatures and things, he can assist the transforming and nourishing powers of Heaven and Earth. Able to assist the transforming and nourishing powers of Heaven and Earth, he may with Heaven and Earth form a ternion.",
       "topics": [
         "nature"
-      ]
+      ],
+      "text_zh": "自誠明，謂之性；自明誠，謂之教。誠則明矣，明則誠矣。唯天下至誠，為能盡其性；能盡其性，則能盡人之性；能盡人之性，則能盡物之性；能盡物之性，則可以贊天地之化育；可以贊天地之化育，則可以與天地參矣。"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "It is characteristic of the most entire sincerity to be able to foreknow. When a nation or family is about to flourish, there are sure to be happy omens; and when it is about to perish, there are sure to be unlucky omens. Such events are seen in the milfoil and tortoise, and affect the movements of the four limbs. When calamity or happiness is about to come, the good shall certainly be foreknown by him, and the evil also. Therefore the individual possessed of the most complete sincerity is like a spirit.\n\nSincerity is that whereby self-completion is effected, and its way is that by which man must direct himself. Sincerity is the end and beginning of things; without sincerity there would be nothing. On this account, the superior man regards the attainment of sincerity as the most excellent thing. The possessor of sincerity does not merely accomplish the self-completion of himself. With this quality he completes other men and things also. The completing himself shows his perfect virtue. The completing other men and things shows his knowledge. But these are virtues belonging to the nature, and this is the way by which a union is effected of the external and internal. Therefore, whenever he-the entirely sincere man-employs them,-that is, these virtues, their action will be right. Hence to entire sincerity there belongs ceaselessness. Not ceasing, it continues long. Continuing long, it evidences itself.",
+      "text": "Next to the above is he who cultivates to the utmost the shoots of goodness in him. From those he can attain to the possession of sincerity. This sincerity becomes apparent. From being apparent, it becomes manifest. From being manifest, it becomes brilliant. Brilliant, it affects others. Affecting others, they are changed by it. Changed by it, they are transformed. It is only he who is possessed of the most complete sincerity that can exist under heaven, who can transform.",
+      "topics": [
+        "self"
+      ],
+      "text_zh": "其次致曲。曲能有誠，誠則形，形則著，著則明，明則動，動則變，變則化。唯天下至誠為能化。"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "It is characteristic of the most entire sincerity to be able to foreknow. When a nation or family is about to flourish, there are sure to be happy omens; and when it is about to perish, there are sure to be unlucky omens. Such events are seen in the milfoil and tortoise, and affect the movements of the four limbs. When calamity or happiness is about to come, the good shall certainly be foreknown by him, and the evil also. Therefore the individual possessed of the most complete sincerity is like a spirit.",
+      "topics": [
+        "self"
+      ],
+      "text_zh": "至誠之道，可以前知。國家將興，必有禎祥；國家將亡，必有妖孽。見乎蓍龜，動乎四體。禍福將至：善，必先知之；不善，必先知之。故至誠如神。"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "Sincerity is that whereby self-completion is effected, and its way is that by which man must direct himself. Sincerity is the end and beginning of things; without sincerity there would be nothing. On this account, the superior man regards the attainment of sincerity as the most excellent thing. The possessor of sincerity does not merely accomplish the self-completion of himself. With this quality he completes other men and things also. The completing himself shows his perfect virtue. The completing other men and things shows his knowledge. But these are virtues belonging to the nature, and this is the way by which a union is effected of the external and internal. Therefore, whenever he-the entirely sincere man-employs them,-that is, these virtues, their action will be right. Hence to entire sincerity there belongs ceaselessness. Not ceasing, it continues long. Continuing long, it evidences itself. Evidencing itself, it reaches far. Reaching far, it becomes large and substantial. Large and substantial, it becomes high and brilliant. Large and substantial;-this is how it contains all things. High and brilliant;-this is how it overspreads all things. Reaching far and continuing long;-this is how it perfects all things. So large and substantial, the individual possessing it is the co-equal of Earth. So high and brilliant, it makes him the co-equal of Heaven. So far-reaching and long-continuing, it makes him infinite. Such being its nature, without any display, it becomes manifested; without any movement, it produces changes; and without any effort, it accomplishes its ends.",
       "topics": [
         "self",
-        "virtue",
-        "action"
-      ]
-    },
-    {
-      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
-      "ref": null,
-      "text": "Evidencing itself, it reaches far. Reaching far, it becomes large and substantial. Large and substantial, it becomes high and brilliant. Large and substantial;-this is how it contains all things. High and brilliant;-this is how it overspreads all things. Reaching far and continuing long;-this is how it perfects all things. So large and substantial, the individual possessing it is the co-equal of Earth. So high and brilliant, it makes him the co-equal of Heaven. So far-reaching and long-continuing, it makes him infinite. Such being its nature, without any display, it becomes manifested; without any movement, it produces changes; and without any effort, it accomplishes its ends.",
-      "topics": [
+        "action",
         "nature",
-        "action"
-      ]
+        "virtue"
+      ],
+      "text_zh": "誠者自成也，而道自道也。誠者物之終始，不誠無物。是故君子誠之為貴。誠者非自成己而已也，所以成物也。成己，仁也；成物，知也。性之德也，合外內之道也，故時措之宜也。故至誠無息。不息則久，久則徵，徵則悠遠，悠遠則博厚，博厚則高明。博厚，所以載物也；高明，所以覆物也；悠久，所以成物也。博厚配地，高明配天，悠久無疆。如此者，不見而章，不動而變，無為而成。"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -220,7 +288,8 @@
         "nature",
         "meaning",
         "meta"
-      ]
+      ],
+      "text_zh": "天地之道，可壹言而盡也。其為物不貳，則其生物不測。天地之道，博也厚也，高也明也，悠也久也。今夫天，斯昭昭之多，及其無窮也，日月星辰系焉，萬物覆焉。今夫地，一撮土之多，及其廣厚，載華岳而不重，振河海而不泄，萬物載焉。今夫山，一拳石之多，及其廣大，草木生之，禽獸居之，寶藏興焉。今夫水，一勺之多，及其不測，黿鼉、蛟龍、魚鱉生焉，貨財殖焉。《詩》云：「維天之命，於穆不已！」蓋曰天之所以為天也。「於乎不顯！文王之德之純！」蓋曰文王之所以為文也，純亦不已。"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
@@ -231,77 +300,108 @@
         "nature",
         "meta",
         "freedom"
-      ]
+      ],
+      "text_zh": "大哉，聖人之道！洋洋乎發育萬物，峻極于天。優優大哉！禮儀三百，威儀三千，待其人然後行。故曰：苟不至德，至道不凝焉。故君子尊德性而道問學，致廣大而盡精微，極高明而中庸。溫故而知新，敦厚以崇禮。是故居上不驕，為下不倍；國有道，其言足以興，國無道，其默足以容。《詩》曰：「既明且哲，以保其身。」其此之謂與！"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "The Master said, Let a man who is ignorant be fond of using his own judgment; let a man without rank be fond of assuming a directing power to himself; let a man who is living in the present age go back to the ways of antiquity;-on the persons of all who act thus calamities will be sure to come. To no one but the Son of Heaven does it belong to order ceremonies, to fix the measures, and to determine the written characters. Now over the kingdom, carriages have all wheels, of the-same size; all writing is with the same characters; and for conduct there are the same rules. One may occupy the throne, but if he have not the proper virtue, he may not dare to make ceremonies or music. One may have the virtue, but if he do not occupy the throne, he may not presume to make ceremonies or music.\n\nThe Master said, \"I may describe the ceremonies of the Xia dynasty, but Qi cannot sufficiently attest my words. I have learned the ceremonies of the Yin dynasty, and in Song they still continue. I have learned the ceremonies of Zhou, which are now used, and I follow Zhou.\" He who attains to the sovereignty of the kingdom, having those three important things, shall be able to effect that there shall be few errors under his government. However excellent may have been the regulations of those of former times, they cannot be attested.",
+      "text": "The Master said, Let a man who is ignorant be fond of using his own judgment; let a man without rank be fond of assuming a directing power to himself; let a man who is living in the present age go back to the ways of antiquity;-on the persons of all who act thus calamities will be sure to come. To no one but the Son of Heaven does it belong to order ceremonies, to fix the measures, and to determine the written characters. Now over the kingdom, carriages have all wheels, of the-same size; all writing is with the same characters; and for conduct there are the same rules. One may occupy the throne, but if he have not the proper virtue, he may not dare to make ceremonies or music. One may have the virtue, but if he do not occupy the throne, he may not presume to make ceremonies or music.",
       "topics": [
         "action",
         "knowledge",
-        "meta",
-        "freedom"
-      ]
+        "meta"
+      ],
+      "text_zh": "子曰：「愚而好自用，賤而好自專，生乎今之世，反古之道。如此者，災及其身者也。」非天子，不議禮，不制度，不考文。今天下車同軌，書同文，行同倫。雖有其位，苟無其德，不敢作禮樂焉；雖有其德，苟無其位，亦不敢作禮樂焉。"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "Not being attested, they cannot command credence, and not being credited, the people would not follow them. However excellent might be the regulations made by one in an inferior situation, he is not in a position to be honored. Unhonored, he cannot command credence, and not being credited, the people would not follow his rules. Therefore the institutions of the Ruler are rooted in his own character and conduct, and sufficient attestation of them is given by the masses of the people. He examines them by comparison with those of the three kings, and finds them without mistake. He sets them up before Heaven and Earth, and finds nothing in them contrary to their mode of operation. He presents himself with them before spiritual beings, and no doubts about them arise. He is prepared to wait for the rise of a sage a hundred ages after, and has no misgivings. His presenting himself with his institutions before spiritual beings, without any doubts arising about them, shows that he knows Heaven. His being prepared, without any misgivings, to wait for the rise of a sage a hundred ages after, shows that he knows men. Such being the case, the movements of such a ruler, illustrating his institutions, constitute an example to the world for ages. His acts are for ages a law to the kingdom. His words are for ages a lesson to the kingdom. Those who are far from him look longingly for him; and those who are near him are never wearied with him. It is said in the Book of Poetry,-\"Not disliked there, not tired of here, from day to day and night tonight, will they perpetuate their praise.\" Never has there been a ruler, who did not realize this description, that obtained an early renown throughout the kingdom.",
+      "text": "The Master said, \"I may describe the ceremonies of the Xia dynasty, but Qi cannot sufficiently attest my words. I have learned the ceremonies of the Yin dynasty, and in Song they still continue. I have learned the ceremonies of Zhou, which are now used, and I follow Zhou.\" He who attains to the sovereignty of the kingdom, having those three important things, shall be able to effect that there shall be few errors under his government. However excellent may have been the regulations of those of former times, they cannot be attested. Not being attested, they cannot command credence, and not being credited, the people would not follow them. However excellent might be the regulations made by one in an inferior situation, he is not in a position to be honored. Unhonored, he cannot command credence, and not being credited, the people would not follow his rules. Therefore the institutions of the Ruler are rooted in his own character and conduct, and sufficient attestation of them is given by the masses of the people. He examines them by comparison with those of the three kings, and finds them without mistake. He sets them up before Heaven and Earth, and finds nothing in them contrary to their mode of operation. He presents himself with them before spiritual beings, and no doubts about them arise. He is prepared to wait for the rise of a sage a hundred ages after, and has no misgivings.",
       "topics": [
-        "nature",
         "freedom",
         "self",
-        "action"
-      ]
-    },
-    {
-      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
-      "ref": null,
-      "text": "Zhong-ni handed down the doctrines of Yao and Shun, as if they had been his ancestors, and elegantly displayed the regulations of Wen and Wu taking them as his model. Above, he harmonized with the times of Heaven, and below, he was conformed to the water and land. He may be compared to Heaven and Earth in their supporting and containing, their overshadowing and curtaining, all things. He may be compared to the four seasons in their alternating progress, and to the sun and moon in their successive shining. All things are nourished together without their injuring one another. The courses of the seasons, and of the sun and moon, are pursued without any collision among them. The smaller energies are like river currents; the greater energies are seen in mighty transformations. It is this which makes heaven and earth so great.\n\nIt is only he, possessed of all sagely qualities that can exist under heaven, who shows himself quick in apprehension, clear in discernment, of far-reaching intelligence, and all-embracing knowledge, fitted to exercise rule; magnanimous, generous, benign, and mild, fitted to exercise forbearance; impulsive, energetic, firm, and enduring, fitted to maintain a firm hold; self-adjusted, grave, never swerving from the Mean, and correct, fitted to command reverence; accomplished, distinctive, concentrative, and searching, fitted to exercise discrimination. All-embracing is he and vast, deep and active as a fountain, sending forth in their due season his virtues.",
-      "topics": [
-        "nature",
-        "self",
-        "virtue"
-      ]
-    },
-    {
-      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
-      "ref": null,
-      "text": "All-embracing and vast, he is like Heaven. Deep and active as a fountain, he is like the abyss. He is seen, and the people all reverence him; he speaks, and the people all believe him; he acts, and the people all are pleased with him. Therefore his fame overspreads the Middle Kingdom, and extends to all barbarous tribes. Wherever ships and carriages reach; wherever the strength of man penetrates; wherever the heavens overshadow and the earth sustains; wherever the sun and moon shine; wherever frosts and dews fall:-all who have blood and breath unfeignedly honor and love him. Hence it is said, \"He is the equal of Heaven.\"",
-      "topics": [
         "nature"
       ]
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "It is only the individual possessed of the most entire sincerity that can exist under Heaven, who can adjust the great invariable relations of mankind, establish the great fundamental virtues of humanity, and know the transforming and nurturing operations of Heaven and Earth;-shall this individual have any being or anything beyond himself on which he depends? Call him man in his ideal, how earnest is he! Call him an abyss, how deep is he! Call him Heaven, how vast is he! Who can know him, but he who is indeed quick in apprehension, clear in discernment, of far-reaching intelligence, and all-embracing knowledge, possessing all Heavenly virtue?\n\nIt is said in the Book of Poetry, \"Over her embroidered robe she puts a plain single garment,\" intimating a dislike to the display of the elegance of the former. Just so, it is the way of the superior man to prefer the concealment of his virtue, while it daily becomes more illustrious, and it is the way of the mean man to seek notoriety, while he daily goes more and more to ruin. It is characteristic of the superior man, appearing insipid, yet never to produce satiety; while showing a simple negligence, yet to have his accomplishments recognized; while seemingly plain, yet to be discriminating. He knows how what is distant lies in what is near. He knows where the wind proceeds from. He knows how what is minute becomes manifested. Such a one, we may be sure, will enter into virtue.",
+      "text": "His presenting himself with his institutions before spiritual beings, without any doubts arising about them, shows that he knows Heaven. His being prepared, without any misgivings, to wait for the rise of a sage a hundred ages after, shows that he knows men. Such being the case, the movements of such a ruler, illustrating his institutions, constitute an example to the world for ages. His acts are for ages a law to the kingdom. His words are for ages a lesson to the kingdom. Those who are far from him look longingly for him; and those who are near him are never wearied with him. It is said in the Book of Poetry,-\"Not disliked there, not tired of here, from day to day and night tonight, will they perpetuate their praise.\" Never has there been a ruler, who did not realize this description, that obtained an early renown throughout the kingdom.",
       "topics": [
+        "nature",
+        "meta"
+      ]
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "Zhong-ni handed down the doctrines of Yao and Shun, as if they had been his ancestors, and elegantly displayed the regulations of Wen and Wu taking them as his model. Above, he harmonized with the times of Heaven, and below, he was conformed to the water and land. He may be compared to Heaven and Earth in their supporting and containing, their overshadowing and curtaining, all things. He may be compared to the four seasons in their alternating progress, and to the sun and moon in their successive shining. All things are nourished together without their injuring one another. The courses of the seasons, and of the sun and moon, are pursued without any collision among them. The smaller energies are like river currents; the greater energies are seen in mighty transformations. It is this which makes heaven and earth so great.",
+      "topics": [
+        "nature"
+      ],
+      "text_zh": "仲尼祖述堯、舜，憲章文、武；上律天時，下襲水土。辟如天地之無不持載，無不覆幬，辟如四時之錯行，如日月之代明。萬物并育而不相害，道并行而不相悖，小德川流，大德敦化，此天地之所以為大也。"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "It is only he, possessed of all sagely qualities that can exist under heaven, who shows himself quick in apprehension, clear in discernment, of far-reaching intelligence, and all-embracing knowledge, fitted to exercise rule; magnanimous, generous, benign, and mild, fitted to exercise forbearance; impulsive, energetic, firm, and enduring, fitted to maintain a firm hold; self-adjusted, grave, never swerving from the Mean, and correct, fitted to command reverence; accomplished, distinctive, concentrative, and searching, fitted to exercise discrimination. All-embracing is he and vast, deep and active as a fountain, sending forth in their due season his virtues. All-embracing and vast, he is like Heaven. Deep and active as a fountain, he is like the abyss. He is seen, and the people all reverence him; he speaks, and the people all believe him; he acts, and the people all are pleased with him. Therefore his fame overspreads the Middle Kingdom, and extends to all barbarous tribes. Wherever ships and carriages reach; wherever the strength of man penetrates; wherever the heavens overshadow and the earth sustains; wherever the sun and moon shine; wherever frosts and dews fall:-all who have blood and breath unfeignedly honor and love him. Hence it is said, \"He is the equal of Heaven.\"",
+      "topics": [
+        "nature",
+        "virtue",
         "knowledge",
+        "self"
+      ],
+      "text_zh": "唯天下至聖，為能聰明睿知，足以有臨也；寬裕溫柔，足以有容也；發強剛毅，足以有執也；齊莊中正，足以有敬也；文理密察，足以有別也。溥博淵泉，而時出之。溥博如天，淵泉如淵。見而民莫不敬，言而民莫不信，行而民莫不說。是以聲名洋溢乎中國，施及蠻貊；舟車所至，人力所通，天之所覆，地之所載，日月所照，霜露所隊；凡有血氣者，莫不尊親，故曰配天。"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "It is only the individual possessed of the most entire sincerity that can exist under Heaven, who can adjust the great invariable relations of mankind, establish the great fundamental virtues of humanity, and know the transforming and nurturing operations of Heaven and Earth;-shall this individual have any being or anything beyond himself on which he depends? Call him man in his ideal, how earnest is he! Call him an abyss, how deep is he! Call him Heaven, how vast is he! Who can know him, but he who is indeed quick in apprehension, clear in discernment, of far-reaching intelligence, and all-embracing knowledge, possessing all Heavenly virtue?",
+      "topics": [
         "self",
+        "knowledge",
         "virtue",
         "nature"
-      ]
+      ],
+      "text_zh": "唯天下至誠，為能經綸天下之大經，立天下之大本，知天地之化育。夫焉有所倚？肫肫其仁！淵淵其淵！浩浩其天！苟不固聰明聖知達天德者，其孰能知之？"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "ref": null,
-      "text": "It is said in the Book of Poetry, \"Although the fish sink and lie at the bottom, it is still quite clearly seen.\" Therefore the superior man examines his heart, that there may be nothing wrong there, and that he may have no cause for dissatisfaction with himself. That wherein the superior man cannot be equaled is simply this,-his work which other men cannot see.\n\nIt is said in the Book of Poetry, \"Looked at in your apartment, be there free from shame as being exposed to the light of Heaven.\" Therefore, the superior man, even when he is not moving, has a feeling of reverence, and while he speaks not, he has the feeling of truthfulness.\n\nIt is said in the Book of Poetry, \"In silence is the offering presented, and the spirit approached to; there is not the slightest contention.\" Therefore the superior man does not use rewards, and the people are stimulated to virtue. He does not show anger, and the people are awed more than by hatchets and battle-axes.\n\nIt is said in the Book of Poetry, \"What needs no display is virtue. All the princes imitate it.\" Therefore, the superior man being sincere and reverential, the whole world is conducted to a state of happy tranquility.",
+      "text": "It is said in the Book of Poetry, \"Over her embroidered robe she puts a plain single garment,\" intimating a dislike to the display of the elegance of the former. Just so, it is the way of the superior man to prefer the concealment of his virtue, while it daily becomes more illustrious, and it is the way of the mean man to seek notoriety, while he daily goes more and more to ruin. It is characteristic of the superior man, appearing insipid, yet never to produce satiety; while showing a simple negligence, yet to have his accomplishments recognized; while seemingly plain, yet to be discriminating. He knows how what is distant lies in what is near. He knows where the wind proceeds from. He knows how what is minute becomes manifested. Such a one, we may be sure, will enter into virtue.",
       "topics": [
-        "self",
+        "virtue"
+      ],
+      "text_zh": "《詩》曰：「衣錦尚絅」，惡其文之著也。故君子之道，闇然而日章；小人之道，的然而日亡。君子之道：淡而不厭，簡而文，溫而理，知遠之近，知風之自，知微之顯，可與入德矣。"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "It is said in the Book of Poetry, \"Although the fish sink and lie at the bottom, it is still quite clearly seen.\" Therefore the superior man examines his heart, that there may be nothing wrong there, and that he may have no cause for dissatisfaction with himself. That wherein the superior man cannot be equaled is simply this,-his work which other men cannot see.",
+      "topics": [
+        "work"
+      ],
+      "text_zh": "《詩》云：「潛雖伏矣，亦孔之昭！」故君子內省不疚，無惡於志。君子所不可及者，其唯人之所不見乎！"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "It is said in the Book of Poetry, \"Looked at in your apartment, be there free from shame as being exposed to the light of Heaven.\" Therefore, the superior man, even when he is not moving, has a feeling of reverence, and while he speaks not, he has the feeling of truthfulness. It is said in the Book of Poetry, \"In silence is the offering presented, and the spirit approached to; there is not the slightest contention.\" Therefore the superior man does not use rewards, and the people are stimulated to virtue. He does not show anger, and the people are awed more than by hatchets and battle-axes.",
+      "topics": [
+        "meta"
+      ],
+      "text_zh": "《詩》云：「相在爾室，尚不愧于屋漏。」故君子不動而敬，不言而信。《詩》曰：「奏假無言，時靡有爭。」是故君子不賞而民勸，不怒而民威於鈇鉞。"
+    },
+    {
+      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
+      "ref": null,
+      "text": "It is said in the Book of Poetry, \"What needs no display is virtue. All the princes imitate it.\" Therefore, the superior man being sincere and reverential, the whole world is conducted to a state of happy tranquility. It is said in the Book of Poetry, \"I regard with pleasure your brilliant virtue, making no great display of itself in sounds and appearances.\" The Master said, \"Among the appliances to transform the people, sound and appearances are but trivial influences. It is said in another ode, 'His Virtue is light as a hair.' Still, a hair will admit of comparison as to its size. 'The doings of the supreme Heaven have neither sound nor smell. 'That is perfect virtue.\"",
+      "topics": [
         "freedom",
-        "nature",
-        "meta"
-      ]
-    },
-    {
-      "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
-      "ref": null,
-      "text": "It is said in the Book of Poetry, \"I regard with pleasure your brilliant virtue, making no great display of itself in sounds and appearances.\" The Master said, \"Among the appliances to transform the people, sound and appearances are but trivial influences. It is said in another ode, 'His Virtue is light as a hair.' Still, a hair will admit of comparison as to its size. 'The doings of the supreme Heaven have neither sound nor smell. 'That is perfect virtue.\"\n\nThis work is a translation and has a separate copyright status to the applicable copyright protections of the original content.",
-      "topics": [
-        "meta"
-      ]
+        "nature"
+      ],
+      "text_zh": "《詩》曰：「不顯惟德！百辟其刑之。」是故君子篤恭而天下平。《詩》曰：「予懷明德，不大聲以色。」子曰：「聲色之於以化民，末也。」《詩》曰：「德輶如毛」，毛猶有倫；「上天之載，無聲無臭」，至矣！"
     }
   ]
 }

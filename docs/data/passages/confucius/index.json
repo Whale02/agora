@@ -5,31 +5,37 @@
       "work": "The Analects (论语), my conversations as my students recorded them",
       "slug": "the-analects",
       "file": "the-analects.json",
-      "passages": 166,
-      "words": 17397,
+      "passages": 287,
+      "words": 28073,
       "translator": "James Legge",
       "year": 1893,
-      "source_url": "https://www.gutenberg.org/ebooks/3330"
+      "source_url": "https://www.gutenberg.org/ebooks/3330",
+      "paired": 245,
+      "original": "論語"
     },
     {
       "work": "The Great Learning (大學), set down by my student Zengzi",
       "slug": "the-great-learning",
       "file": "the-great-learning.json",
-      "passages": 11,
-      "words": 3042,
+      "passages": 15,
+      "words": 2882,
       "translator": "James Legge",
       "year": 1893,
-      "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Great_Learning"
+      "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Great_Learning",
+      "paired": 15,
+      "original": "大學"
     },
     {
       "work": "The Doctrine of the Mean (中庸), set down by my grandson Zisi",
       "slug": "the-doctrine-of-the-mean",
       "file": "the-doctrine-of-the-mean.json",
-      "passages": 29,
-      "words": 6669,
+      "passages": 38,
+      "words": 6649,
       "translator": "James Legge",
       "year": 1893,
-      "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Doctrine_of_the_Mean"
+      "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/The_Doctrine_of_the_Mean",
+      "paired": 29,
+      "original": "中庸"
     }
   ]
 }

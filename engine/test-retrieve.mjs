@@ -70,7 +70,7 @@ for (const slug of slugs) {
 
   const problems = [];
   const works = new Set(p.works);
-  const seen = new Set();
+  const seen = new Map();
   let short = 0;
   let long = 0;
   const topicsUsed = new Set();
@@ -82,9 +82,13 @@ for (const slug of slugs) {
     const n = String(x.text).trim().split(/\s+/).length;
     if (n < MIN_WORDS) short++;
     if (n > MAX_WORDS) long++;
-    const key = String(x.text).slice(0, 60);
-    if (seen.has(key)) problems.push(`passage ${i} repeats an earlier one`);
-    seen.add(key);
+    // A passage ingested twice is identical all through. Matching on the first sixty
+    // characters instead called the Analects a duplicate of itself: Confucius says "Fine
+    // words and an insinuating appearance are seldom associated with virtue" at I.3 and
+    // again at XVII.17, and the book repeating itself is the book, not the build.
+    const key = String(x.text);
+    if (seen.has(key)) problems.push(`passage ${i} repeats passage ${seen.get(key)} word for word`);
+    else seen.set(key, i);
     for (const t of x.topics ?? []) topicsUsed.add(t);
   }
   for (const c of corpus.translation_credits ?? []) {
@@ -108,6 +112,25 @@ for (const slug of slugs) {
     taken.add(w.slug);
   }
   if (index.works.length !== new Set(index.works.map((w) => w.work)).size) problems.push("a work is indexed twice");
+
+  // The original beside the translation. A passage that carries one has to carry real
+  // characters in it, and a work with any of them has to say which edition they came from,
+  // or the reader is looking at an original nobody can trace.
+  for (const w of index.works) {
+    const held = readWork(slug, w.slug);
+    if (!held) continue;
+    const withOriginal = held.passages.filter((x) => x.text_zh);
+    if (!withOriginal.length) {
+      if (held.original_credit) problems.push(`${w.file} credits an original no passage carries`);
+      continue;
+    }
+    if (!held.original_credit?.title || !held.original_credit?.source_url) {
+      problems.push(`${w.file} carries ${withOriginal.length} originals with no original_credit`);
+    }
+    const empty = withOriginal.filter((x) => !/[㐀-鿿Ͱ-Ͽἀ-῿]/.test(x.text_zh));
+    if (empty.length) problems.push(`${empty.length} originals in ${w.file} carry no Chinese or Greek characters`);
+    if (w.paired !== withOriginal.length) problems.push(`${w.file} pairs ${withOriginal.length}, the index says ${w.paired ?? 0}`);
+  }
   if (short) problems.push(`${short} passages under ${MIN_WORDS} words`);
   if (long) problems.push(`${long} passages over ${MAX_WORDS} words`);
   if (!corpus.passages.length) problems.push("no passages");
@@ -118,6 +141,17 @@ for (const slug of slugs) {
     `${slug}: ${corpus.passages.length} passages, ${topicsUsed.size} subjects`,
     problems.slice(0, 3).join("; "),
   );
+}
+
+// What the plaza holds in the philosopher's own language, work by work.
+{
+  const rows = [];
+  for (const slug of slugs) {
+    for (const w of readIndex(slug).works) {
+      if (w.paired) rows.push(`${slug}/${w.slug} ${w.paired} of ${w.passages} (${w.original})`);
+    }
+  }
+  check(true, `originals paired to the translation`, rows.length ? rows.join(", ") : "none yet");
 }
 
 check(totalBytes < 25 * 1024 * 1024, "the corpus stays under 25MB", `${(totalBytes / 1024 / 1024).toFixed(1)}MB, ${totalPassages} passages`);

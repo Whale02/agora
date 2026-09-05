@@ -70,6 +70,27 @@ export function readWorks(slug) {
 
 const wordCount = (s) => (String(s).trim().match(/\S+/g) ?? []).length;
 
+// Rewrite index.json from the work files beside it. A pass that edits a work in place, such
+// as pairing the original to the translation, changes what the index has to say about it,
+// and an index that disagrees with the files is a thing the corpus test fails on.
+export function refreshIndex(slug) {
+  const index = readIndex(slug);
+  if (!index) throw new Error(`no corpus for ${slug}`);
+  index.works = index.works.map((w) => {
+    const file = readWork(slug, w.slug);
+    const paired = file.passages.filter((p) => p.text_zh).length;
+    const { paired: _p, original: _o, ...rest } = w;
+    return {
+      ...rest,
+      passages: file.passages.length,
+      words: file.passages.reduce((n, p) => n + wordCount(p.text), 0),
+      ...(paired ? { paired, original: file.original_credit?.title } : {}),
+    };
+  });
+  fs.writeFileSync(path.join(DIR, slug, "index.json"), JSON.stringify(index, null, 2) + "\n", "utf8");
+  return index;
+}
+
 // Write a philosopher's whole shelf: one file per work plus the index. Passages keep the
 // order they were built in, and each work file holds only its own. `credits` is the list of
 // translation credits, one per work; a work without one is a bug and throws rather than
@@ -89,14 +110,21 @@ export function writeCorpus(slug, credits, passages) {
     if (!credit) throw new Error(`${slug}: no translation credit for ${work}`);
     const wslug = workSlug(work, taken);
     taken.add(wslug);
+    // A work may carry the original language beside the translation: the credit names the
+    // edition the Chinese or the Greek came from, and a passage carries `text_zh` where the
+    // original for it is known. A passage without one is a passage nobody could align, which
+    // is a normal state and not a gap.
+    const { original, ...translation } = credit;
     const body = {
       slug,
       work,
       work_slug: wslug,
-      translation_credit: credit,
+      translation_credit: translation,
+      ...(original ? { original_credit: original } : {}),
       passages: list,
     };
     fs.writeFileSync(path.join(dir, `${wslug}.json`), JSON.stringify(body, null, 2) + "\n", "utf8");
+    const paired = list.filter((p) => p.text_zh).length;
     works.push({
       work,
       slug: wslug,
@@ -106,6 +134,8 @@ export function writeCorpus(slug, credits, passages) {
       translator: credit.translator,
       year: credit.year,
       source_url: credit.source_url,
+      ...(credit.note ? { note: credit.note } : {}),
+      ...(paired ? { paired, original: original.title } : {}),
     });
   }
   fs.writeFileSync(

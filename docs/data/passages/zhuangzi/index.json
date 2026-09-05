@@ -5,11 +5,14 @@
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "slug": "zhuangzi",
       "file": "zhuangzi.json",
-      "passages": 251,
-      "words": 62135,
+      "passages": 224,
+      "words": 50520,
       "translator": "James Legge",
       "year": 1891,
-      "source_url": "https://ctext.org/zhuangzi"
+      "source_url": "https://ctext.org/zhuangzi",
+      "note": "This edition respells the romanised names: Legge printed Khwan and Phang where this reads Kun and Peng.",
+      "paired": 142,
+      "original": "莊子"
     }
   ]
 }

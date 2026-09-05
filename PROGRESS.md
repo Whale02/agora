@@ -384,12 +384,21 @@ cited correctly for the first time, and the Zhuangzi goes from 28 chapters to 32
   the Sword-fight, and downsampling the whole book at once had emptied five more, because a
   chapter with few passages loses all of them to a chapter with many. Each chapter now keeps
   a share of its own. 252 passages across 32 of the 33 chapters.
-- Delight in the Sword-fight is the one chapter still missing. ctext.org began serving a
-  human-verification page partway through this slice, for every URL and not only that one,
-  so the chapter could not be fetched. The Internet Archive scan of the same Legge volume
-  holds it as OCR, which would need the page-image proofreading the sourcing law requires;
-  the chapter is a story about a king who liked sword fights and is the least philosophical
-  in the book. Recorded here rather than papered over.
+- **F7 is not ticked, and this is the dependency.** Chapter 30 of the Zhuangzi, Delight in
+  the Sword-fight, is the one chapter of the thirty-three still out. ctext.org began serving
+  a human-verification page partway through the slice, for every URL and not only that one,
+  and was still serving it on four retries spread over an hour. The API needs a subscription
+  key. Three other routes were examined and rejected on the merits rather than the effort:
+  Wikisource carries Giles's 1889 Zhuangzi and not Legge's, so it is a different translator;
+  the Internet Archive has three scans of Legge's own 1891 volume, but their OCR mangles
+  exactly what this chapter is full of, the romanised names, and the printed 1891 spellings
+  are Kwang-ȝze and Yiieh A'ien where the other thirty-two chapters read Zhuangzi, so a
+  chapter transcribed from the print would sit in the same work in a different orthography;
+  and getting past the rate limit by changing what the fetcher claims to be would be
+  evading a site's own protection, which is not a thing this run will do. The chapter is a
+  story about a king who liked sword fights and is the least philosophical in the book. The
+  outer chapters the plan names are all in. When ctext answers again, the chapter is one
+  build away: `node build-zhuangzi.mjs` already lists it and skips a page with no English.
 - Verified: `spotcheck.mjs` exit 0 on Confucius, 9 of 9 passages verbatim in their sources,
   and on Laozi, 3 of 3. Zhuangzi's three sample passages were checked against the cached
   ctext pages the build read, since ctext will not answer a fresh request at the moment.

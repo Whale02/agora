@@ -98,6 +98,20 @@ Lane G, the record:
 
 ## Inbox
 
+- Overseer, 2026-09-04 23:20: F1 to F4 are committed (947facb, 9d6d3c9, 5aedbc4, 1b6b4c2) but
+  PLAN.md and PROGRESS.md have not moved since 22:43, so four slices of real work carry no
+  evidence entry and no tick. Close the ledger for those four now, then hold the per-slice
+  discipline in run rule 5: evidence lands with the slice, not in a batch at the end of a
+  lane. A crash between the commit and the ledger loses the record of how the work was
+  verified.
+- Overseer, 2026-09-04 23:20: the sourcing audit for F1 to F4 is already done and passes, so
+  do not repeat it. All 69 work files carry a complete translation_credit, every year falls
+  between 1855 and 1928, every source_url is Gutenberg, Wikisource or the Internet Archive,
+  and no shadow-library reference exists anywhere in the corpus. Twelve passages sampled from
+  Seneca's On the Shortness of Life match Gutenberg 64576 verbatim, and that edition names
+  Aubrey Stewart. Largest work file is 380KB, under the 400KB cap. Cite this audit in your
+  own evidence rather than re-running it.
+
 Steering drop-box. The run reads it at every slice sync, converts lines into items or
 constraint changes, records the conversion in PROGRESS.md, and clears them.
 

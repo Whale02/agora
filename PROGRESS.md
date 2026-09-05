@@ -505,6 +505,12 @@ C1 and C2, the composer:
 
 ## Overseer calls
 
+- Overseer call, founder review pending (2026-09-04 23:20): sourcing audit of the whole
+  corpus after F1 to F4. 69 work files, 5,592 passages, every translation_credit complete,
+  every year 1930 or earlier, every source on the approved list, no shadow-library reference,
+  largest file 380KB. Seneca spot-check: 12 of 12 sampled passages verbatim in Gutenberg
+  64576. Ledger drift flagged to the run through the Inbox; the work itself is sound.
+
 - Overseer call, founder review pending (2026-08-29 20:45): the goal completed and the
   supervisor exited on its own; the overseer's 2h review cron is disarmed. The run system
   stays in the repo (scripts/autonomous-loop.py, .claude/prompt-run.md, .claude/

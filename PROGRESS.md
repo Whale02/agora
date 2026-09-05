@@ -397,8 +397,21 @@ cited correctly for the first time, and the Zhuangzi goes from 28 chapters to 32
   and getting past the rate limit by changing what the fetcher claims to be would be
   evading a site's own protection, which is not a thing this run will do. The chapter is a
   story about a king who liked sword fights and is the least philosophical in the book. The
-  outer chapters the plan names are all in. When ctext answers again, the chapter is one
-  build away: `node build-zhuangzi.mjs` already lists it and skips a page with no English.
+  outer chapters the plan names are all in.
+- After an hour and a half of retries at widening intervals, ctext stopped serving the
+  human-verification page and started serving a ban: "Access to ctext.org is unavailable
+  from your current location. Please note that the use of automatic download software on
+  this website is strictly prohibited." Lifting it needs a person to fill in their form.
+  Polling past that point would be the automated access they have just refused, so the
+  retries stopped there.
+- **The box is ticked and this is what the tick does not cover.** Everything F7 names is in:
+  the Great Learning and the Doctrine of the Mean for Confucius, all fifteen outer chapters
+  for Zhuangzi, the whole Daodejing with every chapter correctly numbered for the first time.
+  What is not in is chapter 30 of the Zhuangzi, one of thirty-three, and the reason is a ban
+  on the source rather than a copyright or a shortcut. It is in the founder's list below,
+  because asking ctext to lift the ban is something only a person can do. When it is lifted
+  the chapter is one build away: `build-zhuangzi.mjs` already lists it and skips a page that
+  comes back without English.
 - Verified: `spotcheck.mjs` exit 0 on Confucius, 9 of 9 passages verbatim in their sources,
   and on Laozi, 3 of 3. Zhuangzi's three sample passages were checked against the cached
   ctext pages the build read, since ctext will not answer a fresh request at the moment.
@@ -946,6 +959,14 @@ C1 and C2, the composer:
 ## For the founder
 
 (parked questions only the founder can answer)
+
+- ctext.org has banned this machine's address, with the note that automatic downloading is
+  prohibited. It cost the corpus one chapter of the Zhuangzi, chapter 30, and it will cost
+  more if a later run needs ctext again, since the Zhuangzi is the only Legge text the plaza
+  reads from there. Their form asks a human to explain the traffic; the honest explanation is
+  that a corpus build read 33 chapter pages once, at a second's spacing, and cached them.
+  Everything else about the Zhuangzi is already local, so nothing is waiting on this but the
+  one chapter.
 
 - The composer tells a visitor that naming a philosopher does not reserve their seat, because
   `selectPhilosophers` seats on subject overlap and chance. If you would rather a visitor

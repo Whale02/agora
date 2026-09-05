@@ -64,7 +64,7 @@ before fetching, and record the source id and URL):
 - [x] F6. Zhu Xi, who currently holds nothing: J. Percy Bruce, "The Philosophy of Human
       Nature by Chu Hsi", 1922 (Internet Archive philosophyofhuma00chuh). Proofread the OCR
       against the scan. This turns eleven unquoted philosophers into ten.
-- [ ] F7. Confucius, Laozi, Zhuangzi: extend Legge's coverage to the rest of what he
+- [x] F7. Confucius, Laozi, Zhuangzi: extend Legge's coverage to the rest of what he
       translated, including the Great Learning and the Doctrine of the Mean for Confucius
       and the outer chapters for Zhuangzi.
 - [x] F8. Nietzsche, Schopenhauer, Kierkegaard, Wittgenstein, Marcus Aurelius, Wang

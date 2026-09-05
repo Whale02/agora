@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:02:27.372Z",
+  "generated_at": "2026-09-05T06:06:24.785Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -394,15 +394,30 @@
     },
     {
       "slug": "kant",
-      "passages": 300,
-      "words": 73139,
+      "passages": 788,
+      "words": 190392,
       "works": [
+        {
+          "work": "Critique of Practical Reason",
+          "slug": "critique-of-practical-reason",
+          "file": "critique-of-practical-reason.json",
+          "count": 150,
+          "words": 37246,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "meaning",
+            "freedom",
+            "self"
+          ]
+        },
         {
           "work": "Critique of Pure Reason",
           "slug": "critique-of-pure-reason",
           "file": "critique-of-pure-reason.json",
-          "count": 139,
-          "words": 33681,
+          "count": 150,
+          "words": 36374,
           "topics": [
             "knowledge",
             "meta",
@@ -413,88 +428,118 @@
           ]
         },
         {
-          "work": "Groundwork of the Metaphysics of Morals",
-          "slug": "groundwork-of-the-metaphysics-of-morals",
-          "file": "groundwork-of-the-metaphysics-of-morals.json",
-          "count": 86,
-          "words": 20819,
+          "work": "Critique of Judgement",
+          "slug": "critique-of-judgement",
+          "file": "critique-of-judgement.json",
+          "count": 150,
+          "words": 35910,
           "topics": [
             "knowledge",
+            "nature",
+            "freedom",
             "action",
-            "virtue",
             "meaning",
-            "self",
-            "meta"
+            "virtue"
           ]
         },
         {
-          "work": "Critique of Practical Reason",
-          "slug": "critique-of-practical-reason",
-          "file": "critique-of-practical-reason.json",
-          "count": 75,
-          "words": 18639,
+          "work": "Groundwork of the Metaphysics of Morals",
+          "slug": "groundwork-of-the-metaphysics-of-morals",
+          "file": "groundwork-of-the-metaphysics-of-morals.json",
+          "count": 128,
+          "words": 30625,
           "topics": [
             "knowledge",
-            "virtue",
             "action",
-            "meaning",
+            "virtue",
+            "freedom",
             "self",
-            "meta"
+            "meaning"
+          ]
+        },
+        {
+          "work": "Prolegomena to Any Future Metaphysics",
+          "slug": "prolegomena-to-any-future-metaphysics",
+          "file": "prolegomena-to-any-future-metaphysics.json",
+          "count": 120,
+          "words": 28930,
+          "topics": [
+            "knowledge",
+            "nature",
+            "meaning",
+            "meta",
+            "action",
+            "self"
+          ]
+        },
+        {
+          "work": "Perpetual Peace",
+          "slug": "perpetual-peace",
+          "file": "perpetual-peace.json",
+          "count": 90,
+          "words": 21307,
+          "topics": [
+            "freedom",
+            "knowledge",
+            "virtue",
+            "meaning",
+            "action",
+            "nature"
           ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 237
+          "count": 609
         },
         {
           "topic": "action",
-          "count": 116
-        },
-        {
-          "topic": "virtue",
-          "count": 91
+          "count": 267
         },
         {
           "topic": "meaning",
-          "count": 91
+          "count": 216
         },
         {
-          "topic": "meta",
-          "count": 74
-        },
-        {
-          "topic": "self",
-          "count": 68
-        },
-        {
-          "topic": "nature",
-          "count": 56
+          "topic": "virtue",
+          "count": 204
         },
         {
           "topic": "freedom",
-          "count": 47
+          "count": 198
+        },
+        {
+          "topic": "nature",
+          "count": 193
+        },
+        {
+          "topic": "meta",
+          "count": 157
+        },
+        {
+          "topic": "self",
+          "count": 151
         },
         {
           "topic": "work",
-          "count": 25
+          "count": 56
         },
         {
           "topic": "love",
-          "count": 19
+          "count": 40
         },
         {
           "topic": "education",
-          "count": 19
+          "count": 38
         },
         {
           "topic": "suffering",
-          "count": 16
+          "count": 32
         },
         {
           "topic": "technology",
-          "count": 1
+          "count": 8
         }
       ],
       "translation_credits": [
@@ -515,6 +560,24 @@
           "translator": "J. M. D. Meiklejohn",
           "year": 1855,
           "source_url": "https://www.gutenberg.org/ebooks/4280"
+        },
+        {
+          "work": "Perpetual Peace",
+          "translator": "Mary Campbell Smith",
+          "year": 1903,
+          "source_url": "https://www.gutenberg.org/ebooks/50922"
+        },
+        {
+          "work": "Critique of Judgement",
+          "translator": "J. H. Bernard",
+          "year": 1914,
+          "source_url": "https://www.gutenberg.org/ebooks/48433"
+        },
+        {
+          "work": "Prolegomena to Any Future Metaphysics",
+          "translator": "Paul Carus",
+          "year": 1902,
+          "source_url": "https://www.gutenberg.org/ebooks/52821"
         }
       ]
     },

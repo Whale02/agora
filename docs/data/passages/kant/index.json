@@ -5,8 +5,8 @@
       "work": "Groundwork of the Metaphysics of Morals",
       "slug": "groundwork-of-the-metaphysics-of-morals",
       "file": "groundwork-of-the-metaphysics-of-morals.json",
-      "passages": 86,
-      "words": 20819,
+      "passages": 128,
+      "words": 30625,
       "translator": "Thomas Kingsmill Abbott",
       "year": 1889,
       "source_url": "https://www.gutenberg.org/ebooks/5682"
@@ -15,8 +15,8 @@
       "work": "Critique of Practical Reason",
       "slug": "critique-of-practical-reason",
       "file": "critique-of-practical-reason.json",
-      "passages": 75,
-      "words": 18639,
+      "passages": 150,
+      "words": 37246,
       "translator": "Thomas Kingsmill Abbott",
       "year": 1889,
       "source_url": "https://www.gutenberg.org/ebooks/5683"
@@ -25,11 +25,41 @@
       "work": "Critique of Pure Reason",
       "slug": "critique-of-pure-reason",
       "file": "critique-of-pure-reason.json",
-      "passages": 139,
-      "words": 33681,
+      "passages": 150,
+      "words": 36374,
       "translator": "J. M. D. Meiklejohn",
       "year": 1855,
       "source_url": "https://www.gutenberg.org/ebooks/4280"
+    },
+    {
+      "work": "Perpetual Peace",
+      "slug": "perpetual-peace",
+      "file": "perpetual-peace.json",
+      "passages": 90,
+      "words": 21307,
+      "translator": "Mary Campbell Smith",
+      "year": 1903,
+      "source_url": "https://www.gutenberg.org/ebooks/50922"
+    },
+    {
+      "work": "Critique of Judgement",
+      "slug": "critique-of-judgement",
+      "file": "critique-of-judgement.json",
+      "passages": 150,
+      "words": 35910,
+      "translator": "J. H. Bernard",
+      "year": 1914,
+      "source_url": "https://www.gutenberg.org/ebooks/48433"
+    },
+    {
+      "work": "Prolegomena to Any Future Metaphysics",
+      "slug": "prolegomena-to-any-future-metaphysics",
+      "file": "prolegomena-to-any-future-metaphysics.json",
+      "passages": 120,
+      "words": 28930,
+      "translator": "Paul Carus",
+      "year": 1902,
+      "source_url": "https://www.gutenberg.org/ebooks/52821"
     }
   ]
 }

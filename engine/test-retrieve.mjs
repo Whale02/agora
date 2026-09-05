@@ -128,8 +128,15 @@ for (const slug of slugs) {
     const held = readWork(slug, w.slug);
     if (!held) continue;
     const withOriginal = held.passages.filter((x) => x.text_original);
+    // The count has to agree with the file whether or not the file holds any, because a work
+    // that has lost its originals and kept the count is a work the reader is told to expect
+    // an original from. That is the direction this check used to skip.
+    if ((w.paired ?? 0) !== withOriginal.length) {
+      problems.push(`${w.file} pairs ${withOriginal.length}, the index says ${w.paired ?? 0}`);
+    }
     if (!withOriginal.length) {
       if (held.original_credit) problems.push(`${w.file} credits an original no passage carries`);
+      if (w.original) problems.push(`${w.file} is indexed as carrying ${w.original}, and carries no original`);
       continue;
     }
     const credit = held.original_credit;
@@ -142,7 +149,11 @@ for (const slug of slugs) {
       const wrong = withOriginal.filter((x) => !script.test(x.text_original));
       if (wrong.length) problems.push(`${wrong.length} originals in ${w.file} are not written in ${credit.lang}`);
     }
-    if (w.paired !== withOriginal.length) problems.push(`${w.file} pairs ${withOriginal.length}, the index says ${w.paired ?? 0}`);
+    // A source page styles its own text, and the stylesheet sits inside the paragraph it
+    // styles. Taking the tags out without taking that out first drops a page of CSS into the
+    // middle of a sentence, which reads as nonsense and runs off the side of a phone.
+    const styled = withOriginal.filter((x) => /mw-parser-output|\{[a-z-]+:|<\/?[a-z]+>/i.test(x.text_original));
+    if (styled.length) problems.push(`${styled.length} originals in ${w.file} carry markup or a stylesheet`);
   }
   if (short) problems.push(`${short} passages under ${MIN_WORDS} words`);
   if (long) problems.push(`${long} passages over ${MAX_WORDS} words`);

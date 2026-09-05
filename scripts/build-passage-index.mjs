@@ -52,12 +52,17 @@ const philosophers = corpusSlugs().map((slug) => {
       const n = file.passages.filter((p) => needle.test(p.text)).length;
       if (n) mentions[u.slug].push({ slug, work: w.work, work_slug: w.slug, count: n });
     }
+    // How many of the work's passages carry the original beside the translation. The reader
+    // prints this line, and it reads the manifest rather than the work file, so leaving the
+    // count out of here made every reader say it had aligned none of them.
+    const paired = file.passages.filter((p) => p.text_original).length;
     works.push({
       work: w.work,
       slug: w.slug,
       file: w.file,
       count: file.passages.length,
       words: w.words,
+      ...(paired ? { paired, original: file.original_credit?.title } : {}),
       topics: [...wt].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([topic]) => topic),
     });
     credits.push(file.translation_credit);

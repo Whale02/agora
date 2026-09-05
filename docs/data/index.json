@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-05T16:22:34.175Z",
+  "generated_at": "2026-09-05T17:14:37.358Z",
   "conversations": [
+    {
+      "id": "2026-09-05-kind-or-honest",
+      "topic": "What's more important: being kind or being honest?",
+      "category": "virtue",
+      "type": "user_joined",
+      "participants": [
+        "kant",
+        "confucius",
+        "nietzsche"
+      ],
+      "has_user": true,
+      "last_speaker": "confucius",
+      "heat": 0.79,
+      "message_count": 40,
+      "created_at": "2026-09-05T16:00:00.000Z",
+      "updated_at": "2026-09-05T18:36:00.000Z",
+      "preview": "Then the table did its work. 君子以文會友，以友輔仁。The noble person meets friends through culture, and by their friendship helps his virtue. That is not a compliment to us. It is a description of what just…"
+    },
     {
       "id": "2026-09-05-one-year-left",
       "topic": "How should you live if you knew you had one year left?",

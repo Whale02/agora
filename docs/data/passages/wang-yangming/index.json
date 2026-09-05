@@ -5,41 +5,53 @@
       "work": "Instructions for Practical Living (传习录), as my students recorded them",
       "slug": "instructions-for-practical-living",
       "file": "instructions-for-practical-living.json",
-      "passages": 115,
-      "words": 27178,
+      "passages": 130,
+      "words": 27905,
       "translator": "Frederick Goodrich Henke",
       "year": 1916,
-      "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+      "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+      "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book.",
+      "paired": 44,
+      "original": "傳習錄／大學問"
     },
     {
       "work": "Record of Discourses",
       "slug": "record-of-discourses",
       "file": "record-of-discourses.json",
-      "passages": 76,
-      "words": 17349,
+      "passages": 94,
+      "words": 19031,
       "translator": "Frederick Goodrich Henke",
       "year": 1916,
-      "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+      "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+      "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book.",
+      "paired": 30,
+      "original": "傳習錄／大學問"
     },
     {
       "work": "Inquiry Regarding the Great Learning (大学问)",
       "slug": "inquiry-regarding-the-great-learning",
       "file": "inquiry-regarding-the-great-learning.json",
-      "passages": 19,
-      "words": 4198,
+      "passages": 20,
+      "words": 4394,
       "translator": "Frederick Goodrich Henke",
       "year": 1916,
-      "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+      "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+      "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book.",
+      "paired": 2,
+      "original": "傳習錄／大學問"
     },
     {
       "work": "Letters",
       "slug": "letters",
       "file": "letters.json",
       "passages": 130,
-      "words": 32525,
+      "words": 31351,
       "translator": "Frederick Goodrich Henke",
       "year": 1916,
-      "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+      "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+      "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book.",
+      "paired": 18,
+      "original": "傳習錄／大學問"
     }
   ]
 }

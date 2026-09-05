@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:05:07.828Z",
+  "generated_at": "2026-09-05T17:22:22.787Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -222,6 +222,8 @@
           "file": "the-analects.json",
           "count": 287,
           "words": 28073,
+          "paired": 245,
+          "original": "論語",
           "topics": [
             "freedom",
             "action",
@@ -237,6 +239,8 @@
           "file": "the-doctrine-of-the-mean.json",
           "count": 38,
           "words": 6649,
+          "paired": 29,
+          "original": "中庸",
           "topics": [
             "nature",
             "self",
@@ -252,6 +256,8 @@
           "file": "the-great-learning.json",
           "count": 15,
           "words": 2882,
+          "paired": 15,
+          "original": "大學",
           "topics": [
             "virtue",
             "love",
@@ -882,6 +888,8 @@
           "file": "daodejing.json",
           "count": 79,
           "words": 10324,
+          "paired": 79,
+          "original": "道德經",
           "topics": [
             "action",
             "nature",
@@ -2469,50 +2477,56 @@
     },
     {
       "slug": "wang-yangming",
-      "passages": 340,
-      "words": 81250,
+      "passages": 374,
+      "words": 82681,
       "works": [
-        {
-          "work": "Letters",
-          "slug": "letters",
-          "file": "letters.json",
-          "count": 130,
-          "words": 32525,
-          "topics": [
-            "knowledge",
-            "action",
-            "virtue",
-            "self",
-            "nature",
-            "education"
-          ]
-        },
         {
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
           "slug": "instructions-for-practical-living",
           "file": "instructions-for-practical-living.json",
-          "count": 115,
-          "words": 27178,
+          "count": 130,
+          "words": 27905,
+          "paired": 44,
+          "original": "傳習錄／大學問",
           "topics": [
             "knowledge",
-            "nature",
             "action",
+            "nature",
             "education",
             "self",
             "virtue"
           ]
         },
         {
+          "work": "Letters",
+          "slug": "letters",
+          "file": "letters.json",
+          "count": 130,
+          "words": 31351,
+          "paired": 18,
+          "original": "傳習錄／大學問",
+          "topics": [
+            "knowledge",
+            "action",
+            "self",
+            "virtue",
+            "nature",
+            "education"
+          ]
+        },
+        {
           "work": "Record of Discourses",
           "slug": "record-of-discourses",
           "file": "record-of-discourses.json",
-          "count": 76,
-          "words": 17349,
+          "count": 94,
+          "words": 19031,
+          "paired": 30,
+          "original": "傳習錄／大學問",
           "topics": [
             "knowledge",
-            "nature",
             "action",
             "education",
+            "nature",
             "virtue",
             "self"
           ]
@@ -2521,13 +2535,15 @@
           "work": "Inquiry Regarding the Great Learning (大学问)",
           "slug": "inquiry-regarding-the-great-learning",
           "file": "inquiry-regarding-the-great-learning.json",
-          "count": 19,
-          "words": 4198,
+          "count": 20,
+          "words": 4394,
+          "paired": 2,
+          "original": "傳習錄／大學問",
           "topics": [
             "knowledge",
             "nature",
-            "self",
             "virtue",
+            "self",
             "love",
             "meaning"
           ]
@@ -2536,39 +2552,39 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 283
+          "count": 291
         },
         {
           "topic": "action",
-          "count": 160
+          "count": 176
         },
         {
           "topic": "nature",
-          "count": 139
+          "count": 135
         },
         {
           "topic": "education",
-          "count": 118
+          "count": 129
         },
         {
           "topic": "self",
-          "count": 116
+          "count": 112
         },
         {
           "topic": "virtue",
-          "count": 109
+          "count": 100
         },
         {
           "topic": "love",
-          "count": 52
+          "count": 55
         },
         {
           "topic": "meaning",
-          "count": 48
+          "count": 49
         },
         {
           "topic": "meta",
-          "count": 40
+          "count": 42
         },
         {
           "topic": "suffering",
@@ -2576,7 +2592,7 @@
         },
         {
           "topic": "freedom",
-          "count": 26
+          "count": 29
         },
         {
           "topic": "work",
@@ -2588,25 +2604,29 @@
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
           "translator": "Frederick Goodrich Henke",
           "year": 1916,
-          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+          "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book."
         },
         {
           "work": "Record of Discourses",
           "translator": "Frederick Goodrich Henke",
           "year": 1916,
-          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+          "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book."
         },
         {
           "work": "Inquiry Regarding the Great Learning (大学问)",
           "translator": "Frederick Goodrich Henke",
           "year": 1916,
-          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+          "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book."
         },
         {
           "work": "Letters",
           "translator": "Frederick Goodrich Henke",
           "year": 1916,
-          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
+          "note": "This translation survives only as a page scan. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken only where they agree: 19 words in the whole book."
         }
       ]
     },
@@ -2681,6 +2701,8 @@
           "file": "zhuangzi.json",
           "count": 224,
           "words": 50520,
+          "paired": 142,
+          "original": "莊子",
           "topics": [
             "knowledge",
             "nature",
@@ -2766,6 +2788,8 @@
           "file": "the-philosophy-of-human-nature.json",
           "count": 29,
           "words": 3927,
+          "paired": 22,
+          "original": "御纂朱子全書",
           "topics": [
             "nature",
             "knowledge",

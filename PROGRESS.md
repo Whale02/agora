@@ -631,6 +631,140 @@ SOURCES.md names each of them and why.
     Laozi                1              64
     Zhu Xi               1              29
 
+## Run: both languages (2026-09-05)
+
+### H1 to H3. The originals, found and paired
+
+The corpus now carries the philosopher's own language beside the English on 574 passages
+across seven works and five philosophers. Nothing about the existing shape moved: a passage
+without an original is a passage nobody could align, which is a normal state.
+
+    laozi/daodejing                       79 of 79    道德經
+    confucius/the-analects               245 of 287   論語
+    confucius/the-great-learning          15 of 15    大學
+    confucius/the-doctrine-of-the-mean    29 of 38    中庸
+    zhuangzi/zhuangzi                    142 of 224   莊子
+    zhuxi/the-philosophy-of-human-nature  22 of 29    御纂朱子全書
+    marcus-aurelius/meditations           42 of 205   Τὰ εἰς ἑαυτόν
+
+Every pairing is by the edition's own numbering, and every guard drops rather than guesses:
+
+- The Daodejing is chapter-aligned and pairs whole. A chapter two passages both cover is a
+  chapter split between them, and neither gets it.
+- The Analects pairs by book and chapter, which is Legge's numbering and Chinese Wikisource's
+  both. Three books of twenty divide the chapters differently in the two texts and keep their
+  English alone, as do the passages that still hold one of Legge's CHAP markers and so run
+  past the chapter their reference names.
+- Zhu Xi is the case the plan called hard, and it was hard differently than expected. Bruce
+  numbered his own sections; the 四庫全書 copy of the 御纂朱子全書 carries no section marks at
+  all, so nothing could be found by counting. Each of the twenty-two was located by the words
+  it opens and closes with, read off both texts, and `pair-zhuxi.mjs` refuses to write unless
+  every anchor is found exactly once and the sections fall in Bruce's order without
+  overlapping. Ratio evidence: 0.57 to 1.06 characters of Chinese per English word across all
+  twenty-two, the band classical Chinese against English falls in, with no outlier.
+- The Meditations is Greek, not the Latin this lane assumed. Marcus wrote Τὰ εἰς ἑαυτόν on
+  campaign and Long translated from the Greek, so the Greek is what stands beside him.
+
+The Marcus Aurelius pairing found a trap worth recording. The first guard compared the Greek
+section count against the highest section number in the corpus, and passed books that were
+in fact misaligned, because the corpus is a sample of Long's sections and the highest one it
+kept says nothing about how many he had. Under it, "Consider, for example, the times of
+Vespasian" sat under the Greek for the section after it. The guard now counts Long's own
+sections out of his printing (PG 15877). Five books of twelve divide the same way in both
+texts; the other seven differ by one section and keep their English alone. The ratio of
+Greek characters to English words then runs 3.11 to 5.58 across all forty-two with no
+outlier, and three pairings hand-read across three books are exact: Book II.11
+Ὡς ἤδη δυνατοῦ ὄντος ἐξιέναι τοῦ βίου against "Since it is possible that thou mayest depart
+from life this very moment"; Book VIII.16 Μέμνησο ὅτι καὶ τὸ μετατίθεσθαι against "Remember
+that to change thy opinion"; Book XI.38 Οὐ περὶ τοῦ τυχόντος οὖν ἐστὶν ὁ ἀγών against "The
+dispute then, he said, is not about any common matter".
+
+The Greek transcription runs two words together in eleven places where a line ended, περὶτοῦ
+for περὶ τοῦ. All eleven were checked against the pages this build cached and are in the
+source; the credit says so rather than repairing them, on the same rule that keeps an OCR
+misread unrepaired.
+
+Hand spot-checks, one per philosopher, printed in full at the time and read against the
+English beside them: Laozi chapter 8 (上善若水 against "The highest excellence is like that of
+water"), Confucius XIII.23 (君子和而不同 against "The superior man is affable, but not
+adulatory"), Zhu Xi Book I Section 5 (天便似天子命便似將誥勑付與自家 against "Heaven may be
+likened to the Emperor; the Decree is like his handing to me letters patent"), Zhuangzi
+paired inline by the source page, which sets the two languages in the same row.
+
+### H1 and H3, left undone: Wang Yangming
+
+Henke's 1916 translation is the only public-domain English of the 傳習錄, and it does not
+number its entries: it gives each a descriptive English heading and no number at all. The
+Chinese does number them, 1 to 342 across the three volumes on Chinese Wikisource. So the
+numbered-entry pairing the plan names is not available in this edition. Ordinal pairing was
+the fallback and it does not hold either: 卷上 has 129 numbered entries against at most
+ninety-two English headings, several of which are false positives from the OCR, so the two
+texts do not divide the volume into the same units. Wang Yangming keeps his English alone,
+which the lane's own rule calls a correct state. Reopening this needs either a numbered
+edition of Henke or a hand pass over 340 passages of the kind Zhu Xi's twenty-two got.
+
+### H4. Verification
+
+`engine/test-retrieve.mjs` now fails on:
+
+- a work carrying originals with no complete `original_credit` (title, source url, language);
+- an original not written in the language its credit names, checked per script rather than
+  as one blanket test, so Greek filed as Chinese fails as readily as an empty string;
+- a paired count in `index.json` that disagrees with the file beside it;
+- a philosopher who cannot find his own passages from a question asked in his own language.
+
+Negative controls, each planted and each observed to fail before the corpus was restored:
+a Daodejing passage given Latin text for its original failed "1 originals in daodejing.json
+are not written in zh-Hant"; the same file with its `original_credit` removed failed "carries
+79 originals with no complete original_credit"; switching the originals shelf off in the
+retriever failed the four language checks at 0 of 13, 0 of 14, 0 of 13 and 0 of 22.
+
+Retrieval indexes the originals on a shelf of their own. Folding an original into the same
+document would roughly double the length of every paired passage, and BM25 divides by length,
+so a passage would have sunk in English results for having been paired. Classical Chinese
+gets character pairs, because it writes no spaces: 天命 and 命性 out of 天命性 finds a phrase
+wherever the question breaks it. Greek and the other alphabets get words, lowercased and
+stripped of accents, with no English stemmer and no English stop list. Asked in Chinese,
+道可道非常道 returns Daodejing chapter 1, 君子和而不同 returns Analects XIII, 仁是心之德 returns
+Chu Hsi Book VI. The test asks each philosopher twelve of his own passages back in his own
+language: 13 of 13, 14 of 14, 13 of 13, 22 of 22, and 14 of 14 in Greek.
+
+The field is `text_original`, not `text_zh` as H2 wrote it, and `original_credit` carries a
+`lang`. H2 named the field when the lane was Chinese only; H6 puts Greek in it, and a field
+named for Chinese holding Greek would be the quietest kind of wrong. Nothing loosened: the
+check that used to ask for CJK now asks for the script the credit names.
+
+### H5. The surfaces
+
+A passage that carries an original prints it first, a shade brighter than the translation
+and set a little looser, with a rule between them in the reader. The translator is credited
+on the English, the edition on the original, and each links to where it came from. The
+reader's header says which edition and on how many of the work's passages it could be
+aligned, read out of the index rather than typed. A work with no original shows exactly what
+it showed before.
+
+Polytonic Greek needed a face of its own. Source Serif 4 has no precomposed glyph for ἀ or
+ὰ, so a browser draws the letter and then drops the breathing beside it. `--greek` prefers
+the faces that carry the Greek Extended block whole.
+
+The prompt hands the philosopher both languages, his own first, and tells him that a line
+quoted in his own language should be given the English beside it.
+
+Evidence at the same HEAD:
+
+    node engine/test-retrieve.mjs                 exit 0
+    node engine/reindex.mjs                       exit 0
+    node shot.mjs                                 exit 0, 16 routes at 1440 and 390, no overflow
+    node contrast.mjs                             exit 0, every text run clears WCAG AA
+    python scripts/slop-scan.py <the nine>        exit 0
+    python scripts/slop-shapes.py --fail-on ...   exit 0
+
+Screenshots read rather than merely captured: `reader-original-1440.png` shows the Daodejing
+with the Chinese above each English page; `reader-greek-crop.png` shows Meditations I.1-4
+with the accents where they belong; `drawer-original-1440.png` and `-390.png` show Laozi's
+passage drawer with three originals, the Chinese in its own face and the edition credited
+under the translator.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

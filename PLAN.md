@@ -84,7 +84,7 @@ prose gains a Chinese reading, since its wayfinding is already bilingual and sto
 is the half-measure. Sources first, interface second: a translated interface over an
 English-only corpus would be the wrong way round.
 
-- [ ] H1. Sources, Chinese first. Search in Chinese characters, not in English: the Chinese-language sites
+- [x] H1. Sources, Chinese first. Search in Chinese characters, not in English: the Chinese-language sites
       carry far more than an English query surfaces. ctext.org, Chinese Wikisource
       (zh.wikisource.org), gushiwen.cn and the other 国学 archives are all reachable and all
       carry these texts. The originals are pre-modern and long out of copyright, so the
@@ -92,23 +92,23 @@ English-only corpus would be the wrong way round.
       record where each original came from exactly as a translation credit is recorded.
       ctext rate-limits under load, so fetch politely and fall back to Wikisource rather
       than hammering it.
-- [ ] H2. Shape. A passage gains `text_zh` and the work gains an `original_credit` (title in
+- [x] H2. Shape. A passage gains `text_zh` and the work gains an `original_credit` (title in
       Chinese, edition or transcription, source_url). English stays `text`; nothing about the
       existing shape moves, so every page that reads the corpus today keeps working. Where an
       original cannot be aligned to a given passage, `text_zh` is absent rather than guessed.
-- [ ] H3. Pairing, and this is the whole difficulty. The Chinese must be the passage the
+- [x] H3. Pairing, and this is the whole difficulty. The Chinese must be the passage the
       English translates, not the neighbouring one. Legge is section-aligned, so 論語 pairs by
       book and chapter, 道德經 by chapter, 莊子 by chapter and section. Wang Yangming's 傳習錄
       pairs to Henke by numbered entry. Zhu Xi is the hard case: Bruce translated books 42 to
       48 of 朱子全書, so pair by his own book and section numbering and leave unpaired what
       does not line up. A mispaired passage is worse than an absent one, because it puts words
       in a philosopher's mouth in a language the founder can check.
-- [ ] H4. Verification. Extend engine/test-retrieve.mjs: every `text_zh` carries CJK
+- [x] H4. Verification. Extend engine/test-retrieve.mjs: every `text_zh` carries CJK
       characters, every work with any `text_zh` has an `original_credit`, and the paired count
       is reported per work. Then spot-check by hand, per philosopher, that a sampled Chinese
       passage is the source of its English, and record the sample in PROGRESS.md. Retrieval
       indexes the Chinese too, so a question asked in Chinese finds the passage.
-- [ ] H6. The other originals, after the Chinese five prove the shape. Greek for Plato,
+- [x] H6. The other originals, after the Chinese five prove the shape. Greek for Plato,
       Aristotle and Epicurus (Perseus carries the Greek beside the same public-domain
       translations already held); Latin for Seneca and Marcus Aurelius; German for Kant,
       Schopenhauer and Nietzsche (zeno.org, Gutenberg-DE, German Wikisource); Danish for
@@ -122,7 +122,7 @@ English-only corpus would be the wrong way round.
       machine-translated: their words are shown as written, in whatever language they were
       written, because a translated quotation is no longer a quotation. The prose that ships
       in Chinese is written, not run through a translator, and it obeys the same rulebook.
-- [ ] H5. The surfaces. The reader and the passage drawer show the original above the
+- [x] H5. The surfaces. The reader and the passage drawer show the original above the
       translation, in the site's `--zh` face, with the translator credited on the English and
       the edition on the Chinese. A philosopher with no original shows exactly what it shows
       today. The prompt hands the philosopher both, so a Chinese thinker may quote his own

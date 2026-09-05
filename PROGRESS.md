@@ -635,8 +635,8 @@ SOURCES.md names each of them and why.
 
 ### H1 to H3. The originals, found and paired
 
-The corpus now carries the philosopher's own language beside the English on 574 passages
-across seven works and five philosophers. Nothing about the existing shape moved: a passage
+The corpus now carries the philosopher's own language beside the English on 682 passages
+across twenty works and eight philosophers, in Chinese, Greek, Latin and German. Nothing about the existing shape moved: a passage
 without an original is a passage nobody could align, which is a normal state.
 
     laozi/daodejing                       79 of 79    道德經
@@ -733,6 +733,75 @@ The field is `text_original`, not `text_zh` as H2 wrote it, and `original_credit
 `lang`. H2 named the field when the lane was Chinese only; H6 puts Greek in it, and a field
 named for Chinese holding Greek would be the quietest kind of wrong. Nothing loosened: the
 check that used to ask for CJK now asks for the script the credit names.
+
+### H6. The other originals
+
+Four more philosophers now carry their own language, in three more languages, and four are
+shown to be beyond reach with the sources this project may use. Every pairing is by a number
+both texts print, and every one was checked the same way: the English is rebuilt from the
+source the corpus was built from, and a passage is paired only when it is exactly the
+sections its reference names.
+
+    marcus-aurelius   42 of 205   Τὰ εἰς ἑαυτόν, Greek Wikisource
+    seneca            63 of 819   the dialogues, Latin Wikisource
+    nietzsche         34 of 1010  Jenseits von Gut und Böse and Zur Genealogie der Moral, zeno.org
+    epicurus          11 of 110   Κύριαι Δόξαι, Greek Wikisource
+
+That guard is the lesson of this lane and it was learned twice. A section longer than a
+passage ships in pieces, every piece keeps the section's reference, and the sampling that
+trims a work to its hundred passages can leave one piece behind looking like a whole section.
+Under the weaker guard a piece of Nietzsche's Genealogy took a whole section's German, at 43
+characters of German per English word. Under the rebuilt-English guard the bands are tight
+everywhere: 3.11 to 5.58 for the Greek Meditations, 2.82 to 6.81 for the Latin, 4.77 to 8.70
+for the German, 3.82 to 4.94 for the Greek doctrines.
+
+Making the pairing possible meant giving the corpus the references the books themselves
+print, which it had been discarding:
+
+- `gutUnits` keeps a section number, whether the book prints it on a line of its own, at the
+  head of a paragraph, or with Schopenhauer's section sign. Nine of Nietzsche's ten works,
+  Schopenhauer's first volume and Epicurus all gained it. A passage now cites "Beyond Good
+  and Evil, Chapter I, 21" and "First Book, The World as Idea, 1".
+- Epicurus's old rule read a doctrine's number out of a pair of numbers and found five of
+  the forty; the letters gain Diogenes's section numbers, which is how the Letter to
+  Herodotus has always been cited.
+- Stewart does not print the numeral on a dialogue's opening chapter, which made three of
+  Seneca's books look a chapter shorter than the Latin. On Anger went from 2 pairings to 28
+  once that was counted.
+
+Two works were carrying matter that is not theirs, found by reading the tail of every
+Nietzsche work rather than trusting the build. The Genealogy volume ends with "Peoples and
+Countries", a chapter of Beyond Good and Evil the editor appended, and it was filed as more
+of the Third Essay. The Ecce Homo volume carries Nietzsche's poems after the book, and a
+stretch of Zarathustra verse had shipped as "Why I Am a Fatality, 89-101".
+
+Sampling a work to its cap balanced subjects and not parts, so a book's later parts could
+lose every passage they had: Ecce Homo shipped nothing at all from "Why I Am a Fatality".
+`spreadParts` gives each part a share and lets a short part hand back what it cannot use, so
+the counts are unchanged and every part of every work is quotable.
+
+Four cannot be paired, and the reasons are structural rather than a matter of effort:
+
+- Plato. Jowett's Gutenberg texts carry no Stephanus numbers at all, checked by looking:
+  zero matches for the pattern in the Republic and in the Apology. The Greek is divided by
+  Stephanus and nothing else, so there is no number the two texts share.
+- Aristotle. Ellis and Peters divide by chapter; the Greek on Greek Wikisource is divided by
+  Bekker page, 1252a and the like, with no chapter marks. A chapter cannot be found in a
+  text that does not mark them.
+- Schopenhauer. zeno.org carries Die Welt als Wille und Vorstellung with the same §§ 1 to 71,
+  and the corpus now cites them, but a section of his runs several pages, so no passage is a
+  whole one. 0 of 120 pair and the work carries no original_credit.
+- Kierkegaard. Hollander's is a book of selections rather than a translation of whole works,
+  and neither he nor the Danish prints a number the two could be matched on. Locating 280
+  excerpts by content is the only route and it is not one a script can check.
+
+The Meditations correction is worth naming: this lane asked for Latin and got Greek, because
+Marcus wrote Τὰ εἰς ἑαυτόν in Greek on campaign and Long translated from the Greek.
+
+zeno.org is a source this project had not used. It answers over http, its certificate having
+gone quiet, and it serves Latin-1, so its bytes are decoded rather than assumed. SOURCES.md
+names it. Projekt Gutenberg-DE, which the lane also named, no longer serves its chapter text:
+the page is now a landing page for a paid ebook, checked in a browser as well as by fetch.
 
 ### H5. The surfaces
 

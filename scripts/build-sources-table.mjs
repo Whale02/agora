@@ -30,6 +30,8 @@ for (const p of roster) {
     name: p.name_en,
     works: index.works.length,
     passages,
+    paired: index.works.reduce((n, w) => n + (w.paired ?? 0), 0),
+    originals: [...new Set(index.works.map((w) => w.original).filter(Boolean))],
     span: Math.min(...years) === Math.max(...years) ? `${years[0]}` : `${Math.min(...years)} to ${Math.max(...years)}`,
     who: translators.length > 3 ? `${translators.slice(0, 3).join(", ")} and ${translators.length - 3} more` : translators.join(", "),
   });
@@ -49,6 +51,8 @@ const table = [
 
 const totalWorks = rows.reduce((n, r) => n + r.works, 0);
 const totalPassages = rows.reduce((n, r) => n + r.passages, 0);
+const withOriginals = rows.filter((r) => r.paired > 0);
+const totalPaired = withOriginals.reduce((n, r) => n + r.paired, 0);
 
 const block = [
   OPEN,
@@ -57,6 +61,16 @@ const block = [
   "",
   ...table,
   "",
+  ...(withOriginals.length
+    ? [
+        `${totalPaired.toLocaleString("en-US")} of those passages carry the philosopher's own language above the English:`,
+        "",
+        ...withOriginals.map(
+          (r) => `    ${pad(r.name, w1)}  ${String(r.paired).padStart(8)}  ${r.originals.join(", ")}`,
+        ),
+        "",
+      ]
+    : []),
   `The other ${unquoted.length} are listed and unquoted: ${unquoted.map((p) => p.name_en).join(", ")}.`,
   "Socrates wrote nothing, and his profile points at the dialogues in which Plato records him.",
   "The rest wrote or write in copyright.",

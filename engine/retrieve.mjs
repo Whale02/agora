@@ -134,14 +134,26 @@ export const hasCorpus = (slug) => indexFor(slug) !== null;
 export function retrieve(slug, query, k = 4) {
   const idx = indexFor(slug);
   if (!idx || !idx.docs.length) return [];
-  // A question in a script the translations are not written in is asked of the originals.
-  // A question in Latin script is asked of the translations, and only if they hold nothing
-  // for it is it put to the originals, which is where a question in German or Latin lands.
-  let shelved = askedInOriginal(query) ? idx.original : idx;
-  let terms = [...new Set(shelved === idx ? tokenize(query) : tokenizeOriginal(query))];
-  if (shelved === idx && !terms.some((t) => idx.df.has(t)) && idx.original.docs.length) {
+  // Which shelf the question belongs on. A script the translations are not written in settles
+  // it outright. Latin script does not: German and English are both written in it, and
+  // "Der Wille zur Wahrheit" has to reach Nietzsche's own words rather than fall through to
+  // whichever English passage happens to share a word with it. So both shelves are asked how
+  // much of the question they recognise, and the one that recognises more of it answers.
+  // The measure is how much of the shelf each term is at home in: the share of its documents
+  // the term appears in, averaged over the question. "Der Wille zur Wahrheit" is in both
+  // shelves, because a translator quotes the German he is translating, but in the German it
+  // is in nearly every passage and in the English it is in three of a thousand.
+  const athome = (shelf, terms) =>
+    !terms.length || !shelf.docs.length
+      ? 0
+      : terms.reduce((n, t) => n + (shelf.df.get(t) ?? 0) / shelf.docs.length, 0) / terms.length;
+  const inEnglish = [...new Set(tokenize(query))];
+  const inOriginal = [...new Set(tokenizeOriginal(query))];
+  let shelved = idx;
+  let terms = inEnglish;
+  if (idx.original.docs.length && (askedInOriginal(query) || athome(idx.original, inOriginal) > athome(idx, inEnglish))) {
     shelved = idx.original;
-    terms = [...new Set(tokenizeOriginal(query))];
+    terms = inOriginal;
   }
   if (!terms.length || !shelved.docs.length) return [];
 

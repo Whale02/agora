@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:37:09.238Z",
+  "generated_at": "2026-09-05T12:17:16.577Z",
   "philosophers": {
     "socrates": [
       {
@@ -166,8 +166,8 @@
       },
       {
         "slug": "nietzsche",
-        "work": "Ecce Homo",
-        "work_slug": "ecce-homo",
+        "work": "Beyond Good and Evil",
+        "work_slug": "beyond-good-and-evil",
         "count": 4
       },
       {
@@ -220,20 +220,14 @@
       },
       {
         "slug": "nietzsche",
-        "work": "Beyond Good and Evil",
-        "work_slug": "beyond-good-and-evil",
-        "count": 2
-      },
-      {
-        "slug": "nietzsche",
-        "work": "The Gay Science",
-        "work_slug": "the-gay-science",
-        "count": 2
-      },
-      {
-        "slug": "nietzsche",
         "work": "The Dawn of Day",
         "work_slug": "the-dawn-of-day",
+        "count": 2
+      },
+      {
+        "slug": "nietzsche",
+        "work": "Ecce Homo",
+        "work_slug": "ecce-homo",
         "count": 2
       },
       {
@@ -270,6 +264,12 @@
         "slug": "kierkegaard",
         "work": "Training in Christianity",
         "work_slug": "training-in-christianity",
+        "count": 1
+      },
+      {
+        "slug": "nietzsche",
+        "work": "On the Genealogy of Morals",
+        "work_slug": "on-the-genealogy-of-morals",
         "count": 1
       },
       {

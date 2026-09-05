@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:37:09.236Z",
+  "generated_at": "2026-09-05T12:17:16.575Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -1041,15 +1041,15 @@
     },
     {
       "slug": "nietzsche",
-      "passages": 1009,
-      "words": 223166,
+      "passages": 1010,
+      "words": 223487,
       "works": [
         {
           "work": "The Birth of Tragedy",
           "slug": "the-birth-of-tragedy",
           "file": "the-birth-of-tragedy.json",
           "count": 110,
-          "words": 25446,
+          "words": 25605,
           "topics": [
             "knowledge",
             "meaning",
@@ -1064,14 +1064,14 @@
           "slug": "human-all-too-human",
           "file": "human-all-too-human.json",
           "count": 110,
-          "words": 26143,
+          "words": 24961,
           "topics": [
             "knowledge",
-            "action",
             "self",
-            "virtue",
+            "action",
             "meaning",
-            "nature"
+            "virtue",
+            "suffering"
           ]
         },
         {
@@ -1079,14 +1079,14 @@
           "slug": "the-dawn-of-day",
           "file": "the-dawn-of-day.json",
           "count": 110,
-          "words": 27068,
+          "words": 27218,
           "topics": [
             "knowledge",
             "virtue",
             "self",
-            "meaning",
             "action",
-            "nature"
+            "nature",
+            "meaning"
           ]
         },
         {
@@ -1094,14 +1094,29 @@
           "slug": "thus-spoke-zarathustra",
           "file": "thus-spoke-zarathustra.json",
           "count": 100,
-          "words": 11243,
+          "words": 12279,
           "topics": [
             "nature",
+            "self",
+            "love",
+            "knowledge",
+            "suffering",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Beyond Good and Evil",
+          "slug": "beyond-good-and-evil",
+          "file": "beyond-good-and-evil.json",
+          "count": 100,
+          "words": 22560,
+          "topics": [
             "knowledge",
             "virtue",
-            "love",
             "self",
-            "meaning"
+            "meta",
+            "meaning",
+            "action"
           ]
         },
         {
@@ -1109,14 +1124,14 @@
           "slug": "on-the-genealogy-of-morals",
           "file": "on-the-genealogy-of-morals.json",
           "count": 100,
-          "words": 24770,
+          "words": 24679,
           "topics": [
             "knowledge",
             "virtue",
             "meaning",
             "self",
-            "nature",
-            "meta"
+            "meta",
+            "nature"
           ]
         },
         {
@@ -1124,14 +1139,14 @@
           "slug": "the-gay-science",
           "file": "the-gay-science.json",
           "count": 100,
-          "words": 21689,
+          "words": 22578,
           "topics": [
             "knowledge",
-            "virtue",
             "self",
-            "suffering",
+            "virtue",
             "meaning",
-            "love"
+            "love",
+            "nature"
           ]
         },
         {
@@ -1139,28 +1154,13 @@
           "slug": "twilight-of-the-idols",
           "file": "twilight-of-the-idols.json",
           "count": 100,
-          "words": 22059,
+          "words": 21604,
           "topics": [
             "knowledge",
-            "virtue",
             "self",
             "meaning",
-            "action",
-            "meta"
-          ]
-        },
-        {
-          "work": "Beyond Good and Evil",
-          "slug": "beyond-good-and-evil",
-          "file": "beyond-good-and-evil.json",
-          "count": 99,
-          "words": 23067,
-          "topics": [
-            "knowledge",
-            "self",
             "virtue",
             "meta",
-            "meaning",
             "action"
           ]
         },
@@ -1184,69 +1184,69 @@
           "slug": "ecce-homo",
           "file": "ecce-homo.json",
           "count": 90,
-          "words": 20799,
+          "words": 21121,
           "topics": [
             "knowledge",
-            "self",
-            "meta",
             "meaning",
+            "meta",
+            "self",
             "virtue",
-            "action"
+            "nature"
           ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 596
+          "count": 567
         },
         {
           "topic": "self",
-          "count": 355
+          "count": 368
         },
         {
           "topic": "meaning",
-          "count": 333
+          "count": 341
         },
         {
           "topic": "virtue",
-          "count": 332
-        },
-        {
-          "topic": "action",
-          "count": 231
+          "count": 324
         },
         {
           "topic": "nature",
-          "count": 230
+          "count": 252
         },
         {
           "topic": "meta",
+          "count": 233
+        },
+        {
+          "topic": "action",
           "count": 224
         },
         {
           "topic": "suffering",
-          "count": 170
-        },
-        {
-          "topic": "freedom",
-          "count": 126
+          "count": 181
         },
         {
           "topic": "love",
-          "count": 116
+          "count": 140
+        },
+        {
+          "topic": "freedom",
+          "count": 130
         },
         {
           "topic": "work",
-          "count": 94
+          "count": 79
         },
         {
           "topic": "education",
-          "count": 85
+          "count": 72
         },
         {
           "topic": "technology",
-          "count": 17
+          "count": 15
         }
       ],
       "translation_credits": [

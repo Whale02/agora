@@ -19,8 +19,9 @@ White Beck's of 1963, and it is still in copyright however freely it can be read
 **Shadow libraries are never used.** Anna's Archive, Library Genesis, Z-Library, Sci-Hub and
 their mirrors are not fetched, not parsed, and not cited, whatever the convenience. One
 copyrighted paste would discredit every citation on the site. The corpus comes from Project
-Gutenberg, Wikisource, the Internet Archive's public-domain scans, and the Chinese Text Project,
-and the library page prints the link for every work so a reader can check.
+Gutenberg, Wikisource in each of its languages, the Internet Archive's public-domain scans,
+the Chinese Text Project and zeno.org, and the library page prints the link for every work so
+a reader can check.
 
 A third rule governs what the text may look like once it is found. Passages are copied verbatim:
 no paraphrase, no modernisation, no silent repair. Where the edition itself has modernised
@@ -60,12 +61,21 @@ subjects it touches. An `index.json` beside them lists the works, and `docs/data
 summarises the whole corpus for pages that want the counts before they fetch anything. A reader
 opening one book downloads that book.
 
+Where the philosopher's own language can be set beside the English, the work carries an
+`original_credit` naming the text, the language and the edition it was transcribed from, and a
+passage carries `text_original`. The original is never inferred. It is paired by the numbering
+both texts print, and where the two divide a book differently, or where a passage is a piece
+of the section its reference names, the English stands alone. That is why the Daodejing pairs
+whole and the Meditations pairs five books of twelve: a passage under the wrong original would
+put words in a philosopher's mouth in a language a reader can check.
+
 `engine/retrieve.mjs` runs BM25 across one philosopher's works at a time and `speak()` puts what
 it finds into the prompt, capped near 1800 words. `node engine/test-retrieve.mjs` validates every
 file and exits 1 on a passage citing a work its philosopher does not have, a credit without a
 translator or a source, a credit too new to be clear of copyright, a passage outside the length band, a
-duplicate, a work file over 400KB, an index that disagrees with the files beside it, or a
-retrieval that cannot find a passage from its own wording.
+duplicate, a work file over 400KB, an index that disagrees with the files beside it, an
+original that is not written in the language its credit names, or a retrieval that cannot find
+a passage from its own wording, in English or in the philosopher's own language.
 
 ## What the plaza holds
 
@@ -74,24 +84,33 @@ files. Nothing in it is typed by hand.
 
 <!-- generated: what the plaza holds -->
 
-15 of the 25 are quoted, from 92 works and 7,212 passages.
+15 of the 25 are quoted, from 92 works and 7,335 passages.
 
     Philosopher      Works  Passages  Translations
     Plato               23      1285  Benjamin Jowett, 1892
-    Nietzsche           10      1009  Thomas Common, Helen Zimmern, Horace B. Samuel and 4 more, 1907 to 1920
+    Nietzsche           10      1010  Thomas Common, Helen Zimmern, Horace B. Samuel and 4 more, 1907 to 1920
     Schopenhauer        11       920  R. B. Haldane and J. Kemp, T. Bailey Saunders, Arthur Brodrick Bullock and 1 more, 1883 to 1907
     Aristotle            7       830  F. H. Peters, William Ellis, W. D. Ross and 4 more, 1882 to 1928
     Seneca              12       819  Richard Mott Gummere, Aubrey Stewart, 1889 to 1917
     Kant                 6       788  Thomas Kingsmill Abbott, J. M. D. Meiklejohn, Mary Campbell Smith and 2 more, 1855 to 1914
+    Confucius            3       340  James Legge, 1893
     Wang Yangming        4       340  Frederick Goodrich Henke, 1916
     Kierkegaard          5       280  Lee M. Hollander, 1923
-    Zhuangzi             1       251  James Legge, 1891
-    Confucius            3       206  James Legge, 1893
+    Zhuangzi             1       224  James Legge, 1891
     Marcus Aurelius      1       205  George Long, 1862
     Epicurus             6       110  R. D. Hicks, Cyril Bailey, 1925 to 1926
+    Laozi                1        79  James Legge, 1891
     Wittgenstein         1        76  C. K. Ogden, 1922
-    Laozi                1        64  James Legge, 1891
     Zhu Xi               1        29  J. Percy Bruce, 1922
+
+608 of those passages carry the philosopher's own language above the English:
+
+    Nietzsche              34  Jenseits von Gut und Böse, Zur Genealogie der Moral
+    Confucius             289  論語, 大學, 中庸
+    Zhuangzi              142  莊子
+    Marcus Aurelius        42  Τὰ εἰς ἑαυτόν
+    Laozi                  79  道德經
+    Zhu Xi                 22  御纂朱子全書
 
 The other 10 are listed and unquoted: Socrates, Camus, Simone Weil, Hannah Arendt, Erich Fromm, Simone de Beauvoir, Charlie Munger, Naval Ravikant, Byung-Chul Han, Nassim Taleb.
 Socrates wrote nothing, and his profile points at the dialogues in which Plato records him.

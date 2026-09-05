@@ -6,7 +6,7 @@
       "slug": "thus-spoke-zarathustra",
       "file": "thus-spoke-zarathustra.json",
       "passages": 100,
-      "words": 11243,
+      "words": 12279,
       "translator": "Thomas Common",
       "year": 1909,
       "source_url": "https://www.gutenberg.org/ebooks/1998"
@@ -15,28 +15,32 @@
       "work": "Beyond Good and Evil",
       "slug": "beyond-good-and-evil",
       "file": "beyond-good-and-evil.json",
-      "passages": 99,
-      "words": 23067,
+      "passages": 100,
+      "words": 22560,
       "translator": "Helen Zimmern",
       "year": 1907,
-      "source_url": "https://www.gutenberg.org/ebooks/4363"
+      "source_url": "https://www.gutenberg.org/ebooks/4363",
+      "paired": 29,
+      "original": "Jenseits von Gut und Böse"
     },
     {
       "work": "On the Genealogy of Morals",
       "slug": "on-the-genealogy-of-morals",
       "file": "on-the-genealogy-of-morals.json",
       "passages": 100,
-      "words": 24770,
+      "words": 24679,
       "translator": "Horace B. Samuel",
       "year": 1913,
-      "source_url": "https://www.gutenberg.org/ebooks/52319"
+      "source_url": "https://www.gutenberg.org/ebooks/52319",
+      "paired": 5,
+      "original": "Zur Genealogie der Moral"
     },
     {
       "work": "The Gay Science",
       "slug": "the-gay-science",
       "file": "the-gay-science.json",
       "passages": 100,
-      "words": 21689,
+      "words": 22578,
       "translator": "Thomas Common",
       "year": 1910,
       "source_url": "https://www.gutenberg.org/ebooks/52881"
@@ -46,7 +50,7 @@
       "slug": "twilight-of-the-idols",
       "file": "twilight-of-the-idols.json",
       "passages": 100,
-      "words": 22059,
+      "words": 21604,
       "translator": "Anthony M. Ludovici",
       "year": 1911,
       "source_url": "https://www.gutenberg.org/ebooks/52263"
@@ -56,7 +60,7 @@
       "slug": "the-birth-of-tragedy",
       "file": "the-birth-of-tragedy.json",
       "passages": 110,
-      "words": 25446,
+      "words": 25605,
       "translator": "William A. Haussmann",
       "year": 1909,
       "source_url": "https://www.gutenberg.org/ebooks/51356"
@@ -66,7 +70,7 @@
       "slug": "human-all-too-human",
       "file": "human-all-too-human.json",
       "passages": 110,
-      "words": 26143,
+      "words": 24961,
       "translator": "Helen Zimmern",
       "year": 1909,
       "source_url": "https://www.gutenberg.org/ebooks/51935"
@@ -76,7 +80,7 @@
       "slug": "the-dawn-of-day",
       "file": "the-dawn-of-day.json",
       "passages": 110,
-      "words": 27068,
+      "words": 27218,
       "translator": "J. M. Kennedy",
       "year": 1911,
       "source_url": "https://www.gutenberg.org/ebooks/39955"
@@ -96,7 +100,7 @@
       "slug": "ecce-homo",
       "file": "ecce-homo.json",
       "passages": 90,
-      "words": 20799,
+      "words": 21121,
       "translator": "Anthony M. Ludovici",
       "year": 1911,
       "source_url": "https://www.gutenberg.org/ebooks/52190"

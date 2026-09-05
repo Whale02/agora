@@ -178,6 +178,26 @@ for (const slug of slugs) {
   check(asked > 0 && found / asked >= 0.9, `${slug} finds its own passages`, `${found} of ${asked}`);
 }
 
+// A question asked in Chinese has to reach the passage it was taken from. The Chinese sits
+// on a shelf of its own, so this fails independently of anything the English retrieval does.
+for (const slug of slugs) {
+  const paired = readIndex(slug)
+    .works.flatMap((w) => readWork(slug, w.slug).passages)
+    .filter((x) => x.text_zh);
+  if (!paired.length) continue;
+  const step = Math.max(1, Math.floor(paired.length / 12));
+  let asked = 0;
+  let found = 0;
+  for (let i = 0; i < paired.length; i += step) {
+    const want = paired[i];
+    const query = want.text_zh.replace(/[^㐀-鿿]/g, "").slice(4, 20);
+    if (query.length < 8) continue;
+    asked++;
+    if (retrieve(slug, query, 4).some((h) => h.text === want.text)) found++;
+  }
+  check(asked > 0 && found / asked >= 0.9, `${slug} finds its passages from a question in Chinese`, `${found} of ${asked}`);
+}
+
 // And it has to be useful against the questions the heartbeat actually draws from. A corpus
 // need not answer every subject in the pool, because a book of logic has nothing to say
 // about love, but most of the pool should reach something.

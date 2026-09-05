@@ -52,28 +52,61 @@ export function tokenize(text) {
   return out;
 }
 
+// Classical Chinese writes no spaces and few words of more than two characters, so the
+// unit to match on is the character pair: 天命 and 命性 out of 天命性, which finds a phrase
+// wherever the question breaks it. A run of one character stands as its own token, or a
+// question about 仁 would find nothing at all.
+export function tokenizeZh(text) {
+  const out = [];
+  for (const run of String(text).match(/[㐀-鿿]+/g) ?? []) {
+    if (run.length === 1) out.push(run);
+    for (let i = 0; i + 1 < run.length; i++) out.push(run.slice(i, i + 2));
+  }
+  return out;
+}
+
+export const looksChinese = (s) => /[㐀-鿿]/.test(String(s));
+
 const indexes = new Map();
+
+// Counted terms and their document frequencies: the three numbers BM25 needs.
+function shelf(docs) {
+  const df = new Map();
+  for (const d of docs) for (const t of d.tf.keys()) df.set(t, (df.get(t) ?? 0) + 1);
+  const total = docs.reduce((n, d) => n + d.len, 0);
+  return { docs, df, avgdl: docs.length ? total / docs.length : 0 };
+}
+
+const counted = (toks) => {
+  const tf = new Map();
+  for (const t of toks) tf.set(t, (tf.get(t) ?? 0) + 1);
+  return { tf, len: toks.length };
+};
 
 function build(slug) {
   const index = readIndex(slug);
   if (!index) return null;
   const docs = [];
-  const df = new Map();
+  // The originals get a shelf of their own rather than a share of the English one. Folding
+  // the Chinese into the same document would roughly double the length of every passage
+  // that carries an original, and BM25 divides by length, so a paired passage would sink in
+  // English results for having been paired. Two shelves keep English retrieval exactly as
+  // it was and let a question asked in Chinese be answered in the language it was asked in.
+  const zhDocs = [];
   const credits = [];
+  const originals = [];
   for (const w of index.works) {
     const file = readWork(slug, w.slug);
     if (!file) continue;
     credits.push(file.translation_credit);
+    if (file.original_credit) originals.push({ work: file.work, ...file.original_credit });
     for (const p of file.passages) {
-      const tf = new Map();
       const toks = tokenize(`${p.text} ${p.work} ${p.ref ?? ""} ${(p.topics ?? []).join(" ")}`);
-      for (const t of toks) tf.set(t, (tf.get(t) ?? 0) + 1);
-      for (const t of tf.keys()) df.set(t, (df.get(t) ?? 0) + 1);
-      docs.push({ passage: p, tf, len: toks.length });
+      docs.push({ passage: p, ...counted(toks) });
+      if (p.text_zh) zhDocs.push({ passage: p, ...counted(tokenizeZh(p.text_zh)) });
     }
   }
-  const total = docs.reduce((n, d) => n + d.len, 0);
-  return { slug, docs, df, avgdl: docs.length ? total / docs.length : 0, credits };
+  return { slug, ...shelf(docs), zh: shelf(zhDocs), credits, originals };
 }
 
 // The index for a philosopher, or null when the plaza holds no passages from them.
@@ -87,19 +120,22 @@ export const hasCorpus = (slug) => indexFor(slug) !== null;
 export function retrieve(slug, query, k = 4) {
   const idx = indexFor(slug);
   if (!idx || !idx.docs.length) return [];
-  const terms = [...new Set(tokenize(query))];
-  if (!terms.length) return [];
+  // A question written in Chinese is asked of the originals; anything else, of the English.
+  const inChinese = looksChinese(query);
+  const shelved = inChinese ? idx.zh : idx;
+  const terms = [...new Set(inChinese ? tokenizeZh(query) : tokenize(query))];
+  if (!terms.length || !shelved.docs.length) return [];
 
-  const N = idx.docs.length;
+  const N = shelved.docs.length;
   const scored = [];
-  for (const d of idx.docs) {
+  for (const d of shelved.docs) {
     let score = 0;
     for (const t of terms) {
       const f = d.tf.get(t);
       if (!f) continue;
-      const n = idx.df.get(t) ?? 0;
+      const n = shelved.df.get(t) ?? 0;
       const idf = Math.log(1 + (N - n + 0.5) / (n + 0.5));
-      score += (idf * (f * (K1 + 1))) / (f + K1 * (1 - B + (B * d.len) / idx.avgdl));
+      score += (idf * (f * (K1 + 1))) / (f + K1 * (1 - B + (B * d.len) / shelved.avgdl));
     }
     if (score > 0) scored.push({ d, score });
   }
@@ -108,6 +144,7 @@ export function retrieve(slug, query, k = 4) {
     work: d.passage.work,
     ref: d.passage.ref ?? null,
     text: d.passage.text,
+    ...(d.passage.text_zh ? { text_zh: d.passage.text_zh } : {}),
     topics: d.passage.topics ?? [],
     score: Math.round(score * 1000) / 1000,
   }));
@@ -117,4 +154,10 @@ export function retrieve(slug, query, k = 4) {
 export function creditFor(slug, work) {
   const idx = indexFor(slug);
   return idx?.credits.find((c) => c.work === work) ?? null;
+}
+
+// The edition the original came from, where the work carries one.
+export function originalFor(slug, work) {
+  const idx = indexFor(slug);
+  return idx?.originals.find((c) => c.work === work) ?? null;
 }

@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { ENGINE_VERSION, MODELS, PATHS, SITE } from "./config.mjs";
-import { creditFor, retrieve } from "./retrieve.mjs";
+import { creditFor, originalFor, retrieve } from "./retrieve.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -48,7 +48,11 @@ export function passageBlock(slug, pages) {
       const credit = creditFor(slug, p.work);
       const where = [p.work, p.ref].filter(Boolean).join(", ");
       const trans = credit ? `, translated by ${credit.translator}, ${credit.year}` : "";
-      return `[${where}${trans}]\n${p.text}`;
+      // Where the original survives beside the translation, the philosopher gets both, his
+      // own words first. He wrote those; the English is another man's reading of them, and
+      // someone quoting himself should be able to reach for what he actually wrote.
+      const original = p.text_zh ? `${originalFor(slug, p.work)?.title ?? "原文"}: ${p.text_zh}\n` : "";
+      return `[${where}${trans}]\n${original}${p.text}`;
     })
     .join("\n\n");
   return `
@@ -57,6 +61,8 @@ export function passageBlock(slug, pages) {
 Verbatim passages from your works, in a public-domain translation, retrieved for this
 question. Any direct quotation you make must be copied exactly from this list and cited by
 work and reference. If nothing here fits what you want to say, argue without quoting.
+Where a passage carries your own language above the English, either may be quoted, and a
+line quoted in your own language should be given the English beside it.
 
 ${body}`;
 }

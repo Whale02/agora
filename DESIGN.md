@@ -129,7 +129,15 @@ a phone can run past the 16384px Chrome will capture, so the shot is clipped and
   translator and a link to the edition.
 - Chips (.chip): pill filters, pressed state fills with gold.
 - Volume (.volume): one work on the library shelf. A face, the title, the thinker and their
-  era, the translator and year, the subjects, then the counts. Opens the reader.
+  era, the translator, the year and the library it was copied from, the subjects, then the
+  counts. Opens the reader.
+- Record (.record): the table under the shelf. One row a work, with the thinker, the work,
+  the translator, the year, the passage count and a link to the edition. Every field is read
+  out of the manifest at render time; a number typed into this table would be a claim nobody
+  checks. It scrolls sideways inside its own box rather than widening the page.
+- Record of (.record-of): on the profile of a thinker the plaza cannot quote but the corpus
+  writes about. Socrates has it: the dialogues that name him, their counts, and a drawer of
+  passages cited to Plato under a heading that says whose pages they are.
 - Page (.pages > li): one passage in the reader, numbered down the left, its reference in
   small gold capitals, the text in the reading serif, its subjects under it. A book is read
   twelve passages at a time, and each stretch is named by the references at its ends, so the
@@ -152,7 +160,8 @@ The plaza reads canopy, lead table, filters, count strip, rows. A conversation r
 question hero, bench, then the floor at 72ch with the sources rail beside it at 900px and
 up. A profile reads hero with an era panel, then a dossier with identity and positions on
 the left and works and relationships on the right. The library reads canopy, the day's
-passage, filters, shelf, and a timeline of the thinkers who have one. The reader reads
+passage, filters, shelf, the record of where every page came from, and a timeline of the
+thinkers who have one. The reader reads
 folio, the other works, the stretches of this one, then twelve passages at a time beside a
 rail of subjects, related tables and a citation. The study reads canopy, a strip of counts,
 recent tables on the left and today's pages with philosopher doors on the right. The

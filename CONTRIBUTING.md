@@ -50,9 +50,9 @@ does not.
 
 ## Adding passages
 
-`docs/data/passages/<slug>.json` holds the philosopher's own text, and `speak()` hands
-the relevant part of it to them when they talk. Two bars have to be cleared before a
-file goes in.
+`docs/data/passages/<slug>/` holds the philosopher's own text, one file a work, and
+`speak()` hands the relevant part of it to them when they talk. Two bars have to be
+cleared before a file goes in.
 
 The translation has to be out of copyright, not the original. Jowett's Plato and Long's
 Marcus Aurelius are clear; a 1940s rendering of the same Greek is not. In practice that
@@ -60,15 +60,20 @@ means a translation published before 1929, and the file records the year so the 
 mechanical.
 
 The text has to be reliable enough to quote. A passage in this corpus is presented as
-verbatim, so a page scan whose OCR is visibly damaged does not qualify. Where two scans
-of the same translation exist, take the one with fewer broken tokens and keep the one
-that preserves end-of-line hyphens.
+verbatim, so a page scan is not poured in as it stands: its OCR is proofread against the
+page image first. Where two scans of the same edition exist, read the transcription back
+against both, and settle what they disagree about on the image rather than by choosing
+the likelier word. Bailey's Epicurus and Bruce's Chu Hsi came in that way.
 
 ```text
-slug                  matches philosophers.json
-translation_credits   one per work: work, translator, year, source_url
+<slug>/index.json     slug, and works: work, slug, file, passages, words, translator, year, source_url
+<slug>/<work>.json    slug, work, work_slug, translation_credit, passages
 passages              work, ref, text, topics
 ```
+
+`engine/corpus.mjs` writes that shape, and no other file knows it. A build calls
+`writeCorpus(slug, credits, passages)` and gets the files and the index; nothing else
+derives a path.
 
 Every `work` must already appear in that philosopher's `works` array. Adding a real work
 to that array is allowed and is the way to cite something the entry has not listed yet.
@@ -83,8 +88,9 @@ node engine/test-retrieve.mjs          # validate every corpus file and the retr
 
 The validator is the gate. It fails on a passage citing a work the philosopher does not
 have, a credit missing a translator, a year or a source, a credit dated 1929 or later, a
-passage far outside the length band, a duplicate, or a retrieval that cannot find a
-passage from its own wording.
+passage outside the length band, a duplicate, a work file over 400KB, an index that
+disagrees with the files beside it, or a retrieval that cannot find a passage from its
+own wording.
 
 ## Adding topics
 

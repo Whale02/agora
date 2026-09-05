@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:21:01.290Z",
+  "generated_at": "2026-09-05T06:34:29.865Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -2331,6 +2331,86 @@
           "translator": "James Legge",
           "year": 1891,
           "source_url": "https://ctext.org/zhuangzi"
+        }
+      ]
+    },
+    {
+      "slug": "zhuxi",
+      "passages": 29,
+      "words": 3927,
+      "works": [
+        {
+          "work": "The Philosophy of Human Nature (朱子全書), books 42 to 48",
+          "slug": "the-philosophy-of-human-nature",
+          "file": "the-philosophy-of-human-nature.json",
+          "count": 29,
+          "words": 3927,
+          "topics": [
+            "nature",
+            "knowledge",
+            "virtue",
+            "meta",
+            "action",
+            "love"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "topic": "nature",
+          "count": 15
+        },
+        {
+          "topic": "knowledge",
+          "count": 9
+        },
+        {
+          "topic": "virtue",
+          "count": 7
+        },
+        {
+          "topic": "meta",
+          "count": 7
+        },
+        {
+          "topic": "action",
+          "count": 6
+        },
+        {
+          "topic": "love",
+          "count": 5
+        },
+        {
+          "topic": "freedom",
+          "count": 3
+        },
+        {
+          "topic": "meaning",
+          "count": 2
+        },
+        {
+          "topic": "work",
+          "count": 2
+        },
+        {
+          "topic": "suffering",
+          "count": 1
+        },
+        {
+          "topic": "self",
+          "count": 1
+        },
+        {
+          "topic": "education",
+          "count": 1
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "The Philosophy of Human Nature (朱子全書), books 42 to 48",
+          "translator": "J. Percy Bruce",
+          "year": 1922,
+          "source_url": "https://archive.org/details/thephilosophyofh00chuhuoft"
         }
       ]
     }

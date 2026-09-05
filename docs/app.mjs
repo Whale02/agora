@@ -722,6 +722,11 @@ function eraYear(era) {
 
 const commas = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
+// How many of the twenty-five the plaza can quote. The sentence that opens the library says
+// it in words, and the number has to come from the manifest rather than from a copy edit.
+const NUMBERS = ["None", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"];
+const held = (n) => NUMBERS[n] ?? String(n);
+
 // Every work in the library, flattened, in the order the thinkers lived.
 function shelf(manifest, by) {
   const out = [];
@@ -759,7 +764,7 @@ async function renderSources() {
   main.innerHTML = `
     <section class="canopy scene s-library split">
       <h1>What they can quote</h1>
-      <p>Fourteen of the twenty-five wrote in a language whose translations have passed into the public domain. Their pages are here, ${commas(passages)} passages across ${all.length} works, and the philosophers read from them when they speak.</p>
+      <p>${held(manifest.philosophers.length)} of the twenty-five wrote in a language whose translations have passed into the public domain. Their pages are here, ${commas(passages)} passages across ${all.length} works, and the philosophers read from them when they speak.</p>
     </section>
     ${daily}
     <div class="filters">
@@ -1031,7 +1036,7 @@ async function renderReader(slug, workArg, sectionArg) {
 /* ---------- the study ---------- */
 
 // The day's philosopher and a few of their pages, chosen by the date. One corpus file is
-// fetched, not fourteen, and nobody is tracked to make the choice.
+// fetched, not the whole shelf, and nobody is tracked to make the choice.
 async function dailyPages(manifest, by, count = 1) {
   const day = Math.floor(Date.now() / 86400000);
   const held = manifest.philosophers;

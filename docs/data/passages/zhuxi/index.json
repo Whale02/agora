@@ -1,0 +1,15 @@
+{
+  "slug": "zhuxi",
+  "works": [
+    {
+      "work": "The Philosophy of Human Nature (朱子全書), books 42 to 48",
+      "slug": "the-philosophy-of-human-nature",
+      "file": "the-philosophy-of-human-nature.json",
+      "passages": 29,
+      "words": 3927,
+      "translator": "J. Percy Bruce",
+      "year": 1922,
+      "source_url": "https://archive.org/details/thephilosophyofh00chuhuoft"
+    }
+  ]
+}

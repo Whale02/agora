@@ -72,11 +72,19 @@ before fetching, and record the source id and URL):
       Record in PROGRESS.md, per philosopher, which canonical works remain unquotable and
       the copyright reason, so the absence is documented rather than assumed.
 
-Lane H, the Chinese originals (founder, 2026-09-05): the five Chinese thinkers are quoted in
-English only, which is the wrong half for the one group whose source language the founder
-reads. Each of their passages gains the original beside the translation.
+Lane H, both languages everywhere (founder, 2026-09-05). The founder widened this mid-lane
+from the five Chinese thinkers to the whole platform, so it is read here as two things, and
+the Chinese five stay first because their sources are the easiest to find and the founder
+reads them.
 
-- [ ] H1. Sources. Search in Chinese characters, not in English: the Chinese-language sites
+Reading of the widened ask, stated as an assumption rather than guessed at silently: a
+philosopher's own language sits beside the English wherever the original is public domain,
+which for this roster means Greek, Latin, German, Danish and Chinese; and the site's own
+prose gains a Chinese reading, since its wayfinding is already bilingual and stopping there
+is the half-measure. Sources first, interface second: a translated interface over an
+English-only corpus would be the wrong way round.
+
+- [ ] H1. Sources, Chinese first. Search in Chinese characters, not in English: the Chinese-language sites
       carry far more than an English query surfaces. ctext.org, Chinese Wikisource
       (zh.wikisource.org), gushiwen.cn and the other 国学 archives are all reachable and all
       carry these texts. The originals are pre-modern and long out of copyright, so the
@@ -100,6 +108,20 @@ reads. Each of their passages gains the original beside the translation.
       is reported per work. Then spot-check by hand, per philosopher, that a sampled Chinese
       passage is the source of its English, and record the sample in PROGRESS.md. Retrieval
       indexes the Chinese too, so a question asked in Chinese finds the passage.
+- [ ] H6. The other originals, after the Chinese five prove the shape. Greek for Plato,
+      Aristotle and Epicurus (Perseus carries the Greek beside the same public-domain
+      translations already held); Latin for Seneca and Marcus Aurelius; German for Kant,
+      Schopenhauer and Nietzsche (zeno.org, Gutenberg-DE, German Wikisource); Danish for
+      Kierkegaard. Same rule as H3: paired by section or left unpaired, never guessed. A
+      philosopher whose original cannot be aligned keeps English alone, which is a correct
+      state.
+- [ ] H7. The interface in Chinese. Every string the site itself says gains a Chinese
+      reading: wayfinding already has one, and this extends it to headings, empty states,
+      buttons, the about page and the composer. A toggle in the stoa, remembered per reader,
+      defaulting to the browser's language. What a philosopher or a visitor SAYS is never
+      machine-translated: their words are shown as written, in whatever language they were
+      written, because a translated quotation is no longer a quotation. The prose that ships
+      in Chinese is written, not run through a translator, and it obeys the same rulebook.
 - [ ] H5. The surfaces. The reader and the passage drawer show the original above the
       translation, in the site's `--zh` face, with the translator credited on the English and
       the edition on the Chinese. A philosopher with no original shows exactly what it shows

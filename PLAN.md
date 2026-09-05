@@ -144,7 +144,7 @@ Lane G, the record:
       writing.
 
 Lane I, what the correction leaves open:
-- [ ] I1. Wang Yangming's Chinese. He is the fifth Chinese thinker and the only one whose
+- [x] I1. Wang Yangming's Chinese. He is the fifth Chinese thinker and the only one whose
       340 passages carry no original: 傳習錄, 大學問 and the letters all exist in Chinese and
       are Ming-dynasty, so far out of copyright. Same pairing law as H3, by the edition's own
       numbering, unpaired rather than guessed. ctext has banned this machine, so use Chinese

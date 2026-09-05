@@ -923,6 +923,138 @@ Budgets: `docs/assets` is 1.9MB, `docs/data/passages` is 11MB against the plan's
 ceiling, and the heaviest work file is 385KB against the 400KB the corpus test enforces.
 `git ls-files` returns nothing under `.handoff/` or `.impeccable/`.
 
+## Run: the fifth Chinese thinker (2026-09-05)
+
+### I1. Wang Yangming, paired by the section numbers his edition prints
+
+Commit 0b31dbf, with part of the corpus landing in e49d40f, where a second session working in
+this checkout committed the tree while this slice was still in it. 94 of Wang Yangming's 374
+passages now carry the Chinese above the English, and every passage cites a section rather
+than a book.
+
+The lane had parked this in H1 and H3 as unavailable: Henke gives each section a descriptive
+English caption and no number, so the numbered-entry pairing the plan named could not be used,
+and ordinal pairing put 129 Chinese entries against at most ninety-two English headings. Both
+readings were right and both missed what the book says about itself. Henke's preface: "The
+numbers placed at intervals in the text within parentheses refer to the paging of the Chinese
+text. Those familiar with the Chinese will find these a great advantage in locating the place
+in the original." The same page disposes of the captions: "The captions inserted in italics in
+the text were added at the suggestion of Dr. Paul Carus." So the captions are the editor's and
+are neither quoted nor trusted as boundaries, and the 57, 39, 73 and 100 leaf marks Henke
+prints across his four books are a grid dense enough to find any section of the Chinese in the
+English by the words it opens with.
+
+Those openings are written out, one per section, and the build refuses to run unless every one
+of them is in its book exactly once and in reading order. 250 were read off the two texts.
+Each span is then measured, characters of Chinese against words of English, and one that falls
+outside the band this translation runs at is dropped, keeping neither the original nor the
+section number.
+
+    卷上   1 to 129, with 徐愛引言 and 徐愛跋    110 spans in the band, 2 dropped
+    卷下   201 to 342                            71 in the band, 2 dropped
+    卷中   130 to 200                            53 in the band
+    大學問  1 to 12                               12 in the band
+
+The band is what caught Henke's edition differing from Chinese Wikisource's, which it does in
+four places. 卷上 117, the 梁日孚 dialogue on reverence and the investigation of principles,
+runs in his print with its head in Part III and its tail in Part II, so it measures 1.49
+characters to the word against a book that runs 0.6 to 1.0, and it goes. 卷上 49 keeps its question in his
+edition and nothing after it, and measures 3.05. 卷下 297 on ancient music and 卷下 317 are abridged
+and measure 3.48 and 3.19. Under the ordinal pairing this lane first tried, all four would
+have taken their neighbour's Chinese.
+
+The scan cost the rest. Henke survives as page images, and the cleanest of the eight on
+archive.org still garbles about one word in thirty thousand: "wiU" for "will", "carefuUy" for
+"carefully", 33 of them in the book. A section holding one is not quotable beside its Chinese,
+because the English would be short of what the Chinese says, and 44 sections were lost that
+way before the words were settled. `wang-collate.mjs` looks each of them up in two more copies
+of the same 1916 printing, by the five words in front of it, and takes a reading where a
+witness prints a clean word, no other witness prints a different one, and the word is one this
+printing uses elsewhere. That last condition earned its place: a witness reads "Meneius" for
+"Mencius", which is clean by any pattern and is not a word Henke uses, and it was refused. 19
+words settled, 14 of them in a shipped passage, 12 left as the primary scan has them. The
+credit says so and the reader prints the credit.
+
+Pairing is by whole sections. A passage that is half of one takes no original, on the rule
+pair-zhuxi set; a passage covering a run of sections whole takes the run and cites it as
+`Book I, 61-62`. That is why the letters pair 18 of 130 where the Instructions pair 44 of 130:
+a letter's section runs 500 to 1400 words and no single passage is the whole of one.
+
+    instructions-for-practical-living     44 of 130   卷上
+    record-of-discourses                  30 of  94   卷下
+    letters                               18 of 130   卷中
+    inquiry-regarding-the-great-learning   2 of  20   大學問
+
+Hand spot-checks, printed in full at the time and read against the English beside them: 卷上 4,
+鄭朝朔問：「至善亦須有從事物上求者？」 against "Cheng Chao-shuo asked whether it is not also
+necessary to seek for the highest virtue in objective affairs and things", closing 扮戲子
+against "the actor of today who disguises himself" and 愛於是日又有省 against "That day I again
+comprehended"; 大學問 3-4, 曰：然則何以在「親民」乎 against "I venture to ask why learning for
+adults should consist in loving the people"; 卷下 258, 先生語陸元靜曰 against "The Teacher said
+to Lu Yuan-ching"; 卷中 163, 常惺惺，常記得，常知得，常存得 against "constantly realizing,
+constantly remembering, constantly knowing, constantly cherishing".
+
+Three defects turned up on the way and were fixed rather than filed.
+
+- **Four philosophers were advertising originals they no longer have.** The founder's
+  correction of 2026-09-05 stripped the Greek, Latin and German, and the work files lost their
+  passages and their credits, but the indexes beside them were never refreshed. Epicurus,
+  Marcus Aurelius, Nietzsche and Seneca still carried `paired` counts, SOURCES.md still
+  counted 682 paired passages against a corpus holding 534, and the reader's folio was written
+  to promise an original from a work that has none. The corpus test had the check and skipped
+  exactly this direction: it compared the count for works that still hold originals and
+  continued past the ones that hold none. It compares first now. Negative control: the fixed
+  check fails on the tree as shipped, naming all four.
+- **The Analects was shipping a stylesheet inside four of its Chinese passages.** Chinese
+  Wikisource puts a `style` block inside the paragraph it styles, and `zhlib`'s tag stripper
+  took the tags out and left the CSS, so 子夏曰：「賢賢易色…吾必謂之學 ran on into
+  `.mw-parser-output.variant-text{color:light-dark(black,white)` as one unbroken token. That
+  is nonsense to a reader of Chinese and it ran a 390px phone 917px off the side. Nothing had
+  caught it because the screenshot harness photographed the Greek and German readers, which no
+  longer carry originals, and not the Chinese ones. The stripper now takes `style` and
+  `script` out first, the harness photographs the Analects and the Instructions instead, and
+  the corpus test fails an original that carries markup. Negative control: planting the same
+  CSS in one Daodejing passage fails it.
+- **Every reader was saying it had aligned none of its passages.** The folio reads its count
+  out of `docs/data/passages.json`, and the manifest build never wrote one, so the Daodejing
+  reader said "the 0 of these 79 passages it could be aligned to" while all 79 carry the
+  Chinese. The manifest now carries `paired` and `original` per work, and the corpus test
+  fails when the manifest disagrees with the corpus on a count. Negative control: writing 3
+  into the Daodejing's manifest entry fails it, naming the work.
+
+Three builders had gone stale on the same rename. `pair-confucius.mjs`, `pair-laozi.mjs` and
+`pair-zhuxi.mjs` still wrote `text_zh`, which H4 replaced with `text_original` when Greek went
+into the field, and their credits named no language. Rerunning pair-confucius to clear the CSS
+put both fields in the file at once, and the corpus test caught that too. All three write the
+current shape now and delete the old field, so a rerun cannot leave both behind.
+
+Evidence at 0b31dbf, everything below run against that tree:
+
+    node engine/test-retrieve.mjs                 exit 0
+    node engine/reindex.mjs                       exit 0
+    node scripts/build-passage-index.mjs          exit 0
+    node scripts/build-sources-table.mjs          exit 0
+    node shot.mjs                                 exit 0, no horizontal overflow
+    node contrast.mjs                             exit 0, every text run clears AA
+    node librarytest.mjs                          exit 0
+    node proftest.mjs                             exit 0
+    node roomtest.mjs                             exit 0
+    node feedtest.mjs                             exit 0
+    node asktest.mjs                              exit 0
+    node langtest.mjs                             exit 0
+    node spotcheck.mjs wang-yangming              exit 0, 12 of 12 verbatim
+    python scripts/slop-scan.py <the nine>        exit 0
+    python scripts/slop-shapes.py --fail-on ...   exit 0
+
+The credit's note ships as copy and was scanned as copy: the first wording had the book
+surviving "only as a page scan" and the vocabulary gate flagged `only` twice, so it reads "as
+a page scan and nothing else" and "taken where those copies agree on what it says".
+
+`reader-original-wang-1440.png` shows the Instructions with the Chinese above each paired
+English page and the English alone where a section could not be paired. `wang-folio-390.png`
+shows the folio reading "It stands above the English on the 44 of these 130 passages it could
+be aligned to", which is the number the corpus holds.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)
@@ -1283,13 +1415,11 @@ C1 and C2, the composer:
   the file would have to be split by chapter. Nothing is broken today; the shape of the fix
   is a decision about the on-disk layout, which is yours.
 
-- Four philosophers keep their English alone and cannot be given their own language with the
-  sources this project may use: Jowett prints no Stephanus numbers, the Greek Aristotle marks
-  Bekker pages rather than chapters, a Schopenhauer section runs longer than any passage, and
-  Hollander's Kierkegaard is a book of selections with no number on either side. Wang
-  Yangming is the fifth: Henke does not number his entries at all. Each of these could be
-  opened by hand, passage by passage, the way Chu Hsi's twenty-two were. That is a decision
-  about how much hand work the corpus is worth, not a technical block.
+- Closed, 2026-09-05. The park that asked how much hand work the corpus is worth is answered
+  on both halves. The overseer closed Plato, Aristotle, Schopenhauer and Kierkegaard: under
+  the two-language scope they keep their English by design rather than by shortfall. Wang
+  Yangming was the fifth and is paired, on the section numbering his own edition prints
+  rather than by hand passage by passage. Nothing is parked here now.
 
 - ctext.org has banned this machine's address, with the note that automatic downloading is
   prohibited. It cost the corpus one chapter of the Zhuangzi, chapter 30, and it will cost

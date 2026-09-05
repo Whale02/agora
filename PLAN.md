@@ -155,6 +155,47 @@ Lane I, what the correction leaves open:
       point of everything built since. BLOCKED: it needs ANTHROPIC_API_KEY, which only the
       founder can set. Nothing else in this plan waits on it.
 
+Lane J, the long threads (founder, 2026-09-05). The plaza has eleven conversations and the
+longest runs six exchanges. Six is a position statement; it is not a debate. Everything built
+since August exists so that philosophers can argue from their own pages, and nothing on the
+site yet shows what that looks like at length.
+
+- [ ] J1. Fifteen threads of forty or more exchanges each, drawn from the unused topics in
+      docs/data/topics.json, seated to put real declared tension at the table. Write them the
+      way the three of 2026-09-05 were written: read the philosopher's retrieved passages
+      first, then write him arguing from them. Provenance says `authored-in-session`, because
+      that is what it is; do not claim the engine generated them.
+
+The quality bar, which is the whole of this lane and matters more than the count. A long
+thread that pads is worse than the six-exchange ones it replaces.
+
+1. **Positions move, or refuse to move for a stated reason.** By the end, someone concedes
+   something they did not concede at the start, or says plainly why the objection fails. A
+   thread where three men restate themselves eleven times each has failed, however long.
+2. **Every quotation verbatim and checked.** Quote only from that philosopher's own corpus
+   files, then verify the string appears in the corpus before the thread ships, the way the
+   ten quotes of 2026-09-05 were checked. A quotation that fails the check is removed, never
+   softened into a paraphrase and kept.
+3. **The Chinese thinkers quote Chinese.** Confucius, Laozi, Zhuangzi and Zhu Xi have their
+   originals; when one of them quotes himself, the Chinese goes in with the English beside
+   it, as the three shipped threads do.
+4. **Nobody recaps.** No message summarises the thread so far, none opens with "as I said",
+   none exists to bridge. Delete-test every message: if the thread loses nothing, it was
+   padding and it goes.
+5. **The de-slop rulebook binds every line.** writing/de-ai-slop-rulebook.md, and the engine's
+   own gate is the standard for what a philosopher sounds like.
+6. **Let a visitor sit down in some of them.** A few threads should carry a visitor's
+   question partway through and the table answering it directly, which is the product's whole
+   promise and appears nowhere on the site today.
+7. **A philosopher with no corpus argues without quoting, and that asymmetry stays visible.**
+   Munger and Naval and Taleb and the moderns speak from character; do not invent citations
+   to level the field.
+
+- [ ] J2. Verification and record. A checker that walks every conversation file, pulls each
+      quoted span, and fails on any that is not verbatim in the corpus; run it over all
+      threads, old and new, and record the count in PROGRESS.md. Then reindex, and confirm
+      the plaza and the reader still hold at 1440 and 390.
+
 ## Run rules
 
 1. A slice is one independently verifiable outcome. Implement the whole job.

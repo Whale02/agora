@@ -38,13 +38,13 @@ if (/^\[symposium\]/i.test(title)) {
     messages.push({ speaker_type: "user", speaker: user, content: body, created_at: new Date().toISOString() });
   for (let r = 0; r < 2; r++) {
     for (const phil of seated) {
-      const content = await speak({
+      const { text: content, provenance } = await speak({
         model: MODELS.dialogue, phil, topic: question, messages, roster: seated, all,
         instruction: r === 0 && messages.length <= seated.length
           ? `${user} brought this question to the agora. Speak to the question, and to ${user} directly where it helps.`
           : undefined,
       });
-      messages.push({ speaker_type: "philosopher", speaker: phil.slug, content, created_at: new Date().toISOString() });
+      messages.push({ speaker_type: "philosopher", speaker: phil.slug, content, provenance, created_at: new Date().toISOString() });
     }
   }
   conversation = saveConversation({
@@ -66,12 +66,12 @@ if (/^\[symposium\]/i.test(title)) {
   conversation.messages.push({ speaker_type: "user", speaker: user, content: body, created_at: new Date().toISOString() });
   const seated = conversation.participants.map((s) => all.find((p) => p.slug === s)).filter(Boolean);
   for (const phil of seated) {
-    const content = await speak({
+    const { text: content, provenance } = await speak({
       model: MODELS.dialogue, phil, topic: conversation.topic,
       messages: conversation.messages, roster: seated, all,
       instruction: `${user}, a visitor, has just sat down and spoken. Answer ${user} directly — engage their actual words, ask them something real, and hold your own position while you do.`,
     });
-    conversation.messages.push({ speaker_type: "philosopher", speaker: phil.slug, content, created_at: new Date().toISOString() });
+    conversation.messages.push({ speaker_type: "philosopher", speaker: phil.slug, content, provenance, created_at: new Date().toISOString() });
   }
   conversation.type = "user_joined";
   conversation.heat = await scoreHeat(conversation.messages, all);

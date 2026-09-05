@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
-import { MODELS, PATHS, SITE } from "./config.mjs";
+import { ENGINE_VERSION, MODELS, PATHS, SITE } from "./config.mjs";
 import { creditFor, retrieve } from "./retrieve.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -174,6 +174,10 @@ export function transcript(messages, all) {
     .join("\n\n---\n\n");
 }
 
+// Returns { text, provenance }. The provenance is the record of how this turn was made:
+// which model spoke, which of the philosopher's own passages were in front of it, and whether
+// the de-slop gate asked for a rewrite. A reader can then check a quotation against the pages
+// the speaker actually held, and a later run can be compared against an earlier one.
 export async function speak({ model, phil, topic, messages, roster, all, instruction }) {
   const opening = messages.length === 0;
   const prompt = opening
@@ -191,6 +195,7 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
   let text = res.content.find((b) => b.type === "text")?.text?.trim();
   if (!text) throw new Error(`empty response for ${phil.slug} (stop: ${res.stop_reason})`);
 
+  let rewrote = false;
   const hits = slopHits(text);
   if (hits.length >= 3) {
     console.log(`  [gate] ${phil.slug} tripped ${hits.length} tells (${hits.slice(0, 5).join(", ")}), asking for a rewrite`);
@@ -205,9 +210,20 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
       ],
     });
     const rewrite = res2.content.find((b) => b.type === "text")?.text?.trim();
-    if (rewrite && slopHits(rewrite).length < hits.length) text = rewrite;
+    if (rewrite && slopHits(rewrite).length < hits.length) {
+      text = rewrite;
+      rewrote = true;
+    }
   }
-  return text;
+  return {
+    text,
+    provenance: {
+      model,
+      engine: ENGINE_VERSION,
+      pages: pages.map((p) => [p.work, p.ref].filter(Boolean).join(", ")),
+      rewritten: rewrote,
+    },
+  };
 }
 
 export async function scoreHeat(messages, all) {

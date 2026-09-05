@@ -1,4 +1,8 @@
 // Single point of truth for models, paths, and site constants.
+// Bumped whenever prompt assembly, the seating rule, or retrieval changes in a way that
+// would make a new conversation incomparable with an old one.
+export const ENGINE_VERSION = "2026.09-retrieval";
+
 export const MODELS = {
   heartbeat: "claude-haiku-4-5", // agent-to-agent exchanges: cheap, fast
   dialogue: "claude-sonnet-5",   // user-facing replies: higher quality

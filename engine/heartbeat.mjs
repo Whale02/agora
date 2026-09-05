@@ -27,11 +27,11 @@ const messages = [];
 const rounds = ROUNDS_BY_SIZE[seated.length] ?? 2;
 for (let r = 0; r < rounds; r++) {
   for (const phil of seated) {
-    const content = await speak({
+    const { text: content, provenance } = await speak({
       model: MODELS.heartbeat, phil, topic: topic.question,
       messages, roster: seated, all,
     });
-    messages.push({ speaker_type: "philosopher", speaker: phil.slug, content, created_at: new Date().toISOString() });
+    messages.push({ speaker_type: "philosopher", speaker: phil.slug, content, provenance, created_at: new Date().toISOString() });
     console.log(`  ${phil.name_en}: ${content.slice(0, 80).replace(/\n/g, " ")}…`);
   }
 }

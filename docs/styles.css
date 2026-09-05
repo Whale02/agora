@@ -673,6 +673,18 @@ main:focus { outline: none; }
 .passage figcaption { margin: 6px 0 0 14px; font-size: 0.72rem; color: var(--faint); }
 .passage figcaption a { color: var(--gold); margin-left: 6px; }
 
+/* The philosopher's own language, above the English. It is set in the Chinese face, a
+   shade brighter than the translation and looser between the characters, because the two
+   are not the same text and the eye should not run them together. */
+.passage blockquote.original {
+  font-family: var(--zh); font-size: 0.92rem; line-height: 1.9; letter-spacing: 0.04em;
+  color: var(--ink); margin-bottom: 8px; border-left-color: var(--gold);
+}
+.passage figcaption .from-original {
+  display: block; margin-top: 3px; font-family: var(--zh); letter-spacing: 0.03em;
+}
+.passage figcaption .from-original a { margin-left: 4px; }
+
 /* the sit-down ritual */
 .ritual-backdrop {
   position: fixed; inset: 0; z-index: 30;
@@ -970,6 +982,11 @@ main:focus { outline: none; }
 .pages .body {
   margin: 0; font-family: var(--serif); font-size: 1.05rem; line-height: 1.7;
   color: var(--ink-soft);
+}
+.pages .body.original {
+  font-family: var(--zh); font-size: 1.02rem; line-height: 2.05; letter-spacing: 0.05em;
+  color: var(--ink); margin-bottom: 14px;
+  padding-bottom: 14px; border-bottom: 1px solid var(--line);
 }
 .pages .topics { margin-top: 12px; }
 .pages .topics li { font-size: 0.68rem; }

@@ -462,7 +462,7 @@ async function fillSources(convo, seats) {
         const file = await workP(slug, chosen.file);
         const picked = pickPassages(file.passages, subject, 3);
         drawer.innerHTML = picked.length
-          ? picked.map((x) => passageCard(x, file.translation_credit)).join("")
+          ? picked.map((x) => passageCard(x, file.translation_credit, file.original_credit)).join("")
           : `<p class="counts">Nothing in this corpus touches ${esc(subject)}.</p>`;
         drawer.hidden = false;
         b.textContent = "Close";
@@ -483,12 +483,17 @@ function pickPassages(passages, subject, n) {
   return [...pool].sort((a, b) => a.text.length - b.text.length).slice(0, n);
 }
 
-function passageCard(x, credit) {
+// A passage, with the philosopher's own language above the English wherever the corpus
+// holds it. The original is the text; the translation is one reading of it, so the original
+// goes first and the translator is named on the English, the edition on the original.
+function passageCard(x, credit, original) {
   return `<figure class="passage">
+    ${x.text_zh ? `<blockquote class="original" lang="zh-Hant">${esc(trim(x.text_zh, 200))}</blockquote>` : ""}
     <blockquote>${esc(trim(x.text, 320))}</blockquote>
     <figcaption>
       ${esc(shortWork(x.work))}${x.ref ? `, ${esc(x.ref)}` : ""}${credit ? `, translated by ${esc(credit.translator)}, ${credit.year}` : ""}
       ${credit?.source_url ? `<a href="${esc(credit.source_url)}" rel="noopener">source</a>` : ""}
+      ${x.text_zh && original ? `<span class="from-original">${esc(original.title)}${original.source_url ? `, <a href="${esc(original.source_url)}" rel="noopener">${esc(sourceName(original.source_url))}</a>` : ""}</span>` : ""}
     </figcaption>
   </figure>`;
 }
@@ -694,7 +699,7 @@ async function fillProfileSources(p) {
       const chosen = pickWork(m.works, p.key_topics[0]);
       const file = await workP(p.slug, chosen.file);
       const picked = pickPassages(file.passages, p.key_topics[0], 3);
-      drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit)).join("");
+      drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit, file.original_credit)).join("");
       drawer.hidden = false;
       b.textContent = "Close";
     } catch {
@@ -768,7 +773,7 @@ async function fillRecordOf(p, works) {
       const file = await workP(main_writer.slug, chosen.file);
       const needle = new RegExp("\\b" + p.name_en + "\\b");
       const picked = file.passages.filter((x) => needle.test(x.text)).slice(0, 3);
-      drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit)).join("");
+      drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit, file.original_credit)).join("");
       drawer.hidden = false;
       b.textContent = "Close";
     } catch {
@@ -1058,6 +1063,7 @@ async function renderReader(slug, workArg, sectionArg) {
       <h1>${esc(shortWork(work.work))}</h1>
       <p class="by"><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a>${p.name_zh ? ` <span class="zh">${esc(p.name_zh)}</span>` : ""} · ${esc(p.era)}</p>
       ${credit ? `<p class="credit">Translated by ${esc(credit.translator)}, ${credit.year}. <a href="${esc(credit.source_url)}" rel="noopener">The edition this came from</a>.${credit.note ? ` ${esc(credit.note)}` : ""}</p>` : ""}
+      ${file.original_credit ? `<p class="credit">The original, <span lang="zh-Hant">${esc(file.original_credit.title)}</span>${file.original_credit.edition ? `, ${esc(file.original_credit.edition)}` : ""}. <a href="${esc(file.original_credit.source_url)}" rel="noopener">Where it was transcribed</a>. It stands above the English on the ${work.paired ?? 0} of these ${passages.length} passages it could be aligned to.</p>` : ""}
       <p class="counts">${passages.length} passages · ${commas(work.words)} words</p>
     </header>
 
@@ -1097,6 +1103,7 @@ async function renderReader(slug, workArg, sectionArg) {
                 <div class="lineno">${part.from + i + 1}</div>
                 <div class="page">
                   <p class="where">${x.ref ? esc(x.ref) : esc(shortWork(x.work))}</p>
+                  ${x.text_zh ? `<p class="body original" lang="zh-Hant">${esc(x.text_zh)}</p>` : ""}
                   <p class="body">${esc(x.text)}</p>
                   <ul class="topics">${(x.topics ?? []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
                 </div>

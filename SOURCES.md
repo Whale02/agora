@@ -23,7 +23,9 @@ Gutenberg, Wikisource, the Internet Archive's public-domain scans, and the Chine
 and the library page prints the link for every work so a reader can check.
 
 A third rule governs what the text may look like once it is found. Passages are copied verbatim:
-no paraphrase, no modernisation, no silent repair. Where a page scan is all that survives, its OCR is
+no paraphrase, no modernisation, no silent repair. Where the edition itself has modernised
+something, the credit says so: the Zhuangzi comes from the Chinese Text Project's Legge, which
+respells his romanised names, and every page that prints that credit prints the note with it. Where a page scan is all that survives, its OCR is
 proofread against the page image before it ships. That is how Zhu Xi and the Vatican Sayings got
 in, page by page, and it is why a passage that neither scan of an edition supports is either
 settled against the image or left out.
@@ -72,7 +74,7 @@ files. Nothing in it is typed by hand.
 
 <!-- generated: what the plaza holds -->
 
-15 of the 25 are quoted, from 92 works and 7,213 passages.
+15 of the 25 are quoted, from 92 works and 7,212 passages.
 
     Philosopher      Works  Passages  Translations
     Plato               23      1285  Benjamin Jowett, 1892
@@ -83,7 +85,7 @@ files. Nothing in it is typed by hand.
     Kant                 6       788  Thomas Kingsmill Abbott, J. M. D. Meiklejohn, Mary Campbell Smith and 2 more, 1855 to 1914
     Wang Yangming        4       340  Frederick Goodrich Henke, 1916
     Kierkegaard          5       280  Lee M. Hollander, 1923
-    Zhuangzi             1       252  James Legge, 1891
+    Zhuangzi             1       251  James Legge, 1891
     Confucius            3       206  James Legge, 1893
     Marcus Aurelius      1       205  George Long, 1862
     Epicurus             6       110  R. D. Hicks, Cyril Bailey, 1925 to 1926

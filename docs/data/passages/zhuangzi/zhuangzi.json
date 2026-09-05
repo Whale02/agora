@@ -6,7 +6,8 @@
     "work": "Zhuangzi (庄子), especially the Inner Chapters",
     "translator": "James Legge",
     "year": 1891,
-    "source_url": "https://ctext.org/zhuangzi"
+    "source_url": "https://ctext.org/zhuangzi",
+    "note": "This edition respells the romanised names: Legge printed Khwan and Phang where this reads Kun and Peng."
   },
   "passages": [
     {
@@ -514,22 +515,12 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "The Normal Course for Rulers and Kings",
-      "text": "Nie Que put four questions to Wang Ni, not one of which did he know (how to answer). On this Nie Que leaped up, and in great delight walked away and informed Yu-yi Zi of it, who said to him, 'Do you (only) now know it?' He of the line of Yu was not equal to him of the line of Tai. He of Yu still kept in himself (the idea of) benevolence by which to constrain (the submission of) men; and he did win men, but he had not begun to proceed by what did not belong to him as a man. He of the line of Tai would sleep tranquilly, and awake in contented simplicity. He would consider himself now (merely) as a horse, and now (merely) as an ox. His knowledge was real and untroubled by doubts; and his virtue was very true: he had not begun to proceed by what belonged to him as a man.\n\nJian Wu went to see the mad (recluse), Jie-yu, who said to him, 'What did Ri-Zhong Shi tell you?' The reply was, 'He told me that when rulers gave forth their regulations according to their own views and enacted righteous measures, no one would venture not to obey them, and all would be transformed.' Jie-yu said, 'That is but the hypocrisy of virtue. For the right ordering of the world it would be like trying to wade through the sea and dig through the He, or employing a mosquito to carry a mountain on its back.",
+      "text": "Nie Que put four questions to Wang Ni, not one of which did he know (how to answer). On this Nie Que leaped up, and in great delight walked away and informed Yu-yi Zi of it, who said to him, 'Do you (only) now know it?' He of the line of Yu was not equal to him of the line of Tai. He of Yu still kept in himself (the idea of) benevolence by which to constrain (the submission of) men; and he did win men, but he had not begun to proceed by what did not belong to him as a man. He of the line of Tai would sleep tranquilly, and awake in contented simplicity. He would consider himself now (merely) as a horse, and now (merely) as an ox. His knowledge was real and untroubled by doubts; and his virtue was very true: he had not begun to proceed by what belonged to him as a man.\n\nJian Wu went to see the mad (recluse), Jie-yu, who said to him, 'What did Ri-Zhong Shi tell you?' The reply was, 'He told me that when rulers gave forth their regulations according to their own views and enacted righteous measures, no one would venture not to obey them, and all would be transformed.' Jie-yu said, 'That is but the hypocrisy of virtue. For the right ordering of the world it would be like trying to wade through the sea and dig through the He, or employing a mosquito to carry a mountain on its back. And when a sage is governing, does he govern men's outward actions? He is (himself) correct, and so (his government) goes on; this is the simple and certain way by which he secures the success of his affairs. Think of the bird which flies high, to avoid being hurt by the dart on the string of the archer, and the little mouse which makes its hole deep under Shen-qiu to avoid the danger of being smoked or dug out; are (rulers) less knowing than these two little creatures?'",
       "topics": [
         "knowledge",
-        "virtue",
         "nature",
-        "freedom"
-      ]
-    },
-    {
-      "work": "Zhuangzi (庄子), especially the Inner Chapters",
-      "ref": "The Normal Course for Rulers and Kings",
-      "text": "And when a sage is governing, does he govern men's outward actions? He is (himself) correct, and so (his government) goes on; this is the simple and certain way by which he secures the success of his affairs. Think of the bird which flies high, to avoid being hurt by the dart on the string of the archer, and the little mouse which makes its hole deep under Shen-qiu to avoid the danger of being smoked or dug out; are (rulers) less knowing than these two little creatures?'",
-      "topics": [
         "freedom",
-        "knowledge",
-        "action"
+        "virtue"
       ]
     },
     {
@@ -628,11 +619,20 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "Webbed Toes",
-      "text": "And moreover, in employing the hook and line, the compass and square, to give things their correct form you must cut away portions of what naturally belongs to them; in employing strings and fastenings, glue and varnish to make things firm, you must violently interfere with their qualities. The bendings and stoppings in ceremonies and music, and the factitious expression in the countenance of benevolence and righteousness, in order to comfort the minds of men - these all show a failure in observing the regular principles (of the human constitution). All men are furnished with such regular principles; and according to them what is bent is not made so by the hook, nor what is straight by the line, nor what is round by the compass, nor what is square by the carpenter's square. Nor is adhesion effected by the use of glue and varnish, nor are things bound together by means of strings and bands. Thus it is that all in the world are produced what they are by a certain guidance, while they do not know how they are produced so; and they equally attain their several ends while they do not know how it is that they do so. Anciently it was so, and it is so now; and this constitution of things should not be made of none effect. Why then should benevolence and righteousness be employed as connecting (links), or as glue and varnish, strings and bands, and the enjoyment arising from the Dao and its characteristics be attributed to them? It is a deception practised upon the world. Where the deception is small, there will be a change in the direction (of the objects pursued); where it is great, there will be a change of the nature itself. How do I know that it is so? Since he of the line of Yu called in his benevolence and righteousness to distort and vex the world, the world has not ceased to hurry about to execute their commands - has not this been by means of benevolence and righteousness to change (men's views) of their nature?",
+      "text": "And moreover, in employing the hook and line, the compass and square, to give things their correct form you must cut away portions of what naturally belongs to them; in employing strings and fastenings, glue and varnish to make things firm, you must violently interfere with their qualities. The bendings and stoppings in ceremonies and music, and the factitious expression in the countenance of benevolence and righteousness, in order to comfort the minds of men - these all show a failure in observing the regular principles (of the human constitution). All men are furnished with such regular principles; and according to them what is bent is not made so by the hook, nor what is straight by the line, nor what is round by the compass, nor what is square by the carpenter's square. Nor is adhesion effected by the use of glue and varnish, nor are things bound together by means of strings and bands. Thus it is that all in the world are produced what they are by a certain guidance, while they do not know how they are produced so; and they equally attain their several ends while they do not know how it is that they do so. Anciently it was so, and it is so now; and this constitution of things should not be made of none effect. Why then should benevolence and righteousness be employed as connecting (links), or as glue and varnish, strings and bands, and the enjoyment arising from the Dao and its characteristics be attributed to them?",
       "topics": [
-        "nature",
         "knowledge",
-        "virtue"
+        "virtue",
+        "nature"
+      ]
+    },
+    {
+      "work": "Zhuangzi (庄子), especially the Inner Chapters",
+      "ref": "Webbed Toes",
+      "text": "It is a deception practised upon the world. Where the deception is small, there will be a change in the direction (of the objects pursued); where it is great, there will be a change of the nature itself. How do I know that it is so? Since he of the line of Yu called in his benevolence and righteousness to distort and vex the world, the world has not ceased to hurry about to execute their commands - has not this been by means of benevolence and righteousness to change (men's views) of their nature?",
+      "topics": [
+        "virtue",
+        "nature"
       ]
     },
     {
@@ -908,19 +908,11 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "Heaven and Earth",
-      "text": "The Master said, 'How still and deep is the place where the Dao resides! How limpid is its purity! Metal and stone without It would give forth no sound. They have indeed the (power of) sound (in them), but if they be not struck, they do not emit it. Who can determine (the qualities that are in) all things? 'The man of kingly qualities holds on his way unoccupied, and is ashamed to busy himself with (the conduct of) affairs. He establishes himself in (what is) the root and source (of his capacity), and his wisdom grows to be spirit-like. In this way his attributes become more and more great, and when his mind goes forth, whatever things come in his way, it lays hold of them (and deals with them). Thus, if there were not the Dao, the bodily form would not have life, and its life, without the attributes (of the Dao), would not be manifested. Is not he who preserves the body and gives the fullest development to the life, who establishes the attributes of the Dao and clearly displays It, possessed of kingly qualities? How majestic is he in his sudden issuings forth, and in his unexpected movements, when all things follow him! This we call the man whose qualities fit him to rule.' He sees where there is the deepest obscurity; he hears where there is no sound. In the midst of the deepest obscurity, he alone sees and can distinguish (various objects); in the midst of a soundless (abyss), he alone can hear a harmony (of notes).",
+      "text": "The Master said, 'How still and deep is the place where the Dao resides! How limpid is its purity! Metal and stone without It would give forth no sound. They have indeed the (power of) sound (in them), but if they be not struck, they do not emit it. Who can determine (the qualities that are in) all things? 'The man of kingly qualities holds on his way unoccupied, and is ashamed to busy himself with (the conduct of) affairs. He establishes himself in (what is) the root and source (of his capacity), and his wisdom grows to be spirit-like. In this way his attributes become more and more great, and when his mind goes forth, whatever things come in his way, it lays hold of them (and deals with them). Thus, if there were not the Dao, the bodily form would not have life, and its life, without the attributes (of the Dao), would not be manifested. Is not he who preserves the body and gives the fullest development to the life, who establishes the attributes of the Dao and clearly displays It, possessed of kingly qualities? How majestic is he in his sudden issuings forth, and in his unexpected movements, when all things follow him! This we call the man whose qualities fit him to rule.' He sees where there is the deepest obscurity; he hears where there is no sound. In the midst of the deepest obscurity, he alone sees and can distinguish (various objects); in the midst of a soundless (abyss), he alone can hear a harmony (of notes). Therefore where one deep is succeeded by a greater, he can people all with things; where one mysterious range is followed by another that is more so, he can lay hold of the subtlest character of each. In this way in his intercourse with all things, while he is farthest from having anything, he can yet give to them what they seek; while he is always hurrying forth, he yet returns to his resting-place; now large, now small; now long, now short; now distant, now near.'",
       "topics": [
-        "knowledge",
         "self",
+        "knowledge",
         "action"
-      ]
-    },
-    {
-      "work": "Zhuangzi (庄子), especially the Inner Chapters",
-      "ref": "Heaven and Earth",
-      "text": "Therefore where one deep is succeeded by a greater, he can people all with things; where one mysterious range is followed by another that is more so, he can lay hold of the subtlest character of each. In this way in his intercourse with all things, while he is farthest from having anything, he can yet give to them what they seek; while he is always hurrying forth, he yet returns to his resting-place; now large, now small; now long, now short; now distant, now near.'",
-      "topics": [
-        "self"
       ]
     },
     {
@@ -951,6 +943,17 @@
       "topics": [
         "suffering",
         "nature"
+      ]
+    },
+    {
+      "work": "Zhuangzi (庄子), especially the Inner Chapters",
+      "ref": "Heaven and Earth",
+      "text": "At an interview with Ji Che, Jiang-li Wan said to him, 'Our ruler of Lu asked to receive my instructions. I declined, on the ground that I had not received any message for him. Afterwards, however, I told him (my thoughts). I do not know whether (what I said) was right or not, and I beg to repeat it to you. I said to him, \"You must strive to be courteous and to exercise self-restraint; you must distinguish the public-spirited and loyal, and repress the cringing and selfish - who among the people will in that case dare not to be in harmony with you?\"' Ji Che laughed quietly and said, 'Your words, my master, as a description of the right course for a Di or King, were like the threatening movement of its arms by a mantis which would thereby stop the advance of a carriage - inadequate to accomplish your object. And moreover, if he guided himself by your directions, it would be as if he were to increase the dangerous height of his towers and add to the number of his valuables collected in them - the multitudes (of the people) would leave their (old) ways, and bend their steps in the same direction.' Jiang-li Wan was awe-struck, and said in his fright, 'I am startled by your words, Master, nevertheless, I should like to hear you describe the influence (which a ruler should exert).'",
+      "topics": [
+        "action",
+        "freedom",
+        "knowledge",
+        "self"
       ]
     },
     {
@@ -1928,23 +1931,22 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "Xu Wu-gui",
-      "text": "Huang-Di was going to see Da-gui at the hill of Ju-Zi. Fang Ming was acting as charioteer, and Chang Yu was occupying the third place in the carriage. Zhang Ruo and Xi Peng went before the horses; and Kun Hun and Gu Ji followed the carriage. When they arrived at the wild of Xiang-cheng, the seven sages were all perplexed, and could find no place at which to ask the way. just then they met with a boy tending some horses, and asked the way of him. 'Do you know,' they said, 'the hill of Ju-zi?' and he replied that he did. He also said that he knew where Da-gui was living. 'A strange boy is this!' said Huang-Di. 'He not only knows the hill of Ju-zi, but he also knows where Fa-gui is living. Let me ask him about the government of mankind.' The boy said, 'The administration of the kingdom is like this (which I am doing) - what difficulty should there be in it? When I was young, I enjoyed myself roaming over all within the six confines of the world of space, and then I began to suffer from indistinct sight. A wise elder taught me, saying, \"Ride in the chariot of the sun, and roam in the wild of Xiang-cheng.\" Now the trouble in my eyes is a little better, and I am again enjoying myself roaming outside the six confines of the world of space.",
-      "topics": [
-        "knowledge",
-        "suffering",
-        "self",
-        "nature"
-      ]
-    },
-    {
-      "work": "Zhuangzi (庄子), especially the Inner Chapters",
-      "ref": "Xu Wu-gui",
       "text": "If officers of wisdom do not see the changes which their anxious thinking has suggested, they have no joy; if debaters are not able to set forth their views in orderly style, they have no joy; if critical examiners find no subjects on which to exercise their powers of vituperation, they have no joy: they are all hampered by external restrictions. Those who try to attract the attention of their age (wish to) rise at court; those who try to win the regard of the people count holding office a glory; those who possess muscular strength boast of doing what is difficult; those who are bold and daring exert themselves in times of calamity; those who are able swordmen and spearmen delight in fighting; those whose powers are decayed seek to rest in the name (they have gained); those who are skilled in the laws seek to enlarge the scope of government; those who are proficient in ceremonies and music pay careful attention to their deportment; and those who profess benevolence and righteousness value opportunities (for displaying them). The husbandmen who do not keep their fields well weeded are not equal to their business, nor are traders who do not thrive in the markets. When the common people have their appropriate employment morning and evening, they stimulate one another to diligence; the mechanics who are masters of their implements feel strong for their work. If their wealth does not increase, the greedy are distressed; if their power and influence is not growing, the ambitious are sad. Such creatures of circumstance and things delight in changes, and if they meet with a time when they can show what they can do, they cannot keep themselves from taking advantage of it. They all pursue their own way like (the seasons of) the year, and do not change as things do. They give the reins to their bodies and natures, and allow themselves to sink beneath (the pressure of) things, and all their lifetime do not come back (to their proper selves) is it not sad?",
       "topics": [
         "work",
         "action",
         "freedom",
         "virtue"
+      ]
+    },
+    {
+      "work": "Zhuangzi (庄子), especially the Inner Chapters",
+      "ref": "Xu Wu-gui",
+      "text": "The king of Wu, floating about on the Jiang, (landed and) ascended the Hill of monkeys, which all, when they saw him, scampered off in terror, and hid themselves among the thick hazels. There was one, however, which, in an unconcerned way, swung about on the branches, displaying its cleverness to the king, who thereon discharged an arrow at it. With a nimble motion it caught the swift arrow, and the king ordered his attendants to hurry forward and shoot it; and thus the monkey was seized and killed. The king then, looking round, said to his friend Yan Bu-yi, 'This monkey made a display of its artfulness, and trusted in its agility, to show me its arrogance - this it was which brought it to this fate. Take warning from it. Ah! do not by your looks give yourself haughty airs!' Yan Bu-yi, when he returned home, put himself under the teaching of Dong Wu, to root up his pride. He put away what he delighted in and abjured distinction. In three years the people of the kingdom spoke of him with admiration.\n\nNan-bo Zi-qi was seated, leaning forward on his stool, and sighing gently as he looked up to heaven. (Just then) Yan Cheng-zi came in, and said, when he saw him, 'Master, you surpass all others. Is it right to make your body thus like a mass of withered bones, and your mind like so much slaked lime?'",
+      "topics": [
+        "self",
+        "nature",
+        "action"
       ]
     },
     {
@@ -2327,6 +2329,15 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "The Robber Zhi",
+      "text": "'Come forward, Qiu,' said Dao Zhi, greatly enraged. 'Those who can be persuaded by considerations of gain, and to whom remonstrances may be addressed with success, are all ignorant, low, and ordinary people. That I am tall and large, elegant and handsome, so that all who see me are pleased with me - this is an effect of the body left me by my parents. Though you were not to praise me for it, do I not know it myself? And I have heard that he who likes to praise men to their face will also like to speak ill of them behind their back. And when you tell me of a great wall and a multitudinous people, this is to try to persuade me by considerations of gain, and to cocker me as one of the ordinary people. But how could such advantages last for long? Of all great cities there is none so great as the whole kingdom, which was possessed by Yao and Shun, while their descendants (now) have not so much territory as would admit an awl. Tang and Wu were both set up as the Sons of Heaven, but in after ages (their posterity) were cut off and extinguished - was not this because the gain of their position was so great a prize?",
+      "topics": [
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "Zhuangzi (庄子), especially the Inner Chapters",
+      "ref": "The Robber Zhi",
       "text": "'You yourself now cultivate and inculcate the ways of Wen and Wu; you handle whatever subjects are anywhere discussed for the instruction of future ages. With your peculiar robe and narrow girdle, with your deceitful speech and hypocritical conduct, you delude the lords of the different states, and are seeking for riches and honours. There is no greater robber than you are - why does not all the world call you the Robber Zhi, instead of styling me the Robber Zhi? You prevailed by your sweet speeches on Zi-lu, and made him your follower; you made him put away his high cap, lay aside his long sword, and receive your instructions, so that all the world said, \"Kong Qiu is able to arrest violence and repress the wrong-doer;\" but in the end, when Zi-lu wished to slay the ruler of Wei, and the affair proved unsuccessful, his body was exhibited in pickle over the eastern gate of the capital - so did your teaching of him come to nothing. Do you call yourself a scholar of talent, a sage? Why, you were twice driven out of Lu; you had to run away from Wei; you were reduced to extremity in Qi; you were held in a state of siege between Chen and Cai; there is no resting-place for your person in the kingdom; your instructions brought Zi-lu to pickle. Such have been the misfortunes (attending your course). You have done no good either for yourself or for others - how can your doctrines be worth being thought much of?",
       "topics": [
         "action",
@@ -2357,12 +2368,12 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "The Old Fisherman",
-      "text": "Confucius, rambling in the forest of Zi-wei, stopped and sat down by the Apricot altar. The disciples began to read their books, while he proceeded to play on his lute, singing as he did so. He had not half finished his ditty when an old fisherman stepped down from his boat, and came towards them. His beard and eyebrows were turning white; his hair was all uncombed; and his sleeves hunc, idly down. He walked thus up from the bank, till he got to the dry ground, when he stopped, and, with his left hand holding one of his knees, and the right hand at his chin, listened. When the ditty was finished, he beckoned to Zi-gong and Zi-lu, who both responded and went to him. Pointing to Confucius, he said, 'Who is he?' Zi-lu replied, 'He is the Superior Man of Lu.' 'And of what family is he?' 'He is of the Kong family.' 'And what is the occupation of this Mr. Kong?' To this question Zi-lu gave no reply, but Zi-gong replied, 'This scion of the Kong family devotes himself in his own nature to leal-heartedness and sincerity; in his conduct he manifests benevolence and righteousness; he cultivates the ornaments of ceremonies and music; he pays special attention to the relationships of society; above, he would promote loyalty to the hereditary lords; below, he seeks the transformation of all classes of the people; his object being to benefit the kingdom: this is what Mr.",
+      "text": "Confucius, rambling in the forest of Zi-wei, stopped and sat down by the Apricot altar. The disciples began to read their books, while he proceeded to play on his lute, singing as he did so. He had not half finished his ditty when an old fisherman stepped down from his boat, and came towards them. His beard and eyebrows were turning white; his hair was all uncombed; and his sleeves hunc, idly down. He walked thus up from the bank, till he got to the dry ground, when he stopped, and, with his left hand holding one of his knees, and the right hand at his chin, listened. When the ditty was finished, he beckoned to Zi-gong and Zi-lu, who both responded and went to him. Pointing to Confucius, he said, 'Who is he?' Zi-lu replied, 'He is the Superior Man of Lu.' 'And of what family is he?' 'He is of the Kong family.' 'And what is the occupation of this Mr. Kong?' To this question Zi-lu gave no reply, but Zi-gong replied, 'This scion of the Kong family devotes himself in his own nature to leal-heartedness and sincerity; in his conduct he manifests benevolence and righteousness; he cultivates the ornaments of ceremonies and music; he pays special attention to the relationships of society; above, he would promote loyalty to the hereditary lords; below, he seeks the transformation of all classes of the people; his object being to benefit the kingdom: this is what Mr. Kong devotes himself to.' The stranger further asked, 'Is he a ruler possessed of territory?' 'No,' was Zi-gong's reply. 'Is he the assistant of any prince or king?' 'No;' and on this the other began to laugh and to retrace his steps, saying as he went, 'Yes, benevolence is benevolence! But I am afraid he will not escape (the evils incident to humanity). By embittering his mind and toiling his body, he is imperilling his true (nature)! Alas! how far removed is he from the proper way (of life)!'",
       "topics": [
+        "knowledge",
         "self",
         "virtue",
-        "education",
-        "meta"
+        "nature"
       ]
     },
     {
@@ -2372,24 +2383,6 @@
       "topics": [
         "knowledge",
         "education"
-      ]
-    },
-    {
-      "work": "Zhuangzi (庄子), especially the Inner Chapters",
-      "ref": "The Old Fisherman",
-      "text": "The stranger replied, 'Like seeks to like, and (birds) of the same note respond to one another - this is a rule of Heaven. Allow me to explain what I am in possession of, and to pass over (from its standpoint) to the things which occupy you. What you occupy yourself with are the affairs of men. When the sovereign, the feudal lords, the great officers, and the common people, these four classes, do what is correct (in their several positions), we have the beauty of good order; and when they leave their proper duties, there ensues the greatest disorder. When the officials attend to their duties, and the common people are anxiously concerned about their business, there is no encroachment on one another's rights. Fields running to waste; leaking rooms; insufficiency of food and clothing; taxes unprovided for; want of harmony among wives and concubines; and want of order between old and young - these are the troubles of the common people. Incompetency for their charges; inattention to their official business; want of probity in conduct; carelessness and idleness in subordinates; failure of merit and excellence; and uncertainty of rank and emolument: these are the troubles of great officers. No loyal ministers at their courts; the clans in their states rebellious; want of skill in their mechanics; articles of tribute of bad quality; late appearances at court in spring and autumn; and the dissatisfaction of the sovereign: these are the troubles of the feudal lords.",
-      "topics": [
-        "action",
-        "virtue",
-        "nature"
-      ]
-    },
-    {
-      "work": "Zhuangzi (庄子), especially the Inner Chapters",
-      "ref": "The Old Fisherman",
-      "text": "Want of harmony between the Yin and Yang; unseasonableness of cold and heat, affecting all things injuriously; oppression and disorder among the feudal princes, their presuming to plunder and attack one another, to the injury of the people; ceremonies and music ill-regulated; the resources for expenditure exhausted or deficient; the social relationships uncared for; and the people abandoned to licentious disorder: these are the troubles of the Son of Heaven and his ministers. Now, Sir, you have not the high rank of a ruler, a feudal lord, or a minister of the royal court, nor are you in the inferior position of a great minister, with his departments of business, and yet you take it on you to regulate ceremonies and music, and to give special attention to the relationships of society, with a view to transform the various classes of the people: is it not an excessive multiplication of your business? And moreover men are liable to eight defects, and (the conduct of) affairs to four evils; of which we must by all means take account. To take the management of affairs which do not concern him is called monopolising. To bring forward a subject which no one regards is called loquacity. To lead men on by speeches made to please them is called sycophancy. To praise men without regard to right or wrong is called flattery. To be fond of speaking of men's wickedness is called calumny.",
-      "topics": [
-        "action"
       ]
     },
     {
@@ -2416,12 +2409,9 @@
     {
       "work": "Zhuangzi (庄子), especially the Inner Chapters",
       "ref": "The Old Fisherman",
-      "text": "Confucius with an air of sadness said, 'Allow me to ask what it is that you call my proper Truth.' The stranger replied, 'A man's proper Truth is pure sincerity in its highest degree - without this pure sincerity one cannot move others. Hence if one (only) forces himself to wail, however sadly he may do so, it is not (real) sorrow; if he forces himself to be angry, however he may seem to be severe, he excites no awe; if he forces himself to show affection, however he may smile, he awakens no harmonious reciprocation. True grief, without a sound, is yet sorrowful; true anger, without any demonstration, yet awakens awe; true affection, without a smile, yet produces a harmonious reciprocation. Given this truth within, it exercises a spiritual efficacy without, and this is why we count it so valuable. In our relations with others, it appears according to the requirements of each case: in the service of parents, as gentle, filial duty; in the service of rulers, as loyalty and integrity; in festive drinking, as pleasant enjoyment; in the performance of the mourning rites, as sadness and sorrow. In loyalty and integrity, good service is the principal thing; in festive drinking, the enjoyment; in the mourning rites, the sorrow; in the service of parents, the giving them pleasure. The beauty of the service rendered (to a ruler) does not require that it always be performed in one way; the service of parents so as to give them pleasure takes no account of how it is done; the festive drinking which ministers enjoyment does not depend on the appliances for it; the observance of the mourning rites with the proper sorrow asks no questions about the rites themselves.",
+      "text": "(Once more), Confucius bowed twice (to the fisherman), then rose again, and said, 'That I have met you to-day is as if I had the happiness of getting to heaven. If you, Master, are not ashamed, but will let me be as your servant, and continue to teach me, let me venture to ask where your dwelling is. I will then beg to receive your instructions there, and finish my learning of the Great Way.' The stranger replied, 'I have heard the saying, \"If it be one with whom you can walk together, go with him to the subtlest mysteries of the Dao. If it be one with whom you cannot walk together and he do not know the Dao, take care that you do not associate with him, and you will yourself incur no responsibility.\" Do your utmost, Sir. I must leave you, I must leave you!' With this he shoved off his boat, and went away among the green reeds.\n\nYan Yuan (now) returned to the carriage, where Zi-lu handed to him the strap; but Confucius did not look round, (continuing where he was), till the wavelets were stilled, and he did not hear the sound of the pole, when at last he ventured to (return and) take his seat. Zi-lu, by his side in the carriage, asked him, saying, 'I have been your servant for a long time, but I have never seen you, Master, treat another with the awe and reverence which you have now shown.",
       "topics": [
-        "self",
-        "virtue",
-        "action",
-        "freedom"
+        "education"
       ]
     },
     {

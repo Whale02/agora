@@ -529,6 +529,21 @@ or a semicolon is dropped rather than cut mid-clause.
   rewrites they asked for: "the only copy is a page scan" lost its hedge, and the Great
   Learning is named by its Chinese title, as the Chuanxilu already was in the same file.
 
+### The Zhuangzi's credit says which edition it is
+
+Comparing the shipped Zhuangzi against two scans of Legge's 1891 print, while looking for a
+way around the ctext block, turned up something the run had been shipping without noticing.
+ctext's edition of Legge respells his romanised names: the print reads "the name of which is
+Khwan" and "a bird with the name of Phang", and the corpus, following ctext, reads Kun and
+Peng. The wording is Legge's; the spelling of the names is not what he printed.
+
+The corpus was citing that as "James Legge, 1891" with nothing said. A translation credit may
+now carry a `note`, and the Zhuangzi's says what the edition does. Every surface that prints
+the credit prints the note with it: the library card, the record table, and the reader's
+folio, which now reads "Translated by James Legge, 1891. The edition this came from. This
+edition respells the romanised names: Legge printed Khwan and Phang where this reads Kun and
+Peng." SOURCES.md states the rule that produced it.
+
 ### The shelf is read, not just held
 
 The outcome the plan set was that the philosophers quote from a real library rather than a

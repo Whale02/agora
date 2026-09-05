@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:33:06.450Z",
+  "generated_at": "2026-09-05T09:30:09.390Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -2672,15 +2672,15 @@
     },
     {
       "slug": "zhuangzi",
-      "passages": 252,
-      "words": 62113,
+      "passages": 251,
+      "words": 62135,
       "works": [
         {
           "work": "Zhuangzi (庄子), especially the Inner Chapters",
           "slug": "zhuangzi",
           "file": "zhuangzi.json",
-          "count": 252,
-          "words": 62113,
+          "count": 251,
+          "words": 62135,
           "topics": [
             "nature",
             "action",
@@ -2694,31 +2694,31 @@
       "topics": [
         {
           "topic": "nature",
-          "count": 132
+          "count": 134
         },
         {
           "topic": "action",
-          "count": 128
+          "count": 126
         },
         {
           "topic": "knowledge",
-          "count": 122
+          "count": 123
         },
         {
           "topic": "virtue",
-          "count": 67
+          "count": 66
         },
         {
           "topic": "suffering",
-          "count": 56
+          "count": 55
         },
         {
           "topic": "freedom",
-          "count": 54
+          "count": 53
         },
         {
           "topic": "self",
-          "count": 37
+          "count": 36
         },
         {
           "topic": "work",
@@ -2726,7 +2726,7 @@
         },
         {
           "topic": "meta",
-          "count": 27
+          "count": 26
         },
         {
           "topic": "love",
@@ -2750,7 +2750,8 @@
           "work": "Zhuangzi (庄子), especially the Inner Chapters",
           "translator": "James Legge",
           "year": 1891,
-          "source_url": "https://ctext.org/zhuangzi"
+          "source_url": "https://ctext.org/zhuangzi",
+          "note": "This edition respells the romanised names: Legge printed Khwan and Phang where this reads Kun and Peng."
         }
       ]
     },

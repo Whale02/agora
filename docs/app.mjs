@@ -892,7 +892,7 @@ async function renderSources() {
                   <td>${w.credit ? esc(w.credit.translator) : "—"}</td>
                   <td>${w.credit ? w.credit.year : "—"}</td>
                   <td class="num">${commas(w.count)}</td>
-                  <td>${w.credit ? `<a href="${esc(w.credit.source_url)}" rel="noopener">${esc(sourceName(w.credit.source_url))}</a>` : "—"}</td>
+                  <td>${w.credit ? `<a href="${esc(w.credit.source_url)}" rel="noopener">${esc(sourceName(w.credit.source_url))}</a>${w.credit.note ? `<span class="edition">${esc(w.credit.note)}</span>` : ""}` : "—"}</td>
                 </tr>`,
               )
               .join("")}
@@ -974,7 +974,7 @@ function volume(w, idx) {
     <div class="spine">
       <h2>${esc(shortWork(w.work))}</h2>
       <p class="by"><span class="who">${esc(w.phil.name_en)}</span> · <span class="when">${esc(w.phil.era)}</span></p>
-      ${w.credit ? `<p class="credit">translated by ${esc(w.credit.translator)}, ${w.credit.year} · <a href="${esc(w.credit.source_url)}" rel="noopener">${esc(sourceName(w.credit.source_url))}</a></p>` : ""}
+      ${w.credit ? `<p class="credit">translated by ${esc(w.credit.translator)}, ${w.credit.year} · <a href="${esc(w.credit.source_url)}" rel="noopener">${esc(sourceName(w.credit.source_url))}</a>${w.credit.note ? `<span class="edition">${esc(w.credit.note)}</span>` : ""}</p>` : ""}
       <ul class="topics">${w.topics.slice(0, 5).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
     </div>
     <div class="tallies">
@@ -1049,7 +1049,7 @@ async function renderReader(slug, workArg, sectionArg) {
     <header class="folio scene s-library split">
       <h1>${esc(shortWork(work.work))}</h1>
       <p class="by"><a href="#/p/${esc(p.slug)}">${esc(p.name_en)}</a>${p.name_zh ? ` <span class="zh">${esc(p.name_zh)}</span>` : ""} · ${esc(p.era)}</p>
-      ${credit ? `<p class="credit">Translated by ${esc(credit.translator)}, ${credit.year}. <a href="${esc(credit.source_url)}" rel="noopener">The edition this came from</a>.</p>` : ""}
+      ${credit ? `<p class="credit">Translated by ${esc(credit.translator)}, ${credit.year}. <a href="${esc(credit.source_url)}" rel="noopener">The edition this came from</a>.${credit.note ? ` ${esc(credit.note)}` : ""}</p>` : ""}
       <p class="counts">${passages.length} passages · ${commas(work.words)} words</p>
     </header>
 

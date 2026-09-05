@@ -889,6 +889,40 @@ The heading tracking needed taking back out. The lapidary headings are letterspa
 because Latin capitals want the air, and at that tracking a Chinese heading arrives as
 separated characters rather than a phrase.
 
+### Final verification, lane H, on one HEAD
+
+Run at 6232f2f, the commit that closes lane H. Every command below was run against that tree
+with nothing uncommitted but the screenshots, which are gitignored.
+
+    python scripts/slop-scan.py <the nine gated files>          exit 0
+    python scripts/slop-shapes.py --fail-on ... <seven files>   exit 0
+    node engine/reindex.mjs                                     exit 0, no change but the timestamp
+    node engine/test-retrieve.mjs                               exit 0, 82 checks
+    node shot.mjs                                               exit 0, 68 captures, no overflow
+    node contrast.mjs                                           exit 0, 60 route-width-language passes
+    node langtest.mjs                                           exit 0, 33 checks
+    node feedtest.mjs                                           exit 0, 11 checks
+    node roomtest.mjs                                           exit 0, 15 checks
+    node proftest.mjs                                           exit 0, 15 checks
+    node librarytest.mjs                                        exit 0, 28 checks
+    node asktest.mjs                                            exit 0, 27 checks
+
+Seventeen surfaces are captured, now at both widths and in both readings: plaza, thread,
+roster, a profile with handoff art, a profile whose art is the medallion fallback, study,
+library, the reader on the Republic and on three works that carry their original, the
+composer open and opened for one thinker, about, the in-app lost page, the static 404, and a
+conversation share stub.
+
+Two harnesses had drifted and were fixed rather than filed. `librarytest` failed because the
+rewiring gave the reader's citation the credit line's form; the citation has its own entry
+now and keeps its brackets. `proftest` failed because it loads a profile for the first
+philosopher without commissioned art and there is no longer one; it says so instead of
+loading a profile for somebody who is not there.
+
+Budgets: `docs/assets` is 1.9MB, `docs/data/passages` is 11MB against the plan's 25MB
+ceiling, and the heaviest work file is 385KB against the 400KB the corpus test enforces.
+`git ls-files` returns nothing under `.handoff/` or `.impeccable/`.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

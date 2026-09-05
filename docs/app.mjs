@@ -1153,7 +1153,7 @@ async function renderReader(slug, workArg, sectionArg) {
           credit
             ? `<article class="source">
                 <h3>${esc(t("reader.cite"))}</h3>
-                <p class="credit" id="cite-line">${esc(p.name_en)}, ${esc(shortWork(work.work))}, ${esc(t("credit.by", credit.translator, credit.year))}. ${esc(credit.source_url)}</p>
+                <p class="credit" id="cite-line">${esc(t("reader.citeline", p.name_en, shortWork(work.work), credit.translator, credit.year, credit.source_url))}</p>
                 <button class="btn quiet small" data-cite>${esc(t("reader.copycite"))}</button>
               </article>`
             : ""

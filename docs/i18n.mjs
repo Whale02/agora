@@ -278,6 +278,12 @@ const STRINGS = {
   ],
   "reader.cite": ["How to cite this", "怎么引用"],
   "reader.copycite": ["Copy the citation", "复制这条出处"],
+  // A citation is not a credit line: the year goes in brackets, which is the form a reader
+  // pastes into a bibliography.
+  "reader.citeline": [
+    (who, work, translator, year, url) => `${who}, ${work}, translated by ${translator} (${year}). ${url}`,
+    (who, work, translator, year, url) => `${who}《${work}》，${translator}译（${year}）。${url}`,
+  ],
   "cite.copied": ["Citation copied.", "出处已复制。"],
   "cite.failed": ["Your browser would not let the page copy that.", "浏览器不让这一页复制。"],
   "reader.missing.h": ["That book will not open", "这本书打不开"],

@@ -178,6 +178,26 @@ for (const slug of slugs) {
   check(true, `originals paired to the translation`, rows.length ? rows.join(", ") : "none yet");
 }
 
+// docs/data/passages.json is the summary every page fetches, and the reader prints its
+// counts. It is generated, so a disagreement with the corpus is a build that did not rerun,
+// and what a reader would see is a number nothing on disk supports.
+{
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "docs", "data", "passages.json"), "utf8"));
+  const said = new Map(manifest.philosophers.map((p) => [p.slug, p]));
+  const drift = [];
+  for (const slug of slugs) {
+    const summary = said.get(slug);
+    if (!summary) { drift.push(`${slug} is not in the manifest`); continue; }
+    for (const w of readIndex(slug).works) {
+      const there = summary.works.find((x) => x.slug === w.slug);
+      if (!there) { drift.push(`${slug}/${w.slug} is not in the manifest`); continue; }
+      if (there.count !== w.passages) drift.push(`${slug}/${w.slug} holds ${w.passages}, the manifest says ${there.count}`);
+      if ((there.paired ?? 0) !== (w.paired ?? 0)) drift.push(`${slug}/${w.slug} pairs ${w.paired ?? 0}, the manifest says ${there.paired ?? 0}`);
+    }
+  }
+  check(drift.length === 0, "the manifest agrees with the corpus", drift.slice(0, 3).join("; ") || `${said.size} philosophers`);
+}
+
 check(totalBytes < 25 * 1024 * 1024, "the corpus stays under 25MB", `${(totalBytes / 1024 / 1024).toFixed(1)}MB, ${totalPassages} passages`);
 check(
   heaviest.bytes < MAX_WORK_BYTES,

@@ -72,6 +72,40 @@ before fetching, and record the source id and URL):
       Record in PROGRESS.md, per philosopher, which canonical works remain unquotable and
       the copyright reason, so the absence is documented rather than assumed.
 
+Lane H, the Chinese originals (founder, 2026-09-05): the five Chinese thinkers are quoted in
+English only, which is the wrong half for the one group whose source language the founder
+reads. Each of their passages gains the original beside the translation.
+
+- [ ] H1. Sources. Search in Chinese characters, not in English: the Chinese-language sites
+      carry far more than an English query surfaces. ctext.org, Chinese Wikisource
+      (zh.wikisource.org), gushiwen.cn and the other 国学 archives are all reachable and all
+      carry these texts. The originals are pre-modern and long out of copyright, so the
+      sourcing law's translation rule does not bind them, but the edition still gets cited:
+      record where each original came from exactly as a translation credit is recorded.
+      ctext rate-limits under load, so fetch politely and fall back to Wikisource rather
+      than hammering it.
+- [ ] H2. Shape. A passage gains `text_zh` and the work gains an `original_credit` (title in
+      Chinese, edition or transcription, source_url). English stays `text`; nothing about the
+      existing shape moves, so every page that reads the corpus today keeps working. Where an
+      original cannot be aligned to a given passage, `text_zh` is absent rather than guessed.
+- [ ] H3. Pairing, and this is the whole difficulty. The Chinese must be the passage the
+      English translates, not the neighbouring one. Legge is section-aligned, so 論語 pairs by
+      book and chapter, 道德經 by chapter, 莊子 by chapter and section. Wang Yangming's 傳習錄
+      pairs to Henke by numbered entry. Zhu Xi is the hard case: Bruce translated books 42 to
+      48 of 朱子全書, so pair by his own book and section numbering and leave unpaired what
+      does not line up. A mispaired passage is worse than an absent one, because it puts words
+      in a philosopher's mouth in a language the founder can check.
+- [ ] H4. Verification. Extend engine/test-retrieve.mjs: every `text_zh` carries CJK
+      characters, every work with any `text_zh` has an `original_credit`, and the paired count
+      is reported per work. Then spot-check by hand, per philosopher, that a sampled Chinese
+      passage is the source of its English, and record the sample in PROGRESS.md. Retrieval
+      indexes the Chinese too, so a question asked in Chinese finds the passage.
+- [ ] H5. The surfaces. The reader and the passage drawer show the original above the
+      translation, in the site's `--zh` face, with the translator credited on the English and
+      the edition on the Chinese. A philosopher with no original shows exactly what it shows
+      today. The prompt hands the philosopher both, so a Chinese thinker may quote his own
+      words in his own language and give the English beside it.
+
 Lane G, the record:
 - [x] G1. A sources page section, or an addition to the existing library, listing every work
       held: philosopher, work, translator, year, where it came from, passage count, with a
@@ -93,6 +127,12 @@ Lane G, the record:
 4. All prose obeys writing/de-ai-slop-rulebook.md; run the CI gate commands locally.
 5. Record evidence in PROGRESS.md as you go; tick boxes only after evidence exists.
 6. Read `## Inbox
+
+- Founder, 2026-09-05: the Chinese philosophers get both versions, original and English.
+  Lane H above is that work, and it is now the run's priority once F7 resolves or is parked.
+  Search in Chinese characters when hunting sources: the founder's point is that an English
+  query hides most of what exists, and gushiwen, ctext and the 国学 archives all carry these
+  texts. Alignment is the part to be careful about, not acquisition.
 
 Steering drop-box. The run reads it at every slice sync, converts lines into items or
 constraint changes, records the conversion in PROGRESS.md, and clears them.

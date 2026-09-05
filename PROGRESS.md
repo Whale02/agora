@@ -1264,6 +1264,20 @@ C1 and C2, the composer:
 
 (parked questions only the founder can answer)
 
+- The Zhuangzi's work file is 385KB against the 400KB the corpus test enforces, because 142
+  of its passages now carry the Chinese as well as the English. It is the only file near the
+  cap. Another pairing pass on that work, or a second original beside it, would breach it and
+  the file would have to be split by chapter. Nothing is broken today; the shape of the fix
+  is a decision about the on-disk layout, which is yours.
+
+- Four philosophers keep their English alone and cannot be given their own language with the
+  sources this project may use: Jowett prints no Stephanus numbers, the Greek Aristotle marks
+  Bekker pages rather than chapters, a Schopenhauer section runs longer than any passage, and
+  Hollander's Kierkegaard is a book of selections with no number on either side. Wang
+  Yangming is the fifth: Henke does not number his entries at all. Each of these could be
+  opened by hand, passage by passage, the way Chu Hsi's twenty-two were. That is a decision
+  about how much hand work the corpus is worth, not a technical block.
+
 - ctext.org has banned this machine's address, with the note that automatic downloading is
   prohibited. It cost the corpus one chapter of the Zhuangzi, chapter 30, and it will cost
   more if a later run needs ctext again, since the Zhuangzi is the only Legge text the plaza

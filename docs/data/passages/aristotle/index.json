@@ -6,7 +6,7 @@
       "slug": "nicomachean-ethics",
       "file": "nicomachean-ethics.json",
       "passages": 150,
-      "words": 35142,
+      "words": 35398,
       "translator": "F. H. Peters",
       "year": 1893,
       "source_url": "https://www.gutenberg.org/ebooks/8438"
@@ -60,6 +60,16 @@
       "translator": "E. M. Edghill",
       "year": 1928,
       "source_url": "https://www.gutenberg.org/ebooks/2412"
+    },
+    {
+      "work": "De Anima (On the Soul)",
+      "slug": "de-anima",
+      "file": "de-anima.json",
+      "passages": 110,
+      "words": 26301,
+      "translator": "Edwin Wallace",
+      "year": 1882,
+      "source_url": "https://en.wikisource.org/wiki/Aristotle's_Psychology"
     }
   ]
 }

@@ -72,15 +72,15 @@ files. Nothing in it is typed by hand.
 
 <!-- generated: what the plaza holds -->
 
-15 of the 25 are quoted, from 91 works and 7,103 passages.
+15 of the 25 are quoted, from 92 works and 7,213 passages.
 
     Philosopher      Works  Passages  Translations
     Plato               23      1285  Benjamin Jowett, 1892
     Nietzsche           10      1009  Thomas Common, Helen Zimmern, Horace B. Samuel and 4 more, 1907 to 1920
     Schopenhauer        11       920  R. B. Haldane and J. Kemp, T. Bailey Saunders, Arthur Brodrick Bullock and 1 more, 1883 to 1907
+    Aristotle            7       830  F. H. Peters, William Ellis, W. D. Ross and 4 more, 1882 to 1928
     Seneca              12       819  Richard Mott Gummere, Aubrey Stewart, 1889 to 1917
     Kant                 6       788  Thomas Kingsmill Abbott, J. M. D. Meiklejohn, Mary Campbell Smith and 2 more, 1855 to 1914
-    Aristotle            6       720  F. H. Peters, William Ellis, W. D. Ross and 3 more, 1893 to 1928
     Wang Yangming        4       340  Frederick Goodrich Henke, 1916
     Kierkegaard          5       280  Lee M. Hollander, 1923
     Zhuangzi             1       252  James Legge, 1891

@@ -465,6 +465,13 @@ holds the German Tractatus and nothing else of his.
 Meditations is the only work of his that survives, and George Long's translation of 1862 is
 long out of copyright. Nothing is missing.
 
+**Aristotle's De Anima, added after the audit.** The one work still listed and unquoted for a
+philosopher the run had already been through. The Oxford version everyone quotes is J. A.
+Smith's of 1931 and is in copyright until 2026; Edwin Wallace's of 1882 is the last English
+De Anima that is not, and Wikisource carries it transcribed. 110 passages, cited by book and
+chapter, three spot-checked verbatim. Aristotle now holds seven works and 830 passages, and
+every title in his works array is quotable.
+
 **Where the plaza stands.** Fifteen of the twenty-five hold passages; ten are listed and
 unquoted. Socrates wrote nothing, and lane G3 will point his profile at the dialogues in
 which Plato records him. The other nine are Camus, Simone Weil, Hannah Arendt, Erich Fromm,

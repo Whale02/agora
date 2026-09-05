@@ -479,6 +479,40 @@ two spaces, so a 414-word passage passed the build and failed the test. The ceil
 measured the way the test measures it, and a passage the chunker cannot break at a sentence
 or a semicolon is dropped rather than cut mid-clause.
 
+### G1 to G3. The record, the rules, and Socrates, commit f67b511
+
+- **G1, the record.** The library gained a table of every work the plaza holds: thinker,
+  work, translator, year, passage count, and a link to the edition it was copied from. 91
+  rows, one a work, every field read out of `docs/data/passages.json` at render time. The
+  browser check counted the rows against the manifest and found 91 of 91, with 91 external
+  links, and read back the first row as Laozi, Daodejing, James Legge, 1891, 64, Project
+  Gutenberg. Each volume card carries the same link, named by the library it points at.
+- **G2, the rules.** SOURCES.md now opens with what may be copied: the translation has to be
+  public domain and not merely the original, which in the United States means published in
+  1930 or earlier, and the year to verify is the edition's rather than the author's; shadow
+  libraries are never fetched, never parsed, never cited. The per-philosopher table is
+  written by `scripts/build-sources-table.mjs`, which reads the corpus files and rewrites the
+  block between two markers. The old table was typed and still said fourteen philosophers and
+  3,338 passages against a corpus that holds fifteen and 7,103.
+- **G3, Socrates.** His profile carries Plato's record of him: 22 dialogues that name him,
+  with the count for each, and a drawer that opens three of those passages cited to Plato,
+  under a heading that says whose pages they are. The counts come from `docs/data/mentions.json`,
+  which the manifest build writes by counting the passages naming each thinker the plaza
+  cannot quote. The first version of that count matched on surnames and put Byung-Chul Han in
+  the Analects twelve times, because "Han" is also a dynasty; it matches whole names now.
+- Two citation defects fixed on the way. A passage from a work with no internal divisions was
+  cited as "Gorgias, null, translated by Benjamin Jowett", because the reference was rendered
+  without a guard; and the displayed title carried the whole transmission gloss, so a citation
+  read "The Doctrine of the Mean (中庸), set down by my grandson Zisi" where it should read
+  "The Doctrine of the Mean (中庸)".
+- Verified on this HEAD: `librarytest.mjs` 26 checks, `proftest.mjs` 16, `roomtest.mjs` 15,
+  `feedtest.mjs` 11, `asktest.mjs` 27, all exit 0. `shot.mjs` exit 0, no horizontal overflow,
+  30 captures, and the Socrates profile is now one of the routes it photographs.
+  `contrast.mjs` exit 0 at 1440 and 390 over sixteen routes, with the new table and the new
+  profile block in them. `node engine/reindex.mjs` exit 0. Both prose gates exit 0, after two
+  rewrites they asked for: "the only copy is a page scan" lost its hedge, and the Great
+  Learning is named by its Chinese title, as the Chuanxilu already was in the same file.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

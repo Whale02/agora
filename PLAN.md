@@ -73,12 +73,12 @@ before fetching, and record the source id and URL):
       the copyright reason, so the absence is documented rather than assumed.
 
 Lane G, the record:
-- [ ] G1. A sources page section, or an addition to the existing library, listing every work
+- [x] G1. A sources page section, or an addition to the existing library, listing every work
       held: philosopher, work, translator, year, where it came from, passage count, with a
       link to the source edition. Every claim on it generated from the manifest, never typed.
-- [ ] G2. SOURCES.md updated: the 1930 rule stated plainly, the forbidden-source rule stated
+- [x] G2. SOURCES.md updated: the 1930 rule stated plainly, the forbidden-source rule stated
       plainly, the per-philosopher status table generated from the manifest.
-- [ ] G3. Socrates, who wrote nothing, points at the Plato corpus on his profile: the
+- [x] G3. Socrates, who wrote nothing, points at the Plato corpus on his profile: the
       dialogues in which he speaks, labelled as Plato's record of him rather than his own
       writing.
 

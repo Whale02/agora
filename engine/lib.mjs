@@ -332,6 +332,13 @@ const preview = (c) => {
 const esc = (s) =>
   s.replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[ch]);
 
+// The stub and the 404 ship without the app, so the one line each of them says carries both
+// readings, and this picks between them on the rule the app uses: the reader's saved choice
+// first, then the browser's language. With scripting off the English shows, which is the
+// reading the redirect target opens in for a reader who has never chosen.
+const LANG_PICK =
+  '<script>(function(){var p=null;try{p=localStorage.getItem("agora.lang")}catch(e){}if(p!=="zh"&&p!=="en"){var a=navigator.languages||[navigator.language||"en"];p=a.some(function(l){return /^zh/i.test(l)})?"zh":"en"}document.documentElement.lang=p==="zh"?"zh-Hans":"en";var s=document.querySelectorAll("[data-zh],[data-en]");for(var i=0;i<s.length;i++){s[i].hidden=s[i].hasAttribute("data-zh")?p!=="zh":p==="zh"}})();</script>';
+
 /// Static share pages: OG tags for link previews, then redirect into the app. A reader sees
 // this page for a blink before the redirect fires, and with scripting off they see it for
 // good, so it wears the plaza's own ground and type rather than a white flash.
@@ -367,8 +374,9 @@ a{display:inline-block;background:#C9A45C;color:#17120A;text-decoration:none;pad
 </head><body><main>
 <h1>${esc(c.topic)}</h1>
 <p>${esc(desc)}</p>
-<a href="${esc(url)}">Open this table in the plaza</a>
-</main></body></html>
+<a href="${esc(url)}"><span data-en>Open this table in the plaza</span><span data-zh hidden>在广场里打开这一桌</span></a>
+</main>
+${LANG_PICK}</body></html>
 `,
     "utf8",
   );

@@ -522,6 +522,53 @@ or a semicolon is dropped rather than cut mid-clause.
   rewrites they asked for: "the only copy is a page scan" lost its hedge, and the Great
   Learning is named by its Chinese title, as the Chuanxilu already was in the same file.
 
+### Verification of the whole run, on one HEAD
+
+Run at bfc1766. Every command below was run against that tree with nothing uncommitted but
+the screenshots, which are gitignored.
+
+    python scripts/slop-scan.py <the nine gated files>          exit 0
+    python scripts/slop-shapes.py --fail-on ... <seven files>   exit 0
+    node engine/reindex.mjs                                     exit 0
+    node engine/test-retrieve.mjs                               exit 0
+    node shot.mjs                                               exit 0, no horizontal overflow
+    node contrast.mjs                                           exit 0, 30 route-widths
+    node librarytest.mjs                                        exit 0
+    node proftest.mjs                                           exit 0, 16 checks
+    node roomtest.mjs                                           exit 0, 15 checks
+    node feedtest.mjs                                           exit 0, 11 checks
+    node asktest.mjs                                            exit 0, 27 checks
+
+`spotcheck.mjs` was run over all fifteen corpora: 246 of 247 sampled passages are found word
+for word in the source they cite. The one that is not is a Bailey fragment checked against
+the scan whose OCR garbles it; `fragments-check.mjs` holds the stronger evidence for that
+work, and the sentence in question is verbatim in the second scan of the same edition, which
+was checked directly. Negative control on the checker: replacing one Daodejing passage with
+an invented sentence fails it, 1 of 4 windows.
+
+Budgets: `docs/data/passages` is 11MB against the plan's 25MB ceiling, 106 files tracked;
+`docs/assets` is 1.7MB. `git ls-files` returns nothing under `.handoff/` or `.impeccable/`.
+
+The corpus at the close of the run: 15 philosophers of the 25, 91 works, 7,103 passages,
+from 36 works and 3,338 passages at the start. Ten philosophers are listed and unquoted, and
+SOURCES.md names each of them and why.
+
+    Plato               23 works   1,285 passages
+    Nietzsche           10           1,009
+    Schopenhauer        11             920
+    Seneca              12             819
+    Kant                 6             788
+    Aristotle            6             720
+    Wang Yangming        4             340
+    Kierkegaard          5             280
+    Zhuangzi             1             252
+    Confucius            3             206
+    Marcus Aurelius      1             205
+    Epicurus             6             110
+    Wittgenstein         1              76
+    Laozi                1              64
+    Zhu Xi               1              29
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

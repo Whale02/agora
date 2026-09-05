@@ -64,4 +64,10 @@ for slug in plato seneca schopenhauer wang-yangming kant aristotle kierkegaard c
   square "$Q/$slug.png" "$slug"
 done
 
+# The third commission (September 2026), the last seven, delivered already named.
+Q2=$H/../portraits-2026-09b
+for slug in zhuxi weil arendt beauvoir munger han taleb; do
+  square "$Q2/$slug.png" "$slug"
+done
+
 du -sh "$OUT"

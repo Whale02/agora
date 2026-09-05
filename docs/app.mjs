@@ -265,9 +265,10 @@ function tablet(c, by) {
 
 /* ---------- the room: one conversation, read ---------- */
 
-// The eighteen philosophers with commissioned portrait art: eight from the engineer handoff,
-// ten from the second commission. Everyone else keeps the medallion the stylesheet cuts from
-// their accent colour, which is a deliberate treatment rather than a missing asset.
+// Every philosopher now has commissioned portrait art: eight from the engineer handoff, ten
+// from the second commission, seven from the third. The set stays rather than becoming an
+// assumption, so a twenty-sixth philosopher added without art falls back to the medallion the
+// stylesheet cuts from their accent colour instead of requesting a file that is not there.
 const PLATES = new Set([
   "socrates",
   "marcus-aurelius",
@@ -287,6 +288,13 @@ const PLATES = new Set([
   "confucius",
   "wittgenstein",
   "epicurus",
+  "zhuxi",
+  "weil",
+  "arendt",
+  "beauvoir",
+  "munger",
+  "han",
+  "taleb",
 ]);
 
 const face = (p, size = "") =>

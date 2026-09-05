@@ -5,8 +5,9 @@ Every image in this directory is a derivative of founder-commissioned art, gener
 record of what came from what. Re-run the script from the repo root when the sources are
 present; nothing here is edited by hand.
 
-Two commissions: the original engineer handoff at `.handoff/agora_engineer_handoff/`, and a
-second portrait set at `.handoff/portraits-2026-09/` delivered September 2026.
+Three commissions: the original engineer handoff at `.handoff/agora_engineer_handoff/`, and
+two portrait sets at `.handoff/portraits-2026-09/` and `.handoff/portraits-2026-09b/`,
+delivered September 2026.
 
 The handoff images were generated for this project from the founder's own prompt, quoted in
 `.handoff/agora_engineer_handoff/README.md`. They carry no third-party rights.
@@ -58,9 +59,14 @@ Ten philosophers: plato, seneca, schopenhauer, wang-yangming, kant, aristotle, k
 confucius, wittgenstein, epicurus. Priority followed the corpus, so the thinkers the plaza
 quotes most now have a face.
 
-Seven still carry the gold-on-marble medallion the stylesheet draws from their accent
-colour, over `figure.webp`: zhuxi, weil, arendt, beauvoir, munger, han, taleb. That is a
-deliberate treatment, not a missing asset.
+    p/<slug>.webp  512x512, quality 82
+                   scaled from .handoff/portraits-2026-09b/<slug>.png
+
+The third commission closes the roster: zhuxi, weil, arendt, beauvoir, munger, han, taleb,
+delivered already named at 1024x1024. All twenty-five philosophers now have a portrait, so
+the medallion the stylesheet cuts from an accent colour no longer appears on any profile.
+It stays in the code rather than being deleted, because a twenty-sixth philosopher added
+without art should fall back to it instead of requesting a file that is not there.
 
 ## The share card
 
@@ -77,5 +83,5 @@ scratchpad `og.mjs` in the run notes does it in nine lines: open the file, wait 
 
 ## Budget
 
-The directory holds 39 files and measures 1.7MB against the plan's 6MB ceiling. Check it
+The directory holds 46 files and measures 1.9MB against the plan's 6MB ceiling. Check it
 with `du -sh docs/assets` after any rebuild.

@@ -77,12 +77,17 @@ from the five Chinese thinkers to the whole platform, so it is read here as two 
 the Chinese five stay first because their sources are the easiest to find and the founder
 reads them.
 
-Reading of the widened ask, stated as an assumption rather than guessed at silently: a
-philosopher's own language sits beside the English wherever the original is public domain,
-which for this roster means Greek, Latin, German, Danish and Chinese; and the site's own
-prose gains a Chinese reading, since its wayfinding is already bilingual and stopping there
-is the half-measure. Sources first, interface second: a translated interface over an
-English-only corpus would be the wrong way round.
+Corrected by the founder, 2026-09-05: two languages, English and Chinese, and no others.
+The earlier reading added each philosopher's own tongue, which put Greek under Marcus
+Aurelius and Epicurus, Latin under Seneca and German under Nietzsche. That is not wanted and
+has been stripped: 150 passages lost a non-Chinese original, and the four credits went with
+them. Chinese originals stay, because for the Chinese thinkers the original IS the Chinese.
+
+What that leaves, stated plainly so nobody re-derives the wrong scope later. Everything the
+platform itself says works in both languages. Everything a philosopher generates can be read
+in both. The one thing that cannot is a reproduced passage from a Western thinker: quoting
+Kant in Chinese means reprinting a modern Chinese translation, and every one of those is in
+copyright, so those passages stay English and the philosopher speaks around them.
 
 - [x] H1. Sources, Chinese first. Search in Chinese characters, not in English: the Chinese-language sites
       carry far more than an English query surfaces. ctext.org, Chinese Wikisource
@@ -137,6 +142,18 @@ Lane G, the record:
 - [x] G3. Socrates, who wrote nothing, points at the Plato corpus on his profile: the
       dialogues in which he speaks, labelled as Plato's record of him rather than his own
       writing.
+
+Lane I, what the correction leaves open:
+- [ ] I1. Wang Yangming's Chinese. He is the fifth Chinese thinker and the only one whose
+      340 passages carry no original: 傳習錄, 大學問 and the letters all exist in Chinese and
+      are Ming-dynasty, so far out of copyright. Same pairing law as H3, by the edition's own
+      numbering, unpaired rather than guessed. ctext has banned this machine, so use Chinese
+      Wikisource or the 国学 archives.
+- [ ] I2. The conversations are older than the library. All eight predate the corpus, carry
+      no provenance, and quote nothing: the philosophers in them never had their own pages in
+      front of them. Regenerating them, and letting the heartbeat write new ones, is the
+      point of everything built since. BLOCKED: it needs ANTHROPIC_API_KEY, which only the
+      founder can set. Nothing else in this plan waits on it.
 
 ## Run rules
 

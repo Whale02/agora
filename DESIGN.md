@@ -55,14 +55,27 @@ it is serif; if the interface says it, it is sans; if it is carved, a name or a 
 is a display face. Section labels are Marcellus uppercase, letterspaced 0.18em, in gold.
 
 Wayfinding is bilingual and paired, as the handoff shows: Chinese carved above small
-letterspaced English. Everything else, including every word a philosopher or a visitor
-says, is English.
+letterspaced English. The rest of the interface reads in one language at a time, chosen by
+the toggle at the foot of the stoa and remembered per reader, defaulting to whatever the
+browser asks for. `docs/i18n.mjs` holds both readings of every string the plaza itself says,
+and `:lang(zh)` puts the Chinese interface in the Chinese face with the tracking taken back
+out, since Latin capitals want air that characters already carry.
+
+What a philosopher or a visitor SAYS is English in both, and that is a rule rather than an
+omission. Their words are either a translation the library can name or the sentence they
+wrote themselves; running either through a translator would turn a quotation into a
+paraphrase. The subject words are the exception that proves it: the sixteen the site itself
+files things under read in Chinese, and the two hundred a philosopher's own entry lists do
+not, because the page that shows which words call whom has to show the words the engine
+matches.
 
 ## The stoa
 
 The shell is a left colonnade at 900px and up: the wordmark with its Chinese sub-line,
-bilingual wayfinding with line icons, and the handoff brazier burning at its foot behind a
-mask that fades it upward. Below 900px it lies down into a top bar whose label row scrolls.
+bilingual wayfinding with line icons, the language toggle under it, and the handoff brazier
+burning at its foot behind a mask that fades it upward. The toggle says the language you
+would get by pressing it, which is a language switch nobody has to learn to read; under
+900px it sits at the top right of the bar. Below 900px it lies down into a top bar whose label row scrolls.
 
 The `.stoa` element is the grid column, so its marble runs the full height of the page; a
 sticky `.rail` inside it is what follows the scroll. A window under 660px tall drops the

@@ -174,6 +174,48 @@ body { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 100vh; 
 .stoa nav a[aria-current="page"] .en { color: var(--gold); }
 .stoa .brazier { display: none; }
 
+/* When the plaza speaks Chinese, its own prose is set in the Chinese face. The display and
+   serif faces carry no CJK, so without this a browser substitutes one glyph at a time and the
+   headings arrive in whatever it happened to find. What a philosopher or a visitor says is
+   untouched: their words keep the serif they were written in. */
+:lang(zh) h1,
+:lang(zh) h2,
+:lang(zh) h3,
+:lang(zh) .canopy p,
+:lang(zh) .about p,
+:lang(zh) .about-head p,
+:lang(zh) .roster-head p,
+:lang(zh) .hint,
+:lang(zh) .counts,
+:lang(zh) .note,
+:lang(zh) .stylobate,
+:lang(zh) .chip,
+:lang(zh) .btn,
+:lang(zh) .tally,
+:lang(zh) .empty p,
+:lang(zh) .err p {
+  font-family: var(--zh);
+}
+:lang(zh) h1 { letter-spacing: 0.02em; }
+/* The lapidary headings are letterspaced wide because Latin capitals want the air. Chinese
+   characters already carry their own, and the same tracking pulls a heading apart. */
+:lang(zh) h2,
+:lang(zh) h3 { letter-spacing: 0.04em; }
+
+/* Which language the plaza speaks. It sits with the wayfinding because that is where the two
+   languages already stand together, and it says the language you would get by pressing it,
+   which is a language switch nobody has to learn to read. */
+.tongue {
+  font: inherit; font-size: 0.72rem; letter-spacing: 0.14em;
+  color: var(--muted); background: transparent;
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: 5px 12px; cursor: pointer; white-space: nowrap;
+  transition: color 0.15s ease-out, border-color 0.15s ease-out, background-color 0.15s ease-out;
+}
+.tongue[lang="zh-Hans"] { font-family: var(--zh); letter-spacing: 0.18em; }
+.tongue:hover { color: var(--gold-bright); border-color: var(--gold-deep); background: var(--surface); }
+.tongue:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
 /* under 900px the colonnade lies down into a bar: wordmark, then a scrolling label row */
 @media (max-width: 899px) {
   .stoa nav {
@@ -188,6 +230,10 @@ body { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 100vh; 
    of them with nothing to say so; below 620px it wraps instead */
 @media (max-width: 620px) {
   .stoa nav { flex-wrap: wrap; overflow-x: visible; }
+}
+@media (max-width: 899px) {
+  .rail { position: relative; }
+  .tongue { position: absolute; top: 16px; right: 16px; padding: 4px 10px; }
 }
 
 @media (min-width: 900px) {
@@ -205,6 +251,7 @@ body { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 100vh; 
   .wordmark .en { font-size: 1.34rem; }
   .stoa nav { flex-direction: column; margin: 36px 0 0; }
   .stoa nav .label { flex-direction: column; }
+  .tongue { margin: 18px 8px 0; align-self: flex-start; }
   .stoa .brazier {
     display: block; position: relative; z-index: 1;
     margin: 30px -14px 0; min-height: 190px; flex: 1 1 auto;

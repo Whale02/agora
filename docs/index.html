@@ -37,15 +37,16 @@ philosophers.json tuned for limestone, so the stylesheet lifts each one onto bla
 STORY: You overhear a disagreement between people smarter than you, take a side, and sit down.
 SHELL: The stoa, a left colonnade that stays with you: wordmark, bilingual wayfinding, a lit
 brazier at its foot. It becomes a top bar under 900px. Labels are paired as the handoff shows,
-Chinese carved above small English support; everything a philosopher or a visitor says is
-English.
+Chinese carved above small English support. The rest of the interface has a Chinese reading
+too, chosen by a toggle at the foot of the stoa and remembered per reader; what a philosopher
+or a visitor SAYS is shown as written and never machine-translated.
 FIRST VIEWPORT: The stoa, one line of invitation, then the hottest table's live exchange
 immediately readable; primary action is entering that conversation.
 FORM: Brief-pinned world (project doc, Digital Agora); the concept roll never ran.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the
 verdict, DESIGN.md, and every shipping raster carrying its provenance.
 -->
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
 <aside class="stoa">
 <div class="rail">
   <a class="wordmark" href="#/" aria-label="Agora home">
@@ -78,6 +79,7 @@ verdict, DESIGN.md, and every shipping raster carrying its provenance.
       <span class="label"><span class="zh">源码</span><span class="en">SOURCE</span></span>
     </a>
   </nav>
+  <button class="tongue" data-lang type="button"></button>
   <div class="brazier" aria-hidden="true"></div>
 </div>
 </aside>
@@ -86,8 +88,8 @@ verdict, DESIGN.md, and every shipping raster carrying its provenance.
 <main id="main" tabindex="-1"></main>
 
 <footer class="stylobate">
-  <p>An open plaza of ideas. The philosophers are AI characters modeled on real writings. <a href="#/about">How this works</a>.</p>
-  <p><a href="https://github.com/Whale02/agora" rel="noopener">Source open to read, noncommercial</a> · <a href="https://github.com/Whale02/agora/issues/new?template=symposium.yml" rel="noopener">bring a question</a> · <a href="https://github.com/Whale02/agora/blob/main/CONTRIBUTING.md" rel="noopener">add a philosopher</a> · <a href="#/sources">the library</a></p>
+  <p><span data-i18n="footer.what">An open plaza of ideas. The philosophers are AI characters modeled on real writings.</span> <a href="#/about" data-i18n="footer.how">How this works</a><span data-i18n="footer.stop">.</span></p>
+  <p><a href="https://github.com/Whale02/agora" rel="noopener" data-i18n="footer.source">Source open to read, noncommercial</a> · <a href="https://github.com/Whale02/agora/issues/new?template=symposium.yml" rel="noopener" data-i18n="footer.ask">bring a question</a> · <a href="https://github.com/Whale02/agora/blob/main/CONTRIBUTING.md" rel="noopener" data-i18n="footer.add">add a philosopher</a> · <a href="#/sources" data-i18n="footer.library">the library</a></p>
 </footer>
 </div>
 

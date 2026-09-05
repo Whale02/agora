@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:27:07.474Z",
+  "generated_at": "2026-09-05T12:32:20.674Z",
   "philosophers": {
     "socrates": [
       {
@@ -201,18 +201,6 @@
         "count": 3
       },
       {
-        "slug": "schopenhauer",
-        "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
-        "work_slug": "parerga-and-paralipomena",
-        "count": 3
-      },
-      {
-        "slug": "schopenhauer",
-        "work": "The World as Will and Idea, Volume III (the Supplements)",
-        "work_slug": "the-world-as-will-and-idea-volume-iii",
-        "count": 3
-      },
-      {
         "slug": "seneca",
         "work": "On the Happy Life (De Vita Beata)",
         "work_slug": "on-the-happy-life",
@@ -228,6 +216,24 @@
         "slug": "nietzsche",
         "work": "Ecce Homo",
         "work_slug": "ecce-homo",
+        "count": 2
+      },
+      {
+        "slug": "schopenhauer",
+        "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+        "work_slug": "parerga-and-paralipomena",
+        "count": 2
+      },
+      {
+        "slug": "schopenhauer",
+        "work": "On the Basis of Morality",
+        "work_slug": "on-the-basis-of-morality",
+        "count": 2
+      },
+      {
+        "slug": "schopenhauer",
+        "work": "The World as Will and Idea, Volume III (the Supplements)",
+        "work_slug": "the-world-as-will-and-idea-volume-iii",
         "count": 2
       },
       {
@@ -282,12 +288,6 @@
         "slug": "nietzsche",
         "work": "The Antichrist",
         "work_slug": "the-antichrist",
-        "count": 1
-      },
-      {
-        "slug": "schopenhauer",
-        "work": "On the Basis of Morality",
-        "work_slug": "on-the-basis-of-morality",
         "count": 1
       },
       {

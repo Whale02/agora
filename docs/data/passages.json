@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:27:07.471Z",
+  "generated_at": "2026-09-05T12:32:20.672Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -1861,21 +1861,21 @@
     {
       "slug": "schopenhauer",
       "passages": 920,
-      "words": 221919,
+      "words": 223255,
       "works": [
         {
           "work": "The World as Will and Representation",
           "slug": "the-world-as-will-and-representation",
           "file": "the-world-as-will-and-representation.json",
           "count": 120,
-          "words": 29266,
+          "words": 29448,
           "topics": [
             "knowledge",
             "meaning",
             "meta",
-            "nature",
             "self",
-            "action"
+            "action",
+            "nature"
           ]
         },
         {
@@ -1883,7 +1883,7 @@
           "slug": "parerga-and-paralipomena",
           "file": "parerga-and-paralipomena.json",
           "count": 120,
-          "words": 27935,
+          "words": 27891,
           "topics": [
             "knowledge",
             "self",
@@ -1898,14 +1898,14 @@
           "slug": "on-the-basis-of-morality",
           "file": "on-the-basis-of-morality.json",
           "count": 120,
-          "words": 29101,
+          "words": 28692,
           "topics": [
             "knowledge",
             "virtue",
             "action",
-            "meta",
             "self",
-            "meaning"
+            "meaning",
+            "meta"
           ]
         },
         {
@@ -1913,14 +1913,14 @@
           "slug": "the-world-as-will-and-idea-volume-ii",
           "file": "the-world-as-will-and-idea-volume-ii.json",
           "count": 90,
-          "words": 21744,
+          "words": 22186,
           "topics": [
             "knowledge",
             "self",
-            "nature",
             "action",
+            "nature",
             "meaning",
-            "virtue"
+            "meta"
           ]
         },
         {
@@ -1928,14 +1928,14 @@
           "slug": "the-world-as-will-and-idea-volume-iii",
           "file": "the-world-as-will-and-idea-volume-iii.json",
           "count": 90,
-          "words": 22488,
+          "words": 22776,
           "topics": [
             "knowledge",
-            "nature",
             "self",
-            "suffering",
+            "nature",
             "meaning",
-            "virtue"
+            "action",
+            "suffering"
           ]
         },
         {
@@ -1943,14 +1943,14 @@
           "slug": "on-the-fourfold-root-of-the-principle-of-sufficient-reason",
           "file": "on-the-fourfold-root-of-the-principle-of-sufficient-reason.json",
           "count": 80,
-          "words": 19962,
+          "words": 19312,
           "topics": [
             "knowledge",
             "meta",
-            "meaning",
             "action",
-            "nature",
-            "self"
+            "meaning",
+            "self",
+            "nature"
           ]
         },
         {
@@ -1958,14 +1958,14 @@
           "slug": "counsels-and-maxims",
           "file": "counsels-and-maxims.json",
           "count": 60,
-          "words": 13504,
+          "words": 14345,
           "topics": [
             "knowledge",
+            "meaning",
             "self",
             "suffering",
             "action",
-            "meaning",
-            "work"
+            "nature"
           ]
         },
         {
@@ -1973,14 +1973,14 @@
           "slug": "studies-in-pessimism",
           "file": "studies-in-pessimism.json",
           "count": 60,
-          "words": 14461,
+          "words": 14653,
           "topics": [
             "knowledge",
             "nature",
-            "suffering",
             "meaning",
+            "action",
             "self",
-            "virtue"
+            "suffering"
           ]
         },
         {
@@ -1988,14 +1988,14 @@
           "slug": "the-art-of-literature",
           "file": "the-art-of-literature.json",
           "count": 60,
-          "words": 14053,
+          "words": 15070,
           "topics": [
             "knowledge",
             "meta",
             "meaning",
-            "education",
             "action",
-            "work"
+            "work",
+            "education"
           ]
         },
         {
@@ -2003,14 +2003,14 @@
           "slug": "the-art-of-controversy",
           "file": "the-art-of-controversy.json",
           "count": 60,
-          "words": 14728,
+          "words": 14476,
           "topics": [
             "knowledge",
             "meta",
             "action",
             "self",
-            "meaning",
-            "virtue"
+            "nature",
+            "meaning"
           ]
         },
         {
@@ -2018,13 +2018,13 @@
           "slug": "on-the-will-in-nature",
           "file": "on-the-will-in-nature.json",
           "count": 60,
-          "words": 14677,
+          "words": 14406,
           "topics": [
             "knowledge",
-            "meta",
             "nature",
-            "action",
+            "meta",
             "meaning",
+            "action",
             "self"
           ]
         }
@@ -2032,55 +2032,55 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 680
-        },
-        {
-          "topic": "self",
-          "count": 287
-        },
-        {
-          "topic": "meaning",
-          "count": 280
-        },
-        {
-          "topic": "meta",
-          "count": 271
+          "count": 669
         },
         {
           "topic": "action",
-          "count": 260
+          "count": 322
+        },
+        {
+          "topic": "self",
+          "count": 322
+        },
+        {
+          "topic": "meaning",
+          "count": 304
         },
         {
           "topic": "nature",
-          "count": 249
+          "count": 263
+        },
+        {
+          "topic": "meta",
+          "count": 250
         },
         {
           "topic": "virtue",
-          "count": 202
+          "count": 196
         },
         {
           "topic": "suffering",
-          "count": 164
+          "count": 136
         },
         {
           "topic": "work",
-          "count": 124
-        },
-        {
-          "topic": "freedom",
-          "count": 96
-        },
-        {
-          "topic": "education",
-          "count": 83
+          "count": 120
         },
         {
           "topic": "love",
-          "count": 78
+          "count": 74
+        },
+        {
+          "topic": "freedom",
+          "count": 71
+        },
+        {
+          "topic": "education",
+          "count": 63
         },
         {
           "topic": "technology",
-          "count": 14
+          "count": 9
         }
       ],
       "translation_credits": [

@@ -137,7 +137,23 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "SOCRATES: Moreover, he might answer shortly and simply, but he makes an enormous circuit. For example, when asked about the clay, he might have said simply, that clay is moistened earth--what sort of clay is not to the point.\n\nTHEAETETUS: Yes, Socrates, there is no difficulty as you put the question. You mean, if I am not mistaken, something like what occurred to me and to my friend here, your namesake Socrates, in a recent discussion.\n\nTHEAETETUS: Theodorus was writing out for us something about roots, such as the roots of three or five, showing that they are incommensurable by the unit: he selected other examples up to seventeen--there he stopped. Now as there are innumerable roots, the notion occurred to us of attempting to include them all under one name or class.\n\nSOCRATES: And did you find such a class?",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "THEAETETUS: I think that we did; but I should like to have your opinion.\n\nTHEAETETUS: We divided all numbers into two classes: those which are made up of equal factors multiplying into one another, which we compared to square figures and called square or equilateral numbers;--that was one class.\n\nTHEAETETUS: The intermediate numbers, such as three and five, and every other number which is made up of unequal factors, either of a greater multiplied by a less, or of a less multiplied by a greater, and when regarded as a figure, is contained in unequal sides;--all these we compared to oblong figures, and called them oblong numbers.\n\nTHEAETETUS: The lines, or sides, which have for their squares the equilateral plane numbers, were called by us lengths or magnitudes; and the lines which are the roots of (or whose squares are equal to) the oblong numbers, were called powers or roots; the reason of this latter name being, that they are commensurable with the former [i.e., with the so-called lengths or magnitudes] not in linear measurement, but in the value of the superficial content of their squares; and the same about solids.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: Excellent, my boys; I think that you fully justify the praises of Theodorus, and that he will not be found guilty of false witness.\n\nTHEAETETUS: But I am unable, Socrates, to give you a similar answer about knowledge, which is what you appear to want; and therefore Theodorus is a deceiver after all.\n\nSOCRATES: Well, but if some one were to praise you for running, and to say that he never met your equal among boys, and afterwards you were beaten in a race by a grown-up man, who was a great runner--would the praise be any the less true?\n\nSOCRATES: And is the discovery of the nature of knowledge so small a matter, as just now said? Is it not one which would task the powers of men perfect in every way?",
       "topics": [
         "knowledge"
       ]
@@ -224,6 +240,14 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "SOCRATES: A wise man is not likely to talk nonsense. Let us try to understand him: the same wind is blowing, and yet one of us may be cold and the other not, or one may be slightly and the other very cold?\n\nSOCRATES: Now is the wind, regarded not in relation to us but absolutely, cold or not; or are we to say, with Protagoras, that the wind is cold to him who is cold, and not to him who is not?\n\nSOCRATES: Then it must appear so to each of them?\n\nSOCRATES: And 'appears to him' means the same as 'he perceives.'",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "SOCRATES: Then appearing and perceiving coincide in the case of hot and cold, and in similar instances; for things appear, or may be supposed to be, to each one such as he perceives them?\n\nSOCRATES: Then perception is always of existence, and being the same as knowledge is unerring?\n\nSOCRATES: In the name of the Graces, what an almighty wise man Protagoras must have been! He spoke these things in a parable to the common herd, like you and me, but told the truth, 'his Truth,' (In allusion to a book of Protagoras' which bore this title.) in secret to his own disciples.\n\nSOCRATES: I am about to speak of a high argument, in which all things are said to be relative; you cannot rightly call anything by any name, such as great or small, heavy or light, for the great will be small and the heavy light--there is no single thing or quality, but out of motion and change and admixture all things are becoming relatively to one another, which 'becoming' is by us incorrectly called being, but is really becoming, for nothing ever is, but all things are becoming. Summon all philosophers--Protagoras, Heracleitus, Empedocles, and the rest of them, one after another, and with the exception of Parmenides they will agree with you in this. Summon the great masters of either kind of poetry--Epicharmus, the prince of Comedy, and Homer of Tragedy; when the latter sings of",
       "topics": [
         "knowledge",
@@ -263,6 +287,16 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "SOCRATES: Or that anything appears the same to you as to another man? Are you so profoundly convinced of this? Rather would it not be true that it never appears exactly the same to you, because you are never exactly the same?\n\nSOCRATES: And if that with which I compare myself in size, or which I apprehend by touch, were great or white or hot, it could not become different by mere contact with another unless it actually changed; nor again, if the comparing or apprehending subject were great or white or hot, could this, when unchanged from within, become changed by any approximation or affection of any other thing. The fact is that in our ordinary way of speaking we allow ourselves to be driven into most ridiculous and wonderful contradictions, as Protagoras and all who take his line of argument would remark.\n\nTHEAETETUS: How? and of what sort do you mean?\n\nSOCRATES: A little instance will sufficiently explain my meaning: Here are six dice, which are more by a half when compared with four, and fewer by a half than twelve--they are more and also fewer. How can you or any one maintain the contrary?",
+      "topics": [
+        "knowledge",
+        "self",
+        "meta"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "THEAETETUS: Yes, Socrates, and I am amazed when I think of them; by the Gods I am! and I want to know what on earth they mean; and there are times when my head quite swims with the contemplation of them.\n\nSOCRATES: I see, my dear Theaetetus, that Theodorus had a true insight into your nature when he said that you were a philosopher, for wonder is the feeling of a philosopher, and philosophy begins in wonder. He was not a bad genealogist who said that Iris (the messenger of heaven) is the child of Thaumas (wonder). But do you begin to see what is the explanation of this perplexity on the hypothesis which we attribute to Protagoras?\n\nSOCRATES: Then you will be obliged to me if I help you to unearth the hidden 'truth' of a famous man or school.\n\nTHEAETETUS: To be sure, I shall be very much obliged.",
       "topics": [
         "nature",
@@ -285,10 +319,30 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "And from all these considerations, as I said at first, there arises a general reflection, that there is no one self-existent thing, but everything is becoming and in relation; and being must be altogether abolished, although from habit and ignorance we are compelled even in this discussion to retain the use of the term. But great philosophers tell us that we are not to allow either the word 'something,' or 'belonging to something,' or 'to me,' or 'this,' or 'that,' or any other detaining name to be used, in the language of nature all things are being created and destroyed, coming into being and passing into new forms; nor can any name fix or detain them; he who attempts to fix them is easily refuted. And this should be the way of speaking, not only of particulars but of aggregates; such aggregates as are expressed in the word 'man,' or 'stone,' or any name of an animal or of a class. O Theaetetus, are not these speculations sweet as honey? And do you not like the taste of them in the mouth?",
+      "topics": [
+        "meta",
+        "action",
+        "nature"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "THEAETETUS: I do not know what to say, Socrates; for, indeed, I cannot make out whether you are giving your own opinion or only wanting to draw me out.\n\nSOCRATES: You forget, my friend, that I neither know, nor profess to know, anything of these matters; you are the person who is in labour, I am the barren midwife; and this is why I soothe you, and offer you one good thing after another, that you may taste them. And I hope that I may at last help to bring your own opinion into the light of day: when this has been accomplished, then we will determine whether what you have brought forth is only a wind-egg or a real and genuine birth. Therefore, keep up your spirits, and answer like a man what you think.\n\nSOCRATES: Then once more: Is it your opinion that nothing is but what becomes?--the good and the noble, as well as all the other things which we were just now mentioning?\n\nTHEAETETUS: When I hear you discoursing in this style, I think that there is a great deal in what you say, and I am very ready to assent.",
       "topics": [
         "virtue",
         "knowledge"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: Let us not leave the argument unfinished, then; for there still remains to be considered an objection which may be raised about dreams and diseases, in particular about madness, and the various illusions of hearing and sight, or of other senses. For you know that in all these cases the esse-percipi theory appears to be unmistakably refuted, since in dreams and illusions we certainly have false perceptions; and far from saying that everything is which appears, we should rather say that nothing is which appears.\n\nSOCRATES: But then, my boy, how can any one contend that knowledge is perception, or that to every man what appears is?\n\nTHEAETETUS: I am afraid to say, Socrates, that I have nothing to answer, because you rebuked me just now for making this excuse; but I certainly cannot undertake to argue that madmen or dreamers think truly, when they imagine, some of them that they are gods, and others that they can fly, and are flying in their sleep.\n\nSOCRATES: Do you see another question which can be raised about these phenomena, notably about dreaming and waking?",
+      "topics": [
+        "knowledge",
+        "action",
+        "meta"
       ]
     },
     {
@@ -360,6 +414,26 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "THEAETETUS: I do not as yet understand you.\n\nSOCRATES: Then I will try to explain myself: just now we asked the question, whether a man who had learned and remembered could fail to know, and we showed that a person who had seen might remember when he had his eyes shut and could not see, and then he would at the same time remember and not know. But this was an impossibility. And so the Protagorean fable came to nought, and yours also, who maintained that knowledge is the same as perception.\n\nSOCRATES: And yet, my friend, I rather suspect that the result would have been different if Protagoras, who was the father of the first of the two brats, had been alive; he would have had a great deal to say on their behalf. But he is dead, and we insult over his orphan child; and even the guardians whom he left, and of whom our friend Theodorus is one, are unwilling to give any help, and therefore I suppose that I must take up his cause myself, and see justice done?\n\nTHEODORUS: Not I, Socrates, but rather Callias, the son of Hipponicus, is guardian of his orphans. I was too soon diverted from the abstractions of dialectic to geometry. Nevertheless, I shall be grateful to you if you assist him.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: Yes, my marvel, and there might have been yet worse things in store for you, if an opponent had gone on to ask whether you can have a sharp and also a dull knowledge, and whether you can know near, but not at a distance, or know the same thing with more or less intensity, and so on without end. Such questions might have been put to you by a light-armed mercenary, who argued for pay. He would have lain in wait for you, and when you took up the position, that sense is knowledge, he would have made an assault upon hearing, smelling, and the other senses;--he would have shown you no mercy; and while you were lost in envy and admiration of his wisdom, he would have got you into his net, out of which you would not have escaped until you had come to an understanding about the sum to be paid for your release. Well, you ask, and how will Protagoras reinforce his position? Shall I answer for him?\n\nSOCRATES: He will repeat all those things which we have been urging on his behalf, and then he will close with us in disdain, and say:--The worthy Socrates asked a little boy, whether the same man could remember and not know the same thing, and the boy said No, because he was frightened, and could not see what was coming, and then Socrates made fun of poor me.",
+      "topics": [
+        "knowledge",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "For no one can think what is not, or, think anything different from that which he feels; and this is always true. But as the inferior habit of mind has thoughts of kindred nature, so I conceive that a good mind causes men to have good thoughts; and these which the inexperienced call true, I maintain to be only better, and not truer than others. And, O my dear Socrates, I do not call wise men tadpoles: far from it; I say that they are the physicians of the human body, and the husbandmen of plants--for the husbandmen also take away the evil and disordered sensations of plants, and infuse into them good and healthy sensations--aye and true ones; and the wise and good rhetoricians make the good instead of the evil to seem just to states; for whatever appears to a state to be just and fair, so long as it is regarded as such, is just and fair to it; but the teacher of wisdom causes the good to take the place of the evil, both in appearance and in reality. And in like manner the Sophist who is able to train his pupils in this spirit is a wise man, and deserves to be well paid by them. And so one man is wiser than another; and no one thinks falsely, and you, whether you will or not, must endure to be a measure. On these foundations the argument stands firm, which you, Socrates, may, if you please, overthrow by an opposite argument, or if you like you may put questions to me--a method to which no intelligent person will object, quite the reverse.",
       "topics": [
         "knowledge",
@@ -377,6 +451,26 @@
         "knowledge",
         "action",
         "love"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: There, Theodorus, you have hit off precisely the nature of my complaint; but I am even more pugnacious than the giants of old, for I have met with no end of heroes; many a Heracles, many a Theseus, mighty in words, has broken my head; nevertheless I am always at this rough exercise, which inspires me like a passion. Please, then, to try a fall with me, whereby you will do yourself good as well as me.\n\nTHEODORUS: I consent; lead me whither you will, for I know that you are like destiny; no man can escape from any argument which you may weave for him. But I am not disposed to go further than you suggest.\n\nSOCRATES: Once will be enough; and now take particular care that we do not again unwittingly expose ourselves to the reproach of talking childishly.\n\nTHEODORUS: I will do my best to avoid that error.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: And are not we, Protagoras, uttering the opinion of man, or rather of all mankind, when we say that every one thinks himself wiser than other men in some things, and their inferior in others? In the hour of danger, when they are in perils of war, or of the sea, or of sickness, do they not look up to their commanders as if they were gods, and expect salvation from them, only because they excel them in knowledge? Is not the world full of men in their several employments, who are looking for teachers and rulers of themselves and of the animals? and there are plenty who think that they are able to teach and able to rule. Now, in all this is implied that ignorance and wisdom exist among them, at least in their own opinion.\n\nSOCRATES: And wisdom is assumed by them to be true thought, and ignorance to be false opinion.\n\nSOCRATES: How then, Protagoras, would you have us treat the argument? Shall we say that the opinions of men are always true, or sometimes true and sometimes false? In either case, the result is the same, and their opinions are not always true, but sometimes true and sometimes false. For tell me, Theodorus, do you suppose that you yourself, or any other follower of Protagoras, would contend that no one deems another ignorant or mistaken in his opinion?",
+      "topics": [
+        "knowledge",
+        "nature",
+        "education"
       ]
     },
     {
@@ -414,11 +508,75 @@
     {
       "work": "Theaetetus",
       "ref": null,
+      "text": "THEODORUS: Nay, Socrates, not until we have finished what we are about; for you truly said that we belong to a brotherhood which is free, and are not the servants of the argument; but the argument is our servant, and must wait our leisure. Who is our judge? Or where is the spectator having any right to censure or control us, as he might the poets?\n\nSOCRATES: Then, as this is your wish, I will describe the leaders; for there is no use in talking about the inferior sort. In the first place, the lords of philosophy have never, from their youth upwards, known their way to the Agora, or the dicastery, or the council, or any other political assembly; they neither see nor hear the laws or decrees, as they are called, of the state written or recited; the eagerness of political societies in the attainment of offices--clubs, and banquets, and revels, and singing-maidens,--do not enter even into their dreams. Whether any event has turned out well or ill in the city, what disgrace may have descended to any one from his ancestors, male or female, are matters of which the philosopher no more knows than he can tell, as they say, how many pints are contained in the ocean. Neither is he conscious of his ignorance. For he does not hold aloof in order that he may gain a reputation; but the truth is, that the outer form of him only is in the city: his mind, disdaining the littlenesses and nothingnesses of human things, is 'flying all abroad' as Pindar says, measuring earth and heaven and the things which are under and on the earth and above the heaven, interrogating the whole nature of each and all in their entirety, but not condescending to anything which is within reach.",
+      "topics": [
+        "knowledge",
+        "freedom",
+        "meta",
+        "nature"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: I will illustrate my meaning, Theodorus, by the jest which the clever witty Thracian handmaid is said to have made about Thales, when he fell into a well as he was looking up at the stars. She said, that he was so eager to know what was going on in heaven, that he could not see what was before his feet. This is a jest which is equally applicable to all philosophers. For the philosopher is wholly unacquainted with his next-door neighbour; he is ignorant, not only of what he is doing, but he hardly knows whether he is a man or an animal; he is searching into the essence of man, and busy in enquiring what belongs to such a nature to do or suffer different from any other;--I think that you understand me, Theodorus?\n\nTHEODORUS: I do, and what you say is true.\n\nSOCRATES: And thus, my friend, on every occasion, private as well as public, as I said at first, when he appears in a law-court, or in any place in which he has to speak of things which are at his feet and before his eyes, he is the jest, not only of Thracian handmaids but of the general herd, tumbling into wells and every sort of disaster through his inexperience. His awkwardness is fearful, and gives the impression of imbecility. When he is reviled, he has nothing personal to say in answer to the civilities of his adversaries, for he knows no scandals of any one, and they do not interest him; and therefore he is laughed at for his sheepishness; and when others are being praised and glorified, in the simplicity of his heart he cannot help going into fits of laughter, so that he seems to be a downright idiot.",
+      "topics": [
+        "knowledge",
+        "nature",
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
       "text": "When he hears a tyrant or king eulogized, he fancies that he is listening to the praises of some keeper of cattle--a swineherd, or shepherd, or perhaps a cowherd, who is congratulated on the quantity of milk which he squeezes from them; and he remarks that the creature whom they tend, and out of whom they squeeze the wealth, is of a less tractable and more insidious nature. Then, again, he observes that the great man is of necessity as ill-mannered and uneducated as any shepherd--for he has no leisure, and he is surrounded by a wall, which is his mountain-pen. Hearing of enormous landed proprietors of ten thousand acres and more, our philosopher deems this to be a trifle, because he has been accustomed to think of the whole earth; and when they sing the praises of family, and say that some one is a gentleman because he can show seven generations of wealthy ancestors, he thinks that their sentiments only betray a dull and narrow vision in those who utter them, and who are not educated enough to look at the whole, nor to consider that every man has had thousands and ten thousands of progenitors, and among them have been rich and poor, kings and slaves, Hellenes and barbarians, innumerable. And when people pride themselves on having a pedigree of twenty-five ancestors, which goes back to Heracles, the son of Amphitryon, he cannot understand their poverty of ideas.",
       "topics": [
         "work",
         "nature",
         "freedom"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: But, O my friend, when he draws the other into upper air, and gets him out of his pleas and rejoinders into the contemplation of justice and injustice in their own nature and in their difference from one another and from all other things; or from the commonplaces about the happiness of a king or of a rich man to the consideration of government, and of human happiness and misery in general--what they are, and how a man is to attain the one and avoid the other--when that narrow, keen, little legal mind is called to account about all this, he gives the philosopher his revenge; for dizzied by the height at which he is hanging, whence he looks down into space, which is a strange experience to him, he being dismayed, and lost, and stammering broken words, is laughed at, not by Thracian handmaidens or any other uneducated persons, for they have no eye for the situation, but by every man who has not been brought up a slave. Such are the two characters, Theodorus: the one of the freeman, who has been trained in liberty and leisure, whom you call the philosopher,--him we cannot blame because he appears simple and of no account when he has to perform some menial task, such as packing up bed-clothes, or flavouring a sauce or fawning speech; the other character is that of the man who is able to do all this kind of service smartly and neatly, but knows not how to wear his cloak like a gentleman; still less with the music of discourse can he hymn the true life aright which is lived by immortals or men blessed of heaven.",
+      "topics": [
+        "meta",
+        "freedom",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: There are two patterns eternally set before them; the one blessed and divine, the other godless and wretched: but they do not see them, or perceive that in their utter folly and infatuation they are growing like the one and unlike the other, by reason of their evil deeds; and the penalty is, that they lead a life answering to the pattern which they are growing like. And if we tell them, that unless they depart from their cunning, the place of innocence will not receive them after death; and that here on earth, they will live ever in the likeness of their own evil selves, and with evil friends--when they hear this they in their superior cunning will seem to be listening to the talk of idiots.\n\nSOCRATES: Too true, my friend, as I well know; there is, however, one peculiarity in their case: when they begin to reason in private about their dislike of philosophy, if they have the courage to hear the argument out, and do not run away, they grow at last strangely discontented with themselves; their rhetoric fades away, and they become helpless as children. These however are digressions from which we must now desist, or they will overflow, and drown the original argument; to which, if you please, we will now return.",
+      "topics": [
+        "knowledge",
+        "action",
+        "meta",
+        "love"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "THEODORUS: That is the best refutation of him, Socrates; although he is also caught when he ascribes truth to the opinions of others, who give the lie direct to his own opinion.\n\nSOCRATES: There are many ways, Theodorus, in which the doctrine that every opinion of every man is true may be refuted; but there is more difficulty in proving that states of feeling, which are present to a man, and out of which arise sensations and opinions in accordance with them, are also untrue. And very likely I have been talking nonsense about them; for they may be unassailable, and those who say that there is clear evidence of them, and that they are matters of knowledge, may probably be right; in which case our friend Theaetetus was not so far from the mark when he identified perception and knowledge. And therefore let us draw nearer, as the advocate of Protagoras desires; and give the truth of the universal flux a ring: is the theory sound or not? at any rate, no small war is raging about it, and there are combination not a few.\n\nTHEODORUS: No small, war, indeed, for in Ionia the sect makes rapid strides; the disciples of Heracleitus are most energetic upholders of the doctrine.",
+      "topics": [
+        "knowledge",
+        "love"
+      ]
+    },
+    {
+      "work": "Theaetetus",
+      "ref": null,
+      "text": "SOCRATES: I suppose, Theodorus, that you have only seen them when they were fighting, and have never stayed with them in time of peace, for they are no friends of yours; and their peace doctrines are only communicated by them at leisure, as I imagine, to those disciples of theirs whom they want to make like themselves.\n\nTHEODORUS: Disciples! my good sir, they have none; men of their sort are not one another's disciples, but they grow up at their own sweet will, and get their inspiration anywhere, each of them saying of his neighbour that he knows nothing. From these men, then, as I was going to remark, you will never get a reason, whether with their will or without their will; we must take the question out of their hands, and make the analysis ourselves, as if we were doing geometrical problem.\n\nSOCRATES: Quite right too; but as touching the aforesaid problem, have we not heard from the ancients, who concealed their wisdom from the many in poetical figures, that Oceanus and Tethys, the origin of all things, are streams, and that nothing is at rest? And now the moderns, in their superior wisdom, have declared the same openly, that the cobbler too may hear and learn of them, and no longer foolishly imagine that some things are at rest and others in motion--having learned that all is motion, he will duly honour his teachers. I had almost forgotten the opposite doctrine, Theodorus,",
+      "topics": [
+        "education",
+        "knowledge",
+        "action",
+        "virtue"
       ]
     },
     {

@@ -5,18 +5,28 @@
       "work": "Republic",
       "slug": "republic",
       "file": "republic.json",
-      "passages": 119,
-      "words": 21404,
+      "passages": 150,
+      "words": 26304,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1497"
     },
     {
+      "work": "Laws",
+      "slug": "laws",
+      "file": "laws.json",
+      "passages": 150,
+      "words": 31072,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1750"
+    },
+    {
       "work": "Symposium",
       "slug": "symposium",
       "file": "symposium.json",
-      "passages": 33,
-      "words": 7386,
+      "passages": 60,
+      "words": 13370,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1600"
@@ -25,8 +35,8 @@
       "work": "Phaedo",
       "slug": "phaedo",
       "file": "phaedo.json",
-      "passages": 38,
-      "words": 7315,
+      "passages": 60,
+      "words": 10813,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1658"
@@ -35,8 +45,8 @@
       "work": "Phaedrus",
       "slug": "phaedrus",
       "file": "phaedrus.json",
-      "passages": 35,
-      "words": 7539,
+      "passages": 60,
+      "words": 13033,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1636"
@@ -45,8 +55,8 @@
       "work": "Meno",
       "slug": "meno",
       "file": "meno.json",
-      "passages": 31,
-      "words": 4875,
+      "passages": 40,
+      "words": 6026,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1643"
@@ -55,8 +65,8 @@
       "work": "Apology",
       "slug": "apology",
       "file": "apology.json",
-      "passages": 23,
-      "words": 5539,
+      "passages": 40,
+      "words": 9291,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1656"
@@ -65,8 +75,8 @@
       "work": "Theaetetus",
       "slug": "theaetetus",
       "file": "theaetetus.json",
-      "passages": 44,
-      "words": 7953,
+      "passages": 60,
+      "words": 11301,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1726"
@@ -75,11 +85,151 @@
       "work": "Timaeus",
       "slug": "timaeus",
       "file": "timaeus.json",
-      "passages": 37,
-      "words": 8545,
+      "passages": 60,
+      "words": 14629,
       "translator": "Benjamin Jowett",
       "year": 1892,
       "source_url": "https://www.gutenberg.org/ebooks/1572"
+    },
+    {
+      "work": "Gorgias",
+      "slug": "gorgias",
+      "file": "gorgias.json",
+      "passages": 80,
+      "words": 13371,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1672"
+    },
+    {
+      "work": "Crito",
+      "slug": "crito",
+      "file": "crito.json",
+      "passages": 20,
+      "words": 3965,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1657"
+    },
+    {
+      "work": "Euthyphro",
+      "slug": "euthyphro",
+      "file": "euthyphro.json",
+      "passages": 25,
+      "words": 4533,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1642"
+    },
+    {
+      "work": "Protagoras",
+      "slug": "protagoras",
+      "file": "protagoras.json",
+      "passages": 60,
+      "words": 12426,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1591"
+    },
+    {
+      "work": "Sophist",
+      "slug": "sophist",
+      "file": "sophist.json",
+      "passages": 60,
+      "words": 7057,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1735"
+    },
+    {
+      "work": "Philebus",
+      "slug": "philebus",
+      "file": "philebus.json",
+      "passages": 60,
+      "words": 8492,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1744"
+    },
+    {
+      "work": "Parmenides",
+      "slug": "parmenides",
+      "file": "parmenides.json",
+      "passages": 50,
+      "words": 6556,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1687"
+    },
+    {
+      "work": "Ion",
+      "slug": "ion",
+      "file": "ion.json",
+      "passages": 20,
+      "words": 3372,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1635"
+    },
+    {
+      "work": "Critias",
+      "slug": "critias",
+      "file": "critias.json",
+      "passages": 25,
+      "words": 6500,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1571"
+    },
+    {
+      "work": "Statesman",
+      "slug": "statesman",
+      "file": "statesman.json",
+      "passages": 60,
+      "words": 9157,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1738"
+    },
+    {
+      "work": "Charmides",
+      "slug": "charmides",
+      "file": "charmides.json",
+      "passages": 35,
+      "words": 5691,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1580"
+    },
+    {
+      "work": "Cratylus",
+      "slug": "cratylus",
+      "file": "cratylus.json",
+      "passages": 60,
+      "words": 10133,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1616"
+    },
+    {
+      "work": "Lysis",
+      "slug": "lysis",
+      "file": "lysis.json",
+      "passages": 25,
+      "words": 3931,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1579"
+    },
+    {
+      "work": "Menexenus",
+      "slug": "menexenus",
+      "file": "menexenus.json",
+      "passages": 25,
+      "words": 5870,
+      "translator": "Benjamin Jowett",
+      "year": 1892,
+      "source_url": "https://www.gutenberg.org/ebooks/1682"
     }
   ]
 }

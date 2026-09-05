@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:06:24.785Z",
+  "generated_at": "2026-09-05T06:08:25.536Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -1083,78 +1083,93 @@
     },
     {
       "slug": "plato",
-      "passages": 360,
-      "words": 70556,
+      "passages": 1285,
+      "words": 236893,
       "works": [
         {
           "work": "Republic",
           "slug": "republic",
           "file": "republic.json",
-          "count": 119,
-          "words": 21404,
+          "count": 150,
+          "words": 26304,
           "topics": [
             "virtue",
             "knowledge",
             "action",
             "meta",
             "freedom",
-            "work"
+            "meaning"
           ]
         },
         {
-          "work": "Theaetetus",
-          "slug": "theaetetus",
-          "file": "theaetetus.json",
-          "count": 44,
-          "words": 7953,
+          "work": "Laws",
+          "slug": "laws",
+          "file": "laws.json",
+          "count": 150,
+          "words": 31072,
           "topics": [
             "knowledge",
-            "meta",
-            "action",
-            "nature",
+            "freedom",
             "virtue",
-            "self"
+            "action",
+            "meaning",
+            "meta"
+          ]
+        },
+        {
+          "work": "Gorgias",
+          "slug": "gorgias",
+          "file": "gorgias.json",
+          "count": 80,
+          "words": 13371,
+          "topics": [
+            "meta",
+            "knowledge",
+            "virtue",
+            "action",
+            "freedom",
+            "love"
+          ]
+        },
+        {
+          "work": "Symposium",
+          "slug": "symposium",
+          "file": "symposium.json",
+          "count": 60,
+          "words": 13370,
+          "topics": [
+            "love",
+            "knowledge",
+            "action",
+            "virtue",
+            "meaning",
+            "nature"
           ]
         },
         {
           "work": "Phaedo",
           "slug": "phaedo",
           "file": "phaedo.json",
-          "count": 38,
-          "words": 7315,
+          "count": 60,
+          "words": 10813,
           "topics": [
             "knowledge",
             "suffering",
+            "nature",
             "meta",
-            "nature",
             "action",
-            "meaning"
-          ]
-        },
-        {
-          "work": "Timaeus",
-          "slug": "timaeus",
-          "file": "timaeus.json",
-          "count": 37,
-          "words": 8545,
-          "topics": [
-            "nature",
-            "knowledge",
-            "meaning",
-            "freedom",
-            "self",
-            "action"
+            "self"
           ]
         },
         {
           "work": "Phaedrus",
           "slug": "phaedrus",
           "file": "phaedrus.json",
-          "count": 35,
-          "words": 7539,
+          "count": 60,
+          "words": 13033,
           "topics": [
-            "love",
             "knowledge",
+            "love",
             "meta",
             "self",
             "action",
@@ -1162,103 +1177,313 @@
           ]
         },
         {
-          "work": "Symposium",
-          "slug": "symposium",
-          "file": "symposium.json",
-          "count": 33,
-          "words": 7386,
+          "work": "Theaetetus",
+          "slug": "theaetetus",
+          "file": "theaetetus.json",
+          "count": 60,
+          "words": 11301,
           "topics": [
-            "love",
+            "knowledge",
+            "meta",
             "action",
+            "nature",
+            "virtue",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Timaeus",
+          "slug": "timaeus",
+          "file": "timaeus.json",
+          "count": 60,
+          "words": 14629,
+          "topics": [
+            "nature",
+            "meaning",
+            "knowledge",
+            "freedom",
+            "self",
+            "action"
+          ]
+        },
+        {
+          "work": "Protagoras",
+          "slug": "protagoras",
+          "file": "protagoras.json",
+          "count": 60,
+          "words": 12426,
+          "topics": [
             "knowledge",
             "virtue",
+            "action",
+            "meta",
+            "education",
+            "freedom"
+          ]
+        },
+        {
+          "work": "Sophist",
+          "slug": "sophist",
+          "file": "sophist.json",
+          "count": 60,
+          "words": 7057,
+          "topics": [
+            "knowledge",
+            "meta",
+            "action",
+            "nature",
             "meaning",
-            "work"
+            "virtue"
+          ]
+        },
+        {
+          "work": "Philebus",
+          "slug": "philebus",
+          "file": "philebus.json",
+          "count": 60,
+          "words": 8492,
+          "topics": [
+            "knowledge",
+            "meta",
+            "action",
+            "nature",
+            "self",
+            "virtue"
+          ]
+        },
+        {
+          "work": "Statesman",
+          "slug": "statesman",
+          "file": "statesman.json",
+          "count": 60,
+          "words": 9157,
+          "topics": [
+            "knowledge",
+            "action",
+            "freedom",
+            "nature",
+            "meta",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Cratylus",
+          "slug": "cratylus",
+          "file": "cratylus.json",
+          "count": 60,
+          "words": 10133,
+          "topics": [
+            "meta",
+            "knowledge",
+            "nature",
+            "action",
+            "meaning",
+            "virtue"
+          ]
+        },
+        {
+          "work": "Parmenides",
+          "slug": "parmenides",
+          "file": "parmenides.json",
+          "count": 50,
+          "words": 6556,
+          "topics": [
+            "knowledge",
+            "meta",
+            "action",
+            "meaning",
+            "love",
+            "virtue"
           ]
         },
         {
           "work": "Meno",
           "slug": "meno",
           "file": "meno.json",
-          "count": 31,
-          "words": 4875,
+          "count": 40,
+          "words": 6026,
           "topics": [
             "knowledge",
             "virtue",
             "action",
             "love",
             "meta",
-            "work"
+            "education"
           ]
         },
         {
           "work": "Apology",
           "slug": "apology",
           "file": "apology.json",
-          "count": 23,
-          "words": 5539,
+          "count": 40,
+          "words": 9291,
           "topics": [
             "knowledge",
             "action",
             "meta",
             "meaning",
-            "education",
-            "virtue"
+            "virtue",
+            "self"
+          ]
+        },
+        {
+          "work": "Charmides",
+          "slug": "charmides",
+          "file": "charmides.json",
+          "count": 35,
+          "words": 5691,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "meta",
+            "self",
+            "love"
+          ]
+        },
+        {
+          "work": "Euthyphro",
+          "slug": "euthyphro",
+          "file": "euthyphro.json",
+          "count": 25,
+          "words": 4533,
+          "topics": [
+            "knowledge",
+            "action",
+            "virtue",
+            "love",
+            "meaning",
+            "suffering"
+          ]
+        },
+        {
+          "work": "Critias",
+          "slug": "critias",
+          "file": "critias.json",
+          "count": 25,
+          "words": 6500,
+          "topics": [
+            "nature",
+            "knowledge",
+            "meaning",
+            "freedom",
+            "meta",
+            "action"
+          ]
+        },
+        {
+          "work": "Lysis",
+          "slug": "lysis",
+          "file": "lysis.json",
+          "count": 25,
+          "words": 3931,
+          "topics": [
+            "love",
+            "knowledge",
+            "action",
+            "meta",
+            "virtue",
+            "self"
+          ]
+        },
+        {
+          "work": "Menexenus",
+          "slug": "menexenus",
+          "file": "menexenus.json",
+          "count": 25,
+          "words": 5870,
+          "topics": [
+            "action",
+            "knowledge",
+            "virtue",
+            "freedom",
+            "nature",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Crito",
+          "slug": "crito",
+          "file": "crito.json",
+          "count": 20,
+          "words": 3965,
+          "topics": [
+            "knowledge",
+            "suffering",
+            "virtue",
+            "action",
+            "love",
+            "meta"
+          ]
+        },
+        {
+          "work": "Ion",
+          "slug": "ion",
+          "file": "ion.json",
+          "count": 20,
+          "words": 3372,
+          "topics": [
+            "knowledge",
+            "meta",
+            "meaning",
+            "action",
+            "freedom",
+            "self"
           ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 214
+          "count": 663
         },
         {
           "topic": "virtue",
-          "count": 124
+          "count": 377
         },
         {
           "topic": "action",
-          "count": 111
+          "count": 366
         },
         {
           "topic": "meta",
-          "count": 88
-        },
-        {
-          "topic": "love",
-          "count": 80
+          "count": 327
         },
         {
           "topic": "nature",
-          "count": 79
+          "count": 262
         },
         {
           "topic": "meaning",
-          "count": 67
+          "count": 241
         },
         {
-          "topic": "self",
-          "count": 59
+          "topic": "love",
+          "count": 236
         },
         {
           "topic": "freedom",
-          "count": 58
+          "count": 222
+        },
+        {
+          "topic": "self",
+          "count": 180
         },
         {
           "topic": "suffering",
-          "count": 50
+          "count": 145
         },
         {
           "topic": "work",
-          "count": 38
+          "count": 110
         },
         {
           "topic": "education",
-          "count": 34
+          "count": 110
         },
         {
           "topic": "technology",
-          "count": 3
+          "count": 14
         }
       ],
       "translation_credits": [
@@ -1267,6 +1492,12 @@
           "translator": "Benjamin Jowett",
           "year": 1892,
           "source_url": "https://www.gutenberg.org/ebooks/1497"
+        },
+        {
+          "work": "Laws",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1750"
         },
         {
           "work": "Symposium",
@@ -1309,6 +1540,90 @@
           "translator": "Benjamin Jowett",
           "year": 1892,
           "source_url": "https://www.gutenberg.org/ebooks/1572"
+        },
+        {
+          "work": "Gorgias",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1672"
+        },
+        {
+          "work": "Crito",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1657"
+        },
+        {
+          "work": "Euthyphro",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1642"
+        },
+        {
+          "work": "Protagoras",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1591"
+        },
+        {
+          "work": "Sophist",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1735"
+        },
+        {
+          "work": "Philebus",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1744"
+        },
+        {
+          "work": "Parmenides",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1687"
+        },
+        {
+          "work": "Ion",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1635"
+        },
+        {
+          "work": "Critias",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1571"
+        },
+        {
+          "work": "Statesman",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1738"
+        },
+        {
+          "work": "Charmides",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1580"
+        },
+        {
+          "work": "Cratylus",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1616"
+        },
+        {
+          "work": "Lysis",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1579"
+        },
+        {
+          "work": "Menexenus",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "source_url": "https://www.gutenberg.org/ebooks/1682"
         }
       ]
     },

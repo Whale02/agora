@@ -93,6 +93,15 @@
     {
       "work": "Apology",
       "ref": null,
+      "text": "Then I went to one man after another, being not unconscious of the enmity which I provoked, and I lamented and feared this: but necessity was laid upon me,—the word of God, I thought, ought to be considered first. And I said to myself, Go I must to all who appear to know, and find out the meaning of the oracle. And I swear to you, Athenians, by the dog I swear!—for I must tell you the truth—the result of my mission was just this: I found that the men most in repute were all but the most foolish; and that others less esteemed were really wiser and better. I will tell you the tale of my wanderings and of the “Herculean” labours, as I may call them, which I endured only to find at last the oracle irrefutable. After the politicians, I went to the poets; tragic, dithyrambic, and all sorts. And there, I said to myself, you will be instantly detected; now you will find out that you are more ignorant than they are. Accordingly, I took them some of the most elaborate passages in their own writings, and asked what was the meaning of them—thinking that they would teach me something. Will you believe me? I am almost ashamed to confess the truth, but I must say that there is hardly a person present who would not have talked better about their poetry than they did themselves. Then I knew that not by wisdom do poets write poetry, but by a sort of genius and inspiration; they are like diviners or soothsayers who also say many fine things, but do not understand the meaning of them. The poets appeared to me to be much in the same case; and I further observed that upon the strength of their poetry they believed themselves to be the wisest of men in other things in which they were not wise. So I departed, conceiving myself to be superior to them for the same reason that I was superior to the politicians.",
+      "topics": [
+        "knowledge",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
       "text": "At last I went to the artisans. I was conscious that I knew nothing at all, as I may say, and I was sure that they knew many fine things; and here I was not mistaken, for they did know many things of which I was ignorant, and in this they certainly were wiser than I was. But I observed that even the good artisans fell into the same error as the poets;—because they were good workmen they thought that they also knew all sorts of high matters, and this defect in them overshadowed their wisdom; and therefore I asked myself on behalf of the oracle, whether I would like to be as I was, neither having their knowledge nor their ignorance, or like them in both; and I made answer to myself and to the oracle that I was better off as I was.\n\nThis inquisition has led to my having many enemies of the worst and most dangerous kind, and has given occasion also to many calumnies. And I am called wise, for my hearers always imagine that I myself possess the wisdom which I find wanting in others: but the truth is, O men of Athens, that God only is wise; and by his answer he intends to show that the wisdom of men is worth little or nothing; he is not speaking of Socrates, he is only using my name by way of illustration, as if he said, He, O men, is the wisest, who, like Socrates, knows that his wisdom is in truth worth nothing.",
       "topics": [
         "knowledge",
@@ -118,6 +127,31 @@
         "action",
         "education",
         "meta"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "I have said enough in my defence against the first class of my accusers; I turn to the second class. They are headed by Meletus, that good man and true lover of his country, as he calls himself. Against these, too, I must try to make a defence:—Let their affidavit be read: it contains something of this kind: It says that Socrates is a doer of evil, who corrupts the youth; and who does not believe in the gods of the state, but has other new divinities of his own. Such is the charge; and now let us examine the particular counts. He says that I am a doer of evil, and corrupt the youth; but I say, O men of Athens, that Meletus is a doer of evil, in that he pretends to be in earnest when he is only in jest, and is so eager to bring men to trial from a pretended zeal and interest about matters in which he really never had the smallest interest. And the truth of this I will endeavour to prove to you.\n\nCome hither, Meletus, and let me ask a question of you. You think a great deal about the improvement of youth?",
+      "topics": [
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "Tell the judges, then, who is their improver; for you must know, as you have taken the pains to discover their corrupter, and are citing and accusing me before them. Speak, then, and tell the judges who their improver is.—Observe, Meletus, that you are silent, and have nothing to say. But is not this rather disgraceful, and a very considerable proof of what I was saying, that you have no interest in the matter? Speak up, friend, and tell us who their improver is.\n\nBut that, my good sir, is not my meaning. I want to know who the person is, who, in the first place, knows the laws.\n\nThe judges, Socrates, who are present in court.\n\nWhat, do you mean to say, Meletus, that they are able to instruct and improve youth?",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "What, all of them, or some only and not others?\n\nBy the goddess Here, that is good news! There are plenty of improvers, then. And what do you say of the audience,—do they improve them?\n\nBut perhaps the members of the assembly corrupt them?—or do they too improve them?\n\nThen every Athenian improves and elevates them; all with the exception of myself; and I alone am their corrupter? Is that what you affirm?",
+      "topics": [
+        "self"
       ]
     },
     {
@@ -167,6 +201,16 @@
       "text": "Nobody will believe you, Meletus, and I am pretty sure that you do not believe yourself. I cannot help thinking, men of Athens, that Meletus is reckless and impudent, and that he has written this indictment in a spirit of mere wantonness and youthful bravado. Has he not compounded a riddle, thinking to try me? He said to himself:—I shall see whether the wise Socrates will discover my facetious contradiction, or whether I shall be able to deceive him and the rest of them. For he certainly does appear to me to contradict himself in the indictment as much as if he said that Socrates is guilty of not believing in the gods, and yet of believing in them—but this is not like a person who is in earnest.\n\nI should like you, O men of Athens, to join me in examining what I conceive to be his inconsistency; and do you, Meletus, answer. And I must remind the audience of my request that they would not make a disturbance if I speak in my accustomed manner:\n\nDid ever man, Meletus, believe in the existence of human things, and not of human beings?...I wish, men of Athens, that he would answer, and not be always trying to get up an interruption. Did ever any man believe in horsemanship, and not in horses? or in flute-playing, and not in flute-players? No, my friend; I will answer to you and to the court, as you refuse to answer for yourself. There is no man who ever did. But now please to answer the next question: Can a man believe in spiritual and divine agencies, and not in spirits or demigods?",
       "topics": [
         "action",
+        "knowledge",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "How lucky I am to have extracted that answer, by the assistance of the court! But then you swear in the indictment that I teach and believe in divine or spiritual agencies (new or old, no matter for that); at any rate, I believe in spiritual agencies,—so you say and swear in the affidavit; and yet if I believe in divine beings, how can I help believing in spirits or demigods;—must I not? To be sure I must; and therefore I may assume that your silence gives consent. Now what are spirits or demigods? Are they not either gods or the sons of gods?\n\nBut this is what I call the facetious riddle invented by you: the demigods or spirits are gods, and you say first that I do not believe in gods, and then again that I do believe in gods; that is, if I believe in demigods. For if the demigods are the illegitimate sons of gods, whether by the nymphs or by any other mothers, of whom they are said to be the sons—what human being will ever believe that there are no gods if they are the sons of gods? You might as well affirm the existence of mules, and deny that of horses and asses. Such nonsense, Meletus, could only have been intended by you to make trial of me. You have put this into the indictment because you had nothing real of which to accuse me. But no one who has a particle of understanding will ever be convinced by you that the same men can believe in divine and superhuman things, and yet not believe that there are gods and demigods and heroes.",
+      "topics": [
         "knowledge",
         "meaning",
         "meta"
@@ -227,6 +271,56 @@
     {
       "work": "Apology",
       "ref": null,
+      "text": "Men of Athens, do not interrupt, but hear me; there was an understanding between us that you should hear me to the end: I have something more to say, at which you may be inclined to cry out; but I believe that to hear me will be good for you, and therefore I beg that you will not cry out. I would have you know, that if you kill such an one as I am, you will injure yourselves more than you will injure me. Nothing will injure me, not Meletus nor yet Anytus—they cannot, for a bad man is not permitted to injure a better than himself. I do not deny that Anytus may, perhaps, kill him, or drive him into exile, or deprive him of civil rights; and he may imagine, and others may imagine, that he is inflicting a great injury upon him: but there I do not agree. For the evil of doing as he is doing—the evil of unjustly taking away the life of another—is greater far.\n\nAnd now, Athenians, I am not going to argue for my own sake, as you may think, but for yours, that you may not sin against the God by condemning me, who am his gift to you. For if you kill me you will not easily find a successor to me, who, if I may use such a ludicrous figure of speech, am a sort of gadfly, given to the state by God; and the state is a great and noble steed who is tardy in his motions owing to his very size, and requires to be stirred into life.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning",
+        "action"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "I am that gadfly which God has attached to the state, and all day long and in all places am always fastening upon you, arousing and persuading and reproaching you. You will not easily find another like me, and therefore I would advise you to spare me. I dare say that you may feel out of temper (like a person who is suddenly awakened from sleep), and you think that you might easily strike me dead as Anytus advises, and then you would sleep on for the remainder of your lives, unless God in his care of you sent you another gadfly. When I say that I am given to you by God, the proof of my mission is this:—if I had been like other men, I should not have neglected all my own concerns or patiently seen the neglect of them during all these years, and have been doing yours, coming to you individually like a father or elder brother, exhorting you to regard virtue; such conduct, I say, would be unlike human nature. If I had gained anything, or if my exhortations had been paid, there would have been some sense in my doing so; but now, as you will perceive, not even the impudence of my accusers dares to say that I have ever exacted or sought pay of any one; of that they have no witness. And I have a sufficient witness to the truth of what I say—my poverty.",
+      "topics": [
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "Some one may wonder why I go about in private giving advice and busying myself with the concerns of others, but do not venture to come forward in public and advise the state. I will tell you why. You have heard me speak at sundry times and in divers places of an oracle or sign which comes to me, and is the divinity which Meletus ridicules in the indictment. This sign, which is a kind of voice, first began to come to me when I was a child; it always forbids but never commands me to do anything which I am going to do. This is what deters me from being a politician. And rightly, as I think. For I am certain, O men of Athens, that if I had engaged in politics, I should have perished long ago, and done no good either to you or to myself. And do not be offended at my telling you the truth: for the truth is, that no man who goes to war with you or any other multitude, honestly striving against the many lawless and unrighteous deeds which are done in a state, will save his life; he who will fight for the right, if he would live even for a brief space, must have a private station and not a public one.",
+      "topics": [
+        "action",
+        "freedom",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "I can give you convincing evidence of what I say, not words only, but what you value far more—actions. Let me relate to you a passage of my own life which will prove to you that I should never have yielded to injustice from any fear of death, and that “as I should have refused to yield” I must have died at once. I will tell you a tale of the courts, not very interesting perhaps, but nevertheless true. The only office of state which I ever held, O men of Athens, was that of senator: the tribe Antiochis, which is my tribe, had the presidency at the trial of the generals who had not taken up the bodies of the slain after the battle of Arginusae; and you proposed to try them in a body, contrary to law, as you all thought afterwards; but at the time I was the only one of the Prytanes who was opposed to the illegality, and I gave my vote against you; and when the orators threatened to impeach and arrest me, and you called and shouted, I made up my mind that I would run the risk, having law and justice with me, rather than take part in your injustice because I feared imprisonment and death. This happened in the days of the democracy. But when the oligarchy of the Thirty was in power, they sent for me and four others into the rotunda, and bade us bring Leon the Salaminian from Salamis, as they wanted to put him to death.",
+      "topics": [
+        "knowledge",
+        "suffering",
+        "virtue",
+        "nature"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "This was a specimen of the sort of commands which they were always giving with the view of implicating as many as possible in their crimes; and then I showed, not in word only but in deed, that, if I may be allowed to use such an expression, I cared not a straw for death, and that my great and only care was lest I should do an unrighteous or unholy thing. For the strong arm of that oppressive power did not frighten me into doing wrong; and when we came out of the rotunda the other four went to Salamis and fetched Leon, but I went quietly home. For which I might have lost my life, had not the power of the Thirty shortly afterwards come to an end. And many will witness to my words.",
+      "topics": [
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
       "text": "Now do you really imagine that I could have survived all these years, if I had led a public life, supposing that like a good man I had always maintained the right and had made justice, as I ought, the first thing? No indeed, men of Athens, neither I nor any other man. But I have been always the same in all my actions, public as well as private, and never have I yielded any base compliance to those who are slanderously termed my disciples, or to any other. Not that I have any regular disciples. But if any one likes to come and hear me while I am pursuing my mission, whether he be young or old, he is not excluded. Nor do I converse only with those who pay; but any one, whether he be rich or poor, may ask and answer me and listen to my words; and whether he turns out to be a bad man or a good one, neither result can be justly imputed to me; for I never taught or professed to teach him anything. And if any one says that he has ever learned or heard anything from me in private which all the world has not heard, let me tell you that he is lying.",
       "topics": [
         "education",
@@ -238,11 +332,81 @@
     {
       "work": "Apology",
       "ref": null,
+      "text": "But I shall be asked, Why do people delight in continually conversing with you? I have told you already, Athenians, the whole truth about this matter: they like to hear the cross-examination of the pretenders to wisdom; there is amusement in it. Now this duty of cross-examining other men has been imposed upon me by God; and has been signified to me by oracles, visions, and in every way in which the will of divine power was ever intimated to any one. This is true, O Athenians, or, if not true, would be soon refuted. If I am or have been corrupting the youth, those of them who are now grown up and have become sensible that I gave them bad advice in the days of their youth should come forward as accusers, and take their revenge; or if they do not like to come themselves, some of their relatives, fathers, brothers, or other kinsmen, should say what evil their families have suffered at my hands. Now is their time. Many of them I see in the court. There is Crito, who is of the same age and of the same deme with myself, and there is Critobulus his son, whom I also see. Then again there is Lysanias of Sphettus, who is the father of Aeschines—he is present; and also there is Antiphon of Cephisus, who is the father of Epigenes; and there are the brothers of several who have associated with me.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "self"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "There is Nicostratus the son of Theosdotides, and the brother of Theodotus (now Theodotus himself is dead, and therefore he, at any rate, will not seek to stop him); and there is Paralus the son of Demodocus, who had a brother Theages; and Adeimantus the son of Ariston, whose brother Plato is present; and Aeantodorus, who is the brother of Apollodorus, whom I also see. I might mention a great many others, some of whom Meletus should have produced as witnesses in the course of his speech; and let him still produce them, if he has forgotten—I will make way for him. And let him say, if he has any testimony of the sort which he can produce. Nay, Athenians, the very opposite is the truth. For all these are ready to witness on behalf of the corrupter, of the injurer of their kindred, as Meletus and Anytus call me; not the corrupted youth only—there might have been a motive for that—but their uncorrupted elder relatives. Why should they too support me with their testimony? Why, indeed, except for the sake of truth and justice, and because they know that I am speaking the truth, and that Meletus is a liar.",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
       "text": "Well, Athenians, this and the like of this is all the defence which I have to offer. Yet a word more. Perhaps there may be some one who is offended at me, when he calls to mind how he himself on a similar, or even a less serious occasion, prayed and entreated the judges with many tears, and how he produced his children in court, which was a moving spectacle, together with a host of relations and friends; whereas I, who am probably in danger of my life, will do none of these things. The contrast may occur to his mind, and he may be set against me, and vote in anger because he is displeased at me on this account. Now if there be such a person among you,—mind, I do not say that there is,—to him I may fairly reply: My friend, I am a man, and like other men, a creature of flesh and blood, and not “of wood or stone,” as Homer says; and I have a family, yes, and sons, O Athenians, three in number, one almost a man, and two others who are still young; and yet I will not bring any of them hither in order to petition you for an acquittal. And why not? Not from any self-assertion or want of respect for you. Whether I am or am not afraid of death is another question, of which I will not now speak.",
       "topics": [
         "love",
         "self",
         "meta"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "But, having regard to public opinion, I feel that such conduct would be discreditable to myself, and to you, and to the whole state. One who has reached my years, and who has a name for wisdom, ought not to demean himself. Whether this opinion of me be deserved or not, at any rate the world has decided that Socrates is in some way superior to other men. And if those among you who are said to be superior in wisdom and courage, and any other virtue, demean themselves in this way, how shameful is their conduct! I have seen men of reputation, when they have been condemned, behaving in the strangest manner: they seemed to fancy that they were going to suffer something dreadful if they died, and that they could be immortal if you only allowed them to live; and I think that such are a dishonour to the state, and that any stranger coming in would have said of them that the most eminent men of Athens, to whom the Athenians themselves give honour and command, are no better than women. And I say that these things ought not to be done by those of us who have a reputation; and if they are done, you ought not to permit them; you ought rather to show that you are far more disposed to condemn the man who gets up a doleful scene and makes the city ridiculous, than him who holds his peace.",
+      "topics": [
+        "freedom",
+        "virtue",
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "But, setting aside the question of public opinion, there seems to be something wrong in asking a favour of a judge, and thus procuring an acquittal, instead of informing and convincing him. For his duty is, not to make a present of justice, but to give judgment; and he has sworn that he will judge according to the laws, and not according to his own good pleasure; and we ought not to encourage you, nor should you allow yourselves to be encouraged, in this habit of perjury—there can be no piety in that. Do not then require me to do what I consider dishonourable and impious and wrong, especially now, when I am being tried for impiety on the indictment of Meletus. For if, O men of Athens, by force of persuasion and entreaty I could overpower your oaths, then I should be teaching you to believe that there are no gods, and in defending should simply convict myself of the charge of not believing in them. But that is not so—far otherwise. For I do believe that there are gods, and in a sense higher than that in which any of my accusers believe in them. And to you and to God I commit my cause, to be determined by you as is best for you and me.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning",
+        "action"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "There are many reasons why I am not grieved, O men of Athens, at the vote of condemnation. I expected it, and am only surprised that the votes are so nearly equal; for I had thought that the majority against me would have been far larger; but now, had thirty votes gone over to the other side, I should have been acquitted. And I may say, I think, that I have escaped Meletus. I may say more; for without the assistance of Anytus and Lycon, any one may see that he would not have had a fifth part of the votes, as the law requires, in which case he would have incurred a fine of a thousand drachmae.\n\nAnd so he proposes death as the penalty. And what shall I propose on my part, O men of Athens? Clearly that which is my due. And what is my due? What return shall be made to the man who has never had the wit to be idle during his whole life; but has been careless of what the many care for—wealth, and family interests, and military offices, and speaking in the assembly, and magistracies, and plots, and parties. Reflecting that I was really too honest a man to be a politician and live, I did not go where I could do no good to you or to myself; but where I could do the greatest good privately to every one of you, thither I went, and sought to persuade every man among you that he must look to himself, and seek virtue and wisdom before he looks to his private interests, and look to the state before he looks to the interests of the state; and that this should be the order which he observes in all his actions.",
+      "topics": [
+        "virtue",
+        "knowledge",
+        "self",
+        "action"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "Perhaps you think that I am braving you in what I am saying now, as in what I said before about the tears and prayers. But this is not so. I speak rather because I am convinced that I never intentionally wronged any one, although I cannot convince you—the time has been too short; if there were a law at Athens, as there is in other cities, that a capital cause should not be decided in one day, then I believe that I should have convinced you. But I cannot in a moment refute great slanders; and, as I am convinced that I never wronged another, I will assuredly not wrong myself. I will not say of myself that I deserve any evil, or propose any penalty. Why should I? because I am afraid of the penalty of death which Meletus proposes? When I do not know whether death is a good or an evil, why should I propose a penalty which would certainly be an evil? Shall I say imprisonment? And why should I live in prison, and be the slave of the magistrates of the year—of the Eleven? Or shall the penalty be a fine, and imprisonment until the fine is paid? There is the same objection. I should have to lie in prison, for money I have none, and cannot pay. And if I say exile (and this may possibly be the penalty which you will affix), I must indeed be blinded by the love of life, if I am so irrational as to expect that when you, who are my own citizens, cannot endure my discourses and words, and have found them so grievous and odious that you will have no more of them, others are likely to endure me.",
+      "topics": [
+        "freedom",
+        "suffering",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Apology",
+      "ref": null,
+      "text": "No indeed, men of Athens, that is not very likely. And what a life should I lead, at my age, wandering from city to city, ever changing my place of exile, and always being driven out! For I am quite sure that wherever I go, there, as here, the young men will flock to me; and if I drive them away, their elders will drive me out at their request; and if I let them come, their fathers and friends will drive me out for their sakes.",
+      "topics": [
+        "love"
       ]
     }
   ]

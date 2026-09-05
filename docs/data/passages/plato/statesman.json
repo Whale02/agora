@@ -1,0 +1,556 @@
+{
+  "slug": "plato",
+  "work": "Statesman",
+  "work_slug": "statesman",
+  "translation_credit": {
+    "work": "Statesman",
+    "translator": "Benjamin Jowett",
+    "year": 1892,
+    "source_url": "https://www.gutenberg.org/ebooks/1738"
+  },
+  "passages": [
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "SOCRATES: I owe you many thanks, indeed, Theodorus, for the acquaintance both of Theaetetus and of the Stranger.\n\nTHEODORUS: And in a little while, Socrates, you will owe me three times as many, when they have completed for you the delineation of the Statesman and of the Philosopher, as well as of the Sophist.\n\nSOCRATES: Sophist, statesman, philosopher! O my dear Theodorus, do my ears truly witness that this is the estimate formed of them by the great calculator and geometrician?\n\nSOCRATES: I mean that you rate them all at the same value, whereas they are really separated by an interval, which no geometrical ratio can express.",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "THEODORUS: By Ammon, the god of Cyrene, Socrates, that is a very fair hit; and shows that you have not forgotten your geometry. I will retaliate on you at some other time, but I must now ask the Stranger, who will not, I hope, tire of his goodness to us, to proceed either with the Statesman or with the Philosopher, whichever he prefers.\n\nSTRANGER: That is my duty, Theodorus; having begun I must go on, and not leave the work unfinished. But what shall be done with Theaetetus?\n\nSTRANGER: Shall we relieve him, and take his companion, the Young Socrates, instead of him? What do you advise?\n\nTHEODORUS: Yes, give the other a turn, as you propose. The young always do better when they have intervals of rest.",
+      "topics": [
+        "action",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "SOCRATES: I think, Stranger, that both of them may be said to be in some way related to me; for the one, as you affirm, has the cut of my ugly face (compare Theaet.), the other is called by my name. And we should always be on the look-out to recognize a kinsman by the style of his conversation. I myself was discoursing with Theaetetus yesterday, and I have just been listening to his answers; my namesake I have not yet examined, but I must. Another time will do for me; to-day let him answer you.\n\nSTRANGER: Very good. Young Socrates, do you hear what the elder Socrates is proposing?\n\nSTRANGER: And do you agree to his proposal?\n\nSTRANGER: As you do not object, still less can I. After the Sophist, then, I think that the Statesman naturally follows next in the order of enquiry. And please to say, whether he, too, should be ranked among those who have science.",
+      "topics": [
+        "virtue"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then the sciences must be divided as before?\n\nSTRANGER: But yet the division will not be the same?\n\nSTRANGER: They will be divided at some other point.\n\nSTRANGER: Where shall we discover the path of the Statesman? We must find and separate off, and set our seal upon this, and we will set the mark of another class upon all diverging paths. Thus the soul will conceive of all kinds of knowledge under two classes.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: To find the path is your business, Stranger, and not mine.\n\nSTRANGER: Yes, Socrates, but the discovery, when once made, must be yours as well as mine.\n\nSTRANGER: Well, and are not arithmetic and certain other kindred arts, merely abstract knowledge, wholly separated from action?\n\nSTRANGER: But in the art of carpentering and all other handicrafts, the knowledge of the workman is merged in his work; he not only knows, but he also makes things which previously did not exist.",
+      "topics": [
+        "knowledge",
+        "work"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then let us divide sciences in general into those which are practical and those which are purely intellectual.\n\nYOUNG SOCRATES: Let us assume these two divisions of science, which is one whole.\n\nSTRANGER: And are 'statesman,' 'king,' 'master,' or 'householder,' one and the same; or is there a science or art answering to each of these names? Or rather, allow me to put the matter in another way.\n\nSTRANGER: If any one who is in a private station has the skill to advise one of the public physicians, must not he also be called a physician?",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And if any one who is in a private station is able to advise the ruler of a country, may not he be said to have the knowledge which the ruler himself ought to have?\n\nSTRANGER: But surely the science of a true king is royal science?\n\nSTRANGER: And will not he who possesses this knowledge, whether he happens to be a ruler or a private man, when regarded only in reference to his art, be truly called 'royal'?\n\nSTRANGER: And the householder and master are the same?",
+      "topics": [
+        "knowledge",
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Again, a large household may be compared to a small state:--will they differ at all, as far as government is concerned?\n\nSTRANGER: Then, returning to the point which we were just now discussing, do we not clearly see that there is one science of all of them; and this science may be called either royal or political or economical; we will not quarrel with any one about the name.\n\nSTRANGER: This too, is evident, that the king cannot do much with his hands, or with his whole body, towards the maintenance of his empire, compared with what he does by the intelligence and strength of his mind.\n\nSTRANGER: Then, shall we say that the king has a greater affinity to knowledge than to manual arts and to practical life in general?",
+      "topics": [
+        "knowledge",
+        "freedom",
+        "meaning",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then we may put all together as one and the same--statesmanship and the statesman--the kingly science and the king.\n\nSTRANGER: And now we shall only be proceeding in due order if we go on to divide the sphere of knowledge?\n\nSTRANGER: Think whether you can find any joint or parting in knowledge.\n\nSTRANGER: Such as this: You may remember that we made an art of calculation?",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Which was, unmistakeably, one of the arts of knowledge?\n\nSTRANGER: And to this art of calculation which discerns the differences of numbers shall we assign any other function except to pass judgment on their differences?\n\nSTRANGER: You know that the master-builder does not work himself, but is the ruler of workmen?\n\nSTRANGER: And may therefore be justly said to share in theoretical science?",
+      "topics": [
+        "knowledge",
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: But he ought not, like the calculator, to regard his functions as at an end when he has formed a judgment;--he must assign to the individual workmen their appropriate task until they have completed the work.\n\nSTRANGER: Are not all such sciences, no less than arithmetic and the like, subjects of pure knowledge; and is not the difference between the two classes, that the one sort has the power of judging only, and the other of ruling as well?\n\nSTRANGER: May we not very properly say, that of all knowledge, there are two divisions--one which rules, and the other which judges?\n\nSTRANGER: And when men have anything to do in common, that they should be of one mind is surely a desirable thing?",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then while we are at unity among ourselves, we need not mind about the fancies of others?\n\nSTRANGER: And now, in which of these divisions shall we place the king?--Is he a judge and a kind of spectator? Or shall we assign to him the art of command--for he is a ruler?\n\nSTRANGER: Then we must see whether there is any mark of division in the art of command too. I am inclined to think that there is a distinction similar to that of manufacturer and retail dealer, which parts off the king from the herald.\n\nSTRANGER: Why, does not the retailer receive and sell over again the productions of others, which have been sold before?",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And is not the herald under command, and does he not receive orders, and in his turn give them to others?\n\nSTRANGER: Then shall we mingle the kingly art in the same class with the art of the herald, the interpreter, the boatswain, the prophet, and the numerous kindred arts which exercise command; or, as in the preceding comparison we spoke of manufacturers, or sellers for themselves, and of retailers,--seeing, too, that the class of supreme rulers, or rulers for themselves, is almost nameless--shall we make a word following the same analogy, and refer kings to a supreme or ruling-for-self science, leaving the rest to receive a name from some one else? For we are seeking the ruler; and our enquiry is not concerned with him who is not a ruler.\n\nSTRANGER: Thus a very fair distinction has been attained between the man who gives his own commands, and him who gives another's. And now let us see if the supreme power allows of any further division.\n\nSTRANGER: I think that it does; and please to assist me in making the division.",
+      "topics": [
+        "freedom",
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: May not all rulers be supposed to command for the sake of producing something?\n\nSTRANGER: Nor is there any difficulty in dividing the things produced into two classes.\n\nSTRANGER: Of the whole class, some have life and some are without life.\n\nSTRANGER: And by the help of this distinction we may make, if we please, a subdivision of the section of knowledge which commands.",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: One part may be set over the production of lifeless, the other of living objects; and in this way the whole will be divided.\n\nSTRANGER: That division, then, is complete; and now we may leave one half, and take up the other; which may also be divided into two.\n\nYOUNG SOCRATES: Which of the two halves do you mean?\n\nSTRANGER: Of course that which exercises command about animals. For, surely, the royal science is not like that of a master-workman, a science presiding over lifeless objects;--the king has a nobler function, which is the management and control of living beings.",
+      "topics": [
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And the breeding and tending of living beings may be observed to be sometimes a tending of the individual; in other cases, a common care of creatures in flocks?\n\nSTRANGER: But the statesman is not a tender of individuals--not like the driver or groom of a single ox or horse; he is rather to be compared with the keeper of a drove of horses or oxen.\n\nYOUNG SOCRATES: Yes, I see, thanks to you.\n\nSTRANGER: Shall we call this art of tending many animals together, the art of managing a herd, or the art of collective management?",
+      "topics": [
+        "self"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: No matter;--whichever suggests itself to us in the course of conversation.\n\nSTRANGER: Very good, Socrates; and, if you continue to be not too particular about names, you will be all the richer in wisdom when you are an old man. And now, as you say, leaving the discussion of the name,--can you see a way in which a person, by showing the art of herding to be of two kinds, may cause that which is now sought amongst twice the number of things, to be then sought amongst half that number?\n\nYOUNG SOCRATES: I will try;--there appears to me to be one management of men and another of beasts.\n\nSTRANGER: You have certainly divided them in a most straightforward and manly style; but you have fallen into an error which hereafter I think that we had better avoid.",
+      "topics": [
+        "meta",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: I think that we had better not cut off a single small portion which is not a species, from many larger portions; the part should be a species. To separate off at once the subject of investigation, is a most excellent plan, if only the separation be rightly made; and you were under the impression that you were right, because you saw that you would come to man; and this led you to hasten the steps. But you should not chip off too small a piece, my friend; the safer way is to cut through the middle; which is also the more likely way of finding classes. Attention to this principle makes all the difference in a process of enquiry.\n\nSTRANGER: I will endeavour to speak more plainly out of love to your good parts, Socrates; and, although I cannot at present entirely explain myself, I will try, as we proceed, to make my meaning a little clearer.\n\nYOUNG SOCRATES: What was the error of which, as you say, we were guilty in our recent division?\n\nSTRANGER: The error was just as if some one who wanted to divide the human race, were to divide them after the fashion which prevails in this part of the world; here they cut off the Hellenes as one species, and all the other species of mankind, which are innumerable, and have no ties or common language, they include under the single name of 'barbarians,' and because they have one name they are supposed to be of one species also.",
+      "topics": [
+        "love",
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "Or suppose that in dividing numbers you were to cut off ten thousand from all the rest, and make of it one species, comprehending the rest under another separate name, you might say that here too was a single class, because you had given it a single name. Whereas you would make a much better and more equal and logical classification of numbers, if you divided them into odd and even; or of the human species, if you divided them into male and female; and only separated off Lydians or Phrygians, or any other tribe, and arrayed them against the rest of the world, when you could no longer make a division into parts which were also classes.",
+      "topics": [
+        "nature"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Very true; but I wish that this distinction between a part and a class could still be made somewhat plainer.\n\nSTRANGER: O Socrates, best of men, you are imposing upon me a very difficult task. We have already digressed further from our original intention than we ought, and you would have us wander still further away. But we must now return to our subject; and hereafter, when there is a leisure hour, we will follow up the other track; at the same time, I wish you to guard against imagining that you ever heard me declare--\n\nSTRANGER: That a class and a part are distinct.\n\nSTRANGER: That a class is necessarily a part, but there is no similar necessity that a part should be a class; that is the view which I should always wish you to attribute to me, Socrates.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: There is another thing which I should like to know.\n\nSTRANGER: The point at which we digressed; for, if I am not mistaken, the exact place was at the question, Where you would divide the management of herds. To this you appeared rather too ready to answer that there were two species of animals; man being one, and all brutes making up the other.\n\nSTRANGER: I thought that in taking away a part, you imagined that the remainder formed a class, because you were able to call them by the common name of brutes.\n\nSTRANGER: Suppose now, O most courageous of dialecticians, that some wise and understanding creature, such as a crane is reputed to be, were, in imitation of you, to make a similar division, and set up cranes against all other animals to their own special glorification, at the same time jumbling together all the others, including man, under the appellation of brutes,--here would be the sort of error which we must try to avoid.",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: In that case, there was already implied a division of all animals into tame and wild; those whose nature can be tamed are called tame, and those which cannot be tamed are called wild.\n\nSTRANGER: And the political science of which we are in search, is and ever was concerned with tame animals, and is also confined to gregarious animals.\n\nSTRANGER: But then we ought not to divide, as we did, taking the whole class at once. Neither let us be in too great haste to arrive quickly at the political science; for this mistake has already brought upon us the misfortune of which the proverb speaks.\n\nSTRANGER: The misfortune of too much haste, which is too little speed.",
+      "topics": [
+        "nature"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: And all the better, Stranger;--we got what we deserved.\n\nSTRANGER: Very well: Let us then begin again, and endeavour to divide the collective rearing of animals; for probably the completion of the argument will best show what you are so anxious to know. Tell me, then--\n\nSTRANGER: Have you ever heard, as you very likely may--for I do not suppose that you ever actually visited them--of the preserves of fishes in the Nile, and in the ponds of the Great King; or you may have seen similar preserves in wells at home?\n\nYOUNG SOCRATES: Yes, to be sure, I have seen them, and I have often heard the others described.",
+      "topics": [
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And you may have heard also, and may have been assured by report, although you have not travelled in those regions, of nurseries of geese and cranes in the plains of Thessaly?\n\nSTRANGER: I asked you, because here is a new division of the management of herds, into the management of land and of water herds.\n\nSTRANGER: And do you agree that we ought to divide the collective rearing of herds into two corresponding parts, the one the rearing of water, and the other the rearing of land herds?\n\nSTRANGER: There is surely no need to ask which of these two contains the royal art, for it is evident to everybody.",
+      "topics": [
+        "nature"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Let me note that here appear in view two ways to that part or class which the argument aims at reaching,--the one a speedier way, which cuts off a small portion and leaves a large; the other agrees better with the principle which we were laying down, that as far as we can we should divide in the middle; but it is longer. We can take either of them, whichever we please.\n\nSTRANGER: Together? What a thing to ask! but, if you take them in turn, you clearly may.\n\nYOUNG SOCRATES: Then I should like to have them in turn.\n\nSTRANGER: There will be no difficulty, as we are near the end; if we had been at the beginning, or in the middle, I should have demurred to your request; but now, in accordance with your desire, let us begin with the longer way; while we are fresh, we shall get on better. And now attend to the division.",
+      "topics": [
+        "meaning",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: The tame walking herding animals are distributed by nature into two classes.\n\nSTRANGER: The one grows horns; and the other is without horns.\n\nSTRANGER: Suppose that you divide the science which manages pedestrian animals into two corresponding parts, and define them; for if you try to invent names for them, you will find the intricacy too great.\n\nYOUNG SOCRATES: How must I speak of them, then?",
+      "topics": [
+        "nature",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Shall we distinguish them by their having or not having cloven feet, or by their mixing or not mixing the breed? You know what I mean.\n\nSTRANGER: I mean that horses and asses naturally breed from one another.\n\nSTRANGER: But the remainder of the hornless herd of tame animals will not mix the breed.\n\nSTRANGER: And of which has the Statesman charge,--of the mixed or of the unmixed race?",
+      "topics": [
+        "nature"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: In these divisions, Socrates, I descry what would make another famous jest.\n\nSTRANGER: Human beings have come out in the same class with the freest and airiest of creation, and have been running a race with them.\n\nYOUNG SOCRATES: I remark that very singular coincidence.\n\nSTRANGER: And would you not expect the slowest to arrive last?\n\nSTRANGER: And there is a still more ridiculous consequence, that the king is found running about with the herd and in close competition with the bird-catcher, who of all mankind is most of an adept at the airy life. (Plato is here introducing a new subdivision, i.e. that of bipeds into men and birds. Others however refer the passage to the division into quadrupeds and bipeds, making pigs compete with human beings and the pig-driver with the king. According to this explanation we must translate the words above, 'freest and airiest of creation,' 'worthiest and laziest of creation.')",
+      "topics": [
+        "nature",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Very good; you have paid me the debt,--I mean, that you have completed the argument, and I suppose that you added the digression by way of interest. (Compare Republic.)\n\nSTRANGER: Then now, let us go back to the beginning, and join the links, which together make the definition of the name of the Statesman's art.\n\nSTRANGER: The science of pure knowledge had, as we said originally, a part which was the science of rule or command, and from this was derived another part, which was called command-for-self, on the analogy of selling-for-self; an important section of this was the management of living animals, and this again was further limited to the management of them in herds; and again in herds of pedestrian animals. The chief division of the latter was the art of managing pedestrian animals which are without horns; this again has a part which can only be comprehended under one term by joining together three names--shepherding pure-bred animals. The only further subdivision is the art of man-herding,--this has to do with bipeds, and is what we were seeking after, and have now found, being at once the royal and political.",
+      "topics": [
+        "meta",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And do you think, Socrates, that we really have done as you say?\n\nSTRANGER: Do you think, I mean, that we have really fulfilled our intention?--There has been a sort of discussion, and yet the investigation seems to me not to be perfectly worked out: this is where the enquiry fails.\n\nSTRANGER: I will try to make the thought, which is at this moment present in my mind, clearer to us both.\n\nSTRANGER: There were many arts of shepherding, and one of them was the political, which had the charge of one particular herd?",
+      "topics": [
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And that, Socrates, is what we must do, if we do not mean to bring disgrace upon the argument at its close.\n\nSTRANGER: Then let us make a new beginning, and travel by a different road.\n\nSTRANGER: I think that we may have a little amusement; there is a famous tale, of which a good portion may with advantage be interwoven, and then we may resume our series of divisions, and proceed in the old path until we arrive at the desired summit. Shall we do as I say?\n\nSTRANGER: Listen, then, to a tale which a child would love to hear; and you are not too old for childish amusement.",
+      "topics": [
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Very good; and I hope that you will give the whole story, and leave out nothing.\n\nSTRANGER: Listen, then. There is a time when God himself guides and helps to roll the world in its course; and there is a time, on the completion of a certain cycle, when he lets go, and the world being a living creature, and having originally received intelligence from its author and creator, turns about and by an inherent necessity revolves in the opposite direction.\n\nSTRANGER: Why, because only the most divine things of all remain ever unchanged and the same, and body is not included in this class. Heaven and the universe, as we have termed them, although they have been endowed by the Creator with many glories, partake of a bodily nature, and therefore cannot be entirely free from perturbation. But their motion is, as far as possible, single and in the same place, and of the same kind; and is therefore only subject to a reversal, which is the least alteration possible. For the lord of all moving things is alone able to move of himself; and to think that he moves them at one time in one direction and at another time in another is blasphemy. Hence we must not say that the world is either self-moved always, or all made to go round by God in two opposite courses; or that two Gods, having opposite purposes, make it move round. But as I have already said (and this is the only remaining alternative) the world is guided at one time by an external power which is divine and receives fresh life and immortality from the renewing hand of the Creator, and again, when let go, moves spontaneously, being set free at such a time as to have, during infinite cycles of years, a reverse movement: this is due to its perfect balance, to its vast size, and to the fact that it turns on the smallest pivot.",
+      "topics": [
+        "meaning",
+        "nature",
+        "self",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Then how, Stranger, were the animals created in those days; and in what way were they begotten of one another?\n\nSTRANGER: It is evident, Socrates, that there was no such thing in the then order of nature as the procreation of animals from one another; the earth-born race, of which we hear in story, was the one which existed in those days--they rose again from the ground; and of this tradition, which is now-a-days often unduly discredited, our ancestors, who were nearest in point of time to the end of the last period and came into being at the beginning of this, are to us the heralds. And mark how consistent the sequel of the tale is; after the return of age to youth, follows the return of the dead, who are lying in the earth, to life; simultaneously with the reversal of the world the wheel of their generation has been turned back, and they are put together and rise and live in the opposite order, unless God has carried any of them away to some other lot. According to this tradition they of necessity sprang from the earth and have the name of earth-born, and so the above legend clings to them.",
+      "topics": [
+        "nature",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Certainly that is quite consistent with what has preceded; but tell me, was the life which you said existed in the reign of Cronos in that cycle of the world, or in this? For the change in the course of the stars and the sun must have occurred in both.\n\nSTRANGER: I see that you enter into my meaning;--no, that blessed and spontaneous life does not belong to the present cycle of the world, but to the previous one, in which God superintended the whole revolution of the universe; and the several parts the universe were distributed under the rule of certain inferior deities, as is the way in some places still. There were demigods, who were the shepherds of the various species and herds of animals, and each one was in all respects sufficient for those of whom he was the shepherd; neither was there any violence, or devouring of one another, or war or quarrel among them; and I might tell of ten thousand other blessings, which belonged to that dispensation. The reason why the life of man was, as tradition says, spontaneous, is as follows: In those days God himself was their shepherd, and ruled over them, just as man, who is by comparison a divine being, still rules over the lower animals. Under him there were no forms of government or separate possession of women and children; for all men rose again from the earth, having no memory of the past.",
+      "topics": [
+        "nature",
+        "meaning",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then shall I determine for you as well as I can?\n\nSTRANGER: Suppose that the nurslings of Cronos, having this boundless leisure, and the power of holding intercourse, not only with men, but with the brute creation, had used all these advantages with a view to philosophy, conversing with the brutes as well as with one another, and learning of every nature which was gifted with any special power, and was able to contribute some special experience to the store of wisdom, there would be no difficulty in deciding that they would be a thousand times happier than the men of our own day. Or, again, if they had merely eaten and drunk until they were full, and told stories to one another and to the animals--such stories as are now attributed to them--in this case also, as I should imagine, the answer would be easy. But until some satisfactory witness can be found of the love of that age for knowledge and discussion, we had better let the matter drop, and give the reason why we have unearthed this tale, and then we shall be able to get on. In the fulness of time, when the change was to take place, and the earth-born race had all perished, and every soul had completed its proper cycle of births and been sown in the earth her appointed number of times, the pilot of the universe let the helm go, and retired to his place of view; and then Fate and innate desire reversed the motion of the world.",
+      "topics": [
+        "nature",
+        "knowledge",
+        "love",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "Then also all the inferior deities who share the rule of the supreme power, being informed of what was happening, let go the parts of the world which were under their control. And the world turning round with a sudden shock, being impelled in an opposite direction from beginning to end, was shaken by a mighty earthquake, which wrought a new destruction of all manner of animals. Afterwards, when sufficient time had elapsed, the tumult and confusion and earthquake ceased, and the universal creature, once more at peace, attained to a calm, and settled down into his own orderly and accustomed course, having the charge and rule of himself and of all the creatures which are contained in him, and executing, as far as he remembered them, the instructions of his Father and Creator, more precisely at first, but afterwords with less exactness. The reason of the falling off was the admixture of matter in him; this was inherent in the primal nature, which was full of disorder, until attaining to the present order. From God, the constructor, the world received all that is good in him, but from a previous state came elements of evil and unrighteousness, which, thence derived, first of all passed into the world, and were then transmitted to the animals. While the world was aided by the pilot in nurturing the animals, the evil was small, and great the good which he produced, but after the separation, when the world was let go, at first all proceeded well enough; but, as time went on, there was more and more forgetting, and the old discord again held sway and burst forth in full glory; and at last small was the good, and great was the admixture of evil, and there was a danger of universal ruin to the world, and to the things contained in him.",
+      "topics": [
+        "nature",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "And so we have arrived at the real end of this discourse; for although there might be much to tell of the lower animals, and of the condition out of which they changed and of the causes of the change, about men there is not much, and that little is more to the purpose. Deprived of the care of God, who had possessed and tended them, they were left helpless and defenceless, and were torn in pieces by the beasts, who were naturally fierce and had now grown wild. And in the first ages they were still without skill or resource; the food which once grew spontaneously had failed, and as yet they knew not how to procure it, because they had never felt the pressure of necessity. For all these reasons they were in a great strait; wherefore also the gifts spoken of in the old tradition were imparted to man by the gods, together with so much teaching and education as was indispensable; fire was given to them by Prometheus, the arts by Hephaestus and his fellow-worker, Athene, seeds and plants by others. From these is derived all that has helped to frame human life; since the care of the Gods, as I was saying, had now failed men, and they had to order their course of life for themselves, and were their own masters, just like the universal creature whom they imitate and follow, ever changing, as he changes, and ever living and growing, at one time in one manner, and at another time in another. Enough of the story, which may be of use in showing us how greatly we erred in the delineation of the king and the statesman in our previous discourse.",
+      "topics": [
+        "nature",
+        "meaning",
+        "education"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And the myth was introduced in order to show, not only that all others are rivals of the true shepherd who is the object of our search, but in order that we might have a clearer view of him who is alone worthy to receive this appellation, because he alone of shepherds and herdsmen, according to the image which we have employed, has the care of human beings.\n\nSTRANGER: And I cannot help thinking, Socrates, that the form of the divine shepherd is even higher than that of a king; whereas the statesmen who are now on earth seem to be much more like their subjects in character, and much more nearly to partake of their breeding and education.\n\nSTRANGER: Still they must be investigated all the same, to see whether, like the divine shepherd, they are above their subjects or on a level with them.\n\nSTRANGER: To resume:--Do you remember that we spoke of a command-for-self exercised over animals, not singly but collectively, which we called the art of rearing a herd?",
+      "topics": [
+        "self",
+        "meaning",
+        "nature"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then, now, as I said, let us make the correction and divide human care into two parts, on the principle of voluntary and compulsory.\n\nSTRANGER: And if we call the management of violent rulers tyranny, and the voluntary management of herds of voluntary bipeds politics, may we not further assert that he who has this latter art of management is the true king and statesman?\n\nYOUNG SOCRATES: I think, Stranger, that we have now completed the account of the Statesman.\n\nSTRANGER: Would that we had, Socrates, but I have to satisfy myself as well as you; and in my judgment the figure of the king is not yet perfected; like statuaries who, in their too great haste, having overdone the several parts of their work, lose time in cutting them down, so too we, partly out of haste, partly out of a magnanimous desire to expose our former error, and also because we imagined that a king required grand illustrations, have taken up a marvellous lump of fable, and have been obliged to use more than was necessary. This made us discourse at large, and, nevertheless, the story never came to an end. And our discussion might be compared to a picture of some living being which had been fairly drawn in outline, but had not yet attained the life and clearness which is given by the blending of colours. Now to intelligent persons a living being had better be delineated by language and discourse than by any painting or work of art: to the duller sort by works of art.",
+      "topics": [
+        "knowledge",
+        "meta",
+        "work",
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Very true; but what is the imperfection which still remains? I wish that you would tell me.\n\nSTRANGER: The higher ideas, my dear friend, can hardly be set forth except through the medium of examples; every man seems to know all things in a dreamy sort of way, and then again to wake up and to know nothing.\n\nSTRANGER: I fear that I have been unfortunate in raising a question about our experience of knowledge.\n\nSTRANGER: Why, because my 'example' requires the assistance of another example.",
+      "topics": [
+        "knowledge",
+        "love"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: In the next place, let us make the reflection, that the art of weaving clothes, which an incompetent person might fancy to have been sufficiently described, has been separated off from several others which are of the same family, but not from the co-operative arts.\n\nYOUNG SOCRATES: And which are the kindred arts?\n\nSTRANGER: I see that I have not taken you with me. So I think that we had better go backwards, starting from the end. We just now parted off from the weaving of clothes, the making of blankets, which differ from each other in that one is put under and the other is put around: and these are what I termed kindred arts.\n\nSTRANGER: And we have subtracted the manufacture of all articles made of flax and cords, and all that we just now metaphorically termed the sinews of plants, and we have also separated off the process of felting and the putting together of materials by stitching and sewing, of which the most important part is the cobbler's art.",
+      "topics": [
+        "technology"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then we separated off the currier's art, which prepared coverings in entire pieces, and the art of sheltering, and subtracted the various arts of making water-tight which are employed in building, and in general in carpentering, and in other crafts, and all such arts as furnish impediments to thieving and acts of violence, and are concerned with making the lids of boxes and the fixing of doors, being divisions of the art of joining; and we also cut off the manufacture of arms, which is a section of the great and manifold art of making defences; and we originally began by parting off the whole of the magic art which is concerned with antidotes, and have left, as would appear, the very art of which we were in search, the art of protection against winter cold, which fabricates woollen defences, and has the name of weaving.\n\nSTRANGER: Yes, my boy, but that is not all; for the first process to which the material is subjected is the opposite of weaving.\n\nSTRANGER: But the first process is a separation of the clotted and matted fibres?\n\nSTRANGER: I mean the work of the carder's art; for we cannot say that carding is weaving, or that the carder is a weaver.",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Again, if a person were to say that the art of making the warp and the woof was the art of weaving, he would say what was paradoxical and false.\n\nSTRANGER: Shall we say that the whole art of the fuller or of the mender has nothing to do with the care and treatment of clothes, or are we to regard all these as arts of weaving?\n\nSTRANGER: And yet surely all these arts will maintain that they are concerned with the treatment and production of clothes; they will dispute the exclusive prerogative of weaving, and though assigning a larger sphere to that, will still reserve a considerable field for themselves.\n\nSTRANGER: Besides these, there are the arts which make tools and instruments of weaving, and which will claim at least to be co-operative causes in every work of the weaver.",
+      "topics": [
+        "technology"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: The arts which do not manufacture the actual thing, but which furnish the necessary tools for the manufacture, without which the several arts could not fulfil their appointed work, are co-operative; but those which make the things themselves are causal.\n\nSTRANGER: Thus the arts which make spindles, combs, and other instruments of the production of clothes, may be called co-operative, and those which treat and fabricate the things themselves, causal.\n\nSTRANGER: The arts of washing and mending, and the other preparatory arts which belong to the causal class, and form a division of the great art of adornment, may be all comprehended under what we call the fuller's art.\n\nSTRANGER: Carding and spinning threads and all the parts of the process which are concerned with the actual manufacture of a woollen garment form a single art, which is one of those universally acknowledged,--the art of working in wool.",
+      "topics": [
+        "technology",
+        "work"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And once more, Socrates, we must divide the part which belongs at once both to wool-working and composition, if we are ever to discover satisfactorily the aforesaid art of weaving.\n\nSTRANGER: Yes, certainly, and let us call one part of the art the art of twisting threads, the other the art of combining them.\n\nYOUNG SOCRATES: Do I understand you, in speaking of twisting, to be referring to manufacture of the warp?\n\nSTRANGER: Yes, and of the woof too; how, if not by twisting, is the woof made?",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Clearly, as in the former example, the purpose is general.\n\nSTRANGER: Still less would any rational man seek to analyse the notion of weaving for its own sake. But people seem to forget that some things have sensible images, which are readily known, and can be easily pointed out when any one desires to answer an enquirer without any trouble or argument; whereas the greatest and highest truths have no outward image of themselves visible to man, which he who wishes to satisfy the soul of the enquirer can adapt to the eye of sense (compare Phaedr.), and therefore we ought to train ourselves to give and accept a rational account of them; for immaterial things, which are the noblest and greatest, are shown only in thought and idea, and in no other way, and all that we are now saying is said for the sake of them. Moreover, there is always less difficulty in fixing the mind on small matters than on great.\n\nSTRANGER: Let us call to mind the bearing of all this.\n\nSTRANGER: I wanted to get rid of any impression of tediousness which we may have experienced in the discussion about weaving, and the reversal of the universe, and in the discussion concerning the Sophist and the being of not-being. I know that they were felt to be too long, and I reproached myself with this, fearing that they might be not only tedious but irrelevant; and all that I have now said is only designed to prevent the recurrence of any such disagreeables for the future.",
+      "topics": [
+        "knowledge",
+        "self",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: We shall find from our present point of view that the greatest servants are in a case and condition which is the reverse of what we anticipated.\n\nSTRANGER: Those who have been purchased, and have so become possessions; these are unmistakably slaves, and certainly do not claim royal science.\n\nSTRANGER: Again, freemen who of their own accord become the servants of the other classes in a State, and who exchange and equalise the products of husbandry and the other arts, some sitting in the market-place, others going from city to city by land or sea, and giving money in exchange for money or for other productions--the money-changer, the merchant, the ship-owner, the retailer, will not put in any claim to statecraft or politics?\n\nYOUNG SOCRATES: No; unless, indeed, to the politics of commerce.",
+      "topics": [
+        "work",
+        "freedom"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And here I think that we seem to be getting on the right track; for the priest and the diviner are swollen with pride and prerogative, and they create an awful impression of themselves by the magnitude of their enterprises; in Egypt, the king himself is not allowed to reign, unless he have priestly powers, and if he should be of another class and has thrust himself in, he must get enrolled in the priesthood. In many parts of Hellas, the duty of offering the most solemn propitiatory sacrifices is assigned to the highest magistracies, and here, at Athens, the most solemn and national of the ancient sacrifices are supposed to be celebrated by him who has been chosen by lot to be the King Archon.\n\nSTRANGER: But who are these other kings and priests elected by lot who now come into view followed by their retainers and a vast throng, as the former class disappears and the scene changes?\n\nSTRANGER: A minute ago I thought that they were animals of every tribe; for many of them are like lions and centaurs, and many more like satyrs and such weak and shifty creatures;--Protean shapes quickly changing into one another's forms and natures; and now, Socrates, I begin to see who they are.",
+      "topics": [
+        "self"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Then that can be the only true form of government in which the governors are really found to possess science, and are not mere pretenders, whether they rule according to law or without law, over willing or unwilling subjects, and are rich or poor themselves--none of these things can with any propriety be included in the notion of the ruler.\n\nSTRANGER: And whether with a view to the public good they purge the State by killing some, or exiling some; whether they reduce the size of the body corporate by sending out from the hive swarms of citizens, or, by introducing persons from without, increase it; while they act according to the rules of wisdom and justice, and use their power with a view to the general security and improvement, the city over which they rule, and which has these characteristics, may be described as the only true State. All other governments are not genuine or real; but only imitations of this, and some of them are better and some of them are worse; the better are said to be well governed, but they are mere imitations like the others.\n\nYOUNG SOCRATES: I agree, Stranger, in the greater part of what you say; but as to their ruling without laws--the expression has a harsh sound.",
+      "topics": [
+        "freedom",
+        "knowledge",
+        "virtue",
+        "work"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: You have been too quick for me, Socrates; I was just going to ask you whether you objected to any of my statements. And now I see that we shall have to consider this notion of there being good government without laws.\n\nSTRANGER: There can be no doubt that legislation is in a manner the business of a king, and yet the best thing of all is not that the law should rule, but that a man should rule supposing him to have wisdom and royal power. Do you see why this is?\n\nSTRANGER: Because the law does not perfectly comprehend what is noblest and most just for all and therefore cannot enforce what is best. The differences of men and actions, and the endless irregular movements of human things, do not admit of any universal and simple rule. And no art whatsoever can lay down a rule which will last for all time.\n\nSTRANGER: But the law is always striving to make one;--like an obstinate and ignorant tyrant, who will not allow anything to be done contrary to his appointment, or any question to be asked--not even in sudden changes of circumstances, when something happens to be better than what he commanded for some one.",
+      "topics": [
+        "action",
+        "freedom",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: Yes; they are very common among us.\n\nSTRANGER: And what are the rules which are enforced on their pupils by professional trainers or by others having similar authority? Can you remember?\n\nSTRANGER: The training-masters do not issue minute rules for individuals, or give every individual what is exactly suited to his constitution; they think that they ought to go more roughly to work, and to prescribe generally the regimen which will benefit the majority.\n\nSTRANGER: And therefore they assign equal amounts of exercise to them all; they send them forth together, and let them rest together from their running, wrestling, or whatever the form of bodily exercise may be.",
+      "topics": [
+        "education",
+        "freedom",
+        "action"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And now observe that the legislator who has to preside over the herd, and to enforce justice in their dealings with one another, will not be able, in enacting for the general good, to provide exactly what is suitable for each particular case.\n\nYOUNG SOCRATES: He cannot be expected to do so.\n\nSTRANGER: He will lay down laws in a general form for the majority, roughly meeting the cases of individuals; and some of them he will deliver in writing, and others will be unwritten; and these last will be traditional customs of the country.\n\nSTRANGER: Yes, quite right; for how can he sit at every man's side all through his life, prescribing for him the exact particulars of his duty? Who, Socrates, would be equal to such a task? No one who really had the royal science, if he had been able to do this, would have imposed upon himself the restriction of a written law.",
+      "topics": [
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And if he who gave laws, written or unwritten, determining what was good or bad, honourable or dishonourable, just or unjust, to the tribes of men who flock together in their several cities, and are governed in accordance with them; if, I say, the wise legislator were suddenly to come again, or another like to him, is he to be prohibited from changing them?--would not this prohibition be in reality quite as ridiculous as the other?\n\nSTRANGER: Do you know a plausible saying of the common people which is in point?\n\nYOUNG SOCRATES: I do not recall what you mean at the moment.\n\nSTRANGER: They say that if any one knows how the ancient laws may be improved, he must first persuade his own State of the improvement, and then he may legislate, but not otherwise.",
+      "topics": [
+        "freedom",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Well, such as this:--Every man will reflect that he suffers strange things at the hands of both of them; the physician saves any whom he wishes to save, and any whom he wishes to maltreat he maltreats--cutting or burning them; and at the same time requiring them to bring him payments, which are a sort of tribute, of which little or nothing is spent upon the sick man, and the greater part is consumed by him and his domestics; and the finale is that he receives money from the relations of the sick man or from some enemy of his, and puts him out of the way. And the pilots of ships are guilty of numberless evil deeds of the same kind; they intentionally play false and leave you ashore when the hour of sailing arrives; or they cause mishaps at sea and cast away their freight; and are guilty of other rogueries.",
+      "topics": [
+        "suffering"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Suppose further, that the pilots and physicians are appointed annually, either out of the rich, or out of the whole people, and that they are elected by lot; and that after their election they navigate vessels and heal the sick according to the written rules.\n\nSTRANGER: But hear what follows:--When the year of office has expired, the pilot or physician has to come before a court of review, in which the judges are either selected from the wealthy classes or chosen by lot out of the whole people; and anybody who pleases may be their accuser, and may lay to their charge, that during the past year they have not navigated their vessels or healed their patients according to the letter of the law and the ancient customs of their ancestors; and if either of them is condemned, some of the judges must fix what he is to suffer or pay.\n\nYOUNG SOCRATES: He who is willing to take a command under such conditions, deserves to suffer any penalty.",
+      "topics": [
+        "work",
+        "suffering"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: Yet once more, we shall have to enact that if any one is detected enquiring into piloting and navigation, or into health and the true nature of medicine, or about the winds, or other conditions of the atmosphere, contrary to the written rules, and has any ingenious notions about such matters, he is not to be called a pilot or physician, but a cloudy prating sophist;--further, on the ground that he is a corrupter of the young, who would persuade them to follow the art of medicine or piloting in an unlawful manner, and to exercise an arbitrary rule over their patients or ships, any one who is qualified by law may inform against him, and indict him in some court, and then if he is found to be persuading any, whether young or old, to act contrary to the written law, he is to be punished with the utmost rigour; for no one should presume to be wiser than the laws; and as touching healing and health and piloting and navigation, the nature of them is known to all, for anybody may learn the written laws and the national customs. If such were the mode of procedure, Socrates, about these sciences and about generalship, and any branch of hunting, or about painting or imitation in general, or carpentry, or any sort of handicraft, or husbandry, or planting, or if we were to see an art of rearing horses, or tending herds, or divination, or any ministerial service, or draught-playing, or any science conversant with number, whether simple or square or cube, or comprising motion,--I say, if all these things were done in this way according to written regulations, and not according to art, what would be the result?",
+      "topics": [
+        "knowledge",
+        "action",
+        "education"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: The laws would be copies of the true particulars of action as far as they admit of being written down from the lips of those who have knowledge?\n\nSTRANGER: And, as we were saying, he who has knowledge and is a true Statesman, will do many things within his own sphere of action by his art without regard to the laws, when he is of opinion that something other than that which he has written down and enjoined to be observed during his absence would be better.\n\nSTRANGER: And any individual or any number of men, having fixed laws, in acting contrary to them with a view to something better, would only be acting, as far as they are able, like the true Statesman?\n\nSTRANGER: If they had no knowledge of what they were doing, they would imitate the truth, and they would always imitate ill; but if they had knowledge, the imitation would be the perfect truth, and an imitation no longer.",
+      "topics": [
+        "knowledge",
+        "action",
+        "self"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: If the attempt is all that is wanting, he shall certainly be brought to light; and I think that the illustration of music may assist in exhibiting him. Please to answer me a question.\n\nSTRANGER: There is such a thing as learning music or handicraft arts in general?\n\nSTRANGER: And is there any higher art or science, having power to decide which of these arts are and are not to be learned;--what do you say?\n\nYOUNG SOCRATES: I should answer that there is.",
+      "topics": [
+        "action",
+        "education"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "STRANGER: And do we acknowledge this science to be different from the others?\n\nSTRANGER: And ought the other sciences to be superior to this, or no single science to any other? Or ought this science to be the overseer and governor of all the others?\n\nSTRANGER: You mean to say that the science which judges whether we ought to learn or not, must be superior to the science which is learned or which teaches?\n\nSTRANGER: And the science which determines whether we ought to persuade or not, must be superior to the science which is able to persuade?",
+      "topics": [
+        "education"
+      ]
+    },
+    {
+      "work": "Statesman",
+      "ref": null,
+      "text": "YOUNG SOCRATES: There is no need to consider them at all.\n\nSTRANGER: More reason is there to consider the practice of those who make family their chief aim, and to indicate their error.\n\nSTRANGER: They act on no true principle at all; they seek their ease and receive with open arms those who are like themselves, and hate those who are unlike them, being too much influenced by feelings of dislike.\n\nSTRANGER: The quiet orderly class seek for natures like their own, and as far as they can they marry and give in marriage exclusively in this class, and the courageous do the same; they seek natures like their own, whereas they should both do precisely the opposite.",
+      "topics": [
+        "action",
+        "knowledge",
+        "love"
+      ]
+    }
+  ]
+}

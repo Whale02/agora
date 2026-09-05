@@ -76,6 +76,14 @@
     {
       "work": "Meno",
       "ref": null,
+      "text": "SOCRATES: And they surely would not have been good in the same way, unless their virtue had been the same?\n\nSOCRATES: Then now that the sameness of all virtue has been proven, try and remember what you and Gorgias say that virtue is.\n\nMENO: Will you have one definition of them all?\n\nMENO: If you want to have one definition of them all, I know not what to say, but that virtue is the power of governing mankind.",
+      "topics": [
+        "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
       "text": "SOCRATES: And does this definition of virtue include all virtue? Is virtue the same in a child and in a slave, Meno? Can the child govern his father, or the slave his master; and would he who governed be any longer a slave?\n\nSOCRATES: No, indeed; there would be small reason in that. Yet once more, fair friend; according to you, virtue is 'the power of governing;' but do you not add 'justly and not unjustly'?\n\nMENO: Yes, Socrates; I agree there; for justice is virtue.\n\nSOCRATES: Would you say 'virtue,' Meno, or 'a virtue'?",
       "topics": [
         "freedom",
@@ -150,6 +158,14 @@
     {
       "work": "Meno",
       "ref": null,
+      "text": "SOCRATES: Do not he and you and Empedocles say that there are certain effluences of existence?\n\nSOCRATES: And passages into which and through which the effluences pass?\n\nSOCRATES: And some of the effluences fit into the passages, and some of them are too small or too large?\n\nSOCRATES: And there is such a thing as sight?\n\nSOCRATES: And now, as Pindar says, 'read my meaning:'--colour is an effluence of form, commensurate with sight, and palpable to sense.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
       "text": "MENO: But I will stay, Socrates, if you will give me many such answers.\n\nSOCRATES: Well then, for my own sake as well as for yours, I will do my very best; but I am afraid that I shall not be able to give you very many as good: and now, in your turn, you are to fulfil your promise, and tell me what virtue is in the universal; and do not make a singular into a plural, as the facetious say of those who break a thing, but deliver virtue to me whole and sound, and not broken into a number of pieces: I have given you the pattern.\n\nMENO: Well then, Socrates, virtue, as I take it, is when he, who desires the honourable, is able to provide it for himself; so the poet says, and I say too--\n\n'Virtue is the desire of things honourable and the power of attaining them.'",
       "topics": [
         "love",
@@ -162,6 +178,15 @@
       "text": "SOCRATES: And does he who desires the honourable also desire the good?\n\nSOCRATES: Then are there some who desire the evil and others who desire the good? Do not all men, my dear sir, desire good?\n\nSOCRATES: Do you mean that they think the evils which they desire, to be good; or do they know that they are evil and yet desire them?\n\nSOCRATES: And do you really imagine, Meno, that a man knows evils to be evils and desires them notwithstanding?",
       "topics": [
         "love",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: And does he think that the evils will do good to him who possesses them, or does he know that they will do him harm?\n\nMENO: There are some who think that the evils will do them good, and others who know that they will do them harm.\n\nSOCRATES: And, in your opinion, do those who think that they will do them good know that they are evils?\n\nSOCRATES: Is it not obvious that those who are ignorant of their nature do not desire them; but they desire what they suppose to be goods although they are really evils; and if they are mistaken and suppose the evils to be goods they really desire goods?",
+      "topics": [
         "knowledge",
         "action"
       ]
@@ -211,6 +236,22 @@
       "work": "Meno",
       "ref": null,
       "text": "SOCRATES: And these lines which I have drawn through the middle of the square are also equal?\n\nSOCRATES: A square may be of any size?\n\nSOCRATES: And if one side of the figure be of two feet, and the other side be of two feet, how much will the whole be? Let me explain: if in one direction the space was of two feet, and in the other direction of one foot, the whole would be of two feet taken once?\n\nSOCRATES: But since this side is also of two feet, there are twice two feet?",
+      "topics": [
+        "meaning"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Then the square is of twice two feet?\n\nSOCRATES: And how many are twice two feet? count and tell me.\n\nSOCRATES: And might there not be another square twice as large as this, and having like this the lines equal?\n\nSOCRATES: And of how many feet will that be?\n\nSOCRATES: And now try and tell me the length of the line which forms the side of that double square: this is two feet--what will that be?",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Try and see if you can tell me how much it will be.\n\nSOCRATES: Then if we add a half to this line of two, that will be the line of three. Here are two and there is one; and on the other side, here are two also and there is one: and that makes the figure of which you speak?\n\nSOCRATES: But if there are three feet this way and three feet that way, the whole space will be three times three feet?\n\nSOCRATES: And how much are three times three feet?",
       "topics": [
         "meaning"
       ]
@@ -294,11 +335,51 @@
     {
       "work": "Meno",
       "ref": null,
+      "text": "SOCRATES: Or if we wanted him to be a good cobbler, should we not send him to the cobblers?\n\nSOCRATES: Let me trouble you with one more question. When we say that we should be right in sending him to the physicians if we wanted him to be a physician, do we mean that we should be right in sending him to those who profess the art, rather than to those who do not, and to those who demand payment for teaching the art, and profess to teach it to any one who will come and learn? And if these were our reasons, should we not be right in sending him?\n\nSOCRATES: And might not the same be said of flute-playing, and of the other arts? Would a man who wanted to make another a flute-player refuse to send him to those who profess to teach the art for money, and be plaguing other persons to give him instruction, who are not professed teachers and who never had a single disciple in that branch of knowledge which he wishes him to acquire--would not such conduct be the height of folly?\n\nANYTUS: Yes, by Zeus, and of ignorance too.",
+      "topics": [
+        "education",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "SOCRATES: Very good. And now you are in a position to advise with me about my friend Meno. He has been telling me, Anytus, that he desires to attain that kind of wisdom and virtue by which men order the state or the house, and honour their parents, and know when to receive and when to send away citizens and strangers, as a good man should. Now, to whom should he go in order that he may learn this virtue? Does not the previous argument imply clearly that we should send him to those who profess and avouch that they are the common teachers of all Hellas, and are ready to impart instruction to any one who likes, at a fixed price?\n\nSOCRATES: You surely know, do you not, Anytus, that these are the people whom mankind call Sophists?\n\nANYTUS: By Heracles, Socrates, forbear! I only hope that no friend or kinsman or acquaintance of mine, whether citizen or stranger, will ever be so mad as to allow himself to be corrupted by them; for they are a manifest pest and corrupting influence to those who have to do with them.\n\nSOCRATES: What, Anytus? Of all the people who profess that they know how to do men good, do you mean to say that these are the only ones who not only do them no good, but positively corrupt those who are entrusted to them, and in return for this disservice have the face to demand money?",
+      "topics": [
+        "freedom",
+        "knowledge",
+        "virtue",
+        "education"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
       "text": "Indeed, I cannot believe you; for I know of a single man, Protagoras, who made more out of his craft than the illustrious Pheidias, who created such noble works, or any ten other statuaries. How could that be? A mender of old shoes, or patcher up of clothes, who made the shoes or clothes worse than he received them, could not have remained thirty days undetected, and would very soon have starved; whereas during more than forty years, Protagoras was corrupting all Hellas, and sending his disciples from him worse than he received them, and he was never found out. For, if I am not mistaken, he was about seventy years old at his death, forty of which were spent in the practice of his profession; and during all that time he had a good reputation, which to this day he retains: and not only Protagoras, but many others are well spoken of; some who lived before him, and others who are still living. Now, when you say that they deceived and corrupted the youth, are they to be supposed to have corrupted them consciously or unconsciously? Can those who were deemed by many to be the wisest men of Hellas have been out of their minds?",
       "topics": [
         "work",
         "knowledge",
         "virtue"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "ANYTUS: Out of their minds! No, Socrates; the young men who gave their money to them were out of their minds, and their relations and guardians who entrusted their youth to the care of these men were still more out of their minds, and most of all, the cities who allowed them to come in, and did not drive them out, citizen and stranger alike.\n\nSOCRATES: Has any of the Sophists wronged you, Anytus? What makes you so angry with them?\n\nANYTUS: No, indeed, neither I nor any of my belongings has ever had, nor would I suffer them to have, anything to do with them.\n\nSOCRATES: Then you are entirely unacquainted with them?",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "work": "Meno",
+      "ref": null,
+      "text": "ANYTUS: And I have no wish to be acquainted.\n\nSOCRATES: Then, my dear friend, how can you know whether a thing is good or bad of which you are wholly ignorant?\n\nANYTUS: Quite well; I am sure that I know what manner of men these are, whether I am acquainted with them or not.\n\nSOCRATES: You must be a diviner, Anytus, for I really cannot make out, judging from your own words, how, if you are not acquainted with them, you know about them. But I am not enquiring of you who are the teachers who will corrupt Meno (let them be, if you please, the Sophists); I only ask you to tell him who there is in this great city who will teach him how to become eminent in the virtues which I was just now describing. He is the friend of your family, and you will oblige him.",
+      "topics": [
+        "virtue",
+        "love",
+        "knowledge",
+        "education"
       ]
     }
   ]

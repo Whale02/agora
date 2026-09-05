@@ -10,9 +10,12 @@
 //
 //     node scripts/build-passage-index.mjs
 import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { corpusSlugs, readIndex, readWork } from "../engine/corpus.mjs";
 
-const OUT = "docs/data/passages.json";
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const OUT = path.join(ROOT, "docs", "data", "passages.json");
 
 const philosophers = corpusSlugs().map((slug) => {
   const idx = readIndex(slug);
@@ -59,4 +62,4 @@ fs.writeFileSync(
 );
 const total = philosophers.reduce((n, p) => n + p.passages, 0);
 const shelves = philosophers.reduce((n, p) => n + p.works.length, 0);
-console.log(`${OUT}: ${philosophers.length} philosophers, ${shelves} works, ${total} passages`);
+console.log(`docs/data/passages.json: ${philosophers.length} philosophers, ${shelves} works, ${total} passages`);

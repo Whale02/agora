@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:42:17.553Z",
+  "generated_at": "2026-09-05T05:42:44.853Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -1293,73 +1293,73 @@
     },
     {
       "slug": "seneca",
-      "passages": 320,
-      "words": 74662,
+      "passages": 260,
+      "words": 61024,
       "works": [
         {
           "work": "Letters to Lucilius (Epistulae Morales)",
           "slug": "letters-to-lucilius",
           "file": "letters-to-lucilius.json",
-          "count": 320,
-          "words": 74662,
+          "count": 260,
+          "words": 61024,
           "topics": [
             "knowledge",
             "action",
             "suffering",
             "self",
             "virtue",
-            "nature"
+            "work"
           ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 198
+          "count": 162
         },
         {
           "topic": "action",
-          "count": 131
+          "count": 112
         },
         {
           "topic": "suffering",
-          "count": 93
+          "count": 68
         },
         {
           "topic": "self",
-          "count": 80
+          "count": 68
         },
         {
           "topic": "virtue",
-          "count": 77
-        },
-        {
-          "topic": "nature",
-          "count": 66
-        },
-        {
-          "topic": "meaning",
-          "count": 63
+          "count": 59
         },
         {
           "topic": "work",
-          "count": 62
+          "count": 56
+        },
+        {
+          "topic": "meaning",
+          "count": 51
+        },
+        {
+          "topic": "nature",
+          "count": 48
         },
         {
           "topic": "meta",
-          "count": 55
+          "count": 48
         },
         {
           "topic": "freedom",
-          "count": 53
+          "count": 46
         },
         {
           "topic": "love",
-          "count": 53
+          "count": 45
         },
         {
           "topic": "education",
-          "count": 29
+          "count": 24
         },
         {
           "topic": "technology",
@@ -1377,19 +1377,19 @@
     },
     {
       "slug": "wang-yangming",
-      "passages": 300,
-      "words": 71034,
+      "passages": 244,
+      "words": 57053,
       "works": [
         {
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
           "slug": "instructions-for-practical-living",
           "file": "instructions-for-practical-living.json",
-          "count": 300,
-          "words": 71034,
+          "count": 244,
+          "words": 57053,
           "topics": [
             "knowledge",
-            "action",
             "nature",
+            "action",
             "education",
             "self",
             "virtue"
@@ -1399,47 +1399,47 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 246
-        },
-        {
-          "topic": "action",
-          "count": 136
+          "count": 200
         },
         {
           "topic": "nature",
-          "count": 129
+          "count": 108
         },
         {
-          "topic": "education",
+          "topic": "action",
           "count": 104
         },
         {
+          "topic": "education",
+          "count": 92
+        },
+        {
           "topic": "self",
-          "count": 99
+          "count": 79
         },
         {
           "topic": "virtue",
-          "count": 93
+          "count": 76
         },
         {
           "topic": "love",
-          "count": 47
+          "count": 36
         },
         {
           "topic": "meaning",
-          "count": 40
-        },
-        {
-          "topic": "meta",
-          "count": 33
-        },
-        {
-          "topic": "suffering",
-          "count": 32
+          "count": 35
         },
         {
           "topic": "freedom",
           "count": 26
+        },
+        {
+          "topic": "suffering",
+          "count": 26
+        },
+        {
+          "topic": "meta",
+          "count": 25
         },
         {
           "topic": "work",
@@ -1517,19 +1517,19 @@
     },
     {
       "slug": "zhuangzi",
-      "passages": 300,
-      "words": 70713,
+      "passages": 258,
+      "words": 60683,
       "works": [
         {
           "work": "Zhuangzi (庄子), especially the Inner Chapters",
           "slug": "zhuangzi",
           "file": "zhuangzi.json",
-          "count": 300,
-          "words": 70713,
+          "count": 258,
+          "words": 60683,
           "topics": [
             "nature",
-            "action",
             "knowledge",
+            "action",
             "virtue",
             "freedom",
             "suffering"
@@ -1539,51 +1539,51 @@
       "topics": [
         {
           "topic": "nature",
-          "count": 159
-        },
-        {
-          "topic": "action",
-          "count": 150
+          "count": 137
         },
         {
           "topic": "knowledge",
-          "count": 148
+          "count": 133
+        },
+        {
+          "topic": "action",
+          "count": 123
         },
         {
           "topic": "virtue",
-          "count": 72
+          "count": 62
         },
         {
           "topic": "freedom",
-          "count": 55
+          "count": 49
         },
         {
           "topic": "suffering",
-          "count": 52
+          "count": 43
         },
         {
           "topic": "self",
-          "count": 38
+          "count": 34
         },
         {
           "topic": "meta",
-          "count": 37
+          "count": 32
         },
         {
           "topic": "work",
-          "count": 30
+          "count": 25
         },
         {
           "topic": "meaning",
-          "count": 30
+          "count": 25
         },
         {
           "topic": "love",
-          "count": 28
+          "count": 24
         },
         {
           "topic": "education",
-          "count": 25
+          "count": 22
         },
         {
           "topic": "technology",

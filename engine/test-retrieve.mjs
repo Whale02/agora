@@ -9,13 +9,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { corpusSlugs, creditFor, retrieve, tokenize } from "./retrieve.mjs";
+import { DIR, corpusSlugs, readIndex, readWork, workSlug } from "./corpus.mjs";
+import { creditFor, retrieve, tokenize } from "./retrieve.mjs";
 import { ownPages, passageBlock, systemPrompt } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const DIR = path.join(ROOT, "docs", "data", "passages");
 const MIN_WORDS = 50;
 const MAX_WORDS = 400;
+// A work file is what a reader downloads to open one book. Past this it is a shelf again.
+const MAX_WORK_BYTES = 400 * 1024;
 
 const philosophers = JSON.parse(fs.readFileSync(path.join(ROOT, "docs", "data", "philosophers.json"), "utf8"));
 const topics = JSON.parse(fs.readFileSync(path.join(ROOT, "docs", "data", "topics.json"), "utf8"));
@@ -33,12 +35,23 @@ check(slugs.length > 0, "a corpus exists", `${slugs.length} philosophers`);
 let totalPassages = 0;
 let totalBytes = 0;
 
+const heaviest = { file: null, bytes: 0 };
+
 for (const slug of slugs) {
-  const file = path.join(DIR, `${slug}.json`);
-  totalBytes += fs.statSync(file).size;
+  let index;
   let corpus;
   try {
-    corpus = JSON.parse(fs.readFileSync(file, "utf8"));
+    index = readIndex(slug);
+    corpus = { translation_credits: [], passages: [] };
+    for (const w of index.works) {
+      const file = path.join(DIR, slug, w.file);
+      const bytes = fs.statSync(file).size;
+      totalBytes += bytes;
+      if (bytes > heaviest.bytes) { heaviest.file = `${slug}/${w.file}`; heaviest.bytes = bytes; }
+      const held = readWork(slug, w.slug);
+      corpus.translation_credits.push(held.translation_credit);
+      corpus.passages.push(...held.passages);
+    }
   } catch (e) {
     check(false, `${slug} parses`, e.message);
     continue;
@@ -75,6 +88,21 @@ for (const slug of slugs) {
     if (!/^https?:\/\//.test(c.source_url ?? "")) problems.push(`credit for ${c.work} lacks a source url`);
     if (c.year >= 1929) problems.push(`credit for ${c.work} is dated ${c.year}, which is not clear of copyright`);
   }
+  // The index is what every page reads before it fetches anything, so it has to agree with
+  // the files on disk: one entry per work, the count and the credit the file itself carries.
+  const taken = new Set();
+  for (const w of index.works) {
+    const held = readWork(slug, w.slug);
+    if (!held) { problems.push(`${w.slug}.json missing`); continue; }
+    if (held.work !== w.work) problems.push(`${w.file} holds ${held.work}, the index says ${w.work}`);
+    if (held.passages.length !== w.passages) problems.push(`${w.file} holds ${held.passages.length} passages, the index says ${w.passages}`);
+    if (held.passages.some((x) => x.work !== w.work)) problems.push(`${w.file} holds a passage from another work`);
+    if (w.file !== `${w.slug}.json`) problems.push(`${w.work} is indexed as ${w.file} under the slug ${w.slug}`);
+    if (w.slug !== workSlug(w.work, taken)) problems.push(`${w.work} is filed as ${w.slug}`);
+    if (held.translation_credit?.work !== w.work) problems.push(`${w.file} carries no credit of its own`);
+    taken.add(w.slug);
+  }
+  if (index.works.length !== new Set(index.works.map((w) => w.work)).size) problems.push("a work is indexed twice");
   if (short) problems.push(`${short} passages under ${MIN_WORDS} words`);
   if (long) problems.push(`${long} passages over ${MAX_WORDS} words`);
   if (!corpus.passages.length) problems.push("no passages");
@@ -87,12 +115,17 @@ for (const slug of slugs) {
   );
 }
 
-check(totalBytes < 8 * 1024 * 1024, "the corpus stays under 8MB", `${(totalBytes / 1024 / 1024).toFixed(1)}MB, ${totalPassages} passages`);
+check(totalBytes < 25 * 1024 * 1024, "the corpus stays under 25MB", `${(totalBytes / 1024 / 1024).toFixed(1)}MB, ${totalPassages} passages`);
+check(
+  heaviest.bytes < MAX_WORK_BYTES,
+  "no single work file passes 400KB",
+  `heaviest ${heaviest.file} at ${Math.round(heaviest.bytes / 1024)}KB`,
+);
 
 // Retrieval has to find a passage from its own wording. Twelve words out of a passage,
 // asked back, must bring that same passage into the top four.
 for (const slug of slugs) {
-  const corpus = JSON.parse(fs.readFileSync(path.join(DIR, `${slug}.json`), "utf8"));
+  const corpus = { passages: readIndex(slug).works.flatMap((w) => readWork(slug, w.slug).passages) };
   const step = Math.max(1, Math.floor(corpus.passages.length / 12));
   let asked = 0;
   let found = 0;

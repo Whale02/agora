@@ -396,6 +396,89 @@ cited correctly for the first time, and the Zhuangzi goes from 28 chapters to 32
   `node engine/test-retrieve.mjs` exit 0: 15 philosophers, 5699 passages, 75 works, heaviest
   work file 384KB.
 
+### F8. The six audited against their canon
+
+Commit follows this entry. Three of the six gain works; three had nothing to gain, and the
+reason each canonical work is still unquotable is recorded here rather than assumed.
+
+**Nietzsche, five works added.** Ten works now, 1009 passages, up from five and 320. The
+Birth of Tragedy (William A. Haussmann, 1909, Gutenberg 51356), Human, All Too Human (Helen
+Zimmern, 1909, 51935), The Dawn of Day (J. M. Kennedy, 1911, 39955), The Antichrist (H. L.
+Mencken, 1920, 19322), Ecce Homo (Anthony M. Ludovici, 1911, 52190).
+
+- The Will to Power is not shipped and will not be. Gutenberg carries it in Ludovici's 1910
+  translation, so it clears the sourcing law, but the book is a posthumous arrangement of
+  notebook fragments assembled by his sister; putting it on the site under his name would
+  attribute to him a book he never wrote. What is missing from the canon after that is the
+  Untimely Meditations and The Case of Wagner, both of which have pre-1930 translations and
+  both of which can be added later.
+
+**Schopenhauer, eight works added.** Eleven works now, 920 passages, up from three and 300.
+Volumes II and III of Haldane and Kemp, which are Schopenhauer's own supplements to the four
+books; the four other volumes Saunders drew out of the Parerga, which are Counsels and
+Maxims, Studies in Pessimism, The Art of Literature and The Art of Controversy; and Mme.
+Karl Hillebrand's On the Fourfold Root of the Principle of Sufficient Reason and On the Will
+in Nature.
+
+- The spot-check caught three real defects before any of this shipped. Volume III ran past
+  the text into the book's index, so a passage read "knowledge, whence the need of, iii. 7,
+  8; physiological and metaphysical view of, ii. 486". On the Will in Nature ran into Bohn's
+  Libraries catalogue bound at the back, so a passage was a publisher's list of titles for
+  sale. And the four Saunders volumes were being filed under the one Parerga entry, whose
+  credit points at the Wisdom of Life ebook, so a reader following the citation for a passage
+  from Counsels and Maxims would not have found it there. Each volume is now its own work
+  with its own source, and both tails are cut.
+- On the Freedom of the Will has no pre-1930 English translation. Bullock translated only the
+  other of the two prize essays in 1903; Konstantin Kolenda's version is 1960 and in
+  copyright. It stays listed and unquoted.
+
+**Wang Yangming, three works added.** Four works now, 340 passages. Henke's 1916 volume
+translates four books, and the build was filing all four under the title of the first. Book
+I is the Instructions for Practical Living; book II is the Record of Discourses and then the
+Inquiry Regarding the Great Learning, which is Wang's own essay; books III and IV are his
+letters. A letter to a student and an essay on the Great Learning were being cited as the
+Instructions, which is a false citation, and they are now three works of their own.
+
+**Kierkegaard, nothing to add.** Five of his eight listed works are quoted, all from Lee M.
+Hollander's Selections of 1923, which is the only pre-1930 English Kierkegaard on Gutenberg
+or Wikisource. The Sickness Unto Death, The Concept of Anxiety and Works of Love stay listed
+and unquoted: the first English translations are Walter Lowrie's of 1941 and 1944 and David
+Swenson's of 1946, all in copyright, and so are Philosophical Fragments (Swenson 1936) and
+the Concluding Unscientific Postscript (Swenson and Lowrie 1941).
+
+**Wittgenstein, nothing to add.** One of his four listed works is quoted. The Tractatus is
+the only book he published in his lifetime and Ogden's translation of 1922 is out of
+copyright. Philosophical Investigations (Anscombe 1953), On Certainty (Paul and Anscombe
+1969) and Culture and Value (Winch 1980) are all in copyright and all posthumous. Gutenberg
+holds the German Tractatus and nothing else of his.
+
+**Marcus Aurelius, nothing to add.** His canon is one book and the corpus holds it. The
+Meditations is the only work of his that survives, and George Long's translation of 1862 is
+long out of copyright. Nothing is missing.
+
+**Where the plaza stands.** Fifteen of the twenty-five hold passages; ten are listed and
+unquoted. Socrates wrote nothing, and lane G3 will point his profile at the dialogues in
+which Plato records him. The other nine are Camus, Simone Weil, Hannah Arendt, Erich Fromm,
+Simone de Beauvoir, Charlie Munger, Naval Ravikant, Byung-Chul Han and Nassim Taleb, whose
+writing is all twentieth or twenty-first century and all in copyright.
+
+**Verified.** `spotcheck.mjs` exit 0 on all six: Nietzsche 30 of 30, Schopenhauer 33 of 33,
+Wang Yangming 12 of 12, Kierkegaard 15 of 15, Wittgenstein 3 of 3, Marcus Aurelius 3 of 3.
+The checker gained a fallback for the case where a source sets a number apart from the
+sentence it belongs to: a passage not found whole is re-checked in overlapping six-word
+windows, with a window that straddles a join counted as found. Negative control: replacing
+one Daodejing passage with an invented sentence still fails, 1 of 4 windows.
+`node engine/test-retrieve.mjs` exit 0: 15 philosophers, 7103 passages, 91 works, 11MB
+against the plan's 25MB ceiling.
+
+Two defects in the passage builder were fixed along the way, both of which had been shipping
+since the last run. A passage could end with a dash left hanging where an italic aside or a
+footnote had been removed, which is not the translator's punctuation; and the length ceiling
+was measured in letter-words while the corpus test measures every run of characters between
+two spaces, so a 414-word passage passed the build and failed the test. The ceiling is now
+measured the way the test measures it, and a passage the chunker cannot break at a sentence
+or a semicolon is dropped rather than cut mid-clause.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

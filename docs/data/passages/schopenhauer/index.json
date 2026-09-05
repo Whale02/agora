@@ -5,8 +5,8 @@
       "work": "The World as Will and Representation",
       "slug": "the-world-as-will-and-representation",
       "file": "the-world-as-will-and-representation.json",
-      "passages": 145,
-      "words": 36019,
+      "passages": 120,
+      "words": 29266,
       "translator": "R. B. Haldane and J. Kemp",
       "year": 1883,
       "source_url": "https://www.gutenberg.org/ebooks/38427"
@@ -15,8 +15,8 @@
       "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
       "slug": "parerga-and-paralipomena",
       "file": "parerga-and-paralipomena.json",
-      "passages": 66,
-      "words": 14928,
+      "passages": 120,
+      "words": 27935,
       "translator": "T. Bailey Saunders",
       "year": 1890,
       "source_url": "https://www.gutenberg.org/ebooks/10741"
@@ -25,11 +25,91 @@
       "work": "On the Basis of Morality",
       "slug": "on-the-basis-of-morality",
       "file": "on-the-basis-of-morality.json",
-      "passages": 90,
-      "words": 21861,
+      "passages": 120,
+      "words": 29101,
       "translator": "Arthur Brodrick Bullock",
       "year": 1903,
       "source_url": "https://www.gutenberg.org/ebooks/44929"
+    },
+    {
+      "work": "The World as Will and Idea, Volume II (the Supplements)",
+      "slug": "the-world-as-will-and-idea-volume-ii",
+      "file": "the-world-as-will-and-idea-volume-ii.json",
+      "passages": 90,
+      "words": 21744,
+      "translator": "R. B. Haldane and J. Kemp",
+      "year": 1886,
+      "source_url": "https://www.gutenberg.org/ebooks/40097"
+    },
+    {
+      "work": "The World as Will and Idea, Volume III (the Supplements)",
+      "slug": "the-world-as-will-and-idea-volume-iii",
+      "file": "the-world-as-will-and-idea-volume-iii.json",
+      "passages": 90,
+      "words": 22488,
+      "translator": "R. B. Haldane and J. Kemp",
+      "year": 1886,
+      "source_url": "https://www.gutenberg.org/ebooks/40868"
+    },
+    {
+      "work": "Counsels and Maxims (from Parerga and Paralipomena)",
+      "slug": "counsels-and-maxims",
+      "file": "counsels-and-maxims.json",
+      "passages": 60,
+      "words": 13504,
+      "translator": "T. Bailey Saunders",
+      "year": 1890,
+      "source_url": "https://www.gutenberg.org/ebooks/10715"
+    },
+    {
+      "work": "Studies in Pessimism (from Parerga and Paralipomena)",
+      "slug": "studies-in-pessimism",
+      "file": "studies-in-pessimism.json",
+      "passages": 60,
+      "words": 14461,
+      "translator": "T. Bailey Saunders",
+      "year": 1890,
+      "source_url": "https://www.gutenberg.org/ebooks/10732"
+    },
+    {
+      "work": "The Art of Literature (from Parerga and Paralipomena)",
+      "slug": "the-art-of-literature",
+      "file": "the-art-of-literature.json",
+      "passages": 60,
+      "words": 14053,
+      "translator": "T. Bailey Saunders",
+      "year": 1890,
+      "source_url": "https://www.gutenberg.org/ebooks/10714"
+    },
+    {
+      "work": "The Art of Controversy (from Parerga and Paralipomena)",
+      "slug": "the-art-of-controversy",
+      "file": "the-art-of-controversy.json",
+      "passages": 60,
+      "words": 14728,
+      "translator": "T. Bailey Saunders",
+      "year": 1890,
+      "source_url": "https://www.gutenberg.org/ebooks/10731"
+    },
+    {
+      "work": "On the Fourfold Root of the Principle of Sufficient Reason",
+      "slug": "on-the-fourfold-root-of-the-principle-of-sufficient-reason",
+      "file": "on-the-fourfold-root-of-the-principle-of-sufficient-reason.json",
+      "passages": 80,
+      "words": 19962,
+      "translator": "Mme. Karl Hillebrand",
+      "year": 1907,
+      "source_url": "https://www.gutenberg.org/ebooks/50966"
+    },
+    {
+      "work": "On the Will in Nature",
+      "slug": "on-the-will-in-nature",
+      "file": "on-the-will-in-nature.json",
+      "passages": 60,
+      "words": 14677,
+      "translator": "Mme. Karl Hillebrand",
+      "year": 1907,
+      "source_url": "https://www.gutenberg.org/ebooks/50966"
     }
   ]
 }

@@ -133,20 +133,12 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter I, Prejudices of Philosophers",
-      "text": "9. You desire to LIVE \"according to Nature\"? Oh, you noble Stoics, what fraud of words! Imagine to yourselves a being like Nature, boundlessly extravagant, boundlessly indifferent, without purpose or consideration, without pity or justice, at once fruitful and barren and uncertain: imagine to yourselves INDIFFERENCE as a power--how COULD you live in accordance with such indifference? To live--is not that just endeavouring to be otherwise than this Nature? Is not living valuing, preferring, being unjust, being limited, endeavouring to be different? And granted that your imperative, \"living according to Nature,\" means actually the same as \"living according to life\"--how could you do DIFFERENTLY? Why should you make a principle out of what you yourselves are, and must be? In reality, however, it is quite otherwise with you: while you pretend to read with rapture the canon of your law in Nature, you want something quite the contrary, you extraordinary stage-players and self-deluders! In your pride you wish to dictate your morals and ideals to Nature, to Nature herself, and to incorporate them therein; you insist that it shall be Nature \"according to the Stoa,\" and would like everything to be made after your own image, as a vast, eternal glorification and generalism of Stoicism! With all your love for truth, you have forced yourselves so long, so persistently, and with such hypnotic rigidity to see Nature FALSELY, that is to say, Stoically, that you are no longer able to see it otherwise--and to crown all, some unfathomable superciliousness gives you the Bedlamite hope that BECAUSE you are able to tyrannize over yourselves--Stoicism is self-tyranny--Nature will also allow herself to be tyrannized over: is not the Stoic a PART of Nature?...",
+      "text": "9. You desire to LIVE \"according to Nature\"? Oh, you noble Stoics, what fraud of words! Imagine to yourselves a being like Nature, boundlessly extravagant, boundlessly indifferent, without purpose or consideration, without pity or justice, at once fruitful and barren and uncertain: imagine to yourselves INDIFFERENCE as a power--how COULD you live in accordance with such indifference? To live--is not that just endeavouring to be otherwise than this Nature? Is not living valuing, preferring, being unjust, being limited, endeavouring to be different? And granted that your imperative, \"living according to Nature,\" means actually the same as \"living according to life\"--how could you do DIFFERENTLY? Why should you make a principle out of what you yourselves are, and must be? In reality, however, it is quite otherwise with you: while you pretend to read with rapture the canon of your law in Nature, you want something quite the contrary, you extraordinary stage-players and self-deluders! In your pride you wish to dictate your morals and ideals to Nature, to Nature herself, and to incorporate them therein; you insist that it shall be Nature \"according to the Stoa,\" and would like everything to be made after your own image, as a vast, eternal glorification and generalism of Stoicism! With all your love for truth, you have forced yourselves so long, so persistently, and with such hypnotic rigidity to see Nature FALSELY, that is to say, Stoically, that you are no longer able to see it otherwise--and to crown all, some unfathomable superciliousness gives you the Bedlamite hope that BECAUSE you are able to tyrannize over yourselves--Stoicism is self-tyranny--Nature will also allow herself to be tyrannized over: is not the Stoic a PART of Nature?... But this is an old and everlasting story: what happened in old times with the Stoics still happens today, as soon as ever a philosophy begins to believe in itself. It always creates the world in its own image; it cannot do otherwise; philosophy is this tyrannical impulse itself, the most spiritual Will to Power, the will to \"creation of the world,\" the will to the causa prima.",
       "topics": [
         "virtue",
+        "knowledge",
         "self",
-        "meaning",
-        "love"
-      ]
-    },
-    {
-      "work": "Beyond Good and Evil",
-      "ref": "Chapter I, Prejudices of Philosophers",
-      "text": "But this is an old and everlasting story: what happened in old times with the Stoics still happens today, as soon as ever a philosophy begins to believe in itself. It always creates the world in its own image; it cannot do otherwise; philosophy is this tyrannical impulse itself, the most spiritual Will to Power, the will to \"creation of the world,\" the will to the causa prima.",
-      "topics": [
-        "freedom"
+        "meaning"
       ]
     },
     {
@@ -446,11 +438,28 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter II, The Free Spirit",
+      "text": "29. It is the business of the very few to be independent; it is a privilege of the strong. And whoever attempts it, even with the best right, but without being OBLIGED to do so, proves that he is probably not only strong, but also daring beyond measure. He enters into a labyrinth, he multiplies a thousandfold the dangers which life in itself already brings with it; not the least of which is that no one can see how and where he loses his way, becomes isolated, and is torn piecemeal by some minotaur of conscience. Supposing such a one comes to grief, it is so far from the comprehension of men that they neither feel it, nor sympathize with it. And he cannot any longer go back! He cannot even go back again to the sympathy of men!\n\n30. Our deepest insights must--and should--appear as follies, and under certain circumstances as crimes, when they come unauthorizedly to the ears of those who are not disposed and predestined for them. The exoteric and the esoteric, as they were formerly distinguished by philosophers--among the Indians, as among the Greeks, Persians, and Mussulmans, in short, wherever people believed in gradations of rank and NOT in equality and equal rights--are not so much in contradistinction to one another in respect to the exoteric class, standing without, and viewing, estimating, measuring, and judging from the outside, and not from the inside; the more essential distinction is that the class in question views things from below upwards--while the esoteric class views things FROM ABOVE DOWNWARDS.",
+      "topics": [
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
       "text": "There are heights of the soul from which tragedy itself no longer appears to operate tragically; and if all the woe in the world were taken together, who would dare to decide whether the sight of it would NECESSARILY seduce and constrain to sympathy, and thus to a doubling of the woe?... That which serves the higher class of men for nourishment or refreshment, must be almost poison to an entirely different and lower order of human beings. The virtues of the common man would perhaps mean vice and weakness in a philosopher; it might be possible for a highly developed man, supposing him to degenerate and go to ruin, to acquire qualities thereby alone, for the sake of which he would have to be honoured as a saint in the lower world into which he had sunk. There are books which have an inverse value for the soul and the health according as the inferior soul and the lower vitality, or the higher and more powerful, make use of them. In the former case they are dangerous, disturbing, unsettling books, in the latter case they are herald-calls which summon the bravest to THEIR bravery. Books for the general reader are always ill-smelling books, the odour of paltry people clings to them. Where the populace eat and drink, and even where they reverence, it is accustomed to stink. One should not go into churches if one wishes to breathe PURE air.",
       "topics": [
         "virtue",
         "self",
         "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "31. In our youthful years we still venerate and despise without the art of NUANCE, which is the best gain of life, and we have rightly to do hard penance for having fallen upon men and things with Yea and Nay. Everything is so arranged that the worst of all tastes, THE TASTE FOR THE UNCONDITIONAL, is cruelly befooled and abused, until a man learns to introduce a little art into his sentiments, and prefers to try conclusions with the artificial, as do the real artists of life. The angry and reverent spirit peculiar to youth appears to allow itself no peace, until it has suitably falsified men and things, to be able to vent its passion upon them: youth in itself even, is something falsifying and deceptive. Later on, when the young soul, tortured by continual disillusions, finally turns suspiciously against itself--still ardent and savage even in its suspicion and remorse of conscience: how it upbraids itself, how impatiently it tears itself, how it revenges itself for its long self-blinding, as though it had been a voluntary blindness! In this transition one punishes oneself by distrust of one's sentiments; one tortures one's enthusiasm with doubt, one feels even the good conscience to be a danger, as if it were the self-concealment and lassitude of a more refined uprightness; and above all, one espouses upon principle the cause AGAINST \"youth.\"--A decade later, and one comprehends that all this was also still--youth!",
+      "topics": [
+        "self"
       ]
     },
     {
@@ -466,12 +475,76 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter II, The Free Spirit",
+      "text": "The intention as the sole origin and antecedent history of an action: under the influence of this prejudice moral praise and blame have been bestowed, and men have judged and even philosophized almost up to the present day.--Is it not possible, however, that the necessity may now have arisen of again making up our minds with regard to the reversing and fundamental shifting of values, owing to a new self-consciousness and acuteness in man--is it not possible that we may be standing on the threshold of a period which to begin with, would be distinguished negatively as ULTRA-MORAL: nowadays when, at least among us immoralists, the suspicion arises that the decisive value of an action lies precisely in that which is NOT INTENTIONAL, and that all its intentionalness, all that is seen, sensible, or \"sensed\" in it, belongs to its surface or skin--which, like every skin, betrays something, but CONCEALS still more? In short, we believe that the intention is only a sign or symptom, which first requires an explanation--a sign, moreover, which has too many interpretations, and consequently hardly any meaning in itself alone: that morality, in the sense in which it has been understood hitherto, as intention-morality, has been a prejudice, perhaps a prematureness or preliminariness, probably something of the same rank as astrology and alchemy, but in any case something which must be surmounted. The surmounting of morality, in a certain sense even the self-mounting of morality--let that be the name for the long-secret labour which has been reserved for the most refined, the most upright, and also the most wicked consciences of today, as the living touchstones of the soul.",
+      "topics": [
+        "self",
+        "knowledge",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
       "text": "33. It cannot be helped: the sentiment of surrender, of sacrifice for one's neighbour, and all self-renunciation-morality, must be mercilessly called to account, and brought to judgment; just as the aesthetics of \"disinterested contemplation,\" under which the emasculation of art nowadays seeks insidiously enough to create itself a good conscience. There is far too much witchery and sugar in the sentiments \"for others\" and \"NOT for myself,\" for one not needing to be doubly distrustful here, and for one asking promptly: \"Are they not perhaps--DECEPTIONS?\"--That they PLEASE--him who has them, and him who enjoys their fruit, and also the mere spectator--that is still no argument in their FAVOUR, but just calls for caution. Let us therefore be cautious!\n\n34. At whatever standpoint of philosophy one may place oneself nowadays, seen from every position, the ERRONEOUSNESS of the world in which we think we live is the surest and most certain thing our eyes can light upon: we find proof after proof thereof, which would fain allure us into surmises concerning a deceptive principle in the \"nature of things.\" He, however, who makes thinking itself, and consequently \"the spirit,\" responsible for the falseness of the world--an honourable exit, which every conscious or unconscious advocatus dei avails himself of--he who regards this world, including space, time, form, and movement, as falsely DEDUCED, would have at least good reason in the end to become distrustful also of all thinking; has it not hitherto been playing upon us the worst of scurvy tricks?",
       "topics": [
         "knowledge",
         "self",
         "virtue",
         "nature"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "and what guarantee would it give that it would not continue to do what it has always been doing? In all seriousness, the innocence of thinkers has something touching and respect-inspiring in it, which even nowadays permits them to wait upon consciousness with the request that it will give them HONEST answers: for example, whether it be \"real\" or not, and why it keeps the outer world so resolutely at a distance, and other questions of the same description. The belief in \"immediate certainties\" is a MORAL NAIVETE which does honour to us philosophers; but--we have now to cease being \"MERELY moral\" men! Apart from morality, such belief is a folly which does little honour to us! If in middle-class life an ever-ready distrust is regarded as the sign of a \"bad character,\" and consequently as an imprudence, here among us, beyond the middle-class world and its Yeas and Nays, what should prevent our being imprudent and saying: the philosopher has at length a RIGHT to \"bad character,\" as the being who has hitherto been most befooled on earth--he is now under OBLIGATION to distrustfulness, to the wickedest squinting out of every abyss of suspicion.--Forgive me the joke of this gloomy grimace and turn of expression; for I myself have long ago learned to think and estimate differently with regard to deceiving and being deceived, and I keep at least a couple of pokes in the ribs ready for the blind rage with which philosophers struggle against being deceived.",
+      "topics": [
+        "virtue",
+        "meta",
+        "self",
+        "action"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "Why NOT? It is nothing more than a moral prejudice that truth is worth more than semblance; it is, in fact, the worst proved supposition in the world. So much must be conceded: there could have been no life at all except upon the basis of perspective estimates and semblances; and if, with the virtuous enthusiasm and stupidity of many philosophers, one wished to do away altogether with the \"seeming world\"--well, granted that YOU could do that,--at least nothing of your \"truth\" would thereby remain! Indeed, what is it that forces us in general to the supposition that there is an essential opposition of \"true\" and \"false\"? Is it not enough to suppose degrees of seemingness, and as it were lighter and darker shades and tones of semblance--different valeurs, as the painters say? Why might not the world WHICH CONCERNS US--be a fiction? And to any one who suggested: \"But to a fiction belongs an originator?\"--might it not be bluntly replied: WHY? May not this \"belong\" also belong to the fiction? Is it not at length permitted to be a little ironical towards the subject, just as towards the predicate and object? Might not the philosopher elevate himself above faith in grammar? All respect to governesses, but is it not time that philosophy should renounce governess-faith?",
+      "topics": [
+        "meta",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "35. O Voltaire! O humanity! O idiocy! There is something ticklish in \"the truth,\" and in the SEARCH for the truth; and if man goes about it too humanely--\"il ne cherche le vrai que pour faire le bien\"--I wager he finds nothing!\n\n36. Supposing that nothing else is \"given\" as real but our world of desires and passions, that we cannot sink or rise to any other \"reality\" but just that of our impulses--for thinking is only a relation of these impulses to one another:--are we not permitted to make the attempt and to ask the question whether this which is \"given\" does not SUFFICE, by means of our counterparts, for the understanding even of the so-called mechanical (or \"material\") world? I do not mean as an illusion, a \"semblance,\" a \"representation\" (in the Berkeleyan and Schopenhauerian sense), but as possessing the same degree of reality as our emotions themselves--as a more primitive form of the world of emotions, in which everything still lies locked in a mighty unity, which afterwards branches off and develops itself in organic processes (naturally also, refines and debilitates)--as a kind of instinctive life in which all organic functions, including self-regulation, assimilation, nutrition, secretion, and change of matter, are still synthetically united with one another--as a PRIMARY FORM of life?--In the end, it is not only permitted to make this attempt, it is commanded by the conscience of LOGICAL METHOD.",
+      "topics": [
+        "knowledge",
+        "action",
+        "self",
+        "nature"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "Not to assume several kinds of causality, so long as the attempt to get along with a single one has not been pushed to its furthest extent (to absurdity, if I may be allowed to say so): that is a morality of method which one may not repudiate nowadays--it follows \"from its definition,\" as mathematicians say. The question is ultimately whether we really recognize the will as OPERATING, whether we believe in the causality of the will; if we do so--and fundamentally our belief IN THIS is just our belief in causality itself--we MUST make the attempt to posit hypothetically the causality of the will as the only causality. \"Will\" can naturally only operate on \"will\"--and not on \"matter\" (not on \"nerves,\" for instance): in short, the hypothesis must be hazarded, whether will does not operate on will wherever \"effects\" are recognized--and whether all mechanical action, inasmuch as a power operates therein, is not just the power of will, the effect of will. Granted, finally, that we succeeded in explaining our entire instinctive life as the development and ramification of one fundamental form of will--namely, the Will to Power, as my thesis puts it; granted that all organic functions could be traced back to this Will to Power, and that the solution of the problem of generation and nutrition--it is one problem--could also be found therein: one would thus have acquired the right to define ALL active force unequivocally as WILL TO POWER. The world seen from within, the world defined and designated according to its \"intelligible character\"--it would simply be \"Will to Power,\" and nothing else.",
+      "topics": [
+        "action",
+        "meta",
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "37. \"What? Does not that mean in popular language: God is disproved, but not the devil?\"--On the contrary! On the contrary, my friends! And who the devil also compels you to speak popularly!\n\n38. As happened finally in all the enlightenment of modern times with the French Revolution (that terrible farce, quite superfluous when judged close at hand, into which, however, the noble and visionary spectators of all Europe have interpreted from a distance their own indignation and enthusiasm so long and passionately, UNTIL THE TEXT HAS DISAPPEARED UNDER THE INTERPRETATION), so a noble posterity might once more misunderstand the whole of the past, and perhaps only thereby make ITS aspect endurable.--Or rather, has not this already happened? Have not we ourselves been--that \"noble posterity\"? And, in so far as we now comprehend this, is it not--thereby already past?\n\n39. Nobody will very readily regard a doctrine as true merely because it makes people happy or virtuous--excepting, perhaps, the amiable \"Idealists,\" who are enthusiastic about the good, true, and beautiful, and let all kinds of motley, coarse, and good-natured desirabilities swim about promiscuously in their pond. Happiness and virtue are no arguments. It is willingly forgotten, however, even on the part of thoughtful minds, that to make unhappy and to make bad are just as little counter-arguments. A thing could be TRUE, although it were in the highest degree injurious and dangerous; indeed, the fundamental constitution of existence might be such that one succumbed by a full knowledge of it--so that the strength of a mind might be measured by the amount of \"truth\" it could endure--or to speak more plainly, by the extent to which it REQUIRED truth attenuated, veiled, sweetened, damped, and falsified.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning"
       ]
     },
     {
@@ -507,7 +580,50 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter II, The Free Spirit",
-      "text": "that we do not wish to betray in every respect WHAT a spirit can free itself from, and WHERE perhaps it will then be driven? And as to the import of the dangerous formula, \"Beyond Good and Evil,\" with which we at least avoid confusion, we ARE something else than \"libres-penseurs,\" \"liben pensatori\" \"free-thinkers,\" and whatever these honest advocates of \"modern ideas\" like to call themselves. Having been at home, or at least guests, in many realms of the spirit, having escaped again and again from the gloomy, agreeable nooks in which preferences and prejudices, youth, origin, the accident of men and books, or even the weariness of travel seemed to confine us, full of malice against the seductions of dependency which he concealed in honours, money, positions, or exaltation of the senses, grateful even for distress and the vicissitudes of illness, because they always free us from some rule, and its \"prejudice,\" grateful to the God, devil, sheep, and worm in us, inquisitive to a fault, investigators to the point of cruelty, with unhesitating fingers for the intangible, with teeth and stomachs for the most indigestible, ready for any business that requires sagacity and acute senses, ready for every adventure, owing to an excess of \"free will\", with anterior and posterior souls, into the ultimate intentions of which it is difficult to pry, with foregrounds and backgrounds to the end of which no foot may run, hidden ones under the mantles of light, appropriators, although we resemble heirs and spendthrifts, arrangers and collectors from morning till night, misers of our wealth and our full-crammed drawers, economical in learning and forgetting, inventive in scheming, sometimes proud of tables of categories, sometimes pedants, sometimes night-owls of work even in full day, yea, if necessary, even scarecrows--and it is necessary nowadays, that is to say, inasmuch as we are the born, sworn, jealous friends of SOLITUDE, of our own profoundest midnight and midday solitude--such kind of men are we, we free spirits!",
+      "text": "41. One must subject oneself to one's own tests that one is destined for independence and command, and do so at the right time. One must not avoid one's tests, although they constitute perhaps the most dangerous game one can play, and are in the end tests made only before ourselves and before no other judge. Not to cleave to any person, be it even the dearest--every person is a prison and also a recess. Not to cleave to a fatherland, be it even the most suffering and necessitous--it is even less difficult to detach one's heart from a victorious fatherland. Not to cleave to a sympathy, be it even for higher men, into whose peculiar torture and helplessness chance has given us an insight. Not to cleave to a science, though it tempt one with the most valuable discoveries, apparently specially reserved for us. Not to cleave to one's own liberation, to the voluptuous distance and remoteness of the bird, which always flies further aloft in order always to see more under it--the danger of the flier. Not to cleave to our own virtues, nor become as a whole a victim to any of our specialties, to our \"hospitality\" for instance, which is the danger of dangers for highly developed and wealthy souls, who deal prodigally, almost indifferently with themselves, and push the virtue of liberality so far that it becomes a vice. One must know how TO CONSERVE ONESELF--the best test of independence.",
+      "topics": [
+        "virtue",
+        "freedom",
+        "knowledge",
+        "self"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "42. A new order of philosophers is appearing; I shall venture to baptize them by a name not without danger. As far as I understand them, as far as they allow themselves to be understood--for it is their nature to WISH to remain something of a puzzle--these philosophers of the future might rightly, perhaps also wrongly, claim to be designated as \"tempters.\" This name itself is after all only an attempt, or, if it be preferred, a temptation.\n\n43. Will they be new friends of \"truth,\" these coming philosophers? Very probably, for all philosophers hitherto have loved their truths. But assuredly they will not be dogmatists. It must be contrary to their pride, and also contrary to their taste, that their truth should still be truth for every one--that which has hitherto been the secret wish and ultimate purpose of all dogmatic efforts. \"My opinion is MY opinion: another person has not easily a right to it\"--such a philosopher of the future will say, perhaps. One must renounce the bad taste of wishing to agree with many people. \"Good\" is no longer good when one's neighbour takes it into his mouth. And how could there be a \"common good\"! The expression contradicts itself; that which can be common is always of small value. In the end things must be as they are and have always been--the great things remain for the great, the abysses for the profound, the delicacies and thrills for the refined, and, to sum up shortly, everything rare for the rare.",
+      "topics": [
+        "meta",
+        "knowledge",
+        "meaning",
+        "love"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "44. Need I say expressly after all this that they will be free, VERY free spirits, these philosophers of the future--as certainly also they will not be merely free spirits, but something more, higher, greater, and fundamentally different, which does not wish to be misunderstood and mistaken? But while I say this, I feel under OBLIGATION almost as much to them as to ourselves (we free spirits who are their heralds and forerunners), to sweep away from ourselves altogether a stupid old prejudice and misunderstanding, which, like a fog, has too long made the conception of \"free spirit\" obscure. In every country of Europe, and the same in America, there is at present something which makes an abuse of this name a very narrow, prepossessed, enchained class of spirits, who desire almost the opposite of what our intentions and instincts prompt--not to mention that in respect to the NEW philosophers who are appearing, they must still more be closed windows and bolted doors. Briefly and regrettably, they belong to the LEVELLERS, these wrongly named \"free spirits\"--as glib-tongued and scribe-fingered slaves of the democratic taste and its \"modern ideas\" all of them men without solitude, without personal solitude, blunt honest fellows to whom neither courage nor honourable conduct ought to be denied, only, they are not free, and are ludicrously superficial, especially in their innate partiality for seeing the cause of almost ALL human misery and failure in the old forms in which society has hitherto existed--a notion which happily inverts the truth entirely!",
+      "topics": [
+        "freedom",
+        "virtue",
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "What they would fain attain with all their strength, is the universal, green-meadow happiness of the herd, together with security, safety, comfort, and alleviation of life for every one, their two most frequently chanted songs and doctrines are called \"Equality of Rights\" and \"Sympathy with All Sufferers\"--and suffering itself is looked upon by them as something which must be DONE AWAY WITH. We opposite ones, however, who have opened our eye and conscience to the question how and where the plant \"man\" has hitherto grown most vigorously, believe that this has always taken place under the opposite conditions, that for this end the dangerousness of his situation had to be increased enormously, his inventive faculty and dissembling power (his \"spirit\") had to develop into subtlety and daring under long oppression and compulsion, and his Will to Life had to be increased to the unconditioned Will to Power--we believe that severity, violence, slavery, danger in the street and in the heart, secrecy, stoicism, tempter's art and devilry of every kind,--that everything wicked, terrible, tyrannical, predatory, and serpentine in man, serves as well for the elevation of the human species as its opposite--we do not even say enough when we only say THIS MUCH, and in any case we find ourselves here, both with our speech and our silence, at the OTHER extreme of all modern ideology and gregarious desirability, as their antipodes perhaps? What wonder that we \"free spirits\" are not exactly the most communicative spirits?",
+      "topics": [
+        "freedom",
+        "meta",
+        "action"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter II, The Free Spirit",
+      "text": "that we do not wish to betray in every respect WHAT a spirit can free itself from, and WHERE perhaps it will then be driven? And as to the import of the dangerous formula, \"Beyond Good and Evil,\" with which we at least avoid confusion, we ARE something else than \"libres-penseurs,\" \"liben pensatori\" \"free-thinkers,\" and whatever these honest advocates of \"modern ideas\" like to call themselves. Having been at home, or at least guests, in many realms of the spirit, having escaped again and again from the gloomy, agreeable nooks in which preferences and prejudices, youth, origin, the accident of men and books, or even the weariness of travel seemed to confine us, full of malice against the seductions of dependency which he concealed in honours, money, positions, or exaltation of the senses, grateful even for distress and the vicissitudes of illness, because they always free us from some rule, and its \"prejudice,\" grateful to the God, devil, sheep, and worm in us, inquisitive to a fault, investigators to the point of cruelty, with unhesitating fingers for the intangible, with teeth and stomachs for the most indigestible, ready for any business that requires sagacity and acute senses, ready for every adventure, owing to an excess of \"free will\", with anterior and posterior souls, into the ultimate intentions of which it is difficult to pry, with foregrounds and backgrounds to the end of which no foot may run, hidden ones under the mantles of light, appropriators, although we resemble heirs and spendthrifts, arrangers and collectors from morning till night, misers of our wealth and our full-crammed drawers, economical in learning and forgetting, inventive in scheming, sometimes proud of tables of categories, sometimes pedants, sometimes night-owls of work even in full day, yea, if necessary, even scarecrows--and it is necessary nowadays, that is to say, inasmuch as we are the born, sworn, jealous friends of SOLITUDE, of our own profoundest midnight and midday solitude--such kind of men are we, we free spirits! And perhaps ye are also something of the same kind, ye coming ones? ye NEW philosophers?",
       "topics": [
         "work",
         "meaning",
@@ -518,12 +634,130 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter III, The Religious Mood",
-      "text": "45. The human soul and its limits, the range of man's inner experiences hitherto attained, the heights, depths, and distances of these experiences, the entire history of the soul UP TO THE PRESENT TIME, and its still unexhausted possibilities: this is the preordained hunting-domain for a born psychologist and lover of a \"big hunt\". But how often must he say despairingly to himself: \"A single individual! alas, only a single individual! and this great forest, this virgin forest!\" So he would like to have some hundreds of hunting assistants, and fine trained hounds, that he could send into the history of the human soul, to drive HIS game together. In vain: again and again he experiences, profoundly and bitterly, how difficult it is to find assistants and dogs for all the things that directly excite his curiosity. The evil of sending scholars into new and dangerous hunting-domains, where courage, sagacity, and subtlety in every sense are required, is that they are no longer serviceable just when the \"BIG hunt,\" and also the great danger commences,--it is precisely then that they lose their keen eye and nose. In order, for instance, to divine and determine what sort of history the problem of KNOWLEDGE AND CONSCIENCE has hitherto had in the souls of homines religiosi, a person would perhaps himself have to possess as profound, as bruised, as immense an experience as the intellectual conscience of Pascal; and then he would still require that wide-spread heaven of clear, wicked spirituality, which, from above, would be able to oversee, arrange, and effectively formulize this mass of dangerous and painful experiences.",
+      "text": "45. The human soul and its limits, the range of man's inner experiences hitherto attained, the heights, depths, and distances of these experiences, the entire history of the soul UP TO THE PRESENT TIME, and its still unexhausted possibilities: this is the preordained hunting-domain for a born psychologist and lover of a \"big hunt\". But how often must he say despairingly to himself: \"A single individual! alas, only a single individual! and this great forest, this virgin forest!\" So he would like to have some hundreds of hunting assistants, and fine trained hounds, that he could send into the history of the human soul, to drive HIS game together. In vain: again and again he experiences, profoundly and bitterly, how difficult it is to find assistants and dogs for all the things that directly excite his curiosity. The evil of sending scholars into new and dangerous hunting-domains, where courage, sagacity, and subtlety in every sense are required, is that they are no longer serviceable just when the \"BIG hunt,\" and also the great danger commences,--it is precisely then that they lose their keen eye and nose. In order, for instance, to divine and determine what sort of history the problem of KNOWLEDGE AND CONSCIENCE has hitherto had in the souls of homines religiosi, a person would perhaps himself have to possess as profound, as bruised, as immense an experience as the intellectual conscience of Pascal; and then he would still require that wide-spread heaven of clear, wicked spirituality, which, from above, would be able to oversee, arrange, and effectively formulize this mass of dangerous and painful experiences.--But who could do me this service! And who would have time to wait for such servants!--they evidently appear too rarely, they are so improbable at all times! Eventually one must do everything ONESELF in order to know something; which means that one has MUCH to do!--But a curiosity like mine is once for all the most agreeable of vices--pardon me! I mean to say that the love of truth has its reward in heaven, and already upon earth.",
       "topics": [
         "self",
+        "knowledge",
         "virtue",
+        "love"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "46. Faith, such as early Christianity desired, and not infrequently achieved in the midst of a skeptical and southernly free-spirited world, which had centuries of struggle between philosophical schools behind it and in it, counting besides the education in tolerance which the Imperium Romanum gave--this faith is NOT that sincere, austere slave-faith by which perhaps a Luther or a Cromwell, or some other northern barbarian of the spirit remained attached to his God and Christianity, it is much rather the faith of Pascal, which resembles in a terrible manner a continuous suicide of reason--a tough, long-lived, worm-like reason, which is not to be slain at once and with a single blow. The Christian faith from the beginning, is sacrifice the sacrifice of all freedom, all pride, all self-confidence of spirit, it is at the same time subjection, self-derision, and self-mutilation. There is cruelty and religious Phoenicianism in this faith, which is adapted to a tender, many-sided, and very fastidious conscience, it takes for granted that the subjection of the spirit is indescribably PAINFUL, that all the past and all the habits of such a spirit resist the absurdissimum, in the form of which \"faith\" comes to it. Modern men, with their obtuseness as regards all Christian nomenclature, have no longer the sense for the terribly superlative conception which was implied to an antique taste by the paradox of the formula, \"God on the Cross\".",
+      "topics": [
+        "freedom",
+        "self",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "Hitherto there had never and nowhere been such boldness in inversion, nor anything at once so dreadful, questioning, and questionable as this formula: it promised a transvaluation of all ancient values--It was the Orient, the PROFOUND Orient, it was the Oriental slave who thus took revenge on Rome and its noble, light-minded toleration, on the Roman \"Catholicism\" of non-faith, and it was always not the faith, but the freedom from the faith, the half-stoical and smiling indifference to the seriousness of the faith, which made the slaves indignant at their masters and revolt against them. \"Enlightenment\" causes revolt, for the slave desires the unconditioned, he understands nothing but the tyrannous, even in morals, he loves as he hates, without NUANCE, to the very depths, to the point of pain, to the point of sickness--his many HIDDEN sufferings make him revolt against the noble taste which seems to DENY suffering. The skepticism with regard to suffering, fundamentally only an attitude of aristocratic morality, was not the least of the causes, also, of the last great slave-insurrection which began with the French Revolution.",
+      "topics": [
+        "freedom",
         "suffering",
+        "virtue",
+        "love"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "47. Wherever the religious neurosis has appeared on the earth so far, we find it connected with three dangerous prescriptions as to regimen: solitude, fasting, and sexual abstinence--but without its being possible to determine with certainty which is cause and which is effect, or IF any relation at all of cause and effect exists there. This latter doubt is justified by the fact that one of the most regular symptoms among savage as well as among civilized peoples is the most sudden and excessive sensuality, which then with equal suddenness transforms into penitential paroxysms, world-renunciation, and will-renunciation, both symptoms perhaps explainable as disguised epilepsy? But nowhere is it MORE obligatory to put aside explanations around no other type has there grown such a mass of absurdity and superstition, no other type seems to have been more interesting to men and even to philosophers--perhaps it is time to become just a little indifferent here, to learn caution, or, better still, to look AWAY, TO GO AWAY--Yet in the background of the most recent philosophy, that of Schopenhauer, we find almost as the problem in itself, this terrible note of interrogation of the religious crisis and awakening. How is the negation of will POSSIBLE? how is the saint possible?--that seems to have been the very question with which Schopenhauer made a start and became a philosopher.",
+      "topics": [
+        "meta",
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "And thus it was a genuine Schopenhauerian consequence, that his most convinced adherent (perhaps also his last, as far as Germany is concerned), namely, Richard Wagner, should bring his own life-work to an end just here, and should finally put that terrible and eternal type upon the stage as Kundry, type vecu, and as it loved and lived, at the very time that the mad-doctors in almost all European countries had an opportunity to study the type close at hand, wherever the religious neurosis--or as I call it, \"the religious mood\"--made its latest epidemical outbreak and display as the \"Salvation Army\"--If it be a question, however, as to what has been so extremely interesting to men of all sorts in all ages, and even to philosophers, in the whole phenomenon of the saint, it is undoubtedly the appearance of the miraculous therein--namely, the immediate SUCCESSION OF OPPOSITES, of states of the soul regarded as morally antithetical: it was believed here to be self-evident that a \"bad man\" was all at once turned into a \"saint,\" a good man. The hitherto existing psychology was wrecked at this point, is it not possible it may have happened principally because psychology had placed itself under the dominion of morals, because it BELIEVED in oppositions of moral values, and saw, read, and INTERPRETED these oppositions into the text and facts of the case? What? \"Miracle\" only an error of interpretation? A lack of philology?",
+      "topics": [
+        "meaning",
+        "virtue",
+        "self",
+        "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "48. It seems that the Latin races are far more deeply attached to their Catholicism than we Northerners are to Christianity generally, and that consequently unbelief in Catholic countries means something quite different from what it does among Protestants--namely, a sort of revolt against the spirit of the race, while with us it is rather a return to the spirit (or non-spirit) of the race.\n\nWe Northerners undoubtedly derive our origin from barbarous races, even as regards our talents for religion--we have POOR talents for it. One may make an exception in the case of the Celts, who have theretofore furnished also the best soil for Christian infection in the North: the Christian ideal blossomed forth in France as much as ever the pale sun of the north would allow it. How strangely pious for our taste are still these later French skeptics, whenever there is any Celtic blood in their origin! How Catholic, how un-German does Auguste Comte's Sociology seem to us, with the Roman logic of its instincts! How Jesuitical, that amiable and shrewd cicerone of Port Royal, Sainte-Beuve, in spite of all his hostility to Jesuits! And even Ernest Renan: how inaccessible to us Northerners does the language of such a Renan appear, in whom every instant the merest touch of religious thrill throws his refined voluptuous and comfortably couching soul off its balance! Let us repeat after him these fine sentences--and what wickedness and haughtiness is immediately aroused by way of answer in our probably less beautiful but harder souls, that is to say, in our more German souls!",
+      "topics": [
+        "self"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "--\"DISONS DONC HARDIMENT QUE LA RELIGION EST UN PRODUIT DE L'HOMME NORMAL, QUE L'HOMME EST LE PLUS DANS LE VRAI QUANT IL EST LE PLUS RELIGIEUX ET LE PLUS ASSURE D'UNE DESTINEE INFINIE.... C'EST QUAND IL EST BON QU'IL VEUT QUE LA VIRTU CORRESPONDE A UN ORDER ETERNAL, C'EST QUAND IL CONTEMPLE LES CHOSES D'UNE MANIERE DESINTERESSEE QU'IL TROUVE LA MORT REVOLTANTE ET ABSURDE. COMMENT NE PAS SUPPOSER QUE C'EST DANS CES MOMENTS-LA, QUE L'HOMME VOIT LE MIEUX?\" These sentences are so extremely ANTIPODAL to my ears and habits of thought, that in my first impulse of rage on finding them, I wrote on the margin, \"LA NIAISERIE RELIGIEUSE PAR EXCELLENCE!\"--until in my later rage I even took a fancy to them, these sentences with their truth absolutely inverted! It is so nice and such a distinction to have one's own antipodes!",
+      "topics": [
         "knowledge"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "49. That which is so astonishing in the religious life of the ancient Greeks is the irrestrainable stream of GRATITUDE which it pours forth--it is a very superior kind of man who takes SUCH an attitude towards nature and life.--Later on, when the populace got the upper hand in Greece, FEAR became rampant also in religion; and Christianity was preparing itself.\n\n50. The passion for God: there are churlish, honest-hearted, and importunate kinds of it, like that of Luther--the whole of Protestantism lacks the southern DELICATEZZA. There is an Oriental exaltation of the mind in it, like that of an undeservedly favoured or elevated slave, as in the case of St. Augustine, for instance, who lacks in an offensive manner, all nobility in bearing and desires. There is a feminine tenderness and sensuality in it, which modestly and unconsciously longs for a UNIO MYSTICA ET PHYSICA, as in the case of Madame de Guyon. In many cases it appears, curiously enough, as the disguise of a girl's or youth's puberty; here and there even as the hysteria of an old maid, also as her last ambition. The Church has frequently canonized the woman in such a case.\n\n51. The mightiest men have hitherto always bowed reverently before the saint, as the enigma of self-subjugation and utter voluntary privation--why did they thus bow? They divined in him--and as it were behind the questionableness of his frail and wretched appearance--the superior force which wished to test itself by such a subjugation; the strength of will, in which they recognized their own strength and love of power, and knew how to honour it: they honoured something in themselves when they honoured the saint.",
+      "topics": [
+        "love",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "In addition to this, the contemplation of the saint suggested to them a suspicion: such an enormity of self-negation and anti-naturalness will not have been coveted for nothing--they have said, inquiringly. There is perhaps a reason for it, some very great danger, about which the ascetic might wish to be more accurately informed through his secret interlocutors and visitors? In a word, the mighty ones of the world learned to have a new fear before him, they divined a new power, a strange, still unconquered enemy:--it was the \"Will to Power\" which obliged them to halt before the saint. They had to question him.",
+      "topics": [
+        "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "52. In the Jewish \"Old Testament,\" the book of divine justice, there are men, things, and sayings on such an immense scale, that Greek and Indian literature has nothing to compare with it. One stands with fear and reverence before those stupendous remains of what man was formerly, and one has sad thoughts about old Asia and its little out-pushed peninsula Europe, which would like, by all means, to figure before Asia as the \"Progress of Mankind.\" To be sure, he who is himself only a slender, tame house-animal, and knows only the wants of a house-animal (like our cultured people of today, including the Christians of \"cultured\" Christianity), need neither be amazed nor even sad amid those ruins--the taste for the Old Testament is a touchstone with respect to \"great\" and \"small\": perhaps he will find that the New Testament, the book of grace, still appeals more to his heart (there is much of the odour of the genuine, tender, stupid beadsman and petty soul in it). To have bound up this New Testament (a kind of ROCOCO of taste in every respect) along with the Old Testament into one book, as the \"Bible,\" as \"The Book in Itself,\" is perhaps the greatest audacity and \"sin against the Spirit\" which literary Europe has upon its conscience.",
+      "topics": [
+        "self",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "53. Why Atheism nowadays? \"The father\" in God is thoroughly refuted; equally so \"the judge,\" \"the rewarder.\" Also his \"free will\": he does not hear--and even if he did, he would not know how to help. The worst is that he seems incapable of communicating himself clearly; is he uncertain?--This is what I have made out (by questioning and listening at a variety of conversations) to be the cause of the decline of European theism; it appears to me that though the religious instinct is in vigorous growth,--it rejects the theistic satisfaction with profound distrust.\n\n54. What does all modern philosophy mainly do? Since Descartes--and indeed more in defiance of him than on the basis of his procedure--an ATTENTAT has been made on the part of all philosophers on the old conception of the soul, under the guise of a criticism of the subject and predicate conception--that is to say, an ATTENTAT on the fundamental presupposition of Christian doctrine. Modern philosophy, as epistemological skepticism, is secretly or openly ANTI-CHRISTIAN, although (for keener ears, be it said) by no means anti-religious. Formerly, in effect, one believed in \"the soul\" as one believed in grammar and the grammatical subject: one said, \"I\" is the condition, \"think\" is the predicate and is conditioned--to think is an activity for which one MUST suppose a subject as cause. The attempt was then made, with marvelous tenacity and subtlety, to see if one could not get out of this net,--to see if the opposite was not perhaps true: \"think\" the condition, and \"I\" the conditioned; \"I,\" therefore, only a synthesis which has been MADE by thinking itself. KANT really wished to prove that, starting from the subject, the subject could not be proved--nor the object either: the possibility of an APPARENT EXISTENCE of the subject, and therefore of \"the soul,\" may not always have been strange to him,--the thought which once had an immense power on earth as the Vedanta philosophy.",
+      "topics": [
+        "knowledge",
+        "meta",
+        "action",
+        "self"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "55. There is a great ladder of religious cruelty, with many rounds; but three of these are the most important. Once on a time men sacrificed human beings to their God, and perhaps just those they loved the best--to this category belong the firstling sacrifices of all primitive religions, and also the sacrifice of the Emperor Tiberius in the Mithra-Grotto on the Island of Capri, that most terrible of all Roman anachronisms. Then, during the moral epoch of mankind, they sacrificed to their God the strongest instincts they possessed, their \"nature\"; THIS festal joy shines in the cruel glances of ascetics and \"anti-natural\" fanatics. Finally, what still remained to be sacrificed? Was it not necessary in the end for men to sacrifice everything comforting, holy, healing, all hope, all faith in hidden harmonies, in future blessedness and justice? Was it not necessary to sacrifice God himself, and out of cruelty to themselves to worship stone, stupidity, gravity, fate, nothingness? To sacrifice God for nothingness--this paradoxical mystery of the ultimate cruelty has been reserved for the rising generation; we all know something thereof already.\n\n56.",
+      "topics": [
+        "meaning",
+        "virtue",
+        "nature"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "Whoever, like myself, prompted by some enigmatical desire, has long endeavoured to go to the bottom of the question of pessimism and free it from the half-Christian, half-German narrowness and stupidity in which it has finally presented itself to this century, namely, in the form of Schopenhauer's philosophy; whoever, with an Asiatic and super-Asiatic eye, has actually looked inside, and into the most world-renouncing of all possible modes of thought--beyond good and evil, and no longer like Buddha and Schopenhauer, under the dominion and delusion of morality,--whoever has done this, has perhaps just thereby, without really desiring it, opened his eyes to behold the opposite ideal: the ideal of the most world-approving, exuberant, and vivacious man, who has not only learnt to compromise and arrange with that which was and is, but wishes to have it again AS IT WAS AND IS, for all eternity, insatiably calling out da capo, not only to himself, but to the whole piece and play; and not only the play, but actually to him who requires the play--and makes it necessary; because he always requires himself anew--and makes himself necessary.--What? And this would not be--circulus vitiosus deus?",
+      "topics": [
+        "virtue",
+        "self",
+        "meaning",
+        "meta"
       ]
     },
     {
@@ -549,6 +783,67 @@
     },
     {
       "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "It is only with the help of history (NOT through his own personal experience, therefore) that the scholar succeeds in bringing himself to a respectful seriousness, and to a certain timid deference in presence of religions; but even when his sentiments have reached the stage of gratitude towards them, he has not personally advanced one step nearer to that which still maintains itself as Church or as piety; perhaps even the contrary. The practical indifference to religious matters in the midst of which he has been born and brought up, usually sublimates itself in his case into circumspection and cleanliness, which shuns contact with religious men and things; and it may be just the depth of his tolerance and humanity which prompts him to avoid the delicate trouble which tolerance itself brings with it.--Every age has its own divine type of naivete, for the discovery of which other ages may envy it: and how much naivete--adorable, childlike, and boundlessly foolish naivete is involved in this belief of the scholar in his superiority, in the good conscience of his tolerance, in the unsuspecting, simple certainty with which his instinct treats the religious man as a lower and less valuable type, beyond, before, and ABOVE which he himself has developed--he, the little arrogant dwarf and mob-man, the sedulously alert, head-and-hand drudge of \"ideas,\" of \"modern ideas\"!",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "self"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "59. Whoever has seen deeply into the world has doubtless divined what wisdom there is in the fact that men are superficial. It is their preservative instinct which teaches them to be flighty, lightsome, and false. Here and there one finds a passionate and exaggerated adoration of \"pure forms\" in philosophers as well as in artists: it is not to be doubted that whoever has NEED of the cult of the superficial to that extent, has at one time or another made an unlucky dive BENEATH it. Perhaps there is even an order of rank with respect to those burnt children, the born artists who find the enjoyment of life only in trying to FALSIFY its image (as if taking wearisome revenge on it), one might guess to what degree life has disgusted them, by the extent to which they wish to see its image falsified, attenuated, ultrified, and deified,--one might reckon the homines religiosi among the artists, as their HIGHEST rank. It is the profound, suspicious fear of an incurable pessimism which compels whole centuries to fasten their teeth into a religious interpretation of existence: the fear of the instinct which divines that truth might be attained TOO soon, before man has become strong enough, hard enough, artist enough.... Piety, the \"Life in God,\" regarded in this light, would appear as the most elaborate and ultimate product of the FEAR of truth, as artist-adoration and artist-intoxication in presence of the most logical of all falsifications, as the will to the inversion of truth, to untruth at any price. Perhaps there has hitherto been no more effective means of beautifying man than piety, by means of it man can become so artful, so superficial, so iridescent, and so good, that his appearance no longer offends.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "60. To love mankind FOR GOD'S SAKE--this has so far been the noblest and remotest sentiment to which mankind has attained. That love to mankind, without any redeeming intention in the background, is only an ADDITIONAL folly and brutishness, that the inclination to this love has first to get its proportion, its delicacy, its gram of salt and sprinkling of ambergris from a higher inclination--whoever first perceived and \"experienced\" this, however his tongue may have stammered as it attempted to express such a delicate matter, let him for all time be holy and respected, as the man who has so far flown highest and gone astray in the finest fashion!\n\n61. The philosopher, as WE free spirits understand him--as the man of the greatest responsibility, who has the conscience for the general development of mankind,--will use religion for his disciplining and educating work, just as he will use the contemporary political and economic conditions. The selecting and disciplining influence--destructive, as well as creative and fashioning--which can be exercised by means of religion is manifold and varied, according to the sort of people placed under its spell and protection. For those who are strong and independent, destined and trained to command, in whom the judgment and skill of a ruling race is incorporated, religion is an additional means for overcoming resistance in the exercise of authority--as a bond which binds rulers and subjects in common, betraying and surrendering to the former the conscience of the latter, their inmost heart, which would fain escape obedience.",
+      "topics": [
+        "freedom",
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "And in the case of the unique natures of noble origin, if by virtue of superior spirituality they should incline to a more retired and contemplative life, reserving to themselves only the more refined forms of government (over chosen disciples or members of an order), religion itself may be used as a means for obtaining peace from the noise and trouble of managing GROSSER affairs, and for securing immunity from the UNAVOIDABLE filth of all political agitation. The Brahmins, for instance, understood this fact. With the help of a religious organization, they secured to themselves the power of nominating kings for the people, while their sentiments prompted them to keep apart and outside, as men with a higher and super-regal mission. At the same time religion gives inducement and opportunity to some of the subjects to qualify themselves for future ruling and commanding the slowly ascending ranks and classes, in which, through fortunate marriage customs, volitional power and delight in self-control are on the increase. To them religion offers sufficient incentives and temptations to aspire to higher intellectuality, and to experience the sentiments of authoritative self-control, of silence, and of solitude. Asceticism and Puritanism are almost indispensable means of educating and ennobling a race which seeks to rise above its hereditary baseness and work itself upwards to future supremacy. And finally, to ordinary men, to the majority of the people, who exist for service and general utility, and are only so far entitled to exist, religion gives invaluable contentedness with their lot and condition, peace of heart, ennoblement of obedience, additional social happiness and sympathy, with something of transfiguration and embellishment, something of justification of all the commonplaceness, all the meanness, all the semi-animal poverty of their souls.",
+      "topics": [
+        "self",
+        "work",
+        "freedom",
+        "virtue"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "62. To be sure--to make also the bad counter-reckoning against such religions, and to bring to light their secret dangers--the cost is always excessive and terrible when religions do NOT operate as an educational and disciplinary medium in the hands of the philosopher, but rule voluntarily and PARAMOUNTLY, when they wish to be the final end, and not a means along with other means. Among men, as among all other animals, there is a surplus of defective, diseased, degenerating, infirm, and necessarily suffering individuals; the successful cases, among men also, are always the exception; and in view of the fact that man is THE ANIMAL NOT YET PROPERLY ADAPTED TO HIS ENVIRONMENT, the rare exception. But worse still. The higher the type a man represents, the greater is the improbability that he will SUCCEED; the accidental, the law of irrationality in the general constitution of mankind, manifests itself most terribly in its destructive effect on the higher orders of men, the conditions of whose lives are delicate, diverse, and difficult to determine. What, then, is the attitude of the two greatest religions above-mentioned to the SURPLUS of failures in life? They endeavour to preserve and keep alive whatever can be preserved; in fact, as the religions FOR SUFFERERS, they take the part of these upon principle; they are always in favour of those who suffer from life as from a disease, and they would fain treat every other experience of life as false and impossible.",
+      "topics": [
+        "suffering",
+        "nature"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter III, The Religious Mood",
+      "text": "However highly we may esteem this indulgent and preservative care (inasmuch as in applying to others, it has applied, and applies also to the highest and usually the most suffering type of man), the hitherto PARAMOUNT religions--to give a general appreciation of them--are among the principal causes which have kept the type of \"man\" upon a lower level--they have preserved too much THAT WHICH SHOULD HAVE PERISHED. One has to thank them for invaluable services; and who is sufficiently rich in gratitude not to feel poor at the contemplation of all that the \"spiritual men\" of Christianity have done for Europe hitherto! But when they had given comfort to the sufferers, courage to the oppressed and despairing, a staff and support to the helpless, and when they had allured from society into convents and spiritual penitentiaries the broken-hearted and distracted: what else had they to do in order to work systematically in that fashion, and with a good conscience, for the preservation of all the sick and suffering, which means, in deed and in truth, to work for the DETERIORATION OF THE EUROPEAN RACE? To REVERSE all estimates of value--THAT is what they had to do! And to shatter the strong, to spoil great hopes, to cast suspicion on the delight in beauty, to break down everything autonomous, manly, conquering, and imperious--all instincts which are natural to the highest and most successful type of \"man\"--into uncertainty, distress of conscience, and self-destruction; forsooth, to invert all love of the earthly and of supremacy over the earth, into hatred of the earth and earthly things--THAT is the task the Church imposed on itself, and was obliged to impose, until, according to its standard of value, \"unworldliness,\" \"unsensuousness,\" and \"higher man\" fused into one sentiment.",
+      "topics": [
+        "work",
+        "suffering",
+        "nature",
+        "action"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
       "ref": "Chapter IV, Apophthegms and Interludes",
       "text": "63. He who is a thorough teacher takes things seriously--and even himself--only in relation to his pupils.\n\n64. \"Knowledge for its own sake\"--that is the last snare laid by morality: we are thereby completely entangled in morals once more.\n\n65. The charm of knowledge would be small, were it not so much shame has to be overcome on the way to it.\n\n65A. We are most dishonourable towards our God: he is not PERMITTED to sin.",
       "topics": [
@@ -560,10 +855,55 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter IV, Apophthegms and Interludes",
+      "text": "74. A man of genius is unbearable, unless he possess at least two things besides: gratitude and purity.\n\n75. The degree and nature of a man's sensuality extends to the highest altitudes of his spirit.\n\n77. With his principles a man seeks either to dominate, or justify, or honour, or reproach, or conceal his habits: two men with the same principles probably seek fundamentally different ends therewith.\n\n79. A soul which knows that it is loved, but does not itself love, betrays its sediment: its dregs come up.",
+      "topics": [
+        "love",
+        "action"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter IV, Apophthegms and Interludes",
+      "text": "80. A thing that is explained ceases to concern us--What did the God mean who gave the advice, \"Know thyself!\" Did it perhaps imply \"Cease to be concerned about thyself! become objective!\"--And Socrates?--And the \"scientific man\"?\n\n81. It is terrible to die of thirst at sea. Is it necessary that you should so salt your truth that it will no longer--quench thirst?\n\n83. INSTINCT--When the house is on fire one forgets even the dinner--Yes, but one recovers it from among the ashes.\n\n85. The same emotions are in man and woman, but in different TEMPO, on that account man and woman never cease to misunderstand each other.",
+      "topics": [
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter IV, Apophthegms and Interludes",
+      "text": "86. In the background of all their personal vanity, women themselves have still their impersonal scorn--for \"woman\".\n\n87. FETTERED HEART, FREE SPIRIT--When one firmly fetters one's heart and keeps it prisoner, one can allow one's spirit many liberties: I said this once before But people do not believe it when I say so, unless they know it already.\n\n89. Dreadful experiences raise the question whether he who experiences them is not something dreadful also.\n\n90. Heavy, melancholy men turn lighter, and come temporarily to their surface, precisely by that which makes others heavy--by hatred and love.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter IV, Apophthegms and Interludes",
+      "text": "95. To be ashamed of one's immorality is a step on the ladder at the end of which one is ashamed also of one's morality.\n\n96. One should part from life as Ulysses parted from Nausicaa--blessing it rather than in love with it.\n\n97. What? A great man? I always see merely the play-actor of his own ideal.\n\n99. THE DISAPPOINTED ONE SPEAKS--\"I listened for the echo and I heard only praise.\"",
+      "topics": [
+        "love"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter IV, Apophthegms and Interludes",
       "text": "121. It is a curious thing that God learned Greek when he wished to turn author--and that he did not learn it better.\n\n122. To rejoice on account of praise is in many cases merely politeness of heart--and the very opposite of vanity of spirit.\n\n124. He who exults at the stake, does not triumph over pain, but because of the fact that he does not feel pain where he expected it. A parable.\n\n125. When we have to change an opinion about any one, we charge heavily to his account the inconvenience he thereby causes us.",
       "topics": [
         "meaning",
         "education"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter V, The Natural History of Morals",
+      "text": "186. The moral sentiment in Europe at present is perhaps as subtle, belated, diverse, sensitive, and refined, as the \"Science of Morals\" belonging thereto is recent, initial, awkward, and coarse-fingered:--an interesting contrast, which sometimes becomes incarnate and obvious in the very person of a moralist. Indeed, the expression, \"Science of Morals\" is, in respect to what is designated thereby, far too presumptuous and counter to GOOD taste,--which is always a foretaste of more modest expressions. One ought to avow with the utmost fairness WHAT is still necessary here for a long time, WHAT is alone proper for the present: namely, the collection of material, the comprehensive survey and classification of an immense domain of delicate sentiments of worth, and distinctions of worth, which live, grow, propagate, and perish--and perhaps attempts to give a clear idea of the recurring and more common forms of these living crystallizations--as preparation for a THEORY OF TYPES of morality. To be sure, people have not hitherto been so modest. All the philosophers, with a pedantic and ridiculous seriousness, demanded of themselves something very much higher, more pretentious, and ceremonious, when they concerned themselves with morality as a science: they wanted to GIVE A BASIC to morality--and every philosopher hitherto has believed that he has given it a basis; morality itself, however, has been regarded as something \"given.\" How far from their awkward pride was the seemingly insignificant problem--left in dust and decay--of a description of forms of morality, notwithstanding that the finest hands and senses could hardly be fine enough for it!",
+      "topics": [
+        "virtue",
+        "meta",
+        "knowledge",
+        "self"
       ]
     },
     {
@@ -580,11 +920,66 @@
     {
       "work": "Beyond Good and Evil",
       "ref": "Chapter V, The Natural History of Morals",
+      "text": "One may look at every system of morals in this light: it is \"nature\" therein which teaches to hate the laisser-aller, the too great freedom, and implants the need for limited horizons, for immediate duties--it teaches the NARROWING OF PERSPECTIVES, and thus, in a certain sense, that stupidity is a condition of life and development. \"Thou must obey some one, and for a long time; OTHERWISE thou wilt come to grief, and lose all respect for thyself\"--this seems to me to be the moral imperative of nature, which is certainly neither \"categorical,\" as old Kant wished (consequently the \"otherwise\"), nor does it address itself to the individual (what does nature care for the individual!), but to nations, races, ages, and ranks; above all, however, to the animal \"man\" generally, to MANKIND.",
+      "topics": [
+        "virtue",
+        "freedom",
+        "suffering",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter V, The Natural History of Morals",
       "text": "189. Industrious races find it a great hardship to be idle: it was a master stroke of ENGLISH instinct to hallow and begloom Sunday to such an extent that the Englishman unconsciously hankers for his week--and work-day again:--as a kind of cleverly devised, cleverly intercalated FAST, such as is also frequently found in the ancient world (although, as is appropriate in southern nations, not precisely with respect to work). Many kinds of fasts are necessary; and wherever powerful influences and habits prevail, legislators have to see that intercalary days are appointed, on which such impulses are fettered, and learn to hunger anew. Viewed from a higher standpoint, whole generations and epochs, when they show themselves infected with any moral fanaticism, seem like those intercalated periods of restraint and fasting, during which an impulse learns to humble and submit itself--at the same time also to PURIFY and SHARPEN itself; certain philosophical sects likewise admit of a similar interpretation (for instance, the Stoa, in the midst of Hellenic culture, with the atmosphere rank and overcharged with Aphrodisiacal odours).--Here also is a hint for the explanation of the paradox, why it was precisely in the most Christian period of European history, and in general only under the pressure of Christian sentiments, that the sexual impulse sublimated into love (amour-passion).",
       "topics": [
         "work",
         "action",
         "education"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter V, The Natural History of Morals",
+      "text": "192. Whoever has followed the history of a single science, finds in its development a clue to the understanding of the oldest and commonest processes of all \"knowledge and cognizance\": there, as here, the premature hypotheses, the fictions, the good stupid will to \"belief,\" and the lack of distrust and patience are first developed--our senses learn late, and never learn completely, to be subtle, reliable, and cautious organs of knowledge. Our eyes find it easier on a given occasion to produce a picture already often produced, than to seize upon the divergence and novelty of an impression: the latter requires more force, more \"morality.\" It is difficult and painful for the ear to listen to anything new; we hear strange music badly. When we hear another language spoken, we involuntarily attempt to form the sounds into words with which we are more familiar and conversant--it was thus, for example, that the Germans modified the spoken word ARCUBALISTA into ARMBRUST (cross-bow). Our senses are also hostile and averse to the new; and generally, even in the \"simplest\" processes of sensation, the emotions DOMINATE--such as fear, love, hatred, and the passive emotion of indolence.--As little as a reader nowadays reads all the single words (not to speak of syllables) of a page--he rather takes about five out of every twenty words at random, and \"guesses\" the probably appropriate sense to them--just as little do we see a tree correctly and completely in respect to its leaves, branches, colour, and shape; we find it so much easier to fancy the chance of a tree.",
+      "topics": [
+        "knowledge",
+        "suffering",
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter V, The Natural History of Morals",
+      "text": "One man would like to possess a nation, and he finds all the higher arts of Cagliostro and Catalina suitable for his purpose. Another, with a more refined thirst for possession, says to himself: \"One may not deceive where one desires to possess\"--he is irritated and impatient at the idea that a mask of him should rule in the hearts of the people: \"I must, therefore, MAKE myself known, and first of all learn to know myself!\" Among helpful and charitable people, one almost always finds the awkward craftiness which first gets up suitably him who has to be helped, as though, for instance, he should \"merit\" help, seek just THEIR help, and would show himself deeply grateful, attached, and subservient to them for all help. With these conceits, they take control of the needy as a property, just as in general they are charitable and helpful out of a desire for property. One finds them jealous when they are crossed or forestalled in their charity. Parents involuntarily make something like themselves out of their children--they call that \"education\"; no mother doubts at the bottom of her heart that the child she has borne is thereby her property, no father hesitates about his right to HIS OWN ideas and notions of worth. Indeed, in former times fathers deemed it right to use their discretion concerning the life or death of the newly born (as among the ancient Germans). And like the father, so also do the teacher, the class, the priest, and the prince still see in every new individual an unobjectionable opportunity for a new possession. The consequence is...",
+      "topics": [
+        "love",
+        "self",
+        "education",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter V, The Natural History of Morals",
+      "text": "195. The Jews--a people \"born for slavery,\" as Tacitus and the whole ancient world say of them; \"the chosen people among the nations,\" as they themselves say and believe--the Jews performed the miracle of the inversion of valuations, by means of which life on earth obtained a new and dangerous charm for a couple of millenniums. Their prophets fused into one the expressions \"rich,\" \"godless,\" \"wicked,\" \"violent,\" \"sensual,\" and for the first time coined the word \"world\" as a term of reproach. In this inversion of valuations (in which is also included the use of the word \"poor\" as synonymous with \"saint\" and \"friend\") the significance of the Jewish people is to be found; it is with THEM that the SLAVE-INSURRECTION IN MORALS commences.\n\n196. It is to be INFERRED that there are countless dark bodies near the sun--such as we shall never see. Among ourselves, this is an allegory; and the psychologist of morals reads the whole star-writing merely as an allegorical and symbolic language in which much may be unexpressed.\n\n197. The beast of prey and the man of prey (for instance, Caesar Borgia) are fundamentally misunderstood, \"nature\" is misunderstood, so long as one seeks a \"morbidness\" in the constitution of these healthiest of all tropical monsters and growths, or even an innate \"hell\" in them--as almost all moralists have done hitherto. Does it not seem that there is a hatred of the virgin forest and of the tropics among moralists? And that the \"tropical man\" must be discredited at all costs, whether as disease and deterioration of mankind, or as his own hell and self-torture? And why? In favour of the \"temperate zones\"? In favour of the temperate men? The \"moral\"? The mediocre?--This for the chapter: \"Morals as Timidity.\"",
+      "topics": [
+        "nature",
+        "virtue",
+        "meta",
+        "work"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter VI, We Scholars",
+      "text": "206. In relation to the genius, that is to say, a being who either ENGENDERS or PRODUCES--both words understood in their fullest sense--the man of learning, the scientific average man, has always something of the old maid about him; for, like her, he is not conversant with the two principal functions of man. To both, of course, to the scholar and to the old maid, one concedes respectability, as if by way of indemnification--in these cases one emphasizes the respectability--and yet, in the compulsion of this concession, one has the same admixture of vexation. Let us examine more closely: what is the scientific man? Firstly, a commonplace type of man, with commonplace virtues: that is to say, a non-ruling, non-authoritative, and non-self-sufficient type of man; he possesses industry, patient adaptableness to rank and file, equability and moderation in capacity and requirement; he has the instinct for people like himself, and for that which they require--for instance: the portion of independence and green meadow without which there is no rest from labour, the claim to honour and consideration (which first and foremost presupposes recognition and recognisability), the sunshine of a good name, the perpetual ratification of his value and usefulness, with which the inward DISTRUST which lies at the bottom of the heart of all dependent men and gregarious animals, has again and again to be overcome. The learned man, as is appropriate, has also maladies and faults of an ignoble kind: he is full of petty envy, and has a lynx-eye for the weak points in those natures to whose elevations he cannot attain.",
+      "topics": [
+        "self",
+        "virtue",
+        "work",
+        "freedom"
       ]
     },
     {
@@ -596,6 +991,28 @@
         "self",
         "technology",
         "virtue"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter VII, Our Virtues",
+      "text": "217. Let us be careful in dealing with those who attach great importance to being credited with moral tact and subtlety in moral discernment! They never forgive us if they have once made a mistake BEFORE us (or even with REGARD to us)--they inevitably become our instinctive calumniators and detractors, even when they still remain our \"friends.\"--Blessed are the forgetful: for they \"get the better\" even of their blunders.\n\n218. The psychologists of France--and where else are there still psychologists nowadays?--have never yet exhausted their bitter and manifold enjoyment of the betise bourgeoise, just as though... in short, they betray something thereby. Flaubert, for instance, the honest citizen of Rouen, neither saw, heard, nor tasted anything else in the end; it was his mode of self-torment and refined cruelty. As this is growing wearisome, I would now recommend for a change something else for a pleasure--namely, the unconscious astuteness with which good, fat, honest mediocrity always behaves towards loftier spirits and the tasks they have to perform, the subtle, barbed, Jesuitical astuteness, which is a thousand times subtler than the taste and understanding of the middle-class in its best moments--subtler even than the understanding of its victims:--a repeated proof that \"instinct\" is the most intelligent of all kinds of intelligence which have hitherto been discovered. In short, you psychologists, study the philosophy of the \"rule\" in its struggle with the \"exception\": there you have a spectacle fit for Gods and godlike malignity! Or, in plainer words, practise vivisection on \"good people,\" on the \"homo bonae voluntatis,\" ON YOURSELVES!",
+      "topics": [
+        "virtue",
+        "knowledge",
+        "meaning",
+        "education"
+      ]
+    },
+    {
+      "work": "Beyond Good and Evil",
+      "ref": "Chapter VII, Our Virtues",
+      "text": "231. Learning alters us, it does what all nourishment does that does not merely \"conserve\"--as the physiologist knows. But at the bottom of our souls, quite \"down below,\" there is certainly something unteachable, a granite of spiritual fate, of predetermined decision and answer to predetermined, chosen questions. In each cardinal problem there speaks an unchangeable \"I am this\"; a thinker cannot learn anew about man and woman, for instance, but can only learn fully--he can only follow to the end what is \"fixed\" about them in himself. Occasionally we find certain solutions of problems which make strong beliefs for us; perhaps they are henceforth called \"convictions.\" Later on--one sees in them only footsteps to self-knowledge, guide-posts to the problem which we ourselves ARE--or more correctly to the great stupidity which we embody, our spiritual fate, the UNTEACHABLE in us, quite \"down below.\"--In view of this liberal compliment which I have just paid myself, permission will perhaps be more readily allowed me to utter some truths about \"woman as she is,\" provided that it is known at the outset how literally they are merely--MY truths.\n\n232. Woman wishes to be independent, and therefore she begins to enlighten men about \"woman as she is\"--THIS is one of the worst developments of the general UGLIFYING of Europe. For what must these clumsy attempts of feminine scientificality and self-exposure bring to light! Woman has so much cause for shame; in woman there is so much pedantry, superficiality, schoolmasterliness, petty presumption, unbridledness, and indiscretion concealed--study only woman's behaviour towards children!",
+      "topics": [
+        "self",
+        "knowledge",
+        "action",
+        "education"
       ]
     }
   ]

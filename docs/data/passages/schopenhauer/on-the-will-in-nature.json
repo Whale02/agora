@@ -1,0 +1,622 @@
+{
+  "slug": "schopenhauer",
+  "work": "On the Will in Nature",
+  "work_slug": "on-the-will-in-nature",
+  "translation_credit": {
+    "work": "On the Will in Nature",
+    "translator": "Mme. Karl Hillebrand",
+    "year": 1907,
+    "source_url": "https://www.gutenberg.org/ebooks/50966"
+  },
+  "passages": [
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "To my great joy I have lived to revise even this little work, after a lapse of nineteen years, and that joy is enhanced by the special importance of this treatise for my philosophy. For, starting from the purely empirical, from the observations of unbiassed physical investigators--themselves following the clue of their own special sciences--I here immediately arrive at the very kernel of my Metaphysic; I establish its points of contact with the physical sciences and thus corroborate my fundamental dogma, in a sense, as the arithmetician proves a sum: for by this I not only confirm it more closely and specially, but even make it more clearly, easily, and rightly understood than anywhere else.\n\nThe improvements in this new edition are confined almost entirely to the Additions; for scarcely anything that is worth mentioning in the First Edition has been left out, while I have inserted many and, in some cases, important new passages.\n\nBut, even in a general sense, it may be looked upon as a good sign, that a new edition of the present treatise should have been found necessary; since it shows that there is an interest in serious philosophy and confirms the fact that the necessity for real progress in this direction is now more strongly felt than ever. This is based upon two circumstances. The first is the unparalleled zeal and activity displayed in every branch of Natural Science which, as this pursuit is mostly in the hands of people who have learned nothing else, threatens to lead to a gross, stupid Materialism, the more immediately offensive side of which is less the moral bestiality of its ultimate results, than the incredible absurdity of its first principles; for by it even vital force is denied, and organic Nature is degraded to a mere chance play of chemical forces.",
+      "topics": [
+        "nature",
+        "knowledge",
+        "virtue"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "These knights of the crucible and retort should be made to understand, that the mere study of Chemistry qualifies a man to become an apothecary, but not a philosopher. Certain other like-minded investigators of Nature, too, must be taught, that a man may be an accomplished zoologist and have the sixty species of monkeys at his fingers' ends, yet on the whole be an ignoramus to be classed with the vulgar, if he has learnt nothing else, save perhaps his school-catechism. But in our time this frequently happens. Men set themselves up for enlighteners of mankind, who have studied Chemistry, or Physics, or Mineralogy and nothing else under the sun; to this they add their only knowledge of any other kind, that is to say, the little they may remember of the doctrines of the school-catechism, and when they find that these two elements will not harmonize, they straightway turn scoffers at religion and soon become shallow and absurd materialists. They may perhaps have heard at college of the existence of a Plato and an Aristotle, of a Locke, and especially of a Kant; but as these folk never handled crucibles and retorts or even stuffed a monkey, they do not esteem them worthy of further acquaintance. They prefer calmly to toss out of the window the intellectual labour of two thousand years and treat the public to a philosophy concocted out of their own rich mental resources, on the basis of the catechism on the one hand, and on that of crucibles and retorts or the catalogue of monkeys on the other.",
+      "topics": [
+        "meaning",
+        "knowledge",
+        "nature",
+        "work"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "They ought to be told in plain language that they are ignoramuses, who have much to learn before they can be allowed to have any voice in the matter. Everyone, in fact, who dogmatizes at random, with the naïve realism of a child on such arguments as God, the soul, the world's origin, atoms, &c. &c. &c., as if the Critique of Pure Reason had been written in the moon and no copy had found its way to our planet--is simply one of the vulgar. Send him into the servants' hall, where his wisdom will best find a market.",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "And this infatuation has reached such a point, that people seriously imagine themselves to have found the key to the mystery of the essence and existence of this wonderful and mysterious world in wretched chemical affinities! Compared with this illusion of our physiological chemists, that of the alchymists who sought after the philosopher's stone, and only hoped to find out the secret of making gold, was indeed a mere trifle. [Add. to 3rd ed.]\n\nThere too he will meet with people who fling about words of foreign origin, which they have caught up without understanding them, just as readily as he does himself, when he talks about \"Idealism\" without knowing what it means, mostly therefore using the word instead of Spiritualism (which being Realism, is the opposite to Idealism). Hundreds of examples of this kind besides other quid pro quos are to be found in books, and critical periodicals. [Add. to 3rd ed.]\n\nThe other circumstance which calls for a real progress in philosophy, is the steady growth of unbelief in the face of all the hypocritical dissembling and the outward conformity to the Church. This unbelief necessarily and unavoidably goes hand in hand with the growing expansion of empirical and historical knowledge. It threatens to destroy not only the form, but even the spirit of Christianity (a spirit which has a much wider reach than Christianity itself), and to deliver up mankind to moral materialism--a thing even more dangerous than the chemical materialism already mentioned. And nothing plays more into the hands of this unbelief, than the Tartuffianism de rigueur impudently flaunting itself everywhere just now, whose clumsy disciples, fee in hand, hold forth with such unction and emphasis, that their voices penetrate even into learned, critical reviews issued by Academies and Universities, and into physiological as well as philosophical books, where however, being quite in their wrong place, they only damage their own cause by rousing indignation. Under such circumstances as these, it is gratifying to see the public betray an interest in philosophy.",
+      "topics": [
+        "meta",
+        "knowledge",
+        "education",
+        "virtue"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "I have nevertheless one sad piece of news to communicate to our professors of philosophy. Their Caspar Hauser (according to Dorguth) whom they had so carefully secreted, so securely walled up for nearly forty years, that no sound could betray his existence to the world--their Caspar Hauser--I say, has escaped! He has escaped and is running about in the world;--some even say he is a prince. In plain language, the misfortune they feared more than anything has come to pass after all. In spite of their having done their best to prevent it for more than a generation by acting with united force, with rare constancy, secreting and ignoring to a degree that is without example, my books are beginning and henceforth will continue to be read. Legor et legar: there is no help for it. This is really dreadful and most inopportune; nay, it is a positive fatality, not to say calamity. Is this the recompense for all their faithful, snug secrecy; for having held so firmly and unitedly together? Poor time-servers! What becomes of Horace's assurance:--\n\nFor verily they have not been deficient in faithful reticence; rather do they excel in this quality wherever they scent merit. And, after all, it is no doubt the cleverest artifice; for what no one knows, is as though it did not exist. Whether the merces will remain quite so tuta, seems rather doubtful--unless we are to take merces in a bad sense; and for this the support of many a classical authority might certainly be found.",
+      "topics": [
+        "action",
+        "knowledge",
+        "meta",
+        "suffering"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "These gentlemen had seen quite rightly that the only means to be used against my writings, was to secrete them from the public by maintaining profound silence concerning them, while they kept up a loud noise at the birth of every misshapen offspring of professorial philosophy; as the voice of the new-born Zeus was drowned in days of yore by the clashing of the cymbals of the Corybantes. But this expedient is now used up; the secret is out--the public has discovered me. The rage of our professors of philosophy at this is great, but powerless; for their only effective resource, so long successfully employed, being exhausted, no snarling can avail any longer against my influence, and in vain do they now take this, or that, or the other attitude. They have certainly succeeded, so far as the generation which was properly speaking contemporaneous with my philosophy, went to the grave in ignorance of it. But this was a mere postponement, and Time has kept its word, as it always does.",
+      "topics": [
+        "meta",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Now there are two reasons why these gentlemen \"in the philosophical trade\"--as they call themselves with incredible naïveté--hate my philosophy. The first of them is, that my writings spoil the taste of the public for tissues of empty phrases, for accumulations of unmeaning words piled one upon another, for hollow, superficial, brain-racking twaddle, for Christian dogmatics under the disguise of the most wearisome Metaphysics, for systematized Philistinism of the flattest kind made to represent Ethics and even accompanied by instructions for card-playing and dancing--in short, they unfit my readers for the whole method of philosophising à la vieille femme, which has scared so many for ever from the pursuit of philosophy.\n\nThe second reason is, that our gentlemen \"in the trade\" are absolutely bound in conscience not to let my philosophy pass and are therefore debarred from using it for the benefit of \"the trade;\"--and this they even heartily regret; for my abundance might have been admirably turned to account for the benefit of their own needy poverty. But even if it contained the greatest hoards of human wisdom ever unearthed, my doctrine could never find favour with them either now or in the future; for it is absolutely wanting in all Speculative Theology and Rational Psychology, and these, just these, are the very breath of life to these gentlemen, the sine qua non of their existence. For they are anxious before all things in heaven and on earth, to hold their official appointments, and these appointments demand before all things in heaven and on earth a Speculative Theology and a Rational Psychology: extra hæc non datur salus.",
+      "topics": [
+        "meta",
+        "work",
+        "knowledge",
+        "nature"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Theology there must and shall be, no matter whence it come; Moses and the Prophets must be made out to be in the right: this is the highest principle in philosophy; and there must be Rational Psychology to boot, as is proper. Now there is nothing of the sort to be found either in Kant's philosophy or in mine. For, as we all know, the most cogent theological argumentation shivers to atoms like a glass thrown at a wall, when it is brought into contact with Kant's Critique of all Speculative Theology, and under his hands not a shred remains entire of the whole tissue of Rational Psychology! As to myself, being the bold continuer of Kant's philosophy, I have entirely done away with all Speculative Theology and all Rational Psychology, as is only consistent and honest. On the other hand, the task incumbent upon University Philosophy is at bottom this: to set forth the chief fundamental truths belonging to the Catechism under the veil of some very abstract, abstruse and difficult, therefore painfully wearisome formulas and sentences; wherefore, however confused, intricate, strange and eccentric the matter may seem at first sight, these truths invariably reveal themselves as its kernel. This proceeding may be useful, though to me it is unknown. All I know is, that philosophy, i.e. the search after truth--I mean the truth κατ' ἐξοχήν, by which the most sublime and important disclosures, more precious than anything else to the human race, are understood--will never advance a step, nay, an inch, by means of such manœuvring, by which its course is on the contrary impeded; therefore I found out long ago that University philosophy is the enemy of all genuine philosophy.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Now, this being the state of the case, when a really honest philosophy arises, which seriously has truth for its sole aim, must not these gentlemen \"of the philosophical trade\" feel as might stage-knights in paste-board armour, were a knight suddenly to appear in the midst of them clad in real armour, who made the stage-floor creak under his ponderous tread? Such philosophy as this must therefore be bad and false and consequently places these gentlemen \"of the trade\" under the painful obligation of playing the part of him who, in order to appear what he is not, cannot allow others to pass for what they really are. Out of all this however there unrolls itself the amusing spectacle we enjoy, when these gentlemen, now that ignoring has unfortunately come to an end, after forty years, at last begin to measure me by their own puny standard and pass judgment upon me from the heights of their wisdom, as though they were amply qualified to do so by their office; but they are most amusing of all when they assume airs of superiority towards me.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "action",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Their abhorrence of Kant, though less openly expressed, is scarcely less great than their hatred of me; precisely because all speculative Theology and all Rational Psychology--the bread-winners of these gentlemen--have been undermined, not to say irrevocably ruined, by him in the eyes of all serious thinkers. What! Not hate him? him, who has made their \"trade in philosophy\" so difficult to them, that they hardly see how to pull through honourably! So Kant and I are accordingly both bad, and these gentlemen quite overlook us. For nearly forty years they have not deigned to cast a glance upon me, and now they look down condescendingly upon Kant from the heights of their wisdom, smiling in pity at his errors. This policy is both very wise and very profitable; since they are thus able to hold forth at their ease volume after volume upon God and the soul, as if these were personalities with whom they were intimately acquainted, and to discourse upon the relation in which the former stands to the world and the latter to the body, just as if there had never been such a thing as a Critique of Pure Reason. When once the Critique of Pure Reason is done away with, all will go on splendidly! Now it is for this end that they have been endeavouring for many years quietly and gradually to set Kant aside, to make him obsolete, nay, to turn up their noses at him, and one being encouraged by the other in this, they are becoming bolder every day.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "nature",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "They have no opposition to fear from their own colleagues, since they all have the same aims and the same mission and all together form a numerous coterie, the brilliant members of which, coram populo, bow and scrape to each other on all sides. Thus by degrees things have come to such a point, that the wretchedest compilers of manuals have the presumption to treat Kant's grand, immortal discoveries as antiquated errors, nay, calmly to set them aside with the most ludicrous arrogance and most impudent dicta of their own, which they nevertheless lay down under the disguise of argumentation, because they know they may count upon a credulous public, to whom Kant's writings are not known. And this is what happens to Kant on the part of writers, whose total incapacity strikes us in every page, not to say every line, we read of their unmeaning, stupefying verbiage! Were this to go on much longer, Kant would present the spectacle of the dead lion being kicked by the donkey. Even in France there is no lack of fellow-workers inspired by a similar orthodoxy, who are labouring towards the same end. A certain M. Barthélemy de St. Hilaire, for instance, in a lecture delivered in the Académie des Sciences Morales in April, 1850, has presumed to criticize Kant with an air of condescension and to use most improper language in speaking of him; luckily however in such a way, that no one could fail to see the underlying purpose.",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "suffering",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Here it is especially Ernst Reinhold's \"System of Metaphysics\" (3rd edition, 1854) that I have in my eye. In my \"Parerga\" I have explained how it comes, that brain-perverting books like this go through several editions. See \"Parerga,\" vol. i. p. 171 (2nd edition, vol. i. p. 194).\n\nNevertheless, by Zeus, all such gentlemen, in France as well as Germany, should be taught that Philosophy has a different mission from that of playing into the hands of the clergy. We must let them clearly see before all things that we have no faith in their faith--from this follows what we think of them. [Add. to 3rd ed.]\n\nNow others among our German \"traders in philosophy\" again try to get rid of the obnoxious Kant in a different way: instead of attacking his philosophy point-blank, they rather seek to undermine the foundations on which it is built. These people however are so utterly forsaken by all the gods and by all power of judgment, that they attack à priori truths: that is to say, truths as old as the human understanding, nay, which constitute that understanding itself, and which it is therefore impossible to contradict without declaring war against that understanding also. So great however is the courage of these gentlemen. I am sorry to say I know of three, and I am afraid there are a good many more at work at this undermining process, who have the incredible presumption to maintain the à posteriori origin of Space as a consequence, a mere relation, of the objects within it; for they assert that Space and Time are of empirical origin and attached to those bodies, so that [according to them] Space first arises through our perception of the juxtaposition of bodies and Time likewise through our perception of the succession of changes (sancta simplicitas!",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "(a) Rosenkranz, \"Meine Reform der Hegelschen Philosophie,\" 1852, especially p. 41, in a pompous, dictatorial tone: \"I have explicitly said, that Space and Time would not exist if Matter did not exist. Æther spread out within itself first constitutes real Space, and the movement of this æther and consequent real genesis of everything individual and separate, constitutes real Time.\" (b) L. Noack, \"Die Theologie als Religionsphilosophie,\" 1853, pp. 8, 9. (c) V. Reuchlin-Meldegg, Two reviews of Oersted's \"Geist in der Natur\" in the Heidelberg Annals, Nov.-Dec., 1850, and May-June, 1854.\n\nTime is the condition of the possibility of succession, which could neither take place, nor be understood by us and expressed in words, without Time. And Space is likewise the condition of the possibility of juxtaposition, and Transcendental Æsthetic is the proof that these conditions have their seat in the constitution of our head. [Add. to 3rd ed.]\n\nAnd such stuff as this is gravely taught fifty years after Kant's death! The aim of it is, as we know, to undermine Kantian philosophy, and certainly if these propositions were true, one stroke would suffice to overthrow it. Fortunately however these assertions are of a kind which is met by derision rather than by serious refutation. For, in them, the question is one of heresy, not so much against Kantian philosophy, as against common sense; and they are not so much an attack upon any particular philosophical dogma, as upon an à priori truth which, as such, constitutes human understanding itself, and therefore must be instantaneously evident to every one who is in his senses, just as much as that 2 × 2 = 4.",
+      "topics": [
+        "knowledge",
+        "meta",
+        "suffering",
+        "self"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Fetch me a peasant from the plough; make the question intelligible to him; and he will tell you, that even if all things in Heaven and on Earth were to vanish, Space would nevertheless remain, and that if all changes in Heaven and on Earth were to cease, Time would nevertheless flow on. Compared with German pseudo-philosophers like these, how estimable does a man like the French physicist Pouillet appear, who, though he never troubles his head about Metaphysics, is careful to incorporate two long paragraphs, one on l'Espace, the other on le Temps, in the first chapter of his well-known Manual, on which public instruction in France is based, where he shows that if all Matter were annihilated, Space would still remain, and that Space is infinite; and that if all changes ceased, Time would still pursue its course without end. Now here he does not appeal, as in all other cases, to experience, because in this case experience is not possible; yet he speaks with apodeictic certainty. For, as a physicist, professing a science which is absolutely immanent--i.e. limited to the reality that is empirically given--it never comes into his head to inquire whence he knows all this. It did come into Kant's head, and it was this very problem, clothed by him in the severe form of an inquiry as to the possibility of synthetical à priori judgments, that became the starting-point and the corner-stone of his immortal discoveries, or in other words, of Transcendental Philosophy which, precisely by answering this question and others related to it, shows what is the nature of that empirical reality itself.",
+      "topics": [
+        "knowledge",
+        "meta",
+        "nature",
+        "meaning"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "In the Scholium to the eighth of the definitions he has placed at the top of his \"Principia,\" Newton quite rightly distinguishes absolute, that is, empty, from relative, or filled Time, and likewise absolute from relative Space. He says, p. 11: Tempus, spatium, locum, motum, ut omnibus notissima, non definio. Notandum tamen quod VULGUS (that is, professors like those I have been mentioning) quantitates hasce non aliter quam ex relatione ad sensibilia concipiat. Et inde oriuntur præjudicia quædam, quibus tollendis convenit easdem in absolutas et relativas, veras et apparentes, mathematicas et vulgares distingui. And again (p. 12):\n\nI. Tempus absolutum, verum et mathematicum, in se et natura sua sine relatione ad externum quodvis, æquabiliter fluit, alioque nomine dicitur Duratio: relativum, apparens et vulgare est sensibilis et externa quævis Durationis per motum mensura (seu accurata seu inæquabilis) quâ vulgus vice veri temporis utitur; ut Hora, Dies, Mensis, Annus.\n\nII. Spatiam absolutum, natura sua sine relatione ad externum quodvis, semper manet similare et immobile: relativum est spatii hujus mensura seu dimensio quælibet mobilis, quæ a sensibus nostris per situm suum ad corpora definitur, et a vulgo pro spatio immobili usurpatur: uti dimensio spatii subterranei, ærei vel coelestis definita per situm suum ad terram.\n\nBut even Newton never dreamt of asking how we know these two infinite entities, Space and Time; since, as he here impresses on us, they do not fall within the range of the senses; and how we know them moreover so intimately, that we are able to indicate their whole nature and rule down to the minutest detail. [Add. to 3rd ed.]",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "And seventy years after the Critique of Pure Reason had appeared and filled the world with its fame, these gentlemen dare to serve up such gross absurdities, which were done away with long ago, and to return to former barbarism. If Kant were to come back and see all this mischief, he would feel like Moses on returning from Mount Sinai, when he found his people worshipping the golden calf, and dashed the Tables to pieces in his anger. But if Kant were to take things as tragically as Moses, I should console him with the words of Jesus Sirach: \"He that telleth a tale to a fool speaketh to one in a slumber; when he hath told his tale, he will say, 'What is the matter?'\" For that diamond in Kant's crown, Transcendental Æsthetic, never has existed for these gentlemen--it is tacitly set aside, as non-avenue. I wonder what they think Nature means by producing the rarest of all her works, a great mind, one among so many hundreds of millions, if the worshipful company of numskulls are to be able at their pleasure and by their mere counter-assertion to annul the weightiest doctrines emanating from that mind, let alone to treat them with disregard and do as if they did not exist.",
+      "topics": [
+        "knowledge",
+        "nature",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "But this degenerate, barbarous state of philosophy which, in the present day, emboldens every tyro to hold forth at random upon subjects that have puzzled the greatest minds, is precisely a consequence still remaining of the impunity with which--thanks to the connivance of our professors of philosophy--that audacious scribbler, Hegel, has been allowed to flood the market with his monstrous vagaries and so to pass for the greatest of all philosophers for the last thirty years in Germany. Every one of course now thinks himself entitled to serve up confidently anything that may happen to come into his sparrow's brain.\n\nTherefore, as I have said, the gentlemen of the 'philosophical trade' are anxious before all things to obliterate Kant's philosophy, in order to be able to return to the muddy canal of the old dogmatism and to talk at random to their heart's content upon the favourite subjects which are specially recommended to them: just as if nothing had happened and neither a Kant nor a Critical Philosophy had ever come into the world. The affected veneration for, and laudation of, Leibnitz too, which has been showing itself everywhere for some years, proceed from the same source. They like to place him in a line with, nay above, Kant, having at times the assurance to call him the greatest of all German philosophers. Now, compared with Kant, Leibnitz is a poor rushlight. Kant is a master-mind, to whom mankind is indebted for the discovery of never-to-be-forgotten truths.",
+      "topics": [
+        "freedom",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "One of his chief merits is precisely, to have delivered us from Leibnitz and his subtleties: from pre-established harmonies, monads and identitas indiscernibilium. Kant has made philosophy serious and I am keeping it so. That these gentlemen should think differently is easily explained; for has not Leibnitz a central Monad and a Theodicée also, with which to deck it out? Now this is quite to the taste of my gentlemen 'of the philosophical trade.' It does not stand in the way of earning a honest livelihood; it allows one to subsist; whereas such a thing as Kant's \"Critique of all Speculative Theology,\" makes one's hair stand on end. Kant is consequently a wrong-headed man and one to be set aside. Vivat Leibnitz! Vivat the 'philosophical trade!' Vivat old woman's philosophy! These gentlemen really imagine that, according to the standard of their own petty aims, they can obscure what is good, disparage what is great, and accredit what is false. They may perhaps succeed in doing so for a time, but certainly not in the long run, nor with impunity. Notwithstanding all their machinations and spiteful ignoring of me for forty years, have not even I at last made my way? During those forty years however I have learnt to appreciate Chamfort's words: \"En examinant la ligue des sots contre les gens d'esprit, on croirait voir une conspiration de valets pour écarter les maîtres.\"",
+      "topics": [
+        "meta",
+        "virtue",
+        "meaning",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "We do not care to have much to do with those whom we dislike. One of the consequences of this antipathy for Kant, therefore, has been an incredible ignorance of his doctrines. I can scarcely believe my eyes at times, when I see certain proofs of this ignorance, and must here support my assertion by a few examples. First let me present a very singular specimen, though it is now some years old. In Professor Michelet's \"Anthropology and Psychology\" (p. 444), he states Kant's Categorical Imperative in the following words: \"thou must, for thou canst\" (du sollst, denn du kannst). This cannot be a lapsus calami, for he again states it in the same words in his \"History of the Development of Modern German Philosophy\" (p. 38), published three years later. Letting alone the fact that he appears to have studied Kantian philosophy in Schiller's epigrams, he has thus turned the thing upside down, and expressed exactly the opposite of Kant's argument; evidently without having the slightest inkling of what Kant meant by that postulate of Freedom on the basis of his Categorical Imperative. None of Professor Michelet's colleagues, to my knowledge, have pointed out this mistake, but \"hanc veniam damus, petimusque vicissim.\"--Another more recent instance. The above mentioned reviewer of Oersted's book (see note 1 (c), p. 202), to whose title the present treatise unfortunately had to stand godfather, comes in that work on the sentence that \"bodies are spaces filled with force\" (krafterfüllte Räume).",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "This is new to him; so without the faintest suspicion that he has to do with a far-famed Kantian dogma, and taking this for a paradoxical opinion of Oersted's, he attacks it and argues against it bravely, persistently and repeatedly in both his reviews, which appeared at an interval of three years from one another, using arguments like these: \"Force cannot fill Space without something substantial, Matter;\" then again three years later: \"Force in Space does not yet constitute any thing. For Force to fill Space, there must be Substance, Matter. A mere force can never fill. Matter must be there for it to fill.\"--Bravo! my cobbler would use just such arguments as these.--When I see specimina eruditionis of this sort, I begin to have my misgivings whether I did not do the man injustice by naming him among those who endeavour to undermine Kant; but in this, to be sure, I had in view his assertions that \"Space is but the relation, the juxtaposition of things,\" and that \"Space is a relation in which things stand, a juxtaposition of things. This juxtaposition ceases to be a conception as soon as the conception of Matter ceases.\" For he might possibly have penned these sentences in sheer innocence, since he may have known no more of the \"Transcendental Æsthetic\" than of the \"Metaphysical First Principles of Natural Science;\" though to be sure, this would be rather extraordinary for a professor of philosophy.",
+      "topics": [
+        "knowledge",
+        "action",
+        "virtue",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Now-a-days however we must not be surprised at anything. For all knowledge of Critical Philosophy has died out, in spite of its being the latest true philosophy that has appeared, and a doctrine withal, that has made a revolution and epoch in human knowledge and thought. Now therefore, since it has overthrown all previous systems, and since the knowledge of it has died out, philosophising no longer proceeds on the basis of any of the doctrines propounded by the great minds of the past, but becomes a mere random untutored process, having an ordinary education and the catechism for its foundation. Now that I have startled them however, our professors may perhaps take to studying Kant's works again. Still Lichtenberg says: \"Past a certain age, I think it as impossible to learn Kantian Philosophy as to learn rope-dancing.\"",
+      "topics": [
+        "knowledge",
+        "education"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Another instance of Michelet's ignorance is to be found in Schopenhauer's posthumous writings, see \"Aus Arthur Schopenhauer's handschriftlichem Nachlass,\" Leipzig, A. Brockhaus, 1864, p. 327. [Editor's note.]\n\nThe same reviewer (Von Reuchlin-Meldegg) when be expounds the doctrines of the philosophers concerning God in the August number of the Heidelberg Annals (1855), p. 579, says: \"In Kant, God is a thing in itself which cannot be known.\" In his review of Frauenstädt's \"Letters\" in the Heidelberg Annals of May and June (1855) he says that there is no knowledge à priori. [Add. to 3rd ed.]\n\nI should certainly not have condescended to record the sins of these sinners had not the interests of truth required that I should do so, in order to show the state of degradation at which German Philosophy has arrived fifty years after Kant's death in consequence of the machinations of the gentlemen 'of the trade,' and also to show what would result, if these puny minds, who know nothing but their own ends, were to be suffered without hindrance to check the influence of the great geniuses who have illumined the world. I cannot look on at this in silence; it is rather a case to which Göthe's exhortation applies:",
+      "topics": [
+        "knowledge",
+        "meta",
+        "suffering",
+        "meaning"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "\"Du Kräftiger, sei nicht so still, Wenn auch sich Andre scheuen: Wer den Teufel erschrecken will, Der muss laut schreien.\"\n\nHatred against Kant, hatred against me, hatred against truth, all however in majorem Dei gloriam, is what inspires these worthies who live on philosophy. Who can be so blind as not to see that University philosophy is the enemy of all true, serious philosophy, whose progress it feels bound to withstand? For a philosophy which deserves the name, is pure service of truth, therefore the most sublime of all human endeavours; but, as such, it is not adapted for a trade. Least of all can it have its seat in Universities, where a theological Faculty predominates and things are irrevocably decided beforehand ere philosophy comes to them. With Scholasticism, from which University philosophy descends, it was quite a different thing. Scholasticism was avowedly the ancilla theologiæ, so that here the name corresponded to the thing. Our University philosophy of to-day, on the contrary, disclaims the connection, and professes independent research; yet in reality it is only the ancilla disguised, and it is intended no less than its predecessor to be the servant of Theology. Thus genuine, sincerely meant philosophy has an adversary under the guise of an ally in University philosophy. Therefore I said long ago, that nothing would be of greater benefit to philosophy than for it to cease altogether to be taught at Universities; and if at that time I still admitted the propriety of a brief, quite succinct course of History of Philosophy accompanying Logic--which undoubtedly ought to be taught at Universities--I have since withdrawn that hasty concession in consequence of the following disclosure made to us in the Göttingischen Gelehrten Anzeigen of the 1st January, 1853, p.",
+      "topics": [
+        "knowledge",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "8, by the Ordinarius loci (one who writes History of Philosophy in thick volumes): \"It could not be mistaken that Kant's doctrine is ordinary Theism, and that it has contributed little or nothing towards transforming the current views on God and his relation to the world.\"--If this is the state of the case, Universities are in my opinion no longer the right place even for teaching History of Philosophy. There designs and intentions reign paramount. I had indeed long ago begun to suspect, that History of Philosophy was taught at our Universities in the same spirit and with the same granum salis as Philosophy itself, and it needed but very little to make my suspicions certainty. Accordingly it is my wish to see both Philosophy and its History disappear from the lecture-list, because I desire to rescue them from the tender mercies of our court-councillors. But far be it from me, to wish to see our professors of philosophy removed from their thriving business at our Universities. On the contrary, what I should like would be, to see them promoted three degrees higher in dignity and raised to the highest faculty, as professors of Theology. For at the bottom they have really been this for some time already, and have served quite long enough as volunteers.",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Preface to the Second Edition",
+      "text": "Meanwhile my honest and kindly advice to the young generation is, not to waste any time with University philosophy, but to study Kant's works and my own instead. I promise them that there they will learn something substantial, that will bring light and order into their brains: so far at least as they may be capable of receiving them. It is not good to crowd round a wretched farthing rushlight when brilliant torches are close by; still less to run after will o' the wisps. Above all, my truth-seeking young friends, beware of letting our professors tell you what is contained in the Critique of Pure Reason. Read it yourselves, and you will find in it something very different from what they deem it advisable for you to know.--In our time a great deal too much study is generally devoted to the History of Philosophy; for this study, being adapted by its very nature to substitute knowledge for reflection, is just now cultivated downright with a view to making philosophy consist in its own history. It is not only of doubtful necessity, but even of questionable profit, to acquire a superficial half-knowledge of the opinions and systems of all the philosophers who have taught for 2,500 years; yet what more does the most honest history of philosophy give? A real knowledge of philosophers can only be acquired from their own works, and not from the distorted image of their doctrines as it is found in the commonplace head. But it is really urgent that order should be brought into our heads by some sort of philosophy, and that we should at the same time learn to look at the world with a really unbiassed eye. Now no philosophy is so near to us, both as regards time and language, as that of Kant, and it is at the same time a philosophy, compared with which all those which went before are superficial. On this account it is unhesitatingly to be preferred to all others.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meta",
+        "work"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Arthur Schopenhauer",
+      "text": "I take this opportunity urgently to request that the public will not believe unconditionally any accounts of what I am supposed to have said, even when they are given as quotations; but will first verify the existence of these quotations in my works. In this way many a falsehood will be detected, which can however only be stamped as a direct forgery when accompanied by quotation marks (\"\"). [Add. to 3rd ed.]",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Editor's Preface to the Third Edition",
+      "text": "Schopenhauer has left an interleaved copy of his work \"On the Will in Nature,\" as well as of his other writings, and has inserted in it those Corrections and Additions which he intended to use for the Third Edition. I have therefore included them in this Third Edition.\n\nThe Corrections chiefly concern the style, here and there an expression being changed, and a word inserted or omitted. The Additions, on the contrary, concern the matter of the book; they amplify it more or less considerably, and are tolerably numerous.\n\nThe Corrections are incorporated by Schopenhauer with the text; whereas the Additions are designated by him as \"Notes\" (Anmerkungen) to be placed at the foot of the pages with the words, \"added to the third edition.\" They will therefore be found at the places indicated by him for them, as foot-notes; and thus the reader will be enabled easily to discern how much has been added in this edition.\n\nAs to the value of the present work, Schopenhauer has expressed himself as follows in the \"World as Will and Representation:\"",
+      "topics": [
+        "meta",
+        "nature"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Editor's Preface to the Third Edition",
+      "text": "\"It would be a great mistake to consider the foreign deliverances with which I have connected my own exposition there (in the work \"On the Will in Nature\") as the real substance and argument of that work which, though small in size, is weighty in import. They are rather a mere occasion which I take as my starting-point in order to expound the fundamental truth of my doctrine more clearly there than has been done anywhere else, and to apply it all the way down even to the empirical knowledge of Nature. This I have done most exhaustively and stringently under the heading \"Physical Astronomy,\" nor can I ever hope to find a more correct or accurate expression for the kernel of my doctrine than the one given there.\"",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "nature",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Introduction",
+      "text": "I break silence after seventeen years, in order to point out to the few who, in advance of the age, may have given their attention to my philosophy, sundry corroborations which have been contributed to it by unbiassed empiricists, unacquainted with my writings, who, in pursuing their own road in search of merely empirical knowledge, discovered at its extreme end what my doctrine has propounded as the Metaphysical (das Metaphysische), from which the explanation of experience as a whole must come. This circumstance is the more encouraging, as it confers upon my system a distinction over all hitherto existing ones; for all the other systems, even the latest--that of Kant--still leave a wide gap between their results and experience, and are far from coming down directly to, and into contact with, experience. By this my Metaphysic proves itself to be the only one having an extreme point in common with the physical sciences: a point up to which these sciences come to meet it by their own paths, so as really to connect themselves and to harmonize with it. Moreover this is not brought about by twisting and straining the empirical sciences in order to adapt them to Metaphysic, nor by Metaphysic having been secretly abstracted from them beforehand and then, à la Schelling, finding à priori what it had learnt à posteriori. On the contrary, both meet at the same point of their own accord, yet without collusion. My system therefore, far from soaring above all reality and all experience, descends to the firm ground of actuality, where its lessons are continued by the Physical Sciences.",
+      "topics": [
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Introduction",
+      "text": "So had I written in 1835, when the present treatise was first composed, having published nothing since 1818, before the close of which year \"Die Welt als Wille und Vorstellung\" had appeared. For a Latin version, which I had added to the third volume of \"Scriptores ophthalmologici minores,\" edente J. Radio, in 1830, for the benefit of my foreign readers, of my treatise \"On Vision and Colours\" (published in 1816), can hardly be said to break the silence of that pause.\n\nNow the extraneous and empirical corroborations I am about to bring forward, all concern the kernel and chief point of my doctrine, its Metaphysic proper. They concern, that is, the paradoxical fundamental truth,\n\nthat what Kant opposed as thing in itself to mere phenomenon--called more decidedly by me representation--and what he held to be absolutely unknowable, that this thing in itself, this substratum of all phenomena, and therefore of the whole of Nature, is nothing but what we know directly and intimately and find within ourselves as the will;\n\nAs will be seen by the following detailed exposition, Schopenhauer attaches a far wider meaning to the word than is usually given, and regards the will, not merely as conscious volition enlightened by Reason and determined by motives, but as the fundamental essence of all that occurs, even where there is no choice. [Tr.]",
+      "topics": [
+        "knowledge",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Introduction",
+      "text": "that accordingly, this will, far from being inseparable from, and even a mere result of, knowledge, differs radically and entirely from, and is quite independent of, knowledge, which is secondary and of later origin; and can consequently subsist and manifest itself without knowledge: a thing which actually takes place throughout the whole of Nature, from the animal kingdom downwards;\n\nthat this will, being the one and only thing in itself, the sole truly real, primary, metaphysical thing in a world in which everything else is only phenomenon--i.e. mere representation--gives all things, whatever they may be, the power to exist and to act;\n\nthat accordingly, not only the voluntary actions of animals, but the organic mechanism, nay even the shape and quality of their living body, the vegetation of plants and finally, even in inorganic Nature, crystallization, and in general every primary force which manifests itself in physical and chemical phenomena, not excepting Gravity,--that all this, I say, in itself, i.e. independently of phenomenon (which only means, independently of our brain and its representations), is absolutely identical with the will we find within us and know as intimately as we can know anything;\n\nthat further, the individual manifestations of the will are set in motion by motives in beings gifted with an intellect, but no less by stimuli in the organic life of animals and of plants, and finally in all inorganic Nature, by causes in the narrowest sense of the word--these distinctions applying exclusively to phenomena;",
+      "topics": [
+        "nature",
+        "knowledge",
+        "action",
+        "self"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Introduction",
+      "text": "that, on the other hand, knowledge with its substratum, the intellect, is a merely secondary phenomenon, differing completely from the will, only accompanying its higher degrees of objectification and not essential to it; which, as it depends upon the manifestations of the will in the animal organism, is therefore physical, and not, like the will, metaphysical;\n\nthat we are never able therefore to infer absence of will from absence of knowledge; for the will may be pointed out even in all phenomena of unconscious Nature, whether in plants or in inorganic bodies; in short,\n\nthat the will is not conditioned by knowledge, as has hitherto been universally assumed, although knowledge is conditioned by the will.\n\nNow this fundamental truth, which even to-day sounds so like a paradox, is the part of my doctrine to which, in all its chief points, the empirical sciences--themselves ever eager to steer clear of all Metaphysic--have contributed just as many confirmations forcibly elicited by the irresistible cogency of truth, but which are most surprising on account of the quarter whence they proceed; and although they have certainly come to light since the publication of my chief work, it has been quite independently of it and as the years went on. Now, that it should be precisely this fundamental doctrine of mine which has thus met with confirmation, is advantageous in two respects. First, because it is the main thought upon which my system is founded; secondly, because it is the only part of my philosophy that admits of confirmation through sciences which are alien to, and independent of, it.",
+      "topics": [
+        "nature",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Introduction",
+      "text": "I may thus be dispensed from the obligation of entering here into subjects so unworthy; the more so, as I can accomplish my purpose more briefly and agreeably by narrating the following anecdote. During the carnival, Dante having lost himself in a crowd of masks, the Duke of Medici ordered him to be sought for. Those commissioned to look for him, being doubtful whether they would be able to find him, as he was himself masked, the Duke gave them a question to put to every mask they might meet who resembled Dante. It was this: \"Who knows what is good?\" After receiving several foolish answers, they finally met with a mask who replied: \"He that knows what is bad,\" by which Dante was immediately recognised. What is meant by this here is, that I have seen no reason to be disheartened on account of the want of sympathy of my contemporaries, since I had at the same time before my eyes the objects of their sympathy. What those authors were, posterity will see by their works; what the contemporaries were, will be seen by the reception they gave to those works. My doctrine lays no claim whatever to the name \"Philosophy of the present time\" which was disputed to the amusing adepts of Hegel's mystification; but it certainly does claim the title of \"Philosophy of time to come:\" that is, of a time when people will no longer content themselves with a mere jingle of words without meaning, with empty phrases and trivial parallelisms, but will exact real contents and serious disclosures from philosophy, while, on the other hand, they will exempt it from the unjust and preposterous obligation of paraphrasing the national religion for the time being.",
+      "topics": [
+        "meta",
+        "knowledge",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Introduction",
+      "text": "\"For it is an extremely absurd thing,\" says Kant, \"to expect to be enlightened by Reason and yet to prescribe to her beforehand on which side she must incline.\"--It is indeed sad to live in an age so degenerate, that it should be necessary to appeal to the authority of a great man to attest so obvious a truth. But it is absurd to expect marvels from a philosophy that is chained up, and particularly amusing to watch the solemn gravity with which it sets to work to accomplish great things, when we all know beforehand \"the short meaning of the long speech.\" However the keen-sighted assert that under the cloak of philosophy they can mostly detect theology holding forth for the edification of students thirsting after truth, and instructing them after its own fashion;--and this again reminds us forcibly of a certain favourite scene in Faust. Others, who think that they see still further into the matter, maintain that what is thus disguised is neither theology nor philosophy, but simply a poor devil who, while solemnly protesting that he has lofty, sublime truth for his aim, is in fact only striving to get bread for himself and for his future young family. This he might no doubt obtain by other means with less labour and more dignity; meanwhile however for this price he is ready to do anything he is asked to do, even to deduce à priori, nay, should it come to the worst, to perceive, the 'Devil and his dam,' by intellectual intuition--and here indeed the exceedingly comical effect is brought to a climax by the contrast between the sublimity of the ostensible, and the lowliness of the real, aim.",
+      "topics": [
+        "knowledge",
+        "work",
+        "meaning",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "P. 1: \"If we are forced to the conviction that there must be a determining principle--a will, in every vital action, by which the development suited to the whole organism is occasioned, and each metamorphosis of the parts conditioned, in harmony with the whole individuality, and likewise that there is a something capable of being determined and developed,\" &c. &c.--P. 11: \"With respect to individual life, the element which determines, the organic will, if it is to rest satisfied, must be able to attain what it wants from that which has to be determined. This occurs even when the vital movements are over-excited, as in inflammation: something new is formed, the noxious element is expelled; new plastic materials are meanwhile conveyed through the arteries, more venous blood is carried off, until the process of inflammation is finished and the organic will satisfied. It is however possible to excite this will to such a degree, as to make satisfaction impossible. This exciting cause (or stimulus) either acts directly upon the particular organ (poison, contagion) or it affects the whole life; and this life then begins to make the most strenuous efforts to rid itself of the noxious element or to modify the disposition of the organic will, and provokes critical vital activity in particular parts (inflammations) or yields to the unappeased will.\"--P. 12: \"The insatiable will acts destructively upon the organism unless either (a) the whole life, in its efforts to attain unity (tendency to adapt means to end), produces other activities requiring satisfaction (crises et lyses) which hold that will in check--called decisive (crises completæ) when quite successful; crises incompletæ, when only partially so--or (b) some other stimulus (medicine) produces another will which represses the diseased one.",
+      "topics": [
+        "action",
+        "self",
+        "meaning"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "&c.--P. 33: \"Fever is the complete participation of the whole vital process in a diseased will, i.e. it is to the entire vital process what inflammation is to particular organs--the effort of our vitality to form something definite, in order to content the diseased will and remove the noxious element.--We call this process of formation crisis or lysis (turning-point or release). The first perception of the pernicious element which causes the diseased will, affects the individuality just in the same way as a noxious element apprehended by our senses, before we have brought to clear representation the entire relation in which it stands to our individuality and the means of removing it. It creates terror and its consequences, a standstill of the vital process in the parenchyma, especially in the parts directed towards the outer world; in the skin, and in all the motor muscles belonging to the entire individuality (outer body): shuddering, chills, trembling, pains in the limbs, &c. &c. The difference between them is, that in the latter case the noxious element, either at once or gradually, becomes clear representation, because it is compared with the individuality by means of all the senses, so that its relation to that individuality can be determined, and the means of protection against it (disregard, flight, warding off, defence, &c.) be brought to a conscious will; whereas, in the former case, we remain unconscious of that noxious element, and it is life alone (or Nature's curative power) which is striving to remove the noxious element and thereby to content the diseased will. Nor must this be taken for a simile; it is, on the contrary, a true description of the manifestation of life.\"--P. 58: \"We must however always bear in mind, that cold acts here as a powerful stimulus to check or moderate the diseased will and to rouse in its place a natural will, accompanied by general warmth.\"--",
+      "topics": [
+        "knowledge",
+        "nature",
+        "meaning",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "In almost every page of this book similar expressions are to be found. In the second of the Essays I have named, Brandis no longer combines the explanation by the will so universally with each separate analysis, probably in consideration that this explanation is properly speaking, a metaphysical one. Nevertheless he maintains it entirely and completely, giving it even all the more distinct and decided expression, wherever he states it. Thus, for instance, in § 68 et seq. he speaks of an \"unconscious will, which cannot be separated from the conscious one,\" and is the primum mobile of all life, as well in plants as in animals; for, in these, it is a desire and aversion manifesting itself in all the organs which determines all their vital processes, secretions, &c. &c.--§. 71: \"All convulsions prove that the manifestation of the will can take place without distinct power of representation.\"--§. 72: \"Everywhere do we meet with a spontaneous, uncommunicated activity, now determined by the sublimest human free will, now by animal desire and aversion, now again by simple, more vegetative requirements; which activity, in order to maintain itself, calls forth several other kinds of activity in the unity of the individual.\"--P. 96: \"A creative, spontaneous, uncommunicated activity shows itself in every vital manifestation.\"...--\"The third factor in this individual creation is the will, the individual's life itself.\"...--\"The nerves are the conductors of this individual creation: by their means form and mixture are varied according to desire and aversion.\"--P. 97: \"Assimilation of foreign substance... makes the blood.... It is not an absorption or an exudation of organic matter;... on the contrary, here the sole factor of the phenomenon is in all cases the creative will, a life which cannot be brought back to any sort of imparted movement.\"--",
+      "topics": [
+        "nature",
+        "meta",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "When I wrote this (1835) I was still naïf enough seriously to believe that Brandis was unacquainted with my work, or I should not allude here to his writings; for they would then be merely a repetition, application and carrying out of my own doctrine on this point, not a corroboration of it. But I thought I might safely assume that he did not know me, because he has not mentioned me anywhere and because if he had known me, literary honesty would have made it his imperative duty not to remain silent concerning the man from whom he had borrowed his chief fundamental thought, the more so as he saw that man then enduring unmerited neglect, by his writings being generally ignored--a circumstance which might be construed as favourable to fraud. Add to this, that it lay in Brandis' own interest as a writer, and would therefore have shown sagacity on his part, to have appealed to me as an authority. For the fundamental doctrine propounded by him is so striking and paradoxical, that even his Göttingen reviewer is amazed and hardly knows what to think of it; yet such a doctrine as this was left without foundation either through proof or induction, nor did Dr. Brandis establish its relation to the whole of our knowledge of Nature: he simply asserted it. I imagined therefore that it was by the peculiar gift of divination, which enables eminent physicians to see and do the right thing in cases of illness, that he had been led to this view, without being able to give a strict and methodical account of the grounds of this really metaphysical truth, although he must have seen how greatly it is opposed to the generally received views.",
+      "topics": [
+        "knowledge",
+        "virtue",
+        "meaning"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "Had he, thought I, been acquainted with my philosophy, which gives far greater extension to this truth, makes it valid for the whole of Nature and founds it both by proof and induction in close connection with Kant's teaching, from which it proceeds as a final result of excogitation--how gladly must he have availed himself of such confirmation and support, rather than to stand alone by an unheard-of assertion which was never further carried out and, with him, never went beyond bare assertion. Such were the reasons that led me to believe myself entitled to take for granted Dr. Brandis' ignorance of my book.",
+      "topics": [
+        "knowledge",
+        "self",
+        "meta"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "Since then however I have become better acquainted with German scientists and Copenhagen Academicians, to which body Dr. Brandis belonged, and have gained the conviction that he knew me very well indeed. I stated my reasons for arriving at this conviction already in 1844 in the 2nd vol. of \"Die Welt als Wille und Vorstellung,\" so that, as the subject is by no means edifying, it is needless to repeat them here; I will merely add that I have since been assured on trustworthy authority that Dr. Brandis not only knew my work but even possessed it, as it was found among his property after his death.--The unmerited obscurity to which writers like myself are long condemned, encourages such people to appropriate their thoughts without so much as naming them.\n\nAnother medical authority has carried this even farther; for, not content with the thought alone, he has appropriated to himself the expression of it also. I allude to Professor Anton Rosas of the University of Vienna, whose entire § 507 in the 1st vol. of his Textbook of Ophthalmology (1830) is copied word for word from pp. 14-16 of my treatise \"On Vision and Colours\" (1816) without any mention whatever of me, or even the slightest hint that he is using the words of another. This sufficiently accounts for the care he has taken not to mention my treatise among the lists of twenty-one writings on Colours and forty on the Physiology of the Eye, which he gives in §§ 542 and 567; a caution which was however all the more advisable, as he had appropriated to himself a good deal more out of that pamphlet without mentioning me.",
+      "topics": [
+        "meta",
+        "self",
+        "work",
+        "suffering"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "All that is referred, for instance, in § 526 to 'them' (man), is only applicable to me. His entire § 527 is copied almost literally from my pp. 59 and 60. The theory which he introduces without further ceremony in § 535 by the word \"evidently\": that is, that yellow is 3/4 and violet 1/4 of the eye's activity, never was 'evident' to anyone until I made it so; even to this day it is a truth known to few and acknowledged by fewer still, and much is yet wanting--for example, that I should be dead and buried--ere it be possible to call it 'evident' without further ceremony. The matter will even have to wait till after my death to be seriously sifted, since a close investigation might easily bring to 'evidence' the real difference between Newton's theory of colours and my own, which is simply that his is false, and mine true: a discovery which could not fail to mortify my contemporaries. Wherefore, according to ancient custom, all serious examination into the question is wisely postponed for these few years. Professor Rosas knew no such policy as this and, as the matter was not alluded to anywhere, thought himself entitled, like the Danish Academician, to claim it as lawful prey (de bonne prise). Evidently North and South German honesty had not yet come to a satisfactory understanding.--Moreover the whole contents of §§ 538, 539 and 540 in Professor Rosas' book are taken from my pamphlet, nay even in great part copied word for word from my § 13.",
+      "topics": [
+        "knowledge",
+        "meta",
+        "suffering",
+        "self"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "Still once, where he stands in need of a voucher for a fact, he finds himself obliged to refer to my treatise: that is, in his § 531; and it is most amusing to see the way in which he even brings in the numerical fractions used by me, as a result of my theory, to express all colours. It had probably occurred to him, that appropriating them quite sans façon might be a delicate matter, so he says, p. 308: \"If we wished to express in numbers the first-mentioned relation in which colours stand to white, assuming white to be = 1, the following scale of proportion might by the way be adopted (as has already been done by Schopenhauer):",
+      "topics": [
+        "self"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "The distinction between voluntary and involuntary movement does not therefore concern what is essential and primary--for this is in both cases the will--but only what is secondary, the rousing of the will's manifestation: it has to do with the determination whether causes proper, stimuli or motives (i.e. causes having passed through the medium of knowledge) are the guidance under which that manifestation takes place. It is in human consciousness,--differing from that of animals by not only containing perceptible representations but also abstract conceptions independent of time-distinctions, which act simultaneously and collaterally, whereby deliberation, i.e. a conflict of motives, becomes possible--it is in human consciousness, I say, that free-will (arbitrium) in its narrowest sense first makes its appearance; and this I have called elective decision. It nevertheless merely consists in the strongest motive for a given individual character overcoming the others and thus determining the act, just as an impact is overcome by a stronger counter-impact, the result thus ensuing with precisely the same necessity as the movement of a stone that has been struck. That all great thinkers in all ages were decided and at one on this point, is just as certain, as that the multitude will never understand, never grasp, the important truth, that the work of our freedom must not be sought in our individual actions but in our very existence and nature itself. In my prize-essay on Freedom of the Will, I have shown this as clearly as possible. The liberum arbitrium indifferentiæ which is assumed to be the distinctive characteristic of movements proceeding from the will, is accordingly quite inadmissible: for it asserts that effects are possible without causes.",
+      "topics": [
+        "action",
+        "knowledge",
+        "self",
+        "freedom"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "By this Schopenhauer means the distinction between the will in its widest sense, regarded as the fundamental essence of all that happens,--even where there is no choice, even where it is unconscious,--and conscious will, implying deliberation and choice, commonly called free-will. We must however carefully guard against confounding this relative free-will, with absolute free-will (liberum arbitrium indifferentiæ), which Schopenhauer declares to be inadmissible. The sense in which I have used the expression 'free-will' throughout this treatise, is that of relative freedom, i.e. power to choose between different motives, free of all outward restraint (Willkühr). (Tr.)\n\nAs soon therefore as we have got so far as to distinguish will [Wille] from free-will [Willkühr], and to consider the latter as a particular kind or particular phenomenon of the former, we shall find no difficulty in recognising the will, even in unconscious processes. Thus the assertion, that all bodily movements, even those which are purely vegetative and organic, proceed from the will, by no means implies that they are voluntary. For that would mean that they were occasioned by motives; but motives are representations, and their seat is the brain: only those parts of our body which communicate with the brain by means of the nerves, can be put in movement by the brain, consequently by motives, and this movement alone is what is called voluntary. The movement of the inner economy of the organism, on the contrary, is directed, as in plant-life, by stimuli; only as, on the one hand, the complex nature of the animal organism necessitated an outer sensorium for the apprehension of the outer world and the will's reaction on that outer world, so, on the other hand, did it necessitate a cerebrum abdominale, the sympathetic nervous system, in order to direct the will's reaction upon inner stimuli likewise. We may compare the former to a Home Ministry, the latter to a Foreign Office; but the will remains the omnipresent Autocrat.",
+      "topics": [
+        "nature",
+        "action",
+        "freedom"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "In several animals of a higher order--crustaceans and even fishes--he finds that the voluntary and vital movements, for instance locomotion and respiration, entirely coincide: a clear proof that their origin and essence are identical. He says p. 188: \"In the family of the actinia, star-fishes, sea-urchins, and holothuriæ (echinodermata pedata Cuv.), it is evident that the movement of the fluids depends upon the will of the animals and that it is a means of locomotion.\" Then again p. 288: \"The gullet of mammals has at its upper end the pharynx, which expands and contracts by means of muscles resembling voluntary muscles in their formation, yet which do not obey the will.\" Here we see how the limits of the movements proceeding from the will and of those assumed to be foreign to it, merge into one another. Ibid., p. 293: \"Thus movements having all the appearance of being voluntary, take place in the stomachs of ruminants. They do not however always stand in connection with the ruminating process only. Even the simpler human stomach and that of many animals only allows free passage to what is digestible through its lower orifice, and rejects what is indigestible by vomiting.\"",
+      "topics": [
+        "freedom",
+        "nature",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "The solution of the enigma comes to them in a whisper from outside the investigation, owing to the fortunate circumstance that the investigator is in this case at the same time himself the object of the investigation and by this learns the secret of the inward process, his explanation of which would otherwise, like that of every other phenomenon, be brought to a standstill by an inscrutable force. And conversely, if we stood in the same inward relation towards every natural phenomenon as towards our own organism, the explanation of every natural phenomenon, as well as of all the properties of every body, would likewise ultimately be reduced to a will manifesting itself in them. For the difference does not reside in the thing itself, but in our relation to the thing. Wherever explanation of the physical comes to an end, it is met by the metaphysical; and wherever this last is accessible to immediate knowledge, the result will be, as here, the will. That even those parts of the body whose movements do not proceed from the brain, do not follow upon motives, and are not voluntary, are nevertheless ruled and animated by the will, is also shown by their participation in all unusually violent movements of the will, i.e. emotions and passions. We see, for instance, the quickened pulse in joy or alarm, the blush in embarrassment, the cheek's pallor in terror or in suppressed anger, the tears of sorrow, the difficult breathing and increased activity of the intestines in terror, watering of the mouth at the sight of dainties, nausea occasioned by that of loathsome objects, strongly accelerated circulation of the blood and even altered quality of bile through wrath, and of saliva through violent rage: this last even to the degree, that an excessively irritated dog may communicate hydrophobia by its bite without being itself affected with rabies, or even then contracting the disease--and the same is also asserted of cats and of cocks.",
+      "topics": [
+        "nature",
+        "suffering",
+        "self",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "The organism is further deeply undermined by lasting grief, and may be mortally affected by fright as well as by sudden joy. On the other hand, all those inner processes and changes which only have to do with the intellect and do not concern the will, however great may be their importance, remain without influence upon the machinery of the organism, with the one exception, that mental activity, prolonged to excess, fatigues and gradually exhausts the brain and finally undermines the organism. This again confirms the fact that the intellect is of a secondary character, and merely the organic function of a single part, a product of life; not the innermost kernel of our being, not the thing in itself, not metaphysical, incorporeal, eternal, like the will: the will never tires, never grows old, never learns, never improves by practice, is in infancy what it is in old age, eternally one and the same, and its character in each individual is unchangeable. Being essential moreover, it is likewise immutable, and therefore exists in animals as it does in us; for it does not, like the intellect, depend upon the perfection of the organization, but is in every essential respect in all animals the same thing which we know so intimately. Accordingly animals have all the feelings which belong to man: joy, grief, fear, anger, love, hate, desire, envy, &c. &c. The great difference between man and the brute creation consists exclusively in the degrees of perfection of the intellect. This however is leading us too far from our subject, so I refer my readers to my chief work, vol. ii. chap. 19, sub. 2.",
+      "topics": [
+        "action",
+        "love",
+        "suffering",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology and Pathology",
+      "text": "Lastly, a very remarkable and unexpected corroboration of this part of my doctrine has to be mentioned, which has recently been communicated from ancient Hindoo philosophy by Colebrook. In his exposition of the philosophical schools of the Hindoos, he quotes the following as the doctrine of the Nyaga school: \"Volition, Yatna, effort or manifestation of the Will, is a self-determination to act which gives satisfaction. Desire is its occasion, perception its motive. Two kinds of perceptible effort of the will are distinguished: that which springs from desire which seeks the agreeable, and that which springs from aversion which shuns the repulsive. Another species, which escapes sensation and perception, but is inferred from analogy of spontaneous acts, comprises animal functions, having for a cause the vital, unseen power.\" Here the words \"animal functions\" are evidently used, not in a physiological, but in a popular sense: so that here organic life is unquestionably derived from the will. We find a similar statement in Colebrook's Report on the Vedas where he says: \"Asu is unconscious volition, which occasions an act necessary to the support of life, as breathing, &c.\"\n\nMoreover my reduction of vital energy to the will by no means interferes with the old division of its functions into reproductive force, irritability and sensibility. This division remains a deep view of their difference, and gives occasion for interesting observations.",
+      "topics": [
+        "action",
+        "meta",
+        "knowledge",
+        "education"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Comparative Anatomy",
+      "text": "Immediately after however, under the returning influence of his own better self, he proclaims the real truth (p. 710): \"The brain curves itself outwards to the retina, because the central part of the embryo desires to take in the impressions of the activity of the world; the mucous membrane of the intestinal canal develops into the lung, because the organic body desires to enter into relation with the elementary substances of the universe; organs of generation spring from the vascular system, because the individual only lives in the species, and because the life which has commenced in the individual desires to multiply.\" This assertion of Burdach's, which so entirely agrees with my doctrine, reminds me of a passage in the ancient Mahabharata, which it is really difficult not to regard as a mythical version of the same truth. It is in the third Canto of \"Sundas and Upasunda\" in Bopp's \"Ardschuna's Reise zu Indra's Himmel\" (1824); Brahma has just created Tilottama, the fairest of women, who is walking round the circle of the assembled gods. Shiva conceives so violent a longing to gaze at her as she turns successively round the circle, that four faces arise in him according to her different positions, that is, according to the four cardinal points. This may account for Shiva being represented with five heads, as Pansh Mukhti Shiva. Countless eyes arise on every part of Indra's body likewise on the same occasion. In fact, every organ must be looked upon as the expression of a universal manifestation of the will, i.",
+      "topics": [
+        "nature",
+        "love",
+        "self",
+        "meaning"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Comparative Anatomy",
+      "text": "The Matsya Parana attributes a similar origin to Brahma's four countenances. It relates that, having fallen in love with his daughter Satarupa, and gazed fixedly at her, she stepped aside to avoid his eye; he being ashamed, would not follow her movement; whereupon a new face arose on him directed towards the side where she was and, on her once more moving, the same thing occurred, and was repeated, until at last he had four faces. (\"Asiatic Researches,\" vol. 6, p. 473.) [Add. to 3rd ed.]\n\nThe manifest adaptation of each animal for its mode of life and outward means of subsistence, even down to the smallest detail, together with the exceeding perfection of its organisation, form abundant material for teleological contemplation, which has always been a favourite occupation of the human mind, and which, extended even to inanimate Nature, has become the argument of the Physico-theological Proof. The universal fitness for their ends, the obviously intentional design in all the parts of the organism of the lower animals without exception, proclaim too distinctly for it ever to have been seriously questioned, that here no forces of Nature acting by chance and without plan have been at work, but a will. Now, that a will should act otherwise than under the guidance of knowledge was inconceivable, according to empirical science and views. For, up to my time, as has been shown in the last chapter, will and intellect had been regarded as absolutely inseparable, nay, the will was looked upon as a mere operation of the intellect, that presumptive basis of all that is spiritual.",
+      "topics": [
+        "knowledge",
+        "nature",
+        "action",
+        "work"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Comparative Anatomy",
+      "text": "Now, to render this proof complete, we have the additional circumstance, that in many animals, during the time they are growing, the effort of the will to which a limb is destined to minister, manifests itself before the existence of the limb itself, its employment thus anticipating its existence. Young he-goats, rams, calves, for instance, butt with their bare polls before they have any horns; the young boar tries to gore on either side, before its tusks are fully developed which would respond to the intended effect, while on the other hand, it neglects to use the smaller teeth it already has in its mouth and with which it might really bite. Thus its mode of defending itself does not adapt itself to the existing weapons, but vice versa. This had already been noticed by Galenus and by Lucretius before him. All these circumstances give us complete certainty, that the will does not, as a supplementary thing proceeding from the intellect, employ those instruments which it may happen to find, or use the parts because just they and no others chance to be there; but that what is primary and original, is the endeavour to live in this particular way, to contend in this manner, an endeavour which manifests itself not only in the employment, but even in the existence of the weapon: so much so indeed, that the use of the weapon frequently precedes its existence, thus denoting that it is the weapon which arises out of the existence of the endeavour, not, conversely, the desire to use it out of the existence of the weapon. Aristotle expressed this long ago, when he said, with reference to insects armed with stings: διὰ τὸ θυμὸν ἔχειν ὅπλον ἔχει (quia iram habent, arma habent), and further on, generally speaking: Τὰ δ' ὄργανα πρὸς τὸ ἔργον ἡ φύσις ποιεῖ, ἀλλ' οὐ τὸ ἔργον πρὸς τὰ ὄργανα (Natura enim instrumenta ad officium, non officium ad instrumenta accommodat). From which it follows, that the structure of each animal is adapted to its will.",
+      "topics": [
+        "knowledge",
+        "technology",
+        "virtue",
+        "nature"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Comparative Anatomy",
+      "text": "The sloth is deceptively like its moss-clad bough, and the frog its leaf; and many insects resemble their dwelling-places. The negro's louse is black; so, to be sure, is our flea also; but the latter, in providing itself with an extremely powerful apparatus for making irregular jumps to a considerable distance, trusted to these for protection.--We can however make the anticipation in all these arrangements more intelligible to ourselves by the same anticipation which shows itself in the mechanical instincts of animals. Neither the young spider nor the ant-lion know the prey for which they lay traps, when they do it for the first time. And it is the same when they are on the defensive. According to Latreille, the insect bombex kills the parnope with its sting, although it neither eats it nor is attacked by it, simply because the parnope will lay its eggs in the bombex's nest, and by doing this will interfere with the development of its eggs; yet it does not know this. Anticipations of this kind once more confirm the ideal nature of Time, which indeed always becomes manifest as soon as the will as thing in itself is in question. Not only with respect to the points here mentioned, but to many others besides, the mechanical instincts and physiological functions of animals serve to explain each other mutually, because the will without knowledge is the agent in both.",
+      "topics": [
+        "action",
+        "knowledge",
+        "technology",
+        "nature"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Comparative Anatomy",
+      "text": "The horse too has a longer life and a scantier progeny than the ruminants, and as it has neither horns, tusks, trunk, nor indeed any weapon save perhaps its hoofs, it needed greater intelligence and swiftness in order to elude pursuit. Monkeys needed their extraordinary intelligence, partly because of the length of their life, which even in the moderate-sized animal extends to fifty years; partly also because of their scanty progeny, which is limited to one at a time, but especially because of their hands, which, to be properly used, required the direction of an understanding. For monkeys depend upon their hands, not only for their defence by means of outer weapons such as sticks and stones, but also for their nourishment, this last necessitating a variety of artificial means and a social and artificial system of rapine in general, the passing from hand to hand of stolen fruit, the placing of sentinels, &c. &c. Add to this, that it is especially in their youth, before they have attained their full muscular development, that this intelligence is most prominent. In the pongo or ourang-outang for instance, the brain plays a far more important part and the understanding is much greater during its youth than at its maturity, when the muscular powers having attained full development, they take the place of the proportionately declining intellect. This holds good of all sorts of monkeys, so that here therefore the intellect acts for a time vicariously for the yet undeveloped muscular strength.",
+      "topics": [
+        "technology",
+        "knowledge"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Physiology of Plants",
+      "text": "For these abstract motives, when observed from outside, give an impress of deliberation to all his movements, by which they acquire a semblance of independence that manifestly distinguishes them from those of animals, yet which after all only bears evidence to the fact, that Man is actuated by a class of representations in which animals do not share. Then again, in self-consciousness, the act of volition is known to us in the most immediate way, but the motive in most cases very indirectly, being often even intentionally veiled, out of consideration for our self-knowledge. This process therefore, in coincidence with the consciousness of that true freedom which belongs to the will, as thing in itself outside phenomenon, produces the deceptive illusion that even the single act of volition is unconditioned and free: that is, without a reason; whereas, when the character is given and the motive recognised, every act of volition really follows with the same strict necessity as the changes of which mechanics teach us the laws, and, to use Kant's words, were character and motive exactly known, might be calculated with precisely the same certainty as an eclipse of the moon; or again, to place a very heterogeneous authority by the side of Kant, as Dante says, who is older than Buridan:--\n\n\"Intra duo cibi distanti e moventi D'un modo, prima si morria di fame Che liber' uomo l'un recasse a' denti.\" Paradiso, iv. 1.",
+      "topics": [
+        "knowledge",
+        "freedom",
+        "self",
+        "nature"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Linguistic",
+      "text": "Aristotle, when explaining gravity, says: μικρὸν μὲν μόριον τῆς γῆς, ἐὰν μετεωρισθὲν ἀφεθῇ, φέρεται, καὶ μένειν οὐκ ἐθέλει (parva quædam terræ pars, si elevata dimittitur, neque vult manere). And: Δεῖ δὲ ἕκαστον λέγειν τοιοῦτον εἶναι, ὃ φύσει +βούλεται+ εἶναι, καὶ ὃ ὑπάρχει, ἀλλὰ μὴ ὃ βίᾳ καὶ παρὰ φύσιν (unumquodque autem tale dicere oportet, quale naturâ suâ esse vult, et quod est; sed non id quod violentiâ et præter naturam est). Of great and more than merely linguistic importance is what Aristotle says in his \"Ethica magna,\" where not only animals, but inanimate beings (fire striving upwards and earth downwards) are explicitly in question, and he asserts that they may be obliged to do something contrary to their nature or their will: παρὰ φύσιν τι, ἢ παρ' ἃ +βούλονται+ ποιεῖν,--and therefore rightly places παρ' ἃ βούλονται as a paraphrase of παρὰ φύσιν.--Anacreon, in his 29th Ode, εἰς Βάθυλλον, in ordering the portrait of his lady-love, says of her hair: Ἕλικας δ' ἐλευθέρους μοι πλοκάμων, ἄτακτα συνθείς, ἄφες, ὡς +θέλωσι+, κεῖσθαι (capillorum cirros incomposite jungens, sine utut volunt jacere). In German, Bürger says: \"hinab will der Bach, nicht hinan\" (the brook will go downwards not upwards). In daily life we constantly hear: \"the water boils, it will run over,\"--\"the glass will break,\"--\"the ladder will not stand;\"--\"le feu ne veut pas brûler.\"--\"la corde, une fois tordue, veut toujours se retordre.\"--In English, the verb 'to will' is even the auxiliary of the future of all the other verbs, thus expressing the notion, that there lies a will at the bottom of every action. In English moreover, the endeavours of all inanimate and unconscious things, are expressly designated by the word want, which denotes every sort of human desire or endeavour: \"the water wants to get out,\"--\"the steam wants to find an issue.\" --In Italian too we have \"vuol piovere;\" \"quest' orologio non vuol andare.\"--The conception of willing is besides so deeply rooted in this last language, that it seems to indicate everything that is requisite or necessary: \"ci vuol un contrappeso;\" \"ci vuol pazienza.\"",
+      "topics": [
+        "nature",
+        "meta",
+        "love",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Animal Magnetism and Magic",
+      "text": "He advises that everything should proceed as unconsciously as possible, as is likewise recommended in charm-cures. The true reason of all this is, that here the will operates in its primariness, as thing in itself; and this demands the exclusion, as far as possible, of representation, as a different sphere, as secondary to the will. Facts to prove that the real agent in magnetising is the will and each outward act only its vehicle, may be found in all the more recent and more trustworthy writings upon Magnetism, and it would be needless prolixity to repeat them here. Nevertheless I will quote one case, not as being especially striking, but as furnished by a remarkable person and having a peculiar interest as his testimony. Jean Paul says in a letter: \"Twice in a large company I have made Frau von K. nearly go to sleep by merely looking at her with a firm will, no one else knowing anything about it, and before that, I had brought on palpitation of the heart and pallor to such a degree that Dr. S. had to be summoned to her assistance.\" Nowadays too, merely laying and keeping hold of the patient's hands while fixing the eye steadily upon him, is frequently substituted with complete success for the customary manipulation; precisely because even this outward act is suited to fix the will in a determined direction. But this immediate power which the will can exercise over other persons, is brought to light best of all by the admirable experiments made, even in public, by M. Dupotet and his pupils in Paris, in which a stranger is guided and determined at pleasure by the magnetiser's mere will, aided by a few gestures, and is even forced into the most extraordinary contortions. An apparently quite honestly written pamphlet, entitled \"First glance into the wonder-world of Magnetism,\" by Karl Scholl (1853), contains a brief account of this.",
+      "topics": [
+        "knowledge",
+        "education"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Animal Magnetism and Magic",
+      "text": "p. 789: \"Even my thought therefore is a looking at a mark. Now I must not turn my eye with my hands in this or that direction; but my imagination turns it as I wish. And this is also to be understood of walking: I desire, I propose to myself, therefore my body moves, and the firmer my thoughts, the more sure it is that I shall run. Thus imaginatio alone is an impulse for my running.\"\n\np. 837: \"Imaginatio used against me may be employed with such rigour, that I may be killed by the imaginatio of another person.\"\n\nVol. ii. p. 274: \"Imagination comes from longing and desire: envy, hatred, proceed from longing, for they do not arise unless you long for them. As soon as you wish, the act of the imagination follows. This longing must be quick, ardent, lively, as that of a pregnant woman, &c. &c.--A general curse is commonly verified. Why? It comes from the heart, and the seed lies and is born in that coming from the heart. Thus parents' curses also come from the heart. The curse of the poor is likewise imaginatio. The prisoner's curse, also mere imaginatio, comes from the heart.... Thus too, when one man wishes to stab or paralyze, &c., another by means of his imaginatio, he must first attract the thing and instrument to himself and then he can impress it (with his wish): for whatever enters into it, may also go out of it again by the medium of thought as well as by that of the hands.... In such imagining, women outdo men... for they are more ardent in revenge.\"",
+      "topics": [
+        "self",
+        "love",
+        "knowledge",
+        "action"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Sinology",
+      "text": "Colebrooke too says: \"The sects of Jaina, and Buddha are really atheistic, for they acknowledge no Creator of the world, nor any Supreme ruling Providence.\"--I. J. Schmidt likewise says: \"The system of Buddhism knows no eternal, uncreated, single, divine Being, having existed before all Time, who has created all that is visible and invisible. This idea is quite foreign to Buddhism and there is not the slightest trace of it anywhere in Buddhistic books.\"--We find the learned sinologist Morrison too not less desirous to discover traces of a God in the Chinese dogmas and ready to put the most favourable construction upon everything which seems to point in that direction; yet he is finally obliged to own that nothing of the kind can be clearly discovered. Where he explains the words Thung and Tsing, i.e. repose and movement, as that on which Chinese cosmogony is based, he renews this inquiry and concludes it with the words: \"It is perhaps impossible to acquit this system of the accusation of Atheism.\"--And even recently Upham says: \"Buddhism presents to us a world without a moral ruler, guide or creator.\" The German sinologist Neumann too, says in his treatise mentioned further on: \"In China, where neither Mahometans nor Christians found a Chinese word to express the theological conception of the Deity.... The words God, soul, spirit, as independent of Matter and ruling it arbitrarily, are utterly unknown in the Chinese language....",
+      "topics": [
+        "meaning",
+        "meta",
+        "knowledge",
+        "education"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Sinology",
+      "text": "His work is in our days the basis of all Chinese instruction, and his authority of the greatest weight. In the passage I allude to, we find: \"The word Teen, would seem to denote 'the highest among the great' or 'above all what is great on earth:' but in practice its vagueness of signification is beyond all comparison greater, than that of the term Heaven in European languages.... Choo-foo-tze tells us that 'to affirm, that heaven has a man (i.e. a sapient being) there to judge and determine crimes, should not by any means be said; nor, on the other hand, must it be affirmed, that there is nothing at all to exercise a supreme control over these things.'",
+      "topics": [
+        "nature",
+        "education"
+      ]
+    },
+    {
+      "work": "On the Will in Nature",
+      "ref": "Sinology",
+      "text": "A note of Schopenhauer's referring to this says:--\"According to letters from Doss\" (a friend of S.'s), \"dated 26th February and 8th June, 1857, the passages I have here quoted are to be found in Morrison's Chinese Dictionary, Macao, 1815, vol. i. p. 576, under 天 Tëen, although in a slightly different order, in nearly the same words. The important passage at the end alone differs and is as follows: 'Heaven makes the mind of mankind its mind: in most ancient discussions respecting Heaven, its mind, or will, was divined (it stands thus, and not derived) from what was the will of mankind.'--Neumann translated this passage for Doss, independently of Morrison's rendering, and the end was: 'Through the heart of the people Heaven is usually revealed.'\" [Editor's Note.]",
+      "topics": [
+        "love"
+      ]
+    }
+  ]
+}

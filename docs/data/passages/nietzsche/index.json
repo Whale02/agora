@@ -15,8 +15,8 @@
       "work": "Beyond Good and Evil",
       "slug": "beyond-good-and-evil",
       "file": "beyond-good-and-evil.json",
-      "passages": 58,
-      "words": 13414,
+      "passages": 99,
+      "words": 23067,
       "translator": "Helen Zimmern",
       "year": 1907,
       "source_url": "https://www.gutenberg.org/ebooks/4363"
@@ -25,8 +25,8 @@
       "work": "On the Genealogy of Morals",
       "slug": "on-the-genealogy-of-morals",
       "file": "on-the-genealogy-of-morals.json",
-      "passages": 53,
-      "words": 13266,
+      "passages": 100,
+      "words": 24770,
       "translator": "Horace B. Samuel",
       "year": 1913,
       "source_url": "https://www.gutenberg.org/ebooks/52319"
@@ -35,8 +35,8 @@
       "work": "The Gay Science",
       "slug": "the-gay-science",
       "file": "the-gay-science.json",
-      "passages": 68,
-      "words": 14288,
+      "passages": 100,
+      "words": 21689,
       "translator": "Thomas Common",
       "year": 1910,
       "source_url": "https://www.gutenberg.org/ebooks/52881"
@@ -45,11 +45,61 @@
       "work": "Twilight of the Idols",
       "slug": "twilight-of-the-idols",
       "file": "twilight-of-the-idols.json",
-      "passages": 41,
-      "words": 8038,
+      "passages": 100,
+      "words": 22059,
       "translator": "Anthony M. Ludovici",
       "year": 1911,
       "source_url": "https://www.gutenberg.org/ebooks/52263"
+    },
+    {
+      "work": "The Birth of Tragedy",
+      "slug": "the-birth-of-tragedy",
+      "file": "the-birth-of-tragedy.json",
+      "passages": 110,
+      "words": 25446,
+      "translator": "William A. Haussmann",
+      "year": 1909,
+      "source_url": "https://www.gutenberg.org/ebooks/51356"
+    },
+    {
+      "work": "Human, All Too Human",
+      "slug": "human-all-too-human",
+      "file": "human-all-too-human.json",
+      "passages": 110,
+      "words": 26143,
+      "translator": "Helen Zimmern",
+      "year": 1909,
+      "source_url": "https://www.gutenberg.org/ebooks/51935"
+    },
+    {
+      "work": "The Dawn of Day",
+      "slug": "the-dawn-of-day",
+      "file": "the-dawn-of-day.json",
+      "passages": 110,
+      "words": 27068,
+      "translator": "J. M. Kennedy",
+      "year": 1911,
+      "source_url": "https://www.gutenberg.org/ebooks/39955"
+    },
+    {
+      "work": "The Antichrist",
+      "slug": "the-antichrist",
+      "file": "the-antichrist.json",
+      "passages": 90,
+      "words": 20882,
+      "translator": "H. L. Mencken",
+      "year": 1920,
+      "source_url": "https://www.gutenberg.org/ebooks/19322"
+    },
+    {
+      "work": "Ecce Homo",
+      "slug": "ecce-homo",
+      "file": "ecce-homo.json",
+      "passages": 90,
+      "words": 20799,
+      "translator": "Anthony M. Ludovici",
+      "year": 1911,
+      "source_url": "https://www.gutenberg.org/ebooks/52190"
     }
   ]
 }

@@ -67,7 +67,7 @@ before fetching, and record the source id and URL):
 - [ ] F7. Confucius, Laozi, Zhuangzi: extend Legge's coverage to the rest of what he
       translated, including the Great Learning and the Doctrine of the Mean for Confucius
       and the outer chapters for Zhuangzi.
-- [ ] F8. Nietzsche, Schopenhauer, Kierkegaard, Wittgenstein, Marcus Aurelius, Wang
+- [x] F8. Nietzsche, Schopenhauer, Kierkegaard, Wittgenstein, Marcus Aurelius, Wang
       Yangming: audit each against its canon and add any work with a pre-1931 translation.
       Record in PROGRESS.md, per philosopher, which canonical works remain unquotable and
       the copyright reason, so the absence is documented rather than assumed.

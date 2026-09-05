@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:14:01.934Z",
+  "generated_at": "2026-09-05T07:42:02.149Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -1020,9 +1020,54 @@
     },
     {
       "slug": "nietzsche",
-      "passages": 320,
-      "words": 60249,
+      "passages": 1009,
+      "words": 223166,
       "works": [
+        {
+          "work": "The Birth of Tragedy",
+          "slug": "the-birth-of-tragedy",
+          "file": "the-birth-of-tragedy.json",
+          "count": 110,
+          "words": 25446,
+          "topics": [
+            "knowledge",
+            "meaning",
+            "self",
+            "nature",
+            "meta",
+            "suffering"
+          ]
+        },
+        {
+          "work": "Human, All Too Human",
+          "slug": "human-all-too-human",
+          "file": "human-all-too-human.json",
+          "count": 110,
+          "words": 26143,
+          "topics": [
+            "knowledge",
+            "action",
+            "self",
+            "virtue",
+            "meaning",
+            "nature"
+          ]
+        },
+        {
+          "work": "The Dawn of Day",
+          "slug": "the-dawn-of-day",
+          "file": "the-dawn-of-day.json",
+          "count": 110,
+          "words": 27068,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "self",
+            "meaning",
+            "action",
+            "nature"
+          ]
+        },
         {
           "work": "Thus Spoke Zarathustra",
           "slug": "thus-spoke-zarathustra",
@@ -1039,118 +1084,148 @@
           ]
         },
         {
+          "work": "On the Genealogy of Morals",
+          "slug": "on-the-genealogy-of-morals",
+          "file": "on-the-genealogy-of-morals.json",
+          "count": 100,
+          "words": 24770,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "meaning",
+            "self",
+            "nature",
+            "meta"
+          ]
+        },
+        {
           "work": "The Gay Science",
           "slug": "the-gay-science",
           "file": "the-gay-science.json",
-          "count": 68,
-          "words": 14288,
+          "count": 100,
+          "words": 21689,
           "topics": [
             "knowledge",
             "virtue",
             "self",
             "suffering",
-            "love",
-            "meaning"
-          ]
-        },
-        {
-          "work": "Beyond Good and Evil",
-          "slug": "beyond-good-and-evil",
-          "file": "beyond-good-and-evil.json",
-          "count": 58,
-          "words": 13414,
-          "topics": [
-            "knowledge",
-            "self",
-            "meta",
-            "virtue",
             "meaning",
-            "action"
-          ]
-        },
-        {
-          "work": "On the Genealogy of Morals",
-          "slug": "on-the-genealogy-of-morals",
-          "file": "on-the-genealogy-of-morals.json",
-          "count": 53,
-          "words": 13266,
-          "topics": [
-            "knowledge",
-            "virtue",
-            "meaning",
-            "self",
-            "meta",
-            "action"
+            "love"
           ]
         },
         {
           "work": "Twilight of the Idols",
           "slug": "twilight-of-the-idols",
           "file": "twilight-of-the-idols.json",
-          "count": 41,
-          "words": 8038,
+          "count": 100,
+          "words": 22059,
           "topics": [
             "knowledge",
             "virtue",
-            "action",
             "self",
             "meaning",
+            "action",
             "meta"
+          ]
+        },
+        {
+          "work": "Beyond Good and Evil",
+          "slug": "beyond-good-and-evil",
+          "file": "beyond-good-and-evil.json",
+          "count": 99,
+          "words": 23067,
+          "topics": [
+            "knowledge",
+            "self",
+            "virtue",
+            "meta",
+            "meaning",
+            "action"
+          ]
+        },
+        {
+          "work": "The Antichrist",
+          "slug": "the-antichrist",
+          "file": "the-antichrist.json",
+          "count": 90,
+          "words": 20882,
+          "topics": [
+            "meaning",
+            "knowledge",
+            "virtue",
+            "self",
+            "nature",
+            "meta"
+          ]
+        },
+        {
+          "work": "Ecce Homo",
+          "slug": "ecce-homo",
+          "file": "ecce-homo.json",
+          "count": 90,
+          "words": 20799,
+          "topics": [
+            "knowledge",
+            "self",
+            "meta",
+            "meaning",
+            "virtue",
+            "action"
           ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 149
-        },
-        {
-          "topic": "virtue",
-          "count": 105
+          "count": 596
         },
         {
           "topic": "self",
-          "count": 91
+          "count": 355
         },
         {
           "topic": "meaning",
-          "count": 75
+          "count": 333
         },
         {
-          "topic": "meta",
-          "count": 69
-        },
-        {
-          "topic": "nature",
-          "count": 66
+          "topic": "virtue",
+          "count": 332
         },
         {
           "topic": "action",
-          "count": 60
+          "count": 231
         },
         {
-          "topic": "love",
-          "count": 48
+          "topic": "nature",
+          "count": 230
+        },
+        {
+          "topic": "meta",
+          "count": 224
         },
         {
           "topic": "suffering",
-          "count": 48
+          "count": 170
         },
         {
           "topic": "freedom",
-          "count": 41
+          "count": 126
+        },
+        {
+          "topic": "love",
+          "count": 116
         },
         {
           "topic": "work",
-          "count": 34
+          "count": 94
         },
         {
           "topic": "education",
-          "count": 30
+          "count": 85
         },
         {
           "topic": "technology",
-          "count": 8
+          "count": 17
         }
       ],
       "translation_credits": [
@@ -1183,6 +1258,36 @@
           "translator": "Anthony M. Ludovici",
           "year": 1911,
           "source_url": "https://www.gutenberg.org/ebooks/52263"
+        },
+        {
+          "work": "The Birth of Tragedy",
+          "translator": "William A. Haussmann",
+          "year": 1909,
+          "source_url": "https://www.gutenberg.org/ebooks/51356"
+        },
+        {
+          "work": "Human, All Too Human",
+          "translator": "Helen Zimmern",
+          "year": 1909,
+          "source_url": "https://www.gutenberg.org/ebooks/51935"
+        },
+        {
+          "work": "The Dawn of Day",
+          "translator": "J. M. Kennedy",
+          "year": 1911,
+          "source_url": "https://www.gutenberg.org/ebooks/39955"
+        },
+        {
+          "work": "The Antichrist",
+          "translator": "H. L. Mencken",
+          "year": 1920,
+          "source_url": "https://www.gutenberg.org/ebooks/19322"
+        },
+        {
+          "work": "Ecce Homo",
+          "translator": "Anthony M. Ludovici",
+          "year": 1911,
+          "source_url": "https://www.gutenberg.org/ebooks/52190"
         }
       ]
     },
@@ -1734,21 +1839,36 @@
     },
     {
       "slug": "schopenhauer",
-      "passages": 301,
-      "words": 72808,
+      "passages": 920,
+      "words": 221919,
       "works": [
         {
           "work": "The World as Will and Representation",
           "slug": "the-world-as-will-and-representation",
           "file": "the-world-as-will-and-representation.json",
-          "count": 145,
-          "words": 36019,
+          "count": 120,
+          "words": 29266,
           "topics": [
             "knowledge",
             "meaning",
-            "nature",
             "meta",
+            "nature",
             "self",
+            "action"
+          ]
+        },
+        {
+          "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+          "slug": "parerga-and-paralipomena",
+          "file": "parerga-and-paralipomena.json",
+          "count": 120,
+          "words": 27935,
+          "topics": [
+            "knowledge",
+            "self",
+            "meaning",
+            "work",
+            "virtue",
             "action"
           ]
         },
@@ -1756,8 +1876,8 @@
           "work": "On the Basis of Morality",
           "slug": "on-the-basis-of-morality",
           "file": "on-the-basis-of-morality.json",
-          "count": 90,
-          "words": 21861,
+          "count": 120,
+          "words": 29101,
           "topics": [
             "knowledge",
             "virtue",
@@ -1768,73 +1888,178 @@
           ]
         },
         {
-          "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
-          "slug": "parerga-and-paralipomena",
-          "file": "parerga-and-paralipomena.json",
-          "count": 66,
-          "words": 14928,
+          "work": "The World as Will and Idea, Volume II (the Supplements)",
+          "slug": "the-world-as-will-and-idea-volume-ii",
+          "file": "the-world-as-will-and-idea-volume-ii.json",
+          "count": 90,
+          "words": 21744,
           "topics": [
             "knowledge",
             "self",
-            "work",
-            "meaning",
             "nature",
-            "suffering"
+            "action",
+            "meaning",
+            "virtue"
+          ]
+        },
+        {
+          "work": "The World as Will and Idea, Volume III (the Supplements)",
+          "slug": "the-world-as-will-and-idea-volume-iii",
+          "file": "the-world-as-will-and-idea-volume-iii.json",
+          "count": 90,
+          "words": 22488,
+          "topics": [
+            "knowledge",
+            "nature",
+            "self",
+            "suffering",
+            "meaning",
+            "virtue"
+          ]
+        },
+        {
+          "work": "On the Fourfold Root of the Principle of Sufficient Reason",
+          "slug": "on-the-fourfold-root-of-the-principle-of-sufficient-reason",
+          "file": "on-the-fourfold-root-of-the-principle-of-sufficient-reason.json",
+          "count": 80,
+          "words": 19962,
+          "topics": [
+            "knowledge",
+            "meta",
+            "meaning",
+            "action",
+            "nature",
+            "self"
+          ]
+        },
+        {
+          "work": "Counsels and Maxims (from Parerga and Paralipomena)",
+          "slug": "counsels-and-maxims",
+          "file": "counsels-and-maxims.json",
+          "count": 60,
+          "words": 13504,
+          "topics": [
+            "knowledge",
+            "self",
+            "suffering",
+            "action",
+            "meaning",
+            "work"
+          ]
+        },
+        {
+          "work": "Studies in Pessimism (from Parerga and Paralipomena)",
+          "slug": "studies-in-pessimism",
+          "file": "studies-in-pessimism.json",
+          "count": 60,
+          "words": 14461,
+          "topics": [
+            "knowledge",
+            "nature",
+            "suffering",
+            "meaning",
+            "self",
+            "virtue"
+          ]
+        },
+        {
+          "work": "The Art of Literature (from Parerga and Paralipomena)",
+          "slug": "the-art-of-literature",
+          "file": "the-art-of-literature.json",
+          "count": 60,
+          "words": 14053,
+          "topics": [
+            "knowledge",
+            "meta",
+            "meaning",
+            "education",
+            "action",
+            "work"
+          ]
+        },
+        {
+          "work": "The Art of Controversy (from Parerga and Paralipomena)",
+          "slug": "the-art-of-controversy",
+          "file": "the-art-of-controversy.json",
+          "count": 60,
+          "words": 14728,
+          "topics": [
+            "knowledge",
+            "meta",
+            "action",
+            "self",
+            "meaning",
+            "virtue"
+          ]
+        },
+        {
+          "work": "On the Will in Nature",
+          "slug": "on-the-will-in-nature",
+          "file": "on-the-will-in-nature.json",
+          "count": 60,
+          "words": 14677,
+          "topics": [
+            "knowledge",
+            "meta",
+            "nature",
+            "action",
+            "meaning",
+            "self"
           ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 217
+          "count": 680
         },
         {
           "topic": "self",
-          "count": 96
+          "count": 287
         },
         {
           "topic": "meaning",
-          "count": 89
-        },
-        {
-          "topic": "action",
-          "count": 85
-        },
-        {
-          "topic": "nature",
-          "count": 85
+          "count": 280
         },
         {
           "topic": "meta",
-          "count": 83
+          "count": 271
+        },
+        {
+          "topic": "action",
+          "count": 260
+        },
+        {
+          "topic": "nature",
+          "count": 249
         },
         {
           "topic": "virtue",
-          "count": 82
-        },
-        {
-          "topic": "work",
-          "count": 46
+          "count": 202
         },
         {
           "topic": "suffering",
-          "count": 39
+          "count": 164
+        },
+        {
+          "topic": "work",
+          "count": 124
         },
         {
           "topic": "freedom",
-          "count": 33
-        },
-        {
-          "topic": "love",
-          "count": 28
+          "count": 96
         },
         {
           "topic": "education",
-          "count": 24
+          "count": 83
+        },
+        {
+          "topic": "love",
+          "count": 78
         },
         {
           "topic": "technology",
-          "count": 6
+          "count": 14
         }
       ],
       "translation_credits": [
@@ -1855,6 +2080,54 @@
           "translator": "Arthur Brodrick Bullock",
           "year": 1903,
           "source_url": "https://www.gutenberg.org/ebooks/44929"
+        },
+        {
+          "work": "The World as Will and Idea, Volume II (the Supplements)",
+          "translator": "R. B. Haldane and J. Kemp",
+          "year": 1886,
+          "source_url": "https://www.gutenberg.org/ebooks/40097"
+        },
+        {
+          "work": "The World as Will and Idea, Volume III (the Supplements)",
+          "translator": "R. B. Haldane and J. Kemp",
+          "year": 1886,
+          "source_url": "https://www.gutenberg.org/ebooks/40868"
+        },
+        {
+          "work": "Counsels and Maxims (from Parerga and Paralipomena)",
+          "translator": "T. Bailey Saunders",
+          "year": 1890,
+          "source_url": "https://www.gutenberg.org/ebooks/10715"
+        },
+        {
+          "work": "Studies in Pessimism (from Parerga and Paralipomena)",
+          "translator": "T. Bailey Saunders",
+          "year": 1890,
+          "source_url": "https://www.gutenberg.org/ebooks/10732"
+        },
+        {
+          "work": "The Art of Literature (from Parerga and Paralipomena)",
+          "translator": "T. Bailey Saunders",
+          "year": 1890,
+          "source_url": "https://www.gutenberg.org/ebooks/10714"
+        },
+        {
+          "work": "The Art of Controversy (from Parerga and Paralipomena)",
+          "translator": "T. Bailey Saunders",
+          "year": 1890,
+          "source_url": "https://www.gutenberg.org/ebooks/10731"
+        },
+        {
+          "work": "On the Fourfold Root of the Principle of Sufficient Reason",
+          "translator": "Mme. Karl Hillebrand",
+          "year": 1907,
+          "source_url": "https://www.gutenberg.org/ebooks/50966"
+        },
+        {
+          "work": "On the Will in Nature",
+          "translator": "Mme. Karl Hillebrand",
+          "year": 1907,
+          "source_url": "https://www.gutenberg.org/ebooks/50966"
         }
       ]
     },
@@ -2175,15 +2448,30 @@
     },
     {
       "slug": "wang-yangming",
-      "passages": 244,
-      "words": 57053,
+      "passages": 340,
+      "words": 81250,
       "works": [
+        {
+          "work": "Letters",
+          "slug": "letters",
+          "file": "letters.json",
+          "count": 130,
+          "words": 32525,
+          "topics": [
+            "knowledge",
+            "action",
+            "virtue",
+            "self",
+            "nature",
+            "education"
+          ]
+        },
         {
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
           "slug": "instructions-for-practical-living",
           "file": "instructions-for-practical-living.json",
-          "count": 244,
-          "words": 57053,
+          "count": 115,
+          "words": 27178,
           "topics": [
             "knowledge",
             "nature",
@@ -2192,52 +2480,82 @@
             "self",
             "virtue"
           ]
+        },
+        {
+          "work": "Record of Discourses",
+          "slug": "record-of-discourses",
+          "file": "record-of-discourses.json",
+          "count": 76,
+          "words": 17349,
+          "topics": [
+            "knowledge",
+            "nature",
+            "action",
+            "education",
+            "virtue",
+            "self"
+          ]
+        },
+        {
+          "work": "Inquiry Regarding the Great Learning (大学问)",
+          "slug": "inquiry-regarding-the-great-learning",
+          "file": "inquiry-regarding-the-great-learning.json",
+          "count": 19,
+          "words": 4198,
+          "topics": [
+            "knowledge",
+            "nature",
+            "self",
+            "virtue",
+            "love",
+            "meaning"
+          ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 200
-        },
-        {
-          "topic": "nature",
-          "count": 108
+          "count": 283
         },
         {
           "topic": "action",
-          "count": 104
+          "count": 160
+        },
+        {
+          "topic": "nature",
+          "count": 139
         },
         {
           "topic": "education",
-          "count": 92
+          "count": 118
         },
         {
           "topic": "self",
-          "count": 79
+          "count": 116
         },
         {
           "topic": "virtue",
-          "count": 76
+          "count": 109
         },
         {
           "topic": "love",
-          "count": 36
+          "count": 52
         },
         {
           "topic": "meaning",
-          "count": 35
+          "count": 48
+        },
+        {
+          "topic": "meta",
+          "count": 40
+        },
+        {
+          "topic": "suffering",
+          "count": 33
         },
         {
           "topic": "freedom",
           "count": 26
-        },
-        {
-          "topic": "suffering",
-          "count": 26
-        },
-        {
-          "topic": "meta",
-          "count": 25
         },
         {
           "topic": "work",
@@ -2247,6 +2565,24 @@
       "translation_credits": [
         {
           "work": "Instructions for Practical Living (传习录), as my students recorded them",
+          "translator": "Frederick Goodrich Henke",
+          "year": 1916,
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+        },
+        {
+          "work": "Record of Discourses",
+          "translator": "Frederick Goodrich Henke",
+          "year": 1916,
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+        },
+        {
+          "work": "Inquiry Regarding the Great Learning (大学问)",
+          "translator": "Frederick Goodrich Henke",
+          "year": 1916,
+          "source_url": "https://archive.org/details/philosophyofwang00wanguoft"
+        },
+        {
+          "work": "Letters",
           "translator": "Frederick Goodrich Henke",
           "year": 1916,
           "source_url": "https://archive.org/details/philosophyofwang00wanguoft"

@@ -54,4 +54,14 @@ plate "$P/agora_camus_and_the_absurdity_of_life.png"      camus
 plate "$P/agora_erich_fromm_in_gold.png"                  fromm
 plate "$P/agora_naval_s_golden_philosophy_profile.png"    naval
 
+# The second portrait commission (September 2026), square from the start rather than cut out
+# of a browser frame, so the whole frame ships and the square .face container crops nothing.
+square() { # <source png> <slug>
+  ffmpeg -hide_banner -loglevel error -y -i "$1"     -vf "scale=512:512:flags=lanczos" -c:v libwebp -quality 82 -compression_level 6 "$OUT/p/$2.webp"
+}
+Q=$H/../portraits-2026-09
+for slug in plato seneca schopenhauer wang-yangming kant aristotle kierkegaard confucius wittgenstein epicurus; do
+  square "$Q/$slug.png" "$slug"
+done
+
 du -sh "$OUT"

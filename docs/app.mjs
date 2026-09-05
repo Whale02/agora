@@ -265,8 +265,9 @@ function tablet(c, by) {
 
 /* ---------- the room: one conversation, read ---------- */
 
-// The eight philosophers the engineer handoff drew. Everyone else keeps the medallion the
-// stylesheet cuts from their accent colour.
+// The eighteen philosophers with commissioned portrait art: eight from the engineer handoff,
+// ten from the second commission. Everyone else keeps the medallion the stylesheet cuts from
+// their accent colour, which is a deliberate treatment rather than a missing asset.
 const PLATES = new Set([
   "socrates",
   "marcus-aurelius",
@@ -276,11 +277,21 @@ const PLATES = new Set([
   "camus",
   "fromm",
   "naval",
+  "plato",
+  "seneca",
+  "schopenhauer",
+  "wang-yangming",
+  "kant",
+  "aristotle",
+  "kierkegaard",
+  "confucius",
+  "wittgenstein",
+  "epicurus",
 ]);
 
 const face = (p, size = "") =>
   PLATES.has(p.slug)
-    ? `<span class="face ${size}" style="--seat:${esc(p.accent)}" aria-hidden="true"><img src="assets/p/${esc(p.slug)}.webp" alt="" loading="lazy" width="356" height="300"></span>`
+    ? `<span class="face ${size}" style="--seat:${esc(p.accent)}" aria-hidden="true"><img src="assets/p/${esc(p.slug)}.webp" alt="" loading="lazy" width="512" height="512"></span>`
     : seat(p, size);
 
 async function renderConversation(id) {

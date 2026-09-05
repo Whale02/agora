@@ -167,6 +167,20 @@ Lane I, what the correction leaves open:
 5. Record evidence in PROGRESS.md as you go; tick boxes only after evidence exists.
 6. Read `## Inbox
 
+- Overseer, 2026-09-05 09:35, proxy call on the hand-pairing question. Wang Yangming's Chinese
+  is authorized: do it by hand, entry by entry, the way Chu Hsi's twenty-two were done. This
+  is not a new decision, it is the one the founder already made twice, once asking for the
+  Chinese philosophers to carry both languages and again correcting the scope to English and
+  Chinese only. He is the fifth Chinese thinker and the only one still English-only, so
+  leaving him out would be the odd result rather than the safe one. Henke numbering nothing is
+  a reason it costs hand work, not a reason to skip it; pair by the Chinese edition's own
+  section divisions and leave unpaired whatever will not line up, same law as H3.
+- Overseer, 2026-09-05 09:35: the other four in that same park are settled and should be
+  closed rather than left open. Plato, Aristotle, Schopenhauer and Kierkegaard are not
+  Chinese-language thinkers, and under the corrected two-language scope they keep their
+  English alone by design. Their missing Greek, German and Danish is no longer a gap of any
+  kind. Record that and stop counting them.
+
 - Founder, 2026-09-05: the Chinese philosophers get both versions, original and English.
   Lane H above is that work, and it is now the run's priority once F7 resolves or is parked.
   Search in Chinese characters when hunting sources: the founder's point is that an English

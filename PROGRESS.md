@@ -1176,6 +1176,19 @@ C1 and C2, the composer:
 
 ## Overseer calls
 
+- Overseer call, founder review pending (2026-09-05 09:35): authorized the hand-pairing of
+  Wang Yangming's Chinese, which the run had parked as a question about how much hand work
+  the corpus is worth. Grounds: the founder asked for the Chinese thinkers in both languages
+  and then narrowed the scope to English and Chinese, so Wang Yangming being the one Chinese
+  thinker left English-only is the outcome neither instruction wanted. Additive and
+  reversible. Also closed the same park's other four: Plato, Aristotle, Schopenhauer and
+  Kierkegaard keep English alone by design now, not by shortfall.
+- Overseer note (2026-09-05 09:35): audit at 92 files and 7,330 passages, all credits
+  complete, years 1855 to 1928, sources approved, no shadow-library reference, only Chinese
+  originals remain after the founder's strip. The Zhuangzi file at 385KB against a 400KB cap
+  stays the founder's call, since splitting a work by chapter changes the on-disk layout
+  every page reads.
+
 - Overseer call, founder review pending (2026-09-05 05:20): audit at 92 work files, 7,335
   passages, 608 now carrying an original. Credits complete, years 1855 to 1928, sources all
   approved, largest file 385KB under the cap, no shadow-library reference. Pairings

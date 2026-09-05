@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:57:36.144Z",
+  "generated_at": "2026-09-05T06:02:27.372Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -1377,15 +1377,15 @@
     },
     {
       "slug": "seneca",
-      "passages": 260,
-      "words": 61024,
+      "passages": 819,
+      "words": 193272,
       "works": [
         {
           "work": "Letters to Lucilius (Epistulae Morales)",
           "slug": "letters-to-lucilius",
           "file": "letters-to-lucilius.json",
           "count": 260,
-          "words": 61024,
+          "words": 60641,
           "topics": [
             "knowledge",
             "action",
@@ -1394,60 +1394,225 @@
             "virtue",
             "work"
           ]
+        },
+        {
+          "work": "On Anger",
+          "slug": "on-anger",
+          "file": "on-anger.json",
+          "count": 110,
+          "words": 26040,
+          "topics": [
+            "knowledge",
+            "action",
+            "suffering",
+            "virtue",
+            "nature",
+            "freedom"
+          ]
+        },
+        {
+          "work": "On Clemency",
+          "slug": "on-clemency",
+          "file": "on-clemency.json",
+          "count": 62,
+          "words": 15229,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "freedom",
+            "suffering",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Consolation to Marcia",
+          "slug": "consolation-to-marcia",
+          "file": "consolation-to-marcia.json",
+          "count": 61,
+          "words": 14713,
+          "topics": [
+            "suffering",
+            "knowledge",
+            "action",
+            "nature",
+            "meaning",
+            "freedom"
+          ]
+        },
+        {
+          "work": "On Tranquillity of Mind",
+          "slug": "on-tranquillity-of-mind",
+          "file": "on-tranquillity-of-mind.json",
+          "count": 54,
+          "words": 13187,
+          "topics": [
+            "suffering",
+            "knowledge",
+            "work",
+            "action",
+            "self",
+            "virtue"
+          ]
+        },
+        {
+          "work": "On the Happy Life (De Vita Beata)",
+          "slug": "on-the-happy-life",
+          "file": "on-the-happy-life.json",
+          "count": 52,
+          "words": 12516,
+          "topics": [
+            "knowledge",
+            "virtue",
+            "action",
+            "self",
+            "work",
+            "meaning"
+          ]
+        },
+        {
+          "work": "Consolation to Helvia",
+          "slug": "consolation-to-helvia",
+          "file": "consolation-to-helvia.json",
+          "count": 48,
+          "words": 11267,
+          "topics": [
+            "suffering",
+            "knowledge",
+            "work",
+            "virtue",
+            "nature",
+            "meaning"
+          ]
+        },
+        {
+          "work": "On the Shortness of Life",
+          "slug": "on-the-shortness-of-life",
+          "file": "on-the-shortness-of-life.json",
+          "count": 47,
+          "words": 10933,
+          "topics": [
+            "knowledge",
+            "suffering",
+            "action",
+            "work",
+            "meaning",
+            "freedom"
+          ]
+        },
+        {
+          "work": "On the Firmness of the Wise Man",
+          "slug": "on-the-firmness-of-the-wise-man",
+          "file": "on-the-firmness-of-the-wise-man.json",
+          "count": 41,
+          "words": 8869,
+          "topics": [
+            "knowledge",
+            "action",
+            "suffering",
+            "freedom",
+            "virtue",
+            "self"
+          ]
+        },
+        {
+          "work": "Consolation to Polybius",
+          "slug": "consolation-to-polybius",
+          "file": "consolation-to-polybius.json",
+          "count": 40,
+          "words": 9456,
+          "topics": [
+            "suffering",
+            "knowledge",
+            "work",
+            "action",
+            "virtue",
+            "self"
+          ]
+        },
+        {
+          "work": "On Providence",
+          "slug": "on-providence",
+          "file": "on-providence.json",
+          "count": 30,
+          "words": 7059,
+          "topics": [
+            "suffering",
+            "nature",
+            "virtue",
+            "action",
+            "knowledge",
+            "meaning"
+          ]
+        },
+        {
+          "work": "On Leisure",
+          "slug": "on-leisure",
+          "file": "on-leisure.json",
+          "count": 14,
+          "words": 3362,
+          "topics": [
+            "action",
+            "knowledge",
+            "virtue",
+            "meaning",
+            "suffering",
+            "work"
+          ]
         }
       ],
       "topics": [
         {
           "topic": "knowledge",
-          "count": 162
+          "count": 459
         },
         {
           "topic": "action",
-          "count": 112
+          "count": 353
         },
         {
           "topic": "suffering",
-          "count": 68
-        },
-        {
-          "topic": "self",
-          "count": 68
+          "count": 323
         },
         {
           "topic": "virtue",
-          "count": 59
+          "count": 241
         },
         {
           "topic": "work",
-          "count": 56
+          "count": 185
         },
         {
-          "topic": "meaning",
-          "count": 51
+          "topic": "self",
+          "count": 178
         },
         {
           "topic": "nature",
-          "count": 48
+          "count": 177
         },
         {
-          "topic": "meta",
-          "count": 48
+          "topic": "meaning",
+          "count": 167
         },
         {
           "topic": "freedom",
-          "count": 46
+          "count": 153
         },
         {
           "topic": "love",
-          "count": 45
+          "count": 106
+        },
+        {
+          "topic": "meta",
+          "count": 96
         },
         {
           "topic": "education",
-          "count": 24
+          "count": 50
         },
         {
           "topic": "technology",
-          "count": 6
+          "count": 9
         }
       ],
       "translation_credits": [
@@ -1456,6 +1621,72 @@
           "translator": "Richard Mott Gummere",
           "year": 1917,
           "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+        },
+        {
+          "work": "On Providence",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On the Firmness of the Wise Man",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On Anger",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "Consolation to Marcia",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On the Happy Life (De Vita Beata)",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On Leisure",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On Tranquillity of Mind",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On the Shortness of Life",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "Consolation to Helvia",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "Consolation to Polybius",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
+        },
+        {
+          "work": "On Clemency",
+          "translator": "Aubrey Stewart",
+          "year": 1889,
+          "source_url": "https://www.gutenberg.org/ebooks/64576"
         }
       ]
     },

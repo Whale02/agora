@@ -6,10 +6,120 @@
       "slug": "letters-to-lucilius",
       "file": "letters-to-lucilius.json",
       "passages": 260,
-      "words": 61024,
+      "words": 60641,
       "translator": "Richard Mott Gummere",
       "year": 1917,
       "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+    },
+    {
+      "work": "On Providence",
+      "slug": "on-providence",
+      "file": "on-providence.json",
+      "passages": 30,
+      "words": 7059,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On the Firmness of the Wise Man",
+      "slug": "on-the-firmness-of-the-wise-man",
+      "file": "on-the-firmness-of-the-wise-man.json",
+      "passages": 41,
+      "words": 8869,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On Anger",
+      "slug": "on-anger",
+      "file": "on-anger.json",
+      "passages": 110,
+      "words": 26040,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "Consolation to Marcia",
+      "slug": "consolation-to-marcia",
+      "file": "consolation-to-marcia.json",
+      "passages": 61,
+      "words": 14713,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On the Happy Life (De Vita Beata)",
+      "slug": "on-the-happy-life",
+      "file": "on-the-happy-life.json",
+      "passages": 52,
+      "words": 12516,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On Leisure",
+      "slug": "on-leisure",
+      "file": "on-leisure.json",
+      "passages": 14,
+      "words": 3362,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On Tranquillity of Mind",
+      "slug": "on-tranquillity-of-mind",
+      "file": "on-tranquillity-of-mind.json",
+      "passages": 54,
+      "words": 13187,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On the Shortness of Life",
+      "slug": "on-the-shortness-of-life",
+      "file": "on-the-shortness-of-life.json",
+      "passages": 47,
+      "words": 10933,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "Consolation to Helvia",
+      "slug": "consolation-to-helvia",
+      "file": "consolation-to-helvia.json",
+      "passages": 48,
+      "words": 11267,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "Consolation to Polybius",
+      "slug": "consolation-to-polybius",
+      "file": "consolation-to-polybius.json",
+      "passages": 40,
+      "words": 9456,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
+    },
+    {
+      "work": "On Clemency",
+      "slug": "on-clemency",
+      "file": "on-clemency.json",
+      "passages": 62,
+      "words": 15229,
+      "translator": "Aubrey Stewart",
+      "year": 1889,
+      "source_url": "https://www.gutenberg.org/ebooks/64576"
     }
   ]
 }

@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-09-05T07:50:48.560Z",
+  "philosophers": {
+    "socrates": [
+      {
+        "slug": "plato",
+        "work": "Gorgias",
+        "work_slug": "gorgias",
+        "count": 34
+      },
+      {
+        "slug": "plato",
+        "work": "Theaetetus",
+        "work_slug": "theaetetus",
+        "count": 31
+      },
+      {
+        "slug": "plato",
+        "work": "Phaedo",
+        "work_slug": "phaedo",
+        "count": 28
+      },
+      {
+        "slug": "plato",
+        "work": "Republic",
+        "work_slug": "republic",
+        "count": 27
+      },
+      {
+        "slug": "plato",
+        "work": "Protagoras",
+        "work_slug": "protagoras",
+        "count": 25
+      },
+      {
+        "slug": "plato",
+        "work": "Symposium",
+        "work_slug": "symposium",
+        "count": 23
+      },
+      {
+        "slug": "plato",
+        "work": "Philebus",
+        "work_slug": "philebus",
+        "count": 23
+      },
+      {
+        "slug": "plato",
+        "work": "Parmenides",
+        "work_slug": "parmenides",
+        "count": 18
+      },
+      {
+        "slug": "plato",
+        "work": "Statesman",
+        "work_slug": "statesman",
+        "count": 18
+      },
+      {
+        "slug": "plato",
+        "work": "Euthyphro",
+        "work_slug": "euthyphro",
+        "count": 17
+      },
+      {
+        "slug": "plato",
+        "work": "Meno",
+        "work_slug": "meno",
+        "count": 14
+      },
+      {
+        "slug": "plato",
+        "work": "Phaedrus",
+        "work_slug": "phaedrus",
+        "count": 13
+      },
+      {
+        "slug": "plato",
+        "work": "Crito",
+        "work_slug": "crito",
+        "count": 13
+      },
+      {
+        "slug": "plato",
+        "work": "Apology",
+        "work_slug": "apology",
+        "count": 12
+      },
+      {
+        "slug": "aristotle",
+        "work": "Politics",
+        "work_slug": "politics",
+        "count": 11
+      },
+      {
+        "slug": "aristotle",
+        "work": "Metaphysics",
+        "work_slug": "metaphysics",
+        "count": 10
+      },
+      {
+        "slug": "marcus-aurelius",
+        "work": "Meditations",
+        "work_slug": "meditations",
+        "count": 10
+      },
+      {
+        "slug": "plato",
+        "work": "Ion",
+        "work_slug": "ion",
+        "count": 10
+      },
+      {
+        "slug": "plato",
+        "work": "Charmides",
+        "work_slug": "charmides",
+        "count": 10
+      },
+      {
+        "slug": "nietzsche",
+        "work": "Twilight of the Idols",
+        "work_slug": "twilight-of-the-idols",
+        "count": 9
+      },
+      {
+        "slug": "plato",
+        "work": "Timaeus",
+        "work_slug": "timaeus",
+        "count": 9
+      },
+      {
+        "slug": "plato",
+        "work": "Cratylus",
+        "work_slug": "cratylus",
+        "count": 9
+      },
+      {
+        "slug": "seneca",
+        "work": "Letters to Lucilius (Epistulae Morales)",
+        "work_slug": "letters-to-lucilius",
+        "count": 8
+      },
+      {
+        "slug": "nietzsche",
+        "work": "The Birth of Tragedy",
+        "work_slug": "the-birth-of-tragedy",
+        "count": 7
+      },
+      {
+        "slug": "plato",
+        "work": "Lysis",
+        "work_slug": "lysis",
+        "count": 6
+      },
+      {
+        "slug": "kierkegaard",
+        "work": "Stages on Life's Way",
+        "work_slug": "stages-on-life-s-way",
+        "count": 5
+      },
+      {
+        "slug": "aristotle",
+        "work": "Rhetoric",
+        "work_slug": "rhetoric",
+        "count": 4
+      },
+      {
+        "slug": "nietzsche",
+        "work": "Ecce Homo",
+        "work_slug": "ecce-homo",
+        "count": 4
+      },
+      {
+        "slug": "plato",
+        "work": "Menexenus",
+        "work_slug": "menexenus",
+        "count": 4
+      },
+      {
+        "slug": "seneca",
+        "work": "On Tranquillity of Mind",
+        "work_slug": "on-tranquillity-of-mind",
+        "count": 4
+      },
+      {
+        "slug": "aristotle",
+        "work": "Categories",
+        "work_slug": "categories",
+        "count": 3
+      },
+      {
+        "slug": "plato",
+        "work": "Sophist",
+        "work_slug": "sophist",
+        "count": 3
+      },
+      {
+        "slug": "plato",
+        "work": "Critias",
+        "work_slug": "critias",
+        "count": 3
+      },
+      {
+        "slug": "schopenhauer",
+        "work": "Parerga and Paralipomena, including the Aphorisms on the Wisdom of Life",
+        "work_slug": "parerga-and-paralipomena",
+        "count": 3
+      },
+      {
+        "slug": "schopenhauer",
+        "work": "The World as Will and Idea, Volume III (the Supplements)",
+        "work_slug": "the-world-as-will-and-idea-volume-iii",
+        "count": 3
+      },
+      {
+        "slug": "seneca",
+        "work": "On the Happy Life (De Vita Beata)",
+        "work_slug": "on-the-happy-life",
+        "count": 3
+      },
+      {
+        "slug": "nietzsche",
+        "work": "Beyond Good and Evil",
+        "work_slug": "beyond-good-and-evil",
+        "count": 2
+      },
+      {
+        "slug": "nietzsche",
+        "work": "The Gay Science",
+        "work_slug": "the-gay-science",
+        "count": 2
+      },
+      {
+        "slug": "nietzsche",
+        "work": "The Dawn of Day",
+        "work_slug": "the-dawn-of-day",
+        "count": 2
+      },
+      {
+        "slug": "seneca",
+        "work": "On Providence",
+        "work_slug": "on-providence",
+        "count": 2
+      },
+      {
+        "slug": "seneca",
+        "work": "On the Firmness of the Wise Man",
+        "work_slug": "on-the-firmness-of-the-wise-man",
+        "count": 2
+      },
+      {
+        "slug": "seneca",
+        "work": "On Anger",
+        "work_slug": "on-anger",
+        "count": 2
+      },
+      {
+        "slug": "aristotle",
+        "work": "Nicomachean Ethics",
+        "work_slug": "nicomachean-ethics",
+        "count": 1
+      },
+      {
+        "slug": "kant",
+        "work": "Groundwork of the Metaphysics of Morals",
+        "work_slug": "groundwork-of-the-metaphysics-of-morals",
+        "count": 1
+      },
+      {
+        "slug": "kierkegaard",
+        "work": "Training in Christianity",
+        "work_slug": "training-in-christianity",
+        "count": 1
+      },
+      {
+        "slug": "nietzsche",
+        "work": "Human, All Too Human",
+        "work_slug": "human-all-too-human",
+        "count": 1
+      },
+      {
+        "slug": "nietzsche",
+        "work": "The Antichrist",
+        "work_slug": "the-antichrist",
+        "count": 1
+      },
+      {
+        "slug": "schopenhauer",
+        "work": "On the Basis of Morality",
+        "work_slug": "on-the-basis-of-morality",
+        "count": 1
+      },
+      {
+        "slug": "seneca",
+        "work": "Consolation to Marcia",
+        "work_slug": "consolation-to-marcia",
+        "count": 1
+      },
+      {
+        "slug": "seneca",
+        "work": "On Leisure",
+        "work_slug": "on-leisure",
+        "count": 1
+      },
+      {
+        "slug": "seneca",
+        "work": "On the Shortness of Life",
+        "work_slug": "on-the-shortness-of-life",
+        "count": 1
+      },
+      {
+        "slug": "seneca",
+        "work": "Consolation to Helvia",
+        "work_slug": "consolation-to-helvia",
+        "count": 1
+      }
+    ]
+  }
+}

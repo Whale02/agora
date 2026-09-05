@@ -15,11 +15,15 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const DIR = path.join(ROOT, "docs", "data", "passages");
 
 // A work's file name. Titles carry a Chinese name in brackets and sometimes a clause
-// describing the edition; both are cut, because "The Analects (论语), my conversations as my
-// students recorded them" has to become a path segment a reader can read. What is left is
-// lowercased ASCII, and a collision inside one philosopher takes a numeric suffix.
+// describing how the work came down; both are cut, because "The Analects (论语), my
+// conversations as my students recorded them" has to become a path segment a reader can
+// read. A comma that is part of the title is kept, so "Human, All Too Human" does not file
+// itself as "human". What is left is lowercased ASCII, and a collision inside one
+// philosopher takes a numeric suffix.
+const GLOSS = /,\s+(?:my|as|especially|including|published|compiled|set|books|written|translated|with|together)\b.*$/i;
+
 export function workSlug(work, taken = new Set()) {
-  const head = String(work).split(/[(,;:]/)[0];
+  const head = String(work).replace(GLOSS, "").split(/[(;:]/)[0];
   let s = head
     .normalize("NFKD")
     .replace(/\p{M}/gu, "")

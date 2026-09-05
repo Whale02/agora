@@ -472,7 +472,7 @@ function passageCard(x, credit) {
   return `<figure class="passage">
     <blockquote>${esc(trim(x.text, 320))}</blockquote>
     <figcaption>
-      ${esc(x.work)}, ${esc(x.ref)}${credit ? `, translated by ${esc(credit.translator)}, ${credit.year}` : ""}
+      ${esc(shortWork(x.work))}${x.ref ? `, ${esc(x.ref)}` : ""}${credit ? `, translated by ${esc(credit.translator)}, ${credit.year}` : ""}
       ${credit?.source_url ? `<a href="${esc(credit.source_url)}" rel="noopener">source</a>` : ""}
     </figcaption>
   </figure>`;
@@ -648,6 +648,7 @@ async function fillProfileSources(p) {
       "beforeend",
       `<p class="none">Listed, not quoted. The plaza carries no passages from ${esc(p.name_en)}, so the philosophers cite these works without reproducing them.</p>`,
     );
+    await fillRecordOf(p, works);
     return;
   }
   const counted = new Map(m.works.map((w) => [w.work, w.count]));
@@ -678,6 +679,80 @@ async function fillProfileSources(p) {
       const chosen = pickWork(m.works, p.key_topics[0]);
       const file = await workP(p.slug, chosen.file);
       const picked = pickPassages(file.passages, p.key_topics[0], 3);
+      drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit)).join("");
+      drawer.hidden = false;
+      b.textContent = "Close";
+    } catch {
+      b.textContent = "Those pages did not load";
+    } finally {
+      b.disabled = false;
+    }
+  });
+}
+
+// A thinker the plaza cannot quote may still be in the corpus, written about by someone it
+// can. Socrates wrote nothing at all, and what survives of him is Plato's record. The
+// dialogues below and their counts come out of mentions.json, which the manifest build
+// writes by counting the passages that name him; nothing here is typed.
+async function fillRecordOf(p, works) {
+  let mentions;
+  try {
+    mentions = (await load("data/mentions.json")).philosophers[p.slug];
+  } catch {
+    return;
+  }
+  if (!mentions?.length) return;
+
+  const [phils, manifest] = await Promise.all([philosophersP(), manifestP()]);
+  const by = Object.fromEntries(phils.map((x) => [x.slug, x]));
+  const writers = [...new Set(mentions.map((x) => x.slug))];
+  const main_writer = writers
+    .map((slug) => ({ slug, count: mentions.filter((x) => x.slug === slug).reduce((n, x) => n + x.count, 0) }))
+    .sort((a, b) => b.count - a.count)[0];
+  const theirs = mentions.filter((x) => x.slug === main_writer.slug);
+  const rest = mentions.filter((x) => x.slug !== main_writer.slug);
+  const writer = by[main_writer.slug];
+  if (!writer) return;
+
+  works.insertAdjacentHTML(
+    "beforeend",
+    `<div class="record-of">
+      <h3>${esc(writer.name_en)}'s record of ${esc(p.name_en)}</h3>
+      <p>${esc(p.name_en)} wrote nothing. What the plaza can read is ${esc(writer.name_en)} writing about him: ${theirs.length} works in the library name him, in ${commas(main_writer.count)} passages. These are ${esc(writer.name_en)}'s pages, not his.</p>
+      <ul class="of">
+        ${theirs
+          .map(
+            (x) => `<li><a href="#/read/${esc(x.slug)}/${esc(x.work_slug)}">${esc(shortWork(x.work))}</a><span class="rel">${x.count} passages</span></li>`,
+          )
+          .join("")}
+      </ul>
+      ${
+        rest.length
+          ? `<p class="counts">${commas(rest.reduce((n, x) => n + x.count, 0))} more passages name him across ${[...new Set(rest.map((x) => x.slug))].length} other thinkers in the library.</p>`
+          : ""
+      }
+      <button class="btn quiet small" data-record="${esc(p.slug)}">Read what ${esc(writer.name_en)} wrote about him</button>
+      <div class="passages" hidden></div>
+    </div>`,
+  );
+
+  const holder = $(".record-of", works);
+  $("[data-record]", holder).addEventListener("click", async (e) => {
+    const b = e.currentTarget;
+    const drawer = $(".passages", holder);
+    if (!drawer.hidden) {
+      drawer.hidden = true;
+      b.textContent = `Read what ${writer.name_en} wrote about him`;
+      return;
+    }
+    b.textContent = "Fetching the pages…";
+    b.disabled = true;
+    try {
+      const held = manifest.philosophers.find((x) => x.slug === main_writer.slug);
+      const chosen = held.works.find((w) => w.slug === theirs[0].work_slug);
+      const file = await workP(main_writer.slug, chosen.file);
+      const needle = new RegExp("\\b" + p.name_en + "\\b");
+      const picked = file.passages.filter((x) => needle.test(x.text)).slice(0, 3);
       drawer.innerHTML = picked.map((x) => passageCard(x, file.translation_credit)).join("");
       drawer.hidden = false;
       b.textContent = "Close";
@@ -722,6 +797,17 @@ function eraYear(era) {
 
 const commas = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
+// Which library a source url points at. Only the four the sourcing law allows can appear,
+// and a url from anywhere else is named by its host rather than dressed up.
+function sourceName(url) {
+  const host = /^https?:\/\/([^/]+)/.exec(url ?? "")?.[1] ?? "";
+  if (/gutenberg\.org$/.test(host)) return "Project Gutenberg";
+  if (/wikisource\.org$/.test(host)) return "Wikisource";
+  if (/archive\.org$/.test(host)) return "the Internet Archive";
+  if (/ctext\.org$/.test(host)) return "the Chinese Text Project";
+  return host.replace(/^www\./, "");
+}
+
 // How many of the twenty-five the plaza can quote. The sentence that opens the library says
 // it in words, and the number has to come from the manifest rather than from a copy edit.
 const NUMBERS = ["None", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"];
@@ -743,7 +829,7 @@ function shelf(manifest, by) {
 
 // A work title carries its own gloss in philosophers.json for the compiled sources, which
 // reads well in a list of works and badly in a citation.
-const shortWork = (w) => w.replace(/,\s+(?:my|as|especially|including|published|compiled)\b.*$/, "");
+const shortWork = (w) => w.replace(/,\s+(?:my|as|especially|including|published|compiled|set|books|written|recorded|together|with)\b.*$/, "");
 
 const sourcesState = { q: "", who: null, subject: null };
 
@@ -782,6 +868,32 @@ async function renderSources() {
     <p class="tally" role="status"></p>
     <ul class="shelf"></ul>
     <div class="empty" hidden></div>
+    <section class="record">
+      <h2>Where every page came from</h2>
+      <p class="note">One row a work. Nothing here is typed: the count, the translator, the year and the link are read out of the corpus files the plaza serves.</p>
+      <div class="scroller">
+        <table>
+          <thead>
+            <tr><th>Thinker</th><th>Work</th><th>Translator</th><th>Year</th><th>Passages</th><th>Where it came from</th></tr>
+          </thead>
+          <tbody>
+            ${all
+              .map(
+                (w) => `<tr>
+                  <td><a href="#/p/${esc(w.slug)}">${esc(w.phil.name_en)}</a></td>
+                  <td><a href="#/read/${esc(w.slug)}/${esc(w.work_slug)}">${esc(shortWork(w.work))}</a></td>
+                  <td>${w.credit ? esc(w.credit.translator) : "—"}</td>
+                  <td>${w.credit ? w.credit.year : "—"}</td>
+                  <td class="num">${commas(w.count)}</td>
+                  <td>${w.credit ? `<a href="${esc(w.credit.source_url)}" rel="noopener">${esc(sourceName(w.credit.source_url))}</a>` : "—"}</td>
+                </tr>`,
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
     <section class="ages">
       <h2>Where they stand in time</h2>
       <ol>
@@ -855,7 +967,7 @@ function volume(w, idx) {
     <div class="spine">
       <h2>${esc(shortWork(w.work))}</h2>
       <p class="by"><span class="who">${esc(w.phil.name_en)}</span> · <span class="when">${esc(w.phil.era)}</span></p>
-      ${w.credit ? `<p class="credit">translated by ${esc(w.credit.translator)}, ${w.credit.year}</p>` : ""}
+      ${w.credit ? `<p class="credit">translated by ${esc(w.credit.translator)}, ${w.credit.year} · <a href="${esc(w.credit.source_url)}" rel="noopener">${esc(sourceName(w.credit.source_url))}</a></p>` : ""}
       <ul class="topics">${w.topics.slice(0, 5).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
     </div>
     <div class="tallies">

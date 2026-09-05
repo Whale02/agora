@@ -16,6 +16,16 @@ import { corpusSlugs, readIndex, readWork } from "../engine/corpus.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "docs", "data", "passages.json");
+const MENTIONS = path.join(ROOT, "docs", "data", "mentions.json");
+
+// A philosopher who wrote nothing can still be on the page: Socrates is in the dialogues
+// Plato wrote about him. This counts, for every thinker the plaza cannot quote, the
+// passages in the corpus that name them, so a profile can point at the record without
+// anyone typing which dialogues those are.
+const roster = JSON.parse(fs.readFileSync(path.join(ROOT, "docs", "data", "philosophers.json"), "utf8"));
+const held = new Set(corpusSlugs());
+const unquoted = roster.filter((p) => !held.has(p.slug));
+const mentions = Object.fromEntries(unquoted.map((p) => [p.slug, []]));
 
 const philosophers = corpusSlugs().map((slug) => {
   const idx = readIndex(slug);
@@ -35,6 +45,13 @@ const philosophers = corpusSlugs().map((slug) => {
     }
     words += w.words;
     passages += file.passages.length;
+    for (const u of unquoted) {
+      // The whole name, not the surname: "Han" alone is in the Han dynasty and in Han Ch'ing,
+      // and counting those would put Byung-Chul Han in the Analects.
+      const needle = new RegExp("\\b" + u.name_en.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b");
+      const n = file.passages.filter((p) => needle.test(p.text)).length;
+      if (n) mentions[u.slug].push({ slug, work: w.work, work_slug: w.slug, count: n });
+    }
     works.push({
       work: w.work,
       slug: w.slug,
@@ -60,6 +77,17 @@ fs.writeFileSync(
   JSON.stringify({ generated_at: new Date().toISOString(), philosophers }, null, 2) + "\n",
   "utf8",
 );
+for (const k of Object.keys(mentions)) {
+  mentions[k].sort((a, b) => b.count - a.count);
+  if (!mentions[k].length) delete mentions[k];
+}
+fs.writeFileSync(
+  MENTIONS,
+  JSON.stringify({ generated_at: new Date().toISOString(), philosophers: mentions }, null, 2) + "\n",
+  "utf8",
+);
+console.log(`docs/data/mentions.json: ${Object.keys(mentions).length} unquoted thinkers the corpus names`);
+
 const total = philosophers.reduce((n, p) => n + p.passages, 0);
 const shelves = philosophers.reduce((n, p) => n + p.works.length, 0);
 console.log(`docs/data/passages.json: ${philosophers.length} philosophers, ${shelves} works, ${total} passages`);

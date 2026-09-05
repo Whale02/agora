@@ -50,6 +50,16 @@
       "translator": "Cyril Bailey",
       "year": 1926,
       "source_url": "https://archive.org/details/EpicurusTheExtantRemainsBaileyOxford1926_201309"
+    },
+    {
+      "work": "Fragments",
+      "slug": "fragments",
+      "file": "fragments.json",
+      "passages": 21,
+      "words": 2090,
+      "translator": "Cyril Bailey",
+      "year": 1926,
+      "source_url": "https://archive.org/details/EpicurusTheExtantRemainsBaileyOxford1926_201309"
     }
   ]
 }

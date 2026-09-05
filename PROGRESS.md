@@ -252,6 +252,115 @@ alpha wash (5 contrast failures on two routes).
   `node shot.mjs` exit 0 with no horizontal overflow, `node contrast.mjs` exit 0 at 1440 and
   390, `node engine/reindex.mjs` exit 0, both prose gates exit 0.
 
+### F1 to F6. The canon each philosopher was missing
+
+Six slices, six commits, and the shelf goes from 36 works to 72.
+
+**F1. Aristotle, commit 947facb.** Six works, 720 passages, up from two and 280. Metaphysics
+(W. D. Ross, 1908, Wikisource, ten of the fourteen books transcribed there), Rhetoric (John
+Henry Freese, the 1924 Loeb, Wikisource, all three books), Poetics (Ingram Bywater, 1920,
+Gutenberg 6763, whose own title page prints "First Published 1920"), Categories (E. M.
+Edghill, 1928, Gutenberg 2412; the year is the Oxford Works volume I, which the Internet
+Archive catalogues as `worksofaristotle0001emed`, 1928).
+
+- The plan named Roberts for the Rhetoric. Roberts's 1924 Oxford version exists on the
+  Internet Archive only as a page scan whose text is raw OCR; Freese's 1924 Loeb is
+  transcribed against the page images on Wikisource and is the same year, so what ships is
+  wording a person has already checked against the print.
+- Wikisource marks chapter breaks in some books of the Metaphysics and not others. Carrying
+  the last mark forward would have filed passages from Book I chapters III to X under
+  "Chapter II", which is a false citation, so those passages cite the book alone.
+- The Bekker line numbers in the margin are stripped: they are `<span class="wst-verse">`
+  elements the site adds, not the translator's words.
+- `spotcheck.mjs` takes three passages from each work, from the head, the middle and the end,
+  and requires every one to appear word for word in the source it cites. 18 of 18. Negative
+  control: replacing one Poetics passage with a sentence Aristotle never wrote failed it.
+
+**F2. Seneca, commit 9d6d3c9.** Twelve works, 819 passages, up from one and 260.
+
+- The plan pointed at Gutenberg 56075 for Aubrey Stewart. That ebook is Roger L'Estrange's
+  "Seneca's Morals" of 1882, and its own preface calls it an abstract rather than a
+  translation: "whether as a translation or an abstract, was the question". Shipping it would
+  have put a seventeenth-century paraphrase on the site as Seneca's words. Stewart's
+  translation is Gutenberg 64576, and that is what this uses.
+- The volume holds twelve dialogues and all of them are Seneca, so all twelve ship: On
+  Providence, On the Firmness of the Wise Man, On Anger, the three Consolations, On the Happy
+  Life, On Leisure, On Tranquillity of Mind, On the Shortness of Life and On Clemency.
+- 36 of 36 spot-checked passages verbatim in Gutenberg 64576.
+
+**F3. Kant, commit 5aedbc4.** Six works, 788 passages, up from three and 300. Perpetual Peace
+(Mary Campbell Smith, 1903, Gutenberg 50922), Critique of Judgement (J. H. Bernard, the 1914
+edition, Gutenberg 48433), Prolegomena (Paul Carus, 1902, Gutenberg 52821).
+
+- What is Enlightenment? stays listed and unquoted, for copyright and not obscurity. The text
+  Wikisource carries under that title is Lewis White Beck's translation of 1963, which is in
+  copyright however freely it can be read there; Nisbet 1970 and Gregor 1996 are later. The
+  one pre-1930 English rendering, John Richardson's of 1799, survives as a Google scan whose
+  OCR is broken past repair on the pages that matter, and its second volume, which is the one
+  scanned, does not contain the essay at all.
+- 18 of 18 spot-checked passages verbatim.
+
+**F4. Plato, commit 1b6b4c2.** Twenty-three works, 1285 passages, up from eight and 360. The
+eight the plan named first are all here, and so are the Statesman, Cratylus, Charmides,
+Critias, Lysis, Menexenus and Ion, which is the rest of what Jowett translated and Gutenberg
+publishes under his name.
+
+- All of them cut at the same place. Jowett's introduction and analysis run ahead of every
+  dialogue and end at the dramatis personae; the Apology, which has none, starts at Socrates'
+  first line. The Laws keeps its twelve books as references, as the Republic keeps its ten.
+- 69 of 69 spot-checked passages verbatim.
+
+**F5. Epicurus, commit ed4432e.** Five works, 89 passages, up from three and 53.
+
+- The Letter to Pythocles was sitting in the same Wikisource page as the other two letters,
+  in the same Hicks translation of 1925, and had simply not been taken.
+- The Vatican Sayings exist in English only inside Cyril Bailey's Epicurus: The Extant
+  Remains, Oxford 1926, and the only copies of that are page scans. The seven English pages
+  of the Vatican Collection, printed pages 107 to 119, were read off the scan and transcribed
+  by hand, then read back against two independent scans of the same edition by
+  `vatican-check.mjs`: of 1457 five-word windows, 1294 appear verbatim in both scans, 145 in
+  one where the other garbles a letter, 13 are split by a page break, and 5 rest on the page
+  image alone, all five in Saying XXVII where "painfully" is broken across the page break.
+- The two-witness method settled a real question. Saying XVII reads "like a headlong stream
+  But the old man" in the first scan, with no full stop; the second copy of the same edition
+  prints "stream. But", so the stop is in the edition and failed to ink in the first copy.
+- Fourteen sayings printed only as cross-references to the Principal Doctrines are not
+  repeated, and three that Bailey brackets as not Epicurus writing, one of them Metrodorus,
+  are not quoted under his name.
+- The remaining fragments followed, commit pending at the time of the entry above: Bailey's
+  sections B, C and D, printed pages 121 to 139, read off the page images the same way. 83
+  fragments, from the letter he wrote on the day he died to "Live unknown". `fragments-check`
+  found every one corroborated: of 2129 five-word windows, 1942 appear in both scans, 175 in
+  one, 12 are split by a page break, and none rests on the page image alone. Fragments 41,
+  47, 49 and 53 are printed with lacunae and are left out rather than shipped as broken
+  sentences. Epicurus now holds six works and 110 passages.
+
+**F6. Zhu Xi, commit 6988a2e.** Twenty-nine passages from J. Percy Bruce, 1922. Fifteen of the
+twenty-five now hold passages; ten remain listed and unquoted.
+
+- The last run left Zhu Xi out because Bruce's OCR is broken by the interleaved Chinese. The
+  sourcing law's answer to that is to proofread the OCR against the page image, so that is
+  what this did, and not by sampling: printed pages 4 to 12, 157 to 166 and 311 to 317 were
+  opened one at a time and the sections copied off the image. Bruce's footnotes are his own
+  and are left out. A section that runs past the last page read is not included.
+- `zhuxi-check.mjs` reads the transcription back against two independent scans. Of 4117
+  five-word windows, 2963 appear verbatim in both, 881 in one, 237 are split by a page break,
+  and 36 rest on the page image alone, where both scans garble the same romanised name,
+  hyphenation or running head.
+- The library's opening sentence counted to fourteen in prose. It now counts the manifest.
+
+**Across the six.** `node engine/test-retrieve.mjs` exit 0 after every slice: 15 philosophers,
+5657 passages, 72 works, 7.8MB against the plan's 25MB ceiling, heaviest work file 380KB.
+`librarytest.mjs` exit 0 (26 checks), `roomtest.mjs` exit 0 (15), `proftest.mjs` exit 0 (16).
+Two harness checks were rewritten to read the shipped data instead of a number typed in
+August: the library's translator search now counts Jowett's works out of the manifest, and
+the roster's portrait split now reads the PLATES set out of app.mjs, which the founder's
+second portrait commission moved from eight to eighteen.
+
+The overseer's sourcing audit of 2026-09-04 23:20 covers F1 to F4 and is not repeated here:
+69 work files, every credit complete, every year 1855 to 1928, every source on the approved
+list, no shadow-library reference anywhere in the corpus.
+
 ## Copy shipped
 
 (every new user-facing string, for the founder's red pen)

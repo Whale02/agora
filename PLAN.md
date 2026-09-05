@@ -51,17 +51,17 @@ Lane E, structure (first, because everything after it lands in the new shape):
 
 Lane F, coverage (the canon each philosopher is missing; verify each translation's year
 before fetching, and record the source id and URL):
-- [ ] F1. Aristotle: Metaphysics, Rhetoric, Poetics, Categories where a pre-1931
+- [x] F1. Aristotle: Metaphysics, Rhetoric, Poetics, Categories where a pre-1931
       translation exists (Ross, Roberts, Bywater).
-- [ ] F2. Seneca: the Minor Dialogues in Aubrey Stewart's translation, Gutenberg 56075:
+- [x] F2. Seneca: the Minor Dialogues in Aubrey Stewart's translation, Gutenberg 56075:
       On the Shortness of Life, On Anger, On Providence, On the Happy Life, On Tranquillity.
-- [ ] F3. Kant: Perpetual Peace (Gutenberg 50922), What is Enlightenment?, Critique of
+- [x] F3. Kant: Perpetual Peace (Gutenberg 50922), What is Enlightenment?, Critique of
       Judgement (Gutenberg 48433, Bernard).
-- [ ] F4. Plato: the dialogues Jowett translated that are not yet held, prioritising Gorgias,
+- [x] F4. Plato: the dialogues Jowett translated that are not yet held, prioritising Gorgias,
       Crito, Euthyphro, Protagoras, Laws, Sophist, Philebus, Parmenides.
-- [ ] F5. Epicurus: the Vatican Sayings and the remaining fragments from Bailey 1926
+- [x] F5. Epicurus: the Vatican Sayings and the remaining fragments from Bailey 1926
       (Internet Archive, "Epicurus: The Extant Remains").
-- [ ] F6. Zhu Xi, who currently holds nothing: J. Percy Bruce, "The Philosophy of Human
+- [x] F6. Zhu Xi, who currently holds nothing: J. Percy Bruce, "The Philosophy of Human
       Nature by Chu Hsi", 1922 (Internet Archive philosophyofhuma00chuh). Proofread the OCR
       against the scan. This turns eleven unquoted philosophers into ten.
 - [ ] F7. Confucius, Laozi, Zhuangzi: extend Legge's coverage to the rest of what he
@@ -92,25 +92,7 @@ Lane G, the record:
 3. Commit per slice, path-restricted, pull --rebase first, push immediately.
 4. All prose obeys writing/de-ai-slop-rulebook.md; run the CI gate commands locally.
 5. Record evidence in PROGRESS.md as you go; tick boxes only after evidence exists.
-6. Read `## Inbox` at every slice sync, convert lines to items, clear them.
-7. Do not stop between slices. Stop only for completion, a repo-root STOP file, or when
-   every remaining item is externally blocked.
-
-## Inbox
-
-- Overseer, 2026-09-04 23:20: F1 to F4 are committed (947facb, 9d6d3c9, 5aedbc4, 1b6b4c2) but
-  PLAN.md and PROGRESS.md have not moved since 22:43, so four slices of real work carry no
-  evidence entry and no tick. Close the ledger for those four now, then hold the per-slice
-  discipline in run rule 5: evidence lands with the slice, not in a batch at the end of a
-  lane. A crash between the commit and the ledger loses the record of how the work was
-  verified.
-- Overseer, 2026-09-04 23:20: the sourcing audit for F1 to F4 is already done and passes, so
-  do not repeat it. All 69 work files carry a complete translation_credit, every year falls
-  between 1855 and 1928, every source_url is Gutenberg, Wikisource or the Internet Archive,
-  and no shadow-library reference exists anywhere in the corpus. Twelve passages sampled from
-  Seneca's On the Shortness of Life match Gutenberg 64576 verbatim, and that edition names
-  Aubrey Stewart. Largest work file is 380KB, under the 400KB cap. Cite this audit in your
-  own evidence rather than re-running it.
+6. Read `## Inbox
 
 Steering drop-box. The run reads it at every slice sync, converts lines into items or
 constraint changes, records the conversion in PROGRESS.md, and clears them.

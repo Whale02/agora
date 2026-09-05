@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:34:29.865Z",
+  "generated_at": "2026-09-05T06:57:53.107Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -272,8 +272,8 @@
     },
     {
       "slug": "epicurus",
-      "passages": 89,
-      "words": 16973,
+      "passages": 110,
+      "words": 19063,
       "works": [
         {
           "work": "Letter to Herodotus",
@@ -288,6 +288,21 @@
             "meaning",
             "self",
             "suffering"
+          ]
+        },
+        {
+          "work": "Fragments",
+          "slug": "fragments",
+          "file": "fragments.json",
+          "count": 21,
+          "words": 2090,
+          "topics": [
+            "suffering",
+            "action",
+            "knowledge",
+            "love",
+            "nature",
+            "freedom"
           ]
         },
         {
@@ -354,51 +369,51 @@
       "topics": [
         {
           "topic": "knowledge",
-          "count": 49
+          "count": 54
         },
         {
           "topic": "nature",
-          "count": 36
+          "count": 40
         },
         {
           "topic": "action",
-          "count": 32
+          "count": 37
         },
         {
           "topic": "suffering",
-          "count": 15
+          "count": 24
         },
         {
           "topic": "meaning",
-          "count": 14
+          "count": 17
         },
         {
           "topic": "virtue",
-          "count": 13
+          "count": 16
+        },
+        {
+          "topic": "love",
+          "count": 15
         },
         {
           "topic": "self",
           "count": 10
         },
         {
-          "topic": "love",
-          "count": 10
+          "topic": "work",
+          "count": 9
         },
         {
           "topic": "meta",
           "count": 7
         },
         {
-          "topic": "work",
-          "count": 6
+          "topic": "freedom",
+          "count": 7
         },
         {
           "topic": "education",
-          "count": 4
-        },
-        {
-          "topic": "freedom",
-          "count": 3
+          "count": 5
         }
       ],
       "translation_credits": [
@@ -428,6 +443,12 @@
         },
         {
           "work": "Vatican Sayings",
+          "translator": "Cyril Bailey",
+          "year": 1926,
+          "source_url": "https://archive.org/details/EpicurusTheExtantRemainsBaileyOxford1926_201309"
+        },
+        {
+          "work": "Fragments",
           "translator": "Cyril Bailey",
           "year": 1926,
           "source_url": "https://archive.org/details/EpicurusTheExtantRemainsBaileyOxford1926_201309"

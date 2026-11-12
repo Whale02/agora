@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Agora</title>
+  <subtitle>Twenty-five philosophers from twenty-five centuries, arguing every four hours.</subtitle>
+  <link href="https://whale02.github.io/agora/feed.xml" rel="self"/>
+  <link href="https://whale02.github.io/agora" rel="alternate"/>
+  <id>urn:agora:feed</id>
+  <updated>2026-09-05T18:36:00.000Z</updated>
+  <author><name>Agora</name></author>
+  <entry>
+    <title>What's more important: being kind or being honest?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-09-05-kind-or-honest" rel="alternate"/>
+    <id>urn:agora:2026-09-05-kind-or-honest</id>
+    <updated>2026-09-05T18:36:00.000Z</updated>
+    <summary>Kant, Confucius, Nietzsche discuss: Then the table did its work. 君子以文會友，以友輔仁。The noble person meets friends through culture, and by their friendship helps his virtue. That is not a compliment to us. It is a description of what just…</summary>
+    <category term="virtue"/>
+  </entry>
+  <entry>
+    <title>How should you live if you knew you had one year left?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-09-05-one-year-left" rel="alternate"/>
+    <id>urn:agora:2026-09-05-one-year-left</id>
+    <updated>2026-09-05T14:54:00.000Z</updated>
+    <summary>Seneca, Zhuangzi, Camus discuss: Well. The Roman has given up his ledger, the Frenchman has come down from his mountain, and I am left holding the only cheerful position at the table, which is not where I usually find myself. When…</summary>
+    <category term="suffering"/>
+  </entry>
+  <entry>
+    <title>Is ambition a virtue or a disease?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-09-05-ambition-virtue-or-disease" rel="alternate"/>
+    <id>urn:agora:2026-09-05-ambition-virtue-or-disease</id>
+    <updated>2026-09-05T11:45:00.000Z</updated>
+    <summary>Nietzsche, Laozi, Charlie Munger discuss: That's the most useful thing anyone's said here, and it came from the man I'd have bet against. So the three of us end up in nearly the same place by different roads, which almost never happens and…</summary>
+    <category term="work"/>
+  </entry>
+  <entry>
+    <title>Is there such a thing as objective morality?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-09-05-objective-morality" rel="alternate"/>
+    <id>urn:agora:2026-09-05-objective-morality</id>
+    <updated>2026-09-05T09:55:00.000Z</updated>
+    <summary>Kant, Nietzsche, Confucius discuss: That is a fair blow and I take it. A shame that cannot be questioned is only obedience wearing better clothes, and I have said elsewhere that when the ruler errs, the servant remonstrates, wearing…</summary>
+    <category term="knowledge"/>
+  </entry>
+  <entry>
+    <title>Are you the same person you were ten years ago?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-29-same-person-ten-years" rel="alternate"/>
+    <id>urn:agora:2026-08-29-same-person-ten-years</id>
+    <updated>2026-08-29T15:49:00Z</updated>
+    <summary>Kierkegaard, Simone de Beauvoir, Zhu Xi, Wang Yangming discuss: Owed to be addressed as a self, yes, but owed bread and contraception and literacy in the same breath, Søren, or the address is a courtesy paid to a prisoner. Spirit proves itself in despair; freedom…</summary>
+    <category term="self"/>
+  </entry>
+  <entry>
+    <title>Should you follow rules you disagree with?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-29-rules-you-disagree-with" rel="alternate"/>
+    <id>urn:agora:2026-08-29-rules-you-disagree-with</id>
+    <updated>2026-08-29T08:44:00Z</updated>
+    <summary>Kant, Nassim Taleb, Confucius discuss: The lynch mob, professor, is a fair strike; I'll absorb it properly rather than dance. Skin in the game is necessary, not sufficient; I have written exactly that, and the mob shows why: exposure…</summary>
+    <category term="freedom"/>
+  </entry>
+  <entry>
+    <title>Is it better to know a painful truth or believe a comforting lie?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-28-painful-truth-comforting-lie" rel="alternate"/>
+    <id>urn:agora:2026-08-28-painful-truth-comforting-lie</id>
+    <updated>2026-08-28T22:20:00Z</updated>
+    <summary>Socrates, Camus, Laozi discuss: The mother, yes. You both bring her forward like a spear, and I will not pretend she is not sharp. But watch her, actually watch her, at the bedside. Does she spend the night arguing with heaven,…</summary>
+    <category term="knowledge"/>
+  </entry>
+  <entry>
+    <title>Is social media making us more connected or more alone?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-28-social-media-connected-or-alone" rel="alternate"/>
+    <id>urn:agora:2026-08-28-social-media-connected-or-alone</id>
+    <updated>2026-08-28T11:47:00Z</updated>
+    <summary>Byung-Chul Han, Hannah Arendt, Wittgenstein discuss: Storms pass; so did the salons, the town meetings, the councils that I loved and that kept reappearing in every revolution from 1776 to 1956, always improvised, always surprising the theorists. I…</summary>
+    <category term="technology"/>
+  </entry>
+  <entry>
+    <title>Should you optimize for money or for time?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-27-money-or-time" rel="alternate"/>
+    <id>urn:agora:2026-08-27-money-or-time</id>
+    <updated>2026-08-27T19:02:00Z</updated>
+    <summary>Seneca, Charlie Munger, Aristotle discuss: Declare the number in advance, with witnesses. That's a good trick; I'd add it to the checklist. Though I'll note with some amusement that I didn't stop, I just changed what I was compounding:…</summary>
+    <category term="work"/>
+  </entry>
+  <entry>
+    <title>Is suffering necessary for growth?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-27-suffering-necessary-for-growth" rel="alternate"/>
+    <id>urn:agora:2026-08-27-suffering-necessary-for-growth</id>
+    <updated>2026-08-27T09:39:00Z</updated>
+    <summary>Nietzsche, Epicurus, Simone Weil discuss: Epicurus is right that the exit changes everything, and Friedrich is right that I make of affliction something he cannot accept; I will not soften either point to end pleasantly. But I refuse his…</summary>
+    <category term="suffering"/>
+  </entry>
+  <entry>
+    <title>Is love a choice or something that happens to you?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-26-love-choice-or-happening" rel="alternate"/>
+    <id>urn:agora:2026-08-26-love-choice-or-happening</id>
+    <updated>2026-08-26T20:41:00Z</updated>
+    <summary>Erich Fromm, Schopenhauer, Plato discuss: And yet, Arthur, you chose your sentence carefully just now, as you always do, which is a strange performance for a man who believes no one steers. Even your compassion, look at it: two sufferers…</summary>
+    <category term="love"/>
+  </entry>
+  <entry>
+    <title>Is it possible to find meaning in work, or is that a modern delusion?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-08-26-meaning-in-work" rel="alternate"/>
+    <id>urn:agora:2026-08-26-meaning-in-work</id>
+    <updated>2026-08-26T14:52:00Z</updated>
+    <summary>Zhuangzi, Naval Ravikant, Marcus Aurelius discuss: An honest admission, and I will match it: duty can also be a hiding place. There were mornings in the German camps when the work of a human being was simply the only argument that got me off the cot,…</summary>
+    <category term="work"/>
+  </entry>
+</feed>

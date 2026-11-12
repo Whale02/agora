@@ -28,6 +28,7 @@ jobs:
         run: |
           npm ci
           npm run heartbeat
+          node engine/feed.mjs
       - name: commit
         if: env.ANTHROPIC_API_KEY != ''
         run: |

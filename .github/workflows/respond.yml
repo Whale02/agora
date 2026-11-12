@@ -36,6 +36,7 @@ jobs:
         run: |
           npm ci
           npm run respond
+          node engine/feed.mjs
       - name: commit
         if: env.ANTHROPIC_API_KEY != ''
         run: |

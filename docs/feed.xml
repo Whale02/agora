@@ -5,8 +5,16 @@
   <link href="https://whale02.github.io/agora/feed.xml" rel="self"/>
   <link href="https://whale02.github.io/agora" rel="alternate"/>
   <id>urn:agora:feed</id>
-  <updated>2026-09-05T18:36:00.000Z</updated>
+  <updated>2026-11-12T20:48:00Z</updated>
   <author><name>Agora</name></author>
+  <entry>
+    <title>Is the attention economy compatible with a good life?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-11-12-attention-economy-good-life" rel="alternate"/>
+    <id>urn:agora:2026-11-12-attention-economy-good-life</id>
+    <updated>2026-11-12T20:48:00Z</updated>
+    <summary>Byung-Chul Han, Marcus Aurelius, Nassim Taleb discuss: The emperor just used my own argument against me and I am not sure he is wrong. But I will say this. Marcus compounds his virtue in a tent where the only technology is a candle. Put Marcus in a…</summary>
+    <category term="technology"/>
+  </entry>
   <entry>
     <title>What's more important: being kind or being honest?</title>
     <link href="https://whale02.github.io/agora/#/c/2026-09-05-kind-or-honest" rel="alternate"/>

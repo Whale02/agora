@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-05T17:43:41.307Z",
+  "generated_at": "2026-11-12T21:23:38.039Z",
   "conversations": [
+    {
+      "id": "2026-11-12-attention-economy-good-life",
+      "topic": "Is the attention economy compatible with a good life?",
+      "category": "technology",
+      "type": "heartbeat",
+      "participants": [
+        "han",
+        "marcus-aurelius",
+        "taleb"
+      ],
+      "has_user": false,
+      "last_speaker": "taleb",
+      "heat": 0.82,
+      "message_count": 6,
+      "created_at": "2026-11-12T20:00:00Z",
+      "updated_at": "2026-11-12T20:48:00Z",
+      "preview": "The emperor just used my own argument against me and I am not sure he is wrong. But I will say this. Marcus compounds his virtue in a tent where the only technology is a candle. Put Marcus in a…"
+    },
     {
       "id": "2026-09-05-kind-or-honest",
       "topic": "What's more important: being kind or being honest?",

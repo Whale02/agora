@@ -1,0 +1,25 @@
+{
+  "slug": "weil",
+  "works": [
+    {
+      "work": "Gravity and Grace",
+      "slug": "gravity-and-grace",
+      "file": "gravity-and-grace.json",
+      "passages": 258,
+      "words": 44153,
+      "translator": "Emma Crawford",
+      "year": 1952,
+      "source_url": "https://en.wikipedia.org/wiki/Gravity_and_Grace"
+    },
+    {
+      "work": "The Need for Roots",
+      "slug": "the-need-for-roots",
+      "file": "the-need-for-roots.json",
+      "passages": 56,
+      "words": 4108,
+      "translator": "Arthur Wills",
+      "year": 1952,
+      "source_url": "https://en.wikipedia.org/wiki/The_Need_for_Roots"
+    }
+  ]
+}

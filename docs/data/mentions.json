@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:24:26.959Z",
+  "generated_at": "2026-11-14T16:00:30.750Z",
   "philosophers": {
     "socrates": [
       {
@@ -312,6 +312,12 @@
         "slug": "seneca",
         "work": "Consolation to Helvia",
         "work_slug": "consolation-to-helvia",
+        "count": 1
+      },
+      {
+        "slug": "weil",
+        "work": "Gravity and Grace",
+        "work_slug": "gravity-and-grace",
         "count": 1
       }
     ]

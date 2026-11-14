@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:24:26.953Z",
+  "generated_at": "2026-11-14T16:00:30.744Z",
   "philosophers": [
     {
       "slug": "aristotle",
@@ -2627,6 +2627,103 @@
           "year": 1916,
           "source_url": "https://archive.org/details/philosophyofwang00wanguoft",
           "note": "This translation survives as a page scan and nothing else. Where its reading of a word is plainly damaged the word is read off two other copies of the same 1916 printing, and taken where those copies agree on what it says: 19 words in the whole book."
+        }
+      ]
+    },
+    {
+      "slug": "weil",
+      "passages": 314,
+      "words": 48261,
+      "works": [
+        {
+          "work": "Gravity and Grace",
+          "slug": "gravity-and-grace",
+          "file": "gravity-and-grace.json",
+          "count": 258,
+          "words": 44153,
+          "topics": [
+            "self",
+            "meta",
+            "virtue",
+            "knowledge",
+            "meaning",
+            "action"
+          ]
+        },
+        {
+          "work": "The Need for Roots",
+          "slug": "the-need-for-roots",
+          "file": "the-need-for-roots.json",
+          "count": 56,
+          "words": 4108,
+          "topics": [
+            "meaning",
+            "knowledge",
+            "freedom",
+            "virtue",
+            "work",
+            "suffering"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "topic": "self",
+          "count": 144
+        },
+        {
+          "topic": "meaning",
+          "count": 130
+        },
+        {
+          "topic": "virtue",
+          "count": 129
+        },
+        {
+          "topic": "knowledge",
+          "count": 128
+        },
+        {
+          "topic": "meta",
+          "count": 125
+        },
+        {
+          "topic": "action",
+          "count": 99
+        },
+        {
+          "topic": "love",
+          "count": 97
+        },
+        {
+          "topic": "freedom",
+          "count": 97
+        },
+        {
+          "topic": "suffering",
+          "count": 94
+        },
+        {
+          "topic": "work",
+          "count": 59
+        },
+        {
+          "topic": "death",
+          "count": 29
+        }
+      ],
+      "translation_credits": [
+        {
+          "work": "Gravity and Grace",
+          "translator": "Emma Crawford",
+          "year": 1952,
+          "source_url": "https://en.wikipedia.org/wiki/Gravity_and_Grace"
+        },
+        {
+          "work": "The Need for Roots",
+          "translator": "Arthur Wills",
+          "year": 1952,
+          "source_url": "https://en.wikipedia.org/wiki/The_Need_for_Roots"
         }
       ]
     },

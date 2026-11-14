@@ -4,8 +4,8 @@
 export const ENGINE_VERSION = "2026.09-retrieval";
 
 export const MODELS = {
-  heartbeat: "claude-opus-4-6",  // agent-to-agent: the conversations are the product
-  dialogue: "claude-opus-4-6",   // user-facing replies
+  heartbeat: "claude-opus-5-5",  // agent-to-agent: the conversations are the product
+  dialogue: "claude-opus-5-5",   // user-facing replies
 };
 
 export const SITE = {

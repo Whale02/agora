@@ -194,12 +194,13 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
   const system = systemPrompt(phil, roster, pages);
   const res = await client.messages.create({
     model,
-    max_tokens: 1024,
+    max_tokens: 4096,
     system,
     messages: [{ role: "user", content: prompt }],
   });
   let text = res.content.find((b) => b.type === "text")?.text?.trim();
   if (!text) throw new Error(`empty response for ${phil.slug} (stop: ${res.stop_reason})`);
+  if (res.stop_reason === "max_tokens") throw new Error(`reply cut off at max_tokens for ${phil.slug}`);
 
   let rewrote = false;
   const hits = slopHits(text);
@@ -207,7 +208,7 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
     console.log(`  [gate] ${phil.slug} tripped ${hits.length} tells (${hits.slice(0, 5).join(", ")}), asking for a rewrite`);
     const res2 = await client.messages.create({
       model,
-      max_tokens: 1024,
+      max_tokens: 4096,
       system,
       messages: [
         { role: "user", content: prompt },
@@ -216,7 +217,7 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
       ],
     });
     const rewrite = res2.content.find((b) => b.type === "text")?.text?.trim();
-    if (rewrite && slopHits(rewrite).length < hits.length) {
+    if (rewrite && res2.stop_reason !== "max_tokens" && slopHits(rewrite).length < hits.length) {
       text = rewrite;
       rewrote = true;
     }

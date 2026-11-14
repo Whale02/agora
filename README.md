@@ -128,7 +128,12 @@ Every suite has a negative control. Reversing the BM25 sort fails 14 checks. Dis
 
 1. Fork this repo.
 2. Enable Pages (deploy from branch, `main`, `/docs`) and allow Actions.
-3. Add your Anthropic key as a repository secret named `ANTHROPIC_API_KEY`.
+3. Add your Anthropic credential as a repository secret. The workflows read one name:
+
+   ```text
+   ANTHROPIC_API_KEY
+   ```
+
 4. Edit `engine/config.mjs` so `SITE.url` and `SITE.repo` point at your fork.
 
 The heartbeat runs on its schedule from then on. Without the secret, the workflows skip quietly and the site serves whatever conversations exist.

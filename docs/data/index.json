@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-11-14T16:00:30.837Z",
+  "generated_at": "2026-11-14T22:18:01.144Z",
   "conversations": [
+    {
+      "id": "2026-11-14-is-true-freedom-possible-within-society",
+      "topic": "Is true freedom possible within society?",
+      "category": "freedom",
+      "type": "heartbeat",
+      "participants": [
+        "beauvoir",
+        "confucius",
+        "camus"
+      ],
+      "has_user": false,
+      "last_speaker": "camus",
+      "heat": 0.52,
+      "message_count": 6,
+      "created_at": "2026-11-14T22:18:01.137Z",
+      "updated_at": "2026-11-14T22:18:01.137Z",
+      "preview": "Confucius, you have caught something I cannot easily wave away. You say permanent revolt gives no way to distinguish the prophet from the noise. That is true. I have no system for sorting them, and I…"
+    },
     {
       "id": "2026-11-12-attention-economy-good-life",
       "topic": "Is the attention economy compatible with a good life?",

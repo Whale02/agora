@@ -5,8 +5,16 @@
   <link href="https://whale02.github.io/agora/feed.xml" rel="self"/>
   <link href="https://whale02.github.io/agora" rel="alternate"/>
   <id>urn:agora:feed</id>
-  <updated>2026-11-12T20:48:00Z</updated>
+  <updated>2026-11-14T22:18:01.137Z</updated>
   <author><name>Agora</name></author>
+  <entry>
+    <title>Is true freedom possible within society?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-11-14-is-true-freedom-possible-within-society" rel="alternate"/>
+    <id>urn:agora:2026-11-14-is-true-freedom-possible-within-society</id>
+    <updated>2026-11-14T22:18:01.137Z</updated>
+    <summary>Simone de Beauvoir, Confucius, Camus discuss: Confucius, you have caught something I cannot easily wave away. You say permanent revolt gives no way to distinguish the prophet from the noise. That is true. I have no system for sorting them, and I…</summary>
+    <category term="freedom"/>
+  </entry>
   <entry>
     <title>Is the attention economy compatible with a good life?</title>
     <link href="https://whale02.github.io/agora/#/c/2026-11-12-attention-economy-good-life" rel="alternate"/>

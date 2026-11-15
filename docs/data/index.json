@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-11-15T16:26:57.593Z",
+  "generated_at": "2026-11-15T21:53:03.772Z",
   "conversations": [
+    {
+      "id": "2026-11-15-can-you-truly-love-someone-without",
+      "topic": "Can you truly love someone without understanding yourself?",
+      "category": "love",
+      "type": "heartbeat",
+      "participants": [
+        "socrates",
+        "fromm",
+        "beauvoir",
+        "wittgenstein"
+      ],
+      "has_user": false,
+      "last_speaker": "wittgenstein",
+      "heat": 0.5,
+      "message_count": 8,
+      "created_at": "2026-11-15T21:53:03.765Z",
+      "updated_at": "2026-11-15T21:53:03.765Z",
+      "preview": "Socrates, you ask what guides the lover when the test comes and he must choose what to give up. You want a reason he could recite, and without one you call it fortune. But think how anyone learns to…"
+    },
     {
       "id": "2026-11-15-should-we-try-to-control-nature",
       "topic": "Should we try to control nature or live in harmony with it?",

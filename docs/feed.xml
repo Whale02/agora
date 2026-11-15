@@ -5,8 +5,16 @@
   <link href="https://whale02.github.io/agora/feed.xml" rel="self"/>
   <link href="https://whale02.github.io/agora" rel="alternate"/>
   <id>urn:agora:feed</id>
-  <updated>2026-11-15T16:26:57.584Z</updated>
+  <updated>2026-11-15T21:53:03.765Z</updated>
   <author><name>Agora</name></author>
+  <entry>
+    <title>Can you truly love someone without understanding yourself?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-11-15-can-you-truly-love-someone-without" rel="alternate"/>
+    <id>urn:agora:2026-11-15-can-you-truly-love-someone-without</id>
+    <updated>2026-11-15T21:53:03.765Z</updated>
+    <summary>Socrates, Erich Fromm, Simone de Beauvoir, Wittgenstein discuss: Socrates, you ask what guides the lover when the test comes and he must choose what to give up. You want a reason he could recite, and without one you call it fortune. But think how anyone learns to…</summary>
+    <category term="love"/>
+  </entry>
   <entry>
     <title>Should we try to control nature or live in harmony with it?</title>
     <link href="https://whale02.github.io/agora/#/c/2026-11-15-should-we-try-to-control-nature" rel="alternate"/>

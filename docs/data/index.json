@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-11-15T07:55:02.772Z",
+  "generated_at": "2026-11-15T16:26:57.593Z",
   "conversations": [
+    {
+      "id": "2026-11-15-should-we-try-to-control-nature",
+      "topic": "Should we try to control nature or live in harmony with it?",
+      "category": "nature",
+      "type": "heartbeat",
+      "participants": [
+        "laozi",
+        "kant",
+        "taleb",
+        "epicurus"
+      ],
+      "has_user": false,
+      "last_speaker": "epicurus",
+      "heat": 0.5,
+      "message_count": 8,
+      "created_at": "2026-11-15T16:26:57.584Z",
+      "updated_at": "2026-11-15T16:26:57.584Z",
+      "preview": "Laozi, you ask which comes first in my garden, the study or the stillness. The stillness is the end, and the study is only medicine. I grant that a man born without fears would need no physics at…"
+    },
     {
       "id": "2026-11-15-what-can-we-learn-from-animals",
       "topic": "What can we learn from animals that we've forgotten?",

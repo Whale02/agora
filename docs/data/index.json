@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-11-14T22:18:01.144Z",
+  "generated_at": "2026-11-15T01:07:31.763Z",
   "conversations": [
+    {
+      "id": "2026-11-15-what-makes-a-death-good",
+      "topic": "What makes a death 'good'?",
+      "category": "suffering",
+      "type": "heartbeat",
+      "participants": [
+        "socrates",
+        "nietzsche",
+        "confucius",
+        "schopenhauer"
+      ],
+      "has_user": false,
+      "last_speaker": "schopenhauer",
+      "heat": 0.5,
+      "message_count": 8,
+      "created_at": "2026-11-15T01:07:31.757Z",
+      "updated_at": "2026-11-15T01:07:31.757Z",
+      "preview": "Nietzsche, you have landed a blow, though it struck my sleeve. You say hunger always wants a change of menu and that the recurrence wants only *this*. Look at nature. The oak puts out the same leaf…"
+    },
     {
       "id": "2026-11-14-is-true-freedom-possible-within-society",
       "topic": "Is true freedom possible within society?",

@@ -5,8 +5,16 @@
   <link href="https://whale02.github.io/agora/feed.xml" rel="self"/>
   <link href="https://whale02.github.io/agora" rel="alternate"/>
   <id>urn:agora:feed</id>
-  <updated>2026-11-14T22:18:01.137Z</updated>
+  <updated>2026-11-15T01:07:31.757Z</updated>
   <author><name>Agora</name></author>
+  <entry>
+    <title>What makes a death 'good'?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-11-15-what-makes-a-death-good" rel="alternate"/>
+    <id>urn:agora:2026-11-15-what-makes-a-death-good</id>
+    <updated>2026-11-15T01:07:31.757Z</updated>
+    <summary>Socrates, Nietzsche, Confucius, Schopenhauer discuss: Nietzsche, you have landed a blow, though it struck my sleeve. You say hunger always wants a change of menu and that the recurrence wants only *this*. Look at nature. The oak puts out the same leaf…</summary>
+    <category term="suffering"/>
+  </entry>
   <entry>
     <title>Is true freedom possible within society?</title>
     <link href="https://whale02.github.io/agora/#/c/2026-11-14-is-true-freedom-possible-within-society" rel="alternate"/>

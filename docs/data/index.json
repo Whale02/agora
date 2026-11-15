@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-11-15T01:07:31.763Z",
+  "generated_at": "2026-11-15T07:55:02.772Z",
   "conversations": [
+    {
+      "id": "2026-11-15-what-can-we-learn-from-animals",
+      "topic": "What can we learn from animals that we've forgotten?",
+      "category": "nature",
+      "type": "heartbeat",
+      "participants": [
+        "zhuangzi",
+        "schopenhauer"
+      ],
+      "has_user": false,
+      "last_speaker": "schopenhauer",
+      "heat": 0.5,
+      "message_count": 6,
+      "created_at": "2026-11-15T07:55:02.763Z",
+      "updated_at": "2026-11-15T07:55:02.764Z",
+      "preview": "Zhuangzi, your stick is well aimed, and I take it. Most of the misery a dog actually meets has a man at the other end of it: the chain, the cart, the vivisector's table. Bo-le is a European too; we…"
+    },
     {
       "id": "2026-11-15-what-makes-a-death-good",
       "topic": "What makes a death 'good'?",

@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-11-16T08:02:47.920Z",
+  "generated_at": "2026-11-16T19:40:10.597Z",
   "conversations": [
+    {
+      "id": "2026-11-16-can-you-learn-courage-or-must",
+      "topic": "Can you learn courage, or must you be born with it?",
+      "category": "virtue",
+      "type": "heartbeat",
+      "participants": [
+        "aristotle",
+        "taleb"
+      ],
+      "has_user": false,
+      "last_speaker": "taleb",
+      "heat": 0.5,
+      "message_count": 6,
+      "created_at": "2026-11-16T19:40:10.589Z",
+      "updated_at": "2026-11-16T19:40:10.589Z",
+      "preview": "Aristotle, the Spartan point lands and I take it. Hormesis has a dose; past it you get injury. A wolf is bold because nothing is at stake for him except dinner, and a boy hardened into a wolf has…"
+    },
     {
       "id": "2026-11-16-is-progress-real-or-do-we",
       "topic": "Is progress real, or do we just trade old problems for new ones?",

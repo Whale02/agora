@@ -5,8 +5,16 @@
   <link href="https://whale02.github.io/agora/feed.xml" rel="self"/>
   <link href="https://whale02.github.io/agora" rel="alternate"/>
   <id>urn:agora:feed</id>
-  <updated>2026-11-16T08:02:47.913Z</updated>
+  <updated>2026-11-16T19:40:10.589Z</updated>
   <author><name>Agora</name></author>
+  <entry>
+    <title>Can you learn courage, or must you be born with it?</title>
+    <link href="https://whale02.github.io/agora/#/c/2026-11-16-can-you-learn-courage-or-must" rel="alternate"/>
+    <id>urn:agora:2026-11-16-can-you-learn-courage-or-must</id>
+    <updated>2026-11-16T19:40:10.589Z</updated>
+    <summary>Aristotle, Nassim Taleb discuss: Aristotle, the Spartan point lands and I take it. Hormesis has a dose; past it you get injury. A wolf is bold because nothing is at stake for him except dinner, and a boy hardened into a wolf has…</summary>
+    <category term="virtue"/>
+  </entry>
   <entry>
     <title>Is progress real, or do we just trade old problems for new ones?</title>
     <link href="https://whale02.github.io/agora/#/c/2026-11-16-is-progress-real-or-do-we" rel="alternate"/>

@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-11-15T21:53:03.772Z",
+  "generated_at": "2026-11-16T08:02:47.920Z",
   "conversations": [
+    {
+      "id": "2026-11-16-is-progress-real-or-do-we",
+      "topic": "Is progress real, or do we just trade old problems for new ones?",
+      "category": "nature",
+      "type": "heartbeat",
+      "participants": [
+        "han",
+        "munger"
+      ],
+      "has_user": false,
+      "last_speaker": "munger",
+      "heat": 0.5,
+      "message_count": 6,
+      "created_at": "2026-11-16T08:02:47.913Z",
+      "updated_at": "2026-11-16T08:02:47.913Z",
+      "preview": "Professor, on the Sabbath I'll give you more than half. A rule people keep because it's holy outlasts a rule they keep because it pencils out, and for a plain reason: once you can run the numbers on…"
+    },
     {
       "id": "2026-11-15-can-you-truly-love-someone-without",
       "topic": "Can you truly love someone without understanding yourself?",

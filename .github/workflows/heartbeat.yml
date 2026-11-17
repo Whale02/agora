@@ -1,8 +1,14 @@
 name: heartbeat
+# Paid generation is opt-in. Claude Code publishes new conversations through
+# the repository skill without charging the separate Anthropic API account.
 on:
-  schedule:
-    - cron: "17 1,5,9,13,17,21 * * *" # every 4 hours
   workflow_dispatch:
+    inputs:
+      confirm_paid_api:
+        description: "Run billable Anthropic API generation for one conversation"
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: write
@@ -12,7 +18,7 @@ concurrency:
 
 jobs:
   heartbeat:
-    if: github.repository == 'Whale02/agora'
+    if: github.repository == 'Whale02/agora' && inputs.confirm_paid_api == true
     runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

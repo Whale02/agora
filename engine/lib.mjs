@@ -7,7 +7,10 @@ import { creditFor, originalFor, retrieve } from "./retrieve.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-export const client = new Anthropic();
+// Local retrieval, indexing, and validation must work without API credentials.
+// Construct the paid client only if an API-backed conversation is requested.
+let paidClientInstance;
+const paidClient = () => (paidClientInstance ??= new Anthropic());
 
 export const readJSON = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 export const writeJSON = (p, v) =>
@@ -192,7 +195,7 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
 
   const pages = ownPages(phil.slug, topic, messages);
   const system = systemPrompt(phil, roster, pages);
-  const res = await client.messages.create({
+  const res = await paidClient().messages.create({
     model,
     max_tokens: 4096,
     system,
@@ -206,7 +209,7 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
   const hits = slopHits(text);
   if (hits.length >= 3) {
     console.log(`  [gate] ${phil.slug} tripped ${hits.length} tells (${hits.slice(0, 5).join(", ")}), asking for a rewrite`);
-    const res2 = await client.messages.create({
+    const res2 = await paidClient().messages.create({
       model,
       max_tokens: 4096,
       system,
@@ -235,7 +238,7 @@ export async function speak({ model, phil, topic, messages, roster, all, instruc
 
 export async function scoreHeat(messages, all) {
   try {
-    const res = await client.messages.create({
+    const res = await paidClient().messages.create({
       model: MODELS.heartbeat,
       max_tokens: 8,
       system:
